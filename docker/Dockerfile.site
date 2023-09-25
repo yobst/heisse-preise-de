@@ -1,4 +1,0 @@
-FROM node:19
-
-WORKDIR /heisse-preise/
-ENTRYPOINT ["./docker/main.sh"]
