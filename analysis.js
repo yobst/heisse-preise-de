@@ -286,6 +286,7 @@ exports.updateData = async function (dataDir, done) {
     for (const store of STORE_KEYS) {
         storeFetchPromises.push(
             new Promise(async (resolve) => {
+                console.log(`Started fetching data for ${store}`);
                 const start = performance.now();
                 try {
                     const rawDataFile = `${dataDir}/${store}-${today}.json`;

@@ -1,4 +1,9 @@
-exports.categories = [];
+exports.categories = [
+    {
+        name: "Unbekannt",
+        subcategories: [/*A0*/ "Unbekannt"],
+    },
+];
 
 exports.categories.forEach((category, index) => (category.index = index));
 
@@ -18,27 +23,4 @@ exports.fromCategoryCode = (code) => {
     ];
 };
 
-exports.isValidCode = (code) => {
-    const [i, j] = exports.fromCategoryCode(code);
-    if (i < 0 || i >= exports.categories.length) return false;
-    const category = exports.categories[i];
-    if (j < 0 || j >= exports.categories.subcategories) return false;
-    return true;
-};
-
-exports.getCategory = (code) => {
-    const [i, j] = exports.fromCategoryCode(code);
-    return [exports.categories[i], exports.categories[i].subcategories[j]];
-};
-
 exports.UNKNOWN_CATEGORY = exports.toCategoryCode(exports.categories.length - 1, 0);
-
-if (require.main === module) {
-    const code = exports.toCategoryCode(10, 1);
-    console.log(code);
-    const [i, j] = exports.fromCategoryCode("A1");
-    console.log(i + ", " + j);
-    console.log(exports.isValidCode("F1"));
-    console.log(exports.isValidCode("11"));
-    console.log(exports.getCategory("A1"));
-}

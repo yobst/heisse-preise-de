@@ -108,9 +108,6 @@ function setupLogging() {
     bundle.bundle("site", outputDir, liveReload);
 
     if (!skipDataUpdate) {
-        analysis.migrateCompression(dataDir, ".json", ".json.br");
-        analysis.migrateCompression(dataDir, ".json.gz", ".json.br");
-
         if (fs.existsSync(`${dataDir}/latest-canonical.json.${analysis.FILE_COMPRESSOR}`)) {
             copyItemsToSite(dataDir);
             analysis.updateData(dataDir, (_newItems) => {
