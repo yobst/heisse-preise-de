@@ -343,29 +343,6 @@ exports.updateData = async function (dataDir, done) {
     return items;
 };
 
-exports.migrateCompression = (dataDir, fromSuffix, toSuffix, remove = true) => {
-    console.log(`Migrating ${fromSuffix} data to ${toSuffix}`);
-    let fileCompressor = toSuffix == ".json" ? false : toSuffix.replace(".json.", "");
-    const files = fs
-        .readdirSync(dataDir)
-        .filter(
-            (file) => (file.startsWith("latest-canonical") || STORE_KEYS.some((store) => file.startsWith(`${store}-`))) && file.endsWith(fromSuffix)
-        );
-    for (const file of files) {
-        const fromPath = `${dataDir}/${file}`;
-        const toPath = fromPath.substring(0, fromPath.length - fromSuffix.length) + toSuffix;
-        console.log(`${fromPath} -> ${toPath}`);
-        const data = readJSON(fromPath);
-        writeJSON(toPath.substring(0, toPath.lastIndexOf(".json") + 5), data, fileCompressor);
-    }
-    if (remove) {
-        for (const file of files) {
-            const path = `${dataDir}/${file}`;
-            fs.unlinkSync(path);
-        }
-    }
-};
-
 exports.dedupItems = (items) => {
     const lookup = {};
     const dedupItems = [];
