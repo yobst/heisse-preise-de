@@ -1,37 +1,6 @@
 const fs = require("fs");
 const path = require("path");
 
-exports.mergeAndSaveCategories = (store, categories) => {
-    const mappingFile = path.join(__dirname, `${store}-categories.json`);
-    if (fs.existsSync(mappingFile)) {
-        const oldMapping = JSON.parse(fs.readFileSync(mappingFile));
-        const oldLookup = {};
-        for (const category of oldMapping) {
-            oldLookup[category.id] = category;
-        }
-
-        for (const category of categories) {
-            const oldCategory = oldLookup[category.id];
-            if (oldCategory == null) {
-                console.log(`Found new unmapped category for ${store}: ${category.id} - ${category.description}`);
-            } else {
-                category.code = oldCategory.code;
-                delete oldLookup[category.id];
-            }
-        }
-
-        if (Object.keys(oldLookup).length > 0) {
-            for (const key in oldLookup) {
-                const category = oldLookup[key];
-                console.log(`Found category absent in latest mapping for ${store}: ${category.id} - ${category.description}`);
-                categories.push(category);
-            }
-        }
-    }
-    fs.writeFileSync(mappingFile, JSON.stringify(categories, null, 2));
-    return categories;
-};
-
 exports.globalUnits = {
     "stk.": { unit: "stk", factor: 1 },
     blatt: { unit: "stk", factor: 1 },
@@ -104,15 +73,4 @@ exports.parseUnitAndQuantityAtEnd = function (name) {
         return [quantity, unit.toLowerCase()];
     }
     return [undefined, undefined];
-};
-
-exports.showHeap = () => {
-    setInterval(() => {
-        const mu = process.memoryUsage();
-        // # bytes / KB / MB / GB
-        const gbNow = mu["heapUsed"] / 1024 / 1024 / 1024;
-        const gbRounded = Math.round(gbNow * 100) / 100;
-
-        console.log(`Heap allocated ${gbRounded} GB`);
-    }, 5000);
 };
