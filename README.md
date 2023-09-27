@@ -4,11 +4,18 @@ This is a template project for anyone wanting to create a grocery price tracking
 
 The project was initially created to [track prices in Austria](https://heisse-preise.io). This fork is a bare bones version of that Austria specific project, with one example store integration.
 
+## Forks per country
+
+-   [Austria](https://heisse-preise.io), the original price tracker.
+
 ## Adding a store
+
 TBD
 
 ## Development
+
 TBD
 
 ## Deployment
+
 TBD

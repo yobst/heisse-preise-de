@@ -1,0 +1,11 @@
+{
+    "compilerOptions": {
+        "target": "ES6",
+        "module": "CommonJS",
+        "strict": true,
+        "lib": ["es2018", "dom"],
+        "esModuleInterop": true,
+        "experimentalDecorators": true,
+        "skipLibCheck": true // stupid video.js
+    }
+}
