@@ -25,6 +25,13 @@ interface Messages {
     "Quantity descending": string;
     "Store & name": string;
     "Name similarity": string;
+    "No data selected": string;
+    "Price sum": string;
+    "Price sum per store": string;
+    "Today's prices only": string;
+    "Percentage change": string;
+    "Price sum for store": (store: string) => string;
+    "% change since": (since: string) => string;
 }
 
 const english: Messages = {
@@ -54,6 +61,13 @@ const english: Messages = {
     "Quantity descending": "Quantity descending",
     "Store & name": "Store & name",
     "Name similarity": "Name similarity",
+    "No data selected": "No data selected",
+    "Price sum": "Price sum",
+    "Price sum per store": "Price sum per store",
+    "Today's prices only": "Today's prices only",
+    "Percentage change": "Change as %",
+    "Price sum for store": (store: string) => "Price sum " + store,
+    "% change since": (since: string) => "% change since " + since,
 };
 
 const german: Messages = {
@@ -83,6 +97,13 @@ const german: Messages = {
     "Quantity descending": "Menge absteigend",
     "Store & name": "Kette & Name",
     "Name similarity": "Namesähnlickeit",
+    "No data selected": "Keine Daten ausgewählt",
+    "Price sum": "Preissumme",
+    "Price sum per store": "Preissumme pro Kette",
+    "Today's prices only": "Nur heutige Preise",
+    "Percentage change": "Änderungen in %",
+    "Price sum for store": (store: string) => "Preissumme " + store,
+    "% change since": (since: string) => "% Änderung seit " + since,
 };
 
 export type LanguageCode = "en" | "de";

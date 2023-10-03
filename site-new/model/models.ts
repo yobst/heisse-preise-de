@@ -17,6 +17,7 @@ export class Item {
     public vector?: Record<string, number>;
     public tokens?: string[];
     public sorted = false;
+    public chart = false;
 
     constructor(
         public store: string,

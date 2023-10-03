@@ -1,5 +1,5 @@
 import { TemplateResult, render } from "lit-html";
-import { Item } from "./model/models";
+import { Item, Price } from "./model/models";
 import { BUDGET_BRANDS, stores } from "./model/stores";
 
 export function deltaTime(start: number) {
@@ -86,4 +86,80 @@ export function itemsToCSV(items: Item[]) {
         }
     }
     return result;
+}
+
+export function today() {
+    const currentDate = new Date();
+    const year = currentDate.getFullYear();
+    const month = String(currentDate.getMonth() + 1).padStart(2, "0");
+    const day = String(currentDate.getDate()).padStart(2, "0");
+    return `${year}-${month}-${day}`;
+}
+
+export function uniqueDates(items: Item[], startDate: string, endDate: string) {
+    const allDates = items.flatMap((item) =>
+        item.priceHistory.filter((price) => price.date >= startDate && price.date <= endDate).map((item) => item.date)
+    );
+    const uniqueDates = new Set(allDates);
+    uniqueDates.add(startDate);
+    uniqueDates.add(endDate);
+    const uniqueDatesList = [...uniqueDates];
+    uniqueDatesList.sort();
+    return uniqueDatesList;
+}
+
+export function calculateItemPriceTimeSeries(
+    item: Item,
+    unitPrice: boolean,
+    percentageChange: boolean,
+    startDate: string,
+    uniqueDates: string[]
+): number[] {
+    const getPrice = unitPrice ? (p: Price) => p.unitPrice : (p: Price) => p.price;
+
+    const priceScratch = new Array<number | null>(uniqueDates.length);
+    priceScratch.fill(null);
+    const priceHistoryLookup = new Map<String, Price>();
+
+    let startPrice: number | null = null;
+    item.priceHistory.forEach((price) => {
+        priceHistoryLookup.set(price.date, price);
+        if (!startPrice && price.date <= startDate) {
+            startPrice = getPrice(price);
+        }
+    });
+
+    if (startPrice == null) {
+        const firstPrice = item.priceHistory[item.priceHistory.length - 1];
+        startPrice = getPrice(firstPrice);
+    }
+    for (let i = 0; i < uniqueDates.length; i++) {
+        const priceObj = priceHistoryLookup.get(uniqueDates[i]);
+        priceScratch[i] = priceObj ? getPrice(priceObj) : null;
+    }
+
+    for (let i = 0; i < priceScratch.length; i++) {
+        if (priceScratch[i] == null) {
+            priceScratch[i] = startPrice;
+        } else {
+            startPrice = priceScratch[i];
+        }
+    }
+
+    if (priceScratch.some((price) => price == null)) {
+        return [];
+    }
+
+    if (percentageChange) {
+        const firstPrice = priceScratch.find((price) => price != 0);
+        if (firstPrice == 0) return [];
+        for (let i = 0; i < priceScratch.length; i++) {
+            priceScratch[i] = ((priceScratch[i]! - firstPrice!) / firstPrice!) * 100;
+        }
+    }
+
+    if (priceScratch.some((price) => isNaN(price!))) {
+        return [];
+    }
+    return priceScratch as number[];
 }

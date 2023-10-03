@@ -29,3 +29,30 @@ export class Checkbox extends LitElement {
         this.dispatchEvent(new Event("change", { bubbles: true, composed: true }));
     }
 }
+
+@customElement("hp-icon-checkbox")
+export class IconCheckbox extends LitElement {
+    static styles = [globalStyles];
+
+    @property()
+    checked = false;
+
+    @property()
+    bgColor: "red" | "yellow" | "green" | "purple" | "pink" | "rose" | "orange" | "blue" | "teal" | "stone" | "emerald" | "indigo" = "stone";
+
+    render() {
+        return html`
+            <div
+                class="flex ${this.checked ? "bg-blue-400" : "bg-gray-200"} items-center justify-center cursor-pointer"
+                @click="${this.toggleChecked}"
+            >
+                <slot></slot>
+            </div>
+        `;
+    }
+
+    toggleChecked() {
+        this.checked = !this.checked;
+        this.dispatchEvent(new Event("change", { bubbles: true, composed: true }));
+    }
+}

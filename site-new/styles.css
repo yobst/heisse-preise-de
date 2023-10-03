@@ -13,11 +13,11 @@
     }
 
     .red {
-        @apply bg-red-400;
+        background: red;
     }
 
     .green {
-        @apply bg-green-400;
+        background: #00cc00;
     }
 
     .color-red {

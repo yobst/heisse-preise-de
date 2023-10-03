@@ -5,3 +5,4 @@ export * from "./items-filter";
 export * from "./menu";
 export * from "./progress-bar";
 export * from "./items-list";
+export * from "./chart";
