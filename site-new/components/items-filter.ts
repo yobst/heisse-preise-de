@@ -71,9 +71,9 @@ export class ItemsFilter extends LitElement {
                               <hp-checkbox id="organicOnly" @change="${this.filter}" class="text-sm">${i18n("Organic only")}</hp-checkbox>
                               <div class="rounded-full border bg-white px-2 py-1 text-sm flex-wrap">
                                   <span>${i18n("Price") + " " + i18n("currency symbol")}</span>
-                                  <input @input="${this.filter}" id="minPrice" type="number" min="0" max="10000" value="0" />
+                                  <input @input="${this.filter}" class="text-center" id="minPrice" type="number" min="0" max="10000" value="0" />
                                   <span>-</span>
-                                  <input @input="${this.filter}" id="maxPrice" type="number" min="0" max="10000" value="1000" />
+                                  <input @input="${this.filter}" class="text-center" id="maxPrice" type="number" min="0" max="10000" value="100" />
                               </div>
                           </div>`
                     : this.sqlError

@@ -1,5 +1,6 @@
 import { LitElement, html, nothing, render } from "lit";
-import { customElement, property, query } from "lit/decorators.js";
+import { customElement, property, query, state } from "lit/decorators.js";
+import { map } from "lit-html/directives/map.js";
 import { globalStyles } from "../styles";
 import { i18n } from "../i18n";
 import { Item } from "../model/models";
@@ -25,15 +26,23 @@ export class ItemsList extends LitElement {
     @query("#sortType")
     sortTypeElement?: HTMLSelectElement;
 
+    @query("#chevron")
+    chevronElement?: HTMLSpanElement;
+
     tableBody?: HTMLElement;
 
+    pricesExpanded = false;
+
     protected render() {
+        this.pricesExpanded = false;
         if (!this.items || this.items.length == 0) return nothing;
         this.tableBody = dom(html`<table class="w-full max-w-[100%]">
             <thead class="bg-primary text-white border border-primary">
                 <th class="text-center uppercase">${i18n("Store")}</th>
                 <th class="uppercase">${i18n("Name")}</th>
-                <th class="text-left pl-2 uppercase">${i18n("Price")}</th>
+                <th class="text-left pl-2 uppercase cursor-pointer" @click=${() => this.togglePriceHistories()}>
+                    ${i18n("Price")} <span id="chevron">${this.pricesExpanded ? "▲" : "▼"}</span>
+                </th>
                 <th></th>
             </thead>
             <tbody id="table"></tbody>
@@ -42,12 +51,12 @@ export class ItemsList extends LitElement {
         const result = html` <div class="flex flex-col w-full max-w-[1024px] mx-auto">
             <div class="flex flex-col md:flex-row justify-between items-center bg-[#E7E5E4] rounded-t-xl border p-2 text-sm gap-2">
                 <div class="flex flex-col md:flex-row gap-2 items-center">
-                    <div class="flex gap-2">
+                    <div class="flex items-center gap-2">
                         <div>${this.items.length} ${i18n("Results")}</div>
                         <span class="text-primary font-bold cursor-pointer" @click=${() => this.download("JSON")}>JSON</span>
                         <span class="text-primary font-bold cursor-pointer" @click=${() => this.download("CSV")}>CSV</span>
+                        <hp-checkbox>${i18n("Chart")}</hp-checkbox>
                     </div>
-                    <hp-checkbox>${i18n("Chart")}</hp-checkbox>
                     <div>
                         <label
                             ><input type="radio" id="salesPrice" name="priceType" checked @change=${() => this.requestUpdate()} /> ${i18n(
@@ -67,7 +76,7 @@ export class ItemsList extends LitElement {
                         <option value="quantity-asc">${i18n("Quantity ascending")}</option>
                         <option value="quantity-desc">${i18n("Quantity descending")}</option>
                         <option value="store-and-name">${i18n("Store & name")}</option>
-                        <option value="similarity" ${this.items.length > 500 ? "disabled" : ""}>${i18n("Name similarity")}</option>
+                        <option value="similarity" ?disabled=${this.items.length > 500}>${i18n("Name similarity")}</option>
                     </select>
                 </label>
             </div>
@@ -78,6 +87,23 @@ export class ItemsList extends LitElement {
         renderItems(this.items, 0, this.highlights, this.salesPriceElement?.checked ?? true, this.tableBody);
 
         return result;
+    }
+
+    togglePriceHistories() {
+        const chevron = this.chevronElement!;
+        this.pricesExpanded = !this.pricesExpanded;
+        chevron.innerText = this.pricesExpanded ? "▲" : "▼";
+        const itemDoms = this.tableBody?.querySelectorAll("tr.border")!;
+        for (const itemDom of Array.from(itemDoms)) {
+            const chevron = itemDom.querySelector("#chevron") as HTMLElement;
+            if (!chevron) continue;
+            chevron.innerText = this.pricesExpanded ? "▲" : "▼";
+            if (this.pricesExpanded) {
+                itemDom.querySelector("#priceHistory")?.classList.remove("hidden");
+            } else {
+                itemDom.querySelector("#priceHistory")?.classList.add("hidden");
+            }
+        }
     }
 
     download(type: "CSV" | "JSON") {
@@ -144,23 +170,79 @@ function itemPartial(item: Item, highlights: string[], salesPrice: boolean) {
         else priceUnit = "stk";
     }
 
-    return dom(html`<tr class="border color-${store.color}">
-        <td class="text-center">${store.name}</td>
+    const showPriceHistory = (show: boolean) => {
+        const chevron = itemDom.querySelector("#chevron") as HTMLElement;
+        if (!chevron) return;
+        chevron.innerText = show ? "▲" : "▼";
+        if (show) {
+            itemDom.querySelector("#priceHistory")?.classList.remove("hidden");
+        } else {
+            itemDom.querySelector("#priceHistory")?.classList.add("hidden");
+        }
+    };
+
+    const togglePriceHistory = () => {
+        const show = (itemDom.querySelector("#chevron") as HTMLElement)!.innerText != "▲";
+        showPriceHistory(show);
+    };
+
+    const maxWidth = 190;
+    const maxPrice = item.priceHistory.reduce((max, current) => (current.price > max.price ? current : max), item.priceHistory[0]);
+    const priceChanges: { price: number; unitPrice: number; date: string; change: number; width: number }[] = item.priceHistory
+        .reverse()
+        .map((price, index) => {
+            const width = Math.ceil((price.price / maxPrice.price) * 100);
+            if (index == 0) return { ...price, change: 0, width };
+            const lastPrice = item.priceHistory[index - 1].price;
+            return { ...price, change: ((price.price - lastPrice) / lastPrice) * 100, width };
+        })
+        .reverse();
+
+    const itemDom = dom(html`<tr class="border color-${store.color} max-w-[100%]">
+        <td class="py-1 text-center uppercase font-medium align-top">${store.name}</td>
         <td class="py-0 h-[0px] align-top">
-            <div class="flex px-2 py-1 h-full bg-white">
+            <div class="flex flex-col px-2 py-1 h-full bg-white">
+            <div class="flex whitespace-normal">
                 <a href="${store.getUrl(item)}" target="_blank" class="hover:underline">${unsafeHTML(highlightMatches(highlights, item.name))}</a
-                ><span class="text-xs ml-auto pl-2" style="white-space: nowrap;">${(item.isWeighted ? "⚖ " : "") + quantity + " " + unit}</span>
+                ><span class="text-xs ml-auto pl-2 my-auto" style="white-space: nowrap;">${
+                    (item.isWeighted ? "⚖ " : "") + quantity + " " + unit
+                }</span>
             </div>
+            <div>
+                <table id="priceHistory" class="hidden">
+                    ${map(
+                        priceChanges,
+                        (priceChange) => html`
+                        <tr class="text-xs">
+                                <td>${priceChange.date}</td>
+                                <td>
+                                <div class="px-1 ${priceChange.change <= 0 ? "green" : "red"}" style="width: ${priceChange.width}px;">
+                                    ${priceChange.price}
+                                </div>
+                                </td>
+                                <td>${priceChange.change >= 0 ? "+" : ""}${priceChange.change.toFixed(0)}%</td>
+                            </div>
+                        </tr>
+                        `
+                    )}
+                </table>
+            </div>
+            <div>
         </td>
-        <td class="text-left pl-2 cursor-pointer">
+        <td class="py-1 text-left pl-2 cursor-pointer align-top" @click=${() => togglePriceHistory()}>
             ${i18n("currency symbol")} ${salesPrice ? item.price.toFixed(2) : item.unitPrice.toFixed(2) + " / " + priceUnit}
-            ${typeof percentageChange != "string"
-                ? html`<span style="color: ${percentageChange > 0 ? "red" : "green"}">${percentageChange > 0 ? "+" : ""}${percentageChange}%</span>`
-                : nothing}
-            ${item.priceHistory.length > 1 ? `(${item.priceHistory.length - 1})` : ""}
+            ${
+                typeof percentageChange != "string"
+                    ? html`<span style="color: ${percentageChange > 0 ? "red" : "green"}"
+                          >${percentageChange > 0 ? "+" : ""}${percentageChange}%</span
+                      >`
+                    : nothing
+            }
+            ${item.priceHistory.length > 1 ? html`(${item.priceHistory.length - 1}) <span id="chevron" class="text-sm">▼</span>` : ""}
         </td>
         <td></td>
     </tr>`)[0];
+    return itemDom;
 }
 
 function highlightMatches(keywords: string[], name: string) {

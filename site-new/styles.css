@@ -12,6 +12,14 @@
         display: none;
     }
 
+    .red {
+        @apply bg-red-400;
+    }
+
+    .green {
+        @apply bg-green-400;
+    }
+
     .color-red {
         @apply bg-red-200;
         @apply border-red-400;
@@ -76,6 +84,16 @@
         @apply bg-indigo-200;
         @apply border-indigo-300;
         @apply hover:bg-indigo-300;
+    }
+
+    input[type="number"]::-webkit-inner-spin-button,
+    input[type="number"]::-webkit-outer-spin-button,
+    input[type="number"]::-webkit-clear-button {
+        display: none;
+    }
+
+    input[type="number"] {
+        -moz-appearance: textfield; /* Firefox, some versions of Opera */
     }
 }
 

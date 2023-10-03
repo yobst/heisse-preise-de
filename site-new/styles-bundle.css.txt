@@ -432,6 +432,16 @@ html,
   display: none;
 }
 
+.red {
+  --tw-bg-opacity: 1;
+  background-color: rgb(248 113 113 / var(--tw-bg-opacity));
+}
+
+.green {
+  --tw-bg-opacity: 1;
+  background-color: rgb(74 222 128 / var(--tw-bg-opacity));
+}
+
 .color-red {
   --tw-bg-opacity: 1;
   background-color: rgb(254 202 202 / var(--tw-bg-opacity));
@@ -580,6 +590,17 @@ html,
 .color-indigo:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(165 180 252 / var(--tw-bg-opacity));
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+    input[type="number"]::-webkit-outer-spin-button,
+    input[type="number"]::-webkit-clear-button {
+  display: none;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+  /* Firefox, some versions of Opera */
 }
 
 *, ::before, ::after {
@@ -813,6 +834,11 @@ main {
   margin-bottom: 2rem;
 }
 
+.my-auto {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
 .mb-0 {
   margin-bottom: 0px;
 }
@@ -893,20 +919,16 @@ main {
   height: 0.5em;
 }
 
+.h-\[0px\] {
+  height: 0px;
+}
+
 .h-\[calc\(50vh\)\] {
   height: calc(50vh);
 }
 
 .h-full {
   height: 100%;
-}
-
-.h-\[100\%\] {
-  height: 100%;
-}
-
-.h-\[0px\] {
-  height: 0px;
 }
 
 .min-h-\[8px\] {
@@ -957,6 +979,10 @@ main {
   max-width: 72rem;
 }
 
+.max-w-\[100\%\] {
+  max-width: 100%;
+}
+
 .max-w-\[1024px\] {
   max-width: 1024px;
 }
@@ -969,12 +995,16 @@ main {
   max-width: 32rem;
 }
 
-.max-w-\[100\%\] {
-  max-width: 100%;
-}
-
 .flex-1 {
   flex: 1 1 0%;
+}
+
+.flex-shrink {
+  flex-shrink: 1;
+}
+
+.flex-shrink-0 {
+  flex-shrink: 0;
 }
 
 .flex-grow {
@@ -983,6 +1013,10 @@ main {
 
 .grow {
   flex-grow: 1;
+}
+
+.grow-0 {
+  flex-grow: 0;
 }
 
 .border-collapse {
@@ -1052,6 +1086,10 @@ main {
 
 .overflow-hidden {
   overflow: hidden;
+}
+
+.whitespace-normal {
+  white-space: normal;
 }
 
 .whitespace-nowrap {
@@ -1259,6 +1297,10 @@ main {
   padding-bottom: 0.5rem;
 }
 
+.pl-2 {
+  padding-left: 0.5rem;
+}
+
 .pt-2 {
   padding-top: 0.5rem;
 }
@@ -1269,10 +1311,6 @@ main {
 
 .pt-8 {
   padding-top: 2rem;
-}
-
-.pl-2 {
-  padding-left: 0.5rem;
 }
 
 .text-left {
