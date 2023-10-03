@@ -72,7 +72,9 @@ export class ItemsList extends LitElement {
                         <div>${this.items.length} ${i18n("Results")}</div>
                         <span class="text-primary font-bold cursor-pointer" @click=${() => this.download("JSON")}>JSON</span>
                         <span class="text-primary font-bold cursor-pointer" @click=${() => this.download("CSV")}>CSV</span>
-                        <hp-checkbox id="showChart" @change=${() => this.itemsChart?.classList.toggle("hidden")}>${i18n("Chart")}</hp-checkbox>
+                        <hp-checkbox id="showChart" class="text-xs" @change=${() => this.itemsChart?.classList.toggle("hidden")}
+                            >${i18n("Chart")}</hp-checkbox
+                        >
                     </div>
                     <div>
                         <label
@@ -266,7 +268,7 @@ export class ItemsList extends LitElement {
         </td>
         ${
             this.enableItemChart
-                ? html`<td class="align-top">
+                ? html`<td class="align-top px-2 py-2">
                       <hp-icon-checkbox
                           @change=${(event: Event) => {
                               if (!this.showChart?.checked) {

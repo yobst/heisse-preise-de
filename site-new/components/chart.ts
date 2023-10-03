@@ -1,5 +1,5 @@
 import { LitElement, PropertyValueMap, css, html, nothing } from "lit";
-import { customElement, property, query } from "lit/decorators.js";
+import { customElement, property, query, state } from "lit/decorators.js";
 import { globalStyles } from "../styles";
 import { Item, Price } from "../model/models";
 import { i18n } from "../i18n";
@@ -20,6 +20,9 @@ export class ItemsChart extends LitElement {
 
     @property()
     unitPrice = false;
+
+    @state()
+    sticky = false;
 
     @query("#canvas")
     canvas?: HTMLCanvasElement;
@@ -195,9 +198,9 @@ export class ItemsChart extends LitElement {
     }
 
     render() {
-        const result = html`<div class="px-4 pb-4 bg-[#E7E5E4]">
+        const result = html`<div class="px-4 pb-4 bg-[#E7E5E4] ${this.sticky ? "sticky top-0" : ""}">
             <div class="w-full grow">
-                <canvas id="canvas" class="bg-white rounded-lg min-h-[50vh]"></canvas>
+                <canvas id="canvas" class="bg-white rounded-lg min-h-[40vh]"></canvas>
             </div>
             <div class="flex items-center flex-wrap justify-center text-xs gap-2 pt-2">
                 <hp-checkbox id="priceSum" @change=${() => this.requestUpdate()} .checked="true">${i18n("Price sum")}</hp-checkbox>
@@ -211,9 +214,17 @@ export class ItemsChart extends LitElement {
                     -
                     <input id="endDate" type="date" value="${today()}" @change=${() => this.requestUpdate()} />
                 </div>
+                <hp-icon-checkbox @change=${() => (this.sticky = !this.sticky)}>📌</hp-icon-checkbox>
             </div>
         </div>`;
 
+        if (this.sticky) {
+            this.classList.add("sticky");
+            this.classList.add("top-0");
+        } else {
+            this.classList.remove("sticky");
+            this.classList.remove("top-0");
+        }
         return result;
     }
 }

@@ -54,7 +54,7 @@ export class ItemsFilter extends LitElement {
             <div class="bg-[#E7E5E4] rounded-xl border p-4 flex flex-col gap-2 w-full max-w-[800px]">
                 <input @input="${this.filter}" id="query" class="w-full rounded-full px-4 py-1" placeholder="${i18n("search placeholder")}" />
                 ${!this.isAlaSQLQuery
-                    ? html` <div class="flex justify-center gap-2 flex-wrap text-sm">
+                    ? html` <div class="flex justify-center gap-2 flex-wrap text-xs">
                               <hp-checkbox @change="${this.toggleAllStores}" checked="true">${i18n("All")}</hp-checkbox>
                               ${map(
                                   STORE_KEYS,
@@ -64,12 +64,10 @@ export class ItemsFilter extends LitElement {
                                       >`
                               )}
                           </div>
-                          <div class="flex justify-center gap-2 flex-wrap">
-                              <hp-checkbox id="discountBrandsOnly" @change="${this.filter}" class="text-sm"
-                                  >${i18n("Discount store brands only")}</hp-checkbox
-                              >
-                              <hp-checkbox id="organicOnly" @change="${this.filter}" class="text-sm">${i18n("Organic only")}</hp-checkbox>
-                              <div class="rounded-full border bg-white px-2 py-1 text-sm flex-wrap">
+                          <div class="flex justify-center gap-2 flex-wrap text-xs">
+                              <hp-checkbox id="discountBrandsOnly" @change="${this.filter}">${i18n("Discount store brands only")}</hp-checkbox>
+                              <hp-checkbox id="organicOnly" @change="${this.filter}">${i18n("Organic only")}</hp-checkbox>
+                              <div class="rounded-full border bg-white px-2 py-1 flex-wrap">
                                   <span>${i18n("Price") + " " + i18n("currency symbol")}</span>
                                   <input @input="${this.filter}" class="text-center" id="minPrice" type="number" min="0" max="10000" value="0" />
                                   <span>-</span>

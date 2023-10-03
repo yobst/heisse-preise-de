@@ -43,7 +43,7 @@ export class IconCheckbox extends LitElement {
     render() {
         return html`
             <div
-                class="flex ${this.checked ? "bg-blue-400" : "bg-gray-200"} items-center justify-center cursor-pointer"
+                class="w-4 h-4 flex ${this.checked ? "outline outline-blue-400" : "outline-gray-200"} items-center justify-center cursor-pointer"
                 @click="${this.toggleChecked}"
             >
                 <slot></slot>
