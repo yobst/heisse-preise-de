@@ -163,3 +163,30 @@ export function calculateItemPriceTimeSeries(
     }
     return priceScratch as number[];
 }
+
+export function setQueryParam(key: string, value: string): void {
+    const url = new URL(window.location.href);
+    url.searchParams.set(key, value);
+    window.history.replaceState({}, "", url.toString());
+}
+
+export function getQueryParam(key: string): string | null {
+    const url = new URL(window.location.href);
+    return url.searchParams.get(key);
+}
+
+export function copyCurrentURLToClipboard(): void {
+    const url = window.location.href;
+    const textArea = document.createElement("textarea");
+    textArea.value = url;
+    document.body.appendChild(textArea);
+    textArea.select();
+    document.execCommand("copy");
+    document.body.removeChild(textArea);
+}
+
+export interface StatefulElement<T> {
+    getState(): T;
+    setState(state: T): void;
+    stateChanged: (state: T) => void;
+}

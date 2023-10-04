@@ -6,14 +6,25 @@ import { i18n } from "../i18n";
 import { Item } from "../model/models";
 import { unsafeHTML } from "lit/directives/unsafe-html.js";
 import { stores } from "../model/stores";
-import { dom, downloadFile, downloadJSON, itemsToCSV, onVisibleOnce } from "../utils";
+import { StatefulElement, dom, downloadFile, downloadJSON, itemsToCSV, onVisibleOnce } from "../utils";
 import { similaritySortItems, vectorizeItems } from "../knn";
 import "./checkbox";
-import { ItemsChart } from "./chart";
+import { ItemsChart, ItemsChartState } from "./chart";
 import { Checkbox, IconCheckbox } from "./checkbox";
 
+type SortType = "price-asc" | "price-desc" | "quantity-asc" | "quantity-desc" | "store-and-name" | "similar";
+
+export class ItemsListState {
+    constructor(
+        public readonly salesPrice: boolean,
+        public readonly sortType: SortType,
+        public readonly chartState: ItemsChartState,
+        public readonly itemsToChart: string[]
+    ) {}
+}
+
 @customElement("hp-items-list")
-export class ItemsList extends LitElement {
+export class ItemsList extends LitElement implements StatefulElement<ItemsListState> {
     static styles = [globalStyles];
 
     @property()
@@ -21,6 +32,9 @@ export class ItemsList extends LitElement {
 
     @property()
     items: Item[] = [];
+
+    @property()
+    stateChanged: (state: ItemsListState) => void = () => {};
 
     @property()
     highlights: string[] = [];
@@ -46,8 +60,27 @@ export class ItemsList extends LitElement {
 
     protected updated(_changedProperties: PropertyValueMap<any> | Map<PropertyKey, unknown>): void {
         if (_changedProperties.has("items")) {
-            this.itemsChart!.items = [...this.items];
+            if (this.itemsChart) {
+                this.itemsChart!.items = [...this.items];
+            }
         }
+    }
+
+    getState() {
+        return new ItemsListState(
+            this.salesPriceElement?.checked ?? true,
+            (this.sortTypeElement?.value as SortType) ?? "price-asc",
+            this.itemsChart!.getState(),
+            this.items
+                .filter((item) => item.chart)
+                .map((item) => {
+                    return item.uniqueId;
+                })
+        );
+    }
+
+    setState(state: ItemsListState) {
+        // FIXME
     }
 
     protected render() {
@@ -72,24 +105,53 @@ export class ItemsList extends LitElement {
                         <div>${this.items.length} ${i18n("Results")}</div>
                         <span class="text-primary font-bold cursor-pointer" @click=${() => this.download("JSON")}>JSON</span>
                         <span class="text-primary font-bold cursor-pointer" @click=${() => this.download("CSV")}>CSV</span>
-                        <hp-checkbox id="showChart" class="text-xs" @change=${() => this.itemsChart?.classList.toggle("hidden")}
+                        <hp-checkbox
+                            id="showChart"
+                            class="text-xs"
+                            @change=${() => {
+                                this.itemsChart?.classList.toggle("hidden");
+                                this.stateChanged(this.getState());
+                            }}
                             >${i18n("Chart")}</hp-checkbox
                         >
                     </div>
                     <div>
                         <label
-                            ><input type="radio" id="salesPrice" name="priceType" checked @change=${() => this.requestUpdate()} /> ${i18n(
-                                "Sales price"
-                            )}</label
+                            ><input
+                                type="radio"
+                                id="salesPrice"
+                                name="priceType"
+                                checked
+                                @change=${() => {
+                                    this.requestUpdate();
+                                    this.stateChanged(this.getState());
+                                }}
+                            />
+                            ${i18n("Sales price")}</label
                         >
                         <label
-                            ><input type="radio" id="unitPrice" name="priceType" @change=${() => this.requestUpdate()} /> ${i18n("Unit price")}</label
+                            ><input
+                                type="radio"
+                                id="unitPrice"
+                                name="priceType"
+                                @change=${() => {
+                                    this.requestUpdate();
+                                    this.stateChanged(this.getState());
+                                }}
+                            />
+                            ${i18n("Unit price")}</label
                         >
                     </div>
                 </div>
                 <label
                     >${i18n("Sort by")}
-                    <select id="sortType" @change=${() => this.requestUpdate()}>
+                    <select
+                        id="sortType"
+                        @change=${() => {
+                            this.requestUpdate();
+                            this.stateChanged(this.getState());
+                        }}
+                    >
                         <option value="price-asc">${i18n("Price ascending")}</option>
                         <option value="price-desc">${i18n("Price descending")}</option>
                         <option value="quantity-asc">${i18n("Quantity ascending")}</option>
@@ -99,7 +161,7 @@ export class ItemsList extends LitElement {
                     </select>
                 </label>
             </div>
-            <hp-chart id="chart" class="hidden"> </hp-chart>
+            <hp-chart id="chart" class="hidden" .stateChanged=${() => this.stateChanged(this.getState())}> </hp-chart>
             ${this.tableBody}
         </div>`;
 
@@ -277,7 +339,9 @@ export class ItemsList extends LitElement {
                               }
                               item.chart = (event.target as IconCheckbox).checked;
                               this.itemsChart!.items = [...this.itemsChart!.items];
+                              this.stateChanged(this.getState());
                           }}
+                          .checked=${item.chart}
                           >📈</hp-icon-checkbox
                       >
                   </td>`
@@ -298,7 +362,7 @@ export class ItemsList extends LitElement {
         return highlightedName;
     }
 
-    sort(items: Item[], sortType: "price-asc" | "price-desc" | "quantity-asc" | "quantity-desc" | "store-and-name" | "similar", salesPrice: boolean) {
+    sort(items: Item[], sortType: SortType, salesPrice: boolean) {
         if (sortType == "price-asc") {
             if (salesPrice) items.sort((a, b) => a.price - b.price);
             else items.sort((a, b) => a.unitPrice - b.unitPrice);

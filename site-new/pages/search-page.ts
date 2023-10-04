@@ -5,7 +5,8 @@ import { i18n } from "../i18n";
 import { loadItems } from "../model/items";
 import { globalStyles } from "../styles";
 import { Item } from "../model/models";
-import { ProgressBar } from "../components";
+import { ItemsFilter, ItemsList, ProgressBar } from "../components";
+import { copyCurrentURLToClipboard, setQueryParam } from "../utils";
 
 @customElement("hp-search-page")
 export class SearchPage extends LitElement {
@@ -13,6 +14,12 @@ export class SearchPage extends LitElement {
 
     @query("#progress-bar")
     progressBar?: ProgressBar;
+
+    @query("#itemsFilter")
+    itemsFilter?: ItemsFilter;
+
+    @query("#itemsList")
+    itemsList?: ItemsList;
 
     @state()
     items?: Item[];
@@ -22,6 +29,9 @@ export class SearchPage extends LitElement {
 
     @state()
     filteredItems?: Item[];
+
+    @state()
+    linkCopied = false;
 
     queryTokens: string[] = [];
 
@@ -55,15 +65,26 @@ export class SearchPage extends LitElement {
                       </div>`
                     : nothing}
                 ${this.items && this.lookup
-                    ? html`<hp-items-filter
-                          class="w-full flex flex-col items-center"
-                          .itemsChanged=${this.filter.bind(this)}
-                          .items=${this.items}
-                          .lookup=${this.lookup}
-                      ></hp-items-filter>`
+                    ? html` <a class="text-center text-xl font-bold cursor-pointer text-primary" @click=${() => this.shareLink()}
+                              >${i18n("Share link")} ${this.linkCopied ? html`<span id="copied">${i18n("(Copied)")}</span>` : ""}</a
+                          >
+                          <hp-items-filter
+                              id="itemsFilter"
+                              class="w-full flex flex-col items-center"
+                              .itemsChanged=${this.filter.bind(this)}
+                              .items=${this.items}
+                              .lookup=${this.lookup}
+                              .stateChanged=${() => this.stateChanged()}
+                          ></hp-items-filter>`
                     : nothing}
                 ${this.filteredItems
-                    ? html`<hp-items-list class="w-full" .items=${this.filteredItems} .highlights=${this.queryTokens}></hp-items-list>`
+                    ? html`<hp-items-list
+                          id="itemsList"
+                          class="w-full"
+                          .items=${this.filteredItems}
+                          .highlights=${this.queryTokens}
+                          .stateChanged=${() => this.stateChanged()}
+                      ></hp-items-list>`
                     : nothing}
                 <div class="flex-1"></div>
                 <hp-footer></hp-footer>
@@ -74,6 +95,20 @@ export class SearchPage extends LitElement {
     filter(items: Item[], queryTokens?: string[]) {
         this.filteredItems = [...items];
         this.queryTokens = queryTokens ?? [];
-        console.log("Filtered items");
+        this.requestUpdate();
+    }
+
+    shareLink() {
+        const filterState = this.itemsFilter?.getState();
+        const listState = this.itemsList?.getState();
+        setQueryParam("filter", JSON.stringify(filterState));
+        setQueryParam("list", JSON.stringify(listState));
+        copyCurrentURLToClipboard();
+        this.linkCopied = true;
+        this.requestUpdate();
+    }
+
+    stateChanged() {
+        this.linkCopied = false;
     }
 }

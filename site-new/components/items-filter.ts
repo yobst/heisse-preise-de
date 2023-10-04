@@ -7,9 +7,29 @@ import { Item, Price, UNITS } from "../model/models";
 import { BUDGET_BRANDS, STORE_KEYS, stores } from "../model/stores";
 import alasql from "alasql";
 import { Checkbox } from "./checkbox";
+import { StatefulElement } from "../utils";
+
+const getNumber = (value: string, def: number) => {
+    try {
+        return Number.parseFloat(value);
+    } catch (e) {
+        return def;
+    }
+};
+
+export class ItemsFilterState {
+    constructor(
+        public readonly query: string,
+        public readonly selectedStores: string[],
+        public readonly minPrice: number,
+        public readonly maxPrice: number,
+        public readonly discountBrandsOnly: boolean,
+        public readonly organicOnly: boolean
+    ) {}
+}
 
 @customElement("hp-items-filter")
-export class ItemsFilter extends LitElement {
+export class ItemsFilter extends LitElement implements StatefulElement<ItemsFilterState> {
     static styles = [globalStyles];
 
     @property()
@@ -21,8 +41,17 @@ export class ItemsFilter extends LitElement {
     @property()
     itemsChanged: (filteredItems: Item[], queryTokens: string[]) => void = () => {};
 
+    @property()
+    stateChanged: (state: ItemsFilterState) => void = () => {};
+
     @query("#query")
     queryElement?: HTMLInputElement;
+
+    @query("#storeCheckboxes")
+    storeCheckboxes?: HTMLDivElement;
+
+    @query("#allStores")
+    allStoresElement?: Checkbox;
 
     @query("#minPrice")
     minPriceElement?: HTMLInputElement;
@@ -44,8 +73,26 @@ export class ItemsFilter extends LitElement {
 
     selectedStores = [...STORE_KEYS];
 
-    protected firstUpdated(_changedProperties: PropertyValueMap<any> | Map<PropertyKey, unknown>): void {
-        this.queryElement!.value = "milch";
+    protected firstUpdated(_changedProperties: PropertyValueMap<any> | Map<PropertyKey, unknown>): void {}
+
+    getState() {
+        return new ItemsFilterState(
+            this.queryElement?.value ?? "",
+            this.selectedStores,
+            this.minPriceElement ? getNumber(this.minPriceElement.value, 0) : 0,
+            this.maxPriceElement ? getNumber(this.maxPriceElement.value, 1000) : 1000,
+            this.discountBrandsOnlyElement?.checked ?? false,
+            this.organicOnlyElement?.checked ?? false
+        );
+    }
+
+    setState(state: ItemsFilterState) {
+        this.queryElement!.value = state.query;
+        this.selectedStores = state.selectedStores;
+        this.minPriceElement!.value = state.minPrice.toString();
+        this.maxPriceElement!.value = state.maxPrice.toString();
+        this.discountBrandsOnlyElement!.checked = state.discountBrandsOnly;
+        this.organicOnlyElement!.checked = state.organicOnly;
         this.filter();
     }
 
@@ -54,8 +101,8 @@ export class ItemsFilter extends LitElement {
             <div class="bg-[#E7E5E4] rounded-xl border p-4 flex flex-col gap-2 w-full max-w-[800px]">
                 <input @input="${this.filter}" id="query" class="w-full rounded-full px-4 py-1" placeholder="${i18n("search placeholder")}" />
                 ${!this.isAlaSQLQuery
-                    ? html` <div class="flex justify-center gap-2 flex-wrap text-xs">
-                              <hp-checkbox @change="${this.toggleAllStores}" checked="true">${i18n("All")}</hp-checkbox>
+                    ? html` <div id="storeCheckboxes" class="flex justify-center gap-2 flex-wrap text-xs">
+                              <hp-checkbox id="allStores" @change="${() => this.toggleAllStores()}" checked="true">${i18n("All")}</hp-checkbox>
                               ${map(
                                   STORE_KEYS,
                                   (store) =>
@@ -81,7 +128,16 @@ export class ItemsFilter extends LitElement {
         `;
     }
 
-    toggleAllStores() {}
+    toggleAllStores() {
+        const storeCheckboxes = Array.from(this.storeCheckboxes!.querySelectorAll("hp-checkbox")).filter(
+            (checkbox) => checkbox != this.allStoresElement
+        ) as Checkbox[];
+        storeCheckboxes.forEach((checkbox) => {
+            checkbox.checked = this.allStoresElement!.checked;
+        });
+        this.selectedStores = this.allStoresElement!.checked ? [...STORE_KEYS] : [];
+        this.filter();
+    }
 
     toggleStore(store: string) {
         if (this.selectedStores.includes(store)) {
@@ -98,22 +154,14 @@ export class ItemsFilter extends LitElement {
             this.isAlaSQLQuery = true;
             this.sqlError = "";
             try {
-                const hits = queryItemsAlasql(query, this.items);
+                const hits = this.queryItemsAlasql(query, this.items);
                 this.itemsChanged(hits, []);
-                console.log(hits.length);
             } catch (e) {
                 if (e instanceof Error) this.sqlError = e.message;
                 else this.sqlError = "Unknown alaSQL error";
                 this.itemsChanged([], []);
             }
         } else {
-            const getNumber = (value: string, def: number) => {
-                try {
-                    return Number.parseFloat(value);
-                } catch (e) {
-                    return def;
-                }
-            };
             const minPrice = this.minPriceElement ? getNumber(this.minPriceElement.value, 0) : 0;
             const maxPrice = this.maxPriceElement ? getNumber(this.maxPriceElement.value, 1000) : 1000;
             const organicOnly = this.organicOnlyElement?.checked ?? false;
@@ -130,144 +178,144 @@ export class ItemsFilter extends LitElement {
             });
 
             this.isAlaSQLQuery = false;
-            const hits = queryItems(query, filteredItems, false);
+            const hits = this.queryItems(query, filteredItems, false);
             this.itemsChanged(hits.items, hits.queryTokens);
-            console.log(hits.items.length);
         }
+        this.stateChanged(this.getState());
     }
-}
 
-function queryItemsAlasql(query: string, items: Item[]): Item[] {
-    alasql.fn.hasPriceChange = (priceHistory: Price[], date: string, endDate: string) => {
-        if (!endDate) return priceHistory.some((price) => price.date == date);
-        else return priceHistory.some((price) => price.date >= date && price.date <= endDate);
-    };
+    queryItemsAlasql(query: string, items: Item[]): Item[] {
+        alasql.fn.hasPriceChange = (priceHistory: Price[], date: string, endDate: string) => {
+            if (!endDate) return priceHistory.some((price) => price.date == date);
+            else return priceHistory.some((price) => price.date >= date && price.date <= endDate);
+        };
 
-    alasql.fn.hasPriceChangeLike = (priceHistory: Price[], date: string) => {
-        return priceHistory.some((price) => price.date.indexOf(date) >= 0);
-    };
+        alasql.fn.hasPriceChangeLike = (priceHistory: Price[], date: string) => {
+            return priceHistory.some((price) => price.date.indexOf(date) >= 0);
+        };
 
-    alasql.fn.daysBetween = (date1: string, date2: string) => {
-        const d1 = new Date(date1);
-        const d2 = new Date(date2);
-        const diffInMs = Math.abs((d2 as any) - (d1 as any));
-        const days = Math.ceil(diffInMs / (1000 * 60 * 60 * 24));
-        return days;
-    };
+        alasql.fn.daysBetween = (date1: string, date2: string) => {
+            const d1 = new Date(date1);
+            const d2 = new Date(date2);
+            const diffInMs = Math.abs((d2 as any) - (d1 as any));
+            const days = Math.ceil(diffInMs / (1000 * 60 * 60 * 24));
+            return days;
+        };
 
-    alasql.fn.priceOn = function (priceHistory: Price[], date: string) {
-        return this.priceOn(priceHistory, date);
-    };
+        alasql.fn.priceOn = function (priceHistory: Price[], date: string) {
+            return this.priceOn(priceHistory, date);
+        };
 
-    alasql.fn.unitPriceOn = function (priceHistory: Price[], date: string) {
-        return this.unitPriceOn(priceHistory, date);
-    };
+        alasql.fn.unitPriceOn = function (priceHistory: Price[], date: string) {
+            return this.unitPriceOn(priceHistory, date);
+        };
 
-    alasql.fn.percentageChangeSince = function (priceHistory: Price[], date: string) {
-        const firstPrice = this.priceOn(priceHistory, date);
-        const price = priceHistory[0].price;
-        return ((price - firstPrice) / firstPrice) * 100;
-    };
+        alasql.fn.percentageChangeSince = function (priceHistory: Price[], date: string) {
+            const firstPrice = this.priceOn(priceHistory, date);
+            const price = priceHistory[0].price;
+            return ((price - firstPrice) / firstPrice) * 100;
+        };
 
-    query = query.substring(1);
-    return alasql("select * from ? where " + query, [items]);
-}
+        query = query.substring(1);
+        return alasql("select * from ? where " + query, [items]);
+    }
 
-function queryItems(query: string, items: Item[], exactWord = false): { items: Item[]; queryTokens: string[] } {
-    query = query.trim().replace(",", ".").toLowerCase();
-    if (query.length < 3) return { items: [], queryTokens: [] };
-    const regex = /([\p{L}&-\.][\p{L}\p{N}&-\.]*)|(>=|<=|=|>|<)|(\d+(\.\d+)?)/gu;
-    let tokens: string[] | null = query.match(regex);
-    if (!tokens) return { items: [], queryTokens: [] };
+    queryItems(query: string, items: Item[], exactWord = false): { items: Item[]; queryTokens: string[] } {
+        query = query.trim().replace(",", ".").toLowerCase();
+        if (query.length < 3) return { items: [], queryTokens: [] };
+        const regex = /([\p{L}&-\.][\p{L}\p{N}&-\.]*)|(>=|<=|=|>|<)|(\d+(\.\d+)?)/gu;
+        let tokens: string[] | null = query.match(regex);
+        if (!tokens) return { items: [], queryTokens: [] };
 
-    // Find quantity/unit query
-    let newTokens = [];
-    let unitQueries = [];
-    const operators = ["<", "<=", ">", ">=", "="];
-    for (let i = 0; i < tokens.length; i++) {
-        const token = tokens[i];
-        let unit = UNITS[token];
-        if (unit && i > 0 && /^\d+(\.\d+)?$/.test(tokens[i - 1])) {
-            newTokens.pop();
-            let operator = "=";
-            if (i > 1 && operators.includes(tokens[i - 2])) {
+        // Find quantity/unit query
+        let newTokens = [];
+        let unitQueries = [];
+        const operators = ["<", "<=", ">", ">=", "="];
+        for (let i = 0; i < tokens.length; i++) {
+            const token = tokens[i];
+            let unit = UNITS[token];
+            if (unit && i > 0 && /^\d+(\.\d+)?$/.test(tokens[i - 1])) {
                 newTokens.pop();
-                operator = tokens[i - 2];
-            }
+                let operator = "=";
+                if (i > 1 && operators.includes(tokens[i - 2])) {
+                    newTokens.pop();
+                    operator = tokens[i - 2];
+                }
 
-            unitQueries.push({
-                operator,
-                quantity: Number.parseFloat(tokens[i - 1]) * unit.factor,
-                unit: unit.unit,
-            });
-        } else {
-            newTokens.push(token);
+                unitQueries.push({
+                    operator,
+                    quantity: Number.parseFloat(tokens[i - 1]) * unit.factor,
+                    unit: unit.unit,
+                });
+            } else {
+                newTokens.push(token);
+            }
         }
-    }
-    tokens = newTokens;
-    if (!tokens || tokens.length == 0) return { items: [], queryTokens: [] };
+        tokens = newTokens;
+        if (!tokens || tokens.length == 0) return { items: [], queryTokens: [] };
 
-    let hits = [];
-    for (const item of items) {
-        let allFound = true;
-        for (let token of tokens) {
-            if (token.length === 0) continue;
-            let not = false;
-            if (token.startsWith("-") && token.length > 1) {
-                not = true;
-                token = token.substring(1);
-            }
-            const index = item.search.indexOf(token);
-            if ((!not && index < 0) || (not && index >= 0)) {
-                allFound = false;
-                break;
-            }
-            if (exactWord) {
-                if (index > 0 && item.search.charAt(index - 1) != " " && item.search.charAt(index - 1) != "-") {
+        let hits = [];
+        for (const item of items) {
+            let allFound = true;
+            for (let token of tokens) {
+                if (token.length === 0) continue;
+                let not = false;
+                if (token.startsWith("-") && token.length > 1) {
+                    not = true;
+                    token = token.substring(1);
+                }
+                const index = item.search.indexOf(token);
+                if ((!not && index < 0) || (not && index >= 0)) {
                     allFound = false;
                     break;
                 }
-                if (index + token.length < item.search.length && item.search.charAt(index + token.length) != " ") {
-                    allFound = false;
-                    break;
+                if (exactWord) {
+                    if (index > 0 && item.search.charAt(index - 1) != " " && item.search.charAt(index - 1) != "-") {
+                        allFound = false;
+                        break;
+                    }
+                    if (index + token.length < item.search.length && item.search.charAt(index + token.length) != " ") {
+                        allFound = false;
+                        break;
+                    }
                 }
             }
-        }
-        if (allFound) {
-            let allUnitsMatched = true;
-            for (const query of unitQueries) {
-                if (query.unit != item.unit) {
-                    allUnitsMatched = false;
-                    break;
-                }
+            if (allFound) {
+                let allUnitsMatched = true;
+                for (const query of unitQueries) {
+                    if (query.unit != item.unit) {
+                        allUnitsMatched = false;
+                        break;
+                    }
 
-                if (query.operator == "=" && !(item.quantity == query.quantity)) {
-                    allUnitsMatched = false;
-                    break;
-                }
+                    if (query.operator == "=" && !(item.quantity == query.quantity)) {
+                        allUnitsMatched = false;
+                        break;
+                    }
 
-                if (query.operator == "<" && !(item.quantity < query.quantity)) {
-                    allUnitsMatched = false;
-                    break;
-                }
+                    if (query.operator == "<" && !(item.quantity < query.quantity)) {
+                        allUnitsMatched = false;
+                        break;
+                    }
 
-                if (query.operator == "<=" && !(item.quantity <= query.quantity)) {
-                    allUnitsMatched = false;
-                    break;
-                }
+                    if (query.operator == "<=" && !(item.quantity <= query.quantity)) {
+                        allUnitsMatched = false;
+                        break;
+                    }
 
-                if (query.operator == ">" && !(item.quantity > query.quantity)) {
-                    allUnitsMatched = false;
-                    break;
-                }
+                    if (query.operator == ">" && !(item.quantity > query.quantity)) {
+                        allUnitsMatched = false;
+                        break;
+                    }
 
-                if (query.operator == ">=" && !(item.quantity >= query.quantity)) {
-                    allUnitsMatched = false;
-                    break;
+                    if (query.operator == ">=" && !(item.quantity >= query.quantity)) {
+                        allUnitsMatched = false;
+                        break;
+                    }
                 }
+                if (allUnitsMatched) hits.push(item);
             }
-            if (allUnitsMatched) hits.push(item);
         }
+        return { items: hits, queryTokens: tokens.filter((token) => !token.startsWith("-")) };
     }
-    return { items: hits, queryTokens: tokens.filter((token) => !token.startsWith("-")) };
 }

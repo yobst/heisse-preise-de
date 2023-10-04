@@ -3,7 +3,7 @@ import { customElement, property, query, state } from "lit/decorators.js";
 import { globalStyles } from "../styles";
 import { Item, Price } from "../model/models";
 import { i18n } from "../i18n";
-import { calculateItemPriceTimeSeries, today, uniqueDates } from "../utils";
+import { StatefulElement, calculateItemPriceTimeSeries, today, uniqueDates } from "../utils";
 import { Checkbox } from "./checkbox";
 import { STORE_KEYS } from "../model/stores";
 const moment = require("moment");
@@ -11,8 +11,19 @@ const { Chart, registerables } = require("chart.js");
 require("chartjs-adapter-moment");
 Chart.register(...registerables);
 
+export class ItemsChartState {
+    constructor(
+        public readonly priceSum: boolean,
+        public readonly priceSumPerStore: boolean,
+        public readonly todayOnly: boolean,
+        public readonly percentageChange: boolean,
+        startDate: string,
+        endDate: string
+    ) {}
+}
+
 @customElement("hp-chart")
-export class ItemsChart extends LitElement {
+export class ItemsChart extends LitElement implements StatefulElement<ItemsChartState> {
     static styles = [globalStyles];
 
     @property()
@@ -20,6 +31,9 @@ export class ItemsChart extends LitElement {
 
     @property()
     unitPrice = false;
+
+    @property()
+    stateChanged: (state: ItemsChartState) => void = () => {};
 
     @state()
     sticky = false;
@@ -44,6 +58,26 @@ export class ItemsChart extends LitElement {
 
     @query("#endDate")
     endDateElement?: HTMLInputElement;
+
+    getState() {
+        let startDate = this.startDateElement?.value ?? "";
+        let endDate = this.endDateElement?.value ?? "";
+        let validDate = /^20\d{2}-\d{2}-\d{2}$/;
+        if (!validDate.test(startDate)) startDate = "2023-01-01";
+        if (!validDate.test(endDate)) endDate = today();
+        return new ItemsChartState(
+            this.priceSumCheckbox?.checked ?? false,
+            this.priceSumPerStoreCheckbox?.checked ?? false,
+            this.todayOnlyCheckbox?.checked ?? false,
+            this.percentageChangeCheckbox?.checked ?? false,
+            startDate,
+            endDate
+        );
+    }
+
+    setState(state: ItemsChartState) {
+        // FIXME
+    }
 
     protected updated(_changedProperties: PropertyValueMap<any> | Map<PropertyKey, unknown>): void {
         const items = this.items;
@@ -203,16 +237,61 @@ export class ItemsChart extends LitElement {
                 <canvas id="canvas" class="bg-white rounded-lg min-h-[40vh]"></canvas>
             </div>
             <div class="flex items-center flex-wrap justify-center text-xs gap-2 pt-2">
-                <hp-checkbox id="priceSum" @change=${() => this.requestUpdate()} .checked="true">${i18n("Price sum")}</hp-checkbox>
-                <hp-checkbox id="priceSumPerStore" @change=${() => this.requestUpdate()}>${i18n("Price sum per store")}</hp-checkbox>
-                <hp-checkbox id="todayOnly" @change=${() => this.requestUpdate()}>${i18n("Today's prices only")}</hp-checkbox>
-                <hp-checkbox id="percentageChange" @change=${() => this.requestUpdate()}>${i18n("Percentage change")}</hp-checkbox>
+                <hp-checkbox
+                    id="priceSum"
+                    @change=${() => {
+                        this.requestUpdate();
+                        this.stateChanged(this.getState());
+                    }}
+                    .checked="true"
+                    >${i18n("Price sum")}</hp-checkbox
+                >
+                <hp-checkbox
+                    id="priceSumPerStore"
+                    @change=${() => {
+                        this.requestUpdate();
+                        this.stateChanged(this.getState());
+                    }}
+                    >${i18n("Price sum per store")}</hp-checkbox
+                >
+                <hp-checkbox
+                    id="todayOnly"
+                    @change=${() => {
+                        this.requestUpdate();
+                        this.stateChanged(this.getState());
+                    }}
+                    >${i18n("Today's prices only")}</hp-checkbox
+                >
+                <hp-checkbox
+                    id="percentageChange"
+                    @change=${() => {
+                        this.requestUpdate();
+                        this.stateChanged(this.getState());
+                    }}
+                    >${i18n("Percentage change")}</hp-checkbox
+                >
                 <div
                     class="cursor-pointer inline-flex items-center gap-x-1 rounded-full bg-white border border-gray-400 px-2 py-1 text-xs font-medium text-gray-600"
                 >
-                    <input id="startDate" type="date" value="2023-01-01" @change=${() => this.requestUpdate()} />
+                    <input
+                        id="startDate"
+                        type="date"
+                        value="2023-01-01"
+                        @change=${() => {
+                            this.requestUpdate();
+                            this.stateChanged(this.getState());
+                        }}
+                    />
                     -
-                    <input id="endDate" type="date" value="${today()}" @change=${() => this.requestUpdate()} />
+                    <input
+                        id="endDate"
+                        type="date"
+                        value="${today()}"
+                        @change=${() => {
+                            this.requestUpdate();
+                            this.stateChanged(this.getState());
+                        }}
+                    />
                 </div>
                 <hp-icon-checkbox @change=${() => (this.sticky = !this.sticky)}>📌</hp-icon-checkbox>
             </div>

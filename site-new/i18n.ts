@@ -32,6 +32,8 @@ interface Messages {
     "Percentage change": string;
     "Price sum for store": (store: string) => string;
     "% change since": (since: string) => string;
+    "Share link": string;
+    "(Copied)": string;
 }
 
 const english: Messages = {
@@ -68,6 +70,8 @@ const english: Messages = {
     "Percentage change": "Change as %",
     "Price sum for store": (store: string) => "Price sum " + store,
     "% change since": (since: string) => "% change since " + since,
+    "Share link": "Share link",
+    "(Copied)": "(Copied)",
 };
 
 const german: Messages = {
@@ -104,6 +108,8 @@ const german: Messages = {
     "Percentage change": "Änderungen in %",
     "Price sum for store": (store: string) => "Preissumme " + store,
     "% change since": (since: string) => "% Änderung seit " + since,
+    "Share link": "Link teilen",
+    "(Copied)": "(Kopiert)",
 };
 
 export type LanguageCode = "en" | "de";
