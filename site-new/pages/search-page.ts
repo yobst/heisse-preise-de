@@ -1,12 +1,12 @@
-import { LitElement, html, nothing } from "lit";
+import { LitElement, PropertyValueMap, html, nothing } from "lit";
 import { customElement, query, state } from "lit/decorators.js";
 import "../components";
 import { i18n } from "../i18n";
 import { loadItems } from "../model/items";
 import { globalStyles } from "../styles";
 import { Item } from "../model/models";
-import { ItemsFilter, ItemsList, ProgressBar } from "../components";
-import { copyCurrentURLToClipboard, setQueryParam } from "../utils";
+import { ItemsFilter, ItemsFilterState, ItemsList, ItemsListState, ProgressBar } from "../components";
+import { copyCurrentURLToClipboard, getQueryParam, setQueryParam } from "../utils";
 
 @customElement("hp-search-page")
 export class SearchPage extends LitElement {
@@ -53,6 +53,8 @@ export class SearchPage extends LitElement {
         this.load();
     }
 
+    restoredState = false;
+
     protected render(): unknown {
         return html`
             <main>
@@ -82,6 +84,7 @@ export class SearchPage extends LitElement {
                           id="itemsList"
                           class="w-full"
                           .items=${this.filteredItems}
+                          .lookup=${this.lookup}
                           .highlights=${this.queryTokens}
                           .stateChanged=${() => this.stateChanged()}
                       ></hp-items-list>`
@@ -101,8 +104,8 @@ export class SearchPage extends LitElement {
     shareLink() {
         const filterState = this.itemsFilter?.getState();
         const listState = this.itemsList?.getState();
-        setQueryParam("filter", JSON.stringify(filterState));
-        setQueryParam("list", JSON.stringify(listState));
+        setQueryParam("itemsFilter", JSON.stringify(filterState));
+        setQueryParam("itemsList", JSON.stringify(listState));
         copyCurrentURLToClipboard();
         this.linkCopied = true;
         this.requestUpdate();

@@ -7,7 +7,7 @@ import { Item, Price, UNITS } from "../model/models";
 import { BUDGET_BRANDS, STORE_KEYS, stores } from "../model/stores";
 import alasql from "alasql";
 import { Checkbox } from "./checkbox";
-import { StatefulElement } from "../utils";
+import { StatefulElement, getQueryParam } from "../utils";
 
 const getNumber = (value: string, def: number) => {
     try {
@@ -73,7 +73,18 @@ export class ItemsFilter extends LitElement implements StatefulElement<ItemsFilt
 
     selectedStores = [...STORE_KEYS];
 
-    protected firstUpdated(_changedProperties: PropertyValueMap<any> | Map<PropertyKey, unknown>): void {}
+    restoredState = false;
+
+    protected updated(_changedProperties: PropertyValueMap<any> | Map<PropertyKey, unknown>): void {
+        if (this.items.length > 0 && !this.restoredState) {
+            this.restoredState = true;
+            const stateString = getQueryParam(this.id);
+            if (stateString) {
+                const state = JSON.parse(stateString) as ItemsFilterState;
+                this.setState(state);
+            }
+        }
+    }
 
     getState() {
         return new ItemsFilterState(
@@ -217,7 +228,8 @@ export class ItemsFilter extends LitElement implements StatefulElement<ItemsFilt
         };
 
         query = query.substring(1);
-        return alasql("select * from ? where " + query, [items]);
+        const result = alasql("SELECT CONCAT(`store`, id) AS sid FROM ? WHERE " + query, [items]) as { sid: string }[];
+        return result.map((row) => this.lookup[row.sid]);
     }
 
     queryItems(query: string, items: Item[], exactWord = false): { items: Item[]; queryTokens: string[] } {

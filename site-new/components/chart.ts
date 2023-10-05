@@ -17,8 +17,8 @@ export class ItemsChartState {
         public readonly priceSumPerStore: boolean,
         public readonly todayOnly: boolean,
         public readonly percentageChange: boolean,
-        startDate: string,
-        endDate: string
+        public readonly startDate: string,
+        public readonly endDate: string
     ) {}
 }
 
@@ -31,6 +31,9 @@ export class ItemsChart extends LitElement implements StatefulElement<ItemsChart
 
     @property()
     unitPrice = false;
+
+    @property()
+    state?: ItemsChartState;
 
     @property()
     stateChanged: (state: ItemsChartState) => void = () => {};
@@ -76,10 +79,19 @@ export class ItemsChart extends LitElement implements StatefulElement<ItemsChart
     }
 
     setState(state: ItemsChartState) {
-        // FIXME
+        this.priceSumCheckbox!.checked = state.priceSum;
+        this.priceSumPerStoreCheckbox!.checked = state.priceSumPerStore;
+        this.todayOnlyCheckbox!.checked = state.todayOnly;
+        this.percentageChangeCheckbox!.checked = state.percentageChange;
+        this.startDateElement!.value = state.startDate;
+        this.endDateElement!.value = state.endDate;
+        this.requestUpdate();
     }
 
     protected updated(_changedProperties: PropertyValueMap<any> | Map<PropertyKey, unknown>): void {
+        if (_changedProperties.has("state") && this.state) {
+            this.setState(this.state);
+        }
         const items = this.items;
         const onlyToday = this.todayOnlyCheckbox!.checked;
         let startDate = this.startDateElement!.value;
@@ -232,7 +244,7 @@ export class ItemsChart extends LitElement implements StatefulElement<ItemsChart
     }
 
     render() {
-        const result = html`<div class="px-4 pb-4 bg-[#E7E5E4] ${this.sticky ? "sticky top-0" : ""}">
+        const result = html`<div class="px-4 py-2 bg-[#E7E5E4] ${this.sticky ? "sticky top-0" : ""}">
             <div class="w-full grow">
                 <canvas id="canvas" class="bg-white rounded-lg min-h-[40vh]"></canvas>
             </div>

@@ -1493,14 +1493,14 @@ main {
     transition-duration: 150ms;
 }
 
-.transition-transform {
-    transition-property: transform;
+.transition-opacity {
+    transition-property: opacity;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     transition-duration: 150ms;
 }
 
-.transition-opacity {
-    transition-property: opacity;
+.transition-transform {
+    transition-property: transform;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     transition-duration: 150ms;
 }
@@ -1532,10 +1532,6 @@ main {
 
 .hover\:underline:hover {
     text-decoration-line: underline;
-}
-
-.hover\:opacity-100:hover {
-    opacity: 1;
 }
 
 .hover\:shadow:hover {

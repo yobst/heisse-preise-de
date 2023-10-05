@@ -6,7 +6,7 @@ import { i18n } from "../i18n";
 import { Item } from "../model/models";
 import { unsafeHTML } from "lit/directives/unsafe-html.js";
 import { stores } from "../model/stores";
-import { StatefulElement, dom, downloadFile, downloadJSON, itemsToCSV, onVisibleOnce } from "../utils";
+import { StatefulElement, dom, downloadFile, downloadJSON, getQueryParam, itemsToCSV, onVisibleOnce } from "../utils";
 import { similaritySortItems, vectorizeItems } from "../knn";
 import "./checkbox";
 import { ItemsChart, ItemsChartState } from "./chart";
@@ -18,6 +18,8 @@ export class ItemsListState {
     constructor(
         public readonly salesPrice: boolean,
         public readonly sortType: SortType,
+        public readonly showChart: boolean,
+        public readonly pricesExpaned: boolean,
         public readonly chartState: ItemsChartState,
         public readonly itemsToChart: string[]
     ) {}
@@ -34,6 +36,9 @@ export class ItemsList extends LitElement implements StatefulElement<ItemsListSt
     items: Item[] = [];
 
     @property()
+    lookup: Record<string, Item> = {};
+
+    @property()
     stateChanged: (state: ItemsListState) => void = () => {};
 
     @property()
@@ -41,6 +46,9 @@ export class ItemsList extends LitElement implements StatefulElement<ItemsListSt
 
     @query("#salesPrice")
     salesPriceElement?: HTMLInputElement;
+
+    @query("#unitPrice")
+    unitPriceElement?: HTMLInputElement;
 
     @query("#sortType")
     sortTypeElement?: HTMLSelectElement;
@@ -58,10 +66,22 @@ export class ItemsList extends LitElement implements StatefulElement<ItemsListSt
 
     pricesExpanded = false;
 
+    restoredState = false;
+
     protected updated(_changedProperties: PropertyValueMap<any> | Map<PropertyKey, unknown>): void {
         if (_changedProperties.has("items")) {
             if (this.itemsChart) {
                 this.itemsChart!.items = [...this.items];
+                this.itemsChart?.classList.add("hidden");
+                this.pricesExpanded = false;
+                if (!this.restoredState && this.items.length > 0) {
+                    const stateString = getQueryParam(this.id);
+                    if (stateString) {
+                        const state = JSON.parse(stateString) as ItemsListState;
+                        if (!state) return;
+                        this.setState(state);
+                    }
+                }
             }
         }
     }
@@ -70,6 +90,8 @@ export class ItemsList extends LitElement implements StatefulElement<ItemsListSt
         return new ItemsListState(
             this.salesPriceElement?.checked ?? true,
             (this.sortTypeElement?.value as SortType) ?? "price-asc",
+            this.showChart?.checked ?? false,
+            this.pricesExpanded,
             this.itemsChart!.getState(),
             this.items
                 .filter((item) => item.chart)
@@ -80,11 +102,27 @@ export class ItemsList extends LitElement implements StatefulElement<ItemsListSt
     }
 
     setState(state: ItemsListState) {
-        // FIXME
+        this.showChart!.checked = state.showChart;
+        if (state.showChart) {
+            this.itemsChart?.classList.toggle("hidden");
+        }
+        if (state.salesPrice) {
+            this.salesPriceElement!.checked = true;
+        } else {
+            this.unitPriceElement!.checked = true;
+        }
+        this.sortTypeElement!.value = state.sortType;
+        for (const itemId of state.itemsToChart) {
+            const item = this.lookup[itemId];
+            if (item) item.chart = true;
+        }
+        this.pricesExpanded = state.pricesExpaned;
+        // this.togglePriceHistories();
+        if (state.showChart && state.chartState) this.itemsChart!.state = state.chartState;
+        this.requestUpdate();
     }
 
     protected render() {
-        this.pricesExpanded = false;
         if (this.items.length == 0) return nothing;
         this.tableBody = dom(html`<table class="w-full max-w-[100%]">
             <thead class="bg-primary text-white border border-primary">
@@ -99,7 +137,7 @@ export class ItemsList extends LitElement implements StatefulElement<ItemsListSt
         </table>`)[0];
 
         const result = html` <div class="flex flex-col w-full max-w-[1024px] mx-auto">
-            <div class="flex flex-col md:flex-row justify-between items-center bg-[#E7E5E4] rounded-t-xl border p-2 text-sm gap-2">
+            <div class="flex flex-col md:flex-row justify-between items-center bg-[#E7E5E4] rounded-t-xl border pt-2 px-4 text-sm gap-2">
                 <div class="flex flex-col md:flex-row gap-2 items-center">
                     <div class="flex items-center gap-2">
                         <div>${this.items.length} ${i18n("Results")}</div>
@@ -178,8 +216,7 @@ export class ItemsList extends LitElement implements StatefulElement<ItemsListSt
         const itemDoms = this.tableBody?.querySelectorAll("tr.border")!;
         for (const itemDom of Array.from(itemDoms)) {
             const chevron = itemDom.querySelector("#chevron") as HTMLElement;
-            if (!chevron) continue;
-            chevron.innerText = this.pricesExpanded ? "▲" : "▼";
+            if (chevron) chevron.innerText = this.pricesExpanded ? "▲" : "▼";
             if (this.pricesExpanded) {
                 itemDom.querySelector("#priceHistory")?.classList.remove("hidden");
             } else {
@@ -216,7 +253,7 @@ export class ItemsList extends LitElement implements StatefulElement<ItemsListSt
     renderItems(items: Item[], startIndex: number, highlights: string[], salesPrice: boolean, table: HTMLElement) {
         if (startIndex >= items.length) return;
         const itemSubset = items.slice(startIndex, startIndex + 25);
-        const itemDoms = itemSubset.map((item) => this.itemPartial(item, highlights, salesPrice));
+        const itemDoms = itemSubset.map((item) => this.renderItem(item, highlights, salesPrice));
         for (const itemDom of itemDoms) {
             table.appendChild(itemDom);
         }
@@ -226,7 +263,7 @@ export class ItemsList extends LitElement implements StatefulElement<ItemsListSt
         });
     }
 
-    itemPartial(item: Item, highlights: string[], salesPrice: boolean) {
+    renderItem(item: Item, highlights: string[], salesPrice: boolean) {
         const store = stores[item.store];
 
         let quantity = item.quantity || "";
@@ -266,12 +303,12 @@ export class ItemsList extends LitElement implements StatefulElement<ItemsListSt
             showPriceHistory(show);
         };
 
-        const maxWidth = 190;
         const maxPrice = item.priceHistory.reduce((max, current) => (current.price > max.price ? current : max), item.priceHistory[0]);
         const priceChanges: { price: number; unitPrice: number; date: string; change: number; width: number }[] = item.priceHistory
+            .concat([])
             .reverse()
             .map((price, index) => {
-                const width = Math.ceil((price.price / maxPrice.price) * 100);
+                const width = Math.ceil((price.price / maxPrice.price) * 190);
                 if (index == 0) return { ...price, change: 0, width };
                 const lastPrice = item.priceHistory[index - 1].price;
                 return { ...price, change: ((price.price - lastPrice) / lastPrice) * 100, width };
@@ -283,13 +320,15 @@ export class ItemsList extends LitElement implements StatefulElement<ItemsListSt
         <td class="py-0 h-[0px] align-top">
             <div class="flex flex-col px-2 py-1 h-full bg-white">
             <div class="flex whitespace-normal">
-                <a href="${store.getUrl(item)}" target="_blank" class="hover:underline">${unsafeHTML(this.highlightMatches(highlights, item.name))}</a
+                <a href="${store.getUrl(item)}" target="_blank" class="hover:underline">${unsafeHTML(this.highlightMatches(highlights, item.name))} ${
+            item.unavailable ? " 💀" : ""
+        }</a
                 ><span class="text-xs ml-auto pl-2 my-auto" style="white-space: nowrap;">${
                     (item.isWeighted ? "⚖ " : "") + quantity + " " + unit
                 }</span>
             </div>
             <div>
-                <table id="priceHistory" class="hidden">
+                <table id="priceHistory" class="${this.pricesExpanded ? "" : "hidden"}">
                     ${map(
                         priceChanges,
                         (priceChange) => html`
