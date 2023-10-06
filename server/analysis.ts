@@ -33,7 +33,7 @@ export function writeJSON(file: string, data: any, fileCompressor = false, space
     if (compressData) data = compress(data);
     data = JSON.stringify(data, null, spacer);
     if (fileCompressor) data = zlib.brotliCompressSync(data, BROTLI_OPTIONS);
-    fs.writeFileSync(`${file}${fileCompressor ? "." + fileCompressor : ""}`, data);
+    fs.writeFileSync(`${file}${fileCompressor ? "." + FILE_COMPRESSOR : ""}`, data);
 }
 
 function currentDate() {
