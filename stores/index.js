@@ -1,1 +1,0 @@
-exports.spar = require("./spar");

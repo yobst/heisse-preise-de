@@ -5,26 +5,26 @@
   "main": "server.js",
   "scripts": {
     "prepare": "husky install",
-    "dev": "cross-env NODE_ENV=development PORT=$PORT node --max_old_space_size=8192 --trace-warnings server.js",
-    "start": "cross-env NODE_ENV=production PORT=$PORT node --max_old_space_size=8192 server.js",
     "format": "npx prettier --write .",
-    "clean": "rimraf site-new/build",
-    "server:new": "node --max_old_space_size=8192 --trace-warnings server-new.js",
-    "build:css": "npx tailwindcss -i site-new/styles.css -o site-new/styles-bundle.css",
-    "build:css-txt": "npx tailwindcss -i site-new/styles.css -o site-new/styles-bundle.css.txt",
-    "build:site": "node ./site-new/esbuild.mjs",
-    "dev:new": "concurrently \"npm run clean\" \"npm run server:new\" \"npx live-server site-new --cors --watch ./site --no-browser\" \"npm run build:site -- --watch\" \"npm run build:css -- --watch\" \"npm run build:css-txt -- --watch\""
+    "clean": "rimraf site/build && rimfar server/build",
+    "build:css": "npx tailwindcss -i site/styles.css -o site/styles-bundle.css",
+    "build:css-txt": "npx tailwindcss -i site/styles.css -o site/styles-bundle.css.txt",
+    "build:site": "node ./esbuild.site.mjs",
+    "build:server": "node ./esbuild.server.mjs",
+    "dev": "concurrently \"npm run clean\" \"npm run server\" \"npx live-server site --cors --watch ./site --no-browser\" \"npm run build:site -- --watch\" \"npm run build:css -- --watch\" \"npm run build:css-txt -- --watch\"",
+    "build": "npm run clean && npm run build:css && npm run build:css-txt && npm run build:site && npm run build:server",
+    "server": "npm run build:server && node --max_old_space_size=8192 --trace-warnings server/build/server.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/badlogic/heissepreise.git"
+    "url": "git+https://github.com/heisse-preise/heisse-preise-template.git"
   },
   "author": "",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/badlogic/heissepreise/issues"
+    "url": "https://github.com/heisse-preise/heisse-preise-template/issues"
   },
-  "homepage": "https://github.com/badlogic/heissepreise#readme",
+  "homepage": "https://github.com/heisse-preise/heisse-preise-template#readme",
   "dependencies": {
     "alasql": "^4.0.4",
     "axios": "^1.4.0",
@@ -45,6 +45,8 @@
     "readline-sync": "^1.4.10"
   },
   "devDependencies": {
+    "@types/compression": "^1.7.3",
+    "@types/express": "^4.17.18",
     "autoprefixer": "^10.4.14",
     "concurrently": "^8.1.0",
     "esbuild": "^0.17.19",

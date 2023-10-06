@@ -13,6 +13,6 @@ spar-2020.csv
 tmp-dir/
 site/data/latest-canonical*.json*
 site/output
-site-new/build/
+site/build/
 copy
 patterns
