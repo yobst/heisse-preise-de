@@ -8,6 +8,7 @@ import { BUDGET_BRANDS, STORE_KEYS, stores } from "../../common/stores";
 import alasql from "alasql";
 import { Checkbox } from "./checkbox";
 import { StatefulElement, getQueryParam } from "../utils/utils";
+import { today } from "../../common/utils";
 
 const getNumber = (value: string, def: number) => {
     try {
@@ -24,7 +25,8 @@ export class ItemsFilterState {
         public readonly minPrice: number,
         public readonly maxPrice: number,
         public readonly discountBrandsOnly: boolean,
-        public readonly organicOnly: boolean
+        public readonly organicOnly: boolean,
+        public readonly filterDate?: string
     ) {}
 }
 
@@ -37,6 +39,9 @@ export class ItemsFilter extends LitElement implements StatefulElement<ItemsFilt
 
     @property()
     lookup: Record<string, Item> = {};
+
+    @property()
+    enableChangesFilter = false;
 
     @property()
     itemsChanged: (filteredItems: Item[], queryTokens: string[]) => void = () => {};
@@ -65,6 +70,9 @@ export class ItemsFilter extends LitElement implements StatefulElement<ItemsFilt
     @query("#organicOnly")
     organicOnlyElement?: Checkbox;
 
+    @query("#dateElement")
+    dateElement?: HTMLInputElement;
+
     @state()
     isAlaSQLQuery = false;
 
@@ -72,6 +80,10 @@ export class ItemsFilter extends LitElement implements StatefulElement<ItemsFilt
     sqlError = "";
 
     selectedStores = [...STORE_KEYS];
+
+    cheaper = true;
+
+    expensive = true;
 
     restoredState = false;
 
@@ -83,6 +95,7 @@ export class ItemsFilter extends LitElement implements StatefulElement<ItemsFilt
                 const state = JSON.parse(stateString) as ItemsFilterState;
                 this.setState(state);
             }
+            if (this.enableChangesFilter) this.filter();
         }
     }
 
@@ -93,7 +106,8 @@ export class ItemsFilter extends LitElement implements StatefulElement<ItemsFilt
             this.minPriceElement ? getNumber(this.minPriceElement.value, 0) : 0,
             this.maxPriceElement ? getNumber(this.maxPriceElement.value, 1000) : 1000,
             this.discountBrandsOnlyElement?.checked ?? false,
-            this.organicOnlyElement?.checked ?? false
+            this.organicOnlyElement?.checked ?? false,
+            this.enableChangesFilter ? this.dateElement?.value ?? today() : undefined
         );
     }
 
@@ -104,6 +118,7 @@ export class ItemsFilter extends LitElement implements StatefulElement<ItemsFilt
         this.maxPriceElement!.value = state.maxPrice.toString();
         this.discountBrandsOnlyElement!.checked = state.discountBrandsOnly;
         this.organicOnlyElement!.checked = state.organicOnly;
+        if (this.enableChangesFilter && state.filterDate) this.dateElement!.value = state.filterDate;
         this.filter();
     }
 
@@ -122,6 +137,19 @@ export class ItemsFilter extends LitElement implements StatefulElement<ItemsFilt
                                       >`
                               )}
                           </div>
+                          ${this.enableChangesFilter
+                              ? html`<div class="mx-auto flex items-center">
+                                    <span>${i18n("Changed on:")}
+                                    <input id="dateElement" @change="${this.filter}" type="date" class="px-2 rounded" value="${today()}"/>
+                                    <div></div>
+                                </div>`
+                              : nothing}
+                          ${this.enableChangesFilter
+                              ? html`<div class="mx-auto flex text-xs gap-2">
+                                    <hp-checkbox @change="${() => this.toggleExpensive()}" checked="true">${i18n("More expensive")}</hp-checkbox
+                                    ><hp-checkbox @change="${() => this.toggleCheaper()}" checked="true">${i18n("Cheaper")}</hp-checkbox>
+                                </div>`
+                              : nothing}
                           <div class="flex justify-center gap-2 flex-wrap text-xs">
                               <hp-checkbox id="discountBrandsOnly" @change="${this.filter}">${i18n("Discount store brands only")}</hp-checkbox>
                               <hp-checkbox id="organicOnly" @change="${this.filter}">${i18n("Organic only")}</hp-checkbox>
@@ -159,6 +187,16 @@ export class ItemsFilter extends LitElement implements StatefulElement<ItemsFilt
         this.filter();
     }
 
+    toggleCheaper() {
+        this.cheaper = !this.cheaper;
+        this.filter();
+    }
+
+    toggleExpensive() {
+        this.expensive = !this.expensive;
+        this.filter();
+    }
+
     filter() {
         const query = this.queryElement?.value.trim() ?? "";
         if (query.startsWith("!")) {
@@ -178,6 +216,7 @@ export class ItemsFilter extends LitElement implements StatefulElement<ItemsFilt
             const organicOnly = this.organicOnlyElement?.checked ?? false;
             const discountBrandsOnly = this.discountBrandsOnlyElement?.checked ?? false;
             const selectedStores = this.selectedStores;
+            const filterDate = this.dateElement?.value ?? undefined;
 
             const filteredItems = this.items.filter((item) => {
                 if (!selectedStores.includes(item.store)) return;
@@ -185,11 +224,25 @@ export class ItemsFilter extends LitElement implements StatefulElement<ItemsFilt
                 if (organicOnly && !item.isOrganic) return false;
                 if (minPrice > item.price) return false;
                 if (maxPrice < item.price) return false;
+                if (filterDate && !item.priceHistory.some((price) => price.date == filterDate)) return false;
+                if (this.enableChangesFilter) {
+                    if (item.priceHistory.length > 1) {
+                        if (this.cheaper && item.priceHistory[0].price < item.priceHistory[1].price) return true;
+                        if (this.expensive && item.priceHistory[0].price > item.priceHistory[1].price) return true;
+                        return false;
+                    } else {
+                        return false;
+                    }
+                }
                 return true;
             });
 
             this.isAlaSQLQuery = false;
-            const hits = this.queryItems(query, filteredItems, false);
+            const hits = this.enableChangesFilter
+                ? query.trim().length >= 3
+                    ? this.queryItems(query, filteredItems, false)
+                    : { items: filteredItems, queryTokens: [] }
+                : this.queryItems(query, filteredItems, false);
             this.itemsChanged(hits.items, hits.queryTokens);
         }
         this.stateChanged(this.getState());

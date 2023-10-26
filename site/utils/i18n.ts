@@ -34,6 +34,9 @@ interface Messages {
     "% change since": (since: string) => string;
     "Share link": string;
     "(Copied)": string;
+    "Changed on:": string;
+    "More expensive": string;
+    Cheaper: string;
 }
 
 const english: Messages = {
@@ -72,6 +75,9 @@ const english: Messages = {
     "% change since": (since: string) => "% change since " + since,
     "Share link": "Share link",
     "(Copied)": "(Copied)",
+    "Changed on:": "Changed on:",
+    "More expensive": "More expensive",
+    Cheaper: "Cheaper",
 };
 
 const german: Messages = {
@@ -110,6 +116,9 @@ const german: Messages = {
     "% change since": (since: string) => "% Änderung seit " + since,
     "Share link": "Link teilen",
     "(Copied)": "(Kopiert)",
+    "Changed on:": "Geändert am:",
+    "More expensive": "Teurer",
+    Cheaper: "Billiger",
 };
 
 export type LanguageCode = "en" | "de";

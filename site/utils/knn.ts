@@ -1,6 +1,6 @@
 import { Item } from "../../common/models";
 
-const { stem, stopWords } = require("./stem");
+import { stem, stopWords } from "./stem";
 
 export function dotProduct(vector1: Record<string, number>, vector2: Record<string, number>) {
     let product = 0;

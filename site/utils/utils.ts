@@ -1,6 +1,7 @@
 import { TemplateResult, render } from "lit-html";
 import { Item, Price } from "../../common/models";
 import { BUDGET_BRANDS, stores } from "../../common/stores";
+import * as pako from "pako";
 
 export function deltaTime(start: number) {
     return (performance.now() - start) / 1000;

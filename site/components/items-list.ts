@@ -40,6 +40,9 @@ export class ItemsList extends LitElement implements StatefulElement<ItemsListSt
     lookup: Record<string, Item> = {};
 
     @property()
+    initialSort: SortType = "price-asc";
+
+    @property()
     stateChanged: (state: ItemsListState) => void = () => {};
 
     @property()
@@ -68,6 +71,11 @@ export class ItemsList extends LitElement implements StatefulElement<ItemsListSt
     pricesExpanded = false;
 
     restoredState = false;
+
+    protected firstUpdated(_changedProperties: PropertyValueMap<any> | Map<PropertyKey, unknown>): void {
+        this.sortTypeElement!.value = this.initialSort;
+        this.requestUpdate();
+    }
 
     protected updated(_changedProperties: PropertyValueMap<any> | Map<PropertyKey, unknown>): void {
         if (_changedProperties.has("items")) {
