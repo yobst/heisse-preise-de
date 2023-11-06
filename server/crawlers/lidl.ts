@@ -16,6 +16,7 @@ const storeUnits: Record<string, UnitMapping> = {
     ml: { unit: "ml", factor: 1 },
     g: { unit: "g", factor: 1 },
     kg: { unit: "g", factor: 1000 },
+    "m²": { unit: "qm", factor: 1 },
 };
 
 export class LidlCrawler implements Crawler {

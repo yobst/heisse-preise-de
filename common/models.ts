@@ -1,4 +1,4 @@
-export type Unit = "stk" | "cm" | "g" | "ml" | "wg";
+export type Unit = "stk" | "cm" | "g" | "ml" | "wg" | "qm";
 
 export type UnitMapping = { unit: Unit; factor: number };
 

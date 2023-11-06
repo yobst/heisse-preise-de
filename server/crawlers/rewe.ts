@@ -1,8 +1,6 @@
 import { Category, Item, Unit, UnitMapping } from "../../common/models";
 import { Crawler } from "./crawler";
-import { decompress } from "../site/model/items";
 
-import get from "axios";
 import * as utils from "./utils";
 import { stores } from "../../common/stores";
 import util from "util";
@@ -59,12 +57,7 @@ export class ReweCrawler implements Crawler {
             return items;
         } catch (e) {
             console.log("Failed to fetch REWE data, either CURL is not installed, or CloudFlare protection kicked in.");
-            const compressedItems = (await get("https://heissepreise.github.io/data/latest-canonical.rewe.compressed.json")).data; // TODO: adjust
-            const items = decompress(compressedItems);
-            for (const item of items) {
-                item.isCanonical = true;
-            }
-            return items;
+            return [];
         }
     }
 
@@ -126,7 +119,7 @@ export class ReweCrawler implements Crawler {
         );
     }
 
-    getCategory(rawItem: any): Category {
+    getCategory(_rawItem: any): Category {
         return "Unknown";
     }
 }

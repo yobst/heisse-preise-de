@@ -83,10 +83,9 @@ export class MuellerCrawler implements Crawler {
         const productId = rawItem.productId;
         const isWeighted = false;
 
-        let [quantity, rawUnit] = utils.parseUnitAndQuantityAtEnd(rawItem.quantityOfContent);
-        const rawUnit = rawItem.quantityOfContent;
-        const defaultValue: { quantity: number; unit: Unit } = { quantity: 1, unit: "stk" };
-        const unitAndQuantity = utils.normalizeUnitAndQuantity(itemName, rawUnit, rawQuantity, storeUnits, this.store.displayName, defaultValue);
+        const defaultUnit: { quantity: number; unit: Unit } = { quantity: 1, unit: "stk" };
+        const { rawUnit, rawQuantity } = utils.extractRawUnitAndQuantityFromName(rawItem.quantityOfContent, defaultUnit);
+        const unitAndQuantity = utils.normalizeUnitAndQuantity(itemName, rawUnit, rawQuantity, storeUnits, this.store.displayName, defaultUnit);
 
         return new Item(
             productId,
@@ -95,7 +94,7 @@ export class MuellerCrawler implements Crawler {
             this.getCategory(rawItem),
             unavailable,
             price,
-            [{ date: today, price: price, unitPrice: 0 }],
+            [{ date: today, price: price, unitPrice: 0.0 }],
             isWeighted,
             unitAndQuantity.unit,
             unitAndQuantity.quantity,

@@ -1,4 +1,4 @@
-import { Item, Unit, UnitMapping, units } from "../../common/models";
+import { Unit, UnitMapping, units } from "../../common/models";
 
 export function normalizeUnitAndQuantity(
     itemName: string,
@@ -23,14 +23,13 @@ export function normalizeUnitAndQuantity(
     return { quantity: mapping.factor * quantity, unit: mapping.unit };
 }
 
-export function extractRawUnitAndQuantityFromName(name: string) {
-    let unit: string = "";
-    let quantity = 1;
+export function extractRawUnitAndQuantityFromName(name: string, defaultValue: any) {
+    let unit = defaultValue.unit;
+    let quantity = defaultValue.quantity;
 
     const nameTokens = name.trim().replaceAll("(", "").replaceAll(")", "").replaceAll(",", ".").split(" ");
     const lastToken = nameTokens[nameTokens.length - 1];
     const secondLastToken = nameTokens.length >= 2 ? nameTokens[nameTokens.length - 2] : null;
-
     const token = parseFloat(lastToken) ? lastToken : secondLastToken + lastToken;
     const regex = /^([0-9.x]+)(.*)$/;
     const matches = token.match(regex);
@@ -39,7 +38,6 @@ export function extractRawUnitAndQuantityFromName(name: string) {
             quantity = quantity * parseFloat(q);
         });
         unit = matches[2];
-        return { rawQuantity: quantity, rawUnit: unit.toLowerCase() };
     }
-    return undefined;
+    return { rawQuantity: quantity, rawUnit: unit.toLowerCase() };
 }
