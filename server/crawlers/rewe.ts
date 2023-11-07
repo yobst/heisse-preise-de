@@ -10,10 +10,12 @@ const storeUnits: Record<string, UnitMapping> = {
     beutel: { unit: "stk", factor: 1 },
     bund: { unit: "stk", factor: 1 },
     packung: { unit: "stk", factor: 1 },
-    portion: { unit: "stk", factor: 1 },
+    portion: { unit: "srv", factor: 1 },
     rollen: { unit: "stk", factor: 1 },
     teebeutel: { unit: "stk", factor: 1 },
     waschgang: { unit: "wg", factor: 1 },
+    portionen: { unit: "srv", factor: 1 },
+    teller: { unit: "srv", factor: 1 },
 };
 
 export class ReweCrawler implements Crawler {
@@ -65,49 +67,33 @@ export class ReweCrawler implements Crawler {
         const productId = rawItem.id;
         const itemName = rawItem.name;
         const price = Number.parseFloat(rawItem.currentPrice.split(" ")[0].replace(",", "."));
-        const description = itemName;
-        const bio = false;
+        const bio = itemName.toLowerCase().includes("bio");
         const unavailable = false;
         const isWeighted = false;
 
-        let rawQuantity = 1;
-        let rawUnit = "kg";
+        const defaultUnit: { quantity: number; unit: Unit } = { quantity: 1, unit: "stk" };
 
-        if (rawItem.grammage && rawItem.grammage.length > 0) {
-            let grammage = rawItem.grammage
-                .trim()
-                .replace(/\([^)]*\)/g, "")
-                .replace(",", ".")
-                .trim();
-            let multiplier = 1;
-            if (grammage.indexOf("x") != -1) {
-                let tokens = grammage.split("x");
-                multiplier = Number.parseFloat(tokens[0]);
-                grammage = tokens[1];
-            }
+        let rawQuantity = defaultUnit.quantity;
+        let rawUnit = defaultUnit.unit;
 
-            let tokens = grammage.split(" ");
-            if (tokens.length > 1) {
-                rawQuantity = Number.parseFloat(tokens[0]);
-                rawUnit = tokens[1];
-            } else {
-                let qtyStr;
-                [qtyStr, rawUnit] = grammage.match(/^(\d+(?:\.\d+)?)(\D+)$/).slice(1);
-                rawQuantity = Number.parseFloat(qtyStr);
-            }
-            rawQuantity *= multiplier;
-        } else {
-            rawQuantity = 1;
-            rawUnit = "Stk";
+        if (rawItem.grammage) {
+            const res = utils.extractRawUnitAndQuantityFromEndOfString(rawItem.grammage.split("(")[0].trim(), defaultUnit);
+            rawQuantity = res.rawQuantity;
+            rawUnit = res.rawUnit;
         }
 
-        const defaultValue: { quantity: number; unit: Unit } = { quantity: 1, unit: "stk" };
-        const unitAndQuantity = utils.normalizeUnitAndQuantity(itemName, rawUnit, rawQuantity, storeUnits, this.store.displayName, defaultValue);
+        if (rawUnit == defaultUnit.unit) {
+            const res = utils.extractRawUnitAndQuantityFromDescription(rawItem.name, defaultUnit);
+            rawQuantity = res.rawQuantity;
+            rawUnit = res.rawUnit;
+        }
+
+        const unitAndQuantity = utils.normalizeUnitAndQuantity(itemName, rawUnit, rawQuantity, storeUnits, this.store.displayName, defaultUnit);
 
         return new Item(
+            this.store.id,
             productId,
             itemName,
-            description,
             this.getCategory(rawItem),
             unavailable,
             price,

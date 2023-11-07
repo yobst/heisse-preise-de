@@ -17,7 +17,12 @@ export function itemsToCSV(items: Item[]) {
         rowBack += (item.isWeighted ?? false) + ";";
         rowBack += (item.isOrganic ?? false) + ";";
         rowBack += !(item.unavailable ?? false) + ";";
-        rowBack += stores[item.store].getUrl(item) + ";";
+        if (stores[item.store]) {
+            rowBack += stores[item.store].getUrl(item) + ";";
+        } else {
+            console.log("Store", item.store, "not found!");
+            rowBack += ";";
+        }
 
         for (const price of item.priceHistory) {
             result += rowFront + price.date + ";" + price.price + rowBack + "\n";

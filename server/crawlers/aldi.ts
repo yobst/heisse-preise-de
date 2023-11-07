@@ -6,9 +6,12 @@ import * as utils from "./utils";
 import { stores } from "../../common/stores";
 
 const storeUnits: Record<string, UnitMapping> = {
-    KG: { unit: "g", factor: 1000 },
-    Stück: { unit: "stk", factor: 1 },
+    ea: { unit: "stk", factor: 1 },
+    "er-set": { unit: "stk", factor: 1 },
+    "er-packung": { unit: "stk", factor: 1 },
 };
+
+const invalidUnits = new Set(["v", "-lagig", "klingen", "-klingen"]);
 
 export class AldiCrawler implements Crawler {
     store = stores.aldi;
@@ -30,37 +33,40 @@ export class AldiCrawler implements Crawler {
     }
 
     getCanonical(rawItem: any, today: string): Item {
-        //console.log(JSON.stringify(rawItem));
-
         const price = rawItem.prices[0].grossAmount / 100;
         const isWeighted = false;
         const bio = rawItem.name.toLowerCase().includes("bio");
         const itemName = rawItem.name;
-        const description = itemName;
         const productId = rawItem.productConcreteSku;
         const unavailable = false;
-
-        const unitField = rawItem.preFormattedUnitContent ? rawItem.preFormattedUnitContent : rawItem.name;
         const defaultUnit: { quantity: number; unit: Unit } = { quantity: 1, unit: "stk" };
-        const { rawQuantity, rawUnit } = utils.extractRawUnitAndQuantityFromName(unitField, defaultUnit);
+
+        let rawQuantity = 1;
+        let rawUnit = "stk";
+
+        if (rawItem.preFormattedUnitContent) {
+            const res = utils.extractRawUnitAndQuantityFromEndOfString(rawItem.preFormattedUnitContent, defaultUnit);
+            rawQuantity = res.rawQuantity;
+            rawUnit = res.rawUnit;
+        }
+
+        if (rawUnit == defaultUnit.unit) {
+            const res = utils.extractRawUnitAndQuantityFromDescription(rawItem.name, defaultUnit);
+            rawQuantity = res.rawQuantity;
+            rawUnit = res.rawUnit;
+        }
+
+        if (invalidUnits.has(rawUnit)) {
+            rawQuantity = 1;
+            rawUnit = "stk";
+        }
+
         const { quantity, unit } = utils.normalizeUnitAndQuantity(itemName, rawUnit, rawQuantity, storeUnits, this.store.displayName, defaultUnit);
 
-        /*console.log(
-            this.store.id,
-            productId,
-            description,
-            this.getCategory(rawItem),
-            unavailable,
-            price,
-            [{ date: today, price }],
-            isWeighted,
-            unit,
-            quantity,
-            bio);*/
         return new Item(
             this.store.id,
             productId,
-            description,
+            itemName,
             this.getCategory(rawItem),
             unavailable,
             price,

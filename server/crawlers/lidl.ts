@@ -17,6 +17,7 @@ const storeUnits: Record<string, UnitMapping> = {
     g: { unit: "g", factor: 1 },
     kg: { unit: "g", factor: 1000 },
     "m²": { unit: "qm", factor: 1 },
+    m2: { unit: "qm", factor: 1 },
 };
 
 export class LidlCrawler implements Crawler {
@@ -29,43 +30,27 @@ export class LidlCrawler implements Crawler {
 
     getCanonical(rawItem: any, today: string): Item {
         const price = rawItem.price.price;
-        const description = rawItem.keyfacts?.description ?? "";
-        const itemName = `${rawItem.keyfacts?.supplementalDescription?.concat(" ") ?? ""}${rawItem.fullTitle}`;
-        const bio = itemName.toLowerCase().includes("bio");
-        const unavailable = false;
+        const description = `${rawItem.keyfacts?.supplementalDescription?.concat(" ") ?? ""}${rawItem.fullTitle}`;
+        const itemName = rawItem.fullTitle;
+        const bio = description.toLowerCase().includes("bio");
+        const unavailable = rawItem.stockAvailability.availabilityIndicator == 0;
         const productId = rawItem.productId;
+        const defaultUnit: { quantity: number; unit: Unit } = { quantity: 1, unit: "stk" };
 
-        let rawQuantity = 1;
-        let rawUnit = "";
         let isWeighted = false;
+        let text = (rawItem.price.basePrice?.text ?? "").trim().split("(")[0].toLowerCase();
 
-        let text = (rawItem.price.basePrice?.text ?? "").trim().split("(")[0].replaceAll(",", ".").toLowerCase();
         if (text === "per kg") {
             isWeighted = true;
-            rawUnit = "kg";
-        } else {
-            if (text.startsWith("bei") && text.search("je ") != -1) text = text.substr(text.search("je "));
-
-            for (let s of ["ab ", "je ", "ca. ", "z.b.: ", "z.b. "]) text = text.replace(s, "").trim();
-
-            const regex = /^([0-9.x ]+)(.*)$/;
-            const matches = text.match(regex);
-            if (matches) {
-                matches[1].split("x").forEach((q: string) => {
-                    rawQuantity = rawQuantity * parseFloat(q.split("/")[0]);
-                });
-                rawUnit = matches[2].split("/")[0].trim().split(" ")[0];
-            }
-            rawUnit = rawUnit.split("-")[0].split(";")[0];
         }
 
-        const defaultValue: { quantity: number; unit: Unit } = { quantity: 1, unit: "stk" };
-        const unitAndQuantity = utils.normalizeUnitAndQuantity(itemName, rawUnit, rawQuantity, storeUnits, this.store.displayName, defaultValue);
+        const { rawQuantity, rawUnit } = utils.extractRawUnitAndQuantityFromDescription(itemName, defaultUnit);
+        const unitAndQuantity = utils.normalizeUnitAndQuantity(itemName, rawUnit, rawQuantity, storeUnits, this.store.displayName, defaultUnit);
 
         return new Item(
+            this.store.id,
             productId,
             itemName,
-            description,
             this.getCategory(rawItem),
             unavailable,
             price,
@@ -77,7 +62,7 @@ export class LidlCrawler implements Crawler {
         );
     }
 
-    getCategory(rawItem: any): Category {
+    getCategory(_rawItem: any): Category {
         return "Unknown";
     }
 }

@@ -9,7 +9,7 @@ const storeUnits: Record<string, UnitMapping> = {
     wl: { unit: "wg", factor: 1 },
     bl: { unit: "stk", factor: 1 },
     btl: { unit: "stk", factor: 1 },
-    portion: { unit: "stk", factor: 1 },
+    portion: { unit: "srv", factor: 1 },
     satz: { unit: "stk", factor: 1 },
     tablette: { unit: "stk", factor: 1 },
     undefined: { unit: "stk", factor: 1 },
@@ -24,7 +24,7 @@ export class MuellerCrawler implements Crawler {
         let muellerItems = [];
 
         const MUELLER_CATEGORY_PAGES: any[] = [];
-        const data = (await get(`${exports.urlBase}/ajax/burgermenu/`)).data;
+        const data = (await get(`https://www.mueller.de/ajax/burgermenu/`)).data;
         data.forEach((category: any) => {
             if (!categoriesExcludeList.includes(category.name)) {
                 const subcategories = category.subcategories.map((subcategory: any) => subcategory.url);
@@ -77,20 +77,18 @@ export class MuellerCrawler implements Crawler {
     getCanonical(rawItem: any, today: string): Item {
         const price = parseFloat(rawItem.impressionDataLayer.ecommerce.impressions[0].price);
         const itemName = rawItem.name;
-        const description = itemName;
         const bio = itemName.toLowerCase().includes("bio");
-        const unavailable = false;
+        const unavailable = rawItem.availabilityInfo ? rawItem.availabilityInfo : false;
         const productId = rawItem.productId;
         const isWeighted = false;
-
         const defaultUnit: { quantity: number; unit: Unit } = { quantity: 1, unit: "stk" };
-        const { rawUnit, rawQuantity } = utils.extractRawUnitAndQuantityFromName(rawItem.quantityOfContent, defaultUnit);
+        const { rawUnit, rawQuantity } = utils.extractRawUnitAndQuantityFromEndOfString(rawItem.quantityOfContent, defaultUnit);
         const unitAndQuantity = utils.normalizeUnitAndQuantity(itemName, rawUnit, rawQuantity, storeUnits, this.store.displayName, defaultUnit);
 
         return new Item(
+            this.store.id,
             productId,
             itemName,
-            description,
             this.getCategory(rawItem),
             unavailable,
             price,

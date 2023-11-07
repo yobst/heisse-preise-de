@@ -9,7 +9,7 @@ const storeUnits: Record<string, UnitMapping> = {
     wl: { unit: "wg", factor: 1 },
     bl: { unit: "stk", factor: 1 },
     btl: { unit: "stk", factor: 1 },
-    portion: { unit: "stk", factor: 1 },
+    portion: { unit: "srv", factor: 1 },
     satz: { unit: "stk", factor: 1 },
     tablette: { unit: "stk", factor: 1 },
     mg: { unit: "g", factor: 0.001 },
@@ -83,39 +83,21 @@ export class DmCrawler implements Crawler {
     }
 
     getCanonical(rawItem: any, today: string): Item {
-        console.log("Dm:", JSON.stringify(rawItem));
-
         const price = rawItem.price.value;
         const itemName = `${rawItem.brandName} ${rawItem.name}`;
-        const description = itemName;
-        const bio =
-            rawItem.brandName === "dmBio" || Boolean(rawItem.name ? rawItem.name.startsWith("Bio ") | rawItem.name.startsWith("Bio-") : false);
+        const bio = rawItem.brandName === "dmBio" || (rawItem.name ? rawItem.name.startsWith("Bio ") || rawItem.name.startsWith("Bio-") : false);
         const unavailable = rawItem.notAvailable ? true : false;
         const productId = rawItem.gtin;
         const isWeighted = false;
-        const rawQuantity = rawItem.netQuantityContent || rawItem.basePriceQuantit;
+        const rawQuantity = rawItem.netQuantityContent || rawItem.basePriceQuantity;
         const rawUnit = rawItem.contentUnit || rawItem.basePriceUnit;
         const defaultValue: { quantity: number; unit: Unit } = { quantity: 1, unit: "stk" };
-        const unitAndQuantity = utils.normalizeUnitAndQuantity(itemName, rawUnit, rawQuantity, storeUnits, this.store.displayName, defaultValue);
-
-        console.log(
-            productId,
-            itemName,
-            description,
-            this.getCategory(rawItem),
-            unavailable,
-            price,
-            [{ date: today, price: price, unitPrice: 0 }],
-            isWeighted,
-            unitAndQuantity.unit,
-            unitAndQuantity.quantity,
-            bio
-        );
+        const unitAndQuantity = utils.normalizeUnitAndQuantity(rawItem.name, rawUnit, rawQuantity, storeUnits, this.store.displayName, defaultValue);
 
         return new Item(
+            this.store.id,
             productId,
             itemName,
-            description,
             this.getCategory(rawItem),
             unavailable,
             price,
@@ -128,6 +110,7 @@ export class DmCrawler implements Crawler {
     }
 
     getCategory(_rawItem: any): Category {
+        //return rawItem.categoryNames;
         return "Unknown";
     }
 }

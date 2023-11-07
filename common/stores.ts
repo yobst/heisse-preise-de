@@ -7,7 +7,7 @@ export const stores: Record<string, Store> = {
         id: "aldi",
         displayName: "Aldi",
         budgetBrands: ["milsana"],
-        color: "lime",
+        color: "blue",
         defaultChecked: true,
         getUrl: (item) => `https://www.mein-aldi.de/product/${item.url}`,
         productUrlBase: "https://www.mein-aldi.de/product/",
@@ -33,12 +33,11 @@ export const stores: Record<string, Store> = {
         productUrlBase: "https://www.lidl.de/",
         removeOld: true,
     },
-    /*
     mueller: {
         id: "mueller",
         displayName: "Müller",
         budgetBrands: ["aveo"],
-        color: "stone",
+        color: "orange",
         defaultChecked: false,
         getUrl: (item) => `https://www.muller.de/${item.url}`,
         productUrlBase: "https://www.muller.de/",
@@ -46,14 +45,14 @@ export const stores: Record<string, Store> = {
     },
     rewe: {
         id: "rewe",
-        displayName: "REWE",
+        displayName: "Rewe",
         budgetBrands: ["ja!"],
-        color: "stone",
+        color: "red",
         defaultChecked: false,
         getUrl: (item) => `https://shop.rewe.de/p/${item.name.toLowerCase().replace(allSpacesRegex, "-")}/${item.id}`,
         productUrlBase: "https://shop.rewe.de/p/",
         removeOld: false,
-    }*/
+    },
 };
 
 export const STORE_KEYS = Object.keys(stores);
