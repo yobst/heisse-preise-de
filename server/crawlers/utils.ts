@@ -1,4 +1,4 @@
-import { Item, Unit, UnitMapping, units } from "../../common/models";
+import { Unit, UnitMapping, units } from "../../common/models";
 
 export function normalizeUnitAndQuantity(
     itemName: string,
@@ -23,23 +23,38 @@ export function normalizeUnitAndQuantity(
     return { quantity: mapping.factor * quantity, unit: mapping.unit };
 }
 
-export function extractRawUnitAndQuantityFromName(name: string) {
-    let unit: string = "";
-    let quantity = 1;
-
-    const nameTokens = name.trim().replaceAll("(", "").replaceAll(")", "").replaceAll(",", ".").split(" ");
-    const lastToken = nameTokens[nameTokens.length - 1];
-    const secondLastToken = nameTokens.length >= 2 ? nameTokens[nameTokens.length - 2] : null;
-
-    const token = parseFloat(lastToken) ? lastToken : secondLastToken + lastToken;
-    const regex = /^([0-9.x]+)(.*)$/;
+export function extractRawUnitAndQuantityFromEndOfString(str: string, defaultValue: any) {
+    const tokens = str.trim().replaceAll("(", "").replaceAll(")", "").split(" ");
+    const lastToken = tokens[tokens.length - 1].replaceAll(",", ".");
+    const secondLastToken = tokens.length >= 2 && !tokens[tokens.length - 2].endsWith(",") ? tokens[tokens.length - 2].replaceAll(",", ".") : "";
+    const token = /\d/.test(lastToken) ? lastToken : /^\d+(.\d*)?$/.test(secondLastToken) ? secondLastToken + lastToken : "";
+    const regex = /^([0-9.x]+)([^0-9]*)$/;
     const matches = token.match(regex);
-    if (matches) {
+
+    let unit = defaultValue.unit;
+    let quantity = defaultValue.quantity;
+
+    if (matches && matches[2].trim().length > 0) {
         matches[1].split("x").forEach((q) => {
             quantity = quantity * parseFloat(q);
         });
         unit = matches[2];
-        return { rawQuantity: quantity, rawUnit: unit.toLowerCase() };
     }
-    return undefined;
+    return { rawQuantity: quantity, rawUnit: unit.toLowerCase() };
+}
+
+export function extractRawUnitAndQuantityFromDescription(description: string, defaultValue: any) {
+    const parts = description.split(/(?:, |[()])/);
+
+    let unit = defaultValue.unit;
+    let quantity = defaultValue.quantity;
+
+    for (let part of parts.reverse()) {
+        const res = extractRawUnitAndQuantityFromEndOfString(part, defaultValue);
+        quantity = res.rawQuantity;
+        unit = res.rawUnit;
+        if (unit != defaultValue.unit) break;
+    }
+
+    return { rawQuantity: quantity, rawUnit: unit.toLowerCase() };
 }
