@@ -49,18 +49,31 @@ Once the app is listening per default on port 3000, open <http://localhost:3000>
 
 Subsequent starts will fetch the data asynchronously, so you can start working immediately.
 
-### Production
+### Production and Staging
 
-Install the dependencies as per above, then simply run:
+To run a containerized version of the application, you will need to build the application image first, before deploying it on the target system.
+
+#### Build
 
 ```
-git clone https://github.com/yobst/heisse-preise-de
-cd heissepreise
-node --dns-result-order=ipv4first /usr/bin/npm install --omit=dev
-npm run start
+docker build . -t localhost/heisse-preise-de_site:latest
+```
+
+#### Deployment
+
+For the _development_ version run following command:
+
+```
+docker run --volume=$(pwd):/heisse-preise-de --volume=$(pwd)/data/:/heisse-preise-de/data --publish 3000:3000 --entrypoint npm localhost/heisse-preise-de_site:latest run dev
 ```
 
 Once the app is listening per default on port 3000, open <http://localhost:3000> in your browser.
+
+For the _production_ environment run the following:
+
+```
+docker run --volume=$(pwd):/heisse-preise-de --volume=$(pwd)/data/:/heisse-preise-de/data --publish 3000:3000 --entrypoint npm localhost/heisse-preise-de_site:latest run start
+```
 
 ## Using data from heisse-preise-de
 
