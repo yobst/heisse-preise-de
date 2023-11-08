@@ -38,14 +38,20 @@ export class LidlCrawler implements Crawler {
         const defaultUnit: { quantity: number; unit: Unit } = { quantity: 1, unit: "stk" };
 
         let isWeighted = false;
-        let text = (rawItem.price.basePrice?.text ?? "").trim().split("(")[0].toLowerCase();
+        let rawQuantity = rawItem.price.packaging?.amount;
+        let rawUnit = rawItem.price.packaging?.unit;
 
-        if (text === "per kg") {
-            isWeighted = true;
+        if (!rawUnit) {
+            rawUnit = "stk";
+            rawQuantity = 1;
+            const regex = /([0-9]+)\s+Stück/;
+            const matches = description.match(regex);
+            if (matches) {
+                rawQuantity = parseFloat(matches[1]);
+            }
         }
 
-        const { rawQuantity, rawUnit } = utils.extractRawUnitAndQuantityFromDescription(itemName, defaultUnit);
-        const unitAndQuantity = utils.normalizeUnitAndQuantity(itemName, rawUnit, rawQuantity, storeUnits, this.store.displayName, defaultUnit);
+        const unitAndQuantity = utils.normalizeUnitAndQuantity(description, rawUnit, rawQuantity, storeUnits, this.store.displayName, defaultUnit);
 
         return new Item(
             this.store.id,
@@ -62,7 +68,8 @@ export class LidlCrawler implements Crawler {
         );
     }
 
-    getCategory(_rawItem: any): Category {
+    getCategory(rawItem: any): Category {
+        //rawItem.category;
         return "Unknown";
     }
 }
