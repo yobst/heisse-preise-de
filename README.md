@@ -12,10 +12,12 @@ German fork of Austrian [heissepreise](https://github.com/badlogic/heissepreise)
     -   Combi.de
     -   myTime.de
     -   Edeka
-    -   Netto Kaufland
+    -   Netto
+    -   Kaufland
 
 -   Additional attributes
     -   origin
+    -   gtin
 
 ## Requirements
 
