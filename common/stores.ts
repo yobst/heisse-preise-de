@@ -23,6 +23,16 @@ export const stores: Record<string, Store> = {
         productUrlBase: "https://www.dm.de/",
         removeOld: false,
     },
+    edeka: {
+        id: "edeka",
+        displayName: "Edeka",
+        budgetBrands: ["gut&günstig"],
+        color: "yellow",
+        defaultChecked: false,
+        getUrl: (item) => `https://www.edeka.de/offers`, // no product page available
+        productUrlBase: "https://www.edeka.de/offers",
+        removeOld: false,
+    },
     lidl: {
         id: "lidl",
         displayName: "Lidl",
