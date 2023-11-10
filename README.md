@@ -57,7 +57,7 @@ To run a containerized version of the application, you will need to build the ap
 
 #### Build
 
-```
+```bash
 docker build . -t localhost/heisse-preise-de_site:latest
 ```
 
@@ -65,16 +65,16 @@ docker build . -t localhost/heisse-preise-de_site:latest
 
 For the _development_ version run following command:
 
-```
-docker run --volume=$(pwd):/heisse-preise-de --volume=$(pwd)/data/:/heisse-preise-de/data --publish 3000:3000 --entrypoint npm localhost/heisse-preise-de_site:latest run dev
+```bash
+docker run --volume=$(pwd):/heisse-preise-de --volume=$(pwd)/data/:/heisse-preise-de/data localhost/heisse-preise-de_site:latest run dev
 ```
 
 Once the app is listening per default on port 3000, open <http://localhost:3000> in your browser.
 
 For the _production_ environment run the following:
 
-```
-docker run --volume=$(pwd):/heisse-preise-de --volume=$(pwd)/data/:/heisse-preise-de/data --publish 3000:3000 --entrypoint npm localhost/heisse-preise-de_site:latest run start
+```bash
+docker run --volume=$(pwd):/heisse-preise-de --volume=$(pwd)/data/:/heisse-preise-de/data --publish 3000:3000 localhost/heisse-preise-de_site:latest run start
 ```
 
 ## Using data from heisse-preise-de
