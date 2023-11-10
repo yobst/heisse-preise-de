@@ -64,7 +64,8 @@ export class LidlCrawler implements Crawler {
             isWeighted,
             unitAndQuantity.unit,
             unitAndQuantity.quantity,
-            bio
+            bio,
+            rawItem.canonicalUrl
         );
     }
 
