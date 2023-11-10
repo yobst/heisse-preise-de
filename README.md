@@ -74,7 +74,7 @@ Once the app is listening per default on port 3000, open <http://localhost:3000>
 For the _production_ environment run the following:
 
 ```bash
-docker run --volume=$(pwd):/heisse-preise-de --volume=$(pwd)/data/:/heisse-preise-de/data --publish 3000:3000 localhost/heisse-preise-de_site:latest run start
+docker run --volume=$(pwd):/heisse-preise-de --volume=$(pwd)/data/:/heisse-preise-de/data localhost/heisse-preise-de_site:latest run start
 ```
 
 ## Using data from heisse-preise-de
