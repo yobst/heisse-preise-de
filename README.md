@@ -55,26 +55,16 @@ Subsequent starts will fetch the data asynchronously, so you can start working i
 
 To run a containerized version of the application, you will need to build the application image first, before deploying it on the target system.
 
-#### Build
+Build the image running the following:
 
 ```bash
 docker build . -t localhost/heisse-preise-de_site:latest
 ```
 
-#### Deployment
-
-For the _development_ version run following command:
+Deploy the container with the following command
 
 ```bash
-docker run --volume=$(pwd):/heisse-preise-de --volume=$(pwd)/data/:/heisse-preise-de/data localhost/heisse-preise-de_site:latest run dev
-```
-
-Once the app is listening per default on port 3000, open <http://localhost:3000> in your browser.
-
-For the _production_ environment run the following:
-
-```bash
-docker run --volume=$(pwd):/heisse-preise-de --volume=$(pwd)/data/:/heisse-preise-de/data localhost/heisse-preise-de_site:latest run start
+docker run --volume=$(pwd)/data/:/heisse-preise-de/data --publish 3000:3000 localhost/heisse-preise-de_site:latest
 ```
 
 ## Using data from heisse-preise-de
