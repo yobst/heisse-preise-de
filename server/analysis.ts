@@ -5,6 +5,7 @@ import { promisify } from "util";
 import { crawlers } from "./crawlers";
 import { Item } from "../common/models";
 import { STORE_KEYS } from "../common/stores";
+import * as pg from "../common/postgresql";
 
 const BROTLI_OPTIONS = {
     params: {
@@ -210,6 +211,8 @@ export async function updateData(dataDir: string, done: (items: Item[]) => void 
     sortItems(items);
     items = dedupItems(items);
     writeJSON(`${dataDir}/latest-canonical.json`, items, true);
+
+    pg.insertData(items);
 
     if (done) done(items);
     return items;
