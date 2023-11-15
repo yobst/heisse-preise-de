@@ -1,5 +1,5 @@
 {
-  "name": "heisse-preise",
+  "name": "heisse-preise-de",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
@@ -13,14 +13,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/heisse-preise/heisse-preise-template.git"
+    "url": "git+https://github.com/yobst/heisse-preise-de.git"
   },
   "author": "",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/heisse-preise/heisse-preise-template/issues"
+    "url": "https://github.com/yobst/heisse-preise-de/issues"
   },
-  "homepage": "https://github.com/heisse-preise/heisse-preise-template#readme",
+  "homepage": "https://github.com/yobst/heisse-preise-de#readme",
   "dependencies": {
     "alasql": "^4.0.4",
     "axios": "^1.4.0",
