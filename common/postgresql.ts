@@ -23,7 +23,7 @@ export async function makeTable() {
         "CREATE TABLE IF NOT EXISTS prices (\
                     store VARCHAR(255) NOT NULL,\
                     id VARCHAR(255) NOT NULL,\
-                    name VARCHAR(255) NOT NULL,\
+                    name VARCHAR(510) NOT NULL,\
                     category VARCHAR(255),\
                     unavailable VARCHAR(255),\
                     price MONEY NOT NULL,\
