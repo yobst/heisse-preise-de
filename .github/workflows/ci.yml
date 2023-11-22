@@ -12,6 +12,16 @@ jobs:
         with:
           fetch-depth: 0
 
+      - name: Docker metadata
+        id: scraper
+        uses: docker/metadata-action@v5
+        with:
+          images: |
+            ghcr.io/yobst/yobst-scraper
+          tags: |
+            type=sha,prefix=0.1.
+            type=raw,value=latest,enable={{is_default_branch}}
+
       - name: Login to GitHub Container Registry
         uses: docker/login-action@v3
         # if: github.ref == 'refs/heads/main'
@@ -25,4 +35,5 @@ jobs:
         # if: github.ref == 'refs/heads/main'
         with:
           push: true
-          tags: ghcr.io/yobst/yobst-scrapter:latest
+          tags: ${{ steps.scraper.outputs.tags }}
+          labels: ${{ steps.scraper.outputs.labels }}
