@@ -14,14 +14,15 @@ jobs:
 
       - name: Login to GitHub Container Registry
         uses: docker/login-action@v3
-        if: github.ref == 'refs/heads/main'
+        # if: github.ref == 'refs/heads/main'
         with:
           registry: ghcr.io
           username: ${{ github.actor }}
           password: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Release
-        if: github.ref == 'refs/heads/main'
-        run: |
-          docker build -t ghcr.io/yobst/yobst-scrapter:latest 
-          docker push ghcr.io/yobst/yobst-scraper:latest
+      - name: Build and push
+        uses: docker/build-push-action@v5
+        # if: github.ref == 'refs/heads/main'
+        with:
+          push: true
+          tags: ghcr.io/yobst/yobst-scrapter:latest
