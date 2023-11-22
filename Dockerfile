@@ -10,7 +10,6 @@ RUN npm run build
 
 FROM node:21
 
-COPY --from=build /heisse-preise-de/site/build /heisse-preise-de/site/build
 COPY --from=build /heisse-preise-de/server/build /heisse-preise-de/server/build
 COPY --from=build /heisse-preise-de/package.json /heisse-preise-de/package.json
 
@@ -21,5 +20,5 @@ LABEL org.opencontainers.image.description="Yobst Price Scraper"
 
 WORKDIR /heisse-preise-de/
 
-ENTRYPOINT ["npm"] 
+ENTRYPOINT ["npm"]
 CMD ["run", "server"]
