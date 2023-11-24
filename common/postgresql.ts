@@ -1,13 +1,7 @@
-import { Pool } from "pg";
+import { Client } from "pg";
 import { Item } from "./models";
 
-const pool = new Pool({
-    host: process.env.DB_HOST || "localhost",
-    user: process.env.DB_USER || "heissepreise",
-    database: process.env.DB_NAME || "heissepreise",
-    password: process.env.DB_PASSWORD || "foobar",
-    port: parseInt(process.env.DB_PORT || "5432"),
-});
+const pool = new Client();
 
 export async function connect() {
     try {

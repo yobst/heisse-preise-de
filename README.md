@@ -25,6 +25,10 @@ German fork of Austrian [heissepreise](https://github.com/badlogic/heissepreise)
 
 ## Running
 
+### Postgresql Connection
+
+This application adheres to the [official Postgresql environment variables](https://www.postgresql.org/docs/9.1/libpq-envars.html).
+
 ### Development
 
 Install NodeJS, then run this in a shell of your choice.
