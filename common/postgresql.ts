@@ -1,11 +1,11 @@
 import { Client } from "pg";
 import { Item } from "./models";
 
-const pool = new Client();
+const client = new Client();
 
 export async function connect() {
     try {
-        await pool.connect();
+        await client.connect();
         console.log("Connected to PostgreSQL database");
     } catch (err) {
         console.log("Error connecting to PostgreSQL:", err);
@@ -32,7 +32,7 @@ export async function makeTable() {
                     chart BOOLEAN,\
                     PRIMARY KEY (store, id));";
     try {
-        await pool.query(text);
+        await client.query(text);
         console.log("Table successfully created");
     } catch (error) {
         console.error("Error creating table", error);
@@ -47,9 +47,9 @@ export async function insertData(items: Item[]) {
                       SET store = excluded.store, id = excluded.id;";
     let counter = 0;
     try {
-        await pool.query("BEGIN");
+        await client.query("BEGIN");
         for (const item of items) {
-            const result = await pool.query(text, [
+            const result = await client.query(text, [
                 item.store,
                 item.id,
                 item.name,
@@ -68,10 +68,10 @@ export async function insertData(items: Item[]) {
             ]);
             counter = counter + result.rowCount!;
         }
-        await pool.query("COMMIT");
+        await client.query("COMMIT");
         console.log("Data inserted successfully:", counter);
     } catch (error) {
-        await pool.query("ROLLBACK");
+        await client.query("ROLLBACK");
         console.error("Error inserting data:", error);
     }
 }
@@ -79,7 +79,7 @@ export async function insertData(items: Item[]) {
 async function query() {
     const count = "SELECT COUNT(*) FROM foo;";
     try {
-        const countResult = await pool.query(count);
+        const countResult = await client.query(count);
         console.log("COUNT:", countResult);
     } catch (error) {
         console.log("Failed:", error);
