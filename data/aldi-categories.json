@@ -1,0 +1,1255 @@
+[
+  {
+    "name": "Obst & Gemüse",
+    "urlSlugText": "produkte/obst-gem-se",
+    "id": 318,
+    "categoryKey": "19000000",
+    "code": "All"
+  },
+  {
+    "name": "Obst",
+    "urlSlugText": "obst-gem-se/obst",
+    "id": 319,
+    "categoryKey": "19010000",
+    "code": "All / Obst"
+  },
+  {
+    "name": "Gemüse",
+    "urlSlugText": "obst-gem-se/gem-se",
+    "id": 320,
+    "categoryKey": "19020000",
+    "code": "All / Gemüse"
+  },
+  {
+    "name": "Salat",
+    "urlSlugText": "obst-gem-se/salat",
+    "id": 321,
+    "categoryKey": "19030000",
+    "code": "All / Gemüse / Salate"
+  },
+  {
+    "name": "Kräuter",
+    "urlSlugText": "obst-gem-se/kr-uter",
+    "id": 322,
+    "categoryKey": "19040000",
+    "code": "All / Gemüse / Kräuter"
+  },
+  {
+    "name": "Eier & Milchprodukte",
+    "urlSlugText": "produkte/eier-milchprodukte",
+    "id": 323,
+    "categoryKey": "20000000",
+    "code": "All"
+  },
+  {
+    "name": "Milch",
+    "urlSlugText": "eier-milchprodukte/milch",
+    "id": 324,
+    "categoryKey": "20010000",
+    "code": "All / Milchprodukte / Milch"
+  },
+  {
+    "name": "Joghurt & Skyr",
+    "urlSlugText": "eier-milchprodukte/naturjoghurt-skyr",
+    "id": 325,
+    "categoryKey": "20020000",
+    "code": "All / Milchprodukte / Joghurt"
+  },
+  {
+    "name": "Fruchtjoghurt & Sahnejoghurt",
+    "urlSlugText": "eier-milchprodukte/frucht-sahnejoghurt",
+    "id": 326,
+    "categoryKey": "20030000",
+    "code": "All / Milchprodukte / Joghurt"
+  },
+  {
+    "name": "Milchsnacks & Desserts",
+    "urlSlugText": "eier-milchprodukte/milchsnacks-desserts",
+    "id": 327,
+    "categoryKey": "20040000",
+    "code": "All / Milchprodukte / Weitere"
+  },
+  {
+    "name": "Milchdrinks & Trinkjoghurt",
+    "urlSlugText": "eier-milchprodukte/milchdrinks-trinkjoghurt",
+    "id": 328,
+    "categoryKey": "20050000",
+    "code": "All / Milchprodukte / Weitere"
+  },
+  {
+    "name": "Quark",
+    "urlSlugText": "eier-milchprodukte/quark",
+    "id": 329,
+    "categoryKey": "20060000",
+    "code": "All / Milchprodukte / Quark"
+  },
+  {
+    "name": "Sahne, Schmand & Crème fraîche",
+    "urlSlugText": "eier-milchprodukte/sahne-schmand-co-",
+    "id": 330,
+    "categoryKey": "20070000",
+    "code": "All / Milchprodukte / Weitere"
+  },
+  {
+    "name": "Butter, Margarine & Fette",
+    "urlSlugText": "eier-milchprodukte/butter-margarine-fette",
+    "id": 331,
+    "categoryKey": "20080000",
+    "code": "All / Milchprodukte / Butter"
+  },
+  {
+    "name": "Eier",
+    "urlSlugText": "eier-milchprodukte/eier",
+    "id": 332,
+    "categoryKey": "20090000",
+    "code": "All / Eier und Eiprodukte"
+  },
+  {
+    "name": "Käse",
+    "urlSlugText": "produkte/k-se",
+    "id": 333,
+    "categoryKey": "21000000",
+    "code": "All / Milchprodukte / Käse"
+  },
+  {
+    "name": "Schnittkäse",
+    "urlSlugText": "k-se/schnittk-se",
+    "id": 334,
+    "categoryKey": "21010000",
+    "code": "All / Milchprodukte / Käse"
+  },
+  {
+    "name": "Stückkäse",
+    "urlSlugText": "k-se/st-ckk-se",
+    "id": 335,
+    "categoryKey": "21020000",
+    "code": "All / Milchprodukte / Käse"
+  },
+  {
+    "name": "Frischkäse",
+    "urlSlugText": "k-se/frischk-se",
+    "id": 336,
+    "categoryKey": "21030000",
+    "code": "All / Milchprodukte / Käse"
+  },
+  {
+    "name": "Weichkäse",
+    "urlSlugText": "k-se/weichk-se",
+    "id": 337,
+    "categoryKey": "21040000",
+    "code": "All / Milchprodukte / Käse"
+  },
+  {
+    "name": "Hartkäse & Stückkäse",
+    "urlSlugText": "k-se/hartk-se",
+    "id": 338,
+    "categoryKey": "21050000",
+    "code": "All / Milchprodukte / Käse"
+  },
+  {
+    "name": "Schmelzkäse",
+    "urlSlugText": "k-se/schmelzk-se",
+    "id": 339,
+    "categoryKey": "21060000",
+    "code": "All / Milchprodukte / Käse"
+  },
+  {
+    "name": "Feta & Hirtenkäse",
+    "urlSlugText": "k-se/feta-hirtenk-se",
+    "id": 340,
+    "categoryKey": "21070000",
+    "code": "All / Milchprodukte / Käse"
+  },
+  {
+    "name": "Mozzarella",
+    "urlSlugText": "k-se/mozzarella",
+    "id": 341,
+    "categoryKey": "21080000",
+    "code": "All / Milchprodukte / Käse"
+  },
+  {
+    "name": "Geriebener Käse",
+    "urlSlugText": "k-se/reibek-se",
+    "id": 342,
+    "categoryKey": "21090000",
+    "code": "All / Milchprodukte / Käse"
+  },
+  {
+    "name": "Ofenkäse & Grillkäse",
+    "urlSlugText": "k-se/ofen-grillk-se",
+    "id": 343,
+    "categoryKey": "21100000",
+    "code": "All / Milchprodukte / Käse"
+  },
+  {
+    "name": "Käseersatz",
+    "urlSlugText": "k-se/k-seersatz",
+    "id": 344,
+    "categoryKey": "21110000",
+    "code": "All / Milchprodukte / Käse"
+  },
+  {
+    "name": "Fleisch & Fisch",
+    "urlSlugText": "produkte/fleisch-fisch-veggie",
+    "id": 345,
+    "categoryKey": "22000000",
+    "code": "All"
+  },
+  {
+    "name": "Vegetarisch & Vegan",
+    "urlSlugText": "fleisch-fisch-veggie/vegetarisch-vegan",
+    "id": 346,
+    "categoryKey": "22010000",
+    "code": "All"
+  },
+  {
+    "name": "Geflügel",
+    "urlSlugText": "fleisch-fisch-veggie/gefl-gel",
+    "id": 347,
+    "categoryKey": "22020000",
+    "code": "All / Fleisch"
+  },
+  {
+    "name": "Schwein",
+    "urlSlugText": "fleisch-fisch-veggie/schwein",
+    "id": 348,
+    "categoryKey": "22030000",
+    "code": "All / Fleisch"
+  },
+  {
+    "name": "Rind",
+    "urlSlugText": "fleisch-fisch-veggie/rind",
+    "id": 349,
+    "categoryKey": "22040000",
+    "code": "All / Fleisch"
+  },
+  {
+    "name": "Hackfleisch",
+    "urlSlugText": "fleisch-fisch-veggie/hackfleisch",
+    "id": 350,
+    "categoryKey": "22050000",
+    "code": "All / Fleisch"
+  },
+  {
+    "name": "Lamm & Wild",
+    "urlSlugText": "fleisch-fisch-veggie/lamm-wild",
+    "id": 351,
+    "categoryKey": "22060000",
+    "code": "All / Fleisch"
+  },
+  {
+    "name": "Bratwurst & Würstchen",
+    "urlSlugText": "fleisch-fisch-veggie/brat-br-hwurst",
+    "id": 352,
+    "categoryKey": "22070000",
+    "code": "All / Fleisch"
+  },
+  {
+    "name": "Fisch & Meeresfrüchte",
+    "urlSlugText": "fleisch-fisch-veggie/fisch-meeresfr-chte",
+    "id": 353,
+    "categoryKey": "22080000",
+    "code": "All / Fisch"
+  },
+  {
+    "name": "Wurstaufschnitt",
+    "urlSlugText": "fleisch-fisch-veggie/wurstaufschnitt",
+    "id": 354,
+    "categoryKey": "22090000",
+    "code": "All / Fleisch"
+  },
+  {
+    "name": "Salami",
+    "urlSlugText": "fleisch-fisch-veggie/salami",
+    "id": 355,
+    "categoryKey": "22100000",
+    "code": "All / Fleisch"
+  },
+  {
+    "name": "Schinken & Speck",
+    "urlSlugText": "fleisch-fisch-veggie/schinken-speck",
+    "id": 356,
+    "categoryKey": "22110000",
+    "code": "All / Fleisch"
+  },
+  {
+    "name": "Streichwurst",
+    "urlSlugText": "fleisch-fisch-veggie/streichwurst",
+    "id": 357,
+    "categoryKey": "22120000",
+    "code": "All / Fleisch"
+  },
+  {
+    "name": "Würstchen",
+    "urlSlugText": "fleisch-fisch-veggie/w-rstchen",
+    "id": 358,
+    "categoryKey": "22130000",
+    "code": "All / Fleisch"
+  },
+  {
+    "name": "Fisch-& Fleischsalate",
+    "urlSlugText": "fleisch-fisch-veggie/fisch-fleischsalate",
+    "id": 359,
+    "categoryKey": "22140000",
+    "code": "All"
+  },
+  {
+    "name": "Feinkost & frische Teigwaren",
+    "urlSlugText": "produkte/convenience-feinkost",
+    "id": 360,
+    "categoryKey": "23000000",
+    "code": "All"
+  },
+  {
+    "name": "Frische Fertiggerichte",
+    "urlSlugText": "convenience-feinkost/frische-fertiggerichte",
+    "id": 361,
+    "categoryKey": "23010000",
+    "code": "All / Weitere Verarbeitete Lebensmittel / Fertiggerichte"
+  },
+  {
+    "name": "Fertigteig",
+    "urlSlugText": "convenience-feinkost/fertigteig",
+    "id": 362,
+    "categoryKey": "23020000",
+    "code": "All"
+  },
+  {
+    "name": "Desserts",
+    "urlSlugText": "convenience-feinkost/desserts",
+    "id": 363,
+    "categoryKey": "23030000",
+    "code": "All"
+  },
+  {
+    "name": "Frische Salate",
+    "urlSlugText": "convenience-feinkost/frische-salate",
+    "id": 364,
+    "categoryKey": "23040000",
+    "code": "All / Gemüse / Salate"
+  },
+  {
+    "name": "Feinkostsalate",
+    "urlSlugText": "convenience-feinkost/feinkostsalate",
+    "id": 365,
+    "categoryKey": "23050000",
+    "code": "All / Gemüse / Salate"
+  },
+  {
+    "name": "Antipasti",
+    "urlSlugText": "convenience-feinkost/antipasti",
+    "id": 366,
+    "categoryKey": "23060000",
+    "code": "All"
+  },
+  {
+    "name": "Saucen & Dips",
+    "urlSlugText": "convenience-feinkost/saucen-dips",
+    "id": 367,
+    "categoryKey": "23070000",
+    "code": "All"
+  },
+  {
+    "name": "Backwaren, Cerealien & Aufstriche",
+    "urlSlugText": "produkte/brot-backwaren-cerealien",
+    "id": 368,
+    "categoryKey": "24000000",
+    "code": "All / Backwaren"
+  },
+  {
+    "name": "Frisches Brot",
+    "urlSlugText": "brot-backwaren-cerealien/frisches-brot",
+    "id": 369,
+    "categoryKey": "24010000",
+    "code": "All / Backwaren"
+  },
+  {
+    "name": "Brot, Brötchen & Baguette",
+    "urlSlugText": "brot-backwaren-cerealien/brot",
+    "id": 370,
+    "categoryKey": "24020000",
+    "code": "All / Backwaren"
+  },
+  {
+    "name": "Brötchen & Baguette",
+    "urlSlugText": "brot-backwaren-cerealien/br-tchen-baguette",
+    "id": 371,
+    "categoryKey": "24030000",
+    "code": "All / Backwaren"
+  },
+  {
+    "name": "Toast, Burgerbrötchen & Wraps",
+    "urlSlugText": "brot-backwaren-cerealien/toast-burgerbr-tchen-wraps",
+    "id": 372,
+    "categoryKey": "24040000",
+    "code": "All / Backwaren"
+  },
+  {
+    "name": "Knäckebrot, Zwieback & Reiswaffeln",
+    "urlSlugText": "brot-backwaren-cerealien/kn-ckebrot-zwieback-reiswaffeln",
+    "id": 373,
+    "categoryKey": "24050000",
+    "code": "All / Backwaren"
+  },
+  {
+    "name": "Süße Brötchen & Croissants",
+    "urlSlugText": "brot-backwaren-cerealien/s-e-br-tchen-croissants",
+    "id": 374,
+    "categoryKey": "24060000",
+    "code": "All / Backwaren"
+  },
+  {
+    "name": "Gebäck, Kuchen & Waffeln",
+    "urlSlugText": "brot-backwaren-cerealien/geb-ck-kuchen",
+    "id": 375,
+    "categoryKey": "24070000",
+    "code": "All / Backwaren"
+  },
+  {
+    "name": "Müsli, Haferflocken & Cornflakes",
+    "urlSlugText": "brot-backwaren-cerealien/cerealien-cornflakes",
+    "id": 376,
+    "categoryKey": "24080000",
+    "code": "All / Weitere Verarbeitete Lebensmittel / Müsli"
+  },
+  {
+    "name": "Müsliriegel & Fruchtriegel",
+    "urlSlugText": "brot-backwaren-cerealien/m-sli-m-sliriegel",
+    "id": 377,
+    "categoryKey": "24090000",
+    "code": "All / Backwaren"
+  },
+  {
+    "name": "Marmelade und Konfitüre",
+    "urlSlugText": "brot-backwaren-cerealien/fruchtaufstrich",
+    "id": 378,
+    "categoryKey": "24100000",
+    "code": "All / Weitere Verarbeitete Lebensmittel / Brotaufstrich und Mus"
+  },
+  {
+    "name": "Honig",
+    "urlSlugText": "brot-backwaren-cerealien/honig",
+    "id": 379,
+    "categoryKey": "24110000",
+    "code": "All / Zuckerarten, Sirupe und Honig"
+  },
+  {
+    "name": "Nuss- & Schokoladenaufstriche",
+    "urlSlugText": "brot-backwaren-cerealien/nuss-schokoladenaufstriche",
+    "id": 380,
+    "categoryKey": "24120000",
+    "code": "All / Weitere Verarbeitete Lebensmittel / Brotaufstrich und Mus"
+  },
+  {
+    "name": "Herzhafte Aufstriche",
+    "urlSlugText": "brot-backwaren-cerealien/herzhafte-vegane-aufstriche",
+    "id": 381,
+    "categoryKey": "24130000",
+    "code": "All / Weitere Verarbeitete Lebensmittel / Brotaufstrich und Mus"
+  },
+  {
+    "name": "Heißgetränke",
+    "urlSlugText": "produkte/hei-getr-nke",
+    "id": 382,
+    "categoryKey": "25000000",
+    "code": "All / Weitere Verarbeitete Lebensmittel"
+  },
+  {
+    "name": "Kaffee",
+    "urlSlugText": "hei-getr-nke/kaffee",
+    "id": 383,
+    "categoryKey": "25010000",
+    "code": "All / Weitere Verarbeitete Lebensmittel / Kaffee"
+  },
+  {
+    "name": "Tee",
+    "urlSlugText": "hei-getr-nke/tee",
+    "id": 384,
+    "categoryKey": "25020000",
+    "code": "All / Weitere Verarbeitete Lebensmittel / Tee"
+  },
+  {
+    "name": "Kakao",
+    "urlSlugText": "hei-getr-nke/kakao",
+    "id": 385,
+    "categoryKey": "25030000",
+    "code": "All / Weitere Verarbeitete Lebensmittel / Kakao"
+  },
+  {
+    "name": "Nudeln, Reis & Co.",
+    "urlSlugText": "produkte/pasta-reis-getreide",
+    "id": 386,
+    "categoryKey": "26000000",
+    "code": "All"
+  },
+  {
+    "name": "Pasta",
+    "urlSlugText": "pasta-reis-getreide/pasta",
+    "id": 387,
+    "categoryKey": "26010000",
+    "code": "All / Getreide und Getreideprodukte / Nudeln"
+  },
+  {
+    "name": "Reis",
+    "urlSlugText": "pasta-reis-getreide/reis",
+    "id": 388,
+    "categoryKey": "26020000",
+    "code": "All"
+  },
+  {
+    "name": "Kartoffelprodukte",
+    "urlSlugText": "pasta-reis-getreide/kartoffelprodukte",
+    "id": 389,
+    "categoryKey": "26030000",
+    "code": "All"
+  },
+  {
+    "name": "Hülsenfrüchte & Getreide",
+    "urlSlugText": "pasta-reis-getreide/h-lsenfr-chte-getreide",
+    "id": 390,
+    "categoryKey": "26040000",
+    "code": "All"
+  },
+  {
+    "name": "Konserven & Fertiggerichte",
+    "urlSlugText": "produkte/konserven-fertiggerichte",
+    "id": 391,
+    "categoryKey": "27000000",
+    "code": "All"
+  },
+  {
+    "name": "Obstkonserven",
+    "urlSlugText": "konserven-fertiggerichte/obstkonserven",
+    "id": 392,
+    "categoryKey": "27010000",
+    "code": "All"
+  },
+  {
+    "name": "Gemüsekonserven",
+    "urlSlugText": "konserven-fertiggerichte/gem-sekonserven",
+    "id": 393,
+    "categoryKey": "27020000",
+    "code": "All"
+  },
+  {
+    "name": "Wurstkonserven & Fleischkonserven",
+    "urlSlugText": "konserven-fertiggerichte/wurst-fleischkonserven",
+    "id": 394,
+    "categoryKey": "27030000",
+    "code": "All"
+  },
+  {
+    "name": "Fischkonserven",
+    "urlSlugText": "konserven-fertiggerichte/fischkonserven",
+    "id": 395,
+    "categoryKey": "27040000",
+    "code": "All"
+  },
+  {
+    "name": "Eintöpfe & Suppen",
+    "urlSlugText": "konserven-fertiggerichte/eint-pfe-suppen",
+    "id": 396,
+    "categoryKey": "27050000",
+    "code": "All / Weitere Verarbeitete Lebensmittel / Fertiggerichte"
+  },
+  {
+    "name": "Fertiggerichte, Nudeltopf & Ravioli",
+    "urlSlugText": "konserven-fertiggerichte/fertiggerichte",
+    "id": 397,
+    "categoryKey": "27060000",
+    "code": "All / Weitere Verarbeitete Lebensmittel / Fertiggerichte"
+  },
+  {
+    "name": "Saucen, Öle & Gewürze",
+    "urlSlugText": "produkte/saucen-le-gew-rze",
+    "id": 398,
+    "categoryKey": "28000000",
+    "code": "All"
+  },
+  {
+    "name": "Essig & Öl",
+    "urlSlugText": "saucen-le-gew-rze/essig-l",
+    "id": 399,
+    "categoryKey": "28010000",
+    "code": "All"
+  },
+  {
+    "name": "Dressings",
+    "urlSlugText": "saucen-le-gew-rze/dressings",
+    "id": 400,
+    "categoryKey": "28020000",
+    "code": "All"
+  },
+  {
+    "name": "Ketchup & Grillsaucen",
+    "urlSlugText": "saucen-le-gew-rze/ketchup-grillsaucen",
+    "id": 401,
+    "categoryKey": "28030000",
+    "code": "All"
+  },
+  {
+    "name": "Mayonnaise & Remoulade",
+    "urlSlugText": "saucen-le-gew-rze/mayonnaise-remoulade",
+    "id": 402,
+    "categoryKey": "28040000",
+    "code": "All"
+  },
+  {
+    "name": "Senf & Meerrettich",
+    "urlSlugText": "saucen-le-gew-rze/senf-meerrettich",
+    "id": 403,
+    "categoryKey": "28050000",
+    "code": "All"
+  },
+  {
+    "name": "Fertigsaucen",
+    "urlSlugText": "saucen-le-gew-rze/fertigsaucen",
+    "id": 404,
+    "categoryKey": "28060000",
+    "code": "All"
+  },
+  {
+    "name": "Gewürze & Würzmischungen",
+    "urlSlugText": "saucen-le-gew-rze/gew-rze-w-rzmischungen",
+    "id": 405,
+    "categoryKey": "28070000",
+    "code": "All"
+  },
+  {
+    "name": "Brühe, Bouillons & Fonds",
+    "urlSlugText": "saucen-le-gew-rze/br-hen-bouillons",
+    "id": 406,
+    "categoryKey": "28080000",
+    "code": "All"
+  },
+  {
+    "name": "Saucen & Fertigsaucen",
+    "urlSlugText": "saucen-le-gew-rze/saucen-fonds",
+    "id": 407,
+    "categoryKey": "28090000",
+    "code": "All"
+  },
+  {
+    "name": "Fixprodukte, Gewürze & Würzmischungen",
+    "urlSlugText": "saucen-le-gew-rze/fixprodukte",
+    "id": 408,
+    "categoryKey": "28100000",
+    "code": "All"
+  },
+  {
+    "name": "Backen & Dessertpulver",
+    "urlSlugText": "produkte/backen-dessert",
+    "id": 409,
+    "categoryKey": "29000000",
+    "code": "All"
+  },
+  {
+    "name": "Mehl",
+    "urlSlugText": "backen-dessert/mehl",
+    "id": 410,
+    "categoryKey": "29010000",
+    "code": "All / Getreide und Getreideprodukte / Mehl"
+  },
+  {
+    "name": "Zucker & Süßungsmittel",
+    "urlSlugText": "backen-dessert/zucker-s-ungsmittel",
+    "id": 411,
+    "categoryKey": "29020000",
+    "code": "All / Zuckerarten, Sirupe und Honig"
+  },
+  {
+    "name": "Backmischungen",
+    "urlSlugText": "backen-dessert/backmischungen",
+    "id": 412,
+    "categoryKey": "29030000",
+    "code": "All"
+  },
+  {
+    "name": "Backzutaten",
+    "urlSlugText": "backen-dessert/backzutaten",
+    "id": 413,
+    "categoryKey": "29040000",
+    "code": "All"
+  },
+  {
+    "name": "Backdekoration",
+    "urlSlugText": "backen-dessert/backdekoration",
+    "id": 414,
+    "categoryKey": "29050000",
+    "code": "All"
+  },
+  {
+    "name": "Dessertpulver",
+    "urlSlugText": "backen-dessert/dessertpulver",
+    "id": 415,
+    "categoryKey": "29060000",
+    "code": "All"
+  },
+  {
+    "name": "Tiefkühlung",
+    "urlSlugText": "produkte/tiefk-hlung",
+    "id": 416,
+    "categoryKey": "30000000",
+    "code": "All"
+  },
+  {
+    "name": "Fisch, Fleisch & Veggie",
+    "urlSlugText": "tiefk-hlung/fisch-fleisch-veggie",
+    "id": 417,
+    "categoryKey": "30010000",
+    "code": "All"
+  },
+  {
+    "name": "Pizza & Baguettes",
+    "urlSlugText": "tiefk-hlung/pizza-baguettes",
+    "id": 418,
+    "categoryKey": "30020000",
+    "code": "All / Weitere Verarbeitete Lebensmittel / Fertiggerichte"
+  },
+  {
+    "name": "Pfannengerichte & Fertiggerichte",
+    "urlSlugText": "tiefk-hlung/pfannen-fertiggerichte",
+    "id": 419,
+    "categoryKey": "30030000",
+    "code": "All / Weitere Verarbeitete Lebensmittel / Fertiggerichte"
+  },
+  {
+    "name": "Kartoffelprodukte",
+    "urlSlugText": "tiefk-hlung/kartoffelprodukte",
+    "id": 420,
+    "categoryKey": "30040000",
+    "code": "All"
+  },
+  {
+    "name": "Obst",
+    "urlSlugText": "tiefk-hlung/obst",
+    "id": 421,
+    "categoryKey": "30050000",
+    "code": "All / Obst"
+  },
+  {
+    "name": "Gemüse",
+    "urlSlugText": "tiefk-hlung/gem-se",
+    "id": 422,
+    "categoryKey": "30060000",
+    "code": "All / Gemüse"
+  },
+  {
+    "name": "Kräuter",
+    "urlSlugText": "tiefk-hlung/kr-uter",
+    "id": 423,
+    "categoryKey": "30070000",
+    "code": "All / Gemüse / Kräuter"
+  },
+  {
+    "name": "Eis",
+    "urlSlugText": "tiefk-hlung/eis",
+    "id": 424,
+    "categoryKey": "30080000",
+    "code": "All"
+  },
+  {
+    "name": "Desserts & Backwaren",
+    "urlSlugText": "tiefk-hlung/desserts-backwaren",
+    "id": 425,
+    "categoryKey": "30090000",
+    "code": "All"
+  },
+  {
+    "name": "Süßes & Salziges",
+    "urlSlugText": "produkte/s-es-salziges",
+    "id": 426,
+    "categoryKey": "31000000",
+    "code": "All"
+  },
+  {
+    "name": "Schokolade",
+    "urlSlugText": "s-es-salziges/schokolade",
+    "id": 427,
+    "categoryKey": "31010000",
+    "code": "All / Süßwaren"
+  },
+  {
+    "name": "Fruchtgummi & Lakritz",
+    "urlSlugText": "s-es-salziges/fruchtgummi-lakritz",
+    "id": 428,
+    "categoryKey": "31020000",
+    "code": "All / Süßwaren"
+  },
+  {
+    "name": "Bonbons & Kaugummi",
+    "urlSlugText": "s-es-salziges/bonbons-kaugummi",
+    "id": 429,
+    "categoryKey": "31030000",
+    "code": "All / Süßwaren"
+  },
+  {
+    "name": "Gebäck & Kekse",
+    "urlSlugText": "s-es-salziges/geb-ck",
+    "id": 430,
+    "categoryKey": "31040000",
+    "code": "All / Süßwaren"
+  },
+  {
+    "name": "Chips & Cracker",
+    "urlSlugText": "s-es-salziges/chips-cracker",
+    "id": 431,
+    "categoryKey": "31050000",
+    "code": "All"
+  },
+  {
+    "name": "Nüsse & Trockenfrüchte",
+    "urlSlugText": "s-es-salziges/n-sse",
+    "id": 432,
+    "categoryKey": "31060000",
+    "code": "All"
+  },
+  {
+    "name": "Getränke",
+    "urlSlugText": "produkte/alkoholfreie-getr-nke",
+    "id": 433,
+    "categoryKey": "32000000",
+    "code": "All / Getränke"
+  },
+  {
+    "name": "Wasser",
+    "urlSlugText": "alkoholfreie-getr-nke/wasser",
+    "id": 434,
+    "categoryKey": "32010000",
+    "code": "All / Getränke"
+  },
+  {
+    "name": "Säfte",
+    "urlSlugText": "alkoholfreie-getr-nke/s-fte",
+    "id": 435,
+    "categoryKey": "32020000",
+    "code": "All / Getränke"
+  },
+  {
+    "name": "Smoothies",
+    "urlSlugText": "alkoholfreie-getr-nke/smoothies",
+    "id": 436,
+    "categoryKey": "32030000",
+    "code": "All / Getränke"
+  },
+  {
+    "name": "Schorlen",
+    "urlSlugText": "alkoholfreie-getr-nke/schorlen",
+    "id": 437,
+    "categoryKey": "32040000",
+    "code": "All / Getränke"
+  },
+  {
+    "name": "Eistee",
+    "urlSlugText": "alkoholfreie-getr-nke/eistee",
+    "id": 438,
+    "categoryKey": "32050000",
+    "code": "All / Getränke"
+  },
+  {
+    "name": "Softdrinks",
+    "urlSlugText": "alkoholfreie-getr-nke/softdrinks",
+    "id": 439,
+    "categoryKey": "32060000",
+    "code": "All / Getränke"
+  },
+  {
+    "name": "Energy- & Sportdrinks",
+    "urlSlugText": "alkoholfreie-getr-nke/energy-sportdrinks",
+    "id": 440,
+    "categoryKey": "32070000",
+    "code": "All / Getränke"
+  },
+  {
+    "name": "Milchgetränke & Kaffeegetränke",
+    "urlSlugText": "alkoholfreie-getr-nke/mich-kaffeegetr-nke",
+    "id": 441,
+    "categoryKey": "32080000",
+    "code": "All / Getränke"
+  },
+  {
+    "name": "Alkoholische Getränke",
+    "urlSlugText": "produkte/alkoholische-getr-nke",
+    "id": 442,
+    "categoryKey": "33000000",
+    "code": "All / Getränke"
+  },
+  {
+    "name": "Bier",
+    "urlSlugText": "alkoholische-getr-nke/bier",
+    "id": 443,
+    "categoryKey": "33010000",
+    "code": "All / Getränke"
+  },
+  {
+    "name": "Wein",
+    "urlSlugText": "alkoholische-getr-nke/wein",
+    "id": 444,
+    "categoryKey": "33020000",
+    "code": "All / Getränke"
+  },
+  {
+    "name": "Frucht- & Glühwein",
+    "urlSlugText": "alkoholische-getr-nke/frucht-gl-hwein",
+    "id": 445,
+    "categoryKey": "33030000",
+    "code": "All / Getränke"
+  },
+  {
+    "name": "Sekt & Schaumwein",
+    "urlSlugText": "alkoholische-getr-nke/sekt-schaumwein",
+    "id": 446,
+    "categoryKey": "33040000",
+    "code": "All / Getränke"
+  },
+  {
+    "name": "Spirituosen",
+    "urlSlugText": "alkoholische-getr-nke/spirituosen",
+    "id": 447,
+    "categoryKey": "33050000",
+    "code": "All / Getränke"
+  },
+  {
+    "name": "Baby & Kind",
+    "urlSlugText": "produkte/baby-kind",
+    "id": 448,
+    "categoryKey": "34000000",
+    "code": "All"
+  },
+  {
+    "name": "Milchnahrung",
+    "urlSlugText": "baby-kind/milchnahrung",
+    "id": 449,
+    "categoryKey": "34010000",
+    "code": "All"
+  },
+  {
+    "name": "Gläschen & Snacks",
+    "urlSlugText": "baby-kind/gl-schen-snacks",
+    "id": 450,
+    "categoryKey": "34020000",
+    "code": "All"
+  },
+  {
+    "name": "Pflege & Windeln",
+    "urlSlugText": "baby-kind/pflege",
+    "id": 451,
+    "categoryKey": "34030000",
+    "code": "All"
+  },
+  {
+    "name": "Wickeln",
+    "urlSlugText": "baby-kind/wickeln",
+    "id": 452,
+    "categoryKey": "34040000",
+    "code": "All"
+  },
+  {
+    "name": "Drogerie",
+    "urlSlugText": "produkte/drogerie",
+    "id": 453,
+    "categoryKey": "35000000",
+    "code": "All"
+  },
+  {
+    "name": "Haarpflege & Styling",
+    "urlSlugText": "drogerie/haarpflege-styling",
+    "id": 454,
+    "categoryKey": "35010000",
+    "code": "All"
+  },
+  {
+    "name": "Duschen & Baden",
+    "urlSlugText": "drogerie/duschen-baden",
+    "id": 455,
+    "categoryKey": "35020000",
+    "code": "All"
+  },
+  {
+    "name": "Seife",
+    "urlSlugText": "drogerie/seife",
+    "id": 456,
+    "categoryKey": "35030000",
+    "code": "All"
+  },
+  {
+    "name": "Deodorant",
+    "urlSlugText": "drogerie/deodorant",
+    "id": 457,
+    "categoryKey": "35040000",
+    "code": "All"
+  },
+  {
+    "name": "Körperpflege",
+    "urlSlugText": "drogerie/k-rperpflege",
+    "id": 458,
+    "categoryKey": "35050000",
+    "code": "All"
+  },
+  {
+    "name": "Gesichtspflege",
+    "urlSlugText": "drogerie/gesichtspflege",
+    "id": 459,
+    "categoryKey": "35060000",
+    "code": "All"
+  },
+  {
+    "name": "Make-Up",
+    "urlSlugText": "drogerie/make-up",
+    "id": 460,
+    "categoryKey": "35070000",
+    "code": "All"
+  },
+  {
+    "name": "Zahn-& Mundhygiene",
+    "urlSlugText": "drogerie/zahn-mundhygiene",
+    "id": 461,
+    "categoryKey": "35080000",
+    "code": "All"
+  },
+  {
+    "name": "Rasur-& Haarentfernung",
+    "urlSlugText": "drogerie/rasur-haarentfernung",
+    "id": 462,
+    "categoryKey": "35090000",
+    "code": "All"
+  },
+  {
+    "name": "Damenhygiene",
+    "urlSlugText": "drogerie/damenhygiene",
+    "id": 463,
+    "categoryKey": "35100000",
+    "code": "All"
+  },
+  {
+    "name": "Wattepads, Pflaster & Co.",
+    "urlSlugText": "drogerie/wattepads-pflaster-co-",
+    "id": 464,
+    "categoryKey": "35110000",
+    "code": "All"
+  },
+  {
+    "name": "Haushalt",
+    "urlSlugText": "produkte/haushalt",
+    "id": 465,
+    "categoryKey": "36000000",
+    "code": "All"
+  },
+  {
+    "name": "Putzmittel & Reinigungsmittel",
+    "urlSlugText": "haushalt/putz-reinigungsmittel",
+    "id": 466,
+    "categoryKey": "36010000",
+    "code": "All"
+  },
+  {
+    "name": "Spülmittel & Schwämme",
+    "urlSlugText": "haushalt/sp-lmittel-schw-mme",
+    "id": 467,
+    "categoryKey": "36020000",
+    "code": "All"
+  },
+  {
+    "name": "Waschmittel",
+    "urlSlugText": "haushalt/waschmittel",
+    "id": 468,
+    "categoryKey": "36030000",
+    "code": "All"
+  },
+  {
+    "name": "Folien & Beutel",
+    "urlSlugText": "haushalt/folien-beutel",
+    "id": 469,
+    "categoryKey": "36040000",
+    "code": "All"
+  },
+  {
+    "name": "Papier & Tücher",
+    "urlSlugText": "haushalt/papier-t-cher",
+    "id": 470,
+    "categoryKey": "36050000",
+    "code": "All"
+  },
+  {
+    "name": "Haushaltsartikel",
+    "urlSlugText": "haushalt/haushaltsartikel",
+    "id": 471,
+    "categoryKey": "36060000",
+    "code": "All"
+  },
+  {
+    "name": "Garten & Auto",
+    "urlSlugText": "haushalt/garten-auto",
+    "id": 472,
+    "categoryKey": "36070000",
+    "code": "All"
+  },
+  {
+    "name": "Hund & Katze",
+    "urlSlugText": "produkte/tier",
+    "id": 473,
+    "categoryKey": "37000000",
+    "code": "All"
+  },
+  {
+    "name": "Hundefutter",
+    "urlSlugText": "tier/hund",
+    "id": 474,
+    "categoryKey": "37010000",
+    "code": "All"
+  },
+  {
+    "name": "Katzenfutter",
+    "urlSlugText": "tier/katze",
+    "id": 475,
+    "categoryKey": "37020000",
+    "code": "All"
+  },
+  {
+    "name": "Angebote",
+    "urlSlugText": "produkte/angebote",
+    "id": 478,
+    "categoryKey": "12000000",
+    "code": "All"
+  },
+  {
+    "name": "Weihnachten",
+    "urlSlugText": "produkte/weihnachten",
+    "id": 483,
+    "categoryKey": "17000000",
+    "code": "All"
+  },
+  {
+    "name": "Bio",
+    "urlSlugText": "produkte/bio",
+    "id": 484,
+    "categoryKey": "18000000",
+    "code": "All"
+  },
+  {
+    "name": "Bio",
+    "urlSlugText": "produkte/bio/bio",
+    "id": 485,
+    "categoryKey": "structuregroup_1588161405357057",
+    "code": "All"
+  },
+  {
+    "name": "ALDI Sports",
+    "urlSlugText": "produkte/aldi-sports",
+    "id": 486,
+    "categoryKey": "structuregroup_1588161405358960",
+    "code": "All"
+  },
+  {
+    "name": "Der Riegel",
+    "urlSlugText": "produkte/aldi-sports/der-riegel",
+    "id": 487,
+    "categoryKey": "structuregroup_1588161405358961",
+    "code": "All"
+  },
+  {
+    "name": "Whey",
+    "urlSlugText": "produkte/aldi-sports/whey",
+    "id": 488,
+    "categoryKey": "structuregroup_1588161405358962",
+    "code": "All"
+  },
+  {
+    "name": "Registrierung",
+    "urlSlugText": "produkte/registrierung",
+    "id": 489,
+    "categoryKey": "structuregroup_1588161407774196",
+    "code": "All"
+  },
+  {
+    "name": "Registrierung",
+    "urlSlugText": "produkte/registrierung/registrierung",
+    "id": 490,
+    "categoryKey": "structuregroup_1588161407774197",
+    "code": "All"
+  },
+  {
+    "name": "Wurstaufschnitt",
+    "urlSlugText": "produkte/wurstaufschnitt",
+    "id": 493,
+    "categoryKey": "structuregroup_1588161408437114",
+    "code": "All / Fleisch"
+  },
+  {
+    "name": "Angebote",
+    "urlSlugText": "produkte/angebote/angebote",
+    "id": 496,
+    "categoryKey": "structuregroup_1588161408437102",
+    "code": "All"
+  },
+  {
+    "name": "Milchnahrung",
+    "urlSlugText": "produkte/baby-kind/milchnahrung",
+    "id": 497,
+    "categoryKey": "structuregroup_1588161408437104",
+    "code": "All"
+  },
+  {
+    "name": "Nüsse zum Backen",
+    "urlSlugText": "produkte/backen-dessertpulver/n-sse-zum-backen",
+    "id": 498,
+    "categoryKey": "structuregroup_1588161408437105",
+    "code": "All / Nüsse, Samen, Kerne"
+  },
+  {
+    "name": "Veggie & Vegan",
+    "urlSlugText": "produkte/veggie-vegan",
+    "id": 499,
+    "categoryKey": "structuregroup_1588161408437106",
+    "code": "All"
+  },
+  {
+    "name": "Veggie & Vegan",
+    "urlSlugText": "produkte/veggie-vegan/veggie-vegan",
+    "id": 500,
+    "categoryKey": "structuregroup_1588161408437107",
+    "code": "All"
+  },
+  {
+    "name": "Rotwein",
+    "urlSlugText": "produkte/alkoholische-getr-nke/rotwein",
+    "id": 501,
+    "categoryKey": "structuregroup_1588161408437115",
+    "code": "All / Getränke"
+  },
+  {
+    "name": "Rosé",
+    "urlSlugText": "produkte/alkoholische-getr-nke/ros-",
+    "id": 502,
+    "categoryKey": "structuregroup_1588161408437116",
+    "code": "All / Getränke"
+  },
+  {
+    "name": "Weißwein",
+    "urlSlugText": "produkte/alkoholische-getr-nke/wei-wein",
+    "id": 503,
+    "categoryKey": "structuregroup_1588161408437117",
+    "code": "All / Getränke"
+  },
+  {
+    "name": "Grillen",
+    "urlSlugText": "produkte/grillen",
+    "id": 506,
+    "categoryKey": "structuregroup_1588161407775435",
+    "code": "All"
+  },
+  {
+    "name": "Grillen",
+    "urlSlugText": "produkte/grillen/grillen",
+    "id": 507,
+    "categoryKey": "structuregroup_1588161407775436",
+    "code": "All"
+  },
+  {
+    "name": "Weihnachten",
+    "urlSlugText": "produkte/weihnachten/weihnachten",
+    "id": 508,
+    "categoryKey": "structuregroup_1588161409718450",
+    "code": "All"
+  }
+]
