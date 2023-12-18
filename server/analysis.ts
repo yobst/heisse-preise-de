@@ -158,44 +158,91 @@ export function compress(items: Item[]) {
     return compressed;
 }
 
+async function updateCategories(dataDir: string, store: string) {
+    console.log(`Started updating categories for ${store}`);
+    const start = performance.now();
+
+    let categories = [];
+    if (!("SKIP_FETCHING_STORE_DATA" in process.env)) {
+        categories = await crawlers[store].fetchCategories();
+    }
+
+    const mappingFile = `${dataDir}/${store}-categories.json`;
+    let oldCategories = [];
+    const oldLookup: Record<string, any> = {};
+    if (fs.existsSync(mappingFile)) {
+        oldCategories = await readJSONAsync(mappingFile);
+        for (const category of oldCategories) {
+            oldLookup[category.id] = category;
+        }
+    }
+
+    for (const category of categories) {
+        const oldCategory = oldLookup[category.id];
+        if (oldCategory == null) {
+            console.log(`Found new unmapped category for ${store}: ${category.id} - ${category.name}`);
+        } else {
+            category.code = oldCategory.code;
+            delete oldLookup[category.id];
+        }
+    }
+
+    if (Object.keys(oldLookup).length > 0) {
+        for (const key in oldLookup) {
+            const category = oldLookup[key];
+            console.log(`Found category absent in latest mapping for ${store}: ${category.id} - ${category.name}`);
+            categories.push(category);
+        }
+    }
+
+    console.log(`Fetched ${store.toUpperCase()} categories, took ${(performance.now() - start) / 1000} seconds.`);
+    writeJSON(mappingFile, categories, false);
+}
+
+async function currentProducts(dataDir: string, today: string, store: string) {
+    console.log(`Started fetching data for ${store}`);
+    const start = performance.now();
+    try {
+        const rawDataFile = `${dataDir}/${store}-${today}.json`;
+        let rawItems;
+        if ("SKIP_FETCHING_STORE_DATA" in process.env && fs.existsSync(rawDataFile + "." + FILE_COMPRESSOR))
+            rawItems = await readJSONAsync(rawDataFile + "." + FILE_COMPRESSOR);
+        else {
+            rawItems = await crawlers[store].fetchData();
+            writeJSON(rawDataFile, rawItems, true);
+        }
+        const items = dedupItems(getCanonicalFor(store, rawItems, today));
+
+        let numUncategorized = 0;
+        for (let i = 0; i < items.length; i++) {
+            const rawItem = rawItems[i];
+            const item = items[i];
+            item.category = crawlers[store].getCategory(rawItem);
+            if (item.category == null) numUncategorized++;
+        }
+
+        console.log(
+            `Fetched ${store.toUpperCase()} data, took ${(performance.now() - start) / 1000} seconds, ${numUncategorized}/${
+                items.length
+            } items without category.`
+        );
+        return items;
+    } catch (e) {
+        console.error(`Error while fetching data from ${store}, continuing after ${(performance.now() - start) / 1000} seconds...`, e);
+        return [];
+    }
+}
+
 export async function updateData(dataDir: string, done: (items: Item[]) => void = () => {}) {
     const today = currentDate();
     console.log("Fetching data for date: " + today);
     const storeFetchPromises: Promise<Item[]>[] = [];
     for (const store of STORE_KEYS) {
+        updateCategories(dataDir, store);
+
         storeFetchPromises.push(
             new Promise(async (resolve) => {
-                console.log(`Started fetching data for ${store}`);
-                const start = performance.now();
-                try {
-                    const rawDataFile = `${dataDir}/${store}-${today}.json`;
-                    let rawItems;
-                    if ("SKIP_FETCHING_STORE_DATA" in process.env && fs.existsSync(rawDataFile + "." + FILE_COMPRESSOR))
-                        rawItems = await readJSONAsync(rawDataFile + "." + FILE_COMPRESSOR);
-                    else {
-                        rawItems = await crawlers[store].fetchData();
-                        writeJSON(rawDataFile, rawItems, true);
-                    }
-                    const items = dedupItems(getCanonicalFor(store, rawItems, today));
-
-                    let numUncategorized = 0;
-                    for (let i = 0; i < items.length; i++) {
-                        const rawItem = rawItems[i];
-                        const item = items[i];
-                        item.category = crawlers[store].getCategory(rawItem);
-                        if (item.category == null) numUncategorized++;
-                    }
-
-                    console.log(
-                        `Fetched ${store.toUpperCase()} data, took ${(performance.now() - start) / 1000} seconds, ${numUncategorized}/${
-                            items.length
-                        } items without category.`
-                    );
-                    resolve(items);
-                } catch (e) {
-                    console.error(`Error while fetching data from ${store}, continuing after ${(performance.now() - start) / 1000} seconds...`, e);
-                    resolve([]);
-                }
+                resolve(currentProducts(dataDir, today, store));
             })
         );
     }
@@ -212,7 +259,7 @@ export async function updateData(dataDir: string, done: (items: Item[]) => void 
     items = dedupItems(items);
     writeJSON(`${dataDir}/latest-canonical.json`, items, true);
 
-    pg.insertData(items);
+    //pg.insertData(items);
 
     if (done) done(items);
     return items;
