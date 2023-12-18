@@ -18,6 +18,10 @@ const storeUnits: Record<string, UnitMapping> = {
 export class DmCrawler implements Crawler {
     store = stores.dm;
 
+    async fetchCategories() {
+        return [];
+    }
+
     async fetchData() {
         const DM_BASE_URL = `https://product-search.services.dmtech.com/de/search/crawl?pageSize=1000&`;
         const QUERIES = [

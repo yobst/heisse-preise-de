@@ -20,6 +20,10 @@ const categoriesExcludeList = ["Spielwaren", "Multi-Media", "Schreibwaren", "Str
 export class MuellerCrawler implements Crawler {
     store = stores.mueller;
 
+    async fetchCategories() {
+        return [];
+    }
+
     async fetchData() {
         let muellerItems = [];
 

@@ -21,6 +21,10 @@ const storeUnits: Record<string, UnitMapping> = {
 export class ReweCrawler implements Crawler {
     store = stores.rewe;
 
+    async fetchCategories() {
+        return [];
+    }
+
     async fetchData() {
         // For some unholy reason, Axios returns 403 when accessing the endpoint
         // Hack: use curl...
