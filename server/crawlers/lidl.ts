@@ -23,6 +23,8 @@ const storeUnits: Record<string, UnitMapping> = {
 export class LidlCrawler implements Crawler {
     store = stores.lidl;
 
+    categories = [];
+
     async fetchCategories() {
         return [];
     }

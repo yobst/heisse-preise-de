@@ -18,6 +18,8 @@ const storeUnits: Record<string, UnitMapping> = {
 export class DmCrawler implements Crawler {
     store = stores.dm;
 
+    categories = [];
+
     async fetchCategories() {
         return [];
     }
@@ -113,8 +115,7 @@ export class DmCrawler implements Crawler {
         );
     }
 
-    getCategory(_rawItem: any): Category {
-        //return rawItem.categoryNames;
-        return "Unknown";
+    getCategory(rawItem: any): Category {
+        return this.categories.find((category) => category["name"] == rawItem.categoryNames) || "Unknown";
     }
 }

@@ -21,6 +21,8 @@ const storeUnits: Record<string, UnitMapping> = {
 export class ReweCrawler implements Crawler {
     store = stores.rewe;
 
+    categories = [];
+
     async fetchCategories() {
         return [];
     }

@@ -197,6 +197,8 @@ async function updateCategories(dataDir: string, store: string) {
 
     console.log(`Fetched ${store.toUpperCase()} categories, took ${(performance.now() - start) / 1000} seconds.`);
     writeJSON(mappingFile, categories, false);
+
+    crawlers[store].categories = categories;
 }
 
 async function currentProducts(dataDir: string, today: string, store: string) {
