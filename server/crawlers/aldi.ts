@@ -53,7 +53,6 @@ export class AldiCrawler implements Crawler {
             }
         }
         console.log(`Found ${Object.keys(categories).length} categories for Aldi`);
-        console.log(Object.values(categories));
 
         return Object.values(categories);
     }
