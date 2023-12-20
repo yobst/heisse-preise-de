@@ -315,11 +315,6 @@ export async function replay(rawDataDir: string) {
             console.log(`Creating canonical items for ${file}`);
             const rawItems = readJSON(file);
             const items = dedupItems(getCanonicalFor(store, rawItems, file.match(/\d{4}-\d{2}-\d{2}/)![0]));
-            for (let i = 0; i < items.length; i++) {
-                const rawItem = rawItems[i];
-                const item = items[i];
-                item.category = crawlers[store].getCategory(rawItem);
-            }
             return items;
         });
         canonicalFiles[store].reverse();
