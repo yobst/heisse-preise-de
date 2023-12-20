@@ -23,6 +23,12 @@ const storeUnits: Record<string, UnitMapping> = {
 export class LidlCrawler implements Crawler {
     store = stores.lidl;
 
+    categories = [];
+
+    async fetchCategories() {
+        return [];
+    }
+
     async fetchData() {
         const LIDL_SEARCH = `https://www.lidl.de/p/api/gridboxes/DE/de/?max=${HITS}`;
         return (await get(LIDL_SEARCH)).data.filter((item: any) => !!item.price.price);
@@ -35,6 +41,8 @@ export class LidlCrawler implements Crawler {
         const bio = description.toLowerCase().includes("bio");
         const unavailable = rawItem.stockAvailability.availabilityIndicator == 0;
         const productId = rawItem.productId;
+        const rawCategory = 0; // TODO
+        const category: Record<any, any> = this.categories[rawCategory];
         const defaultUnit: { quantity: number; unit: Unit } = { quantity: 1, unit: "stk" };
 
         let isWeighted = false;
@@ -57,7 +65,7 @@ export class LidlCrawler implements Crawler {
             this.store.id,
             productId,
             itemName,
-            this.getCategory(rawItem),
+            category?.code || "Unknown",
             unavailable,
             price,
             [{ date: today, price: price, unitPrice: 0 }],
@@ -67,10 +75,5 @@ export class LidlCrawler implements Crawler {
             bio,
             rawItem.canonicalUrl
         );
-    }
-
-    getCategory(rawItem: any): Category {
-        //rawItem.category;
-        return "Unknown";
     }
 }
