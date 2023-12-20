@@ -44,6 +44,8 @@ export class FlinkCrawler implements Crawler {
         const isWeighted = false;
         const bio = rawItem.slug.includes("bio-");
         const url = `${rawItem.slug}-${rawItem.sku}/`;
+        const rawCategory = rawItem.category_id;
+        //const category = this.categories[rawCategory];
 
         const defaultUnit: { quantity: number; unit: Unit } = { quantity: 1, unit: "stk" };
 
@@ -84,7 +86,7 @@ export class FlinkCrawler implements Crawler {
             this.store.id,
             productId,
             itemName,
-            this.getCategory(rawItem),
+            "Unknown", // TODO: category
             unavailable,
             price,
             [{ date: today, price, unitPrice: 0.0 }],
@@ -94,10 +96,5 @@ export class FlinkCrawler implements Crawler {
             bio,
             url
         );
-    }
-
-    getCategory(_rawItem: any): Category {
-        //rawItem.categories;
-        return "Unknown";
     }
 }
