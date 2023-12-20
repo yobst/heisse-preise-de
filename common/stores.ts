@@ -22,7 +22,7 @@ export const stores: Record<string, Store> = {
         getUrl: (item) => `https://www.dm.de/product-p${item.id}.html`,
         productUrlBase: "https://www.dm.de/",
         removeOld: false,
-    } /* 
+    },
     lidl: {
         id: "lidl",
         displayName: "Lidl",
@@ -52,7 +52,7 @@ export const stores: Record<string, Store> = {
         getUrl: (item) => `https://shop.rewe.de/p/${item.name.toLowerCase().replace(allSpacesRegex, "-")}/${item.id}`,
         productUrlBase: "https://shop.rewe.de/p/",
         removeOld: false,
-    },*/,
+    },
 };
 
 export const STORE_KEYS = Object.keys(stores);

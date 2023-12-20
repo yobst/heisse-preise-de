@@ -23,6 +23,7 @@ function getSubcategories(category: any) {
             urlSlugText: category.urlSlugText,
             id: category.nodeId,
             categoryKey: category.categoryKey,
+            active: true,
             code: null,
         },
     ];
@@ -36,7 +37,7 @@ function getSubcategories(category: any) {
 export class AldiCrawler implements Crawler {
     store = stores.aldi;
 
-    categories = [];
+    categories = {};
 
     async fetchCategories() {
         const pageLimit = 12; // lowest possible number; allowed are 12, 16, 24, 30, 32, 48
@@ -52,9 +53,7 @@ export class AldiCrawler implements Crawler {
                 }
             }
         }
-        console.log(`Found ${Object.keys(categories).length} categories for Aldi`);
-
-        return Object.values(categories);
+        return categories;
     }
 
     async fetchData() {
@@ -81,6 +80,7 @@ export class AldiCrawler implements Crawler {
         const itemName = rawItem.name;
         const productId = rawItem.productConcreteSku;
         const unavailable = false;
+        const category = "Unknown";
         const defaultUnit: { quantity: number; unit: Unit } = { quantity: 1, unit: "stk" };
 
         let rawQuantity = 1;
@@ -109,7 +109,7 @@ export class AldiCrawler implements Crawler {
             this.store.id,
             productId,
             itemName,
-            this.getCategory(rawItem),
+            category,
             unavailable,
             price,
             [{ date: today, price, unitPrice: 0.0 }],
@@ -118,10 +118,5 @@ export class AldiCrawler implements Crawler {
             quantity,
             bio
         );
-    }
-
-    getCategory(_rawItem: any): Category {
-        //return categories[]; // TODO
-        return "Unknown";
     }
 }

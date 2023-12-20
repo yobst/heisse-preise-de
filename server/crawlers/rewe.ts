@@ -76,6 +76,8 @@ export class ReweCrawler implements Crawler {
         const bio = itemName.toLowerCase().includes("bio");
         const unavailable = false;
         const isWeighted = false;
+        const rawCategory = 0; // TODO
+        const category: Record<any, any> = this.categories[rawCategory];
 
         const defaultUnit: { quantity: number; unit: Unit } = { quantity: 1, unit: "stk" };
 
@@ -100,7 +102,7 @@ export class ReweCrawler implements Crawler {
             this.store.id,
             productId,
             itemName,
-            this.getCategory(rawItem),
+            category?.code || "Unknown",
             unavailable,
             price,
             [{ date: today, price: price, unitPrice: 0 }],
@@ -109,9 +111,5 @@ export class ReweCrawler implements Crawler {
             unitAndQuantity.quantity,
             bio
         );
-    }
-
-    getCategory(_rawItem: any): Category {
-        return "Unknown";
     }
 }

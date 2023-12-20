@@ -1,1255 +1,1434 @@
-[
-  {
+{
+  "318": {
     "name": "Obst & Gemüse",
     "urlSlugText": "produkte/obst-gem-se",
     "id": 318,
     "categoryKey": "19000000",
+    "active": true,
     "code": "All"
   },
-  {
+  "319": {
     "name": "Obst",
     "urlSlugText": "obst-gem-se/obst",
     "id": 319,
     "categoryKey": "19010000",
+    "active": true,
     "code": "All / Obst"
   },
-  {
+  "320": {
     "name": "Gemüse",
     "urlSlugText": "obst-gem-se/gem-se",
     "id": 320,
     "categoryKey": "19020000",
+    "active": true,
     "code": "All / Gemüse"
   },
-  {
+  "321": {
     "name": "Salat",
     "urlSlugText": "obst-gem-se/salat",
     "id": 321,
     "categoryKey": "19030000",
+    "active": true,
     "code": "All / Gemüse / Salate"
   },
-  {
+  "322": {
     "name": "Kräuter",
     "urlSlugText": "obst-gem-se/kr-uter",
     "id": 322,
     "categoryKey": "19040000",
+    "active": true,
     "code": "All / Gemüse / Kräuter"
   },
-  {
+  "323": {
     "name": "Eier & Milchprodukte",
     "urlSlugText": "produkte/eier-milchprodukte",
     "id": 323,
     "categoryKey": "20000000",
+    "active": true,
     "code": "All"
   },
-  {
+  "324": {
     "name": "Milch",
     "urlSlugText": "eier-milchprodukte/milch",
     "id": 324,
     "categoryKey": "20010000",
+    "active": true,
     "code": "All / Milchprodukte / Milch"
   },
-  {
+  "325": {
     "name": "Joghurt & Skyr",
     "urlSlugText": "eier-milchprodukte/naturjoghurt-skyr",
     "id": 325,
     "categoryKey": "20020000",
+    "active": true,
     "code": "All / Milchprodukte / Joghurt"
   },
-  {
+  "326": {
     "name": "Fruchtjoghurt & Sahnejoghurt",
     "urlSlugText": "eier-milchprodukte/frucht-sahnejoghurt",
     "id": 326,
     "categoryKey": "20030000",
+    "active": true,
     "code": "All / Milchprodukte / Joghurt"
   },
-  {
+  "327": {
     "name": "Milchsnacks & Desserts",
     "urlSlugText": "eier-milchprodukte/milchsnacks-desserts",
     "id": 327,
     "categoryKey": "20040000",
+    "active": true,
     "code": "All / Milchprodukte / Weitere"
   },
-  {
+  "328": {
     "name": "Milchdrinks & Trinkjoghurt",
     "urlSlugText": "eier-milchprodukte/milchdrinks-trinkjoghurt",
     "id": 328,
     "categoryKey": "20050000",
+    "active": true,
     "code": "All / Milchprodukte / Weitere"
   },
-  {
+  "329": {
     "name": "Quark",
     "urlSlugText": "eier-milchprodukte/quark",
     "id": 329,
     "categoryKey": "20060000",
+    "active": true,
     "code": "All / Milchprodukte / Quark"
   },
-  {
+  "330": {
     "name": "Sahne, Schmand & Crème fraîche",
     "urlSlugText": "eier-milchprodukte/sahne-schmand-co-",
     "id": 330,
     "categoryKey": "20070000",
+    "active": true,
     "code": "All / Milchprodukte / Weitere"
   },
-  {
+  "331": {
     "name": "Butter, Margarine & Fette",
     "urlSlugText": "eier-milchprodukte/butter-margarine-fette",
     "id": 331,
     "categoryKey": "20080000",
+    "active": true,
     "code": "All / Milchprodukte / Butter"
   },
-  {
+  "332": {
     "name": "Eier",
     "urlSlugText": "eier-milchprodukte/eier",
     "id": 332,
     "categoryKey": "20090000",
+    "active": true,
     "code": "All / Eier und Eiprodukte"
   },
-  {
+  "333": {
     "name": "Käse",
     "urlSlugText": "produkte/k-se",
     "id": 333,
     "categoryKey": "21000000",
+    "active": true,
     "code": "All / Milchprodukte / Käse"
   },
-  {
+  "334": {
     "name": "Schnittkäse",
     "urlSlugText": "k-se/schnittk-se",
     "id": 334,
     "categoryKey": "21010000",
+    "active": true,
     "code": "All / Milchprodukte / Käse"
   },
-  {
+  "335": {
     "name": "Stückkäse",
     "urlSlugText": "k-se/st-ckk-se",
     "id": 335,
     "categoryKey": "21020000",
+    "active": true,
     "code": "All / Milchprodukte / Käse"
   },
-  {
+  "336": {
     "name": "Frischkäse",
     "urlSlugText": "k-se/frischk-se",
     "id": 336,
     "categoryKey": "21030000",
+    "active": true,
     "code": "All / Milchprodukte / Käse"
   },
-  {
+  "337": {
     "name": "Weichkäse",
     "urlSlugText": "k-se/weichk-se",
     "id": 337,
     "categoryKey": "21040000",
+    "active": true,
     "code": "All / Milchprodukte / Käse"
   },
-  {
+  "338": {
     "name": "Hartkäse & Stückkäse",
     "urlSlugText": "k-se/hartk-se",
     "id": 338,
     "categoryKey": "21050000",
+    "active": true,
     "code": "All / Milchprodukte / Käse"
   },
-  {
+  "339": {
     "name": "Schmelzkäse",
     "urlSlugText": "k-se/schmelzk-se",
     "id": 339,
     "categoryKey": "21060000",
+    "active": true,
     "code": "All / Milchprodukte / Käse"
   },
-  {
+  "340": {
     "name": "Feta & Hirtenkäse",
     "urlSlugText": "k-se/feta-hirtenk-se",
     "id": 340,
     "categoryKey": "21070000",
+    "active": true,
     "code": "All / Milchprodukte / Käse"
   },
-  {
+  "341": {
     "name": "Mozzarella",
     "urlSlugText": "k-se/mozzarella",
     "id": 341,
     "categoryKey": "21080000",
+    "active": true,
     "code": "All / Milchprodukte / Käse"
   },
-  {
+  "342": {
     "name": "Geriebener Käse",
     "urlSlugText": "k-se/reibek-se",
     "id": 342,
     "categoryKey": "21090000",
+    "active": true,
     "code": "All / Milchprodukte / Käse"
   },
-  {
+  "343": {
     "name": "Ofenkäse & Grillkäse",
     "urlSlugText": "k-se/ofen-grillk-se",
     "id": 343,
     "categoryKey": "21100000",
+    "active": true,
     "code": "All / Milchprodukte / Käse"
   },
-  {
+  "344": {
     "name": "Käseersatz",
     "urlSlugText": "k-se/k-seersatz",
     "id": 344,
     "categoryKey": "21110000",
+    "active": true,
     "code": "All / Milchprodukte / Käse"
   },
-  {
+  "345": {
     "name": "Fleisch & Fisch",
     "urlSlugText": "produkte/fleisch-fisch-veggie",
     "id": 345,
     "categoryKey": "22000000",
+    "active": true,
     "code": "All"
   },
-  {
+  "346": {
     "name": "Vegetarisch & Vegan",
     "urlSlugText": "fleisch-fisch-veggie/vegetarisch-vegan",
     "id": 346,
     "categoryKey": "22010000",
+    "active": true,
     "code": "All"
   },
-  {
+  "347": {
     "name": "Geflügel",
     "urlSlugText": "fleisch-fisch-veggie/gefl-gel",
     "id": 347,
     "categoryKey": "22020000",
+    "active": true,
     "code": "All / Fleisch"
   },
-  {
+  "348": {
     "name": "Schwein",
     "urlSlugText": "fleisch-fisch-veggie/schwein",
     "id": 348,
     "categoryKey": "22030000",
+    "active": true,
     "code": "All / Fleisch"
   },
-  {
+  "349": {
     "name": "Rind",
     "urlSlugText": "fleisch-fisch-veggie/rind",
     "id": 349,
     "categoryKey": "22040000",
+    "active": true,
     "code": "All / Fleisch"
   },
-  {
+  "350": {
     "name": "Hackfleisch",
     "urlSlugText": "fleisch-fisch-veggie/hackfleisch",
     "id": 350,
     "categoryKey": "22050000",
+    "active": true,
     "code": "All / Fleisch"
   },
-  {
+  "351": {
     "name": "Lamm & Wild",
     "urlSlugText": "fleisch-fisch-veggie/lamm-wild",
     "id": 351,
     "categoryKey": "22060000",
+    "active": true,
     "code": "All / Fleisch"
   },
-  {
+  "352": {
     "name": "Bratwurst & Würstchen",
     "urlSlugText": "fleisch-fisch-veggie/brat-br-hwurst",
     "id": 352,
     "categoryKey": "22070000",
+    "active": true,
     "code": "All / Fleisch"
   },
-  {
+  "353": {
     "name": "Fisch & Meeresfrüchte",
     "urlSlugText": "fleisch-fisch-veggie/fisch-meeresfr-chte",
     "id": 353,
     "categoryKey": "22080000",
+    "active": true,
     "code": "All / Fisch"
   },
-  {
+  "354": {
     "name": "Wurstaufschnitt",
     "urlSlugText": "fleisch-fisch-veggie/wurstaufschnitt",
     "id": 354,
     "categoryKey": "22090000",
+    "active": true,
     "code": "All / Fleisch"
   },
-  {
+  "355": {
     "name": "Salami",
     "urlSlugText": "fleisch-fisch-veggie/salami",
     "id": 355,
     "categoryKey": "22100000",
+    "active": true,
     "code": "All / Fleisch"
   },
-  {
+  "356": {
     "name": "Schinken & Speck",
     "urlSlugText": "fleisch-fisch-veggie/schinken-speck",
     "id": 356,
     "categoryKey": "22110000",
+    "active": true,
     "code": "All / Fleisch"
   },
-  {
+  "357": {
     "name": "Streichwurst",
     "urlSlugText": "fleisch-fisch-veggie/streichwurst",
     "id": 357,
     "categoryKey": "22120000",
+    "active": true,
     "code": "All / Fleisch"
   },
-  {
+  "358": {
     "name": "Würstchen",
     "urlSlugText": "fleisch-fisch-veggie/w-rstchen",
     "id": 358,
     "categoryKey": "22130000",
+    "active": true,
     "code": "All / Fleisch"
   },
-  {
+  "359": {
     "name": "Fisch-& Fleischsalate",
     "urlSlugText": "fleisch-fisch-veggie/fisch-fleischsalate",
     "id": 359,
     "categoryKey": "22140000",
+    "active": true,
     "code": "All"
   },
-  {
+  "360": {
     "name": "Feinkost & frische Teigwaren",
     "urlSlugText": "produkte/convenience-feinkost",
     "id": 360,
     "categoryKey": "23000000",
+    "active": true,
     "code": "All"
   },
-  {
+  "361": {
     "name": "Frische Fertiggerichte",
     "urlSlugText": "convenience-feinkost/frische-fertiggerichte",
     "id": 361,
     "categoryKey": "23010000",
+    "active": true,
     "code": "All / Weitere Verarbeitete Lebensmittel / Fertiggerichte"
   },
-  {
+  "362": {
     "name": "Fertigteig",
     "urlSlugText": "convenience-feinkost/fertigteig",
     "id": 362,
     "categoryKey": "23020000",
+    "active": true,
     "code": "All"
   },
-  {
+  "363": {
     "name": "Desserts",
     "urlSlugText": "convenience-feinkost/desserts",
     "id": 363,
     "categoryKey": "23030000",
+    "active": true,
     "code": "All"
   },
-  {
+  "364": {
     "name": "Frische Salate",
     "urlSlugText": "convenience-feinkost/frische-salate",
     "id": 364,
     "categoryKey": "23040000",
+    "active": true,
     "code": "All / Gemüse / Salate"
   },
-  {
+  "365": {
     "name": "Feinkostsalate",
     "urlSlugText": "convenience-feinkost/feinkostsalate",
     "id": 365,
     "categoryKey": "23050000",
+    "active": true,
     "code": "All / Gemüse / Salate"
   },
-  {
+  "366": {
     "name": "Antipasti",
     "urlSlugText": "convenience-feinkost/antipasti",
     "id": 366,
     "categoryKey": "23060000",
+    "active": true,
     "code": "All"
   },
-  {
+  "367": {
     "name": "Saucen & Dips",
     "urlSlugText": "convenience-feinkost/saucen-dips",
     "id": 367,
     "categoryKey": "23070000",
+    "active": true,
     "code": "All"
   },
-  {
+  "368": {
     "name": "Backwaren, Cerealien & Aufstriche",
     "urlSlugText": "produkte/brot-backwaren-cerealien",
     "id": 368,
     "categoryKey": "24000000",
+    "active": true,
     "code": "All / Backwaren"
   },
-  {
+  "369": {
     "name": "Frisches Brot",
     "urlSlugText": "brot-backwaren-cerealien/frisches-brot",
     "id": 369,
     "categoryKey": "24010000",
+    "active": true,
     "code": "All / Backwaren"
   },
-  {
+  "370": {
     "name": "Brot, Brötchen & Baguette",
     "urlSlugText": "brot-backwaren-cerealien/brot",
     "id": 370,
     "categoryKey": "24020000",
+    "active": true,
     "code": "All / Backwaren"
   },
-  {
+  "371": {
     "name": "Brötchen & Baguette",
     "urlSlugText": "brot-backwaren-cerealien/br-tchen-baguette",
     "id": 371,
     "categoryKey": "24030000",
+    "active": true,
     "code": "All / Backwaren"
   },
-  {
+  "372": {
     "name": "Toast, Burgerbrötchen & Wraps",
     "urlSlugText": "brot-backwaren-cerealien/toast-burgerbr-tchen-wraps",
     "id": 372,
     "categoryKey": "24040000",
+    "active": true,
     "code": "All / Backwaren"
   },
-  {
+  "373": {
     "name": "Knäckebrot, Zwieback & Reiswaffeln",
     "urlSlugText": "brot-backwaren-cerealien/kn-ckebrot-zwieback-reiswaffeln",
     "id": 373,
     "categoryKey": "24050000",
+    "active": true,
     "code": "All / Backwaren"
   },
-  {
+  "374": {
     "name": "Süße Brötchen & Croissants",
     "urlSlugText": "brot-backwaren-cerealien/s-e-br-tchen-croissants",
     "id": 374,
     "categoryKey": "24060000",
+    "active": true,
     "code": "All / Backwaren"
   },
-  {
+  "375": {
     "name": "Gebäck, Kuchen & Waffeln",
     "urlSlugText": "brot-backwaren-cerealien/geb-ck-kuchen",
     "id": 375,
     "categoryKey": "24070000",
+    "active": true,
     "code": "All / Backwaren"
   },
-  {
+  "376": {
     "name": "Müsli, Haferflocken & Cornflakes",
     "urlSlugText": "brot-backwaren-cerealien/cerealien-cornflakes",
     "id": 376,
     "categoryKey": "24080000",
+    "active": true,
     "code": "All / Weitere Verarbeitete Lebensmittel / Müsli"
   },
-  {
+  "377": {
     "name": "Müsliriegel & Fruchtriegel",
     "urlSlugText": "brot-backwaren-cerealien/m-sli-m-sliriegel",
     "id": 377,
     "categoryKey": "24090000",
+    "active": true,
     "code": "All / Backwaren"
   },
-  {
+  "378": {
     "name": "Marmelade und Konfitüre",
     "urlSlugText": "brot-backwaren-cerealien/fruchtaufstrich",
     "id": 378,
     "categoryKey": "24100000",
+    "active": true,
     "code": "All / Weitere Verarbeitete Lebensmittel / Brotaufstrich und Mus"
   },
-  {
+  "379": {
     "name": "Honig",
     "urlSlugText": "brot-backwaren-cerealien/honig",
     "id": 379,
     "categoryKey": "24110000",
+    "active": true,
     "code": "All / Zuckerarten, Sirupe und Honig"
   },
-  {
+  "380": {
     "name": "Nuss- & Schokoladenaufstriche",
     "urlSlugText": "brot-backwaren-cerealien/nuss-schokoladenaufstriche",
     "id": 380,
     "categoryKey": "24120000",
+    "active": true,
     "code": "All / Weitere Verarbeitete Lebensmittel / Brotaufstrich und Mus"
   },
-  {
+  "381": {
     "name": "Herzhafte Aufstriche",
     "urlSlugText": "brot-backwaren-cerealien/herzhafte-vegane-aufstriche",
     "id": 381,
     "categoryKey": "24130000",
+    "active": true,
     "code": "All / Weitere Verarbeitete Lebensmittel / Brotaufstrich und Mus"
   },
-  {
+  "382": {
     "name": "Heißgetränke",
     "urlSlugText": "produkte/hei-getr-nke",
     "id": 382,
     "categoryKey": "25000000",
+    "active": true,
     "code": "All / Weitere Verarbeitete Lebensmittel"
   },
-  {
+  "383": {
     "name": "Kaffee",
     "urlSlugText": "hei-getr-nke/kaffee",
     "id": 383,
     "categoryKey": "25010000",
+    "active": true,
     "code": "All / Weitere Verarbeitete Lebensmittel / Kaffee"
   },
-  {
+  "384": {
     "name": "Tee",
     "urlSlugText": "hei-getr-nke/tee",
     "id": 384,
     "categoryKey": "25020000",
+    "active": true,
     "code": "All / Weitere Verarbeitete Lebensmittel / Tee"
   },
-  {
+  "385": {
     "name": "Kakao",
     "urlSlugText": "hei-getr-nke/kakao",
     "id": 385,
     "categoryKey": "25030000",
+    "active": true,
     "code": "All / Weitere Verarbeitete Lebensmittel / Kakao"
   },
-  {
+  "386": {
     "name": "Nudeln, Reis & Co.",
     "urlSlugText": "produkte/pasta-reis-getreide",
     "id": 386,
     "categoryKey": "26000000",
+    "active": true,
     "code": "All"
   },
-  {
+  "387": {
     "name": "Pasta",
     "urlSlugText": "pasta-reis-getreide/pasta",
     "id": 387,
     "categoryKey": "26010000",
+    "active": true,
     "code": "All / Getreide und Getreideprodukte / Nudeln"
   },
-  {
+  "388": {
     "name": "Reis",
     "urlSlugText": "pasta-reis-getreide/reis",
     "id": 388,
     "categoryKey": "26020000",
+    "active": true,
     "code": "All"
   },
-  {
+  "389": {
     "name": "Kartoffelprodukte",
     "urlSlugText": "pasta-reis-getreide/kartoffelprodukte",
     "id": 389,
     "categoryKey": "26030000",
+    "active": true,
     "code": "All"
   },
-  {
+  "390": {
     "name": "Hülsenfrüchte & Getreide",
     "urlSlugText": "pasta-reis-getreide/h-lsenfr-chte-getreide",
     "id": 390,
     "categoryKey": "26040000",
+    "active": true,
     "code": "All"
   },
-  {
+  "391": {
     "name": "Konserven & Fertiggerichte",
     "urlSlugText": "produkte/konserven-fertiggerichte",
     "id": 391,
     "categoryKey": "27000000",
+    "active": true,
     "code": "All"
   },
-  {
+  "392": {
     "name": "Obstkonserven",
     "urlSlugText": "konserven-fertiggerichte/obstkonserven",
     "id": 392,
     "categoryKey": "27010000",
+    "active": true,
     "code": "All"
   },
-  {
+  "393": {
     "name": "Gemüsekonserven",
     "urlSlugText": "konserven-fertiggerichte/gem-sekonserven",
     "id": 393,
     "categoryKey": "27020000",
+    "active": true,
     "code": "All"
   },
-  {
+  "394": {
     "name": "Wurstkonserven & Fleischkonserven",
     "urlSlugText": "konserven-fertiggerichte/wurst-fleischkonserven",
     "id": 394,
     "categoryKey": "27030000",
+    "active": true,
     "code": "All"
   },
-  {
+  "395": {
     "name": "Fischkonserven",
     "urlSlugText": "konserven-fertiggerichte/fischkonserven",
     "id": 395,
     "categoryKey": "27040000",
+    "active": true,
     "code": "All"
   },
-  {
+  "396": {
     "name": "Eintöpfe & Suppen",
     "urlSlugText": "konserven-fertiggerichte/eint-pfe-suppen",
     "id": 396,
     "categoryKey": "27050000",
+    "active": true,
     "code": "All / Weitere Verarbeitete Lebensmittel / Fertiggerichte"
   },
-  {
+  "397": {
     "name": "Fertiggerichte, Nudeltopf & Ravioli",
     "urlSlugText": "konserven-fertiggerichte/fertiggerichte",
     "id": 397,
     "categoryKey": "27060000",
+    "active": true,
     "code": "All / Weitere Verarbeitete Lebensmittel / Fertiggerichte"
   },
-  {
+  "398": {
     "name": "Saucen, Öle & Gewürze",
     "urlSlugText": "produkte/saucen-le-gew-rze",
     "id": 398,
     "categoryKey": "28000000",
+    "active": true,
     "code": "All"
   },
-  {
+  "399": {
     "name": "Essig & Öl",
     "urlSlugText": "saucen-le-gew-rze/essig-l",
     "id": 399,
     "categoryKey": "28010000",
+    "active": true,
     "code": "All"
   },
-  {
+  "400": {
     "name": "Dressings",
     "urlSlugText": "saucen-le-gew-rze/dressings",
     "id": 400,
     "categoryKey": "28020000",
+    "active": true,
     "code": "All"
   },
-  {
+  "401": {
     "name": "Ketchup & Grillsaucen",
     "urlSlugText": "saucen-le-gew-rze/ketchup-grillsaucen",
     "id": 401,
     "categoryKey": "28030000",
+    "active": true,
     "code": "All"
   },
-  {
+  "402": {
     "name": "Mayonnaise & Remoulade",
     "urlSlugText": "saucen-le-gew-rze/mayonnaise-remoulade",
     "id": 402,
     "categoryKey": "28040000",
+    "active": true,
     "code": "All"
   },
-  {
+  "403": {
     "name": "Senf & Meerrettich",
     "urlSlugText": "saucen-le-gew-rze/senf-meerrettich",
     "id": 403,
     "categoryKey": "28050000",
+    "active": true,
     "code": "All"
   },
-  {
+  "404": {
     "name": "Fertigsaucen",
     "urlSlugText": "saucen-le-gew-rze/fertigsaucen",
     "id": 404,
     "categoryKey": "28060000",
+    "active": true,
     "code": "All"
   },
-  {
+  "405": {
     "name": "Gewürze & Würzmischungen",
     "urlSlugText": "saucen-le-gew-rze/gew-rze-w-rzmischungen",
     "id": 405,
     "categoryKey": "28070000",
+    "active": true,
     "code": "All"
   },
-  {
+  "406": {
     "name": "Brühe, Bouillons & Fonds",
     "urlSlugText": "saucen-le-gew-rze/br-hen-bouillons",
     "id": 406,
     "categoryKey": "28080000",
+    "active": true,
     "code": "All"
   },
-  {
+  "407": {
     "name": "Saucen & Fertigsaucen",
     "urlSlugText": "saucen-le-gew-rze/saucen-fonds",
     "id": 407,
     "categoryKey": "28090000",
+    "active": true,
     "code": "All"
   },
-  {
+  "408": {
     "name": "Fixprodukte, Gewürze & Würzmischungen",
     "urlSlugText": "saucen-le-gew-rze/fixprodukte",
     "id": 408,
     "categoryKey": "28100000",
-    "code": "All"
+    "active": true,
+    "code": "All / Salz und Gewürze"
   },
-  {
+  "409": {
     "name": "Backen & Dessertpulver",
     "urlSlugText": "produkte/backen-dessert",
     "id": 409,
     "categoryKey": "29000000",
+    "active": true,
     "code": "All"
   },
-  {
+  "410": {
     "name": "Mehl",
     "urlSlugText": "backen-dessert/mehl",
     "id": 410,
     "categoryKey": "29010000",
+    "active": true,
     "code": "All / Getreide und Getreideprodukte / Mehl"
   },
-  {
+  "411": {
     "name": "Zucker & Süßungsmittel",
     "urlSlugText": "backen-dessert/zucker-s-ungsmittel",
     "id": 411,
     "categoryKey": "29020000",
+    "active": true,
     "code": "All / Zuckerarten, Sirupe und Honig"
   },
-  {
+  "412": {
     "name": "Backmischungen",
     "urlSlugText": "backen-dessert/backmischungen",
     "id": 412,
     "categoryKey": "29030000",
+    "active": true,
     "code": "All"
   },
-  {
+  "413": {
     "name": "Backzutaten",
     "urlSlugText": "backen-dessert/backzutaten",
     "id": 413,
     "categoryKey": "29040000",
+    "active": true,
     "code": "All"
   },
-  {
+  "414": {
     "name": "Backdekoration",
     "urlSlugText": "backen-dessert/backdekoration",
     "id": 414,
     "categoryKey": "29050000",
+    "active": true,
     "code": "All"
   },
-  {
+  "415": {
     "name": "Dessertpulver",
     "urlSlugText": "backen-dessert/dessertpulver",
     "id": 415,
     "categoryKey": "29060000",
+    "active": true,
     "code": "All"
   },
-  {
+  "416": {
     "name": "Tiefkühlung",
     "urlSlugText": "produkte/tiefk-hlung",
     "id": 416,
     "categoryKey": "30000000",
+    "active": true,
     "code": "All"
   },
-  {
+  "417": {
     "name": "Fisch, Fleisch & Veggie",
     "urlSlugText": "tiefk-hlung/fisch-fleisch-veggie",
     "id": 417,
     "categoryKey": "30010000",
+    "active": true,
     "code": "All"
   },
-  {
+  "418": {
     "name": "Pizza & Baguettes",
     "urlSlugText": "tiefk-hlung/pizza-baguettes",
     "id": 418,
     "categoryKey": "30020000",
+    "active": true,
     "code": "All / Weitere Verarbeitete Lebensmittel / Fertiggerichte"
   },
-  {
+  "419": {
     "name": "Pfannengerichte & Fertiggerichte",
     "urlSlugText": "tiefk-hlung/pfannen-fertiggerichte",
     "id": 419,
     "categoryKey": "30030000",
+    "active": true,
     "code": "All / Weitere Verarbeitete Lebensmittel / Fertiggerichte"
   },
-  {
+  "420": {
     "name": "Kartoffelprodukte",
     "urlSlugText": "tiefk-hlung/kartoffelprodukte",
     "id": 420,
     "categoryKey": "30040000",
-    "code": "All"
+    "active": true,
+    "code": "All / Weitere Verarbeitete Lebensmittel / Fertiggerichte"
   },
-  {
+  "421": {
     "name": "Obst",
     "urlSlugText": "tiefk-hlung/obst",
     "id": 421,
     "categoryKey": "30050000",
+    "active": true,
     "code": "All / Obst"
   },
-  {
+  "422": {
     "name": "Gemüse",
     "urlSlugText": "tiefk-hlung/gem-se",
     "id": 422,
     "categoryKey": "30060000",
+    "active": true,
     "code": "All / Gemüse"
   },
-  {
+  "423": {
     "name": "Kräuter",
     "urlSlugText": "tiefk-hlung/kr-uter",
     "id": 423,
     "categoryKey": "30070000",
+    "active": true,
     "code": "All / Gemüse / Kräuter"
   },
-  {
+  "424": {
     "name": "Eis",
     "urlSlugText": "tiefk-hlung/eis",
     "id": 424,
     "categoryKey": "30080000",
-    "code": "All"
+    "active": true,
+    "code": "All / Weitere Verarbeitete Lebensmittel / Fertiggerichte"
   },
-  {
+  "425": {
     "name": "Desserts & Backwaren",
     "urlSlugText": "tiefk-hlung/desserts-backwaren",
     "id": 425,
     "categoryKey": "30090000",
-    "code": "All"
+    "active": true,
+    "code": "All / Weitere Verarbeitete Lebensmittel / Fertiggerichte"
   },
-  {
+  "426": {
     "name": "Süßes & Salziges",
     "urlSlugText": "produkte/s-es-salziges",
     "id": 426,
     "categoryKey": "31000000",
+    "active": true,
     "code": "All"
   },
-  {
+  "427": {
     "name": "Schokolade",
     "urlSlugText": "s-es-salziges/schokolade",
     "id": 427,
     "categoryKey": "31010000",
+    "active": true,
     "code": "All / Süßwaren"
   },
-  {
+  "428": {
     "name": "Fruchtgummi & Lakritz",
     "urlSlugText": "s-es-salziges/fruchtgummi-lakritz",
     "id": 428,
     "categoryKey": "31020000",
+    "active": true,
     "code": "All / Süßwaren"
   },
-  {
+  "429": {
     "name": "Bonbons & Kaugummi",
     "urlSlugText": "s-es-salziges/bonbons-kaugummi",
     "id": 429,
     "categoryKey": "31030000",
+    "active": true,
     "code": "All / Süßwaren"
   },
-  {
+  "430": {
     "name": "Gebäck & Kekse",
     "urlSlugText": "s-es-salziges/geb-ck",
     "id": 430,
     "categoryKey": "31040000",
+    "active": true,
     "code": "All / Süßwaren"
   },
-  {
+  "431": {
     "name": "Chips & Cracker",
     "urlSlugText": "s-es-salziges/chips-cracker",
     "id": 431,
     "categoryKey": "31050000",
+    "active": true,
     "code": "All"
   },
-  {
+  "432": {
     "name": "Nüsse & Trockenfrüchte",
     "urlSlugText": "s-es-salziges/n-sse",
     "id": 432,
     "categoryKey": "31060000",
+    "active": true,
     "code": "All"
   },
-  {
+  "433": {
     "name": "Getränke",
     "urlSlugText": "produkte/alkoholfreie-getr-nke",
     "id": 433,
     "categoryKey": "32000000",
+    "active": true,
     "code": "All / Getränke"
   },
-  {
+  "434": {
     "name": "Wasser",
     "urlSlugText": "alkoholfreie-getr-nke/wasser",
     "id": 434,
     "categoryKey": "32010000",
+    "active": true,
     "code": "All / Getränke"
   },
-  {
+  "435": {
     "name": "Säfte",
     "urlSlugText": "alkoholfreie-getr-nke/s-fte",
     "id": 435,
     "categoryKey": "32020000",
+    "active": true,
     "code": "All / Getränke"
   },
-  {
+  "436": {
     "name": "Smoothies",
     "urlSlugText": "alkoholfreie-getr-nke/smoothies",
     "id": 436,
     "categoryKey": "32030000",
+    "active": true,
     "code": "All / Getränke"
   },
-  {
+  "437": {
     "name": "Schorlen",
     "urlSlugText": "alkoholfreie-getr-nke/schorlen",
     "id": 437,
     "categoryKey": "32040000",
+    "active": true,
     "code": "All / Getränke"
   },
-  {
+  "438": {
     "name": "Eistee",
     "urlSlugText": "alkoholfreie-getr-nke/eistee",
     "id": 438,
     "categoryKey": "32050000",
+    "active": true,
     "code": "All / Getränke"
   },
-  {
+  "439": {
     "name": "Softdrinks",
     "urlSlugText": "alkoholfreie-getr-nke/softdrinks",
     "id": 439,
     "categoryKey": "32060000",
+    "active": true,
     "code": "All / Getränke"
   },
-  {
+  "440": {
     "name": "Energy- & Sportdrinks",
     "urlSlugText": "alkoholfreie-getr-nke/energy-sportdrinks",
     "id": 440,
     "categoryKey": "32070000",
+    "active": true,
     "code": "All / Getränke"
   },
-  {
+  "441": {
     "name": "Milchgetränke & Kaffeegetränke",
     "urlSlugText": "alkoholfreie-getr-nke/mich-kaffeegetr-nke",
     "id": 441,
     "categoryKey": "32080000",
+    "active": true,
     "code": "All / Getränke"
   },
-  {
+  "442": {
     "name": "Alkoholische Getränke",
     "urlSlugText": "produkte/alkoholische-getr-nke",
     "id": 442,
     "categoryKey": "33000000",
+    "active": true,
     "code": "All / Getränke"
   },
-  {
+  "443": {
     "name": "Bier",
     "urlSlugText": "alkoholische-getr-nke/bier",
     "id": 443,
     "categoryKey": "33010000",
+    "active": true,
     "code": "All / Getränke"
   },
-  {
+  "444": {
     "name": "Wein",
     "urlSlugText": "alkoholische-getr-nke/wein",
     "id": 444,
     "categoryKey": "33020000",
+    "active": true,
     "code": "All / Getränke"
   },
-  {
+  "445": {
     "name": "Frucht- & Glühwein",
     "urlSlugText": "alkoholische-getr-nke/frucht-gl-hwein",
     "id": 445,
     "categoryKey": "33030000",
+    "active": true,
     "code": "All / Getränke"
   },
-  {
+  "446": {
     "name": "Sekt & Schaumwein",
     "urlSlugText": "alkoholische-getr-nke/sekt-schaumwein",
     "id": 446,
     "categoryKey": "33040000",
+    "active": true,
     "code": "All / Getränke"
   },
-  {
+  "447": {
     "name": "Spirituosen",
     "urlSlugText": "alkoholische-getr-nke/spirituosen",
     "id": 447,
     "categoryKey": "33050000",
+    "active": true,
     "code": "All / Getränke"
   },
-  {
+  "448": {
     "name": "Baby & Kind",
     "urlSlugText": "produkte/baby-kind",
     "id": 448,
     "categoryKey": "34000000",
+    "active": true,
     "code": "All"
   },
-  {
+  "449": {
     "name": "Milchnahrung",
     "urlSlugText": "baby-kind/milchnahrung",
     "id": 449,
     "categoryKey": "34010000",
+    "active": true,
     "code": "All"
   },
-  {
+  "450": {
     "name": "Gläschen & Snacks",
     "urlSlugText": "baby-kind/gl-schen-snacks",
     "id": 450,
     "categoryKey": "34020000",
+    "active": true,
     "code": "All"
   },
-  {
+  "451": {
     "name": "Pflege & Windeln",
     "urlSlugText": "baby-kind/pflege",
     "id": 451,
     "categoryKey": "34030000",
+    "active": true,
     "code": "All"
   },
-  {
+  "452": {
     "name": "Wickeln",
     "urlSlugText": "baby-kind/wickeln",
     "id": 452,
     "categoryKey": "34040000",
+    "active": true,
     "code": "All"
   },
-  {
+  "453": {
     "name": "Drogerie",
     "urlSlugText": "produkte/drogerie",
     "id": 453,
     "categoryKey": "35000000",
+    "active": true,
     "code": "All"
   },
-  {
+  "454": {
     "name": "Haarpflege & Styling",
     "urlSlugText": "drogerie/haarpflege-styling",
     "id": 454,
     "categoryKey": "35010000",
+    "active": true,
     "code": "All"
   },
-  {
+  "455": {
     "name": "Duschen & Baden",
     "urlSlugText": "drogerie/duschen-baden",
     "id": 455,
     "categoryKey": "35020000",
+    "active": true,
     "code": "All"
   },
-  {
+  "456": {
     "name": "Seife",
     "urlSlugText": "drogerie/seife",
     "id": 456,
     "categoryKey": "35030000",
+    "active": true,
     "code": "All"
   },
-  {
+  "457": {
     "name": "Deodorant",
     "urlSlugText": "drogerie/deodorant",
     "id": 457,
     "categoryKey": "35040000",
+    "active": true,
     "code": "All"
   },
-  {
+  "458": {
     "name": "Körperpflege",
     "urlSlugText": "drogerie/k-rperpflege",
     "id": 458,
     "categoryKey": "35050000",
+    "active": true,
     "code": "All"
   },
-  {
+  "459": {
     "name": "Gesichtspflege",
     "urlSlugText": "drogerie/gesichtspflege",
     "id": 459,
     "categoryKey": "35060000",
+    "active": true,
     "code": "All"
   },
-  {
+  "460": {
     "name": "Make-Up",
     "urlSlugText": "drogerie/make-up",
     "id": 460,
     "categoryKey": "35070000",
+    "active": true,
     "code": "All"
   },
-  {
+  "461": {
     "name": "Zahn-& Mundhygiene",
     "urlSlugText": "drogerie/zahn-mundhygiene",
     "id": 461,
     "categoryKey": "35080000",
+    "active": true,
     "code": "All"
   },
-  {
+  "462": {
     "name": "Rasur-& Haarentfernung",
     "urlSlugText": "drogerie/rasur-haarentfernung",
     "id": 462,
     "categoryKey": "35090000",
+    "active": true,
     "code": "All"
   },
-  {
+  "463": {
     "name": "Damenhygiene",
     "urlSlugText": "drogerie/damenhygiene",
     "id": 463,
     "categoryKey": "35100000",
+    "active": true,
     "code": "All"
   },
-  {
+  "464": {
     "name": "Wattepads, Pflaster & Co.",
     "urlSlugText": "drogerie/wattepads-pflaster-co-",
     "id": 464,
     "categoryKey": "35110000",
+    "active": true,
     "code": "All"
   },
-  {
+  "465": {
     "name": "Haushalt",
     "urlSlugText": "produkte/haushalt",
     "id": 465,
     "categoryKey": "36000000",
+    "active": true,
     "code": "All"
   },
-  {
+  "466": {
     "name": "Putzmittel & Reinigungsmittel",
     "urlSlugText": "haushalt/putz-reinigungsmittel",
     "id": 466,
     "categoryKey": "36010000",
+    "active": true,
     "code": "All"
   },
-  {
+  "467": {
     "name": "Spülmittel & Schwämme",
     "urlSlugText": "haushalt/sp-lmittel-schw-mme",
     "id": 467,
     "categoryKey": "36020000",
+    "active": true,
     "code": "All"
   },
-  {
+  "468": {
     "name": "Waschmittel",
     "urlSlugText": "haushalt/waschmittel",
     "id": 468,
     "categoryKey": "36030000",
+    "active": true,
     "code": "All"
   },
-  {
+  "469": {
     "name": "Folien & Beutel",
     "urlSlugText": "haushalt/folien-beutel",
     "id": 469,
     "categoryKey": "36040000",
+    "active": true,
     "code": "All"
   },
-  {
+  "470": {
     "name": "Papier & Tücher",
     "urlSlugText": "haushalt/papier-t-cher",
     "id": 470,
     "categoryKey": "36050000",
+    "active": true,
     "code": "All"
   },
-  {
+  "471": {
     "name": "Haushaltsartikel",
     "urlSlugText": "haushalt/haushaltsartikel",
     "id": 471,
     "categoryKey": "36060000",
+    "active": true,
     "code": "All"
   },
-  {
+  "472": {
     "name": "Garten & Auto",
     "urlSlugText": "haushalt/garten-auto",
     "id": 472,
     "categoryKey": "36070000",
+    "active": true,
     "code": "All"
   },
-  {
+  "473": {
     "name": "Hund & Katze",
     "urlSlugText": "produkte/tier",
     "id": 473,
     "categoryKey": "37000000",
+    "active": true,
     "code": "All"
   },
-  {
+  "474": {
     "name": "Hundefutter",
     "urlSlugText": "tier/hund",
     "id": 474,
     "categoryKey": "37010000",
+    "active": true,
     "code": "All"
   },
-  {
+  "475": {
     "name": "Katzenfutter",
     "urlSlugText": "tier/katze",
     "id": 475,
     "categoryKey": "37020000",
+    "active": true,
     "code": "All"
   },
-  {
+  "478": {
     "name": "Angebote",
     "urlSlugText": "produkte/angebote",
     "id": 478,
     "categoryKey": "12000000",
+    "active": true,
     "code": "All"
   },
-  {
+  "483": {
     "name": "Weihnachten",
     "urlSlugText": "produkte/weihnachten",
     "id": 483,
     "categoryKey": "17000000",
+    "active": true,
     "code": "All"
   },
-  {
+  "484": {
     "name": "Bio",
     "urlSlugText": "produkte/bio",
     "id": 484,
     "categoryKey": "18000000",
+    "active": true,
     "code": "All"
   },
-  {
+  "485": {
     "name": "Bio",
     "urlSlugText": "produkte/bio/bio",
     "id": 485,
     "categoryKey": "structuregroup_1588161405357057",
+    "active": true,
     "code": "All"
   },
-  {
+  "486": {
     "name": "ALDI Sports",
     "urlSlugText": "produkte/aldi-sports",
     "id": 486,
     "categoryKey": "structuregroup_1588161405358960",
+    "active": true,
     "code": "All"
   },
-  {
+  "487": {
     "name": "Der Riegel",
     "urlSlugText": "produkte/aldi-sports/der-riegel",
     "id": 487,
     "categoryKey": "structuregroup_1588161405358961",
+    "active": true,
     "code": "All"
   },
-  {
+  "488": {
     "name": "Whey",
     "urlSlugText": "produkte/aldi-sports/whey",
     "id": 488,
     "categoryKey": "structuregroup_1588161405358962",
+    "active": true,
     "code": "All"
   },
-  {
+  "489": {
     "name": "Registrierung",
     "urlSlugText": "produkte/registrierung",
     "id": 489,
     "categoryKey": "structuregroup_1588161407774196",
+    "active": true,
     "code": "All"
   },
-  {
+  "490": {
     "name": "Registrierung",
     "urlSlugText": "produkte/registrierung/registrierung",
     "id": 490,
     "categoryKey": "structuregroup_1588161407774197",
+    "active": true,
     "code": "All"
   },
-  {
+  "493": {
     "name": "Wurstaufschnitt",
     "urlSlugText": "produkte/wurstaufschnitt",
     "id": 493,
     "categoryKey": "structuregroup_1588161408437114",
+    "active": true,
     "code": "All / Fleisch"
   },
-  {
+  "496": {
     "name": "Angebote",
     "urlSlugText": "produkte/angebote/angebote",
     "id": 496,
     "categoryKey": "structuregroup_1588161408437102",
+    "active": true,
     "code": "All"
   },
-  {
+  "497": {
     "name": "Milchnahrung",
     "urlSlugText": "produkte/baby-kind/milchnahrung",
     "id": 497,
     "categoryKey": "structuregroup_1588161408437104",
+    "active": true,
     "code": "All"
   },
-  {
+  "498": {
     "name": "Nüsse zum Backen",
     "urlSlugText": "produkte/backen-dessertpulver/n-sse-zum-backen",
     "id": 498,
     "categoryKey": "structuregroup_1588161408437105",
+    "active": true,
     "code": "All / Nüsse, Samen, Kerne"
   },
-  {
+  "499": {
     "name": "Veggie & Vegan",
     "urlSlugText": "produkte/veggie-vegan",
     "id": 499,
     "categoryKey": "structuregroup_1588161408437106",
+    "active": true,
     "code": "All"
   },
-  {
+  "500": {
     "name": "Veggie & Vegan",
     "urlSlugText": "produkte/veggie-vegan/veggie-vegan",
     "id": 500,
     "categoryKey": "structuregroup_1588161408437107",
+    "active": true,
     "code": "All"
   },
-  {
+  "501": {
     "name": "Rotwein",
     "urlSlugText": "produkte/alkoholische-getr-nke/rotwein",
     "id": 501,
     "categoryKey": "structuregroup_1588161408437115",
+    "active": true,
     "code": "All / Getränke"
   },
-  {
+  "502": {
     "name": "Rosé",
     "urlSlugText": "produkte/alkoholische-getr-nke/ros-",
     "id": 502,
     "categoryKey": "structuregroup_1588161408437116",
+    "active": true,
     "code": "All / Getränke"
   },
-  {
+  "503": {
     "name": "Weißwein",
     "urlSlugText": "produkte/alkoholische-getr-nke/wei-wein",
     "id": 503,
     "categoryKey": "structuregroup_1588161408437117",
+    "active": true,
     "code": "All / Getränke"
   },
-  {
+  "506": {
     "name": "Grillen",
     "urlSlugText": "produkte/grillen",
     "id": 506,
     "categoryKey": "structuregroup_1588161407775435",
+    "active": true,
     "code": "All"
   },
-  {
+  "507": {
     "name": "Grillen",
     "urlSlugText": "produkte/grillen/grillen",
     "id": 507,
     "categoryKey": "structuregroup_1588161407775436",
+    "active": true,
     "code": "All"
   },
-  {
+  "508": {
     "name": "Weihnachten",
     "urlSlugText": "produkte/weihnachten/weihnachten",
     "id": 508,
     "categoryKey": "structuregroup_1588161409718450",
+    "active": true,
     "code": "All"
   }
-]
+}
