@@ -56,9 +56,10 @@ export class FlinkCrawler implements Crawler {
             const currentItems = resp.data.products.length;
             items = items.concat(resp.data.products);
             offset += maxItems;
+            // TODO: offset >= 1000 is not possible, how to get all items?
             done = currentItems < maxItems || offset >= 1000;
         }
-        return items;
+        return items.filter((item) => item.price.amount > 0);
     }
 
     getCanonical(rawItem: any, today: string): Item {
@@ -69,8 +70,17 @@ export class FlinkCrawler implements Crawler {
         const isWeighted = false;
         const bio = rawItem.slug.includes("bio-");
         const url = `${rawItem.slug}-${rawItem.sku}/`;
+
         const rawCategory = rawItem.category_id;
-        const category = this.categories[rawCategory];
+        let category = this.categories[rawCategory];
+        if (!category) {
+            for (let categoryID of rawItem.categories) {
+                if (categoryID in this.categories) {
+                    category = this.categories[categoryID];
+                    break;
+                }
+            }
+        }
 
         const defaultUnit: { quantity: number; unit: Unit } = { quantity: 1, unit: "stk" };
 
@@ -111,7 +121,7 @@ export class FlinkCrawler implements Crawler {
             this.store.id,
             productId,
             itemName,
-            category?.code || "Unknown", // TODO: category
+            category?.code || "Unknown",
             unavailable,
             price,
             [{ date: today, price, unitPrice: 0.0 }],
