@@ -5,6 +5,8 @@ import get from "axios";
 import * as utils from "./utils";
 import { stores } from "../../common/stores";
 
+const BASE_URL = "https://api.goflink.com";
+
 const storeUnits: Record<string, UnitMapping> = {
     beutel: { unit: "stk", factor: 1 },
     er: { unit: "stk", factor: 1 },
@@ -19,6 +21,29 @@ const invalidUnits = new Set(["dose", "€startguthaben"]);
 
 export class FlinkCrawler implements Crawler {
     store = stores.flink;
+    categories: Record<any, any> = [];
+
+    async fetchCategories() {
+        const page = `${BASE_URL}/consumer-backend/discovery/v2/categories`;
+        const resp = await get(page, { headers: { "Hub-Slug": "de_man_nied" } });
+        const rawCategories = resp.data.categories.categories;
+
+        let categories: Record<string, any> = {};
+        for (let category of rawCategories) {
+            if (category.subCategories) {
+                for (const subcategory of category.subCategories) {
+                    subcategory.active = true;
+                    subcategory.code = null;
+                    categories[subcategory.id] = subcategory;
+                }
+                delete category.subCategories;
+            }
+            category.active = true;
+            category.code = null;
+            categories[category.id] = category;
+        }
+        return categories;
+    }
 
     async fetchData() {
         const maxItems = 100;
@@ -26,8 +51,8 @@ export class FlinkCrawler implements Crawler {
         let items: any[] = [];
         let done = false;
         while (!done) {
-            const BASE_URL = `https://api.goflink.com/search-discovery/search-http/v1/search?query=&page_size=${maxItems}&offset=${offset}`;
-            const resp = await get(BASE_URL, { headers: { "Hub-Slug": "de_man_nied" } });
+            const page = `${BASE_URL}/search-discovery/search-http/v1/search?query=&page_size=${maxItems}&offset=${offset}`;
+            const resp = await get(page, { headers: { "Hub-Slug": "de_man_nied" } });
             const currentItems = resp.data.products.length;
             items = items.concat(resp.data.products);
             offset += maxItems;
@@ -45,7 +70,7 @@ export class FlinkCrawler implements Crawler {
         const bio = rawItem.slug.includes("bio-");
         const url = `${rawItem.slug}-${rawItem.sku}/`;
         const rawCategory = rawItem.category_id;
-        //const category = this.categories[rawCategory];
+        const category = this.categories[rawCategory];
 
         const defaultUnit: { quantity: number; unit: Unit } = { quantity: 1, unit: "stk" };
 
@@ -86,7 +111,7 @@ export class FlinkCrawler implements Crawler {
             this.store.id,
             productId,
             itemName,
-            "Unknown", // TODO: category
+            category?.code || "Unknown", // TODO: category
             unavailable,
             price,
             [{ date: today, price, unitPrice: 0.0 }],
