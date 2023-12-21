@@ -21,6 +21,7 @@ export class DmCrawler implements Crawler {
     categories = [];
 
     async fetchCategories() {
+        // TODO
         return [];
     }
 
@@ -95,7 +96,7 @@ export class DmCrawler implements Crawler {
         const unavailable = rawItem.notAvailable ? true : false;
         const productId = rawItem.gtin;
         const isWeighted = false;
-        const rawCategory = 0; // TODO
+        const rawCategory = rawItem.category_names[0];
         const category: Record<any, any> = this.categories[rawCategory];
         const rawQuantity = rawItem.netQuantityContent || rawItem.basePriceQuantity;
         const rawUnit = rawItem.contentUnit || rawItem.basePriceUnit;

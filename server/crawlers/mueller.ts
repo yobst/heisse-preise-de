@@ -110,7 +110,6 @@ export class MuellerCrawler implements Crawler {
             let currentPage: number = 0;
             let maxPage: number = 0;
             while (currentPage <= maxPage) {
-                console.log(currentPage, maxPage);
                 let response: any = await getWithRetries(`${page}?ajax=true&p=${currentPage + 1}`, this.store.displayName, RETRY_STATI);
                 const plp = response.data?.productlistresult;
                 if (plp && plp.pager.maxPage) {
