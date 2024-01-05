@@ -420,17 +420,17 @@
     "active": true,
     "code": "All / Weitere Verarbeitete Lebensmittel / Fertiggerichte"
   },
-  "1cd53367-af0f-4c3c-b642-c9492876bf0c": {
-    "id": "1cd53367-af0f-4c3c-b642-c9492876bf0c",
-    "slug": "frisch-fertig-fertiggerichte-snacks",
-    "name": "Gekühlte Fertiggerichte & Snacks",
-    "active": true,
-    "code": "All / Weitere Verarbeitete Lebensmittel / Fertiggerichte"
-  },
   "895513c9-2f5a-450b-ab70-fc4d4b08f3fa": {
     "id": "895513c9-2f5a-450b-ab70-fc4d4b08f3fa",
     "slug": "frisch-fertig-tiefkuehlfertiggerichte",
     "name": "Tiefkühlfertiggerichte",
+    "active": true,
+    "code": "All / Weitere Verarbeitete Lebensmittel / Fertiggerichte"
+  },
+  "1cd53367-af0f-4c3c-b642-c9492876bf0c": {
+    "id": "1cd53367-af0f-4c3c-b642-c9492876bf0c",
+    "slug": "frisch-fertig-fertiggerichte-snacks",
+    "name": "Gekühlte Fertiggerichte & Snacks",
     "active": true,
     "code": "All / Weitere Verarbeitete Lebensmittel / Fertiggerichte"
   },
@@ -538,17 +538,17 @@
     "active": true,
     "code": "All"
   },
-  "f7c65cb0-acc4-406c-b8be-82b0b8c56b9e": {
-    "id": "f7c65cb0-acc4-406c-b8be-82b0b8c56b9e",
-    "slug": "joghurt-desserts-naturjoghurt",
-    "name": "Naturjoghurt",
-    "active": true,
-    "code": "All / Milchprodukte / Joghurt"
-  },
   "3e180b54-cc4f-4442-8e75-eba375b27fda": {
     "id": "3e180b54-cc4f-4442-8e75-eba375b27fda",
     "slug": "joghurt-desserts-frucht-sahnejoghurt",
     "name": "Frucht- & Sahnejoghurt",
+    "active": true,
+    "code": "All / Milchprodukte / Joghurt"
+  },
+  "f7c65cb0-acc4-406c-b8be-82b0b8c56b9e": {
+    "id": "f7c65cb0-acc4-406c-b8be-82b0b8c56b9e",
+    "slug": "joghurt-desserts-naturjoghurt",
+    "name": "Naturjoghurt",
     "active": true,
     "code": "All / Milchprodukte / Joghurt"
   },
@@ -656,17 +656,17 @@
     "active": true,
     "code": "All / Milchprodukte / Käse"
   },
-  "6c659ec2-de73-4e4e-86a0-46061e12e88f": {
-    "id": "6c659ec2-de73-4e4e-86a0-46061e12e88f",
-    "slug": "kaese-reibekaese",
-    "name": "Reibekäse",
-    "active": true,
-    "code": "All / Milchprodukte / Käse"
-  },
   "14e0fb89-b63a-42a3-9dcb-e8403f9ce05b": {
     "id": "14e0fb89-b63a-42a3-9dcb-e8403f9ce05b",
     "slug": "kaese-koch-salatkaese",
     "name": "Koch- & Salatkäse",
+    "active": true,
+    "code": "All / Milchprodukte / Käse"
+  },
+  "6c659ec2-de73-4e4e-86a0-46061e12e88f": {
+    "id": "6c659ec2-de73-4e4e-86a0-46061e12e88f",
+    "slug": "kaese-reibekaese",
+    "name": "Reibekäse",
     "active": true,
     "code": "All / Milchprodukte / Käse"
   },
@@ -1769,65 +1769,6 @@
     "active": true,
     "code": "All / Getränke"
   },
-  "8e7cf894-1a11-4e6a-8e75-0951d2e93116": {
-    "id": "8e7cf894-1a11-4e6a-8e75-0951d2e93116",
-    "slug": "wein-sekt-weisswein",
-    "name": "Weißwein",
-    "active": true,
-    "code": "All / Getränke"
-  },
-  "79cae94d-6c0f-41dd-a943-7c403b1c399d": {
-    "id": "79cae94d-6c0f-41dd-a943-7c403b1c399d",
-    "slug": "wein-sekt-rotwein",
-    "name": "Rotwein",
-    "active": true,
-    "code": "All / Getränke"
-  },
-  "5db13c12-0189-441b-a380-0832a19674ab": {
-    "id": "5db13c12-0189-441b-a380-0832a19674ab",
-    "slug": "wein-sekt-rosewein",
-    "name": "Roséwein",
-    "active": true,
-    "code": "All / Getränke"
-  },
-  "e68e6b66-8b29-4230-a8d5-ae01669b236f": {
-    "id": "e68e6b66-8b29-4230-a8d5-ae01669b236f",
-    "slug": "wein-sekt-sekt",
-    "name": "Sekt",
-    "active": true,
-    "code": "All / Getränke"
-  },
-  "32c2a35d-dde1-4e69-b3da-344ad34119d5": {
-    "id": "32c2a35d-dde1-4e69-b3da-344ad34119d5",
-    "slug": "wein-sekt-champagner",
-    "name": "Champagner",
-    "active": true,
-    "code": "All / Getränke"
-  },
-  "c5f92470-ca23-466e-8d92-d7875c27ec59": {
-    "id": "c5f92470-ca23-466e-8d92-d7875c27ec59",
-    "slug": "wein-sekt-alkohlfreier-wein-sekt",
-    "name": "Alkoholfreier Wein & Sekt",
-    "active": true,
-    "code": "All / Getränke"
-  },
-  "fb53af09-3d85-4cfa-8fdb-5ea2846dcfc2": {
-    "id": "fb53af09-3d85-4cfa-8fdb-5ea2846dcfc2",
-    "slug": "wein-sekt-apfelwein-cider",
-    "name": "Apfelwein & Cider",
-    "active": true,
-    "code": "All / Getränke"
-  },
-  "1a678a0c-9cbb-40ee-8964-49db18463217": {
-    "id": "1a678a0c-9cbb-40ee-8964-49db18463217",
-    "slug": "wein-sekt",
-    "name": "Wein & Sekt",
-    "backgroundImage": "https://res.cloudinary.com/goflink/image/upload/w_600,h_800/de/category-backgrounds/50_NOV_Wein2_04Dec23.png",
-    "icon": "https://res.cloudinary.com/goflink/image/upload/de/icons/NEW_icon_Wein_Sekt.png",
-    "href": "/v2/categories/wein-sekt",
-    "active": true,
-    "code": "All / Getränke"
-  },
   "c2e32756-e725-4683-a99c-46e732582751": {
     "id": "c2e32756-e725-4683-a99c-46e732582751",
     "slug": "spirituosen-mehr-mixgetraenke",
@@ -1942,6 +1883,65 @@
     "href": "/v2/categories/spirituosen-mehr",
     "active": true,
     "code": "All"
+  },
+  "8e7cf894-1a11-4e6a-8e75-0951d2e93116": {
+    "id": "8e7cf894-1a11-4e6a-8e75-0951d2e93116",
+    "slug": "wein-sekt-weisswein",
+    "name": "Weißwein",
+    "active": true,
+    "code": "All / Getränke"
+  },
+  "79cae94d-6c0f-41dd-a943-7c403b1c399d": {
+    "id": "79cae94d-6c0f-41dd-a943-7c403b1c399d",
+    "slug": "wein-sekt-rotwein",
+    "name": "Rotwein",
+    "active": true,
+    "code": "All / Getränke"
+  },
+  "5db13c12-0189-441b-a380-0832a19674ab": {
+    "id": "5db13c12-0189-441b-a380-0832a19674ab",
+    "slug": "wein-sekt-rosewein",
+    "name": "Roséwein",
+    "active": true,
+    "code": "All / Getränke"
+  },
+  "e68e6b66-8b29-4230-a8d5-ae01669b236f": {
+    "id": "e68e6b66-8b29-4230-a8d5-ae01669b236f",
+    "slug": "wein-sekt-sekt",
+    "name": "Sekt",
+    "active": true,
+    "code": "All / Getränke"
+  },
+  "32c2a35d-dde1-4e69-b3da-344ad34119d5": {
+    "id": "32c2a35d-dde1-4e69-b3da-344ad34119d5",
+    "slug": "wein-sekt-champagner",
+    "name": "Champagner",
+    "active": true,
+    "code": "All / Getränke"
+  },
+  "c5f92470-ca23-466e-8d92-d7875c27ec59": {
+    "id": "c5f92470-ca23-466e-8d92-d7875c27ec59",
+    "slug": "wein-sekt-alkohlfreier-wein-sekt",
+    "name": "Alkoholfreier Wein & Sekt",
+    "active": true,
+    "code": "All / Getränke"
+  },
+  "fb53af09-3d85-4cfa-8fdb-5ea2846dcfc2": {
+    "id": "fb53af09-3d85-4cfa-8fdb-5ea2846dcfc2",
+    "slug": "wein-sekt-apfelwein-cider",
+    "name": "Apfelwein & Cider",
+    "active": true,
+    "code": "All / Getränke"
+  },
+  "1a678a0c-9cbb-40ee-8964-49db18463217": {
+    "id": "1a678a0c-9cbb-40ee-8964-49db18463217",
+    "slug": "wein-sekt",
+    "name": "Wein & Sekt",
+    "backgroundImage": "https://res.cloudinary.com/goflink/image/upload/w_600,h_800/de/category-backgrounds/50_NOV_Wein2_04Dec23.png",
+    "icon": "https://res.cloudinary.com/goflink/image/upload/de/icons/NEW_icon_Wein_Sekt.png",
+    "href": "/v2/categories/wein-sekt",
+    "active": true,
+    "code": "All / Getränke"
   },
   "6815161e-381e-4c68-8cf7-422d33199f2f": {
     "id": "6815161e-381e-4c68-8cf7-422d33199f2f",
