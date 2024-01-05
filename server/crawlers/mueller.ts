@@ -44,7 +44,6 @@ const subcategoriesExcludeList = [
 ];
 
 function getSubcategories(category: any, IDprefix = "") {
-    //console.log("category", category);
     let categories: any[] = [];
     if (!subcategoriesExcludeList.includes(category.name)) {
         const categoryID = `${IDprefix}${category.name}`;
@@ -71,7 +70,6 @@ async function getWithRetries(url: string, store: string, retryStati: Set<number
     let response: Record<string, any> = {};
     for (let tries = 0, backoff = 2000; tries < maxTries; tries++, backoff *= 2) {
         response = await client.get(url, { validateStatus: (_) => true });
-        //console.log("resp", response);
         if (response.status in retryStati) {
             console.error(`${store}: ${url} returned ${response.status}, retrying in ${backoff / 1000}s (${tries}/${maxTries}).`);
             await new Promise((resolve) => setTimeout(resolve, backoff));
