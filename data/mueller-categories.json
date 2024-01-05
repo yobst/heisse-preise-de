@@ -48,13 +48,6 @@
     "active": true,
     "code": "All / Süßwaren"
   },
-  "Drogerie/Lebensmittel/Süßigkeiten/Weihnachtliche Süßwaren": {
-    "name": "Weihnachtliche Süßwaren",
-    "url": "https://www.mueller.de/drogerie/lebensmittel/suessigkeiten/weihnachtliche-suesswaren/",
-    "id": "Drogerie/Lebensmittel/Süßigkeiten/Weihnachtliche Süßwaren",
-    "active": true,
-    "code": "All / Süßwaren"
-  },
   "Drogerie/Lebensmittel/Süßigkeiten/Snacks & Riegel": {
     "name": "Snacks & Riegel",
     "url": "https://www.mueller.de/drogerie/lebensmittel/suessigkeiten/snacks-riegel/",
@@ -496,13 +489,6 @@
     "active": true,
     "code": "All"
   },
-  "Genusswelt/Marken/Château Steinle Manufaktur": {
-    "name": "Château Steinle Manufaktur",
-    "url": "https://www.mueller.de/genusswelt/marken/chateau-steinle-manufaktur/",
-    "id": "Genusswelt/Marken/Château Steinle Manufaktur",
-    "active": true,
-    "code": "All"
-  },
   "Genusswelt/Marken/Dinzler": {
     "name": "Dinzler",
     "url": "https://www.mueller.de/genusswelt/marken/dinzler/",
@@ -627,6 +613,20 @@
     "url": "https://www.mueller.de/genusswelt/alle-genusswelt-produkte/",
     "id": "Genusswelt/Alle Genusswelt Produkte",
     "active": true,
+    "code": "All"
+  },
+  "Drogerie/Lebensmittel/Süßigkeiten/Weihnachtliche Süßwaren": {
+    "name": "Weihnachtliche Süßwaren",
+    "url": "https://www.mueller.de/drogerie/lebensmittel/suessigkeiten/weihnachtliche-suesswaren/",
+    "id": "Drogerie/Lebensmittel/Süßigkeiten/Weihnachtliche Süßwaren",
+    "active": false,
+    "code": "All / Süßwaren"
+  },
+  "Genusswelt/Marken/Château Steinle Manufaktur": {
+    "name": "Château Steinle Manufaktur",
+    "url": "https://www.mueller.de/genusswelt/marken/chateau-steinle-manufaktur/",
+    "id": "Genusswelt/Marken/Château Steinle Manufaktur",
+    "active": false,
     "code": "All"
   },
   "Genusswelt/Marken/VON HALLERS": {
