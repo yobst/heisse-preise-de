@@ -1,18 +1,8 @@
 import { Item, Unit, UnitMapping } from "../../common/models";
 import { Crawler } from "./crawler";
-import { CookieJar } from 'tough-cookie';
-import { HttpCookieAgent, HttpsCookieAgent } from 'http-cookie-agent/http'
 
-import axios from "axios";
 import * as utils from "./utils";
 import { stores } from "../../common/stores";
-
-const jar = new CookieJar();
-
-const client = axios.create({
-  httpAgent: new HttpCookieAgent({ cookies: { jar } }),
-  httpsAgent: new HttpsCookieAgent({ cookies: { jar } }),
-});
 
 const BASE_URL = "https://www.mueller.de";
 const RETRY_STATI = new Set([404]);
@@ -62,37 +52,13 @@ function getSubcategories(category: any, IDprefix = "") {
     return categories;
 }
 
-function valid(status: number) {
-    return status >= 200 && status < 300;
-}
-
-async function getWithRetries(url: string, store: string, retryStati: Set<number>, maxTries = 10) {
-    let response: Record<string, any> = {};
-    for (let tries = 0, backoff = 2000; tries < maxTries; tries++, backoff *= 2) {
-        response = await client.get(url, { validateStatus: (_) => true });
-        if (response.status in retryStati) {
-            console.error(`${store}: ${url} returned ${response.status}, retrying in ${backoff / 1000}s (${tries}/${maxTries}).`);
-            await new Promise((resolve) => setTimeout(resolve, backoff));
-        } else {
-            if (!valid(response.status)) {
-                console.error(`${store}: Couldn't fetch ${url}, returned ${response.status}.`);
-            }
-            break;
-        }
-    }
-    if (response.status in retryStati) {
-        console.error(`${store}: Couldn't fetch ${url} after ${maxTries} tries, returned ${response.status}.`);
-    }
-    return response;
-}
-
 export class MuellerCrawler implements Crawler {
     store = stores.mueller;
 
     categories: Record<string, any> = {};
 
     async fetchCategories() {
-        const response: any = await getWithRetries(`${BASE_URL}/ajax/burgermenu/`, this.store.displayName, RETRY_STATI);
+        const response: any = await utils.get(`${BASE_URL}/ajax/burgermenu/`, this.store.displayName, RETRY_STATI);
         const data = response.data;
         const categories: Record<string, any> = {};
         if (data) {
@@ -119,7 +85,7 @@ export class MuellerCrawler implements Crawler {
             let currentPage: number = 0;
             let maxPage: number = 0;
             while (currentPage <= maxPage) {
-                let response: any = await getWithRetries(`${page}?ajax=true&p=${currentPage + 1}`, this.store.displayName, RETRY_STATI);
+                let response: any = await utils.get(`${page}?ajax=true&p=${currentPage + 1}`, this.store.displayName, RETRY_STATI);
                 const plp = response.data?.productlistresult;
                 if (plp && plp.pager.maxPage) {
                     maxPage = plp.pager.maxPage;

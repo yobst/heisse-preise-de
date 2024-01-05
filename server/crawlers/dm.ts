@@ -6,6 +6,7 @@ import * as utils from "./utils";
 import { stores } from "../../common/stores";
 
 const BASE_URL = "https://product-search.services.dmtech.com/de";
+const RETRY_STATI = new Set([429]);
 
 const storeUnits: Record<string, UnitMapping> = {
     wl: { unit: "wg", factor: 1 },
@@ -19,7 +20,7 @@ const storeUnits: Record<string, UnitMapping> = {
 
 function getSubcategories(category: any) {
     let categories: any[] = [];
-    if (category.has("code")) {
+    if (category.code) {
         categories.push({
             name: category.name,
             url: category.imageUrlTemplate,
@@ -27,14 +28,16 @@ function getSubcategories(category: any) {
             active: true,
             code: null,
         });
-        for (const subcategory of category.subcategories) {
-            categories = categories.concat(getSubcategories(subcategory));
+        if (category.subcategories) {
+            for (const subcategory of category.subcategories) {
+                categories = categories.concat(getSubcategories(subcategory));
+            }
         }
     }
 
     return categories;
 }
-const categoriesIncludeList =  ["Ernährung", "Baby & Kind", "Gesundheit"]; // 30000 40000 50000
+const categoriesIncludeList = ["Ernährung", "Baby & Kind", "Gesundheit"]; // 30000 40000 50000
 
 export class DmCrawler implements Crawler {
     store = stores.dm;
@@ -42,16 +45,14 @@ export class DmCrawler implements Crawler {
 
     async fetchCategories() {
         const page = `${BASE_URL}/navigationcategories`;
-        const resp = await get(page);
+        const resp = await utils.get(page, this.store.id, RETRY_STATI);
         const data = resp.data;
         const categories: Record<string, any> = {};
         if (data) {
             data.forEach((category: any) => {
-                if (categoriesIncludeList.includes(category.code)) {
-                    let subcategories = getSubcategories(category);
-                    for (const subcategory of subcategories) {
-                        categories[subcategory.id] = subcategory;
-                    }
+                let subcategories = getSubcategories(category);
+                for (const subcategory of subcategories) {
+                    categories[subcategory.name] = subcategory;
                 }
             });
         }
@@ -59,23 +60,8 @@ export class DmCrawler implements Crawler {
     }
 
     async fetchData() {
-        const page = `${BASE_URL}/search/crawl?pageSize=1000&`;
-        const QUERIES = [
-            "allCategories.id=010000&price.value.to=2", //~500 items
-            "allCategories.id=010000&price.value.from=2&price.value.to=3", //~600 items
-            "allCategories.id=010000&price.value.from=3&price.value.to=4", //~500 items
-            "allCategories.id=010000&price.value.from=4&price.value.to=6", //~800 items
-            "allCategories.id=010000&price.value.from=6&price.value.to=8", //~800 items
-            "allCategories.id=010000&price.value.from=8&price.value.to=10", //~900 items
-            "allCategories.id=010000&price.value.from=10&price.value.to=14", //~900 items
-            "allCategories.id=010000&price.value.from=14", //~300 items
-            "allCategories.id=020000&price.value.to=2", //~600 items
-            "allCategories.id=020000&price.value.from=2&price.value.to=3", //~550 items
-            "allCategories.id=020000&price.value.from=3&price.value.to=4", //~600 items
-            "allCategories.id=020000&price.value.from=4&price.value.to=6", //~800 items
-            "allCategories.id=020000&price.value.from=6&price.value.to=10", //~850 items
-            "allCategories.id=020000&price.value.from=10&price.value.to=18", //~900 items
-            "allCategories.id=020000&price.value.from=18", //~960 items (!)
+        const urlPrefix = `${BASE_URL}/search/crawl?pageSize=1000&`;
+        const queries = [
             "allCategories.id=030000&price.value.to=7", //~980 items (!)
             "allCategories.id=030000&price.value.from=7", //~500 items
             "allCategories.id=040000&price.value.to=2", //~600 items
@@ -85,39 +71,20 @@ export class DmCrawler implements Crawler {
             "allCategories.id=050000&price.value.from=2&price.value.to=6", //~900 items
             "allCategories.id=050000&price.value.from=6&price.value.to=10", //~850 items
             "allCategories.id=050000&price.value.from=10", //~850 items
-            "allCategories.id=060000&price.value.to=3", //~940 items
-            "allCategories.id=060000&price.value.from=3", //~850 items
-            "allCategories.id=070000", //~300 items
         ];
 
-        let dmItems: any[] = [];
-        for (let query of QUERIES) {
-            let res = await get(page + query, {
-                validateStatus: function (status) {
-                    return (status >= 200 && status < 300) || status == 429;
-                },
-            });
-
-            // exponential backoff
-            let backoff = 2000;
-            while (res.status == 429) {
-                console.info(`DM API returned 429, retrying in ${backoff / 1000}s.`);
-                await new Promise((resolve) => setTimeout(resolve, backoff));
-                backoff *= 2;
-                res = await get(page + query, {
-                    validateStatus: function (status) {
-                        return (status >= 200 && status < 300) || status == 429;
-                    },
-                });
+        const dmItems: any[] = [];
+        for (let query of queries) {
+            const res = await utils.get(urlPrefix + query, this.store.id, RETRY_STATI);
+            const items = res.data;
+            if (items) {
+                if (items.count > items.products.length) {
+                    console.warn(
+                        `DM Query matches ${items.count} items, but API only returns first ${items.products.length}. Adjust queries. Query: ${query}`
+                    );
+                }
+                dmItems.push(...items.products);
             }
-            let items = res.data;
-            if (items.count > items.products.length) {
-                console.warn(
-                    `DM Query matches ${items.count} items, but API only returns first ${items.products.length}. Adjust queries. Query: ${query}`
-                );
-            }
-            dmItems = dmItems.concat(items.products);
-            await new Promise((resolve) => setTimeout(resolve, 1000));
         }
         return dmItems;
     }
@@ -129,7 +96,7 @@ export class DmCrawler implements Crawler {
         const unavailable = rawItem.notAvailable ? true : false;
         const productId = rawItem.gtin;
         const isWeighted = false;
-        const rawCategory = rawItem.category_names[0];
+        const rawCategory = rawItem.categoryNames[0];
         const category: Record<any, any> = this.categories[rawCategory];
         const rawQuantity = rawItem.netQuantityContent || rawItem.basePriceQuantity;
         const rawUnit = rawItem.contentUnit || rawItem.basePriceUnit;

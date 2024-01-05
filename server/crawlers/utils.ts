@@ -1,4 +1,38 @@
 import { Unit, UnitMapping, units } from "../../common/models";
+import { CookieJar } from 'tough-cookie';
+import { HttpCookieAgent, HttpsCookieAgent } from 'http-cookie-agent/http'
+import axios from "axios";
+
+const jar = new CookieJar();
+
+const client = axios.create({
+  httpAgent: new HttpCookieAgent({ cookies: { jar } }),
+  httpsAgent: new HttpsCookieAgent({ cookies: { jar } }),
+});
+
+function valid(status: number) {
+    return status >= 200 && status < 300;
+}
+
+export async function get(url: string, store: string, retryStati: Set<number>, maxTries = 10) {
+    let response: Record<string, any> = {};
+    for (let tries = 0, backoff = 2000; tries < maxTries; tries++, backoff *= 2) {
+        response = await client.get(url, { validateStatus: (_) => true });
+        if ( retryStati.has(response.status) ) {
+            console.error(`${store}: ${url} returned ${response.status}, retrying in ${backoff / 1000}s (${tries}/${maxTries}).`);
+            await new Promise((resolve) => setTimeout(resolve, backoff));
+        } else {
+            if (!valid(response.status)) {
+                console.error(`${store}: Couldn't fetch ${url}, returned ${response.status}.`);
+            }
+            break;
+        }
+    }
+    if (response.status in retryStati) {
+        console.error(`${store}: Couldn't fetch ${url} after ${maxTries} tries, returned ${response.status}.`);
+    }
+    return response;
+}
 
 export function normalizeUnitAndQuantity(
     itemName: string,
