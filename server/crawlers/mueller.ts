@@ -1,12 +1,21 @@
 import { Category, Item, Unit, UnitMapping } from "../../common/models";
 import { Crawler } from "./crawler";
+import { CookieJar } from 'tough-cookie';
+import { HttpCookieAgent, HttpsCookieAgent } from 'http-cookie-agent/http'
 
-import get from "axios";
+import axios from "axios";
 import * as utils from "./utils";
 import { stores } from "../../common/stores";
 
+const jar = new CookieJar();
+
+const client = axios.create({
+  httpAgent: new HttpCookieAgent({ cookies: { jar } }),
+  httpsAgent: new HttpsCookieAgent({ cookies: { jar } }),
+});
+
 const BASE_URL = "https://www.mueller.de";
-const RETRY_STATI = new Set([404, 302]);
+const RETRY_STATI = new Set([404]);
 
 const storeUnits: Record<string, UnitMapping> = {
     wl: { unit: "wg", factor: 1 },
@@ -60,7 +69,7 @@ function valid(status: number) {
 async function getWithRetries(url: string, store: string, retryStati: Set<number>, maxTries = 10) {
     let response: Record<string, any> = {};
     for (let tries = 0, backoff = 2000; tries < maxTries; tries++, backoff *= 2) {
-        response = await get(url, { validateStatus: (_) => true });
+        response = await client.get(url, { validateStatus: (_) => true });
         if (response.status in retryStati) {
             console.error(`${store}: ${url} returned ${response.status}, retrying in ${backoff / 1000}s (${tries}/${maxTries}).`);
             await new Promise((resolve) => setTimeout(resolve, backoff));
