@@ -112,8 +112,6 @@ export class MuellerCrawler implements Crawler {
         // TODO: speed up
         let muellerItems: any[] = [];
 
-        this.categories = await this.fetchCategories();
-
         for (let categoryId of ["Drogerie/Lebensmittel", "Naturshop/Lebensmittel"]) {
             let category = this.categories[categoryId];
             let page = category.url;
@@ -160,7 +158,7 @@ export class MuellerCrawler implements Crawler {
             this.store.id,
             rawItem.productId,
             itemName,
-            this.getCategory(rawItem),
+            category,
             unavailable,
             price,
             [{ date: today, price: price, unitPrice: 0.0 }],
@@ -170,9 +168,5 @@ export class MuellerCrawler implements Crawler {
             bio,
             rawItem.productUrl
         );
-    }
-
-    getCategory(rawItem: any): Category {
-        return "Unknown";
     }
 }

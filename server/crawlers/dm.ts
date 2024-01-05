@@ -18,6 +18,12 @@ const storeUnits: Record<string, UnitMapping> = {
 export class DmCrawler implements Crawler {
     store = stores.dm;
 
+    categories = [];
+
+    async fetchCategories() {
+        return [];
+    }
+
     async fetchData() {
         const DM_BASE_URL = `https://product-search.services.dmtech.com/de/search/crawl?pageSize=1000&`;
         const QUERIES = [
@@ -89,6 +95,8 @@ export class DmCrawler implements Crawler {
         const unavailable = rawItem.notAvailable ? true : false;
         const productId = rawItem.gtin;
         const isWeighted = false;
+        const rawCategory = 0; // TODO
+        const category: Record<any, any> = this.categories[rawCategory];
         const rawQuantity = rawItem.netQuantityContent || rawItem.basePriceQuantity;
         const rawUnit = rawItem.contentUnit || rawItem.basePriceUnit;
         const defaultValue: { quantity: number; unit: Unit } = { quantity: 1, unit: "stk" };
@@ -98,7 +106,7 @@ export class DmCrawler implements Crawler {
             this.store.id,
             productId,
             itemName,
-            this.getCategory(rawItem),
+            category?.code || "Unknown",
             unavailable,
             price,
             [{ date: today, price: price, unitPrice: 0 }],
@@ -107,10 +115,5 @@ export class DmCrawler implements Crawler {
             unitAndQuantity.quantity,
             bio
         );
-    }
-
-    getCategory(_rawItem: any): Category {
-        //return rawItem.categoryNames;
-        return "Unknown";
     }
 }
