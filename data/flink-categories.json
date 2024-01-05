@@ -656,17 +656,17 @@
     "active": true,
     "code": "All / Milchprodukte / Käse"
   },
-  "14e0fb89-b63a-42a3-9dcb-e8403f9ce05b": {
-    "id": "14e0fb89-b63a-42a3-9dcb-e8403f9ce05b",
-    "slug": "kaese-koch-salatkaese",
-    "name": "Koch- & Salatkäse",
-    "active": true,
-    "code": "All / Milchprodukte / Käse"
-  },
   "6c659ec2-de73-4e4e-86a0-46061e12e88f": {
     "id": "6c659ec2-de73-4e4e-86a0-46061e12e88f",
     "slug": "kaese-reibekaese",
     "name": "Reibekäse",
+    "active": true,
+    "code": "All / Milchprodukte / Käse"
+  },
+  "14e0fb89-b63a-42a3-9dcb-e8403f9ce05b": {
+    "id": "14e0fb89-b63a-42a3-9dcb-e8403f9ce05b",
+    "slug": "kaese-koch-salatkaese",
+    "name": "Koch- & Salatkäse",
     "active": true,
     "code": "All / Milchprodukte / Käse"
   },
