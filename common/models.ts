@@ -1,4 +1,4 @@
-export type Unit = "stk" | "cm" | "g" | "ml" | "wg" | "qm" | "kne" | "srv";
+export type Unit = "stk" | "cm" | "g" | "ml" | "wg" | "qm" | "kne" | "srv" | "zug";
 
 export type UnitMapping = { unit: Unit; factor: number };
 
@@ -34,6 +34,7 @@ export const units: Record<string, UnitMapping> = {
     wg: { unit: "wg", factor: 1 },
     kne: { unit: "kne", factor: 1 }, // from aldi store, not sure what this unit is, probably something like drained net weight
     srv: { unit: "srv", factor: 1 }, // serving
+    züge: { unit: "zug", factor: 1 },
 };
 
 export type Category =
