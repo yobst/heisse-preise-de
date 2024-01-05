@@ -420,17 +420,17 @@
     "active": true,
     "code": "All / Weitere Verarbeitete Lebensmittel / Fertiggerichte"
   },
-  "1cd53367-af0f-4c3c-b642-c9492876bf0c": {
-    "id": "1cd53367-af0f-4c3c-b642-c9492876bf0c",
-    "slug": "frisch-fertig-fertiggerichte-snacks",
-    "name": "Gekühlte Fertiggerichte & Snacks",
-    "active": true,
-    "code": "All / Weitere Verarbeitete Lebensmittel / Fertiggerichte"
-  },
   "895513c9-2f5a-450b-ab70-fc4d4b08f3fa": {
     "id": "895513c9-2f5a-450b-ab70-fc4d4b08f3fa",
     "slug": "frisch-fertig-tiefkuehlfertiggerichte",
     "name": "Tiefkühlfertiggerichte",
+    "active": true,
+    "code": "All / Weitere Verarbeitete Lebensmittel / Fertiggerichte"
+  },
+  "1cd53367-af0f-4c3c-b642-c9492876bf0c": {
+    "id": "1cd53367-af0f-4c3c-b642-c9492876bf0c",
+    "slug": "frisch-fertig-fertiggerichte-snacks",
+    "name": "Gekühlte Fertiggerichte & Snacks",
     "active": true,
     "code": "All / Weitere Verarbeitete Lebensmittel / Fertiggerichte"
   },
@@ -538,17 +538,17 @@
     "active": true,
     "code": "All"
   },
-  "3e180b54-cc4f-4442-8e75-eba375b27fda": {
-    "id": "3e180b54-cc4f-4442-8e75-eba375b27fda",
-    "slug": "joghurt-desserts-frucht-sahnejoghurt",
-    "name": "Frucht- & Sahnejoghurt",
-    "active": true,
-    "code": "All / Milchprodukte / Joghurt"
-  },
   "f7c65cb0-acc4-406c-b8be-82b0b8c56b9e": {
     "id": "f7c65cb0-acc4-406c-b8be-82b0b8c56b9e",
     "slug": "joghurt-desserts-naturjoghurt",
     "name": "Naturjoghurt",
+    "active": true,
+    "code": "All / Milchprodukte / Joghurt"
+  },
+  "3e180b54-cc4f-4442-8e75-eba375b27fda": {
+    "id": "3e180b54-cc4f-4442-8e75-eba375b27fda",
+    "slug": "joghurt-desserts-frucht-sahnejoghurt",
+    "name": "Frucht- & Sahnejoghurt",
     "active": true,
     "code": "All / Milchprodukte / Joghurt"
   },
