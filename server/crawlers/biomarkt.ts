@@ -10,6 +10,7 @@ const BASE_URL = "https://www.biomarkt.de/api/es/offer/_search/de";
 const storeUnits: Record<string, UnitMapping> = {
     "-g-schale": { unit: "g", factor: 1 },
     "-g-packung": { unit: "g", factor: 1 },
+    "er-pack": { unit: "stk", factor: 1 },
     beutel: { unit: "srv", factor: 1 },
 };
 

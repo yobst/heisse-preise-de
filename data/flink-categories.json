@@ -420,17 +420,17 @@
     "active": true,
     "code": "All / Weitere Verarbeitete Lebensmittel / Fertiggerichte"
   },
-  "895513c9-2f5a-450b-ab70-fc4d4b08f3fa": {
-    "id": "895513c9-2f5a-450b-ab70-fc4d4b08f3fa",
-    "slug": "frisch-fertig-tiefkuehlfertiggerichte",
-    "name": "Tiefkühlfertiggerichte",
-    "active": true,
-    "code": "All / Weitere Verarbeitete Lebensmittel / Fertiggerichte"
-  },
   "1cd53367-af0f-4c3c-b642-c9492876bf0c": {
     "id": "1cd53367-af0f-4c3c-b642-c9492876bf0c",
     "slug": "frisch-fertig-fertiggerichte-snacks",
     "name": "Gekühlte Fertiggerichte & Snacks",
+    "active": true,
+    "code": "All / Weitere Verarbeitete Lebensmittel / Fertiggerichte"
+  },
+  "895513c9-2f5a-450b-ab70-fc4d4b08f3fa": {
+    "id": "895513c9-2f5a-450b-ab70-fc4d4b08f3fa",
+    "slug": "frisch-fertig-tiefkuehlfertiggerichte",
+    "name": "Tiefkühlfertiggerichte",
     "active": true,
     "code": "All / Weitere Verarbeitete Lebensmittel / Fertiggerichte"
   },
