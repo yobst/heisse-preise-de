@@ -5,6 +5,8 @@ import get from "axios";
 import * as utils from "./utils";
 import { stores } from "../../common/stores";
 
+const BASE_URL = "https://product-search.services.dmtech.com/de";
+
 const storeUnits: Record<string, UnitMapping> = {
     wl: { unit: "wg", factor: 1 },
     bl: { unit: "stk", factor: 1 },
@@ -15,18 +17,49 @@ const storeUnits: Record<string, UnitMapping> = {
     mg: { unit: "g", factor: 0.001 },
 };
 
+function getSubcategories(category: any) {
+    let categories: any[] = [];
+    if (category.has("code")) {
+        categories.push({
+            name: category.name,
+            url: category.imageUrlTemplate,
+            id: category.code,
+            active: true,
+            code: null,
+        });
+        for (const subcategory of category.subcategories) {
+            categories = categories.concat(getSubcategories(subcategory));
+        }
+    }
+
+    return categories;
+}
+const categoriesIncludeList =  ["Ernährung", "Baby & Kind", "Gesundheit"]; // 30000 40000 50000
+
 export class DmCrawler implements Crawler {
     store = stores.dm;
-
-    categories = [];
+    categories: Record<any, any> = [];
 
     async fetchCategories() {
-        // TODO
-        return [];
+        const page = `${BASE_URL}/navigationcategories`;
+        const resp = await get(page);
+        const data = resp.data;
+        const categories: Record<string, any> = {};
+        if (data) {
+            data.forEach((category: any) => {
+                if (categoriesIncludeList.includes(category.code)) {
+                    let subcategories = getSubcategories(category);
+                    for (const subcategory of subcategories) {
+                        categories[subcategory.id] = subcategory;
+                    }
+                }
+            });
+        }
+        return categories;
     }
 
     async fetchData() {
-        const DM_BASE_URL = `https://product-search.services.dmtech.com/de/search/crawl?pageSize=1000&`;
+        const page = `${BASE_URL}/search/crawl?pageSize=1000&`;
         const QUERIES = [
             "allCategories.id=010000&price.value.to=2", //~500 items
             "allCategories.id=010000&price.value.from=2&price.value.to=3", //~600 items
@@ -59,7 +92,7 @@ export class DmCrawler implements Crawler {
 
         let dmItems: any[] = [];
         for (let query of QUERIES) {
-            let res = await get(DM_BASE_URL + query, {
+            let res = await get(page + query, {
                 validateStatus: function (status) {
                     return (status >= 200 && status < 300) || status == 429;
                 },
@@ -71,7 +104,7 @@ export class DmCrawler implements Crawler {
                 console.info(`DM API returned 429, retrying in ${backoff / 1000}s.`);
                 await new Promise((resolve) => setTimeout(resolve, backoff));
                 backoff *= 2;
-                res = await get(DM_BASE_URL + query, {
+                res = await get(page + query, {
                     validateStatus: function (status) {
                         return (status >= 200 && status < 300) || status == 429;
                     },
