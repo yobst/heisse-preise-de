@@ -9,6 +9,7 @@ const BASE_URL = "https://api.goflink.com";
 
 const storeUnits: Record<string, UnitMapping> = {
     beutel: { unit: "stk", factor: 1 },
+    "bd.": { unit: "stk", factor: 1 },
     er: { unit: "stk", factor: 1 },
     tbl: { unit: "stk", factor: 1 },
     tabs: { unit: "stk", factor: 1 },
@@ -121,7 +122,7 @@ export class FlinkCrawler implements Crawler {
             this.store.id,
             productId,
             itemName,
-            category?.code || "Unknown",
+            category?.code || "Unknown", // TODO: category
             unavailable,
             price,
             [{ date: today, price, unitPrice: 0.0 }],
