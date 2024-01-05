@@ -262,7 +262,7 @@ export async function updateData(dataDir: string, done: (items: Item[]) => void 
     items = dedupItems(items);
     writeJSON(`${dataDir}/latest-canonical.json`, items, true);
 
-    //pg.insertData(items);
+    pg.insertData(items);
 
     if (done) done(items);
     return items;
