@@ -44,7 +44,10 @@ export class LidlCrawler implements Crawler {
 
     async fetchData() {
         const LIDL_SEARCH = `https://www.lidl.de/p/api/gridboxes/DE/de/?max=${HITS}`;
-        return (await get(LIDL_SEARCH)).data.filter((item: any) => !!item.price.price);
+        const data = (await get(LIDL_SEARCH)).data || [];
+        return data.filter((item: any) => !!item.price.price && item.category 
+        && ( item.category.startsWith("Kategorien/Lebensmittel") || item.category.startsWith("Food") )
+        );
     }
 
     getCanonical(rawItem: any, today: string): Item {
