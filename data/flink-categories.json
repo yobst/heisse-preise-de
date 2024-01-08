@@ -46,14 +46,14 @@
     "slug": "angebote-A-vorratsschrank",
     "name": "Vorratsschrank",
     "active": true,
-    "code": null
+    "code": "All"
   },
   "1f446317-5b9e-4a9c-b466-98b0ae4c90e0": {
     "id": "1f446317-5b9e-4a9c-b466-98b0ae4c90e0",
     "slug": "angebote-A-alkoholfreie-getraenke",
     "name": "Alkoholfreie Getränke",
     "active": true,
-    "code": "All"
+    "code": "All / Getränke"
   },
   "43e76fc4-a694-48ce-b81c-d7a5007ab8e8": {
     "id": "43e76fc4-a694-48ce-b81c-d7a5007ab8e8",
