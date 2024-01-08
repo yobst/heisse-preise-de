@@ -4,84 +4,84 @@
     "slug": "angebote-A-highlights-der-woche",
     "name": "Highlights der Woche",
     "active": true,
-    "code": null
+    "code": "All"
   },
   "91274984-b4af-47ce-85c0-004ffe5070c4": {
     "id": "91274984-b4af-47ce-85c0-004ffe5070c4",
     "slug": "angebote-A-backwaren",
     "name": "Backwaren",
     "active": true,
-    "code": null
+    "code": "All / Backwaren"
   },
   "eb9d67c0-64e9-4917-85b6-d8cf920e793f": {
     "id": "eb9d67c0-64e9-4917-85b6-d8cf920e793f",
     "slug": "angebote-A-obst-gemuese",
     "name": "Obst & Gemüse",
     "active": true,
-    "code": null
+    "code": "All"
   },
   "b51f943b-961e-4e89-bd86-3d240ca8f43d": {
     "id": "b51f943b-961e-4e89-bd86-3d240ca8f43d",
     "slug": "angebote-A-kuehlregal",
     "name": "Kühlregal",
     "active": true,
-    "code": null
+    "code": "All"
   },
   "68343aa3-92bb-4e02-8c30-069951fb68ce": {
     "id": "68343aa3-92bb-4e02-8c30-069951fb68ce",
     "slug": "angebote-A-tiefkuehlung",
     "name": "Tiefkühlung",
     "active": true,
-    "code": null
-  },
-  "8c5ddee0-ae08-47b4-bbe4-c545f56f8b06": {
-    "id": "8c5ddee0-ae08-47b4-bbe4-c545f56f8b06",
-    "slug": "angebote-A-vorratsschrank",
-    "name": "Vorratsschrank",
-    "active": true,
-    "code": null
+    "code": "All"
   },
   "fe0370ca-e51e-45e5-ad23-cbd7393c51f3": {
     "id": "fe0370ca-e51e-45e5-ad23-cbd7393c51f3",
     "slug": "angebote-a-suesse-salzige-snacks",
     "name": "Süße & Salzige Snacks",
     "active": true,
-    "code": null
+    "code": "All"
+  },
+  "8c5ddee0-ae08-47b4-bbe4-c545f56f8b06": {
+    "id": "8c5ddee0-ae08-47b4-bbe4-c545f56f8b06",
+    "slug": "angebote-A-vorratsschrank",
+    "name": "Vorratsschrank",
+    "active": true,
+    "code": "All"
   },
   "1f446317-5b9e-4a9c-b466-98b0ae4c90e0": {
     "id": "1f446317-5b9e-4a9c-b466-98b0ae4c90e0",
     "slug": "angebote-A-alkoholfreie-getraenke",
     "name": "Alkoholfreie Getränke",
     "active": true,
-    "code": null
+    "code": "All / Getränke"
   },
   "43e76fc4-a694-48ce-b81c-d7a5007ab8e8": {
     "id": "43e76fc4-a694-48ce-b81c-d7a5007ab8e8",
     "slug": "angebote-A-alkoholhaltige-getraenke",
     "name": "Alkoholhaltige Getränke",
     "active": true,
-    "code": null
+    "code": "All / Getränke"
   },
   "e7e2dc24-6f6d-4146-94c1-87bac64d2096": {
     "id": "e7e2dc24-6f6d-4146-94c1-87bac64d2096",
     "slug": "angebote-A-drogerie",
     "name": "Drogerie",
     "active": true,
-    "code": null
+    "code": "All"
   },
   "31b9c03a-51c4-4f43-b4f0-305b51d6c406": {
     "id": "31b9c03a-51c4-4f43-b4f0-305b51d6c406",
     "slug": "angebote-A-mengenrabatt",
     "name": "Mengenrabatt",
     "active": true,
-    "code": null
+    "code": "All"
   },
   "4c3b3052-e929-4972-b162-971f83cdca4f": {
     "id": "4c3b3052-e929-4972-b162-971f83cdca4f",
     "slug": "angebote-A-kurze-zeit",
     "name": "Nur noch für kurze Zeit",
     "active": true,
-    "code": null
+    "code": "All"
   },
   "bce53207-acf9-4448-961a-b79fb31e93e7": {
     "id": "bce53207-acf9-4448-961a-b79fb31e93e7",
@@ -91,7 +91,7 @@
     "icon": "https://res.cloudinary.com/goflink/image/upload/de/icons/angebote_icon.png",
     "href": "/v2/categories/angebote-A",
     "active": true,
-    "code": null
+    "code": "All"
   },
   "994c9a04-a77b-4e5c-a2c8-9047c3dd6243": {
     "id": "994c9a04-a77b-4e5c-a2c8-9047c3dd6243",
@@ -448,17 +448,17 @@
     "active": true,
     "code": "All / Weitere Verarbeitete Lebensmittel / Fertiggerichte"
   },
-  "895513c9-2f5a-450b-ab70-fc4d4b08f3fa": {
-    "id": "895513c9-2f5a-450b-ab70-fc4d4b08f3fa",
-    "slug": "frisch-fertig-tiefkuehlfertiggerichte",
-    "name": "Tiefkühlfertiggerichte",
-    "active": true,
-    "code": "All / Weitere Verarbeitete Lebensmittel / Fertiggerichte"
-  },
   "1cd53367-af0f-4c3c-b642-c9492876bf0c": {
     "id": "1cd53367-af0f-4c3c-b642-c9492876bf0c",
     "slug": "frisch-fertig-fertiggerichte-snacks",
     "name": "Gekühlte Fertiggerichte & Snacks",
+    "active": true,
+    "code": "All / Weitere Verarbeitete Lebensmittel / Fertiggerichte"
+  },
+  "895513c9-2f5a-450b-ab70-fc4d4b08f3fa": {
+    "id": "895513c9-2f5a-450b-ab70-fc4d4b08f3fa",
+    "slug": "frisch-fertig-tiefkuehlfertiggerichte",
+    "name": "Tiefkühlfertiggerichte",
     "active": true,
     "code": "All / Weitere Verarbeitete Lebensmittel / Fertiggerichte"
   },
@@ -1797,6 +1797,65 @@
     "active": true,
     "code": "All / Getränke"
   },
+  "8e7cf894-1a11-4e6a-8e75-0951d2e93116": {
+    "id": "8e7cf894-1a11-4e6a-8e75-0951d2e93116",
+    "slug": "wein-sekt-weisswein",
+    "name": "Weißwein",
+    "active": true,
+    "code": "All / Getränke"
+  },
+  "79cae94d-6c0f-41dd-a943-7c403b1c399d": {
+    "id": "79cae94d-6c0f-41dd-a943-7c403b1c399d",
+    "slug": "wein-sekt-rotwein",
+    "name": "Rotwein",
+    "active": true,
+    "code": "All / Getränke"
+  },
+  "5db13c12-0189-441b-a380-0832a19674ab": {
+    "id": "5db13c12-0189-441b-a380-0832a19674ab",
+    "slug": "wein-sekt-rosewein",
+    "name": "Roséwein",
+    "active": true,
+    "code": "All / Getränke"
+  },
+  "e68e6b66-8b29-4230-a8d5-ae01669b236f": {
+    "id": "e68e6b66-8b29-4230-a8d5-ae01669b236f",
+    "slug": "wein-sekt-sekt",
+    "name": "Sekt",
+    "active": true,
+    "code": "All / Getränke"
+  },
+  "32c2a35d-dde1-4e69-b3da-344ad34119d5": {
+    "id": "32c2a35d-dde1-4e69-b3da-344ad34119d5",
+    "slug": "wein-sekt-champagner",
+    "name": "Champagner",
+    "active": true,
+    "code": "All / Getränke"
+  },
+  "c5f92470-ca23-466e-8d92-d7875c27ec59": {
+    "id": "c5f92470-ca23-466e-8d92-d7875c27ec59",
+    "slug": "wein-sekt-alkohlfreier-wein-sekt",
+    "name": "Alkoholfreier Wein & Sekt",
+    "active": true,
+    "code": "All / Getränke"
+  },
+  "fb53af09-3d85-4cfa-8fdb-5ea2846dcfc2": {
+    "id": "fb53af09-3d85-4cfa-8fdb-5ea2846dcfc2",
+    "slug": "wein-sekt-apfelwein-cider",
+    "name": "Apfelwein & Cider",
+    "active": true,
+    "code": "All / Getränke"
+  },
+  "1a678a0c-9cbb-40ee-8964-49db18463217": {
+    "id": "1a678a0c-9cbb-40ee-8964-49db18463217",
+    "slug": "wein-sekt",
+    "name": "Wein & Sekt",
+    "backgroundImage": "https://res.cloudinary.com/goflink/image/upload/w_600,h_800/de/category-backgrounds/50_NOV_Wein2_04Dec23.png",
+    "icon": "https://res.cloudinary.com/goflink/image/upload/de/icons/NEW_icon_Wein_Sekt.png",
+    "href": "/v2/categories/wein-sekt",
+    "active": true,
+    "code": "All / Getränke"
+  },
   "c2e32756-e725-4683-a99c-46e732582751": {
     "id": "c2e32756-e725-4683-a99c-46e732582751",
     "slug": "spirituosen-mehr-mixgetraenke",
@@ -1911,65 +1970,6 @@
     "href": "/v2/categories/spirituosen-mehr",
     "active": true,
     "code": "All"
-  },
-  "8e7cf894-1a11-4e6a-8e75-0951d2e93116": {
-    "id": "8e7cf894-1a11-4e6a-8e75-0951d2e93116",
-    "slug": "wein-sekt-weisswein",
-    "name": "Weißwein",
-    "active": true,
-    "code": "All / Getränke"
-  },
-  "79cae94d-6c0f-41dd-a943-7c403b1c399d": {
-    "id": "79cae94d-6c0f-41dd-a943-7c403b1c399d",
-    "slug": "wein-sekt-rotwein",
-    "name": "Rotwein",
-    "active": true,
-    "code": "All / Getränke"
-  },
-  "5db13c12-0189-441b-a380-0832a19674ab": {
-    "id": "5db13c12-0189-441b-a380-0832a19674ab",
-    "slug": "wein-sekt-rosewein",
-    "name": "Roséwein",
-    "active": true,
-    "code": "All / Getränke"
-  },
-  "e68e6b66-8b29-4230-a8d5-ae01669b236f": {
-    "id": "e68e6b66-8b29-4230-a8d5-ae01669b236f",
-    "slug": "wein-sekt-sekt",
-    "name": "Sekt",
-    "active": true,
-    "code": "All / Getränke"
-  },
-  "32c2a35d-dde1-4e69-b3da-344ad34119d5": {
-    "id": "32c2a35d-dde1-4e69-b3da-344ad34119d5",
-    "slug": "wein-sekt-champagner",
-    "name": "Champagner",
-    "active": true,
-    "code": "All / Getränke"
-  },
-  "c5f92470-ca23-466e-8d92-d7875c27ec59": {
-    "id": "c5f92470-ca23-466e-8d92-d7875c27ec59",
-    "slug": "wein-sekt-alkohlfreier-wein-sekt",
-    "name": "Alkoholfreier Wein & Sekt",
-    "active": true,
-    "code": "All / Getränke"
-  },
-  "fb53af09-3d85-4cfa-8fdb-5ea2846dcfc2": {
-    "id": "fb53af09-3d85-4cfa-8fdb-5ea2846dcfc2",
-    "slug": "wein-sekt-apfelwein-cider",
-    "name": "Apfelwein & Cider",
-    "active": true,
-    "code": "All / Getränke"
-  },
-  "1a678a0c-9cbb-40ee-8964-49db18463217": {
-    "id": "1a678a0c-9cbb-40ee-8964-49db18463217",
-    "slug": "wein-sekt",
-    "name": "Wein & Sekt",
-    "backgroundImage": "https://res.cloudinary.com/goflink/image/upload/w_600,h_800/de/category-backgrounds/50_NOV_Wein2_04Dec23.png",
-    "icon": "https://res.cloudinary.com/goflink/image/upload/de/icons/NEW_icon_Wein_Sekt.png",
-    "href": "/v2/categories/wein-sekt",
-    "active": true,
-    "code": "All / Getränke"
   },
   "6815161e-381e-4c68-8cf7-422d33199f2f": {
     "id": "6815161e-381e-4c68-8cf7-422d33199f2f",
