@@ -1,0 +1,41 @@
+{
+  "0": {
+    "id": 0,
+    "ref": "obst-und-gemuese",
+    "name": "Obst & Gemüse",
+    "key": "283ed9fb-47d9-4e47-ad62-8ab20a968633",
+    "active": true,
+    "code": "All"
+  },
+  "1": {
+    "id": 1,
+    "ref": "zum-kuehlen",
+    "name": "Zum Kühlen",
+    "active": true,
+    "code": "All"
+  },
+  "3": {
+    "id": 3,
+    "ref": "speisekammer",
+    "name": "Speisekammer",
+    "key": "fda540c7-5182-4318-959a-917ff58043df",
+    "active": true,
+    "code": "All"
+  },
+  "6": {
+    "id": 6,
+    "ref": "getraenke-sonstiges",
+    "name": "Getränke",
+    "key": "1f55ce9b-4122-4dbd-a757-685e8b1d8667",
+    "active": true,
+    "code": "All / Getränke"
+  },
+  "7": {
+    "id": 7,
+    "ref": "drogerie-und-kosmetik",
+    "name": "Drogerie & Kosmetik",
+    "key": "8831ef5b-1fae-48a8-a9f0-76f35e0f030e",
+    "active": true,
+    "code": "All"
+  }
+}

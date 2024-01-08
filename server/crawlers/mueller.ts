@@ -1,4 +1,4 @@
-import { Category, Item, Unit, UnitMapping } from "../../common/models";
+import { Item, Unit, UnitMapping } from "../../common/models";
 import { Crawler } from "./crawler";
 import { CookieJar } from 'tough-cookie';
 import { HttpCookieAgent, HttpsCookieAgent } from 'http-cookie-agent/http'
