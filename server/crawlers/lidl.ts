@@ -26,12 +26,28 @@ export class LidlCrawler implements Crawler {
     categories = [];
 
     async fetchCategories() {
-        return [];
+        const LIDL_SEARCH = `https://www.lidl.de/p/api/gridboxes/DE/de/?max=${HITS}`;
+        const data = (await get(LIDL_SEARCH)).data || [];
+        const uniqueCategories: Set<string> = new Set(data.map((item: any) => item.category).filter((item: any) => item));
+
+        const categories: Record<string, any> = {};
+        for (let category of uniqueCategories) {
+
+            categories[category] = {
+                id: category,
+                active: true,
+                code: null
+            }
+        }
+        return categories;
     }
 
     async fetchData() {
         const LIDL_SEARCH = `https://www.lidl.de/p/api/gridboxes/DE/de/?max=${HITS}`;
-        return (await get(LIDL_SEARCH)).data.filter((item: any) => !!item.price.price);
+        const data = (await get(LIDL_SEARCH)).data || [];
+        return data.filter((item: any) => !!item.price.price && item.category 
+        && ( item.category.startsWith("Kategorien/Lebensmittel") || item.category.startsWith("Food") )
+        );
     }
 
     getCanonical(rawItem: any, today: string): Item {
@@ -41,8 +57,8 @@ export class LidlCrawler implements Crawler {
         const bio = description.toLowerCase().includes("bio");
         const unavailable = rawItem.stockAvailability.availabilityIndicator == 0;
         const productId = rawItem.productId;
-        const rawCategory = 0; // TODO
-        const category: Record<any, any> = this.categories[rawCategory];
+        const rawCategory = rawItem.category;
+        const category: Record<any, any> = this.categories[rawCategory] || "Unknown";
         const defaultUnit: { quantity: number; unit: Unit } = { quantity: 1, unit: "stk" };
 
         let isWeighted = false;
