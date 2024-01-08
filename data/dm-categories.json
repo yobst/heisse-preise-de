@@ -324,8 +324,8 @@
     "active": true,
     "code": "All"
   },
-  "Intimhygiene": {
-    "name": "Intimhygiene",
+  "Periodenprodukte & Intimhygiene": {
+    "name": "Periodenprodukte & Intimhygiene",
     "id": "020800",
     "active": true,
     "code": "All"
@@ -336,8 +336,8 @@
     "active": true,
     "code": "All"
   },
-  "Damenbinden": {
-    "name": "Damenbinden",
+  "Binden": {
+    "name": "Binden",
     "id": "020802",
     "active": true,
     "code": "All"
@@ -2359,12 +2359,6 @@
     "active": true,
     "code": "All"
   },
-  "Ostern": {
-    "name": "Ostern",
-    "id": "120200",
-    "active": true,
-    "code": "All"
-  },
   "Herbstdeko": {
     "name": "Herbstdeko",
     "id": "120300",
@@ -2863,6 +2857,24 @@
     "name": "Sofortbildkameras & Zubehör",
     "id": "100306",
     "active": true,
+    "code": "All"
+  },
+  "Intimhygiene": {
+    "name": "Intimhygiene",
+    "id": "020800",
+    "active": false,
+    "code": "All"
+  },
+  "Damenbinden": {
+    "name": "Damenbinden",
+    "id": "020802",
+    "active": false,
+    "code": "All"
+  },
+  "Ostern": {
+    "name": "Ostern",
+    "id": "120200",
+    "active": false,
     "code": "All"
   }
 }

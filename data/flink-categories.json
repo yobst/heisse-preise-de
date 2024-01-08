@@ -1,67 +1,95 @@
 {
-  "52e42aa0-a671-4356-a37e-6e02191e04c6": {
-    "id": "52e42aa0-a671-4356-a37e-6e02191e04c6",
-    "slug": "angebote-B-highlights-der-woche",
+  "f91fd446-8222-4c57-adfc-6b324077c672": {
+    "id": "f91fd446-8222-4c57-adfc-6b324077c672",
+    "slug": "angebote-A-highlights-der-woche",
     "name": "Highlights der Woche",
     "active": true,
     "code": "All"
   },
-  "5da543e9-2293-468f-9ca2-e542a2b00ba2": {
-    "id": "5da543e9-2293-468f-9ca2-e542a2b00ba2",
-    "slug": "angebote-B-obst-gemuese",
+  "91274984-b4af-47ce-85c0-004ffe5070c4": {
+    "id": "91274984-b4af-47ce-85c0-004ffe5070c4",
+    "slug": "angebote-A-backwaren",
+    "name": "Backwaren",
+    "active": true,
+    "code": "All / Backwaren"
+  },
+  "eb9d67c0-64e9-4917-85b6-d8cf920e793f": {
+    "id": "eb9d67c0-64e9-4917-85b6-d8cf920e793f",
+    "slug": "angebote-A-obst-gemuese",
     "name": "Obst & Gemüse",
     "active": true,
     "code": "All"
   },
-  "c489f518-b529-42e4-810d-212285929d87": {
-    "id": "c489f518-b529-42e4-810d-212285929d87",
-    "slug": "angebote-B-kuehlregal",
+  "b51f943b-961e-4e89-bd86-3d240ca8f43d": {
+    "id": "b51f943b-961e-4e89-bd86-3d240ca8f43d",
+    "slug": "angebote-A-kuehlregal",
     "name": "Kühlregal",
     "active": true,
     "code": "All"
   },
-  "322b9e8c-830f-4371-ba9e-9bde1aa84e1d": {
-    "id": "322b9e8c-830f-4371-ba9e-9bde1aa84e1d",
-    "slug": "angebote-B-vorratsschrank",
-    "name": "Vorratsschrank",
+  "68343aa3-92bb-4e02-8c30-069951fb68ce": {
+    "id": "68343aa3-92bb-4e02-8c30-069951fb68ce",
+    "slug": "angebote-A-tiefkuehlung",
+    "name": "Tiefkühlung",
     "active": true,
     "code": "All"
   },
-  "06609987-d176-4c11-85b1-868439c389d4": {
-    "id": "06609987-d176-4c11-85b1-868439c389d4",
-    "slug": "angebote-B-suesse-salzige-snacks",
+  "fe0370ca-e51e-45e5-ad23-cbd7393c51f3": {
+    "id": "fe0370ca-e51e-45e5-ad23-cbd7393c51f3",
+    "slug": "angebote-a-suesse-salzige-snacks",
     "name": "Süße & Salzige Snacks",
     "active": true,
     "code": "All"
   },
-  "5a618b6b-5766-4b45-8240-e51cb56db661": {
-    "id": "5a618b6b-5766-4b45-8240-e51cb56db661",
-    "slug": "angebote-B-alkoholfreie-getraenke",
+  "8c5ddee0-ae08-47b4-bbe4-c545f56f8b06": {
+    "id": "8c5ddee0-ae08-47b4-bbe4-c545f56f8b06",
+    "slug": "angebote-A-vorratsschrank",
+    "name": "Vorratsschrank",
+    "active": true,
+    "code": null
+  },
+  "1f446317-5b9e-4a9c-b466-98b0ae4c90e0": {
+    "id": "1f446317-5b9e-4a9c-b466-98b0ae4c90e0",
+    "slug": "angebote-A-alkoholfreie-getraenke",
     "name": "Alkoholfreie Getränke",
+    "active": true,
+    "code": "All"
+  },
+  "43e76fc4-a694-48ce-b81c-d7a5007ab8e8": {
+    "id": "43e76fc4-a694-48ce-b81c-d7a5007ab8e8",
+    "slug": "angebote-A-alkoholhaltige-getraenke",
+    "name": "Alkoholhaltige Getränke",
     "active": true,
     "code": "All / Getränke"
   },
-  "22fd2774-9956-4391-87d2-6f546bdb6661": {
-    "id": "22fd2774-9956-4391-87d2-6f546bdb6661",
-    "slug": "angebote-B-mengenrabatt",
+  "e7e2dc24-6f6d-4146-94c1-87bac64d2096": {
+    "id": "e7e2dc24-6f6d-4146-94c1-87bac64d2096",
+    "slug": "angebote-A-drogerie",
+    "name": "Drogerie",
+    "active": true,
+    "code": "All"
+  },
+  "31b9c03a-51c4-4f43-b4f0-305b51d6c406": {
+    "id": "31b9c03a-51c4-4f43-b4f0-305b51d6c406",
+    "slug": "angebote-A-mengenrabatt",
     "name": "Mengenrabatt",
     "active": true,
     "code": "All"
   },
-  "aa3f6487-4212-48ca-88af-35f078f7d511": {
-    "id": "aa3f6487-4212-48ca-88af-35f078f7d511",
-    "slug": "angebote-nur-noch-fuer-kurze-zeit",
+  "4c3b3052-e929-4972-b162-971f83cdca4f": {
+    "id": "4c3b3052-e929-4972-b162-971f83cdca4f",
+    "slug": "angebote-A-kurze-zeit",
     "name": "Nur noch für kurze Zeit",
     "active": true,
     "code": "All"
   },
-  "261d895f-64ca-490b-a38f-18be240ce37f": {
-    "id": "261d895f-64ca-490b-a38f-18be240ce37f",
-    "slug": "angebote-B",
+  "bce53207-acf9-4448-961a-b79fb31e93e7": {
+    "id": "bce53207-acf9-4448-961a-b79fb31e93e7",
+    "slug": "angebote-A",
     "name": "Angebote",
     "backgroundImage": "https://res.cloudinary.com/goflink/image/upload/w_600,h_800/de/category-backgrounds/DE_Blue_Tile_CW39_V2.png",
     "icon": "https://res.cloudinary.com/goflink/image/upload/de/icons/angebote_icon.png",
-    "href": "/v2/categories/angebote-B",
+    "href": "/v2/categories/angebote-A",
     "active": true,
     "code": "All"
   },
@@ -538,17 +566,17 @@
     "active": true,
     "code": "All"
   },
-  "f7c65cb0-acc4-406c-b8be-82b0b8c56b9e": {
-    "id": "f7c65cb0-acc4-406c-b8be-82b0b8c56b9e",
-    "slug": "joghurt-desserts-naturjoghurt",
-    "name": "Naturjoghurt",
-    "active": true,
-    "code": "All / Milchprodukte / Joghurt"
-  },
   "3e180b54-cc4f-4442-8e75-eba375b27fda": {
     "id": "3e180b54-cc4f-4442-8e75-eba375b27fda",
     "slug": "joghurt-desserts-frucht-sahnejoghurt",
     "name": "Frucht- & Sahnejoghurt",
+    "active": true,
+    "code": "All / Milchprodukte / Joghurt"
+  },
+  "f7c65cb0-acc4-406c-b8be-82b0b8c56b9e": {
+    "id": "f7c65cb0-acc4-406c-b8be-82b0b8c56b9e",
+    "slug": "joghurt-desserts-naturjoghurt",
+    "name": "Naturjoghurt",
     "active": true,
     "code": "All / Milchprodukte / Joghurt"
   },
@@ -656,17 +684,17 @@
     "active": true,
     "code": "All / Milchprodukte / Käse"
   },
-  "14e0fb89-b63a-42a3-9dcb-e8403f9ce05b": {
-    "id": "14e0fb89-b63a-42a3-9dcb-e8403f9ce05b",
-    "slug": "kaese-koch-salatkaese",
-    "name": "Koch- & Salatkäse",
-    "active": true,
-    "code": "All / Milchprodukte / Käse"
-  },
   "6c659ec2-de73-4e4e-86a0-46061e12e88f": {
     "id": "6c659ec2-de73-4e4e-86a0-46061e12e88f",
     "slug": "kaese-reibekaese",
     "name": "Reibekäse",
+    "active": true,
+    "code": "All / Milchprodukte / Käse"
+  },
+  "14e0fb89-b63a-42a3-9dcb-e8403f9ce05b": {
+    "id": "14e0fb89-b63a-42a3-9dcb-e8403f9ce05b",
+    "slug": "kaese-koch-salatkaese",
+    "name": "Koch- & Salatkäse",
     "active": true,
     "code": "All / Milchprodukte / Käse"
   },
@@ -988,7 +1016,7 @@
     "slug": "nudeln-reis-getreide-frische-nudeln",
     "name": "Frische Nudeln",
     "active": true,
-    "code": "AAll / Getreide und Getreideprodukte / Nudelnll"
+    "code": "All / Getreide und Getreideprodukte / Nudeln"
   },
   "a87e5d1a-b9b3-4f9c-87fc-3692f49eb4f2": {
     "id": "a87e5d1a-b9b3-4f9c-87fc-3692f49eb4f2",
@@ -2257,6 +2285,72 @@
     "icon": "https://res.cloudinary.com/goflink/image/upload/de/icons/NEW_icon_Fitness.png",
     "href": "/v2/categories/fitness",
     "active": true,
+    "code": "All"
+  },
+  "52e42aa0-a671-4356-a37e-6e02191e04c6": {
+    "id": "52e42aa0-a671-4356-a37e-6e02191e04c6",
+    "slug": "angebote-B-highlights-der-woche",
+    "name": "Highlights der Woche",
+    "active": false,
+    "code": "All"
+  },
+  "5da543e9-2293-468f-9ca2-e542a2b00ba2": {
+    "id": "5da543e9-2293-468f-9ca2-e542a2b00ba2",
+    "slug": "angebote-B-obst-gemuese",
+    "name": "Obst & Gemüse",
+    "active": false,
+    "code": "All"
+  },
+  "c489f518-b529-42e4-810d-212285929d87": {
+    "id": "c489f518-b529-42e4-810d-212285929d87",
+    "slug": "angebote-B-kuehlregal",
+    "name": "Kühlregal",
+    "active": false,
+    "code": "All"
+  },
+  "322b9e8c-830f-4371-ba9e-9bde1aa84e1d": {
+    "id": "322b9e8c-830f-4371-ba9e-9bde1aa84e1d",
+    "slug": "angebote-B-vorratsschrank",
+    "name": "Vorratsschrank",
+    "active": false,
+    "code": "All"
+  },
+  "06609987-d176-4c11-85b1-868439c389d4": {
+    "id": "06609987-d176-4c11-85b1-868439c389d4",
+    "slug": "angebote-B-suesse-salzige-snacks",
+    "name": "Süße & Salzige Snacks",
+    "active": false,
+    "code": "All"
+  },
+  "5a618b6b-5766-4b45-8240-e51cb56db661": {
+    "id": "5a618b6b-5766-4b45-8240-e51cb56db661",
+    "slug": "angebote-B-alkoholfreie-getraenke",
+    "name": "Alkoholfreie Getränke",
+    "active": false,
+    "code": "All / Getränke"
+  },
+  "22fd2774-9956-4391-87d2-6f546bdb6661": {
+    "id": "22fd2774-9956-4391-87d2-6f546bdb6661",
+    "slug": "angebote-B-mengenrabatt",
+    "name": "Mengenrabatt",
+    "active": false,
+    "code": "All"
+  },
+  "aa3f6487-4212-48ca-88af-35f078f7d511": {
+    "id": "aa3f6487-4212-48ca-88af-35f078f7d511",
+    "slug": "angebote-nur-noch-fuer-kurze-zeit",
+    "name": "Nur noch für kurze Zeit",
+    "active": false,
+    "code": "All"
+  },
+  "261d895f-64ca-490b-a38f-18be240ce37f": {
+    "id": "261d895f-64ca-490b-a38f-18be240ce37f",
+    "slug": "angebote-B",
+    "name": "Angebote",
+    "backgroundImage": "https://res.cloudinary.com/goflink/image/upload/w_600,h_800/de/category-backgrounds/DE_Blue_Tile_CW39_V2.png",
+    "icon": "https://res.cloudinary.com/goflink/image/upload/de/icons/angebote_icon.png",
+    "href": "/v2/categories/angebote-B",
+    "active": false,
     "code": "All"
   },
   "535442e2-f08e-4753-96d6-6d425b0a0dd8": {
