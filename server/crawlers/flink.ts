@@ -122,7 +122,7 @@ export class FlinkCrawler implements Crawler {
             this.store.id,
             productId,
             itemName,
-            category?.code || "Unknown", // TODO: category
+            category?.code || "Unknown",
             unavailable,
             price,
             [{ date: today, price, unitPrice: 0.0 }],
