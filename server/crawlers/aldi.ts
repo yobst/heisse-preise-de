@@ -37,7 +37,7 @@ function getSubcategories(category: any) {
 export class AldiCrawler implements Crawler {
     store = stores.aldi;
 
-    categories = {};
+    categories: Record<number, any> = {};
 
     async fetchCategories() {
         const pageLimit = 12; // lowest possible number; allowed are 12, 16, 24, 30, 32, 48
@@ -58,17 +58,23 @@ export class AldiCrawler implements Crawler {
 
     async fetchData() {
         const pageLimit = 48;
-        let offset = 0;
-        let items: any[] = [];
-        let done = false;
-        while (!done) {
-            const ALDI_ITEM_SEARCH = `${BASE_URL}?page[limit]=${pageLimit}&page[offset]=${offset}&merchantReference=${MERCHANT}`;
-            const resp = (await get(ALDI_ITEM_SEARCH)).data;
-            const maxpage = resp.data[0].attributes.pagination.maxPage;
-            const currentpage = resp.data[0].attributes.pagination.currentPage;
-            done = offset > 5000 || currentpage >= maxpage;
-            items = items.concat(resp.data[0].attributes.catalogSearchProductOfferResults);
-            offset += pageLimit;
+        const items: any[] = [];
+        for (let categoryID in this.categories) {
+            const category = this.categories[categoryID];
+            const categorySlug = encodeURIComponent(category.urlSlugText);
+            let offset = 0;
+            let done = false;
+            while (!done) {
+                const ALDI_ITEM_SEARCH = `${BASE_URL}?page[limit]=${pageLimit}&page[offset]=${offset}&merchantReference=${MERCHANT}&category_slug=${categorySlug}`;
+                const resp = (await get(ALDI_ITEM_SEARCH)).data;
+                const maxpage = resp.data[0].attributes.pagination.maxPage;
+                const currentpage = resp.data[0].attributes.pagination.currentPage;
+                done = offset > 5000 || currentpage >= maxpage;
+                const products = resp.data[0].attributes.catalogSearchProductOfferResults;
+                products.forEach( (item: any) => item.category = category.id);
+                items.push(...products);
+                offset += pageLimit;
+            }
         }
         return items;
     }
@@ -80,7 +86,7 @@ export class AldiCrawler implements Crawler {
         const itemName = rawItem.name;
         const productId = rawItem.productConcreteSku;
         const unavailable = false;
-        const category = "Unknown";
+        const category = this.categories[rawItem.category] || "Unknown";
         const defaultUnit: { quantity: number; unit: Unit } = { quantity: 1, unit: "stk" };
 
         let rawQuantity = 1;
