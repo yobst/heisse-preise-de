@@ -4060,7 +4060,7 @@
     "id": "Kategorien/Mode/Kostüme/Kinderkostüme"
   },
   "Kategorien/Multimedia/Computer & Büro/Bürobedarf & Zubehör": {
-    "active": true,
+    "active": false,
     "code": null,
     "id": "Kategorien/Multimedia/Computer & Büro/Bürobedarf & Zubehör"
   },
@@ -5615,7 +5615,7 @@
     "id": "Kategorien/Tierwelt/Hund/Hundeschlafplätze/Kissen"
   },
   "Kategorien/Tierwelt/Hund/Hundeschlafplätze/Körbe & Sofas": {
-    "active": true,
+    "active": false,
     "code": null,
     "id": "Kategorien/Tierwelt/Hund/Hundeschlafplätze/Körbe & Sofas"
   },
@@ -6265,7 +6265,7 @@
     "id": "Kategorien/Wohnen & Einrichten/Möbel/Betten/Massivholzbetten"
   },
   "Kategorien/Wohnen & Einrichten/Möbel/Betten/Polsterbetten": {
-    "active": true,
+    "active": false,
     "code": null,
     "id": "Kategorien/Wohnen & Einrichten/Möbel/Betten/Polsterbetten"
   },
