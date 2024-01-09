@@ -47,7 +47,7 @@ describe('flink scraper', () => {
     const crawler = new FlinkCrawler();
     const today = "1980-01-01";
     test('unit and quantity extraction succeeds', () => {
-        expect(flink.getQuantityAndUnit(rawItem, "Biomarkt")).toEqual({ "quantity": 400, "unit": "ml", });
+        expect(flink.getQuantityAndUnit(rawItem, "Flink")).toEqual({ "quantity": 400, "unit": "ml", });
     });
     test('item canonization succeeds', () => {
         expect(crawler.getCanonical(rawItem, today)).toEqual(canonizedItem);

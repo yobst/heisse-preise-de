@@ -36,7 +36,6 @@ function getSubcategories(category: any) {
 
     return categories;
 }
-const categoriesIncludeList = ["Ernährung", "Baby & Kind", "Gesundheit"]; // 30000 40000 50000
 
 export class DmCrawler implements Crawler {
     store = stores.dm;

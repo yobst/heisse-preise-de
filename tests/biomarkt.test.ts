@@ -45,7 +45,8 @@ const canonizedItem = {
     "store": "biomarkt", 
     "unavailable": false, 
     "unit": "g", 
-    "url": undefined};
+    "url": undefined
+};
 
 describe('biomarkt scraper', () => {
     const crawler = new BiomarktCrawler();

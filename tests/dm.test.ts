@@ -39,7 +39,7 @@ const canonizedItem = {
     "store": "dm",
     "unavailable": false,
     "unit": "ml",
-    "url":  "/dmbio-pflanzendrink-haferdrink-natur-p4066447581843.html",
+    "url":  "/dmbio-pflanzendrink-haferdrink-natur-p4066447581843.html"
 };
 
 describe('dm scraper', () => {

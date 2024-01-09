@@ -27,14 +27,12 @@ export function getQuantityAndUnit(rawItem: any, storeName: string) {
 
     let rawQuantity = rawItem.price.packaging?.amount;
     let rawUnit = rawItem.price.packaging?.unit;
-    console.log("1:", rawQuantity, " ", rawUnit);
     
     if (!rawUnit && rawItem.price.packaging?.text) {
         const res = utils.extractRawUnitAndQuantityFromEndOfString(rawItem.price.packaging.text, defaultUnit);
         rawQuantity = res.rawQuantity;
         rawUnit = res.rawUnit;
     }
-    console.log("2:", rawQuantity, " ", rawUnit);
 
     if (!rawUnit) {
         const description = `${rawItem.keyfacts?.supplementalDescription?.concat(" ") ?? ""}${rawItem.fullTitle}`;
@@ -46,7 +44,6 @@ export function getQuantityAndUnit(rawItem: any, storeName: string) {
             rawQuantity = parseFloat(matches[1]);
         }
     }
-    console.log("3:", rawQuantity, " ", rawUnit);
 
     return utils.normalizeUnitAndQuantity(
         rawItem.fullTitle, rawUnit, rawQuantity, storeUnits, storeName, defaultUnit);
