@@ -1,0 +1,68 @@
+{
+            "id": "f759ff23-cc4a-4eb2-95cc-4b8a9e14d613",
+            "name": "Ben & Jerry's The Classic Cool-lection 400ml (4x100ml)",
+            "description": "Ben & Jerry's The Classic Cool-lection 400ml (4x100ml)\n\nDeutschland\n\nRAHM (27%),Wasser,kondensierte MAGERMILCH,Zucker,WEIZENmehl,brauner Zucker,EIGELB¹,pflanzliche Fette und Öle (Kokos,SOJA),BUTTER,fettarmer Kakao,VOLLEI,Kakaomasse,Melasse,Vanilleextrakt,Stabilisatoren (Guarkernmehl,Carrageen),Aromen,Salz,Kakaobutter,Emulgator (Lecithine (SOJA)). ¹EIER aus Freilandhaltung. Zucker#,Kakao#,Vanille: nach Fairtrade-Standards gehandelt,Gesamtanteil 22%?. #Mit Mengenausgleich.\n\nBei -18°C",
+            "category_id": "eb402c61-7ef2-4ad4-80c3-91b71160f989",
+            "slug": "",
+            "sku": "15000476",
+            "variant_id": "15000476",
+            "quantity": 5,
+            "price": {
+                "currency": "EUR",
+                "amount": 6.99
+            },
+            "thumbnail": "https://res.cloudinary.com/goflink/image/upload/w_600,h_800/product-images-prod/278800fa-9156-4b37-a05e-dbe162d4bd65.png",
+            "images": [
+                "https://res.cloudinary.com/goflink/image/upload/w_600,h_800/product-images-prod/278800fa-9156-4b37-a05e-dbe162d4bd65.png",
+                "https://res.cloudinary.com/goflink/image/upload/w_600,h_800/product-images-prod/001d84e5-0f8a-41c8-b947-f965b04477a4.png"
+            ],
+            "labels": null,
+            "tags": null,
+            "synonyms": null,
+            "max_single_order_quantity": "",
+            "base_price": {
+                "currency": "EUR",
+                "amount": 17.47
+            },
+            "base_unit": {
+                "unit": "l",
+                "amount": 1
+            },
+            "allergens": null,
+            "categories": [
+                "eb402c61-7ef2-4ad4-80c3-91b71160f989",
+                "828522c2-50c5-4475-a778-8c9cd8729749",
+                "7e67f052-829a-4959-8a84-6daa2a26f17d"
+            ],
+            "nutritions": null,
+            "ingredients": [
+                "RAHM (27%)",
+                "Wasser",
+                "kondensierte MAGERMILCH",
+                "Zucker",
+                "WEIZENmehl",
+                "brauner Zucker",
+                "EIGELB¹",
+                "pflanzliche Fette und Öle (Kokos",
+                "SOJA)",
+                "BUTTER",
+                "fettarmer Kakao",
+                "VOLLEI",
+                "Kakaomasse",
+                "Melasse",
+                "Vanilleextrakt",
+                "Stabilisatoren (Guarkernmehl",
+                "Carrageen)",
+                "Aromen",
+                "Salz",
+                "Kakaobutter",
+                "Emulgator (Lecithine (SOJA)). ¹EIER aus Freilandhaltung. Zucker#",
+                "Kakao#",
+                "Vanille: nach Fairtrade-Standards gehandelt",
+                "Gesamtanteil 22%?. #Mit Mengenausgleich."
+            ],
+            "producer": "",
+            "country_of_origin": "Deutschland",
+            "preparation_and_storage": "Bei -18°C",
+            "productContext": "CgtkZV9tYW5fbmllZCIIMTUwMDA0NzYqCAi7BRIDRVVSMgUSA0VVUkIAUAFwAQ=="
+        }
