@@ -1,10 +1,12 @@
-import { Category, Item, Unit, UnitMapping } from "../../common/models";
-import { Crawler } from "./crawler";
-
-import * as utils from "./utils";
+import { Item, Unit, UnitMapping } from "../../common/models";
 import { stores } from "../../common/stores";
+import { Crawler } from "./crawler";
+import * as utils from "./utils";
 import util from "util";
+
 const exec = util.promisify(require("child_process").exec);
+
+const BASE_URL = "https://mobile-api.rewe.de/api/v3";
 
 const storeUnits: Record<string, UnitMapping> = {
     beutel: { unit: "stk", factor: 1 },
@@ -18,6 +20,34 @@ const storeUnits: Record<string, UnitMapping> = {
     teller: { unit: "srv", factor: 1 },
 };
 
+export function getQuantityAndUnit(rawItem: any, storeName: string) {
+    const defaultUnit: { quantity: number; unit: Unit } = { quantity: 1, unit: "stk" };
+
+    let rawQuantity = defaultUnit.quantity;
+    let rawUnit = defaultUnit.unit;
+
+    if (rawItem.grammage) {
+        const res = utils.extractRawUnitAndQuantityFromEndOfString(rawItem.grammage.split("(")[0].trim(), defaultUnit);
+        rawQuantity = res.rawQuantity;
+        rawUnit = res.rawUnit;
+    }
+
+    if (rawUnit == defaultUnit.unit) {
+        const res = utils.extractRawUnitAndQuantityFromDescription(rawItem.name, defaultUnit);
+        rawQuantity = res.rawQuantity;
+        rawUnit = res.rawUnit;
+    }
+
+    return utils.normalizeUnitAndQuantity(
+        rawItem.name,
+        rawUnit,
+        rawQuantity,
+        storeUnits,
+        storeName,
+        defaultUnit
+    );
+}
+
 export class ReweCrawler implements Crawler {
     store = stores.rewe;
     categories: Record<string, any> = {};
@@ -29,22 +59,12 @@ export class ReweCrawler implements Crawler {
     async fetchData() {
         // For some unholy reason, Axios returns 403 when accessing the endpoint
         // Hack: use curl...
-        /*const agent = new https.Agent({
-            rejectUnauthorized: false
-        });
-        let axiosNoDefaults = axios.create({ headers: {} });
-        const headers = {
-            'Rd-Service-Types': 'PICKUP',
-            'Rd-Market-Id': '440405',
-            "User-Agent": "curl/7.84.0"
-        }
-        return (await axiosNoDefaults.get('https://mobile-api.rewe.de/api/v3/product-search?searchTerm=*&page=1&sorting=RELEVANCE_DESC&objectsPerPage=250&marketCode=440405&serviceTypes=PICKUP', { headers, httpsAgent: agent })).data;*/
 
         try {
             let pageId = 1;
             let result = (
                 await exec(
-                    `curl -s "https://mobile-api.rewe.de/api/v3/product-search\?searchTerm\=\*\&page\=${pageId++}\&sorting\=RELEVANCE_DESC\&objectsPerPage\=250\&marketCode\=440405\&serviceTypes\=PICKUP" -H "Rd-Service-Types: PICKUP" -H "Rd-Market-Id: 440405"`
+                    `curl -s "${BASE_URL}/product-search\?searchTerm\=\*\&page\=${pageId++}\&sorting\=RELEVANCE_DESC\&objectsPerPage\=250\&marketCode\=440405\&serviceTypes\=PICKUP" -H "Rd-Service-Types: PICKUP" -H "Rd-Market-Id: 440405"`
                 )
             ).stdout;
             const firstPage = JSON.parse(result);
@@ -55,7 +75,7 @@ export class ReweCrawler implements Crawler {
                     ...JSON.parse(
                         (
                             await exec(
-                                `curl -s "https://mobile-api.rewe.de/api/v3/product-search\?searchTerm\=\*\&page\=${pageId++}\&sorting\=RELEVANCE_DESC\&objectsPerPage\=250\&marketCode\=440405\&serviceTypes\=PICKUP" -H "Rd-Service-Types: PICKUP" -H "Rd-Market-Id: 440405"`
+                                `curl -s "${BASE_URL}/product-search\?searchTerm\=\*\&page\=${pageId++}\&sorting\=RELEVANCE_DESC\&objectsPerPage\=250\&marketCode\=440405\&serviceTypes\=PICKUP" -H "Rd-Service-Types: PICKUP" -H "Rd-Market-Id: 440405"`
                             )
                         ).stdout
                     ).products
@@ -69,45 +89,24 @@ export class ReweCrawler implements Crawler {
     }
 
     getCanonical(rawItem: any, today: string): Item {
-        const productId = rawItem.id;
-        const itemName = rawItem.name;
         const price = Number.parseFloat(rawItem.currentPrice.split(" ")[0].replace(",", "."));
-        const bio = itemName.toLowerCase().includes("bio");
+        const bio = rawItem.tags?.includes("organic") || rawItem.name.toLowerCase().includes("bio");
         const unavailable = false;
         const isWeighted = false;
-        const rawCategory = 0; // TODO
-        const category: Record<any, any> = this.categories[rawCategory];
-
-        const defaultUnit: { quantity: number; unit: Unit } = { quantity: 1, unit: "stk" };
-
-        let rawQuantity = defaultUnit.quantity;
-        let rawUnit = defaultUnit.unit;
-
-        if (rawItem.grammage) {
-            const res = utils.extractRawUnitAndQuantityFromEndOfString(rawItem.grammage.split("(")[0].trim(), defaultUnit);
-            rawQuantity = res.rawQuantity;
-            rawUnit = res.rawUnit;
-        }
-
-        if (rawUnit == defaultUnit.unit) {
-            const res = utils.extractRawUnitAndQuantityFromDescription(rawItem.name, defaultUnit);
-            rawQuantity = res.rawQuantity;
-            rawUnit = res.rawUnit;
-        }
-
-        const unitAndQuantity = utils.normalizeUnitAndQuantity(itemName, rawUnit, rawQuantity, storeUnits, this.store.displayName, defaultUnit);
+        const category = "Unknown";
+        const { quantity, unit } = getQuantityAndUnit(rawItem, this.store.displayName);
 
         return new Item(
             this.store.id,
-            productId,
-            itemName,
-            category?.code || "Unknown",
+            rawItem.id,
+            rawItem.name,
+            category,
             unavailable,
             price,
             [{ date: today, price: price, unitPrice: 0 }],
             isWeighted,
-            unitAndQuantity.unit,
-            unitAndQuantity.quantity,
+            unit,
+            quantity,
             bio
         );
     }
