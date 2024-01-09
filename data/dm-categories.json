@@ -1,2880 +1,2862 @@
 {
-  "Pflege & Parfum": {
-    "name": "Pflege & Parfum",
-    "url": "https://media.dm-static.com/images/{transformations}/v1674821892/products/pim/kategorieContainerPflege/1500_x_300_pflege.jpg",
-    "id": "020000",
-    "active": true,
-    "code": "All"
-  },
-  "Gesicht": {
-    "name": "Gesicht",
-    "id": "021401",
-    "active": true,
-    "code": "All"
-  },
-  "Gesichtsreinigung": {
-    "name": "Gesichtsreinigung",
-    "id": "020201",
-    "active": true,
-    "code": "All"
-  },
-  "Gesichtsreinigungsbürste & Co.": {
-    "name": "Gesichtsreinigungsbürste & Co.",
-    "id": "020210",
-    "active": true,
-    "code": "All"
-  },
-  "Tagescreme": {
-    "name": "Tagescreme",
-    "id": "020202",
-    "active": true,
-    "code": "All"
-  },
-  "Nachtcreme": {
-    "name": "Nachtcreme",
-    "id": "020203",
-    "active": true,
-    "code": "All"
-  },
-  "Augencreme & Co.": {
-    "name": "Augencreme & Co.",
-    "id": "020209",
-    "active": true,
-    "code": "All"
-  },
-  "Gesichtsmaske": {
-    "name": "Gesichtsmaske",
-    "id": "020207",
-    "active": true,
-    "code": "All"
-  },
-  "Serum & Kur": {
-    "name": "Serum & Kur",
-    "id": "020211",
-    "active": true,
-    "code": "All"
-  },
-  "Gesichtsroller": {
-    "name": "Gesichtsroller",
-    "id": "020212",
-    "active": true,
-    "code": "All"
-  },
-  "Anti Aging": {
-    "name": "Anti Aging",
-    "id": "020204",
-    "active": true,
-    "code": "All"
-  },
-  "Anti Pickel & Mitesser": {
-    "name": "Anti Pickel & Mitesser",
-    "id": "020205",
-    "active": true,
-    "code": "All"
-  },
-  "Lippenpflege": {
-    "name": "Lippenpflege",
-    "id": "020206",
-    "active": true,
-    "code": "All"
-  },
-  "Medizinische Pflege": {
-    "name": "Medizinische Pflege",
-    "id": "021600",
-    "active": true,
-    "code": "All"
-  },
-  "Koreanische Kosmetik": {
-    "name": "Koreanische Kosmetik",
-    "id": "021200",
-    "active": true,
-    "code": "All"
-  },
-  "Handpflege & Seife": {
-    "name": "Handpflege & Seife",
-    "id": "021800",
-    "active": true,
-    "code": "All"
-  },
-  "Handcreme & Handmasken": {
-    "name": "Handcreme & Handmasken",
-    "id": "021801",
-    "active": true,
-    "code": "All"
-  },
-  "Flüssigseife": {
-    "name": "Flüssigseife",
-    "id": "021803",
-    "active": true,
-    "code": "All"
-  },
-  "Feste Seife": {
-    "name": "Feste Seife",
-    "id": "021804",
-    "active": true,
-    "code": "All"
-  },
-  "Händedesinfektion": {
-    "name": "Händedesinfektion",
-    "id": "021802",
-    "active": true,
-    "code": "All"
-  },
-  "Fußcreme & Fußpflege": {
-    "name": "Fußcreme & Fußpflege",
-    "id": "021900",
-    "active": true,
-    "code": "All"
-  },
-  "Fußcreme & Schrundensalbe": {
-    "name": "Fußcreme & Schrundensalbe",
-    "id": "021901",
-    "active": true,
-    "code": "All"
-  },
-  "Fußmasken": {
-    "name": "Fußmasken",
-    "id": "021902",
-    "active": true,
-    "code": "All"
-  },
-  "Fußbad": {
-    "name": "Fußbad",
-    "id": "021903",
-    "active": true,
-    "code": "All"
-  },
-  "Nagelknipser & Co.": {
-    "name": "Nagelknipser & Co.",
-    "id": "021908",
-    "active": true,
-    "code": "All"
-  },
-  "Hornhaut": {
-    "name": "Hornhaut",
-    "id": "021904",
-    "active": true,
-    "code": "All"
-  },
-  "Blasenpflaster & Druckstellen": {
-    "name": "Blasenpflaster & Druckstellen",
-    "id": "021906",
-    "active": true,
-    "code": "All"
-  },
-  "Hilfe bei Fußpilz, Warzen & Co.": {
-    "name": "Hilfe bei Fußpilz, Warzen & Co.",
-    "id": "021905",
-    "active": true,
-    "code": "All"
-  },
-  "Einlegesohlen": {
-    "name": "Einlegesohlen",
-    "id": "021907",
-    "active": true,
-    "code": "All"
-  },
-  "Körperpflege": {
-    "name": "Körperpflege",
-    "id": "020100",
-    "active": true,
-    "code": "All"
-  },
-  "Deo": {
-    "name": "Deo",
-    "id": "021405",
-    "active": true,
-    "code": "All"
-  },
-  "Duschgel, Duschschaum & Co.": {
-    "name": "Duschgel, Duschschaum & Co.",
-    "id": "020108",
-    "active": true,
-    "code": "All"
-  },
-  "Körperpeeling & Body Scrub": {
-    "name": "Körperpeeling & Body Scrub",
-    "id": "020110",
-    "active": true,
-    "code": "All"
-  },
-  "Badezusatz & Badesalz": {
-    "name": "Badezusatz & Badesalz",
-    "id": "020101",
-    "active": true,
-    "code": "All"
-  },
-  "Bodylotion & Hautcreme": {
-    "name": "Bodylotion & Hautcreme",
-    "id": "020102",
-    "active": true,
-    "code": "All"
-  },
-  "Körperöl": {
-    "name": "Körperöl",
-    "id": "020103",
-    "active": true,
-    "code": "All"
-  },
-  "Anti Cellulite": {
-    "name": "Anti Cellulite",
-    "id": "020109",
-    "active": true,
-    "code": "All"
-  },
-  "Schwämme & Massagezubehör": {
-    "name": "Schwämme & Massagezubehör",
-    "id": "020111",
-    "active": true,
-    "code": "All"
-  },
-  "Männerpflege": {
-    "name": "Männerpflege",
-    "id": "021400",
-    "active": true,
-    "code": "All"
-  },
-  "Duschen": {
-    "name": "Duschen",
-    "id": "021406",
-    "active": true,
-    "code": "All"
-  },
-  "Bartpflege": {
-    "name": "Bartpflege",
-    "id": "021407",
-    "active": true,
-    "code": "All"
-  },
-  "Bartstyling": {
-    "name": "Bartstyling",
-    "id": "021408",
-    "active": true,
-    "code": "All"
-  },
-  "Herrendüfte": {
-    "name": "Herrendüfte",
-    "id": "021403",
-    "active": true,
-    "code": "All"
-  },
-  "Haarentfernung & Rasur": {
-    "name": "Haarentfernung & Rasur",
-    "id": "020700",
-    "active": true,
-    "code": "All"
-  },
-  "Parfum": {
-    "name": "Parfum",
-    "id": "020300",
-    "active": true,
-    "code": "All"
-  },
-  "Damen Parfum": {
-    "name": "Damen Parfum",
-    "id": "020301",
-    "active": true,
-    "code": "All"
-  },
-  "Herren Parfum": {
-    "name": "Herren Parfum",
-    "id": "020302",
-    "active": true,
-    "code": "All"
-  },
-  "Nassrasierer": {
-    "name": "Nassrasierer",
-    "id": "020701",
-    "active": true,
-    "code": "All"
-  },
-  "Elektrorasierer": {
-    "name": "Elektrorasierer",
-    "id": "020711",
-    "active": true,
-    "code": "All"
-  },
-  "Rasierklingen": {
-    "name": "Rasierklingen",
-    "id": "020702",
-    "active": true,
-    "code": "All"
-  },
-  "Rasierschaum & Rasiergel": {
-    "name": "Rasierschaum & Rasiergel",
-    "id": "020703",
-    "active": true,
-    "code": "All"
-  },
-  "Epilierer & IPL-Haarentferner": {
-    "name": "Epilierer & IPL-Haarentferner",
-    "id": "020704",
-    "active": true,
-    "code": "All"
-  },
-  "Enthaarungscreme & Waxing": {
-    "name": "Enthaarungscreme & Waxing",
-    "id": "020706",
-    "active": true,
-    "code": "All"
-  },
-  "After Shave & Rasurpflege": {
-    "name": "After Shave & Rasurpflege",
-    "id": "020708",
-    "active": true,
-    "code": "All"
-  },
-  "Periodenprodukte & Intimhygiene": {
-    "name": "Periodenprodukte & Intimhygiene",
-    "id": "020800",
-    "active": true,
-    "code": "All"
-  },
-  "Tampons": {
-    "name": "Tampons",
-    "id": "020801",
-    "active": true,
-    "code": "All"
-  },
-  "Binden": {
-    "name": "Binden",
-    "id": "020802",
-    "active": true,
-    "code": "All"
-  },
-  "Slipeinlagen": {
-    "name": "Slipeinlagen",
-    "id": "020803",
-    "active": true,
-    "code": "All"
-  },
-  "Menstruationstassen": {
-    "name": "Menstruationstassen",
-    "id": "020806",
-    "active": true,
-    "code": "All"
-  },
-  "Periodenunterwäsche": {
-    "name": "Periodenunterwäsche",
-    "id": "020807",
-    "active": true,
-    "code": "All"
-  },
-  "Blasenschwäche / Inkontinenz": {
-    "name": "Blasenschwäche / Inkontinenz",
-    "id": "020805",
-    "active": true,
-    "code": "All"
-  },
-  "Intimpflege": {
-    "name": "Intimpflege",
-    "id": "020804",
-    "active": true,
-    "code": "All"
-  },
-  "Sonne": {
-    "name": "Sonne",
-    "id": "020400",
-    "active": true,
-    "code": "All"
-  },
-  "Sonnenschutz": {
-    "name": "Sonnenschutz",
-    "id": "020401",
-    "active": true,
-    "code": "All"
-  },
-  "After Sun": {
-    "name": "After Sun",
-    "id": "020403",
-    "active": true,
-    "code": "All"
-  },
-  "Selbstbräuner & Bräunungsbeschleuniger": {
-    "name": "Selbstbräuner & Bräunungsbeschleuniger",
-    "id": "020402",
-    "active": true,
-    "code": "All"
-  },
-  "Mückenschutz": {
-    "name": "Mückenschutz",
-    "id": "021500",
-    "active": true,
-    "code": "All"
-  },
-  "Geschenksets": {
-    "name": "Geschenksets",
-    "id": "022000",
-    "active": true,
-    "code": "All"
-  },
-  "Make-up": {
-    "name": "Make-up",
-    "url": "https://media.dm-static.com/images/{transformations}/v1674821858/products/pim/kategorieContainerMakeUp/1500_x_300_make-up.jpg",
-    "id": "010000",
-    "active": true,
-    "code": "All"
-  },
-  "Augen": {
-    "name": "Augen",
-    "id": "010100",
-    "active": true,
-    "code": "All"
-  },
-  "Augen Primer & Base": {
-    "name": "Augen Primer & Base",
-    "id": "010109",
-    "active": true,
-    "code": "All"
-  },
-  "Lidschatten & Paletten": {
-    "name": "Lidschatten & Paletten",
-    "id": "010102",
-    "active": true,
-    "code": "All"
-  },
-  "Mascara": {
-    "name": "Mascara",
-    "id": "010101",
-    "active": true,
-    "code": "All"
-  },
-  "Augenbrauen": {
-    "name": "Augenbrauen",
-    "id": "010105",
-    "active": true,
-    "code": "All"
-  },
-  "Eyeliner & Kajal": {
-    "name": "Eyeliner & Kajal",
-    "id": "010104",
-    "active": true,
-    "code": "All"
-  },
-  "Künstliche Wimpern": {
-    "name": "Künstliche Wimpern",
-    "id": "010106",
-    "active": true,
-    "code": "All"
-  },
-  "Wimpernserum & Pflege": {
-    "name": "Wimpernserum & Pflege",
-    "id": "010110",
-    "active": true,
-    "code": "All"
-  },
-  "Wimpern- & Augenbrauenfarbe": {
-    "name": "Wimpern- & Augenbrauenfarbe",
-    "id": "010111",
-    "active": true,
-    "code": "All"
-  },
-  "Lippen": {
-    "name": "Lippen",
-    "id": "010300",
-    "active": true,
-    "code": "All"
-  },
-  "Lippen Primer & Base": {
-    "name": "Lippen Primer & Base",
-    "id": "010306",
-    "active": true,
-    "code": "All"
-  },
-  "Lippenstift": {
-    "name": "Lippenstift",
-    "id": "010302",
-    "active": true,
-    "code": "All"
-  },
-  "Lipgloss": {
-    "name": "Lipgloss",
-    "id": "010301",
-    "active": true,
-    "code": "All"
-  },
-  "Lipliner": {
-    "name": "Lipliner",
-    "id": "010303",
-    "active": true,
-    "code": "All"
-  },
-  "Lipbalm & Lippenöle": {
-    "name": "Lipbalm & Lippenöle",
-    "id": "010307",
-    "active": true,
-    "code": "All"
-  },
-  "Lippenpeeling": {
-    "name": "Lippenpeeling",
-    "id": "010308",
-    "active": true,
-    "code": "All"
-  },
-  "Teint": {
-    "name": "Teint",
-    "id": "010200",
-    "active": true,
-    "code": "All"
-  },
-  "Teint Primer & Fixing": {
-    "name": "Teint Primer & Fixing",
-    "id": "010210",
-    "active": true,
-    "code": "All"
-  },
-  "Make-up & Foundation": {
-    "name": "Make-up & Foundation",
-    "id": "010201",
-    "active": true,
-    "code": "All"
-  },
-  "Concealer & Abdeckstift": {
-    "name": "Concealer & Abdeckstift",
-    "id": "010203",
-    "active": true,
-    "code": "All"
-  },
-  "Puder & Mattierung": {
-    "name": "Puder & Mattierung",
-    "id": "010204",
-    "active": true,
-    "code": "All"
-  },
-  "BB-Cream & CC-Cream": {
-    "name": "BB-Cream & CC-Cream",
-    "id": "010202",
-    "active": true,
-    "code": "All"
-  },
-  "Highlighter": {
-    "name": "Highlighter",
-    "id": "010209",
-    "active": true,
-    "code": "All"
-  },
-  "Rouge": {
-    "name": "Rouge",
-    "id": "010205",
-    "active": true,
-    "code": "All"
-  },
-  "Bronzing": {
-    "name": "Bronzing",
-    "id": "010206",
-    "active": true,
-    "code": "All"
-  },
-  "Contouring": {
-    "name": "Contouring",
-    "id": "010211",
-    "active": true,
-    "code": "All"
-  },
-  "Colour Correcting": {
-    "name": "Colour Correcting",
-    "id": "010212",
-    "active": true,
-    "code": "All"
-  },
-  "Nägel": {
-    "name": "Nägel",
-    "id": "010400",
-    "active": true,
-    "code": "All"
-  },
-  "Nagellack": {
-    "name": "Nagellack",
-    "id": "010402",
-    "active": true,
-    "code": "All"
-  },
-  "UV Nagellack": {
-    "name": "UV Nagellack",
-    "id": "010403",
-    "active": true,
-    "code": "All"
-  },
-  "Nagelpflege": {
-    "name": "Nagelpflege",
-    "id": "010404",
-    "active": true,
-    "code": "All"
-  },
-  "Topcoat & Basecoat": {
-    "name": "Topcoat & Basecoat",
-    "id": "010401",
-    "active": true,
-    "code": "All"
-  },
-  "Maniküre & Feilen": {
-    "name": "Maniküre & Feilen",
-    "id": "010406",
-    "active": true,
-    "code": "All"
-  },
-  "Nagellackentferner": {
-    "name": "Nagellackentferner",
-    "id": "010405",
-    "active": true,
-    "code": "All"
-  },
-  "Künstliche Fingernägel & Nageldesign": {
-    "name": "Künstliche Fingernägel & Nageldesign",
-    "id": "010409",
-    "active": true,
-    "code": "All"
-  },
-  "Glitzer & Glitter": {
-    "name": "Glitzer & Glitter",
-    "id": "010408",
-    "active": true,
-    "code": "All"
-  },
-  "Pinsel & Tools": {
-    "name": "Pinsel & Tools",
-    "id": "010600",
-    "active": true,
-    "code": "All"
-  },
-  "Pinsel": {
-    "name": "Pinsel",
-    "id": "010604",
-    "active": true,
-    "code": "All"
-  },
-  "Pinselreiniger": {
-    "name": "Pinselreiniger",
-    "id": "010610",
-    "active": true,
-    "code": "All"
-  },
-  "Schwämmchen & Applikatoren": {
-    "name": "Schwämmchen & Applikatoren",
-    "id": "010603",
-    "active": true,
-    "code": "All"
-  },
-  "Beautyhelfer": {
-    "name": "Beautyhelfer",
-    "id": "010607",
-    "active": true,
-    "code": "All"
+  "Abnehmen": {
+    "active": true,
+    "code": null,
+    "id": "031300",
+    "name": "Abnehmen"
   },
   "Abschminken": {
-    "name": "Abschminken",
+    "active": true,
+    "code": null,
     "id": "010602",
-    "active": true,
-    "code": "All"
-  },
-  "Kosmetiktücher & Wattepads": {
-    "name": "Kosmetiktücher & Wattepads",
-    "id": "010601",
-    "active": true,
-    "code": "All"
-  },
-  "Pinzetten": {
-    "name": "Pinzetten",
-    "id": "010606",
-    "active": true,
-    "code": "All"
-  },
-  "Spitzer": {
-    "name": "Spitzer",
-    "id": "010612",
-    "active": true,
-    "code": "All"
-  },
-  "Korrekturstifte": {
-    "name": "Korrekturstifte",
-    "id": "010613",
-    "active": true,
-    "code": "All"
-  },
-  "Wimpernzangen": {
-    "name": "Wimpernzangen",
-    "id": "010614",
-    "active": true,
-    "code": "All"
-  },
-  "Haare": {
-    "name": "Haare",
-    "url": "https://media.dm-static.com/images/{transformations}/v1674821847/products/pim/kategorieContainerHaare/1500_x_300_haare.jpg",
-    "id": "110000",
-    "active": true,
-    "code": "All"
-  },
-  "Haarpflege": {
-    "name": "Haarpflege",
-    "id": "110601",
-    "active": true,
-    "code": "All"
-  },
-  "Shampoo": {
-    "name": "Shampoo",
-    "id": "110101",
-    "active": true,
-    "code": "All"
-  },
-  "Conditioner": {
-    "name": "Conditioner",
-    "id": "110102",
-    "active": true,
-    "code": "All"
-  },
-  "Haarkur": {
-    "name": "Haarkur",
-    "id": "110103",
-    "active": true,
-    "code": "All"
-  },
-  "Haaröl": {
-    "name": "Haaröl",
-    "id": "110105",
-    "active": true,
-    "code": "All"
-  },
-  "Trockenshampoo": {
-    "name": "Trockenshampoo",
-    "id": "110104",
-    "active": true,
-    "code": "All"
-  },
-  "Haarseife, festes Shampoo & Conditioner": {
-    "name": "Haarseife, festes Shampoo & Conditioner",
-    "id": "110106",
-    "active": true,
-    "code": "All"
-  },
-  "Haarstyling": {
-    "name": "Haarstyling",
-    "id": "110602",
-    "active": true,
-    "code": "All"
-  },
-  "Haarspray & Haarlack": {
-    "name": "Haarspray & Haarlack",
-    "id": "110201",
-    "active": true,
-    "code": "All"
-  },
-  "Schaumfestiger": {
-    "name": "Schaumfestiger",
-    "id": "110202",
-    "active": true,
-    "code": "All"
-  },
-  "Haargel & Haarwachs": {
-    "name": "Haargel & Haarwachs",
-    "id": "110203",
-    "active": true,
-    "code": "All"
-  },
-  "Styling Spray & Creme": {
-    "name": "Styling Spray & Creme",
-    "id": "110204",
-    "active": true,
-    "code": "All"
-  },
-  "Hitzeschutzspray & Co.": {
-    "name": "Hitzeschutzspray & Co.",
-    "id": "110205",
-    "active": true,
-    "code": "All"
-  },
-  "Haarparfum & Haarpuder": {
-    "name": "Haarparfum & Haarpuder",
-    "id": "110206",
-    "active": true,
-    "code": "All"
-  },
-  "Haarbürsten & Kämme": {
-    "name": "Haarbürsten & Kämme",
-    "id": "110700",
-    "active": true,
-    "code": "All"
-  },
-  "Haarfarben": {
-    "name": "Haarfarben",
-    "id": "110300",
-    "active": true,
-    "code": "All"
-  },
-  "Haartönung": {
-    "name": "Haartönung",
-    "id": "110301",
-    "active": true,
-    "code": "All"
-  },
-  "Dauerhafte Haarfarben": {
-    "name": "Dauerhafte Haarfarben",
-    "id": "110302",
-    "active": true,
-    "code": "All"
-  },
-  "Aufheller & Blondierungen": {
-    "name": "Aufheller & Blondierungen",
-    "id": "110303",
-    "active": true,
-    "code": "All"
-  },
-  "Strähnchen": {
-    "name": "Strähnchen",
-    "id": "110304",
-    "active": true,
-    "code": "All"
-  },
-  "Ansatzspray & Ansatzprodukte": {
-    "name": "Ansatzspray & Ansatzprodukte",
-    "id": "110306",
-    "active": true,
-    "code": "All"
-  },
-  "Haar-Accessoires": {
-    "name": "Haar-Accessoires",
-    "id": "110400",
-    "active": true,
-    "code": "All"
-  },
-  "Haarschmuck, Accessoires & Co.": {
-    "name": "Haarschmuck, Accessoires & Co.",
-    "id": "110402",
-    "active": true,
-    "code": "All"
-  },
-  "Haargummi": {
-    "name": "Haargummi",
-    "id": "110405",
-    "active": true,
-    "code": "All"
-  },
-  "Haarspangen": {
-    "name": "Haarspangen",
-    "id": "110406",
-    "active": true,
-    "code": "All"
-  },
-  "Professionelle Haarpflege": {
-    "name": "Professionelle Haarpflege",
-    "id": "110500",
-    "active": true,
-    "code": "All"
-  },
-  "Haarprodukte für Männer": {
-    "name": "Haarprodukte für Männer",
-    "id": "110600",
-    "active": true,
-    "code": "All"
-  },
-  "Haarfarbe": {
-    "name": "Haarfarbe",
-    "id": "110603",
-    "active": true,
-    "code": "All"
-  },
-  "Alles für Locken": {
-    "name": "Alles für Locken",
-    "id": "110800",
-    "active": true,
-    "code": "All"
-  },
-  "Föhn, Glätteisen, Lockenstab & Co.": {
-    "name": "Föhn, Glätteisen, Lockenstab & Co.",
-    "id": "110900",
-    "active": true,
-    "code": "All"
-  },
-  "Baby & Kind": {
-    "name": "Baby & Kind",
-    "url": "https://media.dm-static.com/images/{transformations}/v1675439168/products/pim/kategorieContainerBabyUndKind/1500_x_300_baby-n-kind.jpg",
-    "id": "050000",
-    "active": true,
-    "code": "All"
-  },
-  "Wickeln & Co.": {
-    "name": "Wickeln & Co.",
-    "id": "050100",
-    "active": true,
-    "code": "All"
-  },
-  "Windeln": {
-    "name": "Windeln",
-    "id": "050101",
-    "active": true,
-    "code": "All"
-  },
-  "Stoffwindeln": {
-    "name": "Stoffwindeln",
-    "id": "050106",
-    "active": true,
-    "code": "All"
-  },
-  "Schwimmwindeln": {
-    "name": "Schwimmwindeln",
-    "id": "050102",
-    "active": true,
-    "code": "All"
-  },
-  "Windel Pants": {
-    "name": "Windel Pants",
-    "id": "050104",
-    "active": true,
-    "code": "All"
-  },
-  "Windelzubehör": {
-    "name": "Windelzubehör",
-    "id": "050105",
-    "active": true,
-    "code": "All"
-  },
-  "Trocken werden": {
-    "name": "Trocken werden",
-    "id": "050103",
-    "active": true,
-    "code": "All"
-  },
-  "Babypflege": {
-    "name": "Babypflege",
-    "id": "050400",
-    "active": true,
-    "code": "All"
-  },
-  "Feuchttücher & Co.": {
-    "name": "Feuchttücher & Co.",
-    "id": "050401",
-    "active": true,
-    "code": "All"
-  },
-  "Babyshampoo, Badezusätze & Co.": {
-    "name": "Babyshampoo, Badezusätze & Co.",
-    "id": "050402",
-    "active": true,
-    "code": "All"
-  },
-  "Babypuder & Wundschutzcreme": {
-    "name": "Babypuder & Wundschutzcreme",
-    "id": "050403",
-    "active": true,
-    "code": "All"
-  },
-  "Babyöl & Babycreme": {
-    "name": "Babyöl & Babycreme",
-    "id": "050404",
-    "active": true,
-    "code": "All"
-  },
-  "Fläschchen & Schnuller": {
-    "name": "Fläschchen & Schnuller",
-    "id": "050600",
-    "active": true,
-    "code": "All"
-  },
-  "Babyflaschen & Kinderflaschen": {
-    "name": "Babyflaschen & Kinderflaschen",
-    "id": "050601",
-    "active": true,
-    "code": "All"
-  },
-  "Schnuller": {
-    "name": "Schnuller",
-    "id": "050603",
-    "active": true,
-    "code": "All"
-  },
-  "Schnullerketten & Zubehör": {
-    "name": "Schnullerketten & Zubehör",
-    "id": "050604",
-    "active": true,
-    "code": "All"
-  },
-  "Babynahrung & Getränke": {
-    "name": "Babynahrung & Getränke",
-    "id": "050500",
-    "active": true,
-    "code": "All"
-  },
-  "Babygläschen & Co.": {
-    "name": "Babygläschen & Co.",
-    "id": "050501",
-    "active": true,
-    "code": "All"
-  },
-  "Babymilch": {
-    "name": "Babymilch",
-    "id": "050502",
-    "active": true,
-    "code": "All"
-  },
-  "Babybrei": {
-    "name": "Babybrei",
-    "id": "050503",
-    "active": true,
-    "code": "All"
-  },
-  "Snacks für Kinder": {
-    "name": "Snacks für Kinder",
-    "id": "050504",
-    "active": true,
-    "code": "All"
-  },
-  "Quetschies": {
-    "name": "Quetschies",
-    "id": "050505",
-    "active": true,
-    "code": "All"
-  },
-  "Getränke für Kinder": {
-    "name": "Getränke für Kinder",
-    "id": "050506",
-    "active": true,
-    "code": "All / Getränke"
-  },
-  "Kinderkleidung": {
-    "name": "Kinderkleidung",
-    "id": "053000",
-    "active": true,
-    "code": "All"
-  },
-  "Baby Bodies & Strampler": {
-    "name": "Baby Bodies & Strampler",
-    "id": "053100",
-    "active": true,
-    "code": "All"
-  },
-  "Kinderunterwäsche & -schlafanzüge": {
-    "name": "Kinderunterwäsche & -schlafanzüge",
-    "id": "053910",
-    "active": true,
-    "code": "All"
-  },
-  "Kinderschlafsäcke": {
-    "name": "Kinderschlafsäcke",
-    "id": "053400",
-    "active": true,
-    "code": "All"
-  },
-  "Kinderpullover & -shirts": {
-    "name": "Kinderpullover & -shirts",
-    "id": "053500",
-    "active": true,
-    "code": "All"
-  },
-  "Kinderhosen": {
-    "name": "Kinderhosen",
-    "id": "053300",
-    "active": true,
-    "code": "All"
-  },
-  "Röcke & Kleider": {
-    "name": "Röcke & Kleider",
-    "id": "053800",
-    "active": true,
-    "code": "All"
-  },
-  "Kinderbademode": {
-    "name": "Kinderbademode",
-    "id": "053950",
-    "active": true,
-    "code": "All"
-  },
-  "Kinder Outdoor- & Regenbekleidung": {
-    "name": "Kinder Outdoor- & Regenbekleidung",
-    "id": "053930",
-    "active": true,
-    "code": "All"
-  },
-  "Kinderhandschuhe, -mützen & -schals": {
-    "name": "Kinderhandschuhe, -mützen & -schals",
-    "id": "053200",
-    "active": true,
-    "code": "All"
-  },
-  "Kinderstrumpfhosen & -strümpfe": {
-    "name": "Kinderstrumpfhosen & -strümpfe",
-    "id": "053600",
-    "active": true,
-    "code": "All"
-  },
-  "Babyschuhe": {
-    "name": "Babyschuhe",
-    "id": "053920",
-    "active": true,
-    "code": "All"
-  },
-  "Ausstattung für Baby & Kind": {
-    "name": "Ausstattung für Baby & Kind",
-    "id": "050700",
-    "active": true,
-    "code": "All"
-  },
-  "Kinderbesteck, Geschirr & Lätzchen": {
-    "name": "Kinderbesteck, Geschirr & Lätzchen",
-    "id": "050706",
-    "active": true,
-    "code": "All"
-  },
-  "Babynahrungszubereitung": {
-    "name": "Babynahrungszubereitung",
-    "id": "050709",
-    "active": true,
-    "code": "All"
-  },
-  "Kinderwagenzubehör": {
-    "name": "Kinderwagenzubehör",
-    "id": "050702",
-    "active": true,
-    "code": "All"
-  },
-  "Kindersicherheit": {
-    "name": "Kindersicherheit",
-    "id": "050703",
-    "active": true,
-    "code": "All"
-  },
-  "Badezubehör für Baby & Kind": {
-    "name": "Badezubehör für Baby & Kind",
-    "id": "050704",
-    "active": true,
-    "code": "All"
-  },
-  "Babypflege Zubehör": {
-    "name": "Babypflege Zubehör",
-    "id": "050705",
-    "active": true,
-    "code": "All"
-  },
-  "Babydecken & Co.": {
-    "name": "Babydecken & Co.",
-    "id": "050715",
-    "active": true,
-    "code": "All"
-  },
-  "Babyphones": {
-    "name": "Babyphones",
-    "id": "050710",
-    "active": true,
-    "code": "All"
-  },
-  "Zahnen": {
-    "name": "Zahnen",
-    "id": "050708",
-    "active": true,
-    "code": "All"
-  },
-  "Frühchen": {
-    "name": "Frühchen",
-    "id": "054000",
-    "active": true,
-    "code": "All"
-  },
-  "Für die Mama": {
-    "name": "Für die Mama",
-    "id": "050800",
-    "active": true,
-    "code": "All"
-  },
-  "Pflege für Schwangere & Mamas": {
-    "name": "Pflege für Schwangere & Mamas",
-    "id": "050804",
-    "active": true,
-    "code": "All"
-  },
-  "Ernährung in Schwangerschaft & Stillzeit": {
-    "name": "Ernährung in Schwangerschaft & Stillzeit",
-    "id": "050806",
-    "active": true,
-    "code": "All"
-  },
-  "Still-BH & Co.": {
-    "name": "Still-BH & Co.",
-    "id": "050803",
-    "active": true,
-    "code": "All"
-  },
-  "Stillkissen, Stilleinlagen & Co.": {
-    "name": "Stillkissen, Stilleinlagen & Co.",
-    "id": "050805",
-    "active": true,
-    "code": "All"
-  },
-  "Kinderbücher & Ratgeber": {
-    "name": "Kinderbücher & Ratgeber",
-    "id": "050900",
-    "active": true,
-    "code": "All"
-  },
-  "Malbücher & Bastelbücher": {
-    "name": "Malbücher & Bastelbücher",
-    "id": "050909",
-    "active": true,
-    "code": "All"
-  },
-  "Babybücher": {
-    "name": "Babybücher",
-    "id": "050904",
-    "active": true,
-    "code": "All"
-  },
-  "Kinderbücher ab 2 Jahre": {
-    "name": "Kinderbücher ab 2 Jahre",
-    "id": "050905",
-    "active": true,
-    "code": "All"
-  },
-  "Kinderbücher ab 3 Jahre": {
-    "name": "Kinderbücher ab 3 Jahre",
-    "id": "050906",
-    "active": true,
-    "code": "All"
-  },
-  "Kinderbücher ab 4 Jahre": {
-    "name": "Kinderbücher ab 4 Jahre",
-    "id": "050907",
-    "active": true,
-    "code": "All"
-  },
-  "Elternratgeber": {
-    "name": "Elternratgeber",
-    "id": "050910",
-    "active": true,
-    "code": "All"
-  },
-  "Kinderbücher ab 5 Jahre": {
-    "name": "Kinderbücher ab 5 Jahre",
-    "id": "050911",
-    "active": true,
-    "code": "All"
-  },
-  "Spielzeug": {
-    "name": "Spielzeug",
-    "id": "052000",
-    "active": true,
-    "code": "All"
-  },
-  "Kinderzimmer": {
-    "name": "Kinderzimmer",
-    "id": "055000",
-    "active": true,
-    "code": "All"
-  },
-  "Gesundheit": {
-    "name": "Gesundheit",
-    "url": "https://media.dm-static.com/images/{transformations}/v1674821842/products/pim/kategorieContainerGesundheit/1500_x_300_gesundheit.jpg",
-    "id": "030000",
-    "active": true,
-    "code": "All"
-  },
-  "Zahnpflege": {
-    "name": "Zahnpflege",
-    "id": "030600",
-    "active": true,
-    "code": "All"
-  },
-  "Zahnpasta": {
-    "name": "Zahnpasta",
-    "id": "030601",
-    "active": true,
-    "code": "All"
-  },
-  "Zahnbürste": {
-    "name": "Zahnbürste",
-    "id": "030602",
-    "active": true,
-    "code": "All"
-  },
-  "Elektrische Zahnbürste": {
-    "name": "Elektrische Zahnbürste",
-    "id": "030603",
-    "active": true,
-    "code": "All"
-  },
-  "Aufsteckbürsten & Wechselköpfe": {
-    "name": "Aufsteckbürsten & Wechselköpfe",
-    "id": "030613",
-    "active": true,
-    "code": "All"
-  },
-  "Interdentalbürsten & Zahnseide": {
-    "name": "Interdentalbürsten & Zahnseide",
-    "id": "030606",
-    "active": true,
-    "code": "All"
-  },
-  "Zungenreiniger": {
-    "name": "Zungenreiniger",
-    "id": "030611",
-    "active": true,
-    "code": "All"
-  },
-  "Mundspülung, Mundwasser & Co.": {
-    "name": "Mundspülung, Mundwasser & Co.",
-    "id": "030605",
-    "active": true,
-    "code": "All"
-  },
-  "Ölziehen": {
-    "name": "Ölziehen",
-    "id": "030608",
-    "active": true,
-    "code": "All"
-  },
-  "Munddusche": {
-    "name": "Munddusche",
-    "id": "030607",
-    "active": true,
-    "code": "All"
-  },
-  "Bleaching": {
-    "name": "Bleaching",
-    "id": "030612",
-    "active": true,
-    "code": "All"
-  },
-  "Haftcreme & Gebissreiniger": {
-    "name": "Haftcreme & Gebissreiniger",
-    "id": "030604",
-    "active": true,
-    "code": "All"
-  },
-  "Kinderprodukte": {
-    "name": "Kinderprodukte",
-    "id": "030610",
-    "active": true,
-    "code": "All"
-  },
-  "Erkältung": {
-    "name": "Erkältung",
-    "id": "030100",
-    "active": true,
-    "code": "All"
-  },
-  "Immunsystem stärken": {
-    "name": "Immunsystem stärken",
-    "id": "030101",
-    "active": true,
-    "code": "All"
-  },
-  "Halsschmerzen & Schluckbeschwerden": {
-    "name": "Halsschmerzen & Schluckbeschwerden",
-    "id": "030102",
-    "active": true,
-    "code": "All"
-  },
-  "Schnupfen": {
-    "name": "Schnupfen",
-    "id": "030104",
-    "active": true,
-    "code": "All"
-  },
-  "Husten": {
-    "name": "Husten",
-    "id": "030105",
-    "active": true,
-    "code": "All"
-  },
-  "Kopfschmerzen": {
-    "name": "Kopfschmerzen",
-    "id": "030106",
-    "active": true,
-    "code": "All"
-  },
-  "Inhalationsgeräte & Zubehör": {
-    "name": "Inhalationsgeräte & Zubehör",
-    "id": "030107",
-    "active": true,
-    "code": "All"
-  },
-  "Fieberthermometer": {
-    "name": "Fieberthermometer",
-    "id": "030108",
-    "active": true,
-    "code": "All"
-  },
-  "Corona Schnell- & Antikörpertest": {
-    "name": "Corona Schnell- & Antikörpertest",
-    "id": "031500",
-    "active": true,
-    "code": "All"
-  },
-  "Mundschutz": {
-    "name": "Mundschutz",
-    "id": "031400",
-    "active": true,
-    "code": "All"
-  },
-  "Medizinische Masken": {
-    "name": "Medizinische Masken",
-    "id": "031402",
-    "active": true,
-    "code": "All"
-  },
-  "Vitamine": {
-    "name": "Vitamine",
-    "id": "030300",
-    "active": true,
-    "code": "All / Nahrungsergänzungsmittel"
-  },
-  "Vitamin A": {
-    "name": "Vitamin A",
-    "id": "030301",
-    "active": true,
-    "code": "All / Nahrungsergänzungsmittel"
-  },
-  "Vitamin B": {
-    "name": "Vitamin B",
-    "id": "030302",
-    "active": true,
-    "code": "All / Nahrungsergänzungsmittel"
-  },
-  "Vitamin C": {
-    "name": "Vitamin C",
-    "id": "030303",
-    "active": true,
-    "code": "All / Nahrungsergänzungsmittel"
-  },
-  "Vitamin D": {
-    "name": "Vitamin D",
-    "id": "030304",
-    "active": true,
-    "code": "All / Nahrungsergänzungsmittel"
-  },
-  "Vitamin E": {
-    "name": "Vitamin E",
-    "id": "030305",
-    "active": true,
-    "code": "All / Nahrungsergänzungsmittel"
-  },
-  "Multivitamine": {
-    "name": "Multivitamine",
-    "id": "030306",
-    "active": true,
-    "code": "All / Nahrungsergänzungsmittel"
-  },
-  "Mineralstoffe": {
-    "name": "Mineralstoffe",
-    "id": "030200",
-    "active": true,
-    "code": "All / Nahrungsergänzungsmittel"
-  },
-  "Calcium": {
-    "name": "Calcium",
-    "id": "030201",
-    "active": true,
-    "code": "All / Nahrungsergänzungsmittel"
-  },
-  "Eisen": {
-    "name": "Eisen",
-    "id": "030204",
-    "active": true,
-    "code": "All / Nahrungsergänzungsmittel"
-  },
-  "Magnesium": {
-    "name": "Magnesium",
-    "id": "030207",
-    "active": true,
-    "code": "All / Nahrungsergänzungsmittel"
-  },
-  "Zink": {
-    "name": "Zink",
-    "id": "030205",
-    "active": true,
-    "code": "All / Nahrungsergänzungsmittel"
-  },
-  "Sonstige Mineralstoffe": {
-    "name": "Sonstige Mineralstoffe",
-    "id": "030206",
-    "active": true,
-    "code": "All / Nahrungsergänzungsmittel"
-  },
-  "Wohlbefinden & Stärkung": {
-    "name": "Wohlbefinden & Stärkung",
-    "id": "030500",
-    "active": true,
-    "code": "All"
-  },
-  "Gedächtnis & Konzentration": {
-    "name": "Gedächtnis & Konzentration",
-    "id": "030506",
-    "active": true,
-    "code": "All"
-  },
-  "Herz, Kreislauf & Cholesterin": {
-    "name": "Herz, Kreislauf & Cholesterin",
-    "id": "030503",
-    "active": true,
-    "code": "All"
-  },
-  "Leber & Galle": {
-    "name": "Leber & Galle",
-    "id": "030507",
-    "active": true,
-    "code": "All"
-  },
-  "Magen & Verdauung": {
-    "name": "Magen & Verdauung",
-    "id": "030508",
-    "active": true,
-    "code": "All"
-  },
-  "Muskeln & Gelenke": {
-    "name": "Muskeln & Gelenke",
-    "id": "030509",
-    "active": true,
-    "code": "All"
-  },
-  "Prostata & Blase": {
-    "name": "Prostata & Blase",
-    "id": "030504",
-    "active": true,
-    "code": "All"
-  },
-  "Venen": {
-    "name": "Venen",
-    "id": "030510",
-    "active": true,
-    "code": "All"
-  },
-  "Schlafen & Nerven": {
-    "name": "Schlafen & Nerven",
-    "id": "030502",
-    "active": true,
-    "code": "All"
-  },
-  "Schönheit von Innen": {
-    "name": "Schönheit von Innen",
-    "id": "030400",
-    "active": true,
-    "code": "All"
-  },
-  "Schöne Haut": {
-    "name": "Schöne Haut",
-    "id": "030401",
-    "active": true,
-    "code": "All"
-  },
-  "Schöne Haare": {
-    "name": "Schöne Haare",
-    "id": "030402",
-    "active": true,
-    "code": "All"
-  },
-  "Starke Nägel": {
-    "name": "Starke Nägel",
-    "id": "030403",
-    "active": true,
-    "code": "All"
-  },
-  "Abnehmen": {
-    "name": "Abnehmen",
-    "id": "031300",
-    "active": true,
-    "code": "All"
-  },
-  "Hausapotheke & Wundversorgung": {
-    "name": "Hausapotheke & Wundversorgung",
-    "id": "030700",
-    "active": true,
-    "code": "All"
-  },
-  "Verbandsmaterial": {
-    "name": "Verbandsmaterial",
-    "id": "030702",
-    "active": true,
-    "code": "All"
-  },
-  "Wundheilung": {
-    "name": "Wundheilung",
-    "id": "030703",
-    "active": true,
-    "code": "All"
-  },
-  "Wundpflaster": {
-    "name": "Wundpflaster",
-    "id": "030701",
-    "active": true,
-    "code": "All"
-  },
-  "Blutdruckmessgeräte": {
-    "name": "Blutdruckmessgeräte",
-    "id": "030706",
-    "active": true,
-    "code": "All"
-  },
-  "Blutzuckermessgeräte & Zubehör": {
-    "name": "Blutzuckermessgeräte & Zubehör",
-    "id": "030705",
-    "active": true,
-    "code": "All"
-  },
-  "Ohrstöpsel & Nasenstrips": {
-    "name": "Ohrstöpsel & Nasenstrips",
-    "id": "030704",
-    "active": true,
-    "code": "All"
-  },
-  "Bandagen & Tape": {
-    "name": "Bandagen & Tape",
-    "id": "031200",
-    "active": true,
-    "code": "All"
-  },
-  "Wärmflaschen, Wärmepflaster & Co.": {
-    "name": "Wärmflaschen, Wärmepflaster & Co.",
-    "id": "031000",
-    "active": true,
-    "code": "All"
-  },
-  "Kontaktlinsen, Lesebrillen & Zubehör": {
-    "name": "Kontaktlinsen, Lesebrillen & Zubehör",
-    "id": "031100",
-    "active": true,
-    "code": "All"
-  },
-  "Monatslinsen": {
-    "name": "Monatslinsen",
-    "id": "031101",
-    "active": true,
-    "code": "All"
-  },
-  "Tageslinsen": {
-    "name": "Tageslinsen",
-    "id": "031102",
-    "active": true,
-    "code": "All"
-  },
-  "Kontaktlinsenflüssigkeit & Augentropfen": {
-    "name": "Kontaktlinsenflüssigkeit & Augentropfen",
-    "id": "031103",
-    "active": true,
-    "code": "All"
-  },
-  "Lesebrillen": {
-    "name": "Lesebrillen",
-    "id": "031104",
-    "active": true,
-    "code": "All"
-  },
-  "Brillenetui & Brillenputztuch": {
-    "name": "Brillenetui & Brillenputztuch",
-    "id": "031105",
-    "active": true,
-    "code": "All"
-  },
-  "Liebesspiel & Verhütung": {
-    "name": "Liebesspiel & Verhütung",
-    "id": "030800",
-    "active": true,
-    "code": "All"
-  },
-  "Gleitgel": {
-    "name": "Gleitgel",
-    "id": "030802",
-    "active": true,
-    "code": "All"
-  },
-  "Kondome": {
-    "name": "Kondome",
-    "id": "030801",
-    "active": true,
-    "code": "All"
-  },
-  "Sextoys": {
-    "name": "Sextoys",
-    "id": "030803",
-    "active": true,
-    "code": "All"
-  },
-  "Schwangerschaftstest & Ovulationstest": {
-    "name": "Schwangerschaftstest & Ovulationstest",
-    "id": "031600",
-    "active": true,
-    "code": "All"
-  },
-  "Ernährung": {
-    "name": "Ernährung",
-    "url": "https://media.dm-static.com/images/{transformations}/v1674821825/products/pim/kategorieContainerErnaehrung/1500_x_300_ernaehrung.jpg",
-    "id": "040000",
-    "active": true,
-    "code": "All"
-  },
-  "Frühstück": {
-    "name": "Frühstück",
-    "id": "041200",
-    "active": true,
-    "code": "All"
-  },
-  "Müsli & Granola": {
-    "name": "Müsli & Granola",
-    "id": "041201",
-    "active": true,
-    "code": "All / Weitere Verarbeitete Lebensmittel / Müsli"
-  },
-  "Flocken & Flakes": {
-    "name": "Flocken & Flakes",
-    "id": "041202",
-    "active": true,
-    "code": "All / Weitere Verarbeitete Lebensmittel / Müsli"
-  },
-  "Porridge & Frühstücksbrei": {
-    "name": "Porridge & Frühstücksbrei",
-    "id": "041203",
-    "active": true,
-    "code": "All / Weitere Verarbeitete Lebensmittel"
-  },
-  "Brot & Brötchen": {
-    "name": "Brot & Brötchen",
-    "id": "041204",
-    "active": true,
-    "code": "All / Backwaren"
-  },
-  "Herzhafte Brotaufstriche": {
-    "name": "Herzhafte Brotaufstriche",
-    "id": "041205",
-    "active": true,
-    "code": "All / Weitere Verarbeitete Lebensmittel / Brotaufstrich und Mus"
-  },
-  "Marmelade, Fruchtaufstrich & Honig": {
-    "name": "Marmelade, Fruchtaufstrich & Honig",
-    "id": "041206",
-    "active": true,
-    "code": "All / Weitere Verarbeitete Lebensmittel / Brotaufstrich und Mus"
-  },
-  "Nuss- & Schokocreme": {
-    "name": "Nuss- & Schokocreme",
-    "id": "041207",
-    "active": true,
-    "code": "All / Weitere Verarbeitete Lebensmittel / Brotaufstrich und Mus"
-  },
-  "Kaffee, Tee & Kakao": {
-    "name": "Kaffee, Tee & Kakao",
-    "id": "042200",
-    "active": true,
-    "code": "All / Weitere Verarbeitete Lebensmittel"
-  },
-  "Kaffee & Kaffeeersatz": {
-    "name": "Kaffee & Kaffeeersatz",
-    "id": "042201",
-    "active": true,
-    "code": "All / Weitere Verarbeitete Lebensmittel / Kaffee"
-  },
-  "Tee": {
-    "name": "Tee",
-    "id": "042202",
-    "active": true,
-    "code": "All / Weitere Verarbeitete Lebensmittel / Tee"
-  },
-  "Trinkschokolade": {
-    "name": "Trinkschokolade",
-    "id": "042203",
-    "active": true,
-    "code": "All / Weitere Verarbeitete Lebensmittel"
-  },
-  "Milch & Milchalternativen": {
-    "name": "Milch & Milchalternativen",
-    "id": "041400",
-    "active": true,
-    "code": "All"
-  },
-  "Milch": {
-    "name": "Milch",
-    "id": "041401",
-    "active": true,
-    "code": "All / Milchprodukte / Milch"
-  },
-  "Pflanzendrinks": {
-    "name": "Pflanzendrinks",
-    "id": "041402",
-    "active": true,
-    "code": "All / Getränke"
-  },
-  "Tofu & Fleischersatz": {
-    "name": "Tofu & Fleischersatz",
-    "id": "042500",
-    "active": true,
-    "code": "All / Weitere Verarbeitete Lebensmittel / Fleischersatzprodukte"
-  },
-  "Beilagen": {
-    "name": "Beilagen",
-    "id": "042300",
-    "active": true,
-    "code": "All"
-  },
-  "Nudeln": {
-    "name": "Nudeln",
-    "id": "042301",
-    "active": true,
-    "code": "All / Getreide und Getreideprodukte / Nudeln"
-  },
-  "Reis": {
-    "name": "Reis",
-    "id": "042302",
-    "active": true,
-    "code": "All"
-  },
-  "Bulgur, Quinoa & Co.": {
-    "name": "Bulgur, Quinoa & Co.",
-    "id": "042303",
-    "active": true,
-    "code": "All"
-  },
-  "Linsen & Bohnen": {
-    "name": "Linsen & Bohnen",
-    "id": "042304",
-    "active": true,
-    "code": "All"
-  },
-  "Soße & Gewürze": {
-    "name": "Soße & Gewürze",
-    "id": "041700",
-    "active": true,
-    "code": "All"
-  },
-  "Soßen": {
-    "name": "Soßen",
-    "id": "041702",
-    "active": true,
-    "code": "All"
-  },
-  "Gewürze": {
-    "name": "Gewürze",
-    "id": "041708",
-    "active": true,
-    "code": "All / Salz und Gewürze"
-  },
-  "Salz & Pfeffer": {
-    "name": "Salz & Pfeffer",
-    "id": "041713",
-    "active": true,
-    "code": "All / Salz und Gewürze"
-  },
-  "Essig & Öl": {
-    "name": "Essig & Öl",
-    "id": "041701",
-    "active": true,
-    "code": "All"
-  },
-  "Senf, Ketchup & Co.": {
-    "name": "Senf, Ketchup & Co.",
-    "id": "041712",
-    "active": true,
-    "code": "All"
-  },
-  "Pesto": {
-    "name": "Pesto",
-    "id": "041714",
-    "active": true,
-    "code": "All"
-  },
-  "vegane Sahnealternativen": {
-    "name": "vegane Sahnealternativen",
-    "id": "041709",
-    "active": true,
-    "code": "All"
-  },
-  "Fertiggerichte & Konserven": {
-    "name": "Fertiggerichte & Konserven",
-    "id": "042400",
-    "active": true,
-    "code": "All / Weitere Verarbeitete Lebensmittel / Fertiggerichte"
-  },
-  "Schnelle Gerichte": {
-    "name": "Schnelle Gerichte",
-    "id": "042402",
-    "active": true,
-    "code": "All / Weitere Verarbeitete Lebensmittel / Fertiggerichte"
-  },
-  "Suppen & Eintöpfe": {
-    "name": "Suppen & Eintöpfe",
-    "id": "042403",
-    "active": true,
-    "code": "All / Weitere Verarbeitete Lebensmittel / Fertiggerichte"
-  },
-  "Konserven": {
-    "name": "Konserven",
-    "id": "042401",
-    "active": true,
-    "code": "All / Weitere Verarbeitete Lebensmittel / Fertiggerichte"
-  },
-  "Backen": {
-    "name": "Backen",
-    "id": "041600",
-    "active": true,
-    "code": "All"
-  },
-  "Backzutaten": {
-    "name": "Backzutaten",
-    "id": "041601",
-    "active": true,
-    "code": "All"
-  },
-  "Zucker": {
-    "name": "Zucker",
-    "id": "041611",
-    "active": true,
-    "code": "All / Zuckerarten, Sirupe und Honig"
-  },
-  "Zuckeralternativen & Sirup": {
-    "name": "Zuckeralternativen & Sirup",
-    "id": "041612",
-    "active": true,
-    "code": "All / Zuckerarten, Sirupe und Honig"
-  },
-  "Mehl & Grieß": {
-    "name": "Mehl & Grieß",
-    "id": "041602",
-    "active": true,
-    "code": "All / Getreide und Getreideprodukte / Mehl"
-  },
-  "Getreide": {
-    "name": "Getreide",
-    "id": "041607",
-    "active": true,
-    "code": "All / Getreide und Getreideprodukte"
-  },
-  "Backmischungen": {
-    "name": "Backmischungen",
-    "id": "041606",
-    "active": true,
-    "code": "All"
-  },
-  "Saaten & Körner": {
-    "name": "Saaten & Körner",
-    "id": "041613",
-    "active": true,
-    "code": "All / Nüsse, Samen, Kerne"
-  },
-  "Fruchtmark & Obstkonserven": {
-    "name": "Fruchtmark & Obstkonserven",
-    "id": "041605",
-    "active": true,
-    "code": "All"
-  },
-  "Puddingpulver": {
-    "name": "Puddingpulver",
-    "id": "041608",
-    "active": true,
-    "code": "All"
-  },
-  "Snacks & Süßigkeiten": {
-    "name": "Snacks & Süßigkeiten",
-    "id": "041500",
-    "active": true,
-    "code": "All / Süßwaren"
-  },
-  "Müsliriegel & Fruchtriegel": {
-    "name": "Müsliriegel & Fruchtriegel",
-    "id": "041501",
-    "active": true,
-    "code": "All / Süßwaren"
-  },
-  "Schokolade & Schokoriegel": {
-    "name": "Schokolade & Schokoriegel",
-    "id": "041502",
-    "active": true,
-    "code": "All / Süßwaren"
-  },
-  "Kekse, Waffeln & Cookies": {
-    "name": "Kekse, Waffeln & Cookies",
-    "id": "041503",
-    "active": true,
-    "code": "All / Süßwaren"
-  },
-  "Trockenfrüchte": {
-    "name": "Trockenfrüchte",
-    "id": "041510",
-    "active": true,
-    "code": "All"
-  },
-  "Nüsse": {
-    "name": "Nüsse",
-    "id": "041509",
-    "active": true,
-    "code": "All / Nüsse, Samen, Kerne"
-  },
-  "Studentenfutter": {
-    "name": "Studentenfutter",
-    "id": "041508",
-    "active": true,
-    "code": "All"
-  },
-  "Knabberzeug": {
-    "name": "Knabberzeug",
-    "id": "041504",
-    "active": true,
-    "code": "All"
-  },
-  "Bonbons & Fruchtgummi": {
-    "name": "Bonbons & Fruchtgummi",
-    "id": "041505",
-    "active": true,
-    "code": "All / Süßwaren"
-  },
-  "Kaugummi": {
-    "name": "Kaugummi",
-    "id": "041506",
-    "active": true,
-    "code": "All / Süßwaren"
-  },
-  "Traubenzucker": {
-    "name": "Traubenzucker",
-    "id": "041507",
-    "active": true,
-    "code": "All / Süßwaren"
-  },
-  "Sportnahrung": {
-    "name": "Sportnahrung",
-    "id": "040700",
-    "active": true,
-    "code": "All"
-  },
-  "Protein Riegel": {
-    "name": "Protein Riegel",
-    "id": "040702",
-    "active": true,
-    "code": "All"
-  },
-  "Protein Shakes & Pulver": {
-    "name": "Protein Shakes & Pulver",
-    "id": "040705",
-    "active": true,
-    "code": "All"
-  },
-  "Energie-Produkte": {
-    "name": "Energie-Produkte",
-    "id": "040701",
-    "active": true,
-    "code": "All"
-  },
-  "Sport Zubehör & Spezialprodukte": {
-    "name": "Sport Zubehör & Spezialprodukte",
-    "id": "040706",
-    "active": true,
-    "code": "All"
-  },
-  "Getränke": {
-    "name": "Getränke",
-    "id": "041300",
-    "active": true,
-    "code": "All / Getränke"
-  },
-  "Erfrischung": {
-    "name": "Erfrischung",
-    "id": "041305",
-    "active": true,
-    "code": "All / Getränke"
-  },
-  "Smoothies": {
-    "name": "Smoothies",
-    "id": "041301",
-    "active": true,
-    "code": "All / Getränke"
-  },
-  "Wasser & Mineralwasser": {
-    "name": "Wasser & Mineralwasser",
-    "id": "041304",
-    "active": true,
-    "code": "All / Getränke"
-  },
-  "Fruchtsäfte": {
-    "name": "Fruchtsäfte",
-    "id": "041308",
-    "active": true,
-    "code": "All / Getränke"
-  },
-  "Gemüsesäfte & Ingwershots": {
-    "name": "Gemüsesäfte & Ingwershots",
-    "id": "041309",
-    "active": true,
-    "code": "All / Getränke"
-  },
-  "Haushalt": {
-    "name": "Haushalt",
-    "url": "https://media.dm-static.com/images/{transformations}/v1674821852/products/pim/kategorieContainerHaushalt/1500_x_300_haushalt.jpg",
-    "id": "060000",
-    "active": true,
-    "code": "All"
-  },
-  "Waschen": {
-    "name": "Waschen",
-    "id": "060500",
-    "active": true,
-    "code": "All"
-  },
-  "Waschmittel": {
-    "name": "Waschmittel",
-    "id": "060501",
-    "active": true,
-    "code": "All"
-  },
-  "Weichspüler": {
-    "name": "Weichspüler",
-    "id": "060502",
-    "active": true,
-    "code": "All"
-  },
-  "Waschzusatz": {
-    "name": "Waschzusatz",
-    "id": "060507",
-    "active": true,
-    "code": "All"
-  },
-  "Fleckenentferner": {
-    "name": "Fleckenentferner",
-    "id": "060504",
-    "active": true,
-    "code": "All"
-  },
-  "Textilfarbe": {
-    "name": "Textilfarbe",
-    "id": "060505",
-    "active": true,
-    "code": "All"
-  },
-  "Stärke & Bügelhilfe": {
-    "name": "Stärke & Bügelhilfe",
-    "id": "060506",
-    "active": true,
-    "code": "All"
-  },
-  "Wasserenthärter": {
-    "name": "Wasserenthärter",
-    "id": "060503",
-    "active": true,
-    "code": "All"
-  },
-  "Textilerfrischer": {
-    "name": "Textilerfrischer",
-    "id": "060508",
-    "active": true,
-    "code": "All"
-  },
-  "Putzen & Reinigen": {
-    "name": "Putzen & Reinigen",
-    "id": "060300",
-    "active": true,
-    "code": "All"
-  },
-  "Besen, Toilettenbürste & Co.": {
-    "name": "Besen, Toilettenbürste & Co.",
-    "id": "060310",
-    "active": true,
-    "code": "All"
-  },
-  "Putztücher, Schwämme & Co.": {
-    "name": "Putztücher, Schwämme & Co.",
-    "id": "060311",
-    "active": true,
-    "code": "All"
-  },
-  "Bodenwischer": {
-    "name": "Bodenwischer",
-    "id": "060312",
-    "active": true,
-    "code": "All"
-  },
-  "Allzweckreiniger": {
-    "name": "Allzweckreiniger",
-    "id": "060301",
-    "active": true,
-    "code": "All"
-  },
-  "Spezialreiniger": {
-    "name": "Spezialreiniger",
-    "id": "060308",
-    "active": true,
-    "code": "All"
-  },
-  "Bad- & Kalkreiniger": {
-    "name": "Bad- & Kalkreiniger",
-    "id": "060302",
-    "active": true,
-    "code": "All"
-  },
-  "WC-Reiniger & -Steine": {
-    "name": "WC-Reiniger & -Steine",
-    "id": "060309",
-    "active": true,
-    "code": "All"
-  },
-  "Bodenreiniger": {
-    "name": "Bodenreiniger",
-    "id": "060305",
-    "active": true,
-    "code": "All"
-  },
-  "Küchenreiniger": {
-    "name": "Küchenreiniger",
-    "id": "060304",
-    "active": true,
-    "code": "All"
-  },
-  "Glasreiniger": {
-    "name": "Glasreiniger",
-    "id": "060303",
-    "active": true,
-    "code": "All"
-  },
-  "Desinfektionssprays & Desinfektionstücher": {
-    "name": "Desinfektionssprays & Desinfektionstücher",
-    "id": "060306",
-    "active": true,
-    "code": "All"
-  },
-  "Möbelpflege": {
-    "name": "Möbelpflege",
-    "id": "060307",
-    "active": true,
-    "code": "All"
-  },
-  "Spülen": {
-    "name": "Spülen",
-    "id": "060400",
-    "active": true,
-    "code": "All"
-  },
-  "Geschirrspülmittel, -Tabs, -Salz & Co.": {
-    "name": "Geschirrspülmittel, -Tabs, -Salz & Co.",
-    "id": "060402",
-    "active": true,
-    "code": "All"
-  },
-  "Spülmittel": {
-    "name": "Spülmittel",
-    "id": "060401",
-    "active": true,
-    "code": "All"
-  },
-  "Spülbürsten & Spülschwämme": {
-    "name": "Spülbürsten & Spülschwämme",
-    "id": "060403",
-    "active": true,
-    "code": "All"
-  },
-  "Haushaltsartikel": {
-    "name": "Haushaltsartikel",
-    "id": "060100",
-    "active": true,
-    "code": "All"
-  },
-  "Alu- & Frischhaltefolie": {
-    "name": "Alu- & Frischhaltefolie",
-    "id": "060104",
-    "active": true,
-    "code": "All"
-  },
-  "Gefrierbeutel": {
-    "name": "Gefrierbeutel",
-    "id": "060107",
-    "active": true,
-    "code": "All"
-  },
-  "Müllbeutel": {
-    "name": "Müllbeutel",
-    "id": "060102",
-    "active": true,
-    "code": "All"
-  },
-  "Staubsaugerbeutel": {
-    "name": "Staubsaugerbeutel",
-    "id": "060111",
-    "active": true,
-    "code": "All"
-  },
-  "Schuhpflege": {
-    "name": "Schuhpflege",
-    "id": "060116",
-    "active": true,
-    "code": "All"
-  },
-  "Anzünder, Waschbenzin & Co.": {
-    "name": "Anzünder, Waschbenzin & Co.",
-    "id": "060101",
-    "active": true,
-    "code": "All"
-  },
-  "Haushaltshandschuhe": {
-    "name": "Haushaltshandschuhe",
-    "id": "060114",
-    "active": true,
-    "code": "All"
-  },
-  "Tee-, Kaffee- & Wasserfilter": {
-    "name": "Tee-, Kaffee- & Wasserfilter",
-    "id": "060103",
-    "active": true,
-    "code": "All"
-  },
-  "Backen & Kochen": {
-    "name": "Backen & Kochen",
-    "id": "060105",
-    "active": true,
-    "code": "All"
-  },
-  "Haushaltspapier": {
-    "name": "Haushaltspapier",
-    "id": "060200",
-    "active": true,
-    "code": "All"
-  },
-  "Toilettenpapier": {
-    "name": "Toilettenpapier",
-    "id": "060201",
-    "active": true,
-    "code": "All"
-  },
-  "Taschentücher": {
-    "name": "Taschentücher",
-    "id": "060203",
-    "active": true,
-    "code": "All"
-  },
-  "Küchenrollen": {
-    "name": "Küchenrollen",
-    "id": "060202",
-    "active": true,
-    "code": "All"
-  },
-  "Batterien & Akkus": {
-    "name": "Batterien & Akkus",
-    "id": "060600",
-    "active": true,
-    "code": "All"
-  },
-  "Insektizide & Dünger": {
-    "name": "Insektizide & Dünger",
-    "id": "061200",
-    "active": true,
-    "code": "All"
-  },
-  "Home & Living": {
-    "name": "Home & Living",
-    "url": "https://media.dm-static.com/images/{transformations}/v1690448579/products/pim/kategorieContainerHomeAndLiving/1500_x_300_homeAndLiving.jpg",
-    "id": "120000",
-    "active": true,
-    "code": "All"
-  },
-  "Deko Limited Editions": {
-    "name": "Deko Limited Editions",
-    "id": "120100",
-    "active": true,
-    "code": "All"
-  },
-  "Herbstdeko": {
-    "name": "Herbstdeko",
-    "id": "120300",
-    "active": true,
-    "code": "All"
-  },
-  "Weihnachten": {
-    "name": "Weihnachten",
-    "id": "120400",
-    "active": true,
-    "code": "All"
-  },
-  "Adventskalender": {
-    "name": "Adventskalender",
-    "id": "120401",
-    "active": true,
-    "code": "All"
-  },
-  "Weihnachtsdeko": {
-    "name": "Weihnachtsdeko",
-    "id": "120402",
-    "active": true,
-    "code": "All"
-  },
-  "Weihnachtsbaumschmuck": {
-    "name": "Weihnachtsbaumschmuck",
-    "id": "120403",
-    "active": true,
-    "code": "All"
-  },
-  "Silvesterdeko": {
-    "name": "Silvesterdeko",
-    "id": "120500",
-    "active": true,
-    "code": "All"
-  },
-  "Dekoration": {
-    "name": "Dekoration",
-    "id": "120600",
-    "active": true,
-    "code": "All"
-  },
-  "Bilderrahmen": {
-    "name": "Bilderrahmen",
-    "id": "120601",
-    "active": true,
-    "code": "All"
-  },
-  "Vasen & Blumentöpfe": {
-    "name": "Vasen & Blumentöpfe",
-    "id": "120602",
-    "active": true,
-    "code": "All"
-  },
-  "Dekofiguren & -objekte": {
-    "name": "Dekofiguren & -objekte",
-    "id": "120603",
-    "active": true,
-    "code": "All"
-  },
-  "Textilien": {
-    "name": "Textilien",
-    "id": "120604",
-    "active": true,
-    "code": "All"
-  },
-  "Aufbewahrung & Organisation": {
-    "name": "Aufbewahrung & Organisation",
-    "id": "120605",
-    "active": true,
-    "code": "All"
-  },
-  "Tisch & Küche": {
-    "name": "Tisch & Küche",
-    "id": "120700",
-    "active": true,
-    "code": "All"
-  },
-  "Geschirr": {
-    "name": "Geschirr",
-    "id": "120701",
-    "active": true,
-    "code": "All"
-  },
-  "Aufbewahren & To Go": {
-    "name": "Aufbewahren & To Go",
-    "id": "120702",
-    "active": true,
-    "code": "All"
-  },
-  "Servietten": {
-    "name": "Servietten",
-    "id": "120703",
-    "active": true,
-    "code": "All"
-  },
-  "Partyzubehör": {
-    "name": "Partyzubehör",
-    "id": "120704",
-    "active": true,
-    "code": "All"
-  },
-  "Badaccessoires": {
-    "name": "Badaccessoires",
-    "id": "120800",
-    "active": true,
-    "code": "All"
-  },
-  "Seifenspender, Zahnputzbecher & Co.": {
-    "name": "Seifenspender, Zahnputzbecher & Co.",
-    "id": "120801",
-    "active": true,
-    "code": "All"
-  },
-  "Spiegel": {
-    "name": "Spiegel",
-    "id": "120802",
-    "active": true,
-    "code": "All"
-  },
-  "Bad & Make-up Organizer": {
-    "name": "Bad & Make-up Organizer",
-    "id": "120803",
-    "active": true,
-    "code": "All"
-  },
-  "Duschablagen & Duschvorhänge": {
-    "name": "Duschablagen & Duschvorhänge",
-    "id": "120804",
-    "active": true,
-    "code": "All"
-  },
-  "Handtücher & Waschlappen": {
-    "name": "Handtücher & Waschlappen",
-    "id": "120805",
-    "active": true,
-    "code": "All"
-  },
-  "Kerzen & Raumduft": {
-    "name": "Kerzen & Raumduft",
-    "id": "120900",
-    "active": true,
-    "code": "All"
-  },
-  "Lufterfrischer & Raumduft": {
-    "name": "Lufterfrischer & Raumduft",
-    "id": "120901",
-    "active": true,
-    "code": "All"
-  },
-  "Teelichter": {
-    "name": "Teelichter",
-    "id": "120902",
-    "active": true,
-    "code": "All"
-  },
-  "Duftkerzen": {
-    "name": "Duftkerzen",
-    "id": "120903",
-    "active": true,
-    "code": "All"
-  },
-  "Stab- & Stumpenkerzen": {
-    "name": "Stab- & Stumpenkerzen",
-    "id": "120904",
-    "active": true,
-    "code": "All"
-  },
-  "Kerzenhalter": {
-    "name": "Kerzenhalter",
-    "id": "120905",
-    "active": true,
-    "code": "All"
-  },
-  "Grabkerzen & Grablichter": {
-    "name": "Grabkerzen & Grablichter",
-    "id": "120906",
-    "active": true,
-    "code": "All"
-  },
-  "Beleuchtung": {
-    "name": "Beleuchtung",
-    "id": "121000",
-    "active": true,
-    "code": "All"
-  },
-  "Lampen & Lichterketten": {
-    "name": "Lampen & Lichterketten",
-    "id": "121001",
-    "active": true,
-    "code": "All"
-  },
-  "Leuchtmittel & Glühbirnen": {
-    "name": "Leuchtmittel & Glühbirnen",
-    "id": "121002",
-    "active": true,
-    "code": "All"
-  },
-  "Geschenke verpacken & Basteln": {
-    "name": "Geschenke verpacken & Basteln",
-    "id": "121100",
-    "active": true,
-    "code": "All"
-  },
-  "Geschenkverpackungen": {
-    "name": "Geschenkverpackungen",
-    "id": "121101",
-    "active": true,
-    "code": "All"
-  },
-  "Geschenkband & Washi Tape": {
-    "name": "Geschenkband & Washi Tape",
-    "id": "121102",
-    "active": true,
-    "code": "All"
-  },
-  "Geburtstagskarten & Grußkarten": {
-    "name": "Geburtstagskarten & Grußkarten",
-    "id": "121103",
-    "active": true,
-    "code": "All"
-  },
-  "Stifte, Scheren & Schreibwaren": {
-    "name": "Stifte, Scheren & Schreibwaren",
-    "id": "121104",
-    "active": true,
-    "code": "All"
-  },
-  "Klebstoff": {
-    "name": "Klebstoff",
-    "id": "121105",
-    "active": true,
-    "code": "All"
+    "name": "Abschminken"
   },
   "Accessoires": {
-    "name": "Accessoires",
+    "active": true,
+    "code": null,
     "id": "121200",
-    "active": true,
-    "code": "All"
+    "name": "Accessoires"
   },
-  "Schmuck": {
-    "name": "Schmuck",
-    "id": "121201",
+  "Adventskalender": {
     "active": true,
-    "code": "All"
+    "code": null,
+    "id": "120401",
+    "name": "Adventskalender"
   },
-  "Sonnenbrillen": {
-    "name": "Sonnenbrillen",
-    "id": "121202",
+  "After Shave & Rasurpflege": {
     "active": true,
-    "code": "All"
+    "code": null,
+    "id": "020708",
+    "name": "After Shave & Rasurpflege"
   },
-  "Taschen & Rucksäcke": {
-    "name": "Taschen & Rucksäcke",
-    "id": "121203",
+  "After Sun": {
     "active": true,
-    "code": "All"
+    "code": null,
+    "id": "020403",
+    "name": "After Sun"
   },
-  "Kulturbeutel & Kosmetiktaschen": {
-    "name": "Kulturbeutel & Kosmetiktaschen",
-    "id": "121204",
+  "Alles für Locken": {
     "active": true,
-    "code": "All"
+    "code": null,
+    "id": "110800",
+    "name": "Alles für Locken"
   },
-  "Regenschirme": {
-    "name": "Regenschirme",
-    "id": "121205",
+  "Allzweckreiniger": {
     "active": true,
-    "code": "All"
+    "code": null,
+    "id": "060301",
+    "name": "Allzweckreiniger"
   },
-  "Socken, Strumpfhosen & Co.": {
-    "name": "Socken, Strumpfhosen & Co.",
-    "id": "121300",
+  "Alu- & Frischhaltefolie": {
     "active": true,
-    "code": "All"
+    "code": null,
+    "id": "060104",
+    "name": "Alu- & Frischhaltefolie"
   },
-  "Socken & Sportsocken": {
-    "name": "Socken & Sportsocken",
-    "id": "121301",
+  "Ansatzspray & Ansatzprodukte": {
     "active": true,
-    "code": "All"
+    "code": null,
+    "id": "110306",
+    "name": "Ansatzspray & Ansatzprodukte"
   },
-  "Sneakersocken & Füßlinge": {
-    "name": "Sneakersocken & Füßlinge",
-    "id": "121302",
+  "Anti Aging": {
     "active": true,
-    "code": "All"
+    "code": null,
+    "id": "020204",
+    "name": "Anti Aging"
   },
-  "Fein- & Kniestrümpfe": {
-    "name": "Fein- & Kniestrümpfe",
-    "id": "121303",
+  "Anti Cellulite": {
     "active": true,
-    "code": "All"
+    "code": null,
+    "id": "020109",
+    "name": "Anti Cellulite"
   },
-  "Strumpfhosen & Leggings": {
-    "name": "Strumpfhosen & Leggings",
-    "id": "121304",
+  "Anti Pickel & Mitesser": {
     "active": true,
-    "code": "All"
+    "code": null,
+    "id": "020205",
+    "name": "Anti Pickel & Mitesser"
   },
-  "Stützstrumpfhosen & Stützstrümpfe": {
-    "name": "Stützstrumpfhosen & Stützstrümpfe",
-    "id": "121305",
+  "Anzünder, Waschbenzin & Co.": {
     "active": true,
-    "code": "All"
+    "code": null,
+    "id": "060101",
+    "name": "Anzünder, Waschbenzin & Co."
   },
-  "Strumpfhosen große Größen": {
-    "name": "Strumpfhosen große Größen",
-    "id": "121306",
+  "Aufbewahren & To Go": {
     "active": true,
-    "code": "All"
+    "code": null,
+    "id": "120702",
+    "name": "Aufbewahren & To Go"
   },
-  "Shapewear": {
-    "name": "Shapewear",
-    "id": "121307",
+  "Aufbewahrung & Organisation": {
     "active": true,
-    "code": "All"
+    "code": null,
+    "id": "120605",
+    "name": "Aufbewahrung & Organisation"
   },
-  "Tier": {
-    "name": "Tier",
-    "url": "https://media.dm-static.com/images/{transformations}/v1674821902/products/pim/kategorieContainerTier/1500_x_300_tier.jpg",
-    "id": "070000",
+  "Aufheller & Blondierungen": {
     "active": true,
-    "code": "All"
+    "code": null,
+    "id": "110303",
+    "name": "Aufheller & Blondierungen"
   },
-  "Katze": {
-    "name": "Katze",
-    "id": "070100",
+  "Aufsteckbürsten & Wechselköpfe": {
     "active": true,
-    "code": "All"
+    "code": null,
+    "id": "030613",
+    "name": "Aufsteckbürsten & Wechselköpfe"
   },
-  "Trockenfutter Katze": {
-    "name": "Trockenfutter Katze",
-    "id": "070101",
+  "Augen": {
     "active": true,
-    "code": "All"
+    "code": null,
+    "id": "010100",
+    "name": "Augen"
   },
-  "Nassfutter Katze": {
-    "name": "Nassfutter Katze",
-    "id": "070102",
+  "Augen Primer & Base": {
     "active": true,
-    "code": "All"
+    "code": null,
+    "id": "010109",
+    "name": "Augen Primer & Base"
   },
-  "Snacks für Katzen": {
-    "name": "Snacks für Katzen",
-    "id": "070103",
+  "Augenbrauen": {
     "active": true,
-    "code": "All"
+    "code": null,
+    "id": "010105",
+    "name": "Augenbrauen"
   },
-  "Katzenstreu": {
-    "name": "Katzenstreu",
-    "id": "070104",
+  "Augencreme & Co.": {
     "active": true,
-    "code": "All"
+    "code": null,
+    "id": "020209",
+    "name": "Augencreme & Co."
   },
-  "Katzenspielzeug & Zubehör": {
-    "name": "Katzenspielzeug & Zubehör",
-    "id": "070105",
+  "Ausstattung für Baby & Kind": {
     "active": true,
-    "code": "All"
+    "code": null,
+    "id": "050700",
+    "name": "Ausstattung für Baby & Kind"
   },
-  "Nahrungsergänzung & Diätfutter Katze": {
-    "name": "Nahrungsergänzung & Diätfutter Katze",
-    "id": "070106",
+  "BB-Cream & CC-Cream": {
     "active": true,
-    "code": "All"
+    "code": null,
+    "id": "010202",
+    "name": "BB-Cream & CC-Cream"
   },
-  "Hund": {
-    "name": "Hund",
-    "id": "070200",
+  "Baby & Kind": {
     "active": true,
-    "code": "All"
+    "code": null,
+    "id": "050000",
+    "name": "Baby & Kind",
+    "url": "https://media.dm-static.com/images/{transformations}/v1675439168/products/pim/kategorieContainerBabyUndKind/1500_x_300_baby-n-kind.jpg"
   },
-  "Trockenfutter Hund": {
-    "name": "Trockenfutter Hund",
-    "id": "070201",
+  "Baby Bodies & Strampler": {
     "active": true,
-    "code": "All"
+    "code": null,
+    "id": "053100",
+    "name": "Baby Bodies & Strampler"
   },
-  "Nassfutter Hund": {
-    "name": "Nassfutter Hund",
-    "id": "070202",
+  "Babybrei": {
     "active": true,
-    "code": "All"
+    "code": null,
+    "id": "050503",
+    "name": "Babybrei"
   },
-  "Leckerlis für Hunde": {
-    "name": "Leckerlis für Hunde",
-    "id": "070203",
+  "Babybücher": {
     "active": true,
-    "code": "All"
+    "code": null,
+    "id": "050904",
+    "name": "Babybücher"
   },
-  "Nahrungsergänzung & Diätfutter Hund": {
-    "name": "Nahrungsergänzung & Diätfutter Hund",
-    "id": "070205",
+  "Babydecken & Co.": {
     "active": true,
-    "code": "All"
+    "code": null,
+    "id": "050715",
+    "name": "Babydecken & Co."
   },
-  "Hundepflege": {
-    "name": "Hundepflege",
-    "id": "070206",
+  "Babyflaschen & Kinderflaschen": {
     "active": true,
-    "code": "All"
+    "code": null,
+    "id": "050601",
+    "name": "Babyflaschen & Kinderflaschen"
   },
-  "Hundespielzeug & Zubehör": {
-    "name": "Hundespielzeug & Zubehör",
-    "id": "070204",
+  "Babygläschen & Co.": {
     "active": true,
-    "code": "All"
+    "code": null,
+    "id": "050501",
+    "name": "Babygläschen & Co."
   },
-  "Nagetiere": {
-    "name": "Nagetiere",
-    "id": "070300",
+  "Babymilch": {
     "active": true,
-    "code": "All"
+    "code": null,
+    "id": "050502",
+    "name": "Babymilch"
   },
-  "Futter": {
-    "name": "Futter",
-    "id": "070301",
+  "Babynahrung & Getränke": {
     "active": true,
-    "code": "All"
+    "code": null,
+    "id": "050500",
+    "name": "Babynahrung & Getränke"
   },
-  "Snacks für Nagetiere": {
-    "name": "Snacks für Nagetiere",
-    "id": "070302",
+  "Babynahrungszubereitung": {
     "active": true,
-    "code": "All"
+    "code": null,
+    "id": "050709",
+    "name": "Babynahrungszubereitung"
+  },
+  "Babypflege": {
+    "active": true,
+    "code": null,
+    "id": "050400",
+    "name": "Babypflege"
+  },
+  "Babypflege Zubehör": {
+    "active": true,
+    "code": null,
+    "id": "050705",
+    "name": "Babypflege Zubehör"
+  },
+  "Babyphones": {
+    "active": true,
+    "code": null,
+    "id": "050710",
+    "name": "Babyphones"
+  },
+  "Babypuder & Wundschutzcreme": {
+    "active": true,
+    "code": null,
+    "id": "050403",
+    "name": "Babypuder & Wundschutzcreme"
+  },
+  "Babyschuhe": {
+    "active": true,
+    "code": null,
+    "id": "053920",
+    "name": "Babyschuhe"
+  },
+  "Babyshampoo, Badezusätze & Co.": {
+    "active": true,
+    "code": null,
+    "id": "050402",
+    "name": "Babyshampoo, Badezusätze & Co."
+  },
+  "Babyöl & Babycreme": {
+    "active": true,
+    "code": null,
+    "id": "050404",
+    "name": "Babyöl & Babycreme"
+  },
+  "Backen": {
+    "active": true,
+    "code": null,
+    "id": "041600",
+    "name": "Backen"
+  },
+  "Backen & Kochen": {
+    "active": true,
+    "code": null,
+    "id": "060105",
+    "name": "Backen & Kochen"
+  },
+  "Backmischungen": {
+    "active": true,
+    "code": null,
+    "id": "041606",
+    "name": "Backmischungen"
+  },
+  "Backzutaten": {
+    "active": true,
+    "code": null,
+    "id": "041601",
+    "name": "Backzutaten"
+  },
+  "Bad & Make-up Organizer": {
+    "active": true,
+    "code": null,
+    "id": "120803",
+    "name": "Bad & Make-up Organizer"
+  },
+  "Bad- & Kalkreiniger": {
+    "active": true,
+    "code": null,
+    "id": "060302",
+    "name": "Bad- & Kalkreiniger"
+  },
+  "Badaccessoires": {
+    "active": true,
+    "code": null,
+    "id": "120800",
+    "name": "Badaccessoires"
+  },
+  "Badezubehör für Baby & Kind": {
+    "active": true,
+    "code": null,
+    "id": "050704",
+    "name": "Badezubehör für Baby & Kind"
+  },
+  "Badezusatz & Badesalz": {
+    "active": true,
+    "code": null,
+    "id": "020101",
+    "name": "Badezusatz & Badesalz"
+  },
+  "Bandagen & Tape": {
+    "active": true,
+    "code": null,
+    "id": "031200",
+    "name": "Bandagen & Tape"
+  },
+  "Bartpflege": {
+    "active": true,
+    "code": null,
+    "id": "021407",
+    "name": "Bartpflege"
+  },
+  "Bartstyling": {
+    "active": true,
+    "code": null,
+    "id": "021408",
+    "name": "Bartstyling"
+  },
+  "Batterien & Akkus": {
+    "active": true,
+    "code": null,
+    "id": "060600",
+    "name": "Batterien & Akkus"
+  },
+  "Beautyhelfer": {
+    "active": true,
+    "code": null,
+    "id": "010607",
+    "name": "Beautyhelfer"
+  },
+  "Beilagen": {
+    "active": true,
+    "code": null,
+    "id": "042300",
+    "name": "Beilagen"
+  },
+  "Beleuchtung": {
+    "active": true,
+    "code": null,
+    "id": "121000",
+    "name": "Beleuchtung"
+  },
+  "Besen, Toilettenbürste & Co.": {
+    "active": true,
+    "code": null,
+    "id": "060310",
+    "name": "Besen, Toilettenbürste & Co."
+  },
+  "Bilderrahmen": {
+    "active": true,
+    "code": null,
+    "id": "120601",
+    "name": "Bilderrahmen"
+  },
+  "Binden": {
+    "active": true,
+    "code": null,
+    "id": "020802",
+    "name": "Binden"
+  },
+  "Blasenpflaster & Druckstellen": {
+    "active": true,
+    "code": null,
+    "id": "021906",
+    "name": "Blasenpflaster & Druckstellen"
+  },
+  "Blasenschwäche / Inkontinenz": {
+    "active": true,
+    "code": null,
+    "id": "020805",
+    "name": "Blasenschwäche / Inkontinenz"
+  },
+  "Bleaching": {
+    "active": true,
+    "code": null,
+    "id": "030612",
+    "name": "Bleaching"
+  },
+  "Blutdruckmessgeräte": {
+    "active": true,
+    "code": null,
+    "id": "030706",
+    "name": "Blutdruckmessgeräte"
+  },
+  "Blutzuckermessgeräte & Zubehör": {
+    "active": true,
+    "code": null,
+    "id": "030705",
+    "name": "Blutzuckermessgeräte & Zubehör"
+  },
+  "Bodenreiniger": {
+    "active": true,
+    "code": null,
+    "id": "060305",
+    "name": "Bodenreiniger"
+  },
+  "Bodenwischer": {
+    "active": true,
+    "code": null,
+    "id": "060312",
+    "name": "Bodenwischer"
+  },
+  "Bodylotion & Hautcreme": {
+    "active": true,
+    "code": null,
+    "id": "020102",
+    "name": "Bodylotion & Hautcreme"
+  },
+  "Bonbons & Fruchtgummi": {
+    "active": true,
+    "code": null,
+    "id": "041505",
+    "name": "Bonbons & Fruchtgummi"
+  },
+  "Brillenetui & Brillenputztuch": {
+    "active": true,
+    "code": null,
+    "id": "031105",
+    "name": "Brillenetui & Brillenputztuch"
+  },
+  "Bronzing": {
+    "active": true,
+    "code": null,
+    "id": "010206",
+    "name": "Bronzing"
+  },
+  "Brot & Brötchen": {
+    "active": true,
+    "code": null,
+    "id": "041204",
+    "name": "Brot & Brötchen"
+  },
+  "Bulgur, Quinoa & Co.": {
+    "active": true,
+    "code": null,
+    "id": "042303",
+    "name": "Bulgur, Quinoa & Co."
+  },
+  "Calcium": {
+    "active": true,
+    "code": null,
+    "id": "030201",
+    "name": "Calcium"
+  },
+  "Colour Correcting": {
+    "active": true,
+    "code": null,
+    "id": "010212",
+    "name": "Colour Correcting"
+  },
+  "Concealer & Abdeckstift": {
+    "active": true,
+    "code": null,
+    "id": "010203",
+    "name": "Concealer & Abdeckstift"
+  },
+  "Conditioner": {
+    "active": true,
+    "code": null,
+    "id": "110102",
+    "name": "Conditioner"
+  },
+  "Contouring": {
+    "active": true,
+    "code": null,
+    "id": "010211",
+    "name": "Contouring"
+  },
+  "Corona Schnell- & Antikörpertest": {
+    "active": true,
+    "code": null,
+    "id": "031500",
+    "name": "Corona Schnell- & Antikörpertest"
+  },
+  "Damen Parfum": {
+    "active": true,
+    "code": null,
+    "id": "020301",
+    "name": "Damen Parfum"
+  },
+  "Dauerhafte Haarfarben": {
+    "active": true,
+    "code": null,
+    "id": "110302",
+    "name": "Dauerhafte Haarfarben"
+  },
+  "Deko Limited Editions": {
+    "active": true,
+    "code": null,
+    "id": "120100",
+    "name": "Deko Limited Editions"
+  },
+  "Dekofiguren & -objekte": {
+    "active": true,
+    "code": null,
+    "id": "120603",
+    "name": "Dekofiguren & -objekte"
+  },
+  "Dekoration": {
+    "active": true,
+    "code": null,
+    "id": "120600",
+    "name": "Dekoration"
+  },
+  "Deo": {
+    "active": true,
+    "code": null,
+    "id": "021405",
+    "name": "Deo"
+  },
+  "Desinfektionssprays & Desinfektionstücher": {
+    "active": true,
+    "code": null,
+    "id": "060306",
+    "name": "Desinfektionssprays & Desinfektionstücher"
+  },
+  "Duftkerzen": {
+    "active": true,
+    "code": null,
+    "id": "120903",
+    "name": "Duftkerzen"
+  },
+  "Duschablagen & Duschvorhänge": {
+    "active": true,
+    "code": null,
+    "id": "120804",
+    "name": "Duschablagen & Duschvorhänge"
+  },
+  "Duschen": {
+    "active": true,
+    "code": null,
+    "id": "021406",
+    "name": "Duschen"
+  },
+  "Duschgel, Duschschaum & Co.": {
+    "active": true,
+    "code": null,
+    "id": "020108",
+    "name": "Duschgel, Duschschaum & Co."
+  },
+  "Einlegesohlen": {
+    "active": true,
+    "code": null,
+    "id": "021907",
+    "name": "Einlegesohlen"
   },
   "Einstreu": {
-    "name": "Einstreu",
+    "active": true,
+    "code": null,
     "id": "070303",
-    "active": true,
-    "code": "All"
-  },
-  "Vogel": {
-    "name": "Vogel",
-    "id": "070400",
-    "active": true,
-    "code": "All"
-  },
-  "Vogelfutter": {
-    "name": "Vogelfutter",
-    "id": "070401",
-    "active": true,
-    "code": "All"
-  },
-  "Vogelzubehör": {
-    "name": "Vogelzubehör",
-    "id": "070405",
-    "active": true,
-    "code": "All"
-  },
-  "Schutz vor Zecken & Ungeziefer": {
-    "name": "Schutz vor Zecken & Ungeziefer",
-    "id": "070500",
-    "active": true,
-    "code": "All"
-  },
-  "Foto": {
-    "name": "Foto",
-    "url": "https://media.dm-static.com/images/{transformations}/v1674821837/products/pim/kategorieContainerFoto/1500_x_300_foto.jpg",
-    "id": "100000",
-    "active": true,
-    "code": "All"
-  },
-  "Fotozubehör": {
-    "name": "Fotozubehör",
-    "id": "100300",
-    "active": true,
-    "code": "All"
-  },
-  "Kreative Fotoideen": {
-    "name": "Kreative Fotoideen",
-    "id": "100303",
-    "active": true,
-    "code": "All"
-  },
-  "Fotoalben & Sticker": {
-    "name": "Fotoalben & Sticker",
-    "id": "100302",
-    "active": true,
-    "code": "All"
-  },
-  "USB-Sticks, Ladekabel & Co.": {
-    "name": "USB-Sticks, Ladekabel & Co.",
-    "id": "100304",
-    "active": true,
-    "code": "All"
+    "name": "Einstreu"
   },
   "Einwegkameras & analoge Filme": {
-    "name": "Einwegkameras & analoge Filme",
-    "id": "100305",
     "active": true,
-    "code": "All"
+    "code": null,
+    "id": "100305",
+    "name": "Einwegkameras & analoge Filme"
+  },
+  "Eisen": {
+    "active": true,
+    "code": null,
+    "id": "030204",
+    "name": "Eisen"
+  },
+  "Elektrische Zahnbürste": {
+    "active": true,
+    "code": null,
+    "id": "030603",
+    "name": "Elektrische Zahnbürste"
+  },
+  "Elektrorasierer": {
+    "active": true,
+    "code": null,
+    "id": "020711",
+    "name": "Elektrorasierer"
+  },
+  "Elternratgeber": {
+    "active": true,
+    "code": null,
+    "id": "050910",
+    "name": "Elternratgeber"
+  },
+  "Energie-Produkte": {
+    "active": true,
+    "code": null,
+    "id": "040701",
+    "name": "Energie-Produkte"
+  },
+  "Enthaarungscreme & Waxing": {
+    "active": true,
+    "code": null,
+    "id": "020706",
+    "name": "Enthaarungscreme & Waxing"
+  },
+  "Epilierer & IPL-Haarentferner": {
+    "active": true,
+    "code": null,
+    "id": "020704",
+    "name": "Epilierer & IPL-Haarentferner"
+  },
+  "Erfrischung": {
+    "active": true,
+    "code": null,
+    "id": "041305",
+    "name": "Erfrischung"
+  },
+  "Erkältung": {
+    "active": true,
+    "code": null,
+    "id": "030100",
+    "name": "Erkältung"
+  },
+  "Ernährung": {
+    "active": true,
+    "code": null,
+    "id": "040000",
+    "name": "Ernährung",
+    "url": "https://media.dm-static.com/images/{transformations}/v1674821825/products/pim/kategorieContainerErnaehrung/1500_x_300_ernaehrung.jpg"
+  },
+  "Ernährung in Schwangerschaft & Stillzeit": {
+    "active": true,
+    "code": null,
+    "id": "050806",
+    "name": "Ernährung in Schwangerschaft & Stillzeit"
+  },
+  "Essig & Öl": {
+    "active": true,
+    "code": null,
+    "id": "041701",
+    "name": "Essig & Öl"
+  },
+  "Eyeliner & Kajal": {
+    "active": true,
+    "code": null,
+    "id": "010104",
+    "name": "Eyeliner & Kajal"
+  },
+  "Fein- & Kniestrümpfe": {
+    "active": true,
+    "code": null,
+    "id": "121303",
+    "name": "Fein- & Kniestrümpfe"
+  },
+  "Fertiggerichte & Konserven": {
+    "active": true,
+    "code": null,
+    "id": "042400",
+    "name": "Fertiggerichte & Konserven"
+  },
+  "Feste Seife": {
+    "active": true,
+    "code": null,
+    "id": "021804",
+    "name": "Feste Seife"
+  },
+  "Feuchttücher & Co.": {
+    "active": true,
+    "code": null,
+    "id": "050401",
+    "name": "Feuchttücher & Co."
+  },
+  "Fieberthermometer": {
+    "active": true,
+    "code": null,
+    "id": "030108",
+    "name": "Fieberthermometer"
+  },
+  "Fleckenentferner": {
+    "active": true,
+    "code": null,
+    "id": "060504",
+    "name": "Fleckenentferner"
+  },
+  "Flocken & Flakes": {
+    "active": true,
+    "code": null,
+    "id": "041202",
+    "name": "Flocken & Flakes"
+  },
+  "Fläschchen & Schnuller": {
+    "active": true,
+    "code": null,
+    "id": "050600",
+    "name": "Fläschchen & Schnuller"
+  },
+  "Flüssigseife": {
+    "active": true,
+    "code": null,
+    "id": "021803",
+    "name": "Flüssigseife"
+  },
+  "Foto": {
+    "active": true,
+    "code": null,
+    "id": "100000",
+    "name": "Foto",
+    "url": "https://media.dm-static.com/images/{transformations}/v1674821837/products/pim/kategorieContainerFoto/1500_x_300_foto.jpg"
+  },
+  "Fotoalben & Sticker": {
+    "active": true,
+    "code": null,
+    "id": "100302",
+    "name": "Fotoalben & Sticker"
+  },
+  "Fotozubehör": {
+    "active": true,
+    "code": null,
+    "id": "100300",
+    "name": "Fotozubehör"
+  },
+  "Fruchtmark & Obstkonserven": {
+    "active": true,
+    "code": null,
+    "id": "041605",
+    "name": "Fruchtmark & Obstkonserven"
+  },
+  "Fruchtsäfte": {
+    "active": true,
+    "code": null,
+    "id": "041308",
+    "name": "Fruchtsäfte"
+  },
+  "Frühchen": {
+    "active": true,
+    "code": null,
+    "id": "054000",
+    "name": "Frühchen"
+  },
+  "Frühstück": {
+    "active": true,
+    "code": null,
+    "id": "041200",
+    "name": "Frühstück"
+  },
+  "Futter": {
+    "active": true,
+    "code": null,
+    "id": "070301",
+    "name": "Futter"
+  },
+  "Fußbad": {
+    "active": true,
+    "code": null,
+    "id": "021903",
+    "name": "Fußbad"
+  },
+  "Fußcreme & Fußpflege": {
+    "active": true,
+    "code": null,
+    "id": "021900",
+    "name": "Fußcreme & Fußpflege"
+  },
+  "Fußcreme & Schrundensalbe": {
+    "active": true,
+    "code": null,
+    "id": "021901",
+    "name": "Fußcreme & Schrundensalbe"
+  },
+  "Fußmasken": {
+    "active": true,
+    "code": null,
+    "id": "021902",
+    "name": "Fußmasken"
+  },
+  "Föhn, Glätteisen, Lockenstab & Co.": {
+    "active": true,
+    "code": null,
+    "id": "110900",
+    "name": "Föhn, Glätteisen, Lockenstab & Co."
+  },
+  "Für die Mama": {
+    "active": true,
+    "code": null,
+    "id": "050800",
+    "name": "Für die Mama"
+  },
+  "Geburtstagskarten & Grußkarten": {
+    "active": true,
+    "code": null,
+    "id": "121103",
+    "name": "Geburtstagskarten & Grußkarten"
+  },
+  "Gedächtnis & Konzentration": {
+    "active": true,
+    "code": null,
+    "id": "030506",
+    "name": "Gedächtnis & Konzentration"
+  },
+  "Gefrierbeutel": {
+    "active": true,
+    "code": null,
+    "id": "060107",
+    "name": "Gefrierbeutel"
+  },
+  "Gemüsesäfte & Ingwershots": {
+    "active": true,
+    "code": null,
+    "id": "041309",
+    "name": "Gemüsesäfte & Ingwershots"
+  },
+  "Geschenkband & Washi Tape": {
+    "active": true,
+    "code": null,
+    "id": "121102",
+    "name": "Geschenkband & Washi Tape"
+  },
+  "Geschenke verpacken & Basteln": {
+    "active": true,
+    "code": null,
+    "id": "121100",
+    "name": "Geschenke verpacken & Basteln"
+  },
+  "Geschenksets": {
+    "active": true,
+    "code": null,
+    "id": "022000",
+    "name": "Geschenksets"
+  },
+  "Geschenkverpackungen": {
+    "active": true,
+    "code": null,
+    "id": "121101",
+    "name": "Geschenkverpackungen"
+  },
+  "Geschirr": {
+    "active": true,
+    "code": null,
+    "id": "120701",
+    "name": "Geschirr"
+  },
+  "Geschirrspülmittel, -Tabs, -Salz & Co.": {
+    "active": true,
+    "code": null,
+    "id": "060402",
+    "name": "Geschirrspülmittel, -Tabs, -Salz & Co."
+  },
+  "Gesicht": {
+    "active": true,
+    "code": null,
+    "id": "021401",
+    "name": "Gesicht"
+  },
+  "Gesichtsmaske": {
+    "active": true,
+    "code": null,
+    "id": "020207",
+    "name": "Gesichtsmaske"
+  },
+  "Gesichtsreinigung": {
+    "active": true,
+    "code": null,
+    "id": "020201",
+    "name": "Gesichtsreinigung"
+  },
+  "Gesichtsreinigungsbürste & Co.": {
+    "active": true,
+    "code": null,
+    "id": "020210",
+    "name": "Gesichtsreinigungsbürste & Co."
+  },
+  "Gesichtsroller": {
+    "active": true,
+    "code": null,
+    "id": "020212",
+    "name": "Gesichtsroller"
+  },
+  "Gesundheit": {
+    "active": true,
+    "code": null,
+    "id": "030000",
+    "name": "Gesundheit",
+    "url": "https://media.dm-static.com/images/{transformations}/v1674821842/products/pim/kategorieContainerGesundheit/1500_x_300_gesundheit.jpg"
+  },
+  "Getreide": {
+    "active": true,
+    "code": null,
+    "id": "041607",
+    "name": "Getreide"
+  },
+  "Getränke": {
+    "active": true,
+    "code": null,
+    "id": "041300",
+    "name": "Getränke"
+  },
+  "Getränke für Kinder": {
+    "active": true,
+    "code": null,
+    "id": "050506",
+    "name": "Getränke für Kinder"
+  },
+  "Gewürze": {
+    "active": true,
+    "code": null,
+    "id": "041708",
+    "name": "Gewürze"
+  },
+  "Glasreiniger": {
+    "active": true,
+    "code": null,
+    "id": "060303",
+    "name": "Glasreiniger"
+  },
+  "Gleitgel": {
+    "active": true,
+    "code": null,
+    "id": "030802",
+    "name": "Gleitgel"
+  },
+  "Glitzer & Glitter": {
+    "active": true,
+    "code": null,
+    "id": "010408",
+    "name": "Glitzer & Glitter"
+  },
+  "Grabkerzen & Grablichter": {
+    "active": true,
+    "code": null,
+    "id": "120906",
+    "name": "Grabkerzen & Grablichter"
+  },
+  "Haar-Accessoires": {
+    "active": true,
+    "code": null,
+    "id": "110400",
+    "name": "Haar-Accessoires"
+  },
+  "Haarbürsten & Kämme": {
+    "active": true,
+    "code": null,
+    "id": "110700",
+    "name": "Haarbürsten & Kämme"
+  },
+  "Haare": {
+    "active": true,
+    "code": null,
+    "id": "110000",
+    "name": "Haare",
+    "url": "https://media.dm-static.com/images/{transformations}/v1674821847/products/pim/kategorieContainerHaare/1500_x_300_haare.jpg"
+  },
+  "Haarentfernung & Rasur": {
+    "active": true,
+    "code": null,
+    "id": "020700",
+    "name": "Haarentfernung & Rasur"
+  },
+  "Haarfarbe": {
+    "active": true,
+    "code": null,
+    "id": "110603",
+    "name": "Haarfarbe"
+  },
+  "Haarfarben": {
+    "active": true,
+    "code": null,
+    "id": "110300",
+    "name": "Haarfarben"
+  },
+  "Haargel & Haarwachs": {
+    "active": true,
+    "code": null,
+    "id": "110203",
+    "name": "Haargel & Haarwachs"
+  },
+  "Haargummi": {
+    "active": true,
+    "code": null,
+    "id": "110405",
+    "name": "Haargummi"
+  },
+  "Haarkur": {
+    "active": true,
+    "code": null,
+    "id": "110103",
+    "name": "Haarkur"
+  },
+  "Haarparfum & Haarpuder": {
+    "active": true,
+    "code": null,
+    "id": "110206",
+    "name": "Haarparfum & Haarpuder"
+  },
+  "Haarpflege": {
+    "active": true,
+    "code": null,
+    "id": "110601",
+    "name": "Haarpflege"
+  },
+  "Haarprodukte für Männer": {
+    "active": true,
+    "code": null,
+    "id": "110600",
+    "name": "Haarprodukte für Männer"
+  },
+  "Haarschmuck, Accessoires & Co.": {
+    "active": true,
+    "code": null,
+    "id": "110402",
+    "name": "Haarschmuck, Accessoires & Co."
+  },
+  "Haarseife, festes Shampoo & Conditioner": {
+    "active": true,
+    "code": null,
+    "id": "110106",
+    "name": "Haarseife, festes Shampoo & Conditioner"
+  },
+  "Haarspangen": {
+    "active": true,
+    "code": null,
+    "id": "110406",
+    "name": "Haarspangen"
+  },
+  "Haarspray & Haarlack": {
+    "active": true,
+    "code": null,
+    "id": "110201",
+    "name": "Haarspray & Haarlack"
+  },
+  "Haarstyling": {
+    "active": true,
+    "code": null,
+    "id": "110602",
+    "name": "Haarstyling"
+  },
+  "Haartönung": {
+    "active": true,
+    "code": null,
+    "id": "110301",
+    "name": "Haartönung"
+  },
+  "Haaröl": {
+    "active": true,
+    "code": null,
+    "id": "110105",
+    "name": "Haaröl"
+  },
+  "Haftcreme & Gebissreiniger": {
+    "active": true,
+    "code": null,
+    "id": "030604",
+    "name": "Haftcreme & Gebissreiniger"
+  },
+  "Halsschmerzen & Schluckbeschwerden": {
+    "active": true,
+    "code": null,
+    "id": "030102",
+    "name": "Halsschmerzen & Schluckbeschwerden"
+  },
+  "Handcreme & Handmasken": {
+    "active": true,
+    "code": null,
+    "id": "021801",
+    "name": "Handcreme & Handmasken"
+  },
+  "Handpflege & Seife": {
+    "active": true,
+    "code": null,
+    "id": "021800",
+    "name": "Handpflege & Seife"
+  },
+  "Handtücher & Waschlappen": {
+    "active": true,
+    "code": null,
+    "id": "120805",
+    "name": "Handtücher & Waschlappen"
+  },
+  "Hausapotheke & Wundversorgung": {
+    "active": true,
+    "code": null,
+    "id": "030700",
+    "name": "Hausapotheke & Wundversorgung"
+  },
+  "Haushalt": {
+    "active": true,
+    "code": null,
+    "id": "060000",
+    "name": "Haushalt",
+    "url": "https://media.dm-static.com/images/{transformations}/v1674821852/products/pim/kategorieContainerHaushalt/1500_x_300_haushalt.jpg"
+  },
+  "Haushaltsartikel": {
+    "active": true,
+    "code": null,
+    "id": "060100",
+    "name": "Haushaltsartikel"
+  },
+  "Haushaltshandschuhe": {
+    "active": true,
+    "code": null,
+    "id": "060114",
+    "name": "Haushaltshandschuhe"
+  },
+  "Haushaltspapier": {
+    "active": true,
+    "code": null,
+    "id": "060200",
+    "name": "Haushaltspapier"
+  },
+  "Herbstdeko": {
+    "active": true,
+    "code": null,
+    "id": "120300",
+    "name": "Herbstdeko"
+  },
+  "Herren Parfum": {
+    "active": true,
+    "code": null,
+    "id": "020302",
+    "name": "Herren Parfum"
+  },
+  "Herrendüfte": {
+    "active": true,
+    "code": null,
+    "id": "021403",
+    "name": "Herrendüfte"
+  },
+  "Herz, Kreislauf & Cholesterin": {
+    "active": true,
+    "code": null,
+    "id": "030503",
+    "name": "Herz, Kreislauf & Cholesterin"
+  },
+  "Herzhafte Brotaufstriche": {
+    "active": true,
+    "code": null,
+    "id": "041205",
+    "name": "Herzhafte Brotaufstriche"
+  },
+  "Highlighter": {
+    "active": true,
+    "code": null,
+    "id": "010209",
+    "name": "Highlighter"
+  },
+  "Hilfe bei Fußpilz, Warzen & Co.": {
+    "active": true,
+    "code": null,
+    "id": "021905",
+    "name": "Hilfe bei Fußpilz, Warzen & Co."
+  },
+  "Hitzeschutzspray & Co.": {
+    "active": true,
+    "code": null,
+    "id": "110205",
+    "name": "Hitzeschutzspray & Co."
+  },
+  "Home & Living": {
+    "active": true,
+    "code": null,
+    "id": "120000",
+    "name": "Home & Living",
+    "url": "https://media.dm-static.com/images/{transformations}/v1690448579/products/pim/kategorieContainerHomeAndLiving/1500_x_300_homeAndLiving.jpg"
+  },
+  "Hornhaut": {
+    "active": true,
+    "code": null,
+    "id": "021904",
+    "name": "Hornhaut"
+  },
+  "Hund": {
+    "active": true,
+    "code": null,
+    "id": "070200",
+    "name": "Hund"
+  },
+  "Hundepflege": {
+    "active": true,
+    "code": null,
+    "id": "070206",
+    "name": "Hundepflege"
+  },
+  "Hundespielzeug & Zubehör": {
+    "active": true,
+    "code": null,
+    "id": "070204",
+    "name": "Hundespielzeug & Zubehör"
+  },
+  "Husten": {
+    "active": true,
+    "code": null,
+    "id": "030105",
+    "name": "Husten"
+  },
+  "Händedesinfektion": {
+    "active": true,
+    "code": null,
+    "id": "021802",
+    "name": "Händedesinfektion"
+  },
+  "Immunsystem stärken": {
+    "active": true,
+    "code": null,
+    "id": "030101",
+    "name": "Immunsystem stärken"
+  },
+  "Inhalationsgeräte & Zubehör": {
+    "active": true,
+    "code": null,
+    "id": "030107",
+    "name": "Inhalationsgeräte & Zubehör"
+  },
+  "Insektizide & Dünger": {
+    "active": true,
+    "code": null,
+    "id": "061200",
+    "name": "Insektizide & Dünger"
+  },
+  "Interdentalbürsten & Zahnseide": {
+    "active": true,
+    "code": null,
+    "id": "030606",
+    "name": "Interdentalbürsten & Zahnseide"
+  },
+  "Intimpflege": {
+    "active": true,
+    "code": null,
+    "id": "020804",
+    "name": "Intimpflege"
+  },
+  "Kaffee & Kaffeeersatz": {
+    "active": true,
+    "code": null,
+    "id": "042201",
+    "name": "Kaffee & Kaffeeersatz"
+  },
+  "Kaffee, Tee & Kakao": {
+    "active": true,
+    "code": null,
+    "id": "042200",
+    "name": "Kaffee, Tee & Kakao"
+  },
+  "Katze": {
+    "active": true,
+    "code": null,
+    "id": "070100",
+    "name": "Katze"
+  },
+  "Katzenspielzeug & Zubehör": {
+    "active": true,
+    "code": null,
+    "id": "070105",
+    "name": "Katzenspielzeug & Zubehör"
+  },
+  "Katzenstreu": {
+    "active": true,
+    "code": null,
+    "id": "070104",
+    "name": "Katzenstreu"
+  },
+  "Kaugummi": {
+    "active": true,
+    "code": null,
+    "id": "041506",
+    "name": "Kaugummi"
+  },
+  "Kekse, Waffeln & Cookies": {
+    "active": true,
+    "code": null,
+    "id": "041503",
+    "name": "Kekse, Waffeln & Cookies"
+  },
+  "Kerzen & Raumduft": {
+    "active": true,
+    "code": null,
+    "id": "120900",
+    "name": "Kerzen & Raumduft"
+  },
+  "Kerzenhalter": {
+    "active": true,
+    "code": null,
+    "id": "120905",
+    "name": "Kerzenhalter"
+  },
+  "Kinder Outdoor- & Regenbekleidung": {
+    "active": true,
+    "code": null,
+    "id": "053930",
+    "name": "Kinder Outdoor- & Regenbekleidung"
+  },
+  "Kinderbademode": {
+    "active": true,
+    "code": null,
+    "id": "053950",
+    "name": "Kinderbademode"
+  },
+  "Kinderbesteck, Geschirr & Lätzchen": {
+    "active": true,
+    "code": null,
+    "id": "050706",
+    "name": "Kinderbesteck, Geschirr & Lätzchen"
+  },
+  "Kinderbücher & Ratgeber": {
+    "active": true,
+    "code": null,
+    "id": "050900",
+    "name": "Kinderbücher & Ratgeber"
+  },
+  "Kinderbücher ab 2 Jahre": {
+    "active": true,
+    "code": null,
+    "id": "050905",
+    "name": "Kinderbücher ab 2 Jahre"
+  },
+  "Kinderbücher ab 3 Jahre": {
+    "active": true,
+    "code": null,
+    "id": "050906",
+    "name": "Kinderbücher ab 3 Jahre"
+  },
+  "Kinderbücher ab 4 Jahre": {
+    "active": true,
+    "code": null,
+    "id": "050907",
+    "name": "Kinderbücher ab 4 Jahre"
+  },
+  "Kinderbücher ab 5 Jahre": {
+    "active": true,
+    "code": null,
+    "id": "050911",
+    "name": "Kinderbücher ab 5 Jahre"
+  },
+  "Kinderhandschuhe, -mützen & -schals": {
+    "active": true,
+    "code": null,
+    "id": "053200",
+    "name": "Kinderhandschuhe, -mützen & -schals"
+  },
+  "Kinderhosen": {
+    "active": true,
+    "code": null,
+    "id": "053300",
+    "name": "Kinderhosen"
+  },
+  "Kinderkleidung": {
+    "active": true,
+    "code": null,
+    "id": "053000",
+    "name": "Kinderkleidung"
+  },
+  "Kinderprodukte": {
+    "active": true,
+    "code": null,
+    "id": "030610",
+    "name": "Kinderprodukte"
+  },
+  "Kinderpullover & -shirts": {
+    "active": true,
+    "code": null,
+    "id": "053500",
+    "name": "Kinderpullover & -shirts"
+  },
+  "Kinderschlafsäcke": {
+    "active": true,
+    "code": null,
+    "id": "053400",
+    "name": "Kinderschlafsäcke"
+  },
+  "Kindersicherheit": {
+    "active": true,
+    "code": null,
+    "id": "050703",
+    "name": "Kindersicherheit"
+  },
+  "Kinderstrumpfhosen & -strümpfe": {
+    "active": true,
+    "code": null,
+    "id": "053600",
+    "name": "Kinderstrumpfhosen & -strümpfe"
+  },
+  "Kinderunterwäsche & -schlafanzüge": {
+    "active": true,
+    "code": null,
+    "id": "053910",
+    "name": "Kinderunterwäsche & -schlafanzüge"
+  },
+  "Kinderwagenzubehör": {
+    "active": true,
+    "code": null,
+    "id": "050702",
+    "name": "Kinderwagenzubehör"
+  },
+  "Kinderzimmer": {
+    "active": true,
+    "code": null,
+    "id": "055000",
+    "name": "Kinderzimmer"
+  },
+  "Klebstoff": {
+    "active": true,
+    "code": null,
+    "id": "121105",
+    "name": "Klebstoff"
+  },
+  "Knabberzeug": {
+    "active": true,
+    "code": null,
+    "id": "041504",
+    "name": "Knabberzeug"
+  },
+  "Kondome": {
+    "active": true,
+    "code": null,
+    "id": "030801",
+    "name": "Kondome"
+  },
+  "Konserven": {
+    "active": true,
+    "code": null,
+    "id": "042401",
+    "name": "Konserven"
+  },
+  "Kontaktlinsen, Lesebrillen & Zubehör": {
+    "active": true,
+    "code": null,
+    "id": "031100",
+    "name": "Kontaktlinsen, Lesebrillen & Zubehör"
+  },
+  "Kontaktlinsenflüssigkeit & Augentropfen": {
+    "active": true,
+    "code": null,
+    "id": "031103",
+    "name": "Kontaktlinsenflüssigkeit & Augentropfen"
+  },
+  "Kopfschmerzen": {
+    "active": true,
+    "code": null,
+    "id": "030106",
+    "name": "Kopfschmerzen"
+  },
+  "Koreanische Kosmetik": {
+    "active": true,
+    "code": null,
+    "id": "021200",
+    "name": "Koreanische Kosmetik"
+  },
+  "Korrekturstifte": {
+    "active": true,
+    "code": null,
+    "id": "010613",
+    "name": "Korrekturstifte"
+  },
+  "Kosmetiktücher & Wattepads": {
+    "active": true,
+    "code": null,
+    "id": "010601",
+    "name": "Kosmetiktücher & Wattepads"
+  },
+  "Kreative Fotoideen": {
+    "active": true,
+    "code": null,
+    "id": "100303",
+    "name": "Kreative Fotoideen"
+  },
+  "Kulturbeutel & Kosmetiktaschen": {
+    "active": true,
+    "code": null,
+    "id": "121204",
+    "name": "Kulturbeutel & Kosmetiktaschen"
+  },
+  "Körperpeeling & Body Scrub": {
+    "active": true,
+    "code": null,
+    "id": "020110",
+    "name": "Körperpeeling & Body Scrub"
+  },
+  "Körperpflege": {
+    "active": true,
+    "code": null,
+    "id": "020100",
+    "name": "Körperpflege"
+  },
+  "Körperöl": {
+    "active": true,
+    "code": null,
+    "id": "020103",
+    "name": "Körperöl"
+  },
+  "Küchenreiniger": {
+    "active": true,
+    "code": null,
+    "id": "060304",
+    "name": "Küchenreiniger"
+  },
+  "Küchenrollen": {
+    "active": true,
+    "code": null,
+    "id": "060202",
+    "name": "Küchenrollen"
+  },
+  "Künstliche Fingernägel & Nageldesign": {
+    "active": true,
+    "code": null,
+    "id": "010409",
+    "name": "Künstliche Fingernägel & Nageldesign"
+  },
+  "Künstliche Wimpern": {
+    "active": true,
+    "code": null,
+    "id": "010106",
+    "name": "Künstliche Wimpern"
+  },
+  "Lampen & Lichterketten": {
+    "active": true,
+    "code": null,
+    "id": "121001",
+    "name": "Lampen & Lichterketten"
+  },
+  "Leber & Galle": {
+    "active": true,
+    "code": null,
+    "id": "030507",
+    "name": "Leber & Galle"
+  },
+  "Leckerlis für Hunde": {
+    "active": true,
+    "code": null,
+    "id": "070203",
+    "name": "Leckerlis für Hunde"
+  },
+  "Lesebrillen": {
+    "active": true,
+    "code": null,
+    "id": "031104",
+    "name": "Lesebrillen"
+  },
+  "Leuchtmittel & Glühbirnen": {
+    "active": true,
+    "code": null,
+    "id": "121002",
+    "name": "Leuchtmittel & Glühbirnen"
+  },
+  "Lidschatten & Paletten": {
+    "active": true,
+    "code": null,
+    "id": "010102",
+    "name": "Lidschatten & Paletten"
+  },
+  "Liebesspiel & Verhütung": {
+    "active": true,
+    "code": null,
+    "id": "030800",
+    "name": "Liebesspiel & Verhütung"
+  },
+  "Linsen & Bohnen": {
+    "active": true,
+    "code": null,
+    "id": "042304",
+    "name": "Linsen & Bohnen"
+  },
+  "Lipbalm & Lippenöle": {
+    "active": true,
+    "code": null,
+    "id": "010307",
+    "name": "Lipbalm & Lippenöle"
+  },
+  "Lipgloss": {
+    "active": true,
+    "code": null,
+    "id": "010301",
+    "name": "Lipgloss"
+  },
+  "Lipliner": {
+    "active": true,
+    "code": null,
+    "id": "010303",
+    "name": "Lipliner"
+  },
+  "Lippen": {
+    "active": true,
+    "code": null,
+    "id": "010300",
+    "name": "Lippen"
+  },
+  "Lippen Primer & Base": {
+    "active": true,
+    "code": null,
+    "id": "010306",
+    "name": "Lippen Primer & Base"
+  },
+  "Lippenpeeling": {
+    "active": true,
+    "code": null,
+    "id": "010308",
+    "name": "Lippenpeeling"
+  },
+  "Lippenpflege": {
+    "active": true,
+    "code": null,
+    "id": "020206",
+    "name": "Lippenpflege"
+  },
+  "Lippenstift": {
+    "active": true,
+    "code": null,
+    "id": "010302",
+    "name": "Lippenstift"
+  },
+  "Lufterfrischer & Raumduft": {
+    "active": true,
+    "code": null,
+    "id": "120901",
+    "name": "Lufterfrischer & Raumduft"
+  },
+  "Magen & Verdauung": {
+    "active": true,
+    "code": null,
+    "id": "030508",
+    "name": "Magen & Verdauung"
+  },
+  "Magnesium": {
+    "active": true,
+    "code": null,
+    "id": "030207",
+    "name": "Magnesium"
+  },
+  "Make-up": {
+    "active": true,
+    "code": null,
+    "id": "010000",
+    "name": "Make-up",
+    "url": "https://media.dm-static.com/images/{transformations}/v1674821858/products/pim/kategorieContainerMakeUp/1500_x_300_make-up.jpg"
+  },
+  "Make-up & Foundation": {
+    "active": true,
+    "code": null,
+    "id": "010201",
+    "name": "Make-up & Foundation"
+  },
+  "Malbücher & Bastelbücher": {
+    "active": true,
+    "code": null,
+    "id": "050909",
+    "name": "Malbücher & Bastelbücher"
+  },
+  "Maniküre & Feilen": {
+    "active": true,
+    "code": null,
+    "id": "010406",
+    "name": "Maniküre & Feilen"
+  },
+  "Marmelade, Fruchtaufstrich & Honig": {
+    "active": true,
+    "code": null,
+    "id": "041206",
+    "name": "Marmelade, Fruchtaufstrich & Honig"
+  },
+  "Mascara": {
+    "active": true,
+    "code": null,
+    "id": "010101",
+    "name": "Mascara"
+  },
+  "Medizinische Masken": {
+    "active": true,
+    "code": null,
+    "id": "031402",
+    "name": "Medizinische Masken"
+  },
+  "Medizinische Pflege": {
+    "active": true,
+    "code": null,
+    "id": "021600",
+    "name": "Medizinische Pflege"
+  },
+  "Mehl & Grieß": {
+    "active": true,
+    "code": null,
+    "id": "041602",
+    "name": "Mehl & Grieß"
+  },
+  "Menstruationstassen": {
+    "active": true,
+    "code": null,
+    "id": "020806",
+    "name": "Menstruationstassen"
+  },
+  "Milch": {
+    "active": true,
+    "code": null,
+    "id": "041401",
+    "name": "Milch"
+  },
+  "Milch & Milchalternativen": {
+    "active": true,
+    "code": null,
+    "id": "041400",
+    "name": "Milch & Milchalternativen"
+  },
+  "Mineralstoffe": {
+    "active": true,
+    "code": null,
+    "id": "030200",
+    "name": "Mineralstoffe"
+  },
+  "Monatslinsen": {
+    "active": true,
+    "code": null,
+    "id": "031101",
+    "name": "Monatslinsen"
+  },
+  "Multivitamine": {
+    "active": true,
+    "code": null,
+    "id": "030306",
+    "name": "Multivitamine"
+  },
+  "Munddusche": {
+    "active": true,
+    "code": null,
+    "id": "030607",
+    "name": "Munddusche"
+  },
+  "Mundschutz": {
+    "active": true,
+    "code": null,
+    "id": "031400",
+    "name": "Mundschutz"
+  },
+  "Mundspülung, Mundwasser & Co.": {
+    "active": true,
+    "code": null,
+    "id": "030605",
+    "name": "Mundspülung, Mundwasser & Co."
+  },
+  "Muskeln & Gelenke": {
+    "active": true,
+    "code": null,
+    "id": "030509",
+    "name": "Muskeln & Gelenke"
+  },
+  "Männerpflege": {
+    "active": true,
+    "code": null,
+    "id": "021400",
+    "name": "Männerpflege"
+  },
+  "Möbelpflege": {
+    "active": true,
+    "code": null,
+    "id": "060307",
+    "name": "Möbelpflege"
+  },
+  "Mückenschutz": {
+    "active": true,
+    "code": null,
+    "id": "021500",
+    "name": "Mückenschutz"
+  },
+  "Müllbeutel": {
+    "active": true,
+    "code": null,
+    "id": "060102",
+    "name": "Müllbeutel"
+  },
+  "Müsli & Granola": {
+    "active": true,
+    "code": null,
+    "id": "041201",
+    "name": "Müsli & Granola"
+  },
+  "Müsliriegel & Fruchtriegel": {
+    "active": true,
+    "code": null,
+    "id": "041501",
+    "name": "Müsliriegel & Fruchtriegel"
+  },
+  "Nachtcreme": {
+    "active": true,
+    "code": null,
+    "id": "020203",
+    "name": "Nachtcreme"
+  },
+  "Nagelknipser & Co.": {
+    "active": true,
+    "code": null,
+    "id": "021908",
+    "name": "Nagelknipser & Co."
+  },
+  "Nagellack": {
+    "active": true,
+    "code": null,
+    "id": "010402",
+    "name": "Nagellack"
+  },
+  "Nagellackentferner": {
+    "active": true,
+    "code": null,
+    "id": "010405",
+    "name": "Nagellackentferner"
+  },
+  "Nagelpflege": {
+    "active": true,
+    "code": null,
+    "id": "010404",
+    "name": "Nagelpflege"
+  },
+  "Nagetiere": {
+    "active": true,
+    "code": null,
+    "id": "070300",
+    "name": "Nagetiere"
+  },
+  "Nahrungsergänzung & Diätfutter Hund": {
+    "active": true,
+    "code": null,
+    "id": "070205",
+    "name": "Nahrungsergänzung & Diätfutter Hund"
+  },
+  "Nahrungsergänzung & Diätfutter Katze": {
+    "active": true,
+    "code": null,
+    "id": "070106",
+    "name": "Nahrungsergänzung & Diätfutter Katze"
+  },
+  "Nassfutter Hund": {
+    "active": true,
+    "code": null,
+    "id": "070202",
+    "name": "Nassfutter Hund"
+  },
+  "Nassfutter Katze": {
+    "active": true,
+    "code": null,
+    "id": "070102",
+    "name": "Nassfutter Katze"
+  },
+  "Nassrasierer": {
+    "active": true,
+    "code": null,
+    "id": "020701",
+    "name": "Nassrasierer"
+  },
+  "Nudeln": {
+    "active": true,
+    "code": null,
+    "id": "042301",
+    "name": "Nudeln"
+  },
+  "Nuss- & Schokocreme": {
+    "active": true,
+    "code": null,
+    "id": "041207",
+    "name": "Nuss- & Schokocreme"
+  },
+  "Nägel": {
+    "active": true,
+    "code": null,
+    "id": "010400",
+    "name": "Nägel"
+  },
+  "Nüsse": {
+    "active": true,
+    "code": null,
+    "id": "041509",
+    "name": "Nüsse"
+  },
+  "Ohrstöpsel & Nasenstrips": {
+    "active": true,
+    "code": null,
+    "id": "030704",
+    "name": "Ohrstöpsel & Nasenstrips"
+  },
+  "Parfum": {
+    "active": true,
+    "code": null,
+    "id": "020300",
+    "name": "Parfum"
+  },
+  "Partyzubehör": {
+    "active": true,
+    "code": null,
+    "id": "120704",
+    "name": "Partyzubehör"
+  },
+  "Periodenprodukte & Intimhygiene": {
+    "active": true,
+    "code": null,
+    "id": "020800",
+    "name": "Periodenprodukte & Intimhygiene"
+  },
+  "Periodenunterwäsche": {
+    "active": true,
+    "code": null,
+    "id": "020807",
+    "name": "Periodenunterwäsche"
+  },
+  "Pesto": {
+    "active": true,
+    "code": null,
+    "id": "041714",
+    "name": "Pesto"
+  },
+  "Pflanzendrinks": {
+    "active": true,
+    "code": null,
+    "id": "041402",
+    "name": "Pflanzendrinks"
+  },
+  "Pflege & Parfum": {
+    "active": true,
+    "code": null,
+    "id": "020000",
+    "name": "Pflege & Parfum",
+    "url": "https://media.dm-static.com/images/{transformations}/v1674821892/products/pim/kategorieContainerPflege/1500_x_300_pflege.jpg"
+  },
+  "Pflege für Schwangere & Mamas": {
+    "active": true,
+    "code": null,
+    "id": "050804",
+    "name": "Pflege für Schwangere & Mamas"
+  },
+  "Pinsel": {
+    "active": true,
+    "code": null,
+    "id": "010604",
+    "name": "Pinsel"
+  },
+  "Pinsel & Tools": {
+    "active": true,
+    "code": null,
+    "id": "010600",
+    "name": "Pinsel & Tools"
+  },
+  "Pinselreiniger": {
+    "active": true,
+    "code": null,
+    "id": "010610",
+    "name": "Pinselreiniger"
+  },
+  "Pinzetten": {
+    "active": true,
+    "code": null,
+    "id": "010606",
+    "name": "Pinzetten"
+  },
+  "Porridge & Frühstücksbrei": {
+    "active": true,
+    "code": null,
+    "id": "041203",
+    "name": "Porridge & Frühstücksbrei"
+  },
+  "Professionelle Haarpflege": {
+    "active": true,
+    "code": null,
+    "id": "110500",
+    "name": "Professionelle Haarpflege"
+  },
+  "Prostata & Blase": {
+    "active": true,
+    "code": null,
+    "id": "030504",
+    "name": "Prostata & Blase"
+  },
+  "Protein Riegel": {
+    "active": true,
+    "code": null,
+    "id": "040702",
+    "name": "Protein Riegel"
+  },
+  "Protein Shakes & Pulver": {
+    "active": true,
+    "code": null,
+    "id": "040705",
+    "name": "Protein Shakes & Pulver"
+  },
+  "Puddingpulver": {
+    "active": true,
+    "code": null,
+    "id": "041608",
+    "name": "Puddingpulver"
+  },
+  "Puder & Mattierung": {
+    "active": true,
+    "code": null,
+    "id": "010204",
+    "name": "Puder & Mattierung"
+  },
+  "Putzen & Reinigen": {
+    "active": true,
+    "code": null,
+    "id": "060300",
+    "name": "Putzen & Reinigen"
+  },
+  "Putztücher, Schwämme & Co.": {
+    "active": true,
+    "code": null,
+    "id": "060311",
+    "name": "Putztücher, Schwämme & Co."
+  },
+  "Quetschies": {
+    "active": true,
+    "code": null,
+    "id": "050505",
+    "name": "Quetschies"
+  },
+  "Rasierklingen": {
+    "active": true,
+    "code": null,
+    "id": "020702",
+    "name": "Rasierklingen"
+  },
+  "Rasierschaum & Rasiergel": {
+    "active": true,
+    "code": null,
+    "id": "020703",
+    "name": "Rasierschaum & Rasiergel"
+  },
+  "Regenschirme": {
+    "active": true,
+    "code": null,
+    "id": "121205",
+    "name": "Regenschirme"
+  },
+  "Reis": {
+    "active": true,
+    "code": null,
+    "id": "042302",
+    "name": "Reis"
+  },
+  "Rouge": {
+    "active": true,
+    "code": null,
+    "id": "010205",
+    "name": "Rouge"
+  },
+  "Röcke & Kleider": {
+    "active": true,
+    "code": null,
+    "id": "053800",
+    "name": "Röcke & Kleider"
+  },
+  "Saaten & Körner": {
+    "active": true,
+    "code": null,
+    "id": "041613",
+    "name": "Saaten & Körner"
+  },
+  "Salz & Pfeffer": {
+    "active": true,
+    "code": null,
+    "id": "041713",
+    "name": "Salz & Pfeffer"
+  },
+  "Schaumfestiger": {
+    "active": true,
+    "code": null,
+    "id": "110202",
+    "name": "Schaumfestiger"
+  },
+  "Schlafen & Nerven": {
+    "active": true,
+    "code": null,
+    "id": "030502",
+    "name": "Schlafen & Nerven"
+  },
+  "Schmuck": {
+    "active": true,
+    "code": null,
+    "id": "121201",
+    "name": "Schmuck"
+  },
+  "Schnelle Gerichte": {
+    "active": true,
+    "code": null,
+    "id": "042402",
+    "name": "Schnelle Gerichte"
+  },
+  "Schnuller": {
+    "active": true,
+    "code": null,
+    "id": "050603",
+    "name": "Schnuller"
+  },
+  "Schnullerketten & Zubehör": {
+    "active": true,
+    "code": null,
+    "id": "050604",
+    "name": "Schnullerketten & Zubehör"
+  },
+  "Schnupfen": {
+    "active": true,
+    "code": null,
+    "id": "030104",
+    "name": "Schnupfen"
+  },
+  "Schokolade & Schokoriegel": {
+    "active": true,
+    "code": null,
+    "id": "041502",
+    "name": "Schokolade & Schokoriegel"
+  },
+  "Schuhpflege": {
+    "active": true,
+    "code": null,
+    "id": "060116",
+    "name": "Schuhpflege"
+  },
+  "Schutz vor Zecken & Ungeziefer": {
+    "active": true,
+    "code": null,
+    "id": "070500",
+    "name": "Schutz vor Zecken & Ungeziefer"
+  },
+  "Schwangerschaftstest & Ovulationstest": {
+    "active": true,
+    "code": null,
+    "id": "031600",
+    "name": "Schwangerschaftstest & Ovulationstest"
+  },
+  "Schwimmwindeln": {
+    "active": true,
+    "code": null,
+    "id": "050102",
+    "name": "Schwimmwindeln"
+  },
+  "Schwämmchen & Applikatoren": {
+    "active": true,
+    "code": null,
+    "id": "010603",
+    "name": "Schwämmchen & Applikatoren"
+  },
+  "Schwämme & Massagezubehör": {
+    "active": true,
+    "code": null,
+    "id": "020111",
+    "name": "Schwämme & Massagezubehör"
+  },
+  "Schöne Haare": {
+    "active": true,
+    "code": null,
+    "id": "030402",
+    "name": "Schöne Haare"
+  },
+  "Schöne Haut": {
+    "active": true,
+    "code": null,
+    "id": "030401",
+    "name": "Schöne Haut"
+  },
+  "Schönheit von Innen": {
+    "active": true,
+    "code": null,
+    "id": "030400",
+    "name": "Schönheit von Innen"
+  },
+  "Seifenspender, Zahnputzbecher & Co.": {
+    "active": true,
+    "code": null,
+    "id": "120801",
+    "name": "Seifenspender, Zahnputzbecher & Co."
+  },
+  "Selbstbräuner & Bräunungsbeschleuniger": {
+    "active": true,
+    "code": null,
+    "id": "020402",
+    "name": "Selbstbräuner & Bräunungsbeschleuniger"
+  },
+  "Senf, Ketchup & Co.": {
+    "active": true,
+    "code": null,
+    "id": "041712",
+    "name": "Senf, Ketchup & Co."
+  },
+  "Serum & Kur": {
+    "active": true,
+    "code": null,
+    "id": "020211",
+    "name": "Serum & Kur"
+  },
+  "Servietten": {
+    "active": true,
+    "code": null,
+    "id": "120703",
+    "name": "Servietten"
+  },
+  "Sextoys": {
+    "active": true,
+    "code": null,
+    "id": "030803",
+    "name": "Sextoys"
+  },
+  "Shampoo": {
+    "active": true,
+    "code": null,
+    "id": "110101",
+    "name": "Shampoo"
+  },
+  "Shapewear": {
+    "active": true,
+    "code": null,
+    "id": "121307",
+    "name": "Shapewear"
+  },
+  "Silvesterdeko": {
+    "active": true,
+    "code": null,
+    "id": "120500",
+    "name": "Silvesterdeko"
+  },
+  "Slipeinlagen": {
+    "active": true,
+    "code": null,
+    "id": "020803",
+    "name": "Slipeinlagen"
+  },
+  "Smoothies": {
+    "active": true,
+    "code": null,
+    "id": "041301",
+    "name": "Smoothies"
+  },
+  "Snacks & Süßigkeiten": {
+    "active": true,
+    "code": null,
+    "id": "041500",
+    "name": "Snacks & Süßigkeiten"
+  },
+  "Snacks für Katzen": {
+    "active": true,
+    "code": null,
+    "id": "070103",
+    "name": "Snacks für Katzen"
+  },
+  "Snacks für Kinder": {
+    "active": true,
+    "code": null,
+    "id": "050504",
+    "name": "Snacks für Kinder"
+  },
+  "Snacks für Nagetiere": {
+    "active": true,
+    "code": null,
+    "id": "070302",
+    "name": "Snacks für Nagetiere"
+  },
+  "Sneakersocken & Füßlinge": {
+    "active": true,
+    "code": null,
+    "id": "121302",
+    "name": "Sneakersocken & Füßlinge"
+  },
+  "Socken & Sportsocken": {
+    "active": true,
+    "code": null,
+    "id": "121301",
+    "name": "Socken & Sportsocken"
+  },
+  "Socken, Strumpfhosen & Co.": {
+    "active": true,
+    "code": null,
+    "id": "121300",
+    "name": "Socken, Strumpfhosen & Co."
   },
   "Sofortbildkameras & Zubehör": {
-    "name": "Sofortbildkameras & Zubehör",
-    "id": "100306",
     "active": true,
-    "code": "All"
+    "code": null,
+    "id": "100306",
+    "name": "Sofortbildkameras & Zubehör"
   },
-  "Intimhygiene": {
-    "name": "Intimhygiene",
-    "id": "020800",
-    "active": false,
-    "code": "All"
+  "Sonne": {
+    "active": true,
+    "code": null,
+    "id": "020400",
+    "name": "Sonne"
   },
-  "Damenbinden": {
-    "name": "Damenbinden",
-    "id": "020802",
-    "active": false,
-    "code": "All"
+  "Sonnenbrillen": {
+    "active": true,
+    "code": null,
+    "id": "121202",
+    "name": "Sonnenbrillen"
   },
-  "Ostern": {
-    "name": "Ostern",
-    "id": "120200",
-    "active": false,
-    "code": "All"
+  "Sonnenschutz": {
+    "active": true,
+    "code": null,
+    "id": "020401",
+    "name": "Sonnenschutz"
+  },
+  "Sonstige Mineralstoffe": {
+    "active": true,
+    "code": null,
+    "id": "030206",
+    "name": "Sonstige Mineralstoffe"
+  },
+  "Soße & Gewürze": {
+    "active": true,
+    "code": null,
+    "id": "041700",
+    "name": "Soße & Gewürze"
+  },
+  "Soßen": {
+    "active": true,
+    "code": null,
+    "id": "041702",
+    "name": "Soßen"
+  },
+  "Spezialreiniger": {
+    "active": true,
+    "code": null,
+    "id": "060308",
+    "name": "Spezialreiniger"
+  },
+  "Spiegel": {
+    "active": true,
+    "code": null,
+    "id": "120802",
+    "name": "Spiegel"
+  },
+  "Spielzeug": {
+    "active": true,
+    "code": null,
+    "id": "052000",
+    "name": "Spielzeug"
+  },
+  "Spitzer": {
+    "active": true,
+    "code": null,
+    "id": "010612",
+    "name": "Spitzer"
+  },
+  "Sport Zubehör & Spezialprodukte": {
+    "active": true,
+    "code": null,
+    "id": "040706",
+    "name": "Sport Zubehör & Spezialprodukte"
+  },
+  "Sportnahrung": {
+    "active": true,
+    "code": null,
+    "id": "040700",
+    "name": "Sportnahrung"
+  },
+  "Spülbürsten & Spülschwämme": {
+    "active": true,
+    "code": null,
+    "id": "060403",
+    "name": "Spülbürsten & Spülschwämme"
+  },
+  "Spülen": {
+    "active": true,
+    "code": null,
+    "id": "060400",
+    "name": "Spülen"
+  },
+  "Spülmittel": {
+    "active": true,
+    "code": null,
+    "id": "060401",
+    "name": "Spülmittel"
+  },
+  "Stab- & Stumpenkerzen": {
+    "active": true,
+    "code": null,
+    "id": "120904",
+    "name": "Stab- & Stumpenkerzen"
+  },
+  "Starke Nägel": {
+    "active": true,
+    "code": null,
+    "id": "030403",
+    "name": "Starke Nägel"
+  },
+  "Staubsaugerbeutel": {
+    "active": true,
+    "code": null,
+    "id": "060111",
+    "name": "Staubsaugerbeutel"
+  },
+  "Stifte, Scheren & Schreibwaren": {
+    "active": true,
+    "code": null,
+    "id": "121104",
+    "name": "Stifte, Scheren & Schreibwaren"
+  },
+  "Still-BH & Co.": {
+    "active": true,
+    "code": null,
+    "id": "050803",
+    "name": "Still-BH & Co."
+  },
+  "Stillkissen, Stilleinlagen & Co.": {
+    "active": true,
+    "code": null,
+    "id": "050805",
+    "name": "Stillkissen, Stilleinlagen & Co."
+  },
+  "Stoffwindeln": {
+    "active": true,
+    "code": null,
+    "id": "050106",
+    "name": "Stoffwindeln"
+  },
+  "Strumpfhosen & Leggings": {
+    "active": true,
+    "code": null,
+    "id": "121304",
+    "name": "Strumpfhosen & Leggings"
+  },
+  "Strumpfhosen große Größen": {
+    "active": true,
+    "code": null,
+    "id": "121306",
+    "name": "Strumpfhosen große Größen"
+  },
+  "Strähnchen": {
+    "active": true,
+    "code": null,
+    "id": "110304",
+    "name": "Strähnchen"
+  },
+  "Studentenfutter": {
+    "active": true,
+    "code": null,
+    "id": "041508",
+    "name": "Studentenfutter"
+  },
+  "Styling Spray & Creme": {
+    "active": true,
+    "code": null,
+    "id": "110204",
+    "name": "Styling Spray & Creme"
+  },
+  "Stärke & Bügelhilfe": {
+    "active": true,
+    "code": null,
+    "id": "060506",
+    "name": "Stärke & Bügelhilfe"
+  },
+  "Stützstrumpfhosen & Stützstrümpfe": {
+    "active": true,
+    "code": null,
+    "id": "121305",
+    "name": "Stützstrumpfhosen & Stützstrümpfe"
+  },
+  "Suppen & Eintöpfe": {
+    "active": true,
+    "code": null,
+    "id": "042403",
+    "name": "Suppen & Eintöpfe"
+  },
+  "Tagescreme": {
+    "active": true,
+    "code": null,
+    "id": "020202",
+    "name": "Tagescreme"
+  },
+  "Tageslinsen": {
+    "active": true,
+    "code": null,
+    "id": "031102",
+    "name": "Tageslinsen"
+  },
+  "Tampons": {
+    "active": true,
+    "code": null,
+    "id": "020801",
+    "name": "Tampons"
+  },
+  "Taschen & Rucksäcke": {
+    "active": true,
+    "code": null,
+    "id": "121203",
+    "name": "Taschen & Rucksäcke"
+  },
+  "Taschentücher": {
+    "active": true,
+    "code": null,
+    "id": "060203",
+    "name": "Taschentücher"
+  },
+  "Tee": {
+    "active": true,
+    "code": null,
+    "id": "042202",
+    "name": "Tee"
+  },
+  "Tee-, Kaffee- & Wasserfilter": {
+    "active": true,
+    "code": null,
+    "id": "060103",
+    "name": "Tee-, Kaffee- & Wasserfilter"
+  },
+  "Teelichter": {
+    "active": true,
+    "code": null,
+    "id": "120902",
+    "name": "Teelichter"
+  },
+  "Teint": {
+    "active": true,
+    "code": null,
+    "id": "010200",
+    "name": "Teint"
+  },
+  "Teint Primer & Fixing": {
+    "active": true,
+    "code": null,
+    "id": "010210",
+    "name": "Teint Primer & Fixing"
+  },
+  "Textilerfrischer": {
+    "active": true,
+    "code": null,
+    "id": "060508",
+    "name": "Textilerfrischer"
+  },
+  "Textilfarbe": {
+    "active": true,
+    "code": null,
+    "id": "060505",
+    "name": "Textilfarbe"
+  },
+  "Textilien": {
+    "active": true,
+    "code": null,
+    "id": "120604",
+    "name": "Textilien"
+  },
+  "Tier": {
+    "active": true,
+    "code": null,
+    "id": "070000",
+    "name": "Tier",
+    "url": "https://media.dm-static.com/images/{transformations}/v1674821902/products/pim/kategorieContainerTier/1500_x_300_tier.jpg"
+  },
+  "Tisch & Küche": {
+    "active": true,
+    "code": null,
+    "id": "120700",
+    "name": "Tisch & Küche"
+  },
+  "Tofu & Fleischersatz": {
+    "active": true,
+    "code": null,
+    "id": "042500",
+    "name": "Tofu & Fleischersatz"
+  },
+  "Toilettenpapier": {
+    "active": true,
+    "code": null,
+    "id": "060201",
+    "name": "Toilettenpapier"
+  },
+  "Topcoat & Basecoat": {
+    "active": true,
+    "code": null,
+    "id": "010401",
+    "name": "Topcoat & Basecoat"
+  },
+  "Traubenzucker": {
+    "active": true,
+    "code": null,
+    "id": "041507",
+    "name": "Traubenzucker"
+  },
+  "Trinkschokolade": {
+    "active": true,
+    "code": null,
+    "id": "042203",
+    "name": "Trinkschokolade"
+  },
+  "Trocken werden": {
+    "active": true,
+    "code": null,
+    "id": "050103",
+    "name": "Trocken werden"
+  },
+  "Trockenfrüchte": {
+    "active": true,
+    "code": null,
+    "id": "041510",
+    "name": "Trockenfrüchte"
+  },
+  "Trockenfutter Hund": {
+    "active": true,
+    "code": null,
+    "id": "070201",
+    "name": "Trockenfutter Hund"
+  },
+  "Trockenfutter Katze": {
+    "active": true,
+    "code": null,
+    "id": "070101",
+    "name": "Trockenfutter Katze"
+  },
+  "Trockenshampoo": {
+    "active": true,
+    "code": null,
+    "id": "110104",
+    "name": "Trockenshampoo"
+  },
+  "USB-Sticks, Ladekabel & Co.": {
+    "active": true,
+    "code": null,
+    "id": "100304",
+    "name": "USB-Sticks, Ladekabel & Co."
+  },
+  "UV Nagellack": {
+    "active": true,
+    "code": null,
+    "id": "010403",
+    "name": "UV Nagellack"
+  },
+  "Vasen & Blumentöpfe": {
+    "active": true,
+    "code": null,
+    "id": "120602",
+    "name": "Vasen & Blumentöpfe"
+  },
+  "Venen": {
+    "active": true,
+    "code": null,
+    "id": "030510",
+    "name": "Venen"
+  },
+  "Verbandsmaterial": {
+    "active": true,
+    "code": null,
+    "id": "030702",
+    "name": "Verbandsmaterial"
+  },
+  "Vitamin A": {
+    "active": true,
+    "code": null,
+    "id": "030301",
+    "name": "Vitamin A"
+  },
+  "Vitamin B": {
+    "active": true,
+    "code": null,
+    "id": "030302",
+    "name": "Vitamin B"
+  },
+  "Vitamin C": {
+    "active": true,
+    "code": null,
+    "id": "030303",
+    "name": "Vitamin C"
+  },
+  "Vitamin D": {
+    "active": true,
+    "code": null,
+    "id": "030304",
+    "name": "Vitamin D"
+  },
+  "Vitamin E": {
+    "active": true,
+    "code": null,
+    "id": "030305",
+    "name": "Vitamin E"
+  },
+  "Vitamine": {
+    "active": true,
+    "code": null,
+    "id": "030300",
+    "name": "Vitamine"
+  },
+  "Vogel": {
+    "active": true,
+    "code": null,
+    "id": "070400",
+    "name": "Vogel"
+  },
+  "Vogelfutter": {
+    "active": true,
+    "code": null,
+    "id": "070401",
+    "name": "Vogelfutter"
+  },
+  "Vogelzubehör": {
+    "active": true,
+    "code": null,
+    "id": "070405",
+    "name": "Vogelzubehör"
+  },
+  "WC-Reiniger & -Steine": {
+    "active": true,
+    "code": null,
+    "id": "060309",
+    "name": "WC-Reiniger & -Steine"
+  },
+  "Waschen": {
+    "active": true,
+    "code": null,
+    "id": "060500",
+    "name": "Waschen"
+  },
+  "Waschmittel": {
+    "active": true,
+    "code": null,
+    "id": "060501",
+    "name": "Waschmittel"
+  },
+  "Waschzusatz": {
+    "active": true,
+    "code": null,
+    "id": "060507",
+    "name": "Waschzusatz"
+  },
+  "Wasser & Mineralwasser": {
+    "active": true,
+    "code": null,
+    "id": "041304",
+    "name": "Wasser & Mineralwasser"
+  },
+  "Wasserenthärter": {
+    "active": true,
+    "code": null,
+    "id": "060503",
+    "name": "Wasserenthärter"
+  },
+  "Weichspüler": {
+    "active": true,
+    "code": null,
+    "id": "060502",
+    "name": "Weichspüler"
+  },
+  "Weihnachten": {
+    "active": true,
+    "code": null,
+    "id": "120400",
+    "name": "Weihnachten"
+  },
+  "Weihnachtsbaumschmuck": {
+    "active": true,
+    "code": null,
+    "id": "120403",
+    "name": "Weihnachtsbaumschmuck"
+  },
+  "Weihnachtsdeko": {
+    "active": true,
+    "code": null,
+    "id": "120402",
+    "name": "Weihnachtsdeko"
+  },
+  "Wickeln & Co.": {
+    "active": true,
+    "code": null,
+    "id": "050100",
+    "name": "Wickeln & Co."
+  },
+  "Wimpern- & Augenbrauenfarbe": {
+    "active": true,
+    "code": null,
+    "id": "010111",
+    "name": "Wimpern- & Augenbrauenfarbe"
+  },
+  "Wimpernserum & Pflege": {
+    "active": true,
+    "code": null,
+    "id": "010110",
+    "name": "Wimpernserum & Pflege"
+  },
+  "Wimpernzangen": {
+    "active": true,
+    "code": null,
+    "id": "010614",
+    "name": "Wimpernzangen"
+  },
+  "Windel Pants": {
+    "active": true,
+    "code": null,
+    "id": "050104",
+    "name": "Windel Pants"
+  },
+  "Windeln": {
+    "active": true,
+    "code": null,
+    "id": "050101",
+    "name": "Windeln"
+  },
+  "Windelzubehör": {
+    "active": true,
+    "code": null,
+    "id": "050105",
+    "name": "Windelzubehör"
+  },
+  "Wohlbefinden & Stärkung": {
+    "active": true,
+    "code": null,
+    "id": "030500",
+    "name": "Wohlbefinden & Stärkung"
+  },
+  "Wundheilung": {
+    "active": true,
+    "code": null,
+    "id": "030703",
+    "name": "Wundheilung"
+  },
+  "Wundpflaster": {
+    "active": true,
+    "code": null,
+    "id": "030701",
+    "name": "Wundpflaster"
+  },
+  "Wärmflaschen, Wärmepflaster & Co.": {
+    "active": true,
+    "code": null,
+    "id": "031000",
+    "name": "Wärmflaschen, Wärmepflaster & Co."
+  },
+  "Zahnbürste": {
+    "active": true,
+    "code": null,
+    "id": "030602",
+    "name": "Zahnbürste"
+  },
+  "Zahnen": {
+    "active": true,
+    "code": null,
+    "id": "050708",
+    "name": "Zahnen"
+  },
+  "Zahnpasta": {
+    "active": true,
+    "code": null,
+    "id": "030601",
+    "name": "Zahnpasta"
+  },
+  "Zahnpflege": {
+    "active": true,
+    "code": null,
+    "id": "030600",
+    "name": "Zahnpflege"
+  },
+  "Zink": {
+    "active": true,
+    "code": null,
+    "id": "030205",
+    "name": "Zink"
+  },
+  "Zucker": {
+    "active": true,
+    "code": null,
+    "id": "041611",
+    "name": "Zucker"
+  },
+  "Zuckeralternativen & Sirup": {
+    "active": true,
+    "code": null,
+    "id": "041612",
+    "name": "Zuckeralternativen & Sirup"
+  },
+  "Zungenreiniger": {
+    "active": true,
+    "code": null,
+    "id": "030611",
+    "name": "Zungenreiniger"
+  },
+  "vegane Sahnealternativen": {
+    "active": true,
+    "code": null,
+    "id": "041709",
+    "name": "vegane Sahnealternativen"
+  },
+  "Ölziehen": {
+    "active": true,
+    "code": null,
+    "id": "030608",
+    "name": "Ölziehen"
   }
 }
