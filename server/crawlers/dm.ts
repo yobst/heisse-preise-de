@@ -1,7 +1,6 @@
 import { Item, Unit, UnitMapping } from "../../common/models";
 import { Crawler } from "./crawler";
 
-import get from "axios";
 import * as utils from "./utils";
 import { stores } from "../../common/stores";
 
@@ -61,7 +60,10 @@ export class DmCrawler implements Crawler {
 
     async fetchData() {
         const urlPrefix = `${BASE_URL}/search/crawl?pageSize=1000&`;
-        const queries = [
+        // only first 1000 items get transmitted
+        // queries should get calibrated automatically
+        // only get categories "Ernährung" (040000), "Baby & Kind" (050000), "Gesundheit" (030000)
+        const queries = [ 
             "allCategories.id=030000&price.value.to=7", //~980 items (!)
             "allCategories.id=030000&price.value.from=7", //~500 items
             "allCategories.id=040000&price.value.to=2", //~600 items
@@ -114,7 +116,8 @@ export class DmCrawler implements Crawler {
             isWeighted,
             unitAndQuantity.unit,
             unitAndQuantity.quantity,
-            bio
+            bio,
+            rawItem.relativeProductUrl
         );
     }
 }
