@@ -22,8 +22,8 @@ const invalidUnits = new Set(["dose", "€startguthaben"]);
 
 export class FlinkCrawler implements Crawler {
     store = stores.flink;
-    categories: Record<any, any> = [];
-
+    categories: Record<string, any> = {};
+    
     async fetchCategories() {
         const page = `${BASE_URL}/consumer-backend/discovery/v2/categories`;
         const resp = await get(page, { headers: { "Hub-Slug": "de_man_nied" } });

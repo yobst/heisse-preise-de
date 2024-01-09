@@ -41,7 +41,7 @@ const categoriesIncludeList = ["Ernährung", "Baby & Kind", "Gesundheit"]; // 30
 
 export class DmCrawler implements Crawler {
     store = stores.dm;
-    categories: Record<any, any> = [];
+    categories: Record<string, any> = {};
 
     async fetchCategories() {
         const page = `${BASE_URL}/navigationcategories`;

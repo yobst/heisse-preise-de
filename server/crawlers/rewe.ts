@@ -20,8 +20,7 @@ const storeUnits: Record<string, UnitMapping> = {
 
 export class ReweCrawler implements Crawler {
     store = stores.rewe;
-
-    categories = [];
+    categories: Record<string, any> = {};
 
     async fetchCategories() {
         return [];

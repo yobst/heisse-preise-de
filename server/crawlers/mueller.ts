@@ -54,7 +54,6 @@ function getSubcategories(category: any, IDprefix = "") {
 
 export class MuellerCrawler implements Crawler {
     store = stores.mueller;
-
     categories: Record<string, any> = {};
 
     async fetchCategories() {

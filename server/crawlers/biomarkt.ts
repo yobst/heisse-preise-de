@@ -25,7 +25,7 @@ const categoriesExcludeList = new Set(["drogerie-und-kosmetik"]);
 
 export class BiomarktCrawler implements Crawler {
     store = stores.biomarkt;
-    categories: Record<any, any> = [];
+    categories: Record<string, any> = {};
 
     async fetchCategories() {
         const limit = await getOfferCount();
