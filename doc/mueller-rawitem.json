@@ -1,0 +1,62 @@
+{
+    "name": "Alnatura Bio Soja Sauce Shoyu",
+    "priceInfo": {
+        "basePrice": {
+            "price": "11,96 €",
+            "quantity": "1 l"
+        },
+        "itemsWithBiggerPrice": false,
+        "price": "2,99 €"
+    },
+    "productId": "2063974",
+    "itemId": "2063974",
+    "energyEfficiencyDto": {},
+    "dataLayer": {
+        "event": "productClick",
+        "ecommerce": {
+            "click": {
+                "actionField": {
+                    "list": "Kategorie"
+                },
+                "products": [
+                    {
+                        "name": "Alnatura Bio Soja Sauce Shoyu",
+                        "id": "2063974",
+                        "price": "2.99",
+                        "brand": "",
+                        "category": "Drogerie/Lebensmittel/Nahrung/Saucen",
+                        "ownBrand": false
+                    }
+                ]
+            },
+            "currencyCode": "EUR",
+            "brandName": ""
+        }
+    },
+    "impressionDataLayer": {
+        "ecommerce": {
+            "currencyCode": "EUR",
+            "impressions": [
+                {
+                    "name": "Alnatura Bio Soja Sauce Shoyu",
+                    "id": "2063974",
+                    "price": "2.99",
+                    "brand": "",
+                    "category": "Drogerie/Lebensmittel/Nahrung/Gewürze",
+                    "list": "Kategorie",
+                    "ownBrand": false
+                }
+            ]
+        }
+    },
+    "quantityOfContent": "250 ml",
+    "imageUrl": "https://static.mueller.de/markant_04104420031722_pv_3789912/plist/alnatura-bio-soja-sauce-shoyu.webp",
+    "productUrl": "https://www.mueller.de/p/alnatura-bio-soja-sauce-shoyu-2063974/",
+    "availabilityInfo": "",
+    "withDeliveryPossibilityCC": true,
+    "withDeliveryPossibilityHD": true,
+    "highDemandArticle": false,
+    "inWishlist": false,
+    "hidePrice": false,
+    "showSpecialPriceLabel": false
+}
