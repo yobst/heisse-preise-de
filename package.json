@@ -9,7 +9,7 @@
     "build:server": "node ./esbuild.server.mjs",
     "dev": "npm run build:server && npm run server",
     "build": "npm run clean && npm run build:server",
-    "server": "node --max_old_space_size=8192 --trace-warnings server/build/server.js"
+    "server": "node --trace-warnings server/build/server.js"
   },
   "repository": {
     "type": "git",
