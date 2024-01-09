@@ -14,7 +14,18 @@ const storeUnits: Record<string, UnitMapping> = {
     beutel: { unit: "srv", factor: 1 },
 };
 
-const invalidUnits = new Set([]);
+export function getQuantityAndUnit(rawItem: any, storeName: string) {
+    const defaultUnit: { quantity: number; unit: Unit } = { quantity: 1, unit: "stk" };
+    const { rawQuantity, rawUnit } = utils.extractRawUnitAndQuantityFromDescription(rawItem.subtitle, defaultUnit);
+    return utils.normalizeUnitAndQuantity(
+        rawItem.subtitle,
+        rawUnit,
+        rawQuantity,
+        storeUnits,
+        storeName,
+        defaultUnit
+    );
+}
 
 async function getOfferCount() {
     const resp = await get(`${BASE_URL}?index=offer&queryData=%7B%22offer%22:%7B%22marketId%22:false%7D%7D&searchLimit=1`);
@@ -62,16 +73,25 @@ export class BiomarktCrawler implements Crawler {
 
     getCanonical(rawItem: any, today: string): Item {
         const price = parseFloat(rawItem.price.replace(",", "."));
-        const originalPrice = rawItem.priceb ? parseFloat(rawItem.priceb.replace(",", ".")) : null;
+        //const originalPrice = rawItem.priceb ? parseFloat(rawItem.priceb.replace(",", ".")) : null;
+        //const markets = rawItem.marketIdList.marketIds;
+        //const brand = rawItem.brand;
+        //const matches = `$${rawItem.subtitle} ${rawItem.shordesc}`.match(/aus (.*)/);
+        //const origin = matches? matches[1]: null;
 
-        let rawLabels: any[] = rawItem.labels;
-        const rawLabelSet = new Set(rawLabels.map((item) => item.title));
+        const rawCategory = rawItem.articleGroup.productGroup.order;
+        const category = this.categories[rawCategory];
+        const { quantity, unit } = getQuantityAndUnit(rawItem, this.store.displayName);
+
+        const rawLabels = rawItem.labels;
+        const rawLabelSet = new Set(rawLabels.map((item: any) => item.title));
         const biolabels = {
             Bioland: "D Bioland" in rawLabelSet,
             Demeter: "Demeter internat. o. Mitglied" in rawLabelSet,
             Naturland: "D Naturland" in rawLabelSet,
             EU: "EU" in rawLabelSet || "EG-VO 2092/91 verarb. Prod." in rawLabelSet,
         };
+
         const hasBiolabel = Object.values(biolabels).filter((val) => val).length > 0;
         const tags = {
             bio: hasBiolabel || `${rawItem.title} ${rawItem.subtitle} ${rawItem.shordesc}`.toLowerCase().includes("bio"),
@@ -81,40 +101,15 @@ export class BiomarktCrawler implements Crawler {
             glutenfree: rawItem.glutenfree,
             cool: rawItem.cool,
             frozen: rawItem.frozen,
-            offer: rawItem.angebotsart == "Angebot",
+            discount: rawItem.angebotsart == "Angebot",
             fresh: rawItem.fresh,
             isWeighted: false,
             unavailable: false,
         };
 
-        //const markets = rawItem.marketIdList.marketIds;
-        //const brand = rawItem.brand;
-        //const matches = `$${rawItem.subtitle} ${rawItem.shordesc}`.match(/aus (.*)/);
-        //const origin = matches? matches[1]: null;
-        const rawCategory = rawItem.articleGroup.productGroup.order;
-        const category = this.categories[rawCategory];
-
-        const defaultUnit: { quantity: number; unit: Unit } = { quantity: 1, unit: "stk" };
-        const res = utils.extractRawUnitAndQuantityFromDescription(rawItem.subtitle, defaultUnit);
-        let rawQuantity = res.rawQuantity;
-        let rawUnit = res.rawUnit;
-
-        if (rawUnit in invalidUnits) {
-            rawQuantity = 1;
-            rawUnit = "stk";
-        }
-        const { quantity, unit } = utils.normalizeUnitAndQuantity(
-            rawItem.subtitle,
-            rawUnit,
-            rawQuantity,
-            storeUnits,
-            this.store.displayName,
-            defaultUnit
-        );
-
         return new Item(
             this.store.id,
-            rawItem.itemno,
+            rawItem.id,
             rawItem.title,
             category?.code || "Unknown",
             tags.unavailable,

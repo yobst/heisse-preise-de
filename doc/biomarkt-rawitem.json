@@ -1,0 +1,39 @@
+{
+    "updatedAt": "2024-01-03T08:53:24Z",
+    "vegetarian": true,
+    "articleGroup": {
+        "productGroup": {
+            "order": 0,
+            "title": "Obst & Gemüse"
+        }
+    },
+    "price": "2,85",
+    "publishAt": "2023-12-30",
+    "global": true,
+    "angebotsart": "Vorteilspreis",
+    "validfrom": "2024-01-03",
+    "vegan": true,
+    "validto": "2024-01-16",
+    "marketHighlight": false,
+    "shordesc": "lose oder im 1-kg-Zellulosenetz, aus Italien, Spanien oder Griechenland, HKL II",
+    "offerLabel": "Vorteilspreis",
+    "createdAt": "2023-12-18T09:33:21Z",
+    "land": "de",
+    "offerImage": "https://cdn.sanity.io/images/or2m2oma/production/9d6b4a7223519b8f2db603c8460b65df4724ac53-1114x742.png",
+    "labels": [
+        {
+            "title": "EU-Bio-Siegel",
+            "image": "https://cdn.sanity.io/images/or2m2oma/production/ba9e3834475695188dac6fb50b6b7e4fe3b6ac05-240x280.png"
+        }
+    ],
+    "subtitle": "je 1 kg",
+    "title": "Clementinen",
+    "productGroup": {
+        "_type": "reference",
+        "_key": "283ed9fb-47d9-4e47-ad62-8ab20a968633",
+        "_ref": "obst-und-gemuese"
+    },
+    "id": "cec6f8b1-c672-4fda-a750-ac22b2cb19d1",
+    "fresh": true,
+    "latest": "2024-01-03T08:53:24Z"
+}
