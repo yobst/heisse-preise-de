@@ -47,14 +47,7 @@ export function getQuantityAndUnit(rawItem: any, storeName: string) {
         rawUnit = "stk";
     }
 
-    return utils.normalizeUnitAndQuantity(
-        `${rawItem.slug} ${rawItem.name}`,
-        rawUnit,
-        rawQuantity,
-        storeUnits,
-        storeName,
-        defaultUnit
-    );
+    return utils.normalizeUnitAndQuantity(rawItem.name, rawUnit, rawQuantity, storeUnits, storeName,  defaultUnit);
 }
 
 

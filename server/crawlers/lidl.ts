@@ -45,8 +45,7 @@ export function getQuantityAndUnit(rawItem: any, storeName: string) {
         }
     }
 
-    return utils.normalizeUnitAndQuantity(
-        rawItem.fullTitle, rawUnit, rawQuantity, storeUnits, storeName, defaultUnit);
+    return utils.normalizeUnitAndQuantity(rawItem.fullTitle, rawUnit, rawQuantity, storeUnits, storeName, defaultUnit);
 }
 
 export class LidlCrawler implements Crawler {

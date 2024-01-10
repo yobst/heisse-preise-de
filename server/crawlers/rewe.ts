@@ -38,14 +38,7 @@ export function getQuantityAndUnit(rawItem: any, storeName: string) {
         rawUnit = res.rawUnit;
     }
 
-    return utils.normalizeUnitAndQuantity(
-        rawItem.name,
-        rawUnit,
-        rawQuantity,
-        storeUnits,
-        storeName,
-        defaultUnit
-    );
+    return utils.normalizeUnitAndQuantity(rawItem.name, rawUnit, rawQuantity, storeUnits, storeName, defaultUnit);
 }
 
 export class ReweCrawler implements Crawler {

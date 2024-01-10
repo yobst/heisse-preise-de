@@ -92,10 +92,8 @@ export class DmCrawler implements Crawler {
 
     getCanonical(rawItem: any, today: string): Item {
         const price = rawItem.price.value;
-        const itemName = `${rawItem.brandName} ${rawItem.name}`;
         const bio = rawItem.brandName === "dmBio" || (rawItem.name ? rawItem.name.startsWith("Bio ") || rawItem.name.startsWith("Bio-") : false);
         const unavailable = rawItem.notAvailable ? true : false;
-        const productId = rawItem.gtin;
         const isWeighted = false;
         const rawCategory = rawItem.categoryNames[0];
         const category: Record<any, any> = this.categories[rawCategory];
@@ -106,8 +104,8 @@ export class DmCrawler implements Crawler {
 
         return new Item(
             this.store.id,
-            productId,
-            itemName,
+            rawItem.gtin,
+            `${rawItem.brandName} ${rawItem.name}`,
             category?.code || "Unknown",
             unavailable,
             price,

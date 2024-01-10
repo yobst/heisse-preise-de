@@ -17,14 +17,7 @@ const storeUnits: Record<string, UnitMapping> = {
 export function getQuantityAndUnit(rawItem: any, storeName: string) {
     const defaultUnit: { quantity: number; unit: Unit } = { quantity: 1, unit: "stk" };
     const { rawQuantity, rawUnit } = utils.extractRawUnitAndQuantityFromDescription(rawItem.subtitle, defaultUnit);
-    return utils.normalizeUnitAndQuantity(
-        rawItem.subtitle,
-        rawUnit,
-        rawQuantity,
-        storeUnits,
-        storeName,
-        defaultUnit
-    );
+    return utils.normalizeUnitAndQuantity(rawItem.subtitle, rawUnit, rawQuantity, storeUnits, storeName, defaultUnit);
 }
 
 async function getOfferCount() {
