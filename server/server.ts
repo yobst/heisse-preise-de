@@ -2,6 +2,7 @@ import compression from "compression";
 import express from "express";
 import * as fs from "fs";
 import * as http from "http";
+import * as pg from "../common/postgresql";
 import { Item } from "../common/models";
 import { STORE_KEYS } from "../common/stores";
 import { itemsToCSV } from "../common/utils";
@@ -92,6 +93,9 @@ function parseArguments() {
     } else {
         copyItemsToSite(dataDir);
     }
+
+    pg.connect();
+    pg.makeTable();
 
     const app = express();
     app.use(compression());

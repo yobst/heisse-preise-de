@@ -5,6 +5,8 @@ import get from "axios";
 import * as utils from "./utils";
 import { stores } from "../../common/stores";
 
+const BASE_URL = "https://www.edeka.de/api";
+
 const storeUnits: Record<string, UnitMapping> = {
     gnetz: { unit: "g", factor: 1 },
     gpackung: { unit: "g", factor: 1 },
@@ -14,19 +16,22 @@ const storeUnits: Record<string, UnitMapping> = {
 
 export class EdekaCrawler implements Crawler {
     store = stores.edeka;
+    categories: Record<string, any> = {};
+
+    async fetchCategories() {
+        return this.categories;
+    }
 
     async fetchData() {
-        const res = await get("https://www.edeka.de/api/offers?limit=999&marketId=10000764");
+        const res = await get("${BASE_URL}/offers?limit=999&marketId=10000764");
         return res.data.offers;
     }
 
     getCanonical(rawItem: any, today: string): Item {
         const price = rawItem.price.rawValue;
         const description = `${rawItem.title}, ${rawItem.description}`;
-        const itemName = rawItem.title;
         const bio = description.toLowerCase().includes("bio");
         const unavailable = false;
-        const productId = rawItem.id;
         const isWeighted = false;
         const defaultUnit: { quantity: number; unit: Unit } = { quantity: 1, unit: "stk" };
         const { rawUnit, rawQuantity } = utils.extractRawUnitAndQuantityFromDescription(description, defaultUnit);
@@ -34,9 +39,9 @@ export class EdekaCrawler implements Crawler {
 
         return new Item(
             this.store.id,
-            productId,
-            itemName,
-            this.getCategory(rawItem),
+            rawItem.id,
+            rawItem.title,
+            "Unknown",
             unavailable,
             price,
             [{ date: today, price: price, unitPrice: 0 }],
@@ -45,10 +50,5 @@ export class EdekaCrawler implements Crawler {
             unitAndQuantity.quantity,
             bio
         );
-    }
-
-    getCategory(rawItem: any): Category {
-        //rawItem.category.name;
-        return "Unknown";
     }
 }

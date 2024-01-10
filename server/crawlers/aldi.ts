@@ -5,6 +5,9 @@ import get from "axios";
 import * as utils from "./utils";
 import { stores } from "../../common/stores";
 
+const BASE_URL = "https://api.de.prod.commerce.ci-aldi.com/v1/catalog-search-product-offers";
+const MERCHANT = "ADG045_1";
+
 const storeUnits: Record<string, UnitMapping> = {
     ea: { unit: "stk", factor: 1 },
     "er-set": { unit: "stk", factor: 1 },
@@ -13,21 +16,65 @@ const storeUnits: Record<string, UnitMapping> = {
 
 const invalidUnits = new Set(["v", "-lagig", "klingen", "-klingen"]);
 
+function getSubcategories(category: any) {
+    let categories = [
+        {
+            name: category.name,
+            urlSlugText: category.urlSlugText,
+            id: category.nodeId,
+            categoryKey: category.categoryKey,
+            active: true,
+            code: null,
+        },
+    ];
+    for (const subcategory of category.children) {
+        categories = categories.concat(getSubcategories(subcategory));
+    }
+
+    return categories;
+}
+
 export class AldiCrawler implements Crawler {
     store = stores.aldi;
 
+    categories: Record<number, any> = {};
+
+    async fetchCategories() {
+        const pageLimit = 12; // lowest possible number; allowed are 12, 16, 24, 30, 32, 48
+        let categories: Record<number, any> = {};
+        const ALDI_ITEM_SEARCH = `${BASE_URL}?page[limit]=${pageLimit}&page[offset]=0&merchantReference=${MERCHANT}`;
+        const resp = (await get(ALDI_ITEM_SEARCH)).data;
+
+        for (const category of resp.data[0].attributes.categoryTreeFilter) {
+            if (!(category.nodeId in categories)) {
+                const subcategories = getSubcategories(category);
+                for (const subcategory of subcategories) {
+                    categories[subcategory.id] = subcategory;
+                }
+            }
+        }
+        return categories;
+    }
+
     async fetchData() {
-        let offset = 0;
-        let items: any[] = [];
-        let done = false;
-        while (!done) {
-            const ALDI_ITEM_SEARCH = `https://api.de.prod.commerce.ci-aldi.com/v1/catalog-search-product-offers?page[limit]=48&page[offset]=${offset}&merchantReference=ADG045_1`;
-            const resp = (await get(ALDI_ITEM_SEARCH)).data;
-            const maxpage = resp.data[0].attributes.pagination.maxPage;
-            const currentpage = resp.data[0].attributes.pagination.currentPage;
-            done = offset > 5000 || currentpage >= maxpage;
-            items = items.concat(resp.data[0].attributes.catalogSearchProductOfferResults);
-            offset += 48;
+        const pageLimit = 48;
+        const items: any[] = [];
+        for (let categoryID in this.categories) {
+            const category = this.categories[categoryID];
+            const categorySlug = encodeURIComponent(category.urlSlugText);
+            let offset = 0;
+            let done = false;
+            while (!done) {
+                const ALDI_ITEM_SEARCH = `${BASE_URL}?page[limit]=${pageLimit}&page[offset]=${offset}&merchantReference=${MERCHANT}&category_slug=${categorySlug}`;
+                const resp = (await get(ALDI_ITEM_SEARCH)).data;
+                const maxpage = resp.data[0].attributes.pagination.maxPage;
+                const currentpage = resp.data[0].attributes.pagination.currentPage;
+                done = offset > 5000 || currentpage >= maxpage;
+                const products = resp.data[0].attributes.catalogSearchProductOfferResults;
+                products.forEach( (item: any) => item.category = category.id);
+                items.push(...products);
+                offset += pageLimit;
+            }
         }
         return items;
     }
@@ -39,6 +86,7 @@ export class AldiCrawler implements Crawler {
         const itemName = rawItem.name;
         const productId = rawItem.productConcreteSku;
         const unavailable = false;
+        const category = this.categories[rawItem.category] || "Unknown";
         const defaultUnit: { quantity: number; unit: Unit } = { quantity: 1, unit: "stk" };
 
         let rawQuantity = 1;
@@ -67,7 +115,7 @@ export class AldiCrawler implements Crawler {
             this.store.id,
             productId,
             itemName,
-            this.getCategory(rawItem),
+            category,
             unavailable,
             price,
             [{ date: today, price, unitPrice: 0.0 }],
@@ -76,9 +124,5 @@ export class AldiCrawler implements Crawler {
             quantity,
             bio
         );
-    }
-
-    getCategory(_rawItem: any): Category {
-        return "Unknown";
     }
 }

@@ -5,6 +5,7 @@ import { promisify } from "util";
 import { crawlers } from "./crawlers";
 import { Item } from "../common/models";
 import { STORE_KEYS } from "../common/stores";
+import * as pg from "../common/postgresql";
 
 const BROTLI_OPTIONS = {
     params: {
@@ -157,49 +158,99 @@ export function compress(items: Item[]) {
     return compressed;
 }
 
+async function updateCategories(dataDir: string, store: string) {
+    console.log(`Started updating categories for ${store}`);
+    const start = performance.now();
+
+    let categories: Record<any, any> = {};
+    if (!("SKIP_FETCHING_STORE_DATA" in process.env)) {
+        categories = await crawlers[store].fetchCategories();
+    }
+
+    const mappingFile = `${dataDir}/${store}-categories.json`;
+    let oldCategories: Record<any, any> = {};
+    if (fs.existsSync(mappingFile)) {
+        oldCategories = await readJSONAsync(mappingFile);
+    }
+
+    for (const categoryID of Object.keys(categories)) {
+        const oldCategory = oldCategories[categoryID];
+        if (oldCategory == null) {
+            console.log(`Found new unmapped category for ${store}: ${categoryID} - ${categories[categoryID].name}`);
+        } else {
+            categories[categoryID].code = oldCategory.code;
+            delete oldCategories[categoryID];
+        }
+    }
+
+    if (Object.keys(oldCategories).length > 0) {
+        for (const categoryID in oldCategories) {
+            const category = oldCategories[categoryID];
+            categories[categoryID] = category;
+            categories[categoryID].active = false;
+        }
+    }
+
+    writeJSON(mappingFile, categories, false);
+
+    crawlers[store].categories = categories;
+
+    let duration = (performance.now() - start) / 1000;
+    let nCategories = Object.keys(categories).length;
+    console.log(`Fetched ${store.toUpperCase()} categories, took ${duration} seconds, found ${nCategories} categories.`);
+    return true;
+}
+
+async function currentProducts(dataDir: string, today: string, store: string) {
+    console.log(`Started fetching data for ${store}`);
+    const start = performance.now();
+    let items: Item[] = [];
+    try {
+        const rawDataFile = `${dataDir}/${store}-${today}.json`;
+        let rawItems;
+        if ("SKIP_FETCHING_STORE_DATA" in process.env && fs.existsSync(rawDataFile + "." + FILE_COMPRESSOR))
+            rawItems = await readJSONAsync(rawDataFile + "." + FILE_COMPRESSOR);
+        else {
+            rawItems = await crawlers[store].fetchData();
+            writeJSON(rawDataFile, rawItems, true);
+        }
+        items = dedupItems(getCanonicalFor(store, rawItems, today));
+
+        let numUncategorized = items.filter((item) => item.category == "Unknown").length;
+        let duration = (performance.now() - start) / 1000;
+        console.log(`Fetched ${store.toUpperCase()} data, took ${duration} seconds, ${numUncategorized}/${items.length} items without category.`);
+    } catch (e) {
+        let duration = (performance.now() - start) / 1000;
+        console.error(`Error while fetching data from ${store}, continuing after ${duration} seconds...`, e);
+    }
+    return items;
+}
+
 export async function updateData(dataDir: string, done: (items: Item[]) => void = () => {}) {
     const today = currentDate();
     console.log("Fetching data for date: " + today);
-    const storeFetchPromises: Promise<Item[]>[] = [];
+
+    console.log("Updating categories for stores");
+    const categoriesPromises: Promise<Boolean>[] = [];
     for (const store of STORE_KEYS) {
-        storeFetchPromises.push(
+        categoriesPromises.push(
             new Promise(async (resolve) => {
-                console.log(`Started fetching data for ${store}`);
-                const start = performance.now();
-                try {
-                    const rawDataFile = `${dataDir}/${store}-${today}.json`;
-                    let rawItems;
-                    if ("SKIP_FETCHING_STORE_DATA" in process.env && fs.existsSync(rawDataFile + "." + FILE_COMPRESSOR))
-                        rawItems = await readJSONAsync(rawDataFile + "." + FILE_COMPRESSOR);
-                    else {
-                        rawItems = await crawlers[store].fetchData();
-                        writeJSON(rawDataFile, rawItems, true);
-                    }
-                    const items = dedupItems(getCanonicalFor(store, rawItems, today));
-
-                    let numUncategorized = 0;
-                    for (let i = 0; i < items.length; i++) {
-                        const rawItem = rawItems[i];
-                        const item = items[i];
-                        item.category = crawlers[store].getCategory(rawItem);
-                        if (item.category == null) numUncategorized++;
-                    }
-
-                    console.log(
-                        `Fetched ${store.toUpperCase()} data, took ${(performance.now() - start) / 1000} seconds, ${numUncategorized}/${
-                            items.length
-                        } items without category.`
-                    );
-                    resolve(items);
-                } catch (e) {
-                    console.error(`Error while fetching data from ${store}, continuing after ${(performance.now() - start) / 1000} seconds...`, e);
-                    resolve([]);
-                }
+                resolve(updateCategories(dataDir, store));
             })
         );
     }
+    await Promise.all(categoriesPromises);
 
-    let items = new Array<Item>().concat(...(await Promise.all(storeFetchPromises)));
+    console.log("Updating products for stores");
+    const productsPromises: Promise<Item[]>[] = [];
+    for (const store of STORE_KEYS) {
+        productsPromises.push(
+            new Promise(async (resolve) => {
+                resolve(currentProducts(dataDir, today, store));
+            })
+        );
+    }
+    let items = new Array<Item>().concat(...(await Promise.all(productsPromises)));
 
     if (fs.existsSync(`${dataDir}/latest-canonical.json.${FILE_COMPRESSOR}`)) {
         const oldItems = readJSON(`${dataDir}/latest-canonical.json.${FILE_COMPRESSOR}`);
@@ -210,6 +261,8 @@ export async function updateData(dataDir: string, done: (items: Item[]) => void 
     sortItems(items);
     items = dedupItems(items);
     writeJSON(`${dataDir}/latest-canonical.json`, items, true);
+
+    pg.insertData(items);
 
     if (done) done(items);
     return items;
@@ -262,11 +315,6 @@ export async function replay(rawDataDir: string) {
             console.log(`Creating canonical items for ${file}`);
             const rawItems = readJSON(file);
             const items = dedupItems(getCanonicalFor(store, rawItems, file.match(/\d{4}-\d{2}-\d{2}/)![0]));
-            for (let i = 0; i < items.length; i++) {
-                const rawItem = rawItems[i];
-                const item = items[i];
-                item.category = crawlers[store].getCategory(rawItem);
-            }
             return items;
         });
         canonicalFiles[store].reverse();

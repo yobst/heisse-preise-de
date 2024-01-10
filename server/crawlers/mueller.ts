@@ -1,9 +1,11 @@
-import { Category, Item, Unit, UnitMapping } from "../../common/models";
+import { Item, Unit, UnitMapping } from "../../common/models";
 import { Crawler } from "./crawler";
 
-import get from "axios";
 import * as utils from "./utils";
 import { stores } from "../../common/stores";
+
+const BASE_URL = "https://www.mueller.de";
+const RETRY_STATI = new Set([404]);
 
 const storeUnits: Record<string, UnitMapping> = {
     wl: { unit: "wg", factor: 1 },
@@ -15,58 +17,87 @@ const storeUnits: Record<string, UnitMapping> = {
     undefined: { unit: "stk", factor: 1 },
 };
 
-const categoriesExcludeList = ["Spielwaren", "Multi-Media", "Schreibwaren", "Strümpfe", "Handarbeit", "Bücher"];
+const categoriesIncludeList = ["Drogerie", "Genusswelt", "Naturshop"];
+
+const subcategoriesExcludeList = [
+    "Pflege",
+    "Kind & Mama",
+    "Gesundheit",
+    "Haushalt",
+    "Hygiene",
+    "Accessoires",
+    "Make-up",
+    "Düfte & Aromen",
+    "Neuheiten",
+    "Bücher",
+    "Bestseller",
+];
+
+function getSubcategories(category: any, IDprefix = "") {
+    let categories: any[] = [];
+    if (!subcategoriesExcludeList.includes(category.name)) {
+        const categoryID = `${IDprefix}${category.name}`;
+        categories.push({
+            name: category.name,
+            url: category.url,
+            id: categoryID,
+            active: true,
+            code: null,
+        });
+        for (const subcategory of category.subcategories) {
+            categories = categories.concat(getSubcategories(subcategory, `${categoryID}/`));
+        }
+    }
+
+    return categories;
+}
 
 export class MuellerCrawler implements Crawler {
     store = stores.mueller;
 
-    async fetchData() {
-        let muellerItems = [];
+    categories: Record<string, any> = {};
 
-        const MUELLER_CATEGORY_PAGES: any[] = [];
-        const data = (await get(`https://www.mueller.de/ajax/burgermenu/`)).data;
-        data.forEach((category: any) => {
-            if (!categoriesExcludeList.includes(category.name)) {
-                const subcategories = category.subcategories.map((subcategory: any) => subcategory.url);
-                MUELLER_CATEGORY_PAGES.push(...subcategories);
-            }
-        });
-
-        for (let page of MUELLER_CATEGORY_PAGES) {
-            let response = await get(`${page}?ajax=true&p=1`, {
-                validateStatus: function (status) {
-                    return (status >= 200 && status < 300) || status == 404;
-                },
-            });
-            let backoff = 2000;
-            while (response.status == 404) {
-                response = await get(`${page}?ajax=true&p=1`, {
-                    validateStatus: function (status) {
-                        return (status >= 200 && status < 300) || status == 404;
-                    },
-                });
-                if (response.status == 404) {
-                    console.error(`Couldn't fetch ${page}?ajax=true&p=1, retrying in ${backoff / 1000}s.`);
-                    await new Promise((resolve) => setTimeout(resolve, backoff));
-                    backoff *= 2;
-                }
-            }
-            const plp = response?.data?.productlistresult;
-
-            if (plp && plp.products && plp.products.length) {
-                const plpProducts = plp.products;
-                muellerItems.push(...plpProducts);
-
-                // loop throw pagination
-                // start at second page
-                let pages = plp.pager.maxPage;
-                for (let i = 2; i < pages.length; i++) {
-                    const paginatedResponse = await get(`${page}?ajax=true&p=1`);
-                    const paginatedPlp = paginatedResponse?.data?.productlistresult;
-                    if (paginatedPlp && paginatedPlp.products && paginatedPlp.products.length) {
-                        const paginatedPlpProducts = paginatedPlp.products;
-                        muellerItems.push(...paginatedPlpProducts);
+    async fetchCategories() {
+        const response: any = await utils.get(`${BASE_URL}/ajax/burgermenu/`, this.store.displayName, RETRY_STATI);
+        const data = response.data;
+        const categories: Record<string, any> = {};
+        if (data) {
+            data.forEach((category: any) => {
+                if (categoriesIncludeList.includes(category.name)) {
+                    let subcategories = getSubcategories(category);
+                    for (const subcategory of subcategories) {
+                        categories[subcategory.id] = subcategory;
                     }
+                }
+            });
+        }
+        return categories;
+    }
+
+    async fetchData() {
+        // TODO: speed up
+        let muellerItems: any[] = [];
+
+        for (let categoryId of ["Drogerie/Lebensmittel", "Naturshop/Lebensmittel"]) {
+            let category = this.categories[categoryId];
+            let page = category.url;
+
+            let currentPage: number = 0;
+            let maxPage: number = 0;
+            while (currentPage <= maxPage) {
+                let response: any = await utils.get(`${page}?ajax=true&p=${currentPage + 1}`, this.store.displayName, RETRY_STATI);
+                const plp = response.data?.productlistresult;
+                if (plp && plp.pager.maxPage) {
+                    maxPage = plp.pager.maxPage;
+                }
+                if (plp && plp.products && plp.products.length) {
+                    for (let product of plp.products) {
+                        product.category = categoryId;
+                        muellerItems.push(product);
+                    }
+                    currentPage++;
+                } else {
+                    break;
                 }
             }
         }
@@ -79,29 +110,29 @@ export class MuellerCrawler implements Crawler {
         const itemName = rawItem.name;
         const bio = itemName.toLowerCase().includes("bio");
         const unavailable = rawItem.availabilityInfo ? rawItem.availabilityInfo : false;
-        const productId = rawItem.productId;
         const isWeighted = false;
         const defaultUnit: { quantity: number; unit: Unit } = { quantity: 1, unit: "stk" };
         const { rawUnit, rawQuantity } = utils.extractRawUnitAndQuantityFromEndOfString(rawItem.quantityOfContent, defaultUnit);
         const unitAndQuantity = utils.normalizeUnitAndQuantity(itemName, rawUnit, rawQuantity, storeUnits, this.store.displayName, defaultUnit);
 
+        let rawCategory = rawItem.impressionDataLayer.ecommerce.impressions[0].category;
+        if (!(rawCategory in this.categories) && rawCategory.startsWith("Naturshop")) {
+            rawCategory = rawCategory.replace("Naturshop", "Drogerie");
+        }
+        const category = this.categories[rawCategory]?.code || "Unknown";
         return new Item(
             this.store.id,
-            productId,
+            rawItem.productId,
             itemName,
-            this.getCategory(rawItem),
+            category,
             unavailable,
             price,
             [{ date: today, price: price, unitPrice: 0.0 }],
             isWeighted,
             unitAndQuantity.unit,
             unitAndQuantity.quantity,
-            bio
+            bio,
+            rawItem.productUrl
         );
-    }
-
-    getCategory(rawItem: any): Category {
-        rawItem.impressionDataLayer.ecommerce.impressions[0].category;
-        return "Unknown";
     }
 }

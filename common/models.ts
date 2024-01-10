@@ -1,4 +1,4 @@
-export type Unit = "stk" | "cm" | "g" | "ml" | "wg" | "qm" | "kne" | "srv";
+export type Unit = "stk" | "cm" | "g" | "ml" | "wg" | "qm" | "kne" | "srv" | "zug";
 
 export type UnitMapping = { unit: Unit; factor: number };
 
@@ -34,19 +34,51 @@ export const units: Record<string, UnitMapping> = {
     wg: { unit: "wg", factor: 1 },
     kne: { unit: "kne", factor: 1 }, // from aldi store, not sure what this unit is, probably something like drained net weight
     srv: { unit: "srv", factor: 1 }, // serving
+    züge: { unit: "zug", factor: 1 },
 };
 
 export type Category =
-    | "Fruit & vegtables"
-    | "Bread & pastries"
-    | "Beverages"
-    | "Refrigerated goods"
-    | "Frozen goods"
-    | "Staple food"
-    | "Sweet and salty"
-    | "Care products"
-    | "Household products"
-    | "Pets"
+    | "All"
+    | "All / Backwaren"
+    | "All / Eier und Eiprodukte"
+    | "All / Fette und Öle"
+    | "All / Fisch"
+    | "All / Fleisch"
+    | "All / Gemüse"
+    | "All / Gemüse / Hülsenfrüchte"
+    | "All / Gemüse / Kräuter"
+    | "All / Gemüse / Salate"
+    | "All / Gemüse / Sprossen"
+    | "All / Gemüse / Weitere"
+    | "All / Getreide und Getreideprodukte"
+    | "All / Getreide und Getreideprodukte / Getreidekörner"
+    | "All / Getreide und Getreideprodukte / Mehl"
+    | "All / Getreide und Getreideprodukte / Nudeln"
+    | "All / Getränke"
+    | "All / Milchprodukte"
+    | "All / Milchprodukte / Butter"
+    | "All / Milchprodukte / Joghurt"
+    | "All / Milchprodukte / Käse"
+    | "All / Milchprodukte / Milch"
+    | "All / Milchprodukte / Quark"
+    | "All / Milchprodukte / Weitere"
+    | "All / Nahrungsergänzungsmittel"
+    | "All / Nüsse, Samen, Kerne"
+    | "All / Obst"
+    | "All / Salz und Gewürze"
+    | "All / Sonstiges"
+    | "All / Süßwaren"
+    | "All / Weitere Verarbeitete Lebensmittel"
+    | "All / Weitere Verarbeitete Lebensmittel / Brotaufstrich und Mus"
+    | "All / Weitere Verarbeitete Lebensmittel / Essig"
+    | "All / Weitere Verarbeitete Lebensmittel / Fertiggerichte"
+    | "All / Weitere Verarbeitete Lebensmittel / Fleischersatzprodukte"
+    | "All / Weitere Verarbeitete Lebensmittel / Kaffee"
+    | "All / Weitere Verarbeitete Lebensmittel / Kakao"
+    | "All / Weitere Verarbeitete Lebensmittel / Müsli"
+    | "All / Weitere Verarbeitete Lebensmittel / Tee"
+    | "All / Weitere Verarbeitete Lebensmittel / Weitere"
+    | "All / Zuckerarten, Sirupe und Honig"
     | "Unknown";
 
 export interface Price {
