@@ -95,8 +95,6 @@ export class FlinkCrawler implements Crawler {
     }
 
     getCanonical(rawItem: any, today: string): Item {
-        const productId = rawItem.id;
-        const itemName = rawItem.name;
         const unavailable = false;
         const price = rawItem.price.amount;
         const isWeighted = false;
@@ -118,8 +116,8 @@ export class FlinkCrawler implements Crawler {
 
         return new Item(
             this.store.id,
-            productId,
-            itemName,
+            rawItem.id,
+            rawItem.name,
             category?.code || "Unknown",
             unavailable,
             price,

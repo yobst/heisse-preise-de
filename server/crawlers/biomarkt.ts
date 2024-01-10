@@ -10,8 +10,10 @@ const BASE_URL = "https://www.biomarkt.de/api/es/offer/_search/de";
 const storeUnits: Record<string, UnitMapping> = {
     "-g-schale": { unit: "g", factor: 1 },
     "-g-packung": { unit: "g", factor: 1 },
+    "-g-pack": { unit: "g", factor: 1 },
+    "-kg-tüte": { unit: "g", factor: 1000 },
     "er-pack": { unit: "stk", factor: 1 },
-    beutel: { unit: "srv", factor: 1 },
+    "beutel": { unit: "srv", factor: 1 },
 };
 
 export function getQuantityAndUnit(rawItem: any, storeName: string) {
@@ -73,7 +75,7 @@ export class BiomarktCrawler implements Crawler {
         //const origin = matches? matches[1]: null;
 
         const rawCategory = rawItem.articleGroup.productGroup.order;
-        const category = this.categories[rawCategory];
+        const category = this.categories[rawCategory]?.code || "Unknown";
         const { quantity, unit } = getQuantityAndUnit(rawItem, this.store.displayName);
 
         const rawLabels = rawItem.labels;
@@ -84,7 +86,7 @@ export class BiomarktCrawler implements Crawler {
             Naturland: "D Naturland" in rawLabelSet,
             EU: "EU" in rawLabelSet || "EG-VO 2092/91 verarb. Prod." in rawLabelSet,
         };
-
+        
         const hasBiolabel = Object.values(biolabels).filter((val) => val).length > 0;
         const tags = {
             bio: hasBiolabel || `${rawItem.title} ${rawItem.subtitle} ${rawItem.shordesc}`.toLowerCase().includes("bio"),

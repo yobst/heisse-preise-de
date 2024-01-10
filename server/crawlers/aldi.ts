@@ -67,8 +67,8 @@ export class AldiCrawler implements Crawler {
     async fetchCategories() {
         const pageLimit = 12; // lowest possible number; allowed are 12, 16, 24, 30, 32, 48
         let categories: Record<string, any> = {};
-        const page = `${BASE_URL}?page[limit]=${pageLimit}&page[offset]=0&merchantReference=${MERCHANT}`;
-        const resp = (await get(page)).data;
+        const ALDI_ITEM_SEARCH = `${BASE_URL}?page[limit]=${pageLimit}&page[offset]=0&merchantReference=${MERCHANT}`;
+        const resp = (await get(ALDI_ITEM_SEARCH)).data;
 
         for (const category of resp.data[0].attributes.categoryTreeFilter) {
             if (!(category.nodeId in categories)) {
@@ -90,8 +90,8 @@ export class AldiCrawler implements Crawler {
             let offset = 0;
             let done = false;
             while (!done) {
-                const page = `${BASE_URL}?page[limit]=${pageLimit}&page[offset]=${offset}&merchantReference=${MERCHANT}&category_slug=${categorySlug}`;
-                const resp = (await get(page)).data;
+                const ALDI_ITEM_SEARCH = `${BASE_URL}?page[limit]=${pageLimit}&page[offset]=${offset}&merchantReference=${MERCHANT}&category_slug=${categorySlug}`;
+                const resp = (await get(ALDI_ITEM_SEARCH)).data;
                 const maxpage = resp.data[0].attributes.pagination.maxPage;
                 const currentpage = resp.data[0].attributes.pagination.currentPage;
                 done = offset > 5000 || currentpage >= maxpage;
@@ -109,7 +109,7 @@ export class AldiCrawler implements Crawler {
         const isWeighted = false;
         const bio = rawItem.name.toLowerCase().includes("bio");
         const unavailable = false;
-        const category = this.categories[rawItem.category] || "Unknown";
+        const category = this.categories[rawItem.category]?.code || "Unknown";
         const { quantity, unit } = getQuantityAndUnit(rawItem, this.store.displayName);
 
         return new Item(

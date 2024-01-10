@@ -20,5 +20,4 @@ LABEL org.opencontainers.image.description="Yobst Price Scraper"
 
 WORKDIR /heisse-preise-de/
 
-ENTRYPOINT ["npm"]
-CMD ["run", "server"]
+ENTRYPOINT ["npm", "run", "server"]

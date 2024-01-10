@@ -10,17 +10,20 @@ const HITS = Math.floor(30000 + Math.random() * 2000);
 
 const storeUnits: Record<string, UnitMapping> = {
     "": { unit: "stk", factor: 1 },
-    dosen: { unit: "stk", factor: 1 },
-    flasche: { unit: "stk", factor: 1 },
-    flaschen: { unit: "stk", factor: 1 },
+    "dosen": { unit: "stk", factor: 1 },
+    "flasche": { unit: "stk", factor: 1 },
+    "flaschen": { unit: "stk", factor: 1 },
     "pkg.": { unit: "stk", factor: 1 },
-    l: { unit: "ml", factor: 1000 },
-    ml: { unit: "ml", factor: 1 },
-    g: { unit: "g", factor: 1 },
-    kg: { unit: "g", factor: 1000 },
+    "stück": { unit: "stk", factor: 1 },
+    "l": { unit: "ml", factor: 1000 },
+    "kg": { unit: "g", factor: 1000 },
+    "g-preis": { unit: "g", factor: 1 },
     "m²": { unit: "qm", factor: 1 },
-    m2: { unit: "qm", factor: 1 },
+    "m2": { unit: "qm", factor: 1 },
 };
+
+const invalidUnits = new Set(["pfand"]);
+
 
 export function getQuantityAndUnit(rawItem: any, storeName: string) {
     const defaultUnit: { quantity: number; unit: Unit } = { quantity: 1, unit: "stk" };
@@ -45,7 +48,12 @@ export function getQuantityAndUnit(rawItem: any, storeName: string) {
         }
     }
 
-    return utils.normalizeUnitAndQuantity(rawItem.fullTitle, rawUnit, rawQuantity, storeUnits, storeName, defaultUnit);
+    if (invalidUnits.has(rawUnit)) {
+        rawQuantity = 1;
+        rawUnit = "stk";
+    }
+
+    return utils.normalizeUnitAndQuantity(rawItem.price.packaging?.text, rawUnit, rawQuantity, storeUnits, storeName, defaultUnit);
 }
 
 export class LidlCrawler implements Crawler {
@@ -80,20 +88,17 @@ export class LidlCrawler implements Crawler {
     getCanonical(rawItem: any, today: string): Item {
         const price = rawItem.price.price;
         const description = `${rawItem.keyfacts?.supplementalDescription?.concat(" ") ?? ""} ${rawItem.fullTitle}`;
-        const itemName = rawItem.fullTitle;
         const bio = description.toLowerCase().includes("bio");
         const unavailable = rawItem.stockAvailability.availabilityIndicator == 0;
-        const productId = rawItem.productId;
-        const rawCategory = rawItem.category;
-        const category: Record<any, any> = this.categories[rawCategory] || "Unknown";
-        const isWeighted = false;
+        const category = this.categories[rawItem.category]?.code || "Unknown";
+        const isWeighted = rawItem.price.packaging?.text?.toLowerCase().includes("g-preis") || false;
         const { quantity, unit } = getQuantityAndUnit(rawItem, this.store.displayName); 
 
         return new Item(
             this.store.id,
-            productId,
-            itemName,
-            category?.code || "Unknown",
+            rawItem.productId,
+            rawItem.fullTitle,
+            category,
             unavailable,
             price,
             [{ date: today, price: price, unitPrice: 0 }],

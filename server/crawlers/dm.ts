@@ -96,7 +96,7 @@ export class DmCrawler implements Crawler {
         const unavailable = rawItem.notAvailable ? true : false;
         const isWeighted = false;
         const rawCategory = rawItem.categoryNames[0];
-        const category: Record<any, any> = this.categories[rawCategory];
+        const category = this.categories[rawCategory]?.code || "Unknown";
         const rawQuantity = rawItem.netQuantityContent || rawItem.basePriceQuantity;
         const rawUnit = rawItem.contentUnit || rawItem.basePriceUnit;
         const defaultValue: { quantity: number; unit: Unit } = { quantity: 1, unit: "stk" };
@@ -106,7 +106,7 @@ export class DmCrawler implements Crawler {
             this.store.id,
             rawItem.gtin,
             `${rawItem.brandName} ${rawItem.name}`,
-            category?.code || "Unknown",
+            category,
             unavailable,
             price,
             [{ date: today, price: price, unitPrice: 0 }],
