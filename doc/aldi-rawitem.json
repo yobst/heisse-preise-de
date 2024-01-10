@@ -1,0 +1,55 @@
+{
+    "name": "KINDER Country 211,5 g",
+    "productOfferReference": "000000000000153426_ADG045_1",
+    "productAbstractSku": "000000000000153426A",
+    "productConcreteSku": "000000000000153426",
+    "prices": [
+        {
+            "priceTypeName": "DEFAULT",
+            "netAmount": null,
+            "grossAmount": 279,
+            "formattedPrice": "2,79 €",
+            "formattedPerUnit": null,
+            "formattedDisplayPrice": "2,79 €",
+            "formattedBottleDeposit": "0,00 €",
+            "formattedComparisonPrice": "13,16 €/1KG",
+            "formattedDisplayParWeight": null,
+            "bottleDeposit": 0,
+            "relevantNetAmount": 0,
+            "relevantGrossAmount": 279,
+            "serviceType": "pickup",
+            "currency": {
+                "code": "EUR",
+                "name": "Euro",
+                "symbol": "€"
+            }
+        }
+    ],
+    "urlSlugText": "kinder-kinder-country-211-5-g",
+    "randomWeightType": 0,
+    "parWeight": "0.00",
+    "usaSnapEligible": false,
+    "averageRating": "0.00",
+    "comparisonPrice": null,
+    "comparisonPriceUnit": "1KG",
+    "contentUnit": "KG",
+    "preFormattedUnitContent": "0.212 KG",
+    "numberOfRatings": null,
+    "netContent": "0.00",
+    "quantityMax": 50,
+    "quantityMin": 1,
+    "quantityInterval": 1,
+    "brandName": "KINDER",
+    "packagingUnit": null,
+    "salesUnit": null,
+    "images": [
+        {
+            "externalUrlLarge": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/{width}/19099d49-2329-48f4-a756-806fc7248f20/{slug}",
+            "maxWidth": 1000,
+            "maxHeight": 1000,
+            "ratio": 1,
+            "assetType": "FR01",
+            "sortOrder": 0
+        }
+    ]
+}
