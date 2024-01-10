@@ -1,11 +1,14 @@
 import * as fs from "fs";
-const fsAsync = fs.promises;
 import * as zlib from "zlib";
 import { promisify } from "util";
 import { crawlers } from "./crawlers";
 import { Item } from "../common/models";
 import { STORE_KEYS } from "../common/stores";
 import * as pg from "../common/postgresql";
+import stringify from "json-stable-stringify";
+
+
+const fsAsync = fs.promises;
 
 const BROTLI_OPTIONS = {
     params: {
@@ -32,7 +35,7 @@ export async function readJSONAsync(file: string) {
 
 export function writeJSON(file: string, data: any, fileCompressor = false, spacer = 2, compressData = false) {
     if (compressData) data = compress(data);
-    data = JSON.stringify(data, null, spacer);
+    data = stringify(data, {space: spacer});
     if (fileCompressor) data = zlib.brotliCompressSync(data, BROTLI_OPTIONS);
     fs.writeFileSync(`${file}${fileCompressor ? "." + FILE_COMPRESSOR : ""}`, data);
 }
@@ -190,7 +193,6 @@ async function updateCategories(dataDir: string, store: string) {
             categories[categoryID].active = false;
         }
     }
-
     writeJSON(mappingFile, categories, false);
 
     crawlers[store].categories = categories;

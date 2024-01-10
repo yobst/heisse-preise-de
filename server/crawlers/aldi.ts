@@ -36,12 +36,11 @@ function getSubcategories(category: any) {
 
 export class AldiCrawler implements Crawler {
     store = stores.aldi;
-
-    categories: Record<number, any> = {};
+    categories: Record<string, any> = {};
 
     async fetchCategories() {
         const pageLimit = 12; // lowest possible number; allowed are 12, 16, 24, 30, 32, 48
-        let categories: Record<number, any> = {};
+        let categories: Record<string, any> = {};
         const ALDI_ITEM_SEARCH = `${BASE_URL}?page[limit]=${pageLimit}&page[offset]=0&merchantReference=${MERCHANT}`;
         const resp = (await get(ALDI_ITEM_SEARCH)).data;
 

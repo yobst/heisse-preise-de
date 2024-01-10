@@ -22,8 +22,7 @@ const storeUnits: Record<string, UnitMapping> = {
 
 export class LidlCrawler implements Crawler {
     store = stores.lidl;
-
-    categories = [];
+    categories: Record<string, any> = {};
 
     async fetchCategories() {
         const LIDL_SEARCH = `https://www.lidl.de/p/api/gridboxes/DE/de/?max=${HITS}`;
