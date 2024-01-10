@@ -14,10 +14,9 @@ const storeUnits: Record<string, UnitMapping> = {
     "flasche": { unit: "stk", factor: 1 },
     "flaschen": { unit: "stk", factor: 1 },
     "pkg.": { unit: "stk", factor: 1 },
-    "stück": { unit: "stk", factor: 1 },
     "l": { unit: "ml", factor: 1000 },
     "kg": { unit: "g", factor: 1000 },
-    "g-preis": { unit: "g", factor: 1 },
+    "-g-preis": { unit: "g", factor: 1 },
     "m²": { unit: "qm", factor: 1 },
     "m2": { unit: "qm", factor: 1 },
 };
@@ -53,7 +52,7 @@ export function getQuantityAndUnit(rawItem: any, storeName: string) {
         rawUnit = "stk";
     }
 
-    return utils.normalizeUnitAndQuantity(rawItem.price.packaging?.text, rawUnit, rawQuantity, storeUnits, storeName, defaultUnit);
+    return utils.normalizeUnitAndQuantity(`${rawItem.fullTitle} ${rawItem.price.packaging?.text}`, rawUnit, rawQuantity, storeUnits, storeName, defaultUnit);
 }
 
 export class LidlCrawler implements Crawler {
