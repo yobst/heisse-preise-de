@@ -16,6 +16,32 @@ const storeUnits: Record<string, UnitMapping> = {
 
 const invalidUnits = new Set(["v", "-lagig", "klingen", "-klingen"]);
 
+export function getQuantityAndUnit(rawItem: any, storeName: string) {
+    const defaultUnit: { quantity: number; unit: Unit } = { quantity: 1, unit: "stk" };
+
+    let rawQuantity = 1;
+    let rawUnit = "stk";
+
+    if (rawItem.preFormattedUnitContent) {
+        const res = utils.extractRawUnitAndQuantityFromEndOfString(rawItem.preFormattedUnitContent, defaultUnit);
+        rawQuantity = res.rawQuantity;
+        rawUnit = res.rawUnit;
+    }
+
+    if (rawUnit == defaultUnit.unit) {
+        const res = utils.extractRawUnitAndQuantityFromDescription(rawItem.name, defaultUnit);
+        rawQuantity = res.rawQuantity;
+        rawUnit = res.rawUnit;
+    }
+
+    if (invalidUnits.has(rawUnit)) {
+        rawQuantity = 1;
+        rawUnit = "stk";
+    }
+
+    return utils.normalizeUnitAndQuantity(rawItem.name, rawUnit, rawQuantity, storeUnits, storeName, defaultUnit);
+}
+
 function getSubcategories(category: any) {
     let categories = [
         {
@@ -70,7 +96,7 @@ export class AldiCrawler implements Crawler {
                 const currentpage = resp.data[0].attributes.pagination.currentPage;
                 done = offset > 5000 || currentpage >= maxpage;
                 const products = resp.data[0].attributes.catalogSearchProductOfferResults;
-                products.forEach( (item: any) => item.category = category.id);
+                products.forEach((item: any) => item.category = category.id);
                 items.push(...products);
                 offset += pageLimit;
             }
@@ -82,38 +108,14 @@ export class AldiCrawler implements Crawler {
         const price = rawItem.prices[0].grossAmount / 100;
         const isWeighted = false;
         const bio = rawItem.name.toLowerCase().includes("bio");
-        const itemName = rawItem.name;
-        const productId = rawItem.productConcreteSku;
         const unavailable = false;
-        const category = this.categories[rawItem.category] || "Unknown";
-        const defaultUnit: { quantity: number; unit: Unit } = { quantity: 1, unit: "stk" };
-
-        let rawQuantity = 1;
-        let rawUnit = "stk";
-
-        if (rawItem.preFormattedUnitContent) {
-            const res = utils.extractRawUnitAndQuantityFromEndOfString(rawItem.preFormattedUnitContent, defaultUnit);
-            rawQuantity = res.rawQuantity;
-            rawUnit = res.rawUnit;
-        }
-
-        if (rawUnit == defaultUnit.unit) {
-            const res = utils.extractRawUnitAndQuantityFromDescription(rawItem.name, defaultUnit);
-            rawQuantity = res.rawQuantity;
-            rawUnit = res.rawUnit;
-        }
-
-        if (invalidUnits.has(rawUnit)) {
-            rawQuantity = 1;
-            rawUnit = "stk";
-        }
-
-        const { quantity, unit } = utils.normalizeUnitAndQuantity(itemName, rawUnit, rawQuantity, storeUnits, this.store.displayName, defaultUnit);
+        const category = this.categories[rawItem.category]?.code || "Unknown";
+        const { quantity, unit } = getQuantityAndUnit(rawItem, this.store.displayName);
 
         return new Item(
             this.store.id,
-            productId,
-            itemName,
+            rawItem.productConcreteSku,
+            rawItem.name,
             category,
             unavailable,
             price,

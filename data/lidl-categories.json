@@ -820,8 +820,8 @@
     "id": "Kategorien/Bücher & Medien/Schule und Lernen/Schulbücher/Titel Sonstiges"
   },
   "Kategorien/Gesundheit & Pflege/Beauty/Beauty-Zubehör": {
-    "active": true,
-    "code": null,
+    "active": false,
+    "code": "All",
     "id": "Kategorien/Gesundheit & Pflege/Beauty/Beauty-Zubehör"
   },
   "Kategorien/Gesundheit & Pflege/Beauty/Haarpflege/Föns": {
@@ -1040,7 +1040,7 @@
     "id": "Kategorien/Guthaben- und Gutscheinkarten/Gaming-Guthaben"
   },
   "Kategorien/Guthaben- und Gutscheinkarten/Geschenkkarte für App Store & iTunes": {
-    "active": true,
+    "active": false,
     "code": "All",
     "id": "Kategorien/Guthaben- und Gutscheinkarten/Geschenkkarte für App Store & iTunes"
   },
@@ -1344,6 +1344,11 @@
     "code": "All",
     "id": "Kategorien/Haushalt & Küche/Kleingeräte Küche/Dampfgarer & Sous Vide Garer"
   },
+  "Kategorien/Haushalt & Küche/Kleingeräte Küche/Eierkocher": {
+    "active": true,
+    "code": "All",
+    "id": "Kategorien/Haushalt & Küche/Kleingeräte Küche/Eierkocher"
+  },
   "Kategorien/Haushalt & Küche/Kleingeräte Küche/Einkochen & Konservieren": {
     "active": true,
     "code": "All",
@@ -1540,8 +1545,8 @@
     "id": "Kategorien/Haushalt & Küche/Kleingeräte Küche/Wasserkocher"
   },
   "Kategorien/Haushalt & Küche/Kleingeräte Küche/Zuckerwattenmaschinen": {
-    "active": true,
-    "code": null,
+    "active": false,
+    "code": "All",
     "id": "Kategorien/Haushalt & Küche/Kleingeräte Küche/Zuckerwattenmaschinen"
   },
   "Kategorien/Haushalt & Küche/Kochgeschirr": {
@@ -1626,7 +1631,7 @@
   },
   "Kategorien/Haushalt & Küche/Kochgeschirr/weitere Pfannen": {
     "active": true,
-    "code": null,
+    "code": "All",
     "id": "Kategorien/Haushalt & Küche/Kochgeschirr/weitere Pfannen"
   },
   "Kategorien/Haushalt & Küche/Küchenzubehör": {
@@ -2385,13 +2390,13 @@
     "id": "Kategorien/Mode/Damenmode/Damen Sportbekleidung/Trekking Oberteile"
   },
   "Kategorien/Mode/Damenmode/Damen Sportbekleidung/Trekking Unterteile": {
-    "active": true,
+    "active": false,
     "code": "All",
     "id": "Kategorien/Mode/Damenmode/Damen Sportbekleidung/Trekking Unterteile"
   },
   "Kategorien/Mode/Damenmode/Damen Sportbekleidung/Trekkings Schuhe": {
-    "active": true,
-    "code": null,
+    "active": false,
+    "code": "All",
     "id": "Kategorien/Mode/Damenmode/Damen Sportbekleidung/Trekkings Schuhe"
   },
   "Kategorien/Mode/Damenmode/Damen Sportbekleidung/Yoga Unterteile": {
@@ -3105,8 +3110,8 @@
     "id": "Kategorien/Mode/Herrenmode/Herren Sportbekleidung/Trekking Oberteile"
   },
   "Kategorien/Mode/Herrenmode/Herren Sportbekleidung/Trekking Unterteile": {
-    "active": true,
-    "code": null,
+    "active": false,
+    "code": "All",
     "id": "Kategorien/Mode/Herrenmode/Herren Sportbekleidung/Trekking Unterteile"
   },
   "Kategorien/Mode/Herrenmode/Herren Sportbekleidung/Trekkings Schuhe": {
@@ -3735,7 +3740,7 @@
     "id": "Kategorien/Mode/Kindermode/Kinder Mädchen/Shirts"
   },
   "Kategorien/Mode/Kindermode/Kinder Mädchen/Shorts": {
-    "active": true,
+    "active": false,
     "code": "All",
     "id": "Kategorien/Mode/Kindermode/Kinder Mädchen/Shorts"
   },
@@ -4061,7 +4066,7 @@
   },
   "Kategorien/Multimedia/Computer & Büro/Bürobedarf & Zubehör": {
     "active": false,
-    "code": null,
+    "code": "All",
     "id": "Kategorien/Multimedia/Computer & Büro/Bürobedarf & Zubehör"
   },
   "Kategorien/Multimedia/Computer & Büro/Bürobedarf & Zubehör/Akkus": {
@@ -4654,6 +4659,11 @@
     "code": "All",
     "id": "Kategorien/Spirituosen/Brandy"
   },
+  "Kategorien/Spirituosen/Cocktails und Mischgetränke": {
+    "active": false,
+    "code": null,
+    "id": "Kategorien/Spirituosen/Cocktails und Mischgetränke"
+  },
   "Kategorien/Spirituosen/Cognac": {
     "active": true,
     "code": "All",
@@ -4930,7 +4940,7 @@
     "id": "Kategorien/Sport & Freizeit/Camping & Outdoor/Übernachtungsausrüstung"
   },
   "Kategorien/Sport & Freizeit/Camping & Outdoor/Übernachtungsausrüstung/Feldbetten": {
-    "active": true,
+    "active": false,
     "code": "All",
     "id": "Kategorien/Sport & Freizeit/Camping & Outdoor/Übernachtungsausrüstung/Feldbetten"
   },
@@ -5290,7 +5300,7 @@
     "id": "Kategorien/Sport & Freizeit/Natur & Erforschen/Nachtsichtgeräte"
   },
   "Kategorien/Sport & Freizeit/Sportarten/American Football/Bälle": {
-    "active": true,
+    "active": false,
     "code": "All",
     "id": "Kategorien/Sport & Freizeit/Sportarten/American Football/Bälle"
   },
@@ -5530,7 +5540,7 @@
     "id": "Kategorien/Sport & Freizeit/Sportarten/Wassersport/Stand-Up-Paddle-Board"
   },
   "Kategorien/Sport & Freizeit/Sportarten/Wassersport/Wasserbälle": {
-    "active": true,
+    "active": false,
     "code": "All",
     "id": "Kategorien/Sport & Freizeit/Sportarten/Wassersport/Wasserbälle"
   },
@@ -5616,7 +5626,7 @@
   },
   "Kategorien/Tierwelt/Hund/Hundeschlafplätze/Körbe & Sofas": {
     "active": false,
-    "code": null,
+    "code": "All",
     "id": "Kategorien/Tierwelt/Hund/Hundeschlafplätze/Körbe & Sofas"
   },
   "Kategorien/Tierwelt/Hund/Hundespielzeug": {
@@ -5635,7 +5645,7 @@
     "id": "Kategorien/Tierwelt/Katze/Katzenspielzeug"
   },
   "Kategorien/Tierwelt/Katze/Katzentransportboxen": {
-    "active": true,
+    "active": false,
     "code": "All",
     "id": "Kategorien/Tierwelt/Katze/Katzentransportboxen"
   },
@@ -5650,8 +5660,8 @@
     "id": "Kategorien/Tierwelt/Kleintier"
   },
   "Kategorien/Tierwelt/Kleintier/Käfige": {
-    "active": true,
-    "code": null,
+    "active": false,
+    "code": "All",
     "id": "Kategorien/Tierwelt/Kleintier/Käfige"
   },
   "Kategorien/Tierwelt/Vogel/Futterhäuser": {
@@ -5820,7 +5830,7 @@
     "id": "Kategorien/Wohnen & Einrichten/Bettwaren & Matratzen/Kissen/Synthetische Kopfkissen"
   },
   "Kategorien/Wohnen & Einrichten/Bettwaren & Matratzen/Lattenroste/Elektrisch verstellbar": {
-    "active": true,
+    "active": false,
     "code": "All",
     "id": "Kategorien/Wohnen & Einrichten/Bettwaren & Matratzen/Lattenroste/Elektrisch verstellbar"
   },
@@ -6266,7 +6276,7 @@
   },
   "Kategorien/Wohnen & Einrichten/Möbel/Betten/Polsterbetten": {
     "active": false,
-    "code": null,
+    "code": "All",
     "id": "Kategorien/Wohnen & Einrichten/Möbel/Betten/Polsterbetten"
   },
   "Kategorien/Wohnen & Einrichten/Möbel/Betten/Wasserbetten": {
@@ -6490,7 +6500,7 @@
     "id": "Kategorien/Wohnen & Einrichten/Möbel/Wickelkommoden"
   },
   "Kategorien/Wohnen & Einrichten/Rollos & Jalousien/Dekorollos": {
-    "active": true,
+    "active": false,
     "code": "All",
     "id": "Kategorien/Wohnen & Einrichten/Rollos & Jalousien/Dekorollos"
   },

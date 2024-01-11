@@ -1,0 +1,60 @@
+{
+    "gtin": 4066447581843,
+    "dan": 476081,
+    "name": "Pflanzendrink, Haferdrink Natur",
+    "brandName": "dmBio",
+    "title": "Pflanzendrink, Haferdrink Natur, 1 l",
+    "isoCountry": "DE",
+    "isoLanguage": "de",
+    "purchasable": true,
+    "notAvailable": false,
+    "relativeProductUrl": "/dmbio-pflanzendrink-haferdrink-natur-p4066447581843.html",
+    "imageUrlTemplates": [
+        "https://media.dm-static.com/images/{transformations}/v1703170187/products/pim/4066447581843-117706452/dmbio-pflanzendrink-haferdrink-natur"
+    ],
+    "price": {
+        "formattedValue": "0,95 €",
+        "value": 0.95,
+        "currencySymbol": "€",
+        "currencyIso": "EUR"
+    },
+    "priceLocalized": "0,95 €",
+    "priceCurrencyIso": "EUR",
+    "basePrice": {
+        "formattedValue": "0,95 €"
+    },
+    "basePriceLocalized": "0,95 €",
+    "basePriceUnit": "l",
+    "basePriceQuantity": 1.0,
+    "basePriceRelNetQuantity": 1.0,
+    "contentUnit": "l",
+    "netQuantityContent": 1.0,
+    "isSellout": false,
+    "isOnlineOnly": false,
+    "eyecatchers": [
+        {
+            "eyecatcherType": "DM_BRAND",
+            "viewType": "NORMAL",
+            "altText": "Unsere Marke nur bei uns: dmBio Pflanzendrink, Haferdrink Natur 4066447581843",
+            "imageUrlTemplate": "https://media.dm-static.com/images/v1599975276/products/pim/eyecatcher_dmbrand_de/dmbrand_de.svg",
+            "order": 4
+        },
+        {
+            "eyecatcherType": "CERT_OEKOTEST",
+            "viewType": "MOUSEOVER",
+            "altText": "dmBio Pflanzendrink, Haferdrink Natur 4066447581843",
+            "imageUrlTemplate": "https://media.dm-static.com/images/{transformations}/v1700811380/products/pim/Oekotest-Haferdrink-Natur_4066447581843/Oekotest-Siegel_dmBio_ME_HaferdrinkNatur.jpg",
+            "order": 8
+        }
+    ],
+    "generalIndicationLabel": true,
+    "notDiscountAllowed": false,
+    "notScoreAllowed": false,
+    "notDeliverableToStore": false,
+    "ratingValue": 4.5546,
+    "ratingCount": 577,
+    "hideStoreAvailability": false,
+    "categoryNames": [
+        "Pflanzendrinks"
+    ]
+}

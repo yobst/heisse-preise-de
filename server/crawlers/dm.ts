@@ -1,7 +1,6 @@
 import { Item, Unit, UnitMapping } from "../../common/models";
 import { Crawler } from "./crawler";
 
-import get from "axios";
 import * as utils from "./utils";
 import { stores } from "../../common/stores";
 
@@ -37,7 +36,6 @@ function getSubcategories(category: any) {
 
     return categories;
 }
-const categoriesIncludeList = ["Ernährung", "Baby & Kind", "Gesundheit"]; // 30000 40000 50000
 
 export class DmCrawler implements Crawler {
     store = stores.dm;
@@ -61,7 +59,10 @@ export class DmCrawler implements Crawler {
 
     async fetchData() {
         const urlPrefix = `${BASE_URL}/search/crawl?pageSize=1000&`;
-        const queries = [
+        // only first 1000 items get transmitted
+        // queries should get calibrated automatically
+        // only get categories "Ernährung" (040000), "Baby & Kind" (050000), "Gesundheit" (030000)
+        const queries = [ 
             "allCategories.id=030000&price.value.to=7", //~980 items (!)
             "allCategories.id=030000&price.value.from=7", //~500 items
             "allCategories.id=040000&price.value.to=2", //~600 items
@@ -91,13 +92,11 @@ export class DmCrawler implements Crawler {
 
     getCanonical(rawItem: any, today: string): Item {
         const price = rawItem.price.value;
-        const itemName = `${rawItem.brandName} ${rawItem.name}`;
         const bio = rawItem.brandName === "dmBio" || (rawItem.name ? rawItem.name.startsWith("Bio ") || rawItem.name.startsWith("Bio-") : false);
         const unavailable = rawItem.notAvailable ? true : false;
-        const productId = rawItem.gtin;
         const isWeighted = false;
         const rawCategory = rawItem.categoryNames[0];
-        const category: Record<any, any> = this.categories[rawCategory];
+        const category = this.categories[rawCategory]?.code || "Unknown";
         const rawQuantity = rawItem.netQuantityContent || rawItem.basePriceQuantity;
         const rawUnit = rawItem.contentUnit || rawItem.basePriceUnit;
         const defaultValue: { quantity: number; unit: Unit } = { quantity: 1, unit: "stk" };
@@ -105,16 +104,17 @@ export class DmCrawler implements Crawler {
 
         return new Item(
             this.store.id,
-            productId,
-            itemName,
-            category?.code || "Unknown",
+            rawItem.gtin,
+            `${rawItem.brandName} ${rawItem.name}`,
+            category,
             unavailable,
             price,
             [{ date: today, price: price, unitPrice: 0 }],
             isWeighted,
             unitAndQuantity.unit,
             unitAndQuantity.quantity,
-            bio
+            bio,
+            rawItem.relativeProductUrl
         );
     }
 }
