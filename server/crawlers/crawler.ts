@@ -1,4 +1,4 @@
-import { Category, Item, Store } from "../../common/models";
+import { Item, Store } from "../../common/models";
 
 export interface Crawler {
     store: Store;
