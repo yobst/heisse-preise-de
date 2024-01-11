@@ -5300,7 +5300,7 @@
     "id": "Kategorien/Sport & Freizeit/Natur & Erforschen/Nachtsichtgeräte"
   },
   "Kategorien/Sport & Freizeit/Sportarten/American Football/Bälle": {
-    "active": false,
+    "active": true,
     "code": "All",
     "id": "Kategorien/Sport & Freizeit/Sportarten/American Football/Bälle"
   },
