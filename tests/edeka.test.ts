@@ -1,5 +1,6 @@
 
 import { EdekaCrawler } from "../server/crawlers/edeka";
+import * as edeka from "../server/crawlers/edeka";
 
 const rawItem = {
     "id": 352259791,
@@ -29,6 +30,9 @@ const canonizedItem = {
 describe('edeka scraper', () => {
     const crawler = new EdekaCrawler();
     const today = "1980-01-01";
+    test('unit and quantity extraction succeeds', () => {
+        expect(edeka.getQuantityAndUnit(rawItem, "Edeka")).toEqual({ "quantity": 1000, "unit": "g",});
+    });
     test('item canonization succeeds', () => {
         expect(crawler.getCanonical(rawItem, today)).toEqual(canonizedItem);
     });
