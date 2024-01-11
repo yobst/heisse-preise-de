@@ -1,4 +1,4 @@
-import { Category, Item, Unit, UnitMapping } from "../../common/models";
+import { Item, Unit, UnitMapping } from "../../common/models";
 import { Crawler } from "./crawler";
 
 import get from "axios";
@@ -6,6 +6,7 @@ import * as utils from "./utils";
 import { stores } from "../../common/stores";
 
 const BASE_URL = "https://www.edeka.de/api";
+const MARKET_ID = "10000764"
 
 const storeUnits: Record<string, UnitMapping> = {
     gnetz: { unit: "g", factor: 1 },
@@ -19,11 +20,13 @@ export class EdekaCrawler implements Crawler {
     categories: Record<string, any> = {};
 
     async fetchCategories() {
+        // No categories available on Website or in App
         return this.categories;
     }
 
     async fetchData() {
-        const res = await get("${BASE_URL}/offers?limit=999&marketId=10000764");
+        const limit = 999;
+        const res = await get(`${BASE_URL}/offers?limit=${limit}&marketId=${MARKET_ID}`);
         return res.data.offers;
     }
 
