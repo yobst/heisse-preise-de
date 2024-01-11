@@ -6,7 +6,10 @@ import util from "util";
 
 const exec = util.promisify(require("child_process").exec);
 
-const BASE_URL = "https://mobile-api.rewe.de/api/v3";
+const API_BASE_URL = "https://mobile-api.rewe.de/api/v3";
+const BASE_URL = "https://shop.rewe.de/api/products";
+const MARKET_ID = "440405";
+const RETRY_STATI = new Set([]);
 
 const storeUnits: Record<string, UnitMapping> = {
     beutel: { unit: "stk", factor: 1 },
@@ -41,12 +44,41 @@ export function getQuantityAndUnit(rawItem: any, storeName: string) {
     return utils.normalizeUnitAndQuantity(rawItem.name, rawUnit, rawQuantity, storeUnits, storeName, defaultUnit);
 }
 
+function getSubcategories(category: any) {
+    const categories = [
+        {
+            name: category.name,
+            facetFilterQuery: category.facetFilterQuery,
+            slug: category.slug,
+            active: true,
+            code: null,
+        }
+    ];
+    for (const subcategory of (category.subFacetConstraints || [])) {
+        categories.push(...getSubcategories(subcategory));
+    }
+
+    return categories;
+}
+
 export class ReweCrawler implements Crawler {
     store = stores.rewe;
     categories: Record<string, any> = {};
 
     async fetchCategories() {
-        return [];
+        const limit = 1;
+        const page = `${BASE_URL}?objectsPerPage=${limit}&page=1&search=%2A&sorting=RELEVANCE_DESC&serviceTypes=PICKUP&market=${MARKET_ID}&debug=false&autocorrect=true`;
+        const resp = await utils.get(page, this.store.id, RETRY_STATI);
+        const data = resp.data?.facets.find((item: any) => item.name == "CATEGORY")?.facetConstraints;
+        const categories: Record<string, any> = {};
+        if (data) {
+            data.forEach((category: any) => {
+                for (const subcategory of getSubcategories(category)) {
+                    categories[subcategory.slug] = subcategory;
+                }
+            });
+        }
+        return categories;
     }
 
     async fetchData() {
@@ -57,7 +89,7 @@ export class ReweCrawler implements Crawler {
             let pageId = 1;
             let result = (
                 await exec(
-                    `curl -s "${BASE_URL}/product-search\?searchTerm\=\*\&page\=${pageId++}\&sorting\=RELEVANCE_DESC\&objectsPerPage\=250\&marketCode\=440405\&serviceTypes\=PICKUP" -H "Rd-Service-Types: PICKUP" -H "Rd-Market-Id: 440405"`
+                    `curl -s "${API_BASE_URL}/product-search\?searchTerm\=\*\&page\=${pageId++}\&sorting\=RELEVANCE_DESC\&objectsPerPage\=250\&marketCode\=${MARKET_ID}\&serviceTypes\=PICKUP" -H "Rd-Service-Types: PICKUP" -H "Rd-Market-Id: 440405"`
                 )
             ).stdout;
             const firstPage = JSON.parse(result);
@@ -68,7 +100,7 @@ export class ReweCrawler implements Crawler {
                     ...JSON.parse(
                         (
                             await exec(
-                                `curl -s "${BASE_URL}/product-search\?searchTerm\=\*\&page\=${pageId++}\&sorting\=RELEVANCE_DESC\&objectsPerPage\=250\&marketCode\=440405\&serviceTypes\=PICKUP" -H "Rd-Service-Types: PICKUP" -H "Rd-Market-Id: 440405"`
+                                `curl -s "${API_BASE_URL}/product-search\?searchTerm\=\*\&page\=${pageId++}\&sorting\=RELEVANCE_DESC\&objectsPerPage\=250\&marketCode\=440405\&serviceTypes\=PICKUP" -H "Rd-Service-Types: PICKUP" -H "Rd-Market-Id: 440405"`
                             )
                         ).stdout
                     ).products

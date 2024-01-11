@@ -1,2 +1,226 @@
-[
-]
+{
+  "babybedarf": {
+    "active": true,
+    "code": "All",
+    "facetFilterQuery": "category=Babybedarf",
+    "name": "Babybedarf",
+    "slug": "babybedarf"
+  },
+  "brot-cerealien-aufstriche": {
+    "active": true,
+    "code": "All / Backwaren",
+    "facetFilterQuery": "category=Brot,%20Cerealien%20%26%20Aufstriche",
+    "name": "Brot, Cerealien & Aufstriche",
+    "slug": "brot-cerealien-aufstriche"
+  },
+  "drogerie-kosmetik": {
+    "active": true,
+    "code": "All",
+    "facetFilterQuery": "category=Drogerie%20%26%20Kosmetik",
+    "name": "Drogerie & Kosmetik",
+    "slug": "drogerie-kosmetik"
+  },
+  "erbsen-bohnen": {
+    "active": true,
+    "code": "All / Gemüse / Hülsenfrüchte",
+    "facetFilterQuery": "category=Obst%20%26%20Gem%C3%BCse/Frisches%20Gem%C3%BCse/Erbsen%20%26%20Bohnen",
+    "name": "Erbsen & Bohnen",
+    "slug": "erbsen-bohnen"
+  },
+  "fertiggerichte-konserven": {
+    "active": true,
+    "code": "All",
+    "facetFilterQuery": "category=Fertiggerichte%20%26%20Konserven",
+    "name": "Fertiggerichte & Konserven",
+    "slug": "fertiggerichte-konserven"
+  },
+  "fleisch-fisch": {
+    "active": true,
+    "code": "All",
+    "facetFilterQuery": "category=Fleisch%20%26%20Fisch",
+    "name": "Fleisch & Fisch",
+    "slug": "fleisch-fisch"
+  },
+  "frisches-gemuese": {
+    "active": true,
+    "code": "All / Gemüse",
+    "facetFilterQuery": "category=Obst%20%26%20Gem%C3%BCse/Frisches%20Gem%C3%BCse",
+    "name": "Frisches Gemüse",
+    "slug": "frisches-gemuese"
+  },
+  "getraenke-genussmittel": {
+    "active": true,
+    "code": "All / Getränke",
+    "facetFilterQuery": "category=Getr%C3%A4nke%20%26%20Genussmittel",
+    "name": "Getränke & Genussmittel",
+    "slug": "getraenke-genussmittel"
+  },
+  "gurken": {
+    "active": true,
+    "code": "All / Gemüse",
+    "facetFilterQuery": "category=Obst%20%26%20Gem%C3%BCse/Frisches%20Gem%C3%BCse/Gurken",
+    "name": "Gurken",
+    "slug": "gurken"
+  },
+  "haus-freizeit": {
+    "active": true,
+    "code": "All",
+    "facetFilterQuery": "category=Haus%20%26%20Freizeit",
+    "name": "Haus & Freizeit",
+    "slug": "haus-freizeit"
+  },
+  "international": {
+    "active": true,
+    "code": "All",
+    "facetFilterQuery": "category=International",
+    "name": "International",
+    "slug": "international"
+  },
+  "kaese-eier-molkerei": {
+    "active": true,
+    "code": "All / Milchprodukte",
+    "facetFilterQuery": "category=K%C3%A4se,%20Eier%20%26%20Molkerei",
+    "name": "Käse, Eier & Molkerei",
+    "slug": "kaese-eier-molkerei"
+  },
+  "kaffee-tee-kakao": {
+    "active": true,
+    "code": "All",
+    "facetFilterQuery": "category=Kaffee,%20Tee%20%26%20Kakao",
+    "name": "Kaffee, Tee & Kakao",
+    "slug": "kaffee-tee-kakao"
+  },
+  "kartoffeln": {
+    "active": true,
+    "code": "All / Gemüse",
+    "facetFilterQuery": "category=Obst%20%26%20Gem%C3%BCse/Frisches%20Gem%C3%BCse/Kartoffeln",
+    "name": "Kartoffeln",
+    "slug": "kartoffeln"
+  },
+  "kochen-backen": {
+    "active": true,
+    "code": "All",
+    "facetFilterQuery": "category=Kochen%20%26%20Backen",
+    "name": "Kochen & Backen",
+    "slug": "kochen-backen"
+  },
+  "kohl-brokkoli": {
+    "active": true,
+    "code": "All / Gemüse",
+    "facetFilterQuery": "category=Obst%20%26%20Gem%C3%BCse/Frisches%20Gem%C3%BCse/Kohl%20%26%20Brokkoli",
+    "name": "Kohl & Brokkoli",
+    "slug": "kohl-brokkoli"
+  },
+  "kueche-haushalt": {
+    "active": true,
+    "code": "All",
+    "facetFilterQuery": "category=K%C3%BCche%20%26%20Haushalt",
+    "name": "Küche & Haushalt",
+    "slug": "kueche-haushalt"
+  },
+  "obst-gemuese": {
+    "active": true,
+    "code": "All",
+    "facetFilterQuery": "category=Obst%20%26%20Gem%C3%BCse",
+    "name": "Obst & Gemüse",
+    "slug": "obst-gemuese"
+  },
+  "oele-sossen-gewuerze": {
+    "active": true,
+    "code": "All",
+    "facetFilterQuery": "category=%C3%96le,%20So%C3%9Fen%20%26%20Gew%C3%BCrze",
+    "name": "Öle, Soßen & Gewürze",
+    "slug": "oele-sossen-gewuerze"
+  },
+  "paprika-chili": {
+    "active": true,
+    "code": "All / Gemüse",
+    "facetFilterQuery": "category=Obst%20%26%20Gem%C3%BCse/Frisches%20Gem%C3%BCse/Paprika%20%26%20Chili",
+    "name": "Paprika & Chili",
+    "slug": "paprika-chili"
+  },
+  "pilze": {
+    "active": true,
+    "code": "All / Gemüse",
+    "facetFilterQuery": "category=Obst%20%26%20Gem%C3%BCse/Frisches%20Gem%C3%BCse/Pilze",
+    "name": "Pilze",
+    "slug": "pilze"
+  },
+  "porree-lauch": {
+    "active": true,
+    "code": "All / Gemüse",
+    "facetFilterQuery": "category=Obst%20%26%20Gem%C3%BCse/Frisches%20Gem%C3%BCse/Porree%20%26%20Lauch",
+    "name": "Porree & Lauch",
+    "slug": "porree-lauch"
+  },
+  "regional": {
+    "active": true,
+    "code": "All",
+    "facetFilterQuery": "category=Regional",
+    "name": "Regional",
+    "slug": "regional"
+  },
+  "salat": {
+    "active": true,
+    "code": "All / Gemüse / Salate",
+    "facetFilterQuery": "category=Obst%20%26%20Gem%C3%BCse/Frisches%20Gem%C3%BCse/Salat",
+    "name": "Salat",
+    "slug": "salat"
+  },
+  "suesses-salziges": {
+    "active": true,
+    "code": "All",
+    "facetFilterQuery": "category=S%C3%BC%C3%9Fes%20%26%20Salziges",
+    "name": "Süßes & Salziges",
+    "slug": "suesses-salziges"
+  },
+  "tiefkuehlkost": {
+    "active": true,
+    "code": "All",
+    "facetFilterQuery": "category=Tiefk%C3%BChlkost",
+    "name": "Tiefkühlkost",
+    "slug": "tiefkuehlkost"
+  },
+  "tierbedarf": {
+    "active": true,
+    "code": "All",
+    "facetFilterQuery": "category=Tierbedarf",
+    "name": "Tierbedarf",
+    "slug": "tierbedarf"
+  },
+  "tomaten": {
+    "active": true,
+    "code": "All / Gemüse",
+    "facetFilterQuery": "category=Obst%20%26%20Gem%C3%BCse/Frisches%20Gem%C3%BCse/Tomaten",
+    "name": "Tomaten",
+    "slug": "tomaten"
+  },
+  "vegane-vielfalt": {
+    "active": true,
+    "code": "All",
+    "facetFilterQuery": "category=Veganuary",
+    "name": "Veganuary",
+    "slug": "vegane-vielfalt"
+  },
+  "wurzelgemuese": {
+    "active": true,
+    "code": "All / Gemüse",
+    "facetFilterQuery": "category=Obst%20%26%20Gem%C3%BCse/Frisches%20Gem%C3%BCse/Wurzelgem%C3%BCse",
+    "name": "Wurzelgemüse",
+    "slug": "wurzelgemuese"
+  },
+  "zucchini-aubergine-kuerbis": {
+    "active": true,
+    "code": "All / Gemüse",
+    "facetFilterQuery": "category=Obst%20%26%20Gem%C3%BCse/Frisches%20Gem%C3%BCse/Zucchini,%20Aubergine%20%26%20K%C3%BCrbis",
+    "name": "Zucchini, Aubergine & Kürbis",
+    "slug": "zucchini-aubergine-kuerbis"
+  },
+  "zwiebeln-knoblauch": {
+    "active": true,
+    "code": "All / Gemüse",
+    "facetFilterQuery": "category=Obst%20%26%20Gem%C3%BCse/Frisches%20Gem%C3%BCse/Zwiebeln%20%26%20Knoblauch",
+    "name": "Zwiebeln & Knoblauch",
+    "slug": "zwiebeln-knoblauch"
+  }
+}
