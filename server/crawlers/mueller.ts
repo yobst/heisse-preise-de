@@ -54,7 +54,6 @@ function getSubcategories(category: any, IDprefix = "") {
 
 export class MuellerCrawler implements Crawler {
     store = stores.mueller;
-
     categories: Record<string, any> = {};
 
     async fetchCategories() {
@@ -75,7 +74,6 @@ export class MuellerCrawler implements Crawler {
     }
 
     async fetchData() {
-        // TODO: speed up
         let muellerItems: any[] = [];
 
         for (let categoryId of ["Drogerie/Lebensmittel", "Naturshop/Lebensmittel"]) {
@@ -106,24 +104,25 @@ export class MuellerCrawler implements Crawler {
     }
 
     getCanonical(rawItem: any, today: string): Item {
-        const price = parseFloat(rawItem.impressionDataLayer.ecommerce.impressions[0].price);
-        const itemName = rawItem.name;
-        const bio = itemName.toLowerCase().includes("bio");
+        const info = rawItem.impressionDataLayer.ecommerce.impressions[0];
+        const price = parseFloat(info.price);
+        const bio = info.name.toLowerCase().includes("bio");
         const unavailable = rawItem.availabilityInfo ? rawItem.availabilityInfo : false;
         const isWeighted = false;
         const defaultUnit: { quantity: number; unit: Unit } = { quantity: 1, unit: "stk" };
         const { rawUnit, rawQuantity } = utils.extractRawUnitAndQuantityFromEndOfString(rawItem.quantityOfContent, defaultUnit);
-        const unitAndQuantity = utils.normalizeUnitAndQuantity(itemName, rawUnit, rawQuantity, storeUnits, this.store.displayName, defaultUnit);
+        const unitAndQuantity = utils.normalizeUnitAndQuantity(info.name, rawUnit, rawQuantity, storeUnits, this.store.displayName, defaultUnit);
 
-        let rawCategory = rawItem.impressionDataLayer.ecommerce.impressions[0].category;
+        let rawCategory = info.category;
         if (!(rawCategory in this.categories) && rawCategory.startsWith("Naturshop")) {
             rawCategory = rawCategory.replace("Naturshop", "Drogerie");
         }
         const category = this.categories[rawCategory]?.code || "Unknown";
+
         return new Item(
             this.store.id,
-            rawItem.productId,
-            itemName,
+            info.id,
+            info.name,
             category,
             unavailable,
             price,

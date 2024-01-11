@@ -1,4 +1,4 @@
-import { Category, Item, Unit, UnitMapping } from "../../common/models";
+import { Item, Unit, UnitMapping } from "../../common/models";
 import { Crawler } from "./crawler";
 
 import get from "axios";
@@ -20,9 +20,40 @@ const storeUnits: Record<string, UnitMapping> = {
 
 const invalidUnits = new Set(["dose", "€startguthaben"]);
 
+export function getQuantityAndUnit(rawItem: any, storeName: string) {
+    const defaultUnit: { quantity: number; unit: Unit } = { quantity: 1, unit: "stk" };
+
+    let rawQuantity = 1;
+    let rawUnit = "stk";
+
+    if (rawItem.slug) {
+        const regex = /-(\d+)-?(g|stk|wl|mg|l|er|tbl|tabs)(?:-|$)/;
+        const matches = rawItem.slug.match(regex);
+
+        if (matches) {
+            rawQuantity = parseFloat(matches[1]);
+            rawUnit = matches[3];
+        }
+    }
+
+    if (rawUnit == defaultUnit.unit) {
+        const res = utils.extractRawUnitAndQuantityFromDescription(rawItem.name, defaultUnit);
+        rawQuantity = res.rawQuantity;
+        rawUnit = res.rawUnit;
+    }
+
+    if (invalidUnits.has(rawUnit)) {
+        rawQuantity = 1;
+        rawUnit = "stk";
+    }
+
+    return utils.normalizeUnitAndQuantity(rawItem.name, rawUnit, rawQuantity, storeUnits, storeName,  defaultUnit);
+}
+
+
 export class FlinkCrawler implements Crawler {
     store = stores.flink;
-    categories: Record<any, any> = [];
+    categories: Record<string, any> = {};
 
     async fetchCategories() {
         const page = `${BASE_URL}/consumer-backend/discovery/v2/categories`;
@@ -64,13 +95,11 @@ export class FlinkCrawler implements Crawler {
     }
 
     getCanonical(rawItem: any, today: string): Item {
-        const productId = rawItem.id;
-        const itemName = rawItem.name;
         const unavailable = false;
         const price = rawItem.price.amount;
         const isWeighted = false;
         const bio = rawItem.slug.includes("bio-");
-        const url = `${rawItem.slug}-${rawItem.sku}/`;
+        const url = (rawItem.slug)? `${rawItem.slug}-${rawItem.sku}/` : "";
 
         const rawCategory = rawItem.category_id;
         let category = this.categories[rawCategory];
@@ -83,45 +112,12 @@ export class FlinkCrawler implements Crawler {
             }
         }
 
-        const defaultUnit: { quantity: number; unit: Unit } = { quantity: 1, unit: "stk" };
-
-        let rawQuantity = 1;
-        let rawUnit = "stk";
-
-        if (rawItem.slug) {
-            const regex = /-(\d+)-?(g|stk|wl|mg|l|er|tbl|tabs)(?:-|$)/;
-            const matches = rawItem.slug.match(regex);
-
-            if (matches) {
-                rawQuantity = parseFloat(matches[1]);
-                rawUnit = matches[3];
-            }
-        }
-
-        if (rawUnit == defaultUnit.unit) {
-            const res = utils.extractRawUnitAndQuantityFromDescription(itemName, defaultUnit);
-            rawQuantity = res.rawQuantity;
-            rawUnit = res.rawUnit;
-        }
-
-        if (invalidUnits.has(rawUnit)) {
-            rawQuantity = 1;
-            rawUnit = "stk";
-        }
-
-        const { quantity, unit } = utils.normalizeUnitAndQuantity(
-            `${rawItem.slug} ${itemName}`,
-            rawUnit,
-            rawQuantity,
-            storeUnits,
-            this.store.displayName,
-            defaultUnit
-        );
+        const { quantity, unit } = getQuantityAndUnit(rawItem, this.store.displayName);
 
         return new Item(
             this.store.id,
-            productId,
-            itemName,
+            rawItem.id,
+            rawItem.name,
             category?.code || "Unknown",
             unavailable,
             price,

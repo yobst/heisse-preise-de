@@ -1,0 +1,101 @@
+{
+    "ageRestriction": false,
+    "awards": [],
+    "brand": {},
+    "canonicalPath": "/p/melitta-kaffee-auslese/p10022715",
+    "canonicalUrl": "/p/melitta-kaffee-auslese/p10022715",
+    "category": "Food",
+    "dealOfDay": {
+        "active": false
+    },
+    "disclaimers": [
+        {
+            "id": "code_10022715_c25610ee",
+            "type": "CODE",
+            "value": "Basic"
+        },
+        {
+            "id": "code_10022715_4cf64f39",
+            "type": "CODE",
+            "value": "Price"
+        }
+    ],
+    "energyLabels": [],
+    "erpNumber": "10022715",
+    "flashSales": false,
+    "fullTitle": "Melitta Kaffee Auslese",
+    "havingPrice": true,
+    "havingThreesixty": false,
+    "havingVariablePrices": false,
+    "havingVideos": false,
+    "ians": [
+        "221121"
+    ],
+    "image": "https://imgproxy-retcat.assets.schwarz/j5v7STj6HUVqj8yGOnezDcVqrwCXcybrX64C6XzVUKU/sm:1/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvZGUvMS9BRjQ3NjM2QzJGRDNBMUVBMjc1NERDRTQ/wNTM1OTFENzdCRjRCQ0E1QzBEMzMyMEU3NTBBQjBCRDM3MzEwNDAwLmpwZw.jpg",
+    "itemId": 10022715,
+    "keyfacts": {
+        "analyticsCategory": "Food",
+        "description": "<p>Verschiedene Sorten</p>",
+        "title": "Melitta Kaffee Auslese",
+        "moreDetails": "Weitere Produktdetails"
+    },
+    "multipack": false,
+    "preventSelling": false,
+    "price": {
+        "basePrice": {
+            "prefix": false,
+            "text": "1 kg = 9.32"
+        },
+        "discount": {
+            "deletedPrice": 5.99,
+            "discountHasStar": false,
+            "discountTitle": "UVP",
+            "fromRecommendedPrice": false,
+            "percentageDiscount": 22,
+            "showDiscount": true,
+            "showFrom": false,
+            "showPercentage": true,
+            "showUpTo": false
+        },
+        "hasStar": true,
+        "hasVat": false,
+        "oldPrice": 5.99,
+        "packaging": {
+            "text": "Je 500 g"
+        },
+        "price": 4.66,
+        "priceTheme": "white_red",
+        "specialTaxes": [],
+        "variantsHaveDifferentPrices": false
+    },
+    "productId": 10022715,
+    "productType": "RETAIL",
+    "productOrigin": "retail_event",
+    "quickAddToCart": false,
+    "regions": [],
+    "ribbons": [
+        {
+            "type": "SPECIAL_DESCRIPTION",
+            "text": "Noch günstiger mit Lidl Plus",
+            "theme": "blue"
+        }
+    ],
+    "renderedTs": 1704386519,
+    "seals": [],
+    "stockAvailability": {
+        "availabilityIndicator": 0,
+        "badgeInfo": {
+            "badges": [
+                {
+                    "text": "Ab 18.01. nur in der Filiale",
+                    "type": "ONLY_IN_STORE_AS_OF"
+                }
+            ]
+        },
+        "onlineAvailable": false,
+        "orderableQuantities": [],
+        "minOrderableQuantity": 1
+    },
+    "designTheme": "default",
+    "gs1Attributes": []
+}
