@@ -29,7 +29,7 @@ const canonizedItem = {
     "url": undefined
 };
 
-describe('biomarkt scraper', () => {
+describe('rewe scraper', () => {
     const crawler = new ReweCrawler();
     const today = "1980-01-01";
     test('unit and quantity extraction succeeds', () => {
