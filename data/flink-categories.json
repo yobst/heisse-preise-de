@@ -489,7 +489,7 @@
     "code": "All",
     "id": "31b9c03a-51c4-4f43-b4f0-305b51d6c406",
     "name": "Mengenrabatt",
-    "slug": "angebote-A-mengenrabatt"
+    "slug": "angebote-mengenrabatt"
   },
   "31c1299b-2d0b-46ab-8d53-e7fcf15d8ac5": {
     "active": true,
@@ -735,7 +735,7 @@
     "code": "All",
     "id": "4c3b3052-e929-4972-b162-971f83cdca4f",
     "name": "Nur noch für kurze Zeit",
-    "slug": "angebote-A-kurze-zeit"
+    "slug": "angebote-kurze-zeit"
   },
   "4c753a32-ecb9-43f9-92e4-68a6f8bb666c": {
     "active": true,
