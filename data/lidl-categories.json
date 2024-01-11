@@ -529,6 +529,11 @@
     "code": "All",
     "id": "Kategorien/Baumarkt/Werkstatt/Akku & Elektrowerkzeuge/Bohrmaschinen & Zubehör/Tischbohrmaschinen"
   },
+  "Kategorien/Baumarkt/Werkstatt/Akku & Elektrowerkzeuge/Druckluftgeräte & Zubehör": {
+    "active": false,
+    "code": null,
+    "id": "Kategorien/Baumarkt/Werkstatt/Akku & Elektrowerkzeuge/Druckluftgeräte & Zubehör"
+  },
   "Kategorien/Baumarkt/Werkstatt/Akku & Elektrowerkzeuge/Druckluftgeräte & Zubehör/Druckluftgeräte": {
     "active": true,
     "code": "All",
@@ -538,6 +543,11 @@
     "active": true,
     "code": "All",
     "id": "Kategorien/Baumarkt/Werkstatt/Akku & Elektrowerkzeuge/Elektrohobel & Fräsen"
+  },
+  "Kategorien/Baumarkt/Werkstatt/Akku & Elektrowerkzeuge/Graviergerät &Zubehör": {
+    "active": false,
+    "code": null,
+    "id": "Kategorien/Baumarkt/Werkstatt/Akku & Elektrowerkzeuge/Graviergerät &Zubehör"
   },
   "Kategorien/Baumarkt/Werkstatt/Akku & Elektrowerkzeuge/Heißklebepistole & Zubehör": {
     "active": true,
@@ -2014,6 +2024,11 @@
     "code": "All",
     "id": "Kategorien/Kinderwelt/Outdoor- und Gartenspielgeräte/Kinder Scooter"
   },
+  "Kategorien/Kinderwelt/Outdoor- und Gartenspielgeräte/Kletterturm": {
+    "active": false,
+    "code": null,
+    "id": "Kategorien/Kinderwelt/Outdoor- und Gartenspielgeräte/Kletterturm"
+  },
   "Kategorien/Kinderwelt/Outdoor- und Gartenspielgeräte/Laufräder, Dreiräder & Kinderfahrräder": {
     "active": true,
     "code": "All",
@@ -2164,6 +2179,11 @@
     "code": "All",
     "id": "Kategorien/Kinderwelt/Spielzeug/Puppen/Puppenmöbel"
   },
+  "Kategorien/Kinderwelt/Spielzeug/Puppen/Puppentheater": {
+    "active": false,
+    "code": null,
+    "id": "Kategorien/Kinderwelt/Spielzeug/Puppen/Puppentheater"
+  },
   "Kategorien/Kinderwelt/Spielzeug/Puppen/Puppenwagen": {
     "active": true,
     "code": "All",
@@ -2313,6 +2333,11 @@
     "active": true,
     "code": "All",
     "id": "Kategorien/Mode/Damenmode/Damen Sportbekleidung/Laufhosen"
+  },
+  "Kategorien/Mode/Damenmode/Damen Sportbekleidung/Laufjacken & Westen": {
+    "active": false,
+    "code": null,
+    "id": "Kategorien/Mode/Damenmode/Damen Sportbekleidung/Laufjacken & Westen"
   },
   "Kategorien/Mode/Damenmode/Damen Sportbekleidung/Laufschuhe": {
     "active": true,
@@ -3233,6 +3258,11 @@
     "active": true,
     "code": "All",
     "id": "Kategorien/Mode/Herrenmode/Schuhe/Sneaker"
+  },
+  "Kategorien/Mode/Herrenmode/Shirts": {
+    "active": false,
+    "code": null,
+    "id": "Kategorien/Mode/Herrenmode/Shirts"
   },
   "Kategorien/Mode/Herrenmode/Shirts/Langarmshirts": {
     "active": true,
@@ -4434,6 +4464,11 @@
     "code": "All",
     "id": "Kategorien/Multimedia/Smart Home & Sicherheit/SmartHome/Smart Rauchmelder"
   },
+  "Kategorien/Multimedia/Smart Home & Sicherheit/SmartHome/Smart Speaker": {
+    "active": false,
+    "code": null,
+    "id": "Kategorien/Multimedia/Smart Home & Sicherheit/SmartHome/Smart Speaker"
+  },
   "Kategorien/Multimedia/Smart Home & Sicherheit/SmartHome/Smart Steckdosen": {
     "active": true,
     "code": "All",
@@ -4940,7 +4975,7 @@
     "id": "Kategorien/Sport & Freizeit/Camping & Outdoor/Übernachtungsausrüstung"
   },
   "Kategorien/Sport & Freizeit/Camping & Outdoor/Übernachtungsausrüstung/Feldbetten": {
-    "active": false,
+    "active": true,
     "code": "All",
     "id": "Kategorien/Sport & Freizeit/Camping & Outdoor/Übernachtungsausrüstung/Feldbetten"
   },
