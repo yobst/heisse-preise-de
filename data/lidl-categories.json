@@ -830,7 +830,7 @@
     "id": "Kategorien/Bücher & Medien/Schule und Lernen/Schulbücher/Titel Sonstiges"
   },
   "Kategorien/Gesundheit & Pflege/Beauty/Beauty-Zubehör": {
-    "active": true,
+    "active": false,
     "code": "All",
     "id": "Kategorien/Gesundheit & Pflege/Beauty/Beauty-Zubehör"
   },
@@ -4095,7 +4095,7 @@
     "id": "Kategorien/Mode/Kostüme/Kinderkostüme"
   },
   "Kategorien/Multimedia/Computer & Büro/Bürobedarf & Zubehör": {
-    "active": true,
+    "active": false,
     "code": "All",
     "id": "Kategorien/Multimedia/Computer & Büro/Bürobedarf & Zubehör"
   },
@@ -5665,7 +5665,7 @@
     "id": "Kategorien/Tierwelt/Hund/Hundeschlafplätze/Kissen"
   },
   "Kategorien/Tierwelt/Hund/Hundeschlafplätze/Körbe & Sofas": {
-    "active": true,
+    "active": false,
     "code": "All",
     "id": "Kategorien/Tierwelt/Hund/Hundeschlafplätze/Körbe & Sofas"
   },
@@ -6315,7 +6315,7 @@
     "id": "Kategorien/Wohnen & Einrichten/Möbel/Betten/Massivholzbetten"
   },
   "Kategorien/Wohnen & Einrichten/Möbel/Betten/Polsterbetten": {
-    "active": true,
+    "active": false,
     "code": "All",
     "id": "Kategorien/Wohnen & Einrichten/Möbel/Betten/Polsterbetten"
   },
