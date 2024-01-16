@@ -41,7 +41,16 @@ export function getQuantityAndUnit(rawItem: any, storeName: string) {
     return utils.normalizeUnitAndQuantity(rawItem.name, rawUnit, rawQuantity, storeUnits, storeName, defaultUnit);
 }
 
-function getSubcategories(category: any, storeID: string, IDprefix = "") {
+async function getSubcategories(categorySlug: any, storeID: string, IDprefix = "", level = 0) {
+    const page = `${BASE_URL}?objectsPerPage=1&page=1&categorySlug=${categorySlug}`;
+    const resp = await utils.get(page, storeID, RETRY_STATI);
+    const rawCategories = resp.data?.facets.find((item: any) => item.name == "CATEGORY")?.facetConstraints;
+
+    let category = rawCategories[0];
+    for (let i=0; i<level; ++i) {
+        category = category.subFacetConstraints[0];
+    }
+
     const path = `${IDprefix}${category.name}/`;
     const categories = [
         {
@@ -54,11 +63,11 @@ function getSubcategories(category: any, storeID: string, IDprefix = "") {
         }
     ];
     for (const subcategory of (category.subFacetConstraints || [])) {
-        const subCategories = getSubcategories(subcategory, storeID, path);
+        const subCategories = await getSubcategories(subcategory.slug, storeID, path, level + 1);
         categories.push(...subCategories);
     }
     return categories;
-} 
+}
 
 export class ReweCrawler implements Crawler {
     store = stores.rewe;
@@ -77,18 +86,11 @@ export class ReweCrawler implements Crawler {
 
     async fetchCategories() {
         const categories: Record<string, any> = {};
-        for (let categorySlug of await this.getTopLevelCategories() ) {
-            const page = `${BASE_URL}?objectsPerPage=1&page=1&categorySlug=${categorySlug}`;
-            const resp = await utils.get(page, this.store.id, RETRY_STATI);
-            const rawCategories = resp.data?.facets.find((item: any) => item.name == "CATEGORY")?.facetConstraints;
-            const categories: Record<string, any> = {};
-            if (rawCategories) {
-                rawCategories.forEach(async (category: any) => {
-                    const subCategories = getSubcategories(category, this.store.id);
-                    for (const subcategory of subCategories) {
-                        categories[subcategory.id] = subcategory;
-                    }
-                });
+        for (let categorySlug of await this.getTopLevelCategories()) {
+            console.log(categorySlug);
+            const subCategories = await getSubcategories(categorySlug, this.store.id);
+            for (const subcategory of subCategories) {
+                categories[subcategory.id] = subcategory;
             }
         }
         return categories;
@@ -113,29 +115,24 @@ export class ReweCrawler implements Crawler {
                 this.topLevelCategories.push(...subcategories);
                 topLevelCategories.push(...subcategories);
                 console.log(`${this.store.id}: Replaced '${categorySlug}' with '[${subcategories}]'.`);
-            } 
+            }
             else {
                 const nPages = data.pagination.totalPages;
                 while (data && (pageNr <= nPages)) {
                     const products = data?._embedded?.products || [];
                     const pricedProducts = products.filter((item: any) => item._embedded.articles[0]);
-
-                    console.log("page", pageNr, "of", nPages);
-                    console.log("all", products.length, "relevant", pricedProducts.length);
                     items.push(...pricedProducts);
                     pageNr++;
                     page = `${BASE_URL}?objectsPerPage=${pageLimit}&page=${pageNr}&categorySlug=${categorySlug}`;
                     data = (await utils.get(page, this.store.id, RETRY_STATI)).data;
                 }
-                console.log(nResults, items.length);
             }
         }
-        console.log(items[0]);
         return items;
     }
 
     getCanonical(rawItem: any, today: string): Item {
-        const price = (rawItem._embedded?.articles[0]?._embedded?.listing?.pricing?.currentRetailPrice || 0) / 100.0 ;
+        const price = (rawItem._embedded?.articles[0]?._embedded?.listing?.pricing?.currentRetailPrice || 0) / 100.0;
         if (!rawItem._embedded?.articles[0]?._embedded?.listing?.pricing?.currentRetailPrice) {
             console.log(rawItem);
         }
@@ -144,7 +141,6 @@ export class ReweCrawler implements Crawler {
         const unavailable = false;
         const isWeighted = false;
         const rawCategory = rawItem._embedded.categoryPath;
-        //console.log(rawCategory, this.categories[rawCategory]);
         const category = this.categories[rawCategory]?.code || "Unknown";
         const { quantity, unit } = getQuantityAndUnit(rawItem, this.store.displayName);
 
