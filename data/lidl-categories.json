@@ -1050,7 +1050,7 @@
     "id": "Kategorien/Guthaben- und Gutscheinkarten/Gaming-Guthaben"
   },
   "Kategorien/Guthaben- und Gutscheinkarten/Geschenkkarte für App Store & iTunes": {
-    "active": true,
+    "active": false,
     "code": "All",
     "id": "Kategorien/Guthaben- und Gutscheinkarten/Geschenkkarte für App Store & iTunes"
   },
@@ -1555,7 +1555,7 @@
     "id": "Kategorien/Haushalt & Küche/Kleingeräte Küche/Wasserkocher"
   },
   "Kategorien/Haushalt & Küche/Kleingeräte Küche/Zuckerwattenmaschinen": {
-    "active": true,
+    "active": false,
     "code": "All",
     "id": "Kategorien/Haushalt & Küche/Kleingeräte Küche/Zuckerwattenmaschinen"
   },
@@ -2415,12 +2415,12 @@
     "id": "Kategorien/Mode/Damenmode/Damen Sportbekleidung/Trekking Oberteile"
   },
   "Kategorien/Mode/Damenmode/Damen Sportbekleidung/Trekking Unterteile": {
-    "active": true,
+    "active": false,
     "code": "All",
     "id": "Kategorien/Mode/Damenmode/Damen Sportbekleidung/Trekking Unterteile"
   },
   "Kategorien/Mode/Damenmode/Damen Sportbekleidung/Trekkings Schuhe": {
-    "active": true,
+    "active": false,
     "code": "All",
     "id": "Kategorien/Mode/Damenmode/Damen Sportbekleidung/Trekkings Schuhe"
   },
@@ -3135,7 +3135,7 @@
     "id": "Kategorien/Mode/Herrenmode/Herren Sportbekleidung/Trekking Oberteile"
   },
   "Kategorien/Mode/Herrenmode/Herren Sportbekleidung/Trekking Unterteile": {
-    "active": true,
+    "active": false,
     "code": "All",
     "id": "Kategorien/Mode/Herrenmode/Herren Sportbekleidung/Trekking Unterteile"
   },
@@ -3385,7 +3385,7 @@
     "id": "Kategorien/Mode/Kindermode/Baby Jungen/Sets"
   },
   "Kategorien/Mode/Kindermode/Baby Jungen/Shirt": {
-    "active": true,
+    "active": false,
     "code": "All",
     "id": "Kategorien/Mode/Kindermode/Baby Jungen/Shirt"
   },
@@ -3770,7 +3770,7 @@
     "id": "Kategorien/Mode/Kindermode/Kinder Mädchen/Shirts"
   },
   "Kategorien/Mode/Kindermode/Kinder Mädchen/Shorts": {
-    "active": true,
+    "active": false,
     "code": "All",
     "id": "Kategorien/Mode/Kindermode/Kinder Mädchen/Shorts"
   },
@@ -4980,7 +4980,7 @@
     "id": "Kategorien/Sport & Freizeit/Camping & Outdoor/Übernachtungsausrüstung"
   },
   "Kategorien/Sport & Freizeit/Camping & Outdoor/Übernachtungsausrüstung/Feldbetten": {
-    "active": true,
+    "active": false,
     "code": "All",
     "id": "Kategorien/Sport & Freizeit/Camping & Outdoor/Übernachtungsausrüstung/Feldbetten"
   },
@@ -5340,7 +5340,7 @@
     "id": "Kategorien/Sport & Freizeit/Natur & Erforschen/Nachtsichtgeräte"
   },
   "Kategorien/Sport & Freizeit/Sportarten/American Football/Bälle": {
-    "active": true,
+    "active": false,
     "code": "All",
     "id": "Kategorien/Sport & Freizeit/Sportarten/American Football/Bälle"
   },
@@ -5400,7 +5400,7 @@
     "id": "Kategorien/Sport & Freizeit/Sportarten/Billard, Kicker & Dart/Dartscheibe"
   },
   "Kategorien/Sport & Freizeit/Sportarten/Billard, Kicker & Dart/Dartsets": {
-    "active": true,
+    "active": false,
     "code": "All",
     "id": "Kategorien/Sport & Freizeit/Sportarten/Billard, Kicker & Dart/Dartsets"
   },
@@ -5580,7 +5580,7 @@
     "id": "Kategorien/Sport & Freizeit/Sportarten/Wassersport/Stand-Up-Paddle-Board"
   },
   "Kategorien/Sport & Freizeit/Sportarten/Wassersport/Wasserbälle": {
-    "active": true,
+    "active": false,
     "code": "All",
     "id": "Kategorien/Sport & Freizeit/Sportarten/Wassersport/Wasserbälle"
   },
@@ -5685,7 +5685,7 @@
     "id": "Kategorien/Tierwelt/Katze/Katzenspielzeug"
   },
   "Kategorien/Tierwelt/Katze/Katzentransportboxen": {
-    "active": true,
+    "active": false,
     "code": "All",
     "id": "Kategorien/Tierwelt/Katze/Katzentransportboxen"
   },
@@ -5700,7 +5700,7 @@
     "id": "Kategorien/Tierwelt/Kleintier"
   },
   "Kategorien/Tierwelt/Kleintier/Käfige": {
-    "active": true,
+    "active": false,
     "code": "All",
     "id": "Kategorien/Tierwelt/Kleintier/Käfige"
   },
@@ -5870,7 +5870,7 @@
     "id": "Kategorien/Wohnen & Einrichten/Bettwaren & Matratzen/Kissen/Synthetische Kopfkissen"
   },
   "Kategorien/Wohnen & Einrichten/Bettwaren & Matratzen/Lattenroste/Elektrisch verstellbar": {
-    "active": true,
+    "active": false,
     "code": "All",
     "id": "Kategorien/Wohnen & Einrichten/Bettwaren & Matratzen/Lattenroste/Elektrisch verstellbar"
   },
@@ -6540,7 +6540,7 @@
     "id": "Kategorien/Wohnen & Einrichten/Möbel/Wickelkommoden"
   },
   "Kategorien/Wohnen & Einrichten/Rollos & Jalousien/Dekorollos": {
-    "active": true,
+    "active": false,
     "code": "All",
     "id": "Kategorien/Wohnen & Einrichten/Rollos & Jalousien/Dekorollos"
   },

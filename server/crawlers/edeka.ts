@@ -15,6 +15,8 @@ const storeUnits: Record<string, UnitMapping> = {
     gbeutel: { unit: "g", factor: 1 },
     gbecher: { unit: "g", factor: 1 },
     gdose: { unit: "g", factor: 1 },
+    gschale: { unit: "g", factor: 1 },
+    wl: { unit: "wg", factor: 1 },
 };
 
 const invalidUnits = new Set(["pfand"]);

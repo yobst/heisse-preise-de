@@ -19,6 +19,8 @@ const storeUnits: Record<string, UnitMapping> = {
     teller: { unit: "srv", factor: 1 },
 };
 
+const invalidUnits = new Set(["silber"]);
+
 export function getQuantityAndUnit(rawItem: any, storeName: string) {
     const defaultUnit: { quantity: number; unit: Unit } = { quantity: 1, unit: "stk" };
 
@@ -36,6 +38,11 @@ export function getQuantityAndUnit(rawItem: any, storeName: string) {
         const res = utils.extractRawUnitAndQuantityFromDescription(rawItem.productName, defaultUnit);
         rawQuantity = res.rawQuantity;
         rawUnit = res.rawUnit;
+    }
+
+    if (invalidUnits.has(rawUnit)) {
+        rawQuantity = 1;
+        rawUnit = "stk";
     }
 
     return utils.normalizeUnitAndQuantity(rawItem.name, rawUnit, rawQuantity, storeUnits, storeName, defaultUnit);
@@ -98,7 +105,7 @@ export class ReweCrawler implements Crawler {
 
     async fetchData() {
         const pageLimit = 250; // from 251 only 40 are taken???
-        const maxProcessableItems = pageLimit; //10000
+        const maxProcessableItems = pageLimit; // 10000
         const items: any[] = [];
         const topLevelCategories = await this.getTopLevelCategories();
         while (topLevelCategories.length > 0) {
