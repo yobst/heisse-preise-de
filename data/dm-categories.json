@@ -1874,7 +1874,7 @@
     "name": "Ohrstöpsel & Nasenstrips"
   },
   "Ostern": {
-    "active": false,
+    "active": true,
     "code": "All",
     "id": "120200",
     "name": "Ostern"
