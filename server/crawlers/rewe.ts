@@ -94,7 +94,6 @@ export class ReweCrawler implements Crawler {
     async fetchCategories() {
         const categories: Record<string, any> = {};
         for (let categorySlug of await this.getTopLevelCategories()) {
-            console.log(categorySlug);
             const subCategories = await getSubcategories(categorySlug, this.store.id);
             for (const subcategory of subCategories) {
                 categories[subcategory.id] = subcategory;
@@ -140,9 +139,6 @@ export class ReweCrawler implements Crawler {
 
     getCanonical(rawItem: any, today: string): Item {
         const price = (rawItem._embedded?.articles[0]?._embedded?.listing?.pricing?.currentRetailPrice || 0) / 100.0;
-        if (!rawItem._embedded?.articles[0]?._embedded?.listing?.pricing?.currentRetailPrice) {
-            console.log(rawItem);
-        }
         const bio = (rawItem.attributes?.tags && "organic" in rawItem.attributes?.tags) || rawItem.productName.toLowerCase().includes("bio");
         // more tags: discounted, lactosefree, regional, vegan
         const unavailable = false;
