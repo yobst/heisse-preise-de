@@ -1,0 +1,21 @@
+{
+    "id": 352259791,
+    "title": "Bio Orangen",
+    "price": {
+        "value": "1.0",
+        "rawValue": 1.0,
+        "currency": "EUR",
+        "format": "0.00"
+    },
+    "descriptions": [
+        "aus Spanien oder Italien, Klasse II, 1kg"
+    ],
+    "discountInPercentage": "0",
+    "description": "aus Spanien oder Italien, Klasse II, 1kg",
+    "descriptionApp": "aus Spanien oder Italien, Klasse II, 1kg",
+    "images": {
+        "original": "https://www.edeka.de/static/media/edeka-zentrale/angebote/tz-angebote-je-kw/kw02/ez/orangen-neu-kw02.png"
+    },
+    "validTill": "2024-01-13",
+    "national": true
+}

@@ -1,6 +1,7 @@
 import { Crawler } from "./crawler";
 import { AldiCrawler } from "./aldi";
 import { DmCrawler } from "./dm";
+import { EdekaCrawler } from "./edeka";
 import { FlinkCrawler } from "./flink";
 import { LidlCrawler } from "./lidl";
 import { MuellerCrawler } from "./mueller";
@@ -9,12 +10,13 @@ import { BiomarktCrawler } from "./biomarkt";
 
 const crawlerList = [
     new AldiCrawler(),
+    new BiomarktCrawler(),
     new DmCrawler(),
+    new EdekaCrawler(),
+    new FlinkCrawler(),
     new LidlCrawler(),
     new MuellerCrawler(),
     new ReweCrawler(),
-    new FlinkCrawler(),
-    new BiomarktCrawler(),
 ];
 
 export const crawlers: Record<string, Crawler> = {};

@@ -1,4 +1,4 @@
-import { Category, Item, Unit, UnitMapping } from "../../common/models";
+import { Item, Unit, UnitMapping } from "../../common/models";
 import { Crawler } from "./crawler";
 
 import get from "axios";
