@@ -8,3 +8,98 @@
     "hasBioCide": false,
     "orderLimit": 99
 }
+{
+    "id": "1041140",
+    "nan": "1041140",
+    "version": 35,
+    "productName": "Schalotten 250g im Netz",
+    "attributes": {
+        "tags": {
+            "discounted": {
+                "label": "Angebote"
+            }
+        }
+    },
+    "brand": {
+        "name": null
+    },
+    "media": {
+        "images": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "https://img.rewe-static.de/1041140/21288189_digital-image.png"
+                    }
+                }
+            }
+        ]
+    },
+    "_embedded": {
+        "articles": [
+            {
+                "id": "22609793",
+                "version": 63456,
+                "gtin": "22609793",
+                "_embedded": {
+                    "listing": {
+                        "id": "8-22609793-rewe-online-services|4540858-565236",
+                        "version": 1200008,
+                        "pricing": {
+                            "currentRetailPrice": 88,
+                            "currency": "EUR",
+                            "basePrice": 352,
+                            "baseUnit": {
+                                "KG": 1
+                            },
+                            "discount": {
+                                "regularPrice": 129,
+                                "discountRate": 31.0,
+                                "validFrom": null,
+                                "validTo": "2024-01-13T00:00:00MEZ"
+                            },
+                            "grammage": "250g (1 kg = 3,52 €)"
+                        },
+                        "limitations": {
+                            "orderLimit": 15
+                        }
+                    },
+                    "store": {
+                        "id": "rewe-online-services|4540858-565236",
+                        "version": 1000078
+                    },
+                    "merchant": {
+                        "id": "rewe-online-services",
+                        "version": 55048,
+                        "name": "REWE",
+                        "type": "REWE",
+                        "logo": "https://a.rewe-static.de/partnerlogos/rewe/REWE_mp.png"
+                    }
+                }
+            }
+        ],
+        "categories": [
+            {
+                "id": "48",
+                "primary": false
+            },
+            {
+                "id": "2",
+                "primary": false
+            },
+            {
+                "id": "1",
+                "primary": true
+            }
+        ],
+        "categoryPath": "Obst & Gemüse/Frisches Gemüse/Zwiebeln & Knoblauch/"
+    },
+    "hasVariants": false,
+    "hasDiverseVariantPrices": false,
+    "shouldDetailsLinkBeMasked": false,
+    "freeShipping": false,
+    "_links": {
+        "detail": {
+            "href": "/p/schalotten-250g-im-netz/1041140"
+        }
+    }
+}
