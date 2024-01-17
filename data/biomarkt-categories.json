@@ -3,7 +3,6 @@
     "active": true,
     "code": "All",
     "id": 0,
-    "key": "283ed9fb-47d9-4e47-ad62-8ab20a968633",
     "name": "Obst & Gemüse",
     "ref": "obst-und-gemuese"
   },
@@ -11,6 +10,7 @@
     "active": true,
     "code": "All",
     "id": 1,
+    "key": "7402cb4a-50c5-49b8-906a-b1754a4f29d3",
     "name": "Zum Kühlen",
     "ref": "zum-kuehlen"
   },
@@ -34,7 +34,7 @@
     "active": true,
     "code": "All",
     "id": 7,
-    "key": "8831ef5b-1fae-48a8-a9f0-76f35e0f030e",
+    "key": "59eeb082-cd7f-45ba-8da2-a15656c33d1f",
     "name": "Drogerie & Kosmetik",
     "ref": "drogerie-und-kosmetik"
   }

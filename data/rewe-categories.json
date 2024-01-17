@@ -8800,7 +8800,7 @@
     "slug": "vollmilch-schokolade"
   },
   "Süßes & Salziges/Schokolade/Tafelschokolade/Weiße Schokolade/": {
-    "active": true,
+    "active": false,
     "code": "All / Süßwaren",
     "facetFilterQuery": "category=S%C3%BC%C3%9Fes%20%26%20Salziges/Schokolade/Tafelschokolade/Wei%C3%9Fe%20Schokolade",
     "id": "Süßes & Salziges/Schokolade/Tafelschokolade/Weiße Schokolade/",

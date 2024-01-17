@@ -2175,7 +2175,7 @@
     "id": "Kategorien/Kinderwelt/Spielzeug/Puppen/Puppenhaus"
   },
   "Kategorien/Kinderwelt/Spielzeug/Puppen/Puppenmöbel": {
-    "active": true,
+    "active": false,
     "code": "All",
     "id": "Kategorien/Kinderwelt/Spielzeug/Puppen/Puppenmöbel"
   },
@@ -2930,7 +2930,7 @@
     "id": "Kategorien/Mode/Herrenmode/Accessoires/Mützen, Hüte & Caps"
   },
   "Kategorien/Mode/Herrenmode/Accessoires/Uhren": {
-    "active": true,
+    "active": false,
     "code": "All",
     "id": "Kategorien/Mode/Herrenmode/Accessoires/Uhren"
   },
@@ -5220,7 +5220,7 @@
     "id": "Kategorien/Sport & Freizeit/Fitness & Training/Krafttrainingsgeräte/Bauchtrainer"
   },
   "Kategorien/Sport & Freizeit/Fitness & Training/Krafttrainingsgeräte/Hantelbänke": {
-    "active": true,
+    "active": false,
     "code": "All",
     "id": "Kategorien/Sport & Freizeit/Fitness & Training/Krafttrainingsgeräte/Hantelbänke"
   },
@@ -5445,7 +5445,7 @@
     "id": "Kategorien/Sport & Freizeit/Sportarten/Golf/Golfbälle"
   },
   "Kategorien/Sport & Freizeit/Sportarten/Golf/Golfschläger": {
-    "active": true,
+    "active": false,
     "code": "All",
     "id": "Kategorien/Sport & Freizeit/Sportarten/Golf/Golfschläger"
   },
