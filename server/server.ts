@@ -74,7 +74,6 @@ function parseArguments() {
 
     const app = express();
     app.use(compression());
-    app.use(express.static("site"));
     http.createServer(app).listen(port, () => {
         console.log(`App listening on port ${port}`);
     });
