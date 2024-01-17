@@ -5,7 +5,7 @@
   "main": "server.js",
   "scripts": {
     "format": "npx prettier --write .",
-    "clean": "rimraf site/build && rimraf server/build",
+    "clean": "rimraf server/build",
     "build:server": "node ./esbuild.server.mjs",
     "dev": "npm run build:server && npm run server",
     "test": "jest",

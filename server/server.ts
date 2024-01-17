@@ -3,22 +3,8 @@ import express from "express";
 import * as fs from "fs";
 import * as http from "http";
 import * as pg from "../common/postgresql";
-import { Item } from "../common/models";
-import { STORE_KEYS } from "../common/stores";
-import { itemsToCSV } from "../common/utils";
 import * as analysis from "./analysis";
 
-function copyItemsToSite(dataDir: string) {
-    const items = analysis.readJSON(`${dataDir}/latest-canonical.json.${analysis.FILE_COMPRESSOR}`) as Item[];
-    analysis.writeJSON(`site/build/data/latest-canonical.json`, items);
-    for (const store of STORE_KEYS) {
-        const storeItems = items.filter((item) => item.store === store);
-        analysis.writeJSON(`site/build/data/latest-canonical.${store}.compressed.json`, storeItems, false, 0, true);
-    }
-    const csvItems = itemsToCSV(items);
-    fs.writeFileSync("site/build/data/latest-canonical.csv", csvItems, "utf-8");
-    console.log("Copied latest items to site.");
-}
 
 function scheduleFunction(hour: number, minute: number, second: number, func: () => Promise<void>) {
     const now = new Date();
@@ -69,33 +55,22 @@ function parseArguments() {
     const { port, skipDataUpdate } = parseArguments();
 
     if (!fs.existsSync(dataDir)) {
-        fs.mkdirSync(dataDir);
-    }
-
-    const outputDir = "site/build";
-    if (!fs.existsSync(outputDir)) fs.mkdirSync(outputDir);
-    if (!fs.existsSync(outputDir + "/data")) fs.mkdirSync(outputDir + "/data");
-
-    if (!skipDataUpdate) {
-        if (fs.existsSync(`${dataDir}/latest-canonical.json.${analysis.FILE_COMPRESSOR}`)) {
-            copyItemsToSite(dataDir);
-            analysis.updateData(dataDir, (_newItems) => {
-                copyItemsToSite(dataDir);
-            });
-        } else {
-            await analysis.updateData(dataDir);
-            copyItemsToSite(dataDir);
-        }
-        scheduleFunction(5, 0, 0, async () => {
-            await analysis.updateData(dataDir);
-            copyItemsToSite(dataDir);
-        });
-    } else {
-        copyItemsToSite(dataDir);
+        fs.mkdirSync(dataDir, { recursive: true });
     }
 
     pg.connect();
     pg.makeTable();
+
+    if (!skipDataUpdate) {
+        if (fs.existsSync(`${dataDir}/latest-canonical.json.${analysis.FILE_COMPRESSOR}`)) {
+            analysis.updateData(dataDir);
+        } else {
+            await analysis.updateData(dataDir);
+        }
+        scheduleFunction(5, 0, 0, async () => {
+            await analysis.updateData(dataDir);
+        });
+    }
 
     const app = express();
     app.use(compression());
