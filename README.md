@@ -7,11 +7,9 @@ German fork of Austrian [heissepreise](https://github.com/badlogic/heissepreise)
 -   Additional stores
 
     -   Penny: sites seem to be quite different than Austrian sites
-    -   Flink
     -   Flaschenpost
     -   Combi.de
     -   myTime.de
-    -   Edeka
     -   Netto
     -   Kaufland
 
@@ -31,14 +29,30 @@ This application adheres to the [official Postgresql environment variables](http
 
 ### Development
 
-Install NodeJS, then run this in a shell of your choice.
+#### Setup
+
+Install NodeJS and Docker, then run this in a shell of your choice:
 
 ```bash
 git clone https://github.com/yobst/heisse-preise-de
 cd heisse-preise-de
 mkdir -p data
-npm install
-npm run dev
+npm install 
+```
+
+#### Running
+
+Run 
+
+```bash
+docker compose --file development/docker-compose.yml up postgres
+npm run dev 
+```
+
+or fully containerized with
+
+```bash
+docker compose --file development/docker-compose.yml up
 ```
 
 The first time you run this, the data needs to be fetched from the stores. You should see log out put like this.

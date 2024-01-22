@@ -12,8 +12,7 @@ FROM node:21
 
 COPY --from=build /heisse-preise-de/server/build /heisse-preise-de/server/build
 COPY --from=build /heisse-preise-de/package.json /heisse-preise-de/package.json
-
-EXPOSE 3000
+COPY --from=build /heisse-preise-de/data /heisse-preise-de/data
 
 LABEL org.opencontainers.image.source=https://github.com/yobst/heisse-preise-de
 LABEL org.opencontainers.image.description="Yobst Price Scraper"

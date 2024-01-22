@@ -1,7 +1,4 @@
 node_modules
 .DS_Store
 /data/*json.br
-site/build/
 server/build/
-site/styles-bundle.css
-site/styles-bundle.css.txt

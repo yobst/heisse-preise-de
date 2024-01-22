@@ -5,9 +5,9 @@
   "main": "server.js",
   "scripts": {
     "format": "npx prettier --write .",
-    "clean": "rimraf site/build && rimraf server/build",
+    "clean": "rimraf server/build",
     "build:server": "node ./esbuild.server.mjs",
-    "dev": "npm run build:server && npm run server",
+    "dev": "npm run build:server && PGUSER=prices PGHOST=localhost PGPASSWORD=prices PGDATABASE=prices PGPORT=5433 npm run server",
     "test": "jest",
     "build": "npm run clean && npm run build:server",
     "server": "node --trace-warnings server/build/server.js"
