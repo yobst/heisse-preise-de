@@ -16,6 +16,7 @@ const storeUnits: Record<string, UnitMapping> = {
     gbecher: { unit: "g", factor: 1 },
     gdose: { unit: "g", factor: 1 },
     gschale: { unit: "g", factor: 1 },
+    lpackung: { unit: "ml", factor: 1000 },
     wl: { unit: "wg", factor: 1 },
 };
 
