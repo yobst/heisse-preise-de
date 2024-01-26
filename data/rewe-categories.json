@@ -416,7 +416,7 @@
     "slug": "muesliriegel"
   },
   "Brot, Cerealien & Aufstriche/Cerealien & Müsli/Frucht- & Müsliriegel/Nussriegel/": {
-    "active": true,
+    "active": false,
     "code": "All",
     "facetFilterQuery": "category=Brot,%20Cerealien%20%26%20Aufstriche/Cerealien%20%26%20M%C3%BCsli/Frucht-%20%26%20M%C3%BCsliriegel/Nussriegel",
     "id": "Brot, Cerealien & Aufstriche/Cerealien & Müsli/Frucht- & Müsliriegel/Nussriegel/",
@@ -840,7 +840,7 @@
     "slug": "haartrockner"
   },
   "Drogerie & Kosmetik/Haarpflege & Beauty/Styling Geräte/Lockenstab/": {
-    "active": true,
+    "active": false,
     "code": "All",
     "facetFilterQuery": "category=Drogerie%20%26%20Kosmetik/Haarpflege%20%26%20Beauty/Styling%20Ger%C3%A4te/Lockenstab",
     "id": "Drogerie & Kosmetik/Haarpflege & Beauty/Styling Geräte/Lockenstab/",
@@ -2495,6 +2495,14 @@
     "name": "Kartoffeleintopf",
     "slug": "kartoffeleintopf"
   },
+  "Fertiggerichte & Konserven/Suppen & Eintöpfe/Klößchen-Suppe/": {
+    "active": true,
+    "code": "All / Weitere Verarbeitete Lebensmittel / Fertiggerichte",
+    "facetFilterQuery": "category=Fertiggerichte%20%26%20Konserven/Suppen%20%26%20Eint%C3%B6pfe/Kl%C3%B6%C3%9Fchen-Suppe",
+    "id": "Fertiggerichte & Konserven/Suppen & Eintöpfe/Klößchen-Suppe/",
+    "name": "Klößchen-Suppe",
+    "slug": "kloesschen-suppe"
+  },
   "Fertiggerichte & Konserven/Suppen & Eintöpfe/Königsberger Klöpse/": {
     "active": true,
     "code": "All / Weitere Verarbeitete Lebensmittel / Fertiggerichte",
@@ -2590,6 +2598,14 @@
     "id": "Fleisch & Fisch/Fisch & Meeresfrüchte/Hering & Matjes/",
     "name": "Hering & Matjes",
     "slug": "hering-matjes"
+  },
+  "Fleisch & Fisch/Fisch & Meeresfrüchte/Heringssalat/": {
+    "active": true,
+    "code": "All / Fisch",
+    "facetFilterQuery": "category=Fleisch%20%26%20Fisch/Fisch%20%26%20Meeresfr%C3%BCchte/Heringssalat",
+    "id": "Fleisch & Fisch/Fisch & Meeresfrüchte/Heringssalat/",
+    "name": "Heringssalat",
+    "slug": "heringssalat"
   },
   "Fleisch & Fisch/Fisch & Meeresfrüchte/Kaviar/": {
     "active": true,
@@ -2744,7 +2760,7 @@
     "slug": "kasseler-rippchen"
   },
   "Fleisch & Fisch/Fleisch/Lammfleisch/": {
-    "active": true,
+    "active": false,
     "code": "All / Fleisch",
     "facetFilterQuery": "category=Fleisch%20%26%20Fisch/Fleisch/Lammfleisch",
     "id": "Fleisch & Fisch/Fleisch/Lammfleisch/",
@@ -6168,7 +6184,7 @@
     "slug": "mozzarella"
   },
   "Käse, Eier & Molkerei/Käse & Käseersatz/Reibekäse/": {
-    "active": true,
+    "active": false,
     "code": "All / Milchprodukte / Käse",
     "facetFilterQuery": "category=K%C3%A4se,%20Eier%20%26%20Molkerei/K%C3%A4se%20%26%20K%C3%A4seersatz/Reibek%C3%A4se",
     "id": "Käse, Eier & Molkerei/Käse & Käseersatz/Reibekäse/",
@@ -6272,7 +6288,7 @@
     "slug": "milchdrinks"
   },
   "Käse, Eier & Molkerei/Milch/Milchgetränke/Trinkmahlzeiten/": {
-    "active": true,
+    "active": false,
     "code": "All / Milchprodukte / Milch",
     "facetFilterQuery": "category=K%C3%A4se,%20Eier%20%26%20Molkerei/Milch/Milchgetr%C3%A4nke/Trinkmahlzeiten",
     "id": "Käse, Eier & Molkerei/Milch/Milchgetränke/Trinkmahlzeiten/",
@@ -6728,7 +6744,7 @@
     "slug": "fritteusen"
   },
   "Küche & Haushalt/Küchengeräte/Fritteusen/Heißluftfritteusen/": {
-    "active": true,
+    "active": false,
     "code": "All",
     "facetFilterQuery": "category=K%C3%BCche%20%26%20Haushalt/K%C3%BCchenger%C3%A4te/Fritteusen/Hei%C3%9Fluftfritteusen",
     "id": "Küche & Haushalt/Küchengeräte/Fritteusen/Heißluftfritteusen/",
@@ -7983,6 +7999,14 @@
     "name": "Porree & Lauch",
     "slug": "porree-lauch"
   },
+  "Obst & Gemüse/Frisches Gemüse/Rhabarber/": {
+    "active": true,
+    "code": "All / Gemüse",
+    "facetFilterQuery": "category=Obst%20%26%20Gem%C3%BCse/Frisches%20Gem%C3%BCse/Rhabarber",
+    "id": "Obst & Gemüse/Frisches Gemüse/Rhabarber/",
+    "name": "Rhabarber",
+    "slug": "rhabarber"
+  },
   "Obst & Gemüse/Frisches Gemüse/Rohkost/": {
     "active": true,
     "code": "All / Gemüse",
@@ -8800,7 +8824,7 @@
     "slug": "vollmilch-schokolade"
   },
   "Süßes & Salziges/Schokolade/Tafelschokolade/Weiße Schokolade/": {
-    "active": false,
+    "active": true,
     "code": "All / Süßwaren",
     "facetFilterQuery": "category=S%C3%BC%C3%9Fes%20%26%20Salziges/Schokolade/Tafelschokolade/Wei%C3%9Fe%20Schokolade",
     "id": "Süßes & Salziges/Schokolade/Tafelschokolade/Weiße Schokolade/",
@@ -10142,6 +10166,14 @@
     "id": "Veganuary/Vegane Fertiggerichte/",
     "name": "Vegane Fertiggerichte",
     "slug": "vegane-fertiggerichte"
+  },
+  "Veganuary/Veganes Eis/": {
+    "active": true,
+    "code": "All",
+    "facetFilterQuery": "category=Veganuary/Veganes%20Eis",
+    "id": "Veganuary/Veganes Eis/",
+    "name": "Veganes Eis",
+    "slug": "veganes-eis"
   },
   "Veganuary/Veganes Fast Food/": {
     "active": true,

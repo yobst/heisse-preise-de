@@ -63,7 +63,7 @@
     "slug": "nudeln-reis-internationale-kueche-asien"
   },
   "06609987-d176-4c11-85b1-868439c389d4": {
-    "active": true,
+    "active": false,
     "code": "All",
     "id": "06609987-d176-4c11-85b1-868439c389d4",
     "name": "Süße & Salzige Snacks",
@@ -307,7 +307,7 @@
     "slug": "salziges-chips-flips"
   },
   "1f446317-5b9e-4a9c-b466-98b0ae4c90e0": {
-    "active": false,
+    "active": true,
     "code": "All / Getränke",
     "id": "1f446317-5b9e-4a9c-b466-98b0ae4c90e0",
     "name": "Alkoholfreie Getränke",
@@ -363,7 +363,7 @@
     "slug": "vegan-vegetarisch-eis"
   },
   "261d895f-64ca-490b-a38f-18be240ce37f": {
-    "active": true,
+    "active": false,
     "backgroundImage": "https://res.cloudinary.com/goflink/image/upload/w_600,h_800/de/category-backgrounds/DE_Blue_Tile_CW39_V2.png",
     "code": "All",
     "href": "/v2/categories/angebote-B",
@@ -485,7 +485,7 @@
     "slug": "spirituosen-mehr-iqos-heets"
   },
   "31b9c03a-51c4-4f43-b4f0-305b51d6c406": {
-    "active": true,
+    "active": false,
     "code": "All",
     "id": "31b9c03a-51c4-4f43-b4f0-305b51d6c406",
     "name": "Mengenrabatt",
@@ -499,7 +499,7 @@
     "slug": "saucen-oele-gewuerze-fixprodukte"
   },
   "322b9e8c-830f-4371-ba9e-9bde1aa84e1d": {
-    "active": true,
+    "active": false,
     "code": "All",
     "id": "322b9e8c-830f-4371-ba9e-9bde1aa84e1d",
     "name": "Vorratsschrank",
@@ -644,7 +644,7 @@
     "slug": "kaffee-tee-kakao-coffee-kaffee-und-tee-zubehoer"
   },
   "43e76fc4-a694-48ce-b81c-d7a5007ab8e8": {
-    "active": false,
+    "active": true,
     "code": "All / Getränke",
     "id": "43e76fc4-a694-48ce-b81c-d7a5007ab8e8",
     "name": "Alkoholhaltige Getränke",
@@ -686,11 +686,11 @@
     "slug": "konserven-instantgerichte-backen-gemuesekonserven"
   },
   "4660bbf0-407b-4ba7-9609-7bcc2e92f8f1": {
-    "active": false,
+    "active": true,
     "code": "All",
     "id": "4660bbf0-407b-4ba7-9609-7bcc2e92f8f1",
-    "name": "Vuse Go -30%",
-    "slug": "angebote-b-vuse-go-30"
+    "name": "Vuse Pro",
+    "slug": "angebote-b-vuse-pro"
   },
   "46b0f09d-a1fc-4756-aad8-3ee0e9cc2c31": {
     "active": true,
@@ -739,7 +739,7 @@
   },
   "4c753a32-ecb9-43f9-92e4-68a6f8bb666c": {
     "active": true,
-    "code": null,
+    "code": "All",
     "id": "4c753a32-ecb9-43f9-92e4-68a6f8bb666c",
     "name": "Vegane Kosmetik",
     "slug": "drogerie-vegane-kosmetik"
@@ -800,7 +800,7 @@
     "slug": "alkoholfreie-getraenke-cola"
   },
   "52e42aa0-a671-4356-a37e-6e02191e04c6": {
-    "active": true,
+    "active": false,
     "code": "All",
     "id": "52e42aa0-a671-4356-a37e-6e02191e04c6",
     "name": "Highlights der Woche",
@@ -900,7 +900,7 @@
     "slug": "alkoholfreie-getraenke-schorlen"
   },
   "5a618b6b-5766-4b45-8240-e51cb56db661": {
-    "active": true,
+    "active": false,
     "code": "All / Getränke",
     "id": "5a618b6b-5766-4b45-8240-e51cb56db661",
     "name": "Alkoholfreie Getränke",
@@ -935,7 +935,7 @@
     "slug": "eis-eisriegel-snacks"
   },
   "5da543e9-2293-468f-9ca2-e542a2b00ba2": {
-    "active": true,
+    "active": false,
     "code": "All",
     "id": "5da543e9-2293-468f-9ca2-e542a2b00ba2",
     "name": "Obst & Gemüse",
@@ -971,10 +971,17 @@
   },
   "61e6219b-a73e-420c-82fe-064cc9f711ae": {
     "active": false,
-    "code": null,
+    "code": "All",
     "id": "61e6219b-a73e-420c-82fe-064cc9f711ae",
     "name": "Protein- & Geschmackspulver",
     "slug": "fitness-protein-pulver"
+  },
+  "61f6739f-85df-4800-bec3-4a96cfd08bb3": {
+    "active": true,
+    "code": "All",
+    "id": "61f6739f-85df-4800-bec3-4a96cfd08bb3",
+    "name": "Mengenrabatt",
+    "slug": "angebote-4-mengenrabatt"
   },
   "62867f33-c9d6-4e47-a23e-82d41b7eda29": {
     "active": true,
@@ -984,7 +991,7 @@
     "slug": "frisch-fleisch-fisch-fisch-meeresfruechte"
   },
   "639fb486-4b8b-4389-b7bc-582ce1bb1d3b": {
-    "active": true,
+    "active": false,
     "code": "All",
     "id": "639fb486-4b8b-4389-b7bc-582ce1bb1d3b",
     "name": "Tiefkühlung",
@@ -1047,14 +1054,14 @@
     "slug": "drogerie-hygiene-gesundheit"
   },
   "68236228-cf2f-4b64-b505-4c60f42a6884": {
-    "active": true,
+    "active": false,
     "code": "All / Getränke",
     "id": "68236228-cf2f-4b64-b505-4c60f42a6884",
     "name": "Wassersprudler & Zubehör",
     "slug": "alkoholfreie-getraenke-wassersprudler-zubehoer"
   },
   "68343aa3-92bb-4e02-8c30-069951fb68ce": {
-    "active": false,
+    "active": true,
     "code": "All",
     "id": "68343aa3-92bb-4e02-8c30-069951fb68ce",
     "name": "Tiefkühlung",
@@ -1137,6 +1144,13 @@
     "name": "Sonnen- & Insektenschutz",
     "slug": "drogerie-sonnen-insektenschutz"
   },
+  "70acfb40-cbdb-4c24-b5fa-de63e3721911": {
+    "active": true,
+    "code": "All",
+    "id": "70acfb40-cbdb-4c24-b5fa-de63e3721911",
+    "name": "4 für 2 Vuse Pro",
+    "slug": "angebote-A-vuse-pro"
+  },
   "71ae6845-250f-4a55-b708-a2f0299aa270": {
     "active": true,
     "code": "All",
@@ -1186,7 +1200,7 @@
     "slug": "suesse-snacks"
   },
   "7581475e-f2b2-487f-ac5a-772531a82b85": {
-    "active": true,
+    "active": false,
     "code": "All",
     "id": "7581475e-f2b2-487f-ac5a-772531a82b85",
     "name": "Drogerie",
@@ -1300,6 +1314,13 @@
     "name": "Schnittkäse",
     "slug": "aufschnitt-brotaufstriche-schnittkaese"
   },
+  "84f1ce62-1dd9-458d-863c-c7b8005c38fd": {
+    "active": true,
+    "code": "All / Getränke",
+    "id": "84f1ce62-1dd9-458d-863c-c7b8005c38fd",
+    "name": "Apfelwein & Cider",
+    "slug": "bier-apfelwein-cider"
+  },
   "8576c23c-0a60-46f1-8c91-8565725428f4": {
     "active": true,
     "code": "All / Getränke",
@@ -1371,7 +1392,7 @@
     "slug": "backwaren-buns-wraps"
   },
   "8c5ddee0-ae08-47b4-bbe4-c545f56f8b06": {
-    "active": false,
+    "active": true,
     "code": "All",
     "id": "8c5ddee0-ae08-47b4-bbe4-c545f56f8b06",
     "name": "Vorratsschrank",
@@ -1413,7 +1434,7 @@
     "slug": "suesse-snacks-fruchtgummi"
   },
   "91226eeb-d7e2-4270-aa07-7423027d27d3": {
-    "active": true,
+    "active": false,
     "code": "All / Getränke",
     "id": "91226eeb-d7e2-4270-aa07-7423027d27d3",
     "name": "Alkoholhaltige Getränke",
@@ -1615,8 +1636,8 @@
     "slug": "saucen-oele-gewuerze-oel"
   },
   "a879b93e-5e1d-4d40-85cd-43f18108c598": {
-    "active": true,
-    "code": null,
+    "active": false,
+    "code": "All",
     "id": "a879b93e-5e1d-4d40-85cd-43f18108c598",
     "name": "Veganes Eis",
     "slug": "angebote-B-veganes-eis"
@@ -1723,7 +1744,7 @@
     "slug": "gemuese-avocado-gurken-tomaten"
   },
   "b51f943b-961e-4e89-bd86-3d240ca8f43d": {
-    "active": false,
+    "active": true,
     "code": "All",
     "id": "b51f943b-961e-4e89-bd86-3d240ca8f43d",
     "name": "Kühlregal",
@@ -1758,7 +1779,7 @@
     "slug": "eis-eiswuerfel"
   },
   "bce53207-acf9-4448-961a-b79fb31e93e7": {
-    "active": false,
+    "active": true,
     "backgroundImage": "https://res.cloudinary.com/goflink/image/upload/w_600,h_800/de/category-backgrounds/DE_Blue_Tile_CW39_V2.png",
     "code": "All",
     "href": "/v2/categories/angebote-A",
@@ -1831,7 +1852,7 @@
     "slug": "drogeire-papiertuecher-watteartikel"
   },
   "c489f518-b529-42e4-810d-212285929d87": {
-    "active": true,
+    "active": false,
     "code": "All",
     "id": "c489f518-b529-42e4-810d-212285929d87",
     "name": "Kühlregal",
@@ -2135,7 +2156,7 @@
     "slug": "vegan-vegetarisch"
   },
   "e7e2dc24-6f6d-4146-94c1-87bac64d2096": {
-    "active": false,
+    "active": true,
     "code": "All",
     "id": "e7e2dc24-6f6d-4146-94c1-87bac64d2096",
     "name": "Drogerie",
@@ -2191,7 +2212,7 @@
     "slug": "nudeln-reis-getreide-nudeln"
   },
   "eb9d67c0-64e9-4917-85b6-d8cf920e793f": {
-    "active": false,
+    "active": true,
     "code": "All",
     "id": "eb9d67c0-64e9-4917-85b6-d8cf920e793f",
     "name": "Obst & Gemüse",
@@ -2271,7 +2292,7 @@
     "slug": "konserven-instantgerichte-backen-mehl"
   },
   "f4a50f8b-c188-490c-90e3-ee22eadd4f38": {
-    "active": true,
+    "active": false,
     "code": "All",
     "id": "f4a50f8b-c188-490c-90e3-ee22eadd4f38",
     "name": "4 für 2 Vuse Pro",
@@ -2334,7 +2355,7 @@
     "slug": "saucen-oele-gewuerze-andere-saucen"
   },
   "f91fd446-8222-4c57-adfc-6b324077c672": {
-    "active": false,
+    "active": true,
     "code": "All",
     "id": "f91fd446-8222-4c57-adfc-6b324077c672",
     "name": "Highlights der Woche",
@@ -2414,7 +2435,7 @@
     "slug": "obst-beeren"
   },
   "fe0370ca-e51e-45e5-ad23-cbd7393c51f3": {
-    "active": false,
+    "active": true,
     "code": "All",
     "id": "fe0370ca-e51e-45e5-ad23-cbd7393c51f3",
     "name": "Süße & Salzige Snacks",

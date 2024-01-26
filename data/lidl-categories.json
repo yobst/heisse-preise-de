@@ -434,6 +434,11 @@
     "code": "All",
     "id": "Kategorien/Baumarkt/Garten & Grillen/Pools & Zubehör/Swimmingpool"
   },
+  "Kategorien/Baumarkt/Gartenmöbel/Gartenmöbel - Sets": {
+    "active": true,
+    "code": "All",
+    "id": "Kategorien/Baumarkt/Gartenmöbel/Gartenmöbel - Sets"
+  },
   "Kategorien/Baumarkt/Heizen, Klima & Lüftung/Heizgeräte/Heizkörper & Wandheizungen": {
     "active": true,
     "code": "All",
@@ -475,7 +480,7 @@
     "id": "Kategorien/Baumarkt/Werkstatt/Akku & Elektrowerkzeuge"
   },
   "Kategorien/Baumarkt/Werkstatt/Akku & Elektrowerkzeuge/Akku Schlagbohrschrauber": {
-    "active": true,
+    "active": false,
     "code": "All",
     "id": "Kategorien/Baumarkt/Werkstatt/Akku & Elektrowerkzeuge/Akku Schlagbohrschrauber"
   },
@@ -531,7 +536,7 @@
   },
   "Kategorien/Baumarkt/Werkstatt/Akku & Elektrowerkzeuge/Druckluftgeräte & Zubehör": {
     "active": false,
-    "code": null,
+    "code": "All",
     "id": "Kategorien/Baumarkt/Werkstatt/Akku & Elektrowerkzeuge/Druckluftgeräte & Zubehör"
   },
   "Kategorien/Baumarkt/Werkstatt/Akku & Elektrowerkzeuge/Druckluftgeräte & Zubehör/Druckluftgeräte": {
@@ -546,7 +551,7 @@
   },
   "Kategorien/Baumarkt/Werkstatt/Akku & Elektrowerkzeuge/Graviergerät &Zubehör": {
     "active": false,
-    "code": null,
+    "code": "All",
     "id": "Kategorien/Baumarkt/Werkstatt/Akku & Elektrowerkzeuge/Graviergerät &Zubehör"
   },
   "Kategorien/Baumarkt/Werkstatt/Akku & Elektrowerkzeuge/Heißklebepistole & Zubehör": {
@@ -2026,7 +2031,7 @@
   },
   "Kategorien/Kinderwelt/Outdoor- und Gartenspielgeräte/Kletterturm": {
     "active": false,
-    "code": null,
+    "code": "All",
     "id": "Kategorien/Kinderwelt/Outdoor- und Gartenspielgeräte/Kletterturm"
   },
   "Kategorien/Kinderwelt/Outdoor- und Gartenspielgeräte/Laufräder, Dreiräder & Kinderfahrräder": {
@@ -2181,7 +2186,7 @@
   },
   "Kategorien/Kinderwelt/Spielzeug/Puppen/Puppentheater": {
     "active": false,
-    "code": null,
+    "code": "All",
     "id": "Kategorien/Kinderwelt/Spielzeug/Puppen/Puppentheater"
   },
   "Kategorien/Kinderwelt/Spielzeug/Puppen/Puppenwagen": {
@@ -2336,7 +2341,7 @@
   },
   "Kategorien/Mode/Damenmode/Damen Sportbekleidung/Laufjacken & Westen": {
     "active": false,
-    "code": null,
+    "code": "All",
     "id": "Kategorien/Mode/Damenmode/Damen Sportbekleidung/Laufjacken & Westen"
   },
   "Kategorien/Mode/Damenmode/Damen Sportbekleidung/Laufschuhe": {
@@ -3261,7 +3266,7 @@
   },
   "Kategorien/Mode/Herrenmode/Shirts": {
     "active": false,
-    "code": null,
+    "code": "All",
     "id": "Kategorien/Mode/Herrenmode/Shirts"
   },
   "Kategorien/Mode/Herrenmode/Shirts/Langarmshirts": {
@@ -4456,7 +4461,7 @@
   },
   "Kategorien/Multimedia/Smart Home & Sicherheit/SmartHome/Smart Home Pakete": {
     "active": true,
-    "code": null,
+    "code": "All",
     "id": "Kategorien/Multimedia/Smart Home & Sicherheit/SmartHome/Smart Home Pakete"
   },
   "Kategorien/Multimedia/Smart Home & Sicherheit/SmartHome/Smart Lichtsteuerung": {
@@ -4471,7 +4476,7 @@
   },
   "Kategorien/Multimedia/Smart Home & Sicherheit/SmartHome/Smart Speaker": {
     "active": false,
-    "code": null,
+    "code": "All",
     "id": "Kategorien/Multimedia/Smart Home & Sicherheit/SmartHome/Smart Speaker"
   },
   "Kategorien/Multimedia/Smart Home & Sicherheit/SmartHome/Smart Steckdosen": {
@@ -4691,77 +4696,77 @@
   },
   "Kategorien/Spirituosen/Alkoholfreies": {
     "active": true,
-    "code": "All",
+    "code": "All / Getränke",
     "id": "Kategorien/Spirituosen/Alkoholfreies"
   },
   "Kategorien/Spirituosen/Brandy": {
     "active": true,
-    "code": "All",
+    "code": "All / Getränke",
     "id": "Kategorien/Spirituosen/Brandy"
   },
   "Kategorien/Spirituosen/Cocktails und Mischgetränke": {
     "active": false,
-    "code": null,
+    "code": "All / Getränke″",
     "id": "Kategorien/Spirituosen/Cocktails und Mischgetränke"
   },
   "Kategorien/Spirituosen/Cognac": {
     "active": true,
-    "code": "All",
+    "code": "All / Getränke",
     "id": "Kategorien/Spirituosen/Cognac"
   },
   "Kategorien/Spirituosen/Gin": {
     "active": true,
-    "code": "All",
+    "code": "All / Getränke",
     "id": "Kategorien/Spirituosen/Gin"
   },
   "Kategorien/Spirituosen/Likör": {
     "active": true,
-    "code": "All",
+    "code": "All / Getränke",
     "id": "Kategorien/Spirituosen/Likör"
   },
   "Kategorien/Spirituosen/Obstbrand": {
     "active": true,
-    "code": "All",
+    "code": "All / Getränke",
     "id": "Kategorien/Spirituosen/Obstbrand"
   },
   "Kategorien/Spirituosen/Portwein": {
     "active": true,
-    "code": "All",
+    "code": "All / Getränke",
     "id": "Kategorien/Spirituosen/Portwein"
   },
   "Kategorien/Spirituosen/Rum": {
     "active": true,
-    "code": "All",
+    "code": "All / Getränke",
     "id": "Kategorien/Spirituosen/Rum"
   },
   "Kategorien/Spirituosen/Spirituosen": {
     "active": true,
-    "code": "All",
+    "code": "All / Getränke",
     "id": "Kategorien/Spirituosen/Spirituosen"
   },
   "Kategorien/Spirituosen/SpirituosenPaket": {
     "active": true,
-    "code": "All",
+    "code": "All / Getränke",
     "id": "Kategorien/Spirituosen/SpirituosenPaket"
   },
   "Kategorien/Spirituosen/Tequila und Mezcal": {
     "active": true,
-    "code": "All",
+    "code": "All / Getränke",
     "id": "Kategorien/Spirituosen/Tequila und Mezcal"
   },
   "Kategorien/Spirituosen/Weinbrand": {
     "active": true,
-    "code": "All",
+    "code": "All / Getränke",
     "id": "Kategorien/Spirituosen/Weinbrand"
   },
   "Kategorien/Spirituosen/Whiskey": {
     "active": true,
-    "code": "All",
+    "code": "All / Getränke",
     "id": "Kategorien/Spirituosen/Whiskey"
   },
   "Kategorien/Spirituosen/Wodka": {
     "active": true,
-    "code": "All",
+    "code": "All / Getränke",
     "id": "Kategorien/Spirituosen/Wodka"
   },
   "Kategorien/Sport & Freizeit/Autozubehör/Anhängerkupplung": {

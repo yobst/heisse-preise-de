@@ -1271,6 +1271,14 @@
     "name": "Angebote",
     "urlSlugText": "produkte/angebote"
   },
+  "479": {
+    "active": true,
+    "categoryKey": "13000000",
+    "code": "All",
+    "id": 479,
+    "name": "Ostern",
+    "urlSlugText": "produkte/ostern"
+  },
   "483": {
     "active": true,
     "categoryKey": "17000000",
@@ -1430,5 +1438,13 @@
     "id": 508,
     "name": "Weihnachten",
     "urlSlugText": "produkte/weihnachten/weihnachten"
+  },
+  "509": {
+    "active": true,
+    "categoryKey": "structuregroup_1588161411823448",
+    "code": "All",
+    "id": 509,
+    "name": "Ostern",
+    "urlSlugText": "produkte/ostern/ostern"
   }
 }
