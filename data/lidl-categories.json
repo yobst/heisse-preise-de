@@ -1055,7 +1055,7 @@
     "id": "Kategorien/Guthaben- und Gutscheinkarten/Gaming-Guthaben"
   },
   "Kategorien/Guthaben- und Gutscheinkarten/Geschenkkarte für App Store & iTunes": {
-    "active": false,
+    "active": true,
     "code": "All",
     "id": "Kategorien/Guthaben- und Gutscheinkarten/Geschenkkarte für App Store & iTunes"
   },
@@ -1360,7 +1360,7 @@
     "id": "Kategorien/Haushalt & Küche/Kleingeräte Küche/Dampfgarer & Sous Vide Garer"
   },
   "Kategorien/Haushalt & Küche/Kleingeräte Küche/Eierkocher": {
-    "active": true,
+    "active": false,
     "code": "All",
     "id": "Kategorien/Haushalt & Küche/Kleingeräte Küche/Eierkocher"
   },
@@ -2180,7 +2180,7 @@
     "id": "Kategorien/Kinderwelt/Spielzeug/Puppen/Puppenhaus"
   },
   "Kategorien/Kinderwelt/Spielzeug/Puppen/Puppenmöbel": {
-    "active": false,
+    "active": true,
     "code": "All",
     "id": "Kategorien/Kinderwelt/Spielzeug/Puppen/Puppenmöbel"
   },
@@ -2420,7 +2420,7 @@
     "id": "Kategorien/Mode/Damenmode/Damen Sportbekleidung/Trekking Oberteile"
   },
   "Kategorien/Mode/Damenmode/Damen Sportbekleidung/Trekking Unterteile": {
-    "active": false,
+    "active": true,
     "code": "All",
     "id": "Kategorien/Mode/Damenmode/Damen Sportbekleidung/Trekking Unterteile"
   },
@@ -2935,7 +2935,7 @@
     "id": "Kategorien/Mode/Herrenmode/Accessoires/Mützen, Hüte & Caps"
   },
   "Kategorien/Mode/Herrenmode/Accessoires/Uhren": {
-    "active": false,
+    "active": true,
     "code": "All",
     "id": "Kategorien/Mode/Herrenmode/Accessoires/Uhren"
   },
@@ -3390,7 +3390,7 @@
     "id": "Kategorien/Mode/Kindermode/Baby Jungen/Sets"
   },
   "Kategorien/Mode/Kindermode/Baby Jungen/Shirt": {
-    "active": false,
+    "active": true,
     "code": "All",
     "id": "Kategorien/Mode/Kindermode/Baby Jungen/Shirt"
   },
@@ -3775,7 +3775,7 @@
     "id": "Kategorien/Mode/Kindermode/Kinder Mädchen/Shirts"
   },
   "Kategorien/Mode/Kindermode/Kinder Mädchen/Shorts": {
-    "active": false,
+    "active": true,
     "code": "All",
     "id": "Kategorien/Mode/Kindermode/Kinder Mädchen/Shorts"
   },
@@ -4985,7 +4985,7 @@
     "id": "Kategorien/Sport & Freizeit/Camping & Outdoor/Übernachtungsausrüstung"
   },
   "Kategorien/Sport & Freizeit/Camping & Outdoor/Übernachtungsausrüstung/Feldbetten": {
-    "active": false,
+    "active": true,
     "code": "All",
     "id": "Kategorien/Sport & Freizeit/Camping & Outdoor/Übernachtungsausrüstung/Feldbetten"
   },
@@ -5015,7 +5015,7 @@
     "id": "Kategorien/Sport & Freizeit/Fahrräder/City-Bikes/Fitnessräder"
   },
   "Kategorien/Sport & Freizeit/Fahrräder/City-Fahrräder": {
-    "active": true,
+    "active": false,
     "code": "All",
     "id": "Kategorien/Sport & Freizeit/Fahrräder/City-Fahrräder"
   },
@@ -5225,7 +5225,7 @@
     "id": "Kategorien/Sport & Freizeit/Fitness & Training/Krafttrainingsgeräte/Bauchtrainer"
   },
   "Kategorien/Sport & Freizeit/Fitness & Training/Krafttrainingsgeräte/Hantelbänke": {
-    "active": false,
+    "active": true,
     "code": "All",
     "id": "Kategorien/Sport & Freizeit/Fitness & Training/Krafttrainingsgeräte/Hantelbänke"
   },
@@ -5345,7 +5345,7 @@
     "id": "Kategorien/Sport & Freizeit/Natur & Erforschen/Nachtsichtgeräte"
   },
   "Kategorien/Sport & Freizeit/Sportarten/American Football/Bälle": {
-    "active": false,
+    "active": true,
     "code": "All",
     "id": "Kategorien/Sport & Freizeit/Sportarten/American Football/Bälle"
   },
@@ -5405,7 +5405,7 @@
     "id": "Kategorien/Sport & Freizeit/Sportarten/Billard, Kicker & Dart/Dartscheibe"
   },
   "Kategorien/Sport & Freizeit/Sportarten/Billard, Kicker & Dart/Dartsets": {
-    "active": false,
+    "active": true,
     "code": "All",
     "id": "Kategorien/Sport & Freizeit/Sportarten/Billard, Kicker & Dart/Dartsets"
   },
@@ -5450,7 +5450,7 @@
     "id": "Kategorien/Sport & Freizeit/Sportarten/Golf/Golfbälle"
   },
   "Kategorien/Sport & Freizeit/Sportarten/Golf/Golfschläger": {
-    "active": false,
+    "active": true,
     "code": "All",
     "id": "Kategorien/Sport & Freizeit/Sportarten/Golf/Golfschläger"
   },
@@ -5585,7 +5585,7 @@
     "id": "Kategorien/Sport & Freizeit/Sportarten/Wassersport/Stand-Up-Paddle-Board"
   },
   "Kategorien/Sport & Freizeit/Sportarten/Wassersport/Wasserbälle": {
-    "active": false,
+    "active": true,
     "code": "All",
     "id": "Kategorien/Sport & Freizeit/Sportarten/Wassersport/Wasserbälle"
   },
@@ -5690,7 +5690,7 @@
     "id": "Kategorien/Tierwelt/Katze/Katzenspielzeug"
   },
   "Kategorien/Tierwelt/Katze/Katzentransportboxen": {
-    "active": false,
+    "active": true,
     "code": "All",
     "id": "Kategorien/Tierwelt/Katze/Katzentransportboxen"
   },
@@ -5875,7 +5875,7 @@
     "id": "Kategorien/Wohnen & Einrichten/Bettwaren & Matratzen/Kissen/Synthetische Kopfkissen"
   },
   "Kategorien/Wohnen & Einrichten/Bettwaren & Matratzen/Lattenroste/Elektrisch verstellbar": {
-    "active": false,
+    "active": true,
     "code": "All",
     "id": "Kategorien/Wohnen & Einrichten/Bettwaren & Matratzen/Lattenroste/Elektrisch verstellbar"
   },
@@ -6545,7 +6545,7 @@
     "id": "Kategorien/Wohnen & Einrichten/Möbel/Wickelkommoden"
   },
   "Kategorien/Wohnen & Einrichten/Rollos & Jalousien/Dekorollos": {
-    "active": false,
+    "active": true,
     "code": "All",
     "id": "Kategorien/Wohnen & Einrichten/Rollos & Jalousien/Dekorollos"
   },

@@ -63,7 +63,7 @@
     "slug": "nudeln-reis-internationale-kueche-asien"
   },
   "06609987-d176-4c11-85b1-868439c389d4": {
-    "active": false,
+    "active": true,
     "code": "All",
     "id": "06609987-d176-4c11-85b1-868439c389d4",
     "name": "Süße & Salzige Snacks",
@@ -307,7 +307,7 @@
     "slug": "salziges-chips-flips"
   },
   "1f446317-5b9e-4a9c-b466-98b0ae4c90e0": {
-    "active": true,
+    "active": false,
     "code": "All / Getränke",
     "id": "1f446317-5b9e-4a9c-b466-98b0ae4c90e0",
     "name": "Alkoholfreie Getränke",
@@ -363,7 +363,7 @@
     "slug": "vegan-vegetarisch-eis"
   },
   "261d895f-64ca-490b-a38f-18be240ce37f": {
-    "active": false,
+    "active": true,
     "backgroundImage": "https://res.cloudinary.com/goflink/image/upload/w_600,h_800/de/category-backgrounds/DE_Blue_Tile_CW39_V2.png",
     "code": "All",
     "href": "/v2/categories/angebote-B",
@@ -413,6 +413,13 @@
     "id": "29cf0b72-c41a-46ca-bc7a-f1535c02c645",
     "name": "Schokoknabberei",
     "slug": "suesse-snacks-schokoknabberei"
+  },
+  "2ba812e5-809e-4bc8-a809-bc9d01d0e3fd": {
+    "active": true,
+    "code": "All",
+    "id": "2ba812e5-809e-4bc8-a809-bc9d01d0e3fd",
+    "name": "Veganes Eis",
+    "slug": "eis-veganes-eis"
   },
   "2c76f50e-bb61-413c-bd7a-d0c705f4e09b": {
     "active": true,
@@ -499,7 +506,7 @@
     "slug": "saucen-oele-gewuerze-fixprodukte"
   },
   "322b9e8c-830f-4371-ba9e-9bde1aa84e1d": {
-    "active": false,
+    "active": true,
     "code": "All",
     "id": "322b9e8c-830f-4371-ba9e-9bde1aa84e1d",
     "name": "Vorratsschrank",
@@ -644,7 +651,7 @@
     "slug": "kaffee-tee-kakao-coffee-kaffee-und-tee-zubehoer"
   },
   "43e76fc4-a694-48ce-b81c-d7a5007ab8e8": {
-    "active": true,
+    "active": false,
     "code": "All / Getränke",
     "id": "43e76fc4-a694-48ce-b81c-d7a5007ab8e8",
     "name": "Alkoholhaltige Getränke",
@@ -686,7 +693,7 @@
     "slug": "konserven-instantgerichte-backen-gemuesekonserven"
   },
   "4660bbf0-407b-4ba7-9609-7bcc2e92f8f1": {
-    "active": true,
+    "active": false,
     "code": "All",
     "id": "4660bbf0-407b-4ba7-9609-7bcc2e92f8f1",
     "name": "Vuse Pro",
@@ -800,7 +807,7 @@
     "slug": "alkoholfreie-getraenke-cola"
   },
   "52e42aa0-a671-4356-a37e-6e02191e04c6": {
-    "active": false,
+    "active": true,
     "code": "All",
     "id": "52e42aa0-a671-4356-a37e-6e02191e04c6",
     "name": "Highlights der Woche",
@@ -900,7 +907,7 @@
     "slug": "alkoholfreie-getraenke-schorlen"
   },
   "5a618b6b-5766-4b45-8240-e51cb56db661": {
-    "active": false,
+    "active": true,
     "code": "All / Getränke",
     "id": "5a618b6b-5766-4b45-8240-e51cb56db661",
     "name": "Alkoholfreie Getränke",
@@ -935,7 +942,7 @@
     "slug": "eis-eisriegel-snacks"
   },
   "5da543e9-2293-468f-9ca2-e542a2b00ba2": {
-    "active": false,
+    "active": true,
     "code": "All",
     "id": "5da543e9-2293-468f-9ca2-e542a2b00ba2",
     "name": "Obst & Gemüse",
@@ -991,7 +998,7 @@
     "slug": "frisch-fleisch-fisch-fisch-meeresfruechte"
   },
   "639fb486-4b8b-4389-b7bc-582ce1bb1d3b": {
-    "active": false,
+    "active": true,
     "code": "All",
     "id": "639fb486-4b8b-4389-b7bc-582ce1bb1d3b",
     "name": "Tiefkühlung",
@@ -1061,7 +1068,7 @@
     "slug": "alkoholfreie-getraenke-wassersprudler-zubehoer"
   },
   "68343aa3-92bb-4e02-8c30-069951fb68ce": {
-    "active": true,
+    "active": false,
     "code": "All",
     "id": "68343aa3-92bb-4e02-8c30-069951fb68ce",
     "name": "Tiefkühlung",
@@ -1145,7 +1152,7 @@
     "slug": "drogerie-sonnen-insektenschutz"
   },
   "70acfb40-cbdb-4c24-b5fa-de63e3721911": {
-    "active": true,
+    "active": false,
     "code": "All",
     "id": "70acfb40-cbdb-4c24-b5fa-de63e3721911",
     "name": "4 für 2 Vuse Pro",
@@ -1200,7 +1207,7 @@
     "slug": "suesse-snacks"
   },
   "7581475e-f2b2-487f-ac5a-772531a82b85": {
-    "active": false,
+    "active": true,
     "code": "All",
     "id": "7581475e-f2b2-487f-ac5a-772531a82b85",
     "name": "Drogerie",
@@ -1392,7 +1399,7 @@
     "slug": "backwaren-buns-wraps"
   },
   "8c5ddee0-ae08-47b4-bbe4-c545f56f8b06": {
-    "active": true,
+    "active": false,
     "code": "All",
     "id": "8c5ddee0-ae08-47b4-bbe4-c545f56f8b06",
     "name": "Vorratsschrank",
@@ -1434,7 +1441,7 @@
     "slug": "suesse-snacks-fruchtgummi"
   },
   "91226eeb-d7e2-4270-aa07-7423027d27d3": {
-    "active": false,
+    "active": true,
     "code": "All / Getränke",
     "id": "91226eeb-d7e2-4270-aa07-7423027d27d3",
     "name": "Alkoholhaltige Getränke",
@@ -1744,7 +1751,7 @@
     "slug": "gemuese-avocado-gurken-tomaten"
   },
   "b51f943b-961e-4e89-bd86-3d240ca8f43d": {
-    "active": true,
+    "active": false,
     "code": "All",
     "id": "b51f943b-961e-4e89-bd86-3d240ca8f43d",
     "name": "Kühlregal",
@@ -1779,7 +1786,7 @@
     "slug": "eis-eiswuerfel"
   },
   "bce53207-acf9-4448-961a-b79fb31e93e7": {
-    "active": true,
+    "active": false,
     "backgroundImage": "https://res.cloudinary.com/goflink/image/upload/w_600,h_800/de/category-backgrounds/DE_Blue_Tile_CW39_V2.png",
     "code": "All",
     "href": "/v2/categories/angebote-A",
@@ -1852,7 +1859,7 @@
     "slug": "drogeire-papiertuecher-watteartikel"
   },
   "c489f518-b529-42e4-810d-212285929d87": {
-    "active": false,
+    "active": true,
     "code": "All",
     "id": "c489f518-b529-42e4-810d-212285929d87",
     "name": "Kühlregal",
@@ -2156,7 +2163,7 @@
     "slug": "vegan-vegetarisch"
   },
   "e7e2dc24-6f6d-4146-94c1-87bac64d2096": {
-    "active": true,
+    "active": false,
     "code": "All",
     "id": "e7e2dc24-6f6d-4146-94c1-87bac64d2096",
     "name": "Drogerie",
@@ -2212,7 +2219,7 @@
     "slug": "nudeln-reis-getreide-nudeln"
   },
   "eb9d67c0-64e9-4917-85b6-d8cf920e793f": {
-    "active": true,
+    "active": false,
     "code": "All",
     "id": "eb9d67c0-64e9-4917-85b6-d8cf920e793f",
     "name": "Obst & Gemüse",
@@ -2292,7 +2299,7 @@
     "slug": "konserven-instantgerichte-backen-mehl"
   },
   "f4a50f8b-c188-490c-90e3-ee22eadd4f38": {
-    "active": false,
+    "active": true,
     "code": "All",
     "id": "f4a50f8b-c188-490c-90e3-ee22eadd4f38",
     "name": "4 für 2 Vuse Pro",
@@ -2355,7 +2362,7 @@
     "slug": "saucen-oele-gewuerze-andere-saucen"
   },
   "f91fd446-8222-4c57-adfc-6b324077c672": {
-    "active": true,
+    "active": false,
     "code": "All",
     "id": "f91fd446-8222-4c57-adfc-6b324077c672",
     "name": "Highlights der Woche",
@@ -2435,7 +2442,7 @@
     "slug": "obst-beeren"
   },
   "fe0370ca-e51e-45e5-ad23-cbd7393c51f3": {
-    "active": true,
+    "active": false,
     "code": "All",
     "id": "fe0370ca-e51e-45e5-ad23-cbd7393c51f3",
     "name": "Süße & Salzige Snacks",

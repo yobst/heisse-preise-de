@@ -79,6 +79,14 @@
     "name": "Gemüsebrei",
     "slug": "gemuesebrei"
   },
+  "Babybedarf/Babynahrung/Beikost/Milch- & Getreidebrei/": {
+    "active": true,
+    "code": null,
+    "facetFilterQuery": "category=Babybedarf/Babynahrung/Beikost/Milch-%20%26%20Getreidebrei",
+    "id": "Babybedarf/Babynahrung/Beikost/Milch- & Getreidebrei/",
+    "name": "Milch- & Getreidebrei",
+    "slug": "milch-getreidebrei"
+  },
   "Babybedarf/Babynahrung/Milchnahrung/": {
     "active": true,
     "code": "All",
@@ -2623,6 +2631,14 @@
     "name": "Krabbensalat",
     "slug": "krabbensalat"
   },
+  "Fleisch & Fisch/Fisch & Meeresfrüchte/Lachs & Seelachs/": {
+    "active": false,
+    "code": null,
+    "facetFilterQuery": "category=Fleisch%20%26%20Fisch/Fisch%20%26%20Meeresfr%C3%BCchte/Lachs%20%26%20Seelachs",
+    "id": "Fleisch & Fisch/Fisch & Meeresfrüchte/Lachs & Seelachs/",
+    "name": "Lachs & Seelachs",
+    "slug": "lachs-seelachs"
+  },
   "Fleisch & Fisch/Fisch & Meeresfrüchte/Meeresfrüchte/": {
     "active": true,
     "code": "All / Fisch",
@@ -3096,7 +3112,7 @@
     "slug": "koelsch"
   },
   "Getränke & Genussmittel/Bier & Biermischgetränke/Bier/Lagerbier/": {
-    "active": true,
+    "active": false,
     "code": "All / Getränke",
     "facetFilterQuery": "category=Getr%C3%A4nke%20%26%20Genussmittel/Bier%20%26%20Biermischgetr%C3%A4nke/Bier/Lagerbier",
     "id": "Getränke & Genussmittel/Bier & Biermischgetränke/Bier/Lagerbier/",
@@ -4071,6 +4087,14 @@
     "name": "Scotch Whisky",
     "slug": "scotch-whisky"
   },
+  "Getränke & Genussmittel/Spirituosen/Whiskey/Single Malt Whisky/": {
+    "active": false,
+    "code": null,
+    "facetFilterQuery": "category=Getr%C3%A4nke%20%26%20Genussmittel/Spirituosen/Whiskey/Single%20Malt%20Whisky",
+    "id": "Getränke & Genussmittel/Spirituosen/Whiskey/Single Malt Whisky/",
+    "name": "Single Malt Whisky",
+    "slug": "single-malt-whisky"
+  },
   "Getränke & Genussmittel/Wasser/": {
     "active": true,
     "code": "All / Getränke",
@@ -4336,7 +4360,7 @@
     "slug": "weinschorle"
   },
   "Getränke & Genussmittel/Wein/Weinsets/": {
-    "active": true,
+    "active": false,
     "code": "All / Getränke",
     "facetFilterQuery": "category=Getr%C3%A4nke%20%26%20Genussmittel/Wein/Weinsets",
     "id": "Getränke & Genussmittel/Wein/Weinsets/",
@@ -7136,7 +7160,7 @@
     "slug": "allzweckmesser"
   },
   "Küche & Haushalt/Küchenhelfer & Zubehör/Messer/Brotmesser/": {
-    "active": true,
+    "active": false,
     "code": "All",
     "facetFilterQuery": "category=K%C3%BCche%20%26%20Haushalt/K%C3%BCchenhelfer%20%26%20Zubeh%C3%B6r/Messer/Brotmesser",
     "id": "Küche & Haushalt/Küchenhelfer & Zubehör/Messer/Brotmesser/",
@@ -8000,7 +8024,7 @@
     "slug": "porree-lauch"
   },
   "Obst & Gemüse/Frisches Gemüse/Rhabarber/": {
-    "active": true,
+    "active": false,
     "code": "All / Gemüse",
     "facetFilterQuery": "category=Obst%20%26%20Gem%C3%BCse/Frisches%20Gem%C3%BCse/Rhabarber",
     "id": "Obst & Gemüse/Frisches Gemüse/Rhabarber/",
@@ -8639,6 +8663,14 @@
     "name": "Ostern",
     "slug": "ostern"
   },
+  "Süßes & Salziges/Ostern/Ostergebäck/": {
+    "active": true,
+    "code": null,
+    "facetFilterQuery": "category=S%C3%BC%C3%9Fes%20%26%20Salziges/Ostern/Ostergeb%C3%A4ck",
+    "id": "Süßes & Salziges/Ostern/Ostergebäck/",
+    "name": "Ostergebäck",
+    "slug": "ostergebaeck"
+  },
   "Süßes & Salziges/Ostern/Osterschokolade/": {
     "active": true,
     "code": "All",
@@ -9112,7 +9144,7 @@
     "slug": "lakritz"
   },
   "Süßes & Salziges/Süßwaren/Marshmallows & Mäusespeck/": {
-    "active": true,
+    "active": false,
     "code": "All / Süßwaren",
     "facetFilterQuery": "category=S%C3%BC%C3%9Fes%20%26%20Salziges/S%C3%BC%C3%9Fwaren/Marshmallows%20%26%20M%C3%A4usespeck",
     "id": "Süßes & Salziges/Süßwaren/Marshmallows & Mäusespeck/",
@@ -9134,6 +9166,14 @@
     "id": "Süßes & Salziges/Süßwaren/Schaumzucker, Puffreis & Esspapier/",
     "name": "Schaumzucker, Puffreis & Esspapier",
     "slug": "schaumzucker-puffreis-esspapier"
+  },
+  "Süßes & Salziges/Süßwaren/Traubenzucker & Brausepulver/": {
+    "active": true,
+    "code": null,
+    "facetFilterQuery": "category=S%C3%BC%C3%9Fes%20%26%20Salziges/S%C3%BC%C3%9Fwaren/Traubenzucker%20%26%20Brausepulver",
+    "id": "Süßes & Salziges/Süßwaren/Traubenzucker & Brausepulver/",
+    "name": "Traubenzucker & Brausepulver",
+    "slug": "traubenzucker-brausepulver"
   },
   "Süßes & Salziges/Trockenfrüchte & Kerne/": {
     "active": true,
@@ -9952,7 +9992,7 @@
     "slug": "hunde-trockenfutter"
   },
   "Tierbedarf/Hundebedarf/Hundefutter/Hundesnacks/": {
-    "active": true,
+    "active": false,
     "code": "All",
     "facetFilterQuery": "category=Tierbedarf/Hundebedarf/Hundefutter/Hundesnacks",
     "id": "Tierbedarf/Hundebedarf/Hundefutter/Hundesnacks/",
