@@ -58,7 +58,7 @@ export function normalizeUnitAndQuantity(
 }
 
 export function extractRawUnitAndQuantityFromEndOfString(str: string, defaultValue: any) {
-    const tokens = str.trim().replaceAll("(", "").replaceAll(")", "").split(" ");
+    const tokens = str.trim().replaceAll("(", "").replaceAll(")", "").replaceAll("/", " ").split(" ");
     const lastToken = tokens[tokens.length - 1].replaceAll(",", ".");
     const secondLastToken = tokens.length >= 2 && !tokens[tokens.length - 2].endsWith(",") ? tokens[tokens.length - 2].replaceAll(",", ".") : "";
     const token = /\d/.test(lastToken) ? lastToken : /^\d+(.\d*)?$/.test(secondLastToken) ? secondLastToken + lastToken : "";

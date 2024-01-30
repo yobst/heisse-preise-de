@@ -14,7 +14,7 @@ const storeUnits: Record<string, UnitMapping> = {
     "er-packung": { unit: "stk", factor: 1 },
 };
 
-const invalidUnits = new Set(["v", "-lagig", "klingen", "-klingen"]);
+const invalidUnits = new Set(["v", "-lagig", "klingen", "-klingen", "kne"]);
 
 export function getQuantityAndUnit(rawItem: any, storeName: string) {
     const defaultUnit: { quantity: number; unit: Unit } = { quantity: 1, unit: "stk" };
@@ -28,10 +28,21 @@ export function getQuantityAndUnit(rawItem: any, storeName: string) {
         rawUnit = res.rawUnit;
     }
 
-    if (rawUnit == defaultUnit.unit) {
+    if ((rawUnit == defaultUnit.unit && rawQuantity == defaultUnit.quantity) || invalidUnits.has(rawUnit)) {
         const res = utils.extractRawUnitAndQuantityFromDescription(rawItem.name, defaultUnit);
         rawQuantity = res.rawQuantity;
         rawUnit = res.rawUnit;
+    }
+
+    if ((rawUnit == defaultUnit.unit && rawQuantity == defaultUnit.quantity) || invalidUnits.has(rawUnit)) {
+        
+        const regex = /(?:\s|^)((?:\d+,)?\d+)\s*(g|kg|stk|wl|mg|l|ml|er|tbl|tabs)\s/;
+        const matches = rawItem.name.match(regex);
+
+        if (matches) {
+            rawQuantity = parseFloat(matches[1].replace(',','.'));
+            rawUnit = matches[2];
+        }
     }
 
     if (invalidUnits.has(rawUnit)) {

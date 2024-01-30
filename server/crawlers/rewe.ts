@@ -19,25 +19,43 @@ const storeUnits: Record<string, UnitMapping> = {
     teller: { unit: "srv", factor: 1 },
 };
 
-const invalidUnits = new Set(["silber"]);
+const invalidUnits = new Set(["silber", "h", "farben", "schwarz", "rot", "lumen", "proglide", "sand", "dunkelbraun", "mittlebraun", "hellblond", "a", "klinge", "samtbraun", "schwarzrot", "b", "rasierer"]);
 
 export function getQuantityAndUnit(rawItem: any, storeName: string) {
     const defaultUnit: { quantity: number; unit: Unit } = { quantity: 1, unit: "stk" };
 
-    let rawQuantity = defaultUnit.quantity;
-    let rawUnit = defaultUnit.unit;
+    let rawQuantity = 1;
+    let rawUnit = "stk";
 
     const grammage = rawItem._embedded?.articles[0]?._embedded?.listing?.pricing?.grammage;
     if (grammage) {
         const res = utils.extractRawUnitAndQuantityFromEndOfString(grammage.split("(")[0].trim(), defaultUnit);
         rawQuantity = res.rawQuantity;
-        rawUnit = res.rawUnit;
+        rawUnit = res.rawUnit.toLowerCase();
     }
 
-    if (rawUnit == defaultUnit.unit) {
-        const res = utils.extractRawUnitAndQuantityFromDescription(rawItem.productName, defaultUnit);
+    if (((rawUnit == "stk" || rawUnit == "stück" ) && rawQuantity == 1) || invalidUnits.has(rawUnit)) {
+        const res = utils.extractRawUnitAndQuantityFromEndOfString(rawItem.productName, defaultUnit);
         rawQuantity = res.rawQuantity;
-        rawUnit = res.rawUnit;
+        rawUnit = res.rawUnit.toLowerCase();
+    }
+
+    if (((rawUnit == "stk" || rawUnit == "stück" ) && rawQuantity == 1) || invalidUnits.has(rawUnit)) {
+        const regex = /(?:\s|^)((?:\d+x)*\s*)?((?:(?:(?:\d+,)?\d+)\/)*)((?:\d+,)?\d+)\s*([^\d\s]+)(?:\s|$)/g;
+        const matches = regex.exec(rawItem.productName);
+
+        if (matches) {
+            rawUnit = matches[4].toLowerCase();
+            rawQuantity = matches[3]? parseFloat(matches[3].replace(',','.')) : 1;
+            if (matches[1] && matches[1].trim().length > 0) {
+                matches[1].split("x").forEach((q: string) => {
+                    const trimmed = q.trim();
+                    if (trimmed.length > 0) {
+                        rawQuantity = rawQuantity * parseFloat(trimmed.replace(",","."));
+                    }
+                });
+            }
+        }
     }
 
     if (invalidUnits.has(rawUnit)) {
@@ -45,7 +63,7 @@ export function getQuantityAndUnit(rawItem: any, storeName: string) {
         rawUnit = "stk";
     }
 
-    return utils.normalizeUnitAndQuantity(rawItem.name, rawUnit, rawQuantity, storeUnits, storeName, defaultUnit);
+    return utils.normalizeUnitAndQuantity(`${rawItem.productName}; ${grammage}`, rawUnit, rawQuantity, storeUnits, storeName, defaultUnit);
 }
 
 async function getSubcategories(categorySlug: any, storeID: string, IDprefix = "", level = 0) {
@@ -146,7 +164,6 @@ export class ReweCrawler implements Crawler {
         const rawCategory = rawItem._embedded.categoryPath;
         const category = this.categories[rawCategory]?.code || "Unknown";
         const { quantity, unit } = getQuantityAndUnit(rawItem, this.store.displayName);
-
         return new Item(
             this.store.id,
             rawItem.id,

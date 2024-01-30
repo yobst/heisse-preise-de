@@ -18,6 +18,7 @@ const storeUnits: Record<string, UnitMapping> = {
     gschale: { unit: "g", factor: 1 },
     lpackung: { unit: "ml", factor: 1000 },
     wl: { unit: "wg", factor: 1 },
+    er: { unit: "stk", factor: 1 },
 };
 
 const invalidUnits = new Set(["pfand"]);
@@ -26,6 +27,17 @@ export function getQuantityAndUnit(rawItem: any, storeName: string) {
     const defaultUnit: { quantity: number; unit: Unit } = { quantity: 1, unit: "stk" };
     const description = `${rawItem.title}, ${rawItem.description}`;
     let { rawUnit, rawQuantity } = utils.extractRawUnitAndQuantityFromDescription(description, defaultUnit);
+
+    if ((rawUnit == defaultUnit.unit && rawQuantity == defaultUnit.quantity) || invalidUnits.has(rawUnit)) {
+        
+        const regex = /(?:\s+|^)((?:\d+,)?\d+)\s*(g|kg|stk|wl|mg|l|ml|er|tbl|tabs)\s/;
+        const matches = rawItem.description.match(regex);
+
+        if (matches) {
+            rawQuantity = parseFloat(matches[1].replace(',','.'));
+            rawUnit = matches[2];
+        }
+    }
 
     if (invalidUnits.has(rawUnit)) {
         rawQuantity = 1;
@@ -57,7 +69,6 @@ export class EdekaCrawler implements Crawler {
         const unavailable = false;
         const isWeighted = false;
         const { quantity, unit } = getQuantityAndUnit(rawItem, this.store.displayName);
-
         return new Item(
             this.store.id,
             rawItem.id,
