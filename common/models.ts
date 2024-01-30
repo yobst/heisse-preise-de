@@ -1,4 +1,4 @@
-export type Unit = "stk" | "cm" | "g" | "ml" | "wg" | "qm" | "kne" | "srv" | "zug";
+export type Unit = "stk" | "cm" | "g" | "ml" | "wg" | "qm" | "srv" | "zug" | "bund";
 
 export type UnitMapping = { unit: Unit; factor: number };
 
@@ -24,6 +24,8 @@ export const units: Record<string, UnitMapping> = {
     dag: { unit: "g", factor: 10 },
     kg: { unit: "g", factor: 1000 },
     kilogramm: { unit: "g", factor: 1000 },
+    mg: { unit: "g", factor: 0.001 },
+    milligramm: { unit: "g", factor: 0.001 },
     ml: { unit: "ml", factor: 1 },
     milliliter: { unit: "ml", factor: 1 },
     dl: { unit: "ml", factor: 10 },
@@ -32,9 +34,10 @@ export const units: Record<string, UnitMapping> = {
     lt: { unit: "ml", factor: 1000 },
     liter: { unit: "ml", factor: 1000 },
     wg: { unit: "wg", factor: 1 },
-    kne: { unit: "kne", factor: 1 }, // from aldi store, not sure what this unit is, probably something like drained net weight
+    wl: { unit: "wg", factor: 1 },
     srv: { unit: "srv", factor: 1 }, // serving
     züge: { unit: "zug", factor: 1 },
+    bund: { unit: "bund", factor: 1}
 };
 
 export type Category =
