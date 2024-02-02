@@ -29,77 +29,77 @@
   },
   "Drogerie/Lebensmittel/Getränke": {
     "active": true,
-    "code": "All / Getränke",
+    "code": "Alles / Getränke",
     "id": "Drogerie/Lebensmittel/Getränke",
     "name": "Getränke",
     "url": "https://www.mueller.de/drogerie/lebensmittel/getraenke/"
   },
   "Drogerie/Lebensmittel/Getränke/Bier": {
     "active": true,
-    "code": "All / Getränke",
+    "code": "Alles / Getränke / Alkoholische Getränke",
     "id": "Drogerie/Lebensmittel/Getränke/Bier",
     "name": "Bier",
     "url": "https://www.mueller.de/drogerie/lebensmittel/getraenke/bier/"
   },
   "Drogerie/Lebensmittel/Getränke/Eistee": {
     "active": true,
-    "code": "All / Getränke",
+    "code": "Alles / Getränke / Alkoholfreie Getränke / Eistee & Mate",
     "id": "Drogerie/Lebensmittel/Getränke/Eistee",
     "name": "Eistee",
     "url": "https://www.mueller.de/drogerie/lebensmittel/getraenke/eistee/"
   },
   "Drogerie/Lebensmittel/Getränke/Getreide- & Sojadrinks": {
     "active": true,
-    "code": "All / Getränke",
+    "code": "Alles / Gekühltes / Eier & Molkereiprodukte / Milch & Milchalternativen / Pflanzendrinks",
     "id": "Drogerie/Lebensmittel/Getränke/Getreide- & Sojadrinks",
     "name": "Getreide- & Sojadrinks",
     "url": "https://www.mueller.de/drogerie/lebensmittel/getraenke/getreide-sojadrinks/"
   },
   "Drogerie/Lebensmittel/Getränke/Limonaden": {
     "active": true,
-    "code": "All / Getränke",
+    "code": "Alles / Getränke / Alkoholfreie Getränke / Limonaden",
     "id": "Drogerie/Lebensmittel/Getränke/Limonaden",
     "name": "Limonaden",
     "url": "https://www.mueller.de/drogerie/lebensmittel/getraenke/limonaden/"
   },
   "Drogerie/Lebensmittel/Getränke/Sekt & Champagner": {
     "active": true,
-    "code": "All / Getränke",
+    "code": "Alles / Getränke / Alkoholische Getränke",
     "id": "Drogerie/Lebensmittel/Getränke/Sekt & Champagner",
     "name": "Sekt & Champagner",
     "url": "https://www.mueller.de/drogerie/lebensmittel/getraenke/sekt-champagner/"
   },
   "Drogerie/Lebensmittel/Getränke/Sirup": {
     "active": true,
-    "code": "All / Zuckerarten, Sirupe und Honig",
+    "code": "Alles / Getränke / Alkoholfreie Getränke / Getränkesirup",
     "id": "Drogerie/Lebensmittel/Getränke/Sirup",
     "name": "Sirup",
     "url": "https://www.mueller.de/drogerie/lebensmittel/getraenke/sirup/"
   },
   "Drogerie/Lebensmittel/Getränke/Spirituosen": {
     "active": true,
-    "code": "All / Getränke",
+    "code": "Alles / Getränke / Alkoholische Getränke",
     "id": "Drogerie/Lebensmittel/Getränke/Spirituosen",
     "name": "Spirituosen",
     "url": "https://www.mueller.de/drogerie/lebensmittel/getraenke/spirituosen/"
   },
   "Drogerie/Lebensmittel/Getränke/Sport- & Energydrinks": {
     "active": true,
-    "code": "All / Getränke",
+    "code": "Alles / Getränke / Alkoholfreie Getränke / Sport- & Energydrinks",
     "id": "Drogerie/Lebensmittel/Getränke/Sport- & Energydrinks",
     "name": "Sport- & Energydrinks",
     "url": "https://www.mueller.de/drogerie/lebensmittel/getraenke/sport-energydrinks/"
   },
   "Drogerie/Lebensmittel/Getränke/Säfte, Smoothies & Schorlen": {
     "active": true,
-    "code": "All / Getränke",
+    "code": "Alles / Getränke / Alkoholfreie Getränke",
     "id": "Drogerie/Lebensmittel/Getränke/Säfte, Smoothies & Schorlen",
     "name": "Säfte, Smoothies & Schorlen",
     "url": "https://www.mueller.de/drogerie/lebensmittel/getraenke/saefte-smoothies-schorlen/"
   },
   "Drogerie/Lebensmittel/Getränke/Wein": {
     "active": true,
-    "code": "All / Getränke",
+    "code": "Alles / Getränke / Alkoholische Getränke",
     "id": "Drogerie/Lebensmittel/Getränke/Wein",
     "name": "Wein",
     "url": "https://www.mueller.de/drogerie/lebensmittel/getraenke/wein/"
@@ -113,175 +113,175 @@
   },
   "Drogerie/Lebensmittel/Nahrung/Backwaren": {
     "active": true,
-    "code": "All / Backwaren",
+    "code": "Alles / Ungekühltes / Frühstück / Abgepackte Backwaren",
     "id": "Drogerie/Lebensmittel/Nahrung/Backwaren",
     "name": "Backwaren",
     "url": "https://www.mueller.de/drogerie/lebensmittel/nahrung/backwaren/"
   },
   "Drogerie/Lebensmittel/Nahrung/Backzutaten & Süßungsmittel": {
     "active": true,
-    "code": "Alles",
+    "code": "Alles / Ungekühltes / Backen & Dessertpulver",
     "id": "Drogerie/Lebensmittel/Nahrung/Backzutaten & Süßungsmittel",
     "name": "Backzutaten & Süßungsmittel",
     "url": "https://www.mueller.de/drogerie/lebensmittel/nahrung/backzutaten-suessungsmittel/"
   },
   "Drogerie/Lebensmittel/Nahrung/Brotaufstriche": {
     "active": true,
-    "code": "All / Weitere Verarbeitete Lebensmittel / Brotaufstrich und Mus",
+    "code": "Alles / Ungekühltes / Frühstück / Brotaufstriche",
     "id": "Drogerie/Lebensmittel/Nahrung/Brotaufstriche",
     "name": "Brotaufstriche",
     "url": "https://www.mueller.de/drogerie/lebensmittel/nahrung/brotaufstriche/"
   },
   "Drogerie/Lebensmittel/Nahrung/Brotaufstriche/Herzhafte Brotaufstriche": {
     "active": true,
-    "code": "All / Weitere Verarbeitete Lebensmittel / Brotaufstrich und Mus",
+    "code": "Alles / Ungekühltes / Frühstück / Brotaufstriche / Herzhafte Brotaufstriche",
     "id": "Drogerie/Lebensmittel/Nahrung/Brotaufstriche/Herzhafte Brotaufstriche",
     "name": "Herzhafte Brotaufstriche",
     "url": "https://www.mueller.de/drogerie/lebensmittel/nahrung/brotaufstriche/herzhafte-brotaufstriche/"
   },
   "Drogerie/Lebensmittel/Nahrung/Brotaufstriche/Nussmus & -creme": {
     "active": true,
-    "code": "All / Weitere Verarbeitete Lebensmittel / Brotaufstrich und Mus",
+    "code": "Alles / Ungekühltes / Frühstück / Brotaufstriche / Nuss- & Schokoladenaufstriche",
     "id": "Drogerie/Lebensmittel/Nahrung/Brotaufstriche/Nussmus & -creme",
     "name": "Nussmus & -creme",
     "url": "https://www.mueller.de/drogerie/lebensmittel/nahrung/brotaufstriche/nussmus-creme/"
   },
   "Drogerie/Lebensmittel/Nahrung/Brotaufstriche/Süße Brotaufstriche": {
     "active": true,
-    "code": "All / Weitere Verarbeitete Lebensmittel / Brotaufstrich und Mus",
+    "code": "Alles / Ungekühltes / Frühstück / Brotaufstriche / Fruchtaufstriche",
     "id": "Drogerie/Lebensmittel/Nahrung/Brotaufstriche/Süße Brotaufstriche",
     "name": "Süße Brotaufstriche",
     "url": "https://www.mueller.de/drogerie/lebensmittel/nahrung/brotaufstriche/suesse-brotaufstriche/"
   },
   "Drogerie/Lebensmittel/Nahrung/Dessert": {
     "active": true,
-    "code": "Alles",
+    "code": "Alles / Gekühltes / Eier & Molkereiprodukte / Joghurt, Skyr, Quark & Dessert / Dessert",
     "id": "Drogerie/Lebensmittel/Nahrung/Dessert",
     "name": "Dessert",
     "url": "https://www.mueller.de/drogerie/lebensmittel/nahrung/dessert/"
   },
   "Drogerie/Lebensmittel/Nahrung/Diätnahrung": {
     "active": true,
-    "code": "Alles",
+    "code": "Alles / Ungekühltes / Sport- & Diätnahrung",
     "id": "Drogerie/Lebensmittel/Nahrung/Diätnahrung",
     "name": "Diätnahrung",
     "url": "https://www.mueller.de/drogerie/lebensmittel/nahrung/diaetnahrung/"
   },
   "Drogerie/Lebensmittel/Nahrung/Essig & Öl": {
     "active": true,
-    "code": "All / Weitere Verarbeitete Lebensmittel",
+    "code": "Alles / Ungekühltes / Essig, Öl, Soßen & Gewürze",
     "id": "Drogerie/Lebensmittel/Nahrung/Essig & Öl",
     "name": "Essig & Öl",
     "url": "https://www.mueller.de/drogerie/lebensmittel/nahrung/essig-oel/"
   },
   "Drogerie/Lebensmittel/Nahrung/Fertiggerichte & Konserven": {
     "active": true,
-    "code": "All / Weitere Verarbeitete Lebensmittel / Fertiggerichte",
+    "code": "Alles / Ungekühltes / Fertiggerichte & Konserven",
     "id": "Drogerie/Lebensmittel/Nahrung/Fertiggerichte & Konserven",
     "name": "Fertiggerichte & Konserven",
     "url": "https://www.mueller.de/drogerie/lebensmittel/nahrung/fertiggerichte-konserven/"
   },
   "Drogerie/Lebensmittel/Nahrung/Fertiggerichte & Konserven/Fleischersatz": {
     "active": true,
-    "code": "All / Weitere Verarbeitete Lebensmittel / Fleischersatzprodukte",
+    "code": "Alles / Ungekühltes / Fertiggerichte & Konserven",
     "id": "Drogerie/Lebensmittel/Nahrung/Fertiggerichte & Konserven/Fleischersatz",
     "name": "Fleischersatz",
     "url": "https://www.mueller.de/drogerie/lebensmittel/nahrung/fertiggerichte-konserven/fleischersatz/"
   },
   "Drogerie/Lebensmittel/Nahrung/Fertiggerichte & Konserven/Gemüsekonserven": {
     "active": true,
-    "code": "All / Weitere Verarbeitete Lebensmittel / Fertiggerichte",
+    "code": "Alles / Ungekühltes / Fertiggerichte & Konserven / Gemüsekonserven",
     "id": "Drogerie/Lebensmittel/Nahrung/Fertiggerichte & Konserven/Gemüsekonserven",
     "name": "Gemüsekonserven",
     "url": "https://www.mueller.de/drogerie/lebensmittel/nahrung/fertiggerichte-konserven/gemuesekonserven/"
   },
   "Drogerie/Lebensmittel/Nahrung/Fertiggerichte & Konserven/Obstkonserven": {
     "active": true,
-    "code": "All / Weitere Verarbeitete Lebensmittel / Fertiggerichte",
+    "code": "Alles / Ungekühltes / Fertiggerichte & Konserven / Obstkonserven & Fruchtmark",
     "id": "Drogerie/Lebensmittel/Nahrung/Fertiggerichte & Konserven/Obstkonserven",
     "name": "Obstkonserven",
     "url": "https://www.mueller.de/drogerie/lebensmittel/nahrung/fertiggerichte-konserven/obstkonserven/"
   },
   "Drogerie/Lebensmittel/Nahrung/Fertiggerichte & Konserven/Schnelle Küche": {
     "active": true,
-    "code": "All / Weitere Verarbeitete Lebensmittel / Fertiggerichte",
+    "code": "Alles / Ungekühltes / Fertiggerichte & Konserven",
     "id": "Drogerie/Lebensmittel/Nahrung/Fertiggerichte & Konserven/Schnelle Küche",
     "name": "Schnelle Küche",
     "url": "https://www.mueller.de/drogerie/lebensmittel/nahrung/fertiggerichte-konserven/schnelle-kueche/"
   },
   "Drogerie/Lebensmittel/Nahrung/Gewürze": {
     "active": true,
-    "code": "All / Salz und Gewürze",
+    "code": "Alles / Ungekühltes / Essig, Öl, Soßen & Gewürze / Gewürze & Würzmischungen / Gewürze",
     "id": "Drogerie/Lebensmittel/Nahrung/Gewürze",
     "name": "Gewürze",
     "url": "https://www.mueller.de/drogerie/lebensmittel/nahrung/gewuerze/"
   },
   "Drogerie/Lebensmittel/Nahrung/Mehl & Getreide": {
     "active": true,
-    "code": "All / Getreide und Getreideprodukte",
+    "code": "Alles / Ungekühltes / Backen & Dessertpulver / Getreide",
     "id": "Drogerie/Lebensmittel/Nahrung/Mehl & Getreide",
     "name": "Mehl & Getreide",
     "url": "https://www.mueller.de/drogerie/lebensmittel/nahrung/mehl-getreide/"
   },
   "Drogerie/Lebensmittel/Nahrung/Milch & Milchalternativen": {
     "active": true,
-    "code": "Alle / Gekühltes / Eier & Molkereiprodukte",
+    "code": "Alles / Gekühltes / Eier & Molkereiprodukte / Milch & Milchalternativen",
     "id": "Drogerie/Lebensmittel/Nahrung/Milch & Milchalternativen",
     "name": "Milch & Milchalternativen",
     "url": "https://www.mueller.de/drogerie/lebensmittel/nahrung/milch-milchalternativen/"
   },
   "Drogerie/Lebensmittel/Nahrung/Müsli & Cerealien": {
     "active": true,
-    "code": "All / Weitere Verarbeitete Lebensmittel / Müsli",
+    "code": "Alles / Ungekühltes / Frühstück / Cerealien & Müsli",
     "id": "Drogerie/Lebensmittel/Nahrung/Müsli & Cerealien",
     "name": "Müsli & Cerealien",
     "url": "https://www.mueller.de/drogerie/lebensmittel/nahrung/muesli-cerealien/"
   },
   "Drogerie/Lebensmittel/Nahrung/Nudeln, Reis & Hülsenfrüchte": {
     "active": true,
-    "code": "Alles",
+    "code": "Alles / Ungekühltes / Beilagen",
     "id": "Drogerie/Lebensmittel/Nahrung/Nudeln, Reis & Hülsenfrüchte",
     "name": "Nudeln, Reis & Hülsenfrüchte",
     "url": "https://www.mueller.de/drogerie/lebensmittel/nahrung/nudeln-reis-huelsenfruechte/"
   },
   "Drogerie/Lebensmittel/Nahrung/Nudeln, Reis & Hülsenfrüchte/Hülsenfrüchte": {
     "active": true,
-    "code": "All / Gemüse / Hülsenfrüchte",
+    "code": "Alles / Ungekühltes / Beilagen / Hülsenfrüchte",
     "id": "Drogerie/Lebensmittel/Nahrung/Nudeln, Reis & Hülsenfrüchte/Hülsenfrüchte",
     "name": "Hülsenfrüchte",
     "url": "https://www.mueller.de/drogerie/lebensmittel/nahrung/nudeln-reis-huelsenfruechte/huelsenfruechte/"
   },
   "Drogerie/Lebensmittel/Nahrung/Nudeln, Reis & Hülsenfrüchte/Nudeln": {
     "active": true,
-    "code": "All / Getreide und Getreideprodukte / Nudeln",
+    "code": "Alles / Ungekühltes / Beilagen / Nudeln",
     "id": "Drogerie/Lebensmittel/Nahrung/Nudeln, Reis & Hülsenfrüchte/Nudeln",
     "name": "Nudeln",
     "url": "https://www.mueller.de/drogerie/lebensmittel/nahrung/nudeln-reis-huelsenfruechte/nudeln/"
   },
   "Drogerie/Lebensmittel/Nahrung/Nudeln, Reis & Hülsenfrüchte/Reis": {
     "active": true,
-    "code": "All / Getreide und Getreideprodukte / Reis",
+    "code": "Alles / Ungekühltes / Beilagen / Reis",
     "id": "Drogerie/Lebensmittel/Nahrung/Nudeln, Reis & Hülsenfrüchte/Reis",
     "name": "Reis",
     "url": "https://www.mueller.de/drogerie/lebensmittel/nahrung/nudeln-reis-huelsenfruechte/reis/"
   },
   "Drogerie/Lebensmittel/Nahrung/Nüsse & Trockenfrüchte": {
     "active": true,
-    "code": "All / Nüsse, Samen, Kerne",
+    "code": "Alles / Ungekühltes / Nüsse & Trockenfrüchte",
     "id": "Drogerie/Lebensmittel/Nahrung/Nüsse & Trockenfrüchte",
     "name": "Nüsse & Trockenfrüchte",
     "url": "https://www.mueller.de/drogerie/lebensmittel/nahrung/nuesse-trockenfruechte/"
   },
   "Drogerie/Lebensmittel/Nahrung/Saucen": {
     "active": true,
-    "code": "Alles",
+    "code": "Alles / Ungekühltes / Essig, Öl, Soßen & Gewürze / Soßen & Dips",
     "id": "Drogerie/Lebensmittel/Nahrung/Saucen",
     "name": "Saucen",
     "url": "https://www.mueller.de/drogerie/lebensmittel/nahrung/saucen/"
   },
   "Drogerie/Lebensmittel/Nahrung/Sportlernahrung": {
     "active": true,
-    "code": "Alles",
+    "code": "Alles / Ungekühltes / Sport- & Diätnahrung",
     "id": "Drogerie/Lebensmittel/Nahrung/Sportlernahrung",
     "name": "Sportlernahrung",
     "url": "https://www.mueller.de/drogerie/lebensmittel/nahrung/sportlernahrung/"
@@ -295,77 +295,77 @@
   },
   "Drogerie/Lebensmittel/Nahrungsergänzung": {
     "active": false,
-    "code": "Alles",
+    "code": "Alles / Ungekühltes / Nahrungsergänzungsmittel",
     "id": "Drogerie/Lebensmittel/Nahrungsergänzung",
     "name": "Nahrungsergänzung",
     "url": null
   },
   "Drogerie/Lebensmittel/Salzige Snacks": {
     "active": true,
-    "code": "Alles",
+    "code": "Alles / Ungekühltes / Snacks / Salzige Snacks",
     "id": "Drogerie/Lebensmittel/Salzige Snacks",
     "name": "Salzige Snacks",
     "url": "https://www.mueller.de/drogerie/lebensmittel/salzige-snacks/"
   },
   "Drogerie/Lebensmittel/Süßigkeiten": {
     "active": true,
-    "code": "All / Süßwaren",
+    "code": "Alles / Ungekühltes / Snacks / Süße Snacks / Süßwaren",
     "id": "Drogerie/Lebensmittel/Süßigkeiten",
     "name": "Süßigkeiten",
     "url": "https://www.mueller.de/drogerie/lebensmittel/suessigkeiten/"
   },
   "Drogerie/Lebensmittel/Süßigkeiten/Bonbons & Lutscher": {
     "active": true,
-    "code": "All / Süßwaren",
+    "code": "Alles / Ungekühltes / Snacks / Süße Snacks / Süßwaren",
     "id": "Drogerie/Lebensmittel/Süßigkeiten/Bonbons & Lutscher",
     "name": "Bonbons & Lutscher",
     "url": "https://www.mueller.de/drogerie/lebensmittel/suessigkeiten/bonbons-lutscher/"
   },
   "Drogerie/Lebensmittel/Süßigkeiten/Chips": {
     "active": true,
-    "code": "Alles",
+    "code": "Alles / Ungekühltes / Snacks / Salzige Snacks / Chips",
     "id": "Drogerie/Lebensmittel/Süßigkeiten/Chips",
     "name": "Chips",
     "url": "https://www.mueller.de/drogerie/lebensmittel/suessigkeiten/chips/"
   },
   "Drogerie/Lebensmittel/Süßigkeiten/Fruchtgummi": {
     "active": true,
-    "code": "All / Süßwaren",
+    "code": "Alles / Ungekühltes / Snacks / Süße Snacks / Süßwaren / Fruchtgummi & Lakritz",
     "id": "Drogerie/Lebensmittel/Süßigkeiten/Fruchtgummi",
     "name": "Fruchtgummi",
     "url": "https://www.mueller.de/drogerie/lebensmittel/suessigkeiten/fruchtgummi/"
   },
   "Drogerie/Lebensmittel/Süßigkeiten/Gebäck": {
     "active": true,
-    "code": "All / Süßwaren",
+    "code": "Alles / Ungekühltes / Snacks / Süße Snacks / Süßgebäck",
     "id": "Drogerie/Lebensmittel/Süßigkeiten/Gebäck",
     "name": "Gebäck",
     "url": "https://www.mueller.de/drogerie/lebensmittel/suessigkeiten/gebaeck/"
   },
   "Drogerie/Lebensmittel/Süßigkeiten/Kaugummi": {
     "active": true,
-    "code": "All / Süßwaren",
+    "code": "Alles / Ungekühltes / Snacks / Süße Snacks / Süßwaren / Kaugummi",
     "id": "Drogerie/Lebensmittel/Süßigkeiten/Kaugummi",
     "name": "Kaugummi",
     "url": "https://www.mueller.de/drogerie/lebensmittel/suessigkeiten/kaugummi/"
   },
   "Drogerie/Lebensmittel/Süßigkeiten/Schokolade": {
     "active": true,
-    "code": "All / Süßwaren",
+    "code": "Alles / Ungekühltes / Snacks / Süße Snacks / Süßwaren / Schokolade & Schokoriegel",
     "id": "Drogerie/Lebensmittel/Süßigkeiten/Schokolade",
     "name": "Schokolade",
     "url": "https://www.mueller.de/drogerie/lebensmittel/suessigkeiten/schokolade/"
   },
   "Drogerie/Lebensmittel/Süßigkeiten/Snacks & Riegel": {
     "active": true,
-    "code": "All / Süßwaren",
+    "code": "Alles / Ungekühltes / Snacks / Süße Snacks",
     "id": "Drogerie/Lebensmittel/Süßigkeiten/Snacks & Riegel",
     "name": "Snacks & Riegel",
     "url": "https://www.mueller.de/drogerie/lebensmittel/suessigkeiten/snacks-riegel/"
   },
   "Drogerie/Lebensmittel/Süßigkeiten/Weihnachtliche Süßwaren": {
     "active": false,
-    "code": "All / Süßwaren",
+    "code": "Alles / Ungekühltes / Snacks / Süße Snacks",
     "id": "Drogerie/Lebensmittel/Süßigkeiten/Weihnachtliche Süßwaren",
     "name": "Weihnachtliche Süßwaren",
     "url": "https://www.mueller.de/drogerie/lebensmittel/suessigkeiten/weihnachtliche-suesswaren/"
@@ -379,7 +379,7 @@
   },
   "Drogerie/Lebensmittel/Tee & Kaffee/Kaffee": {
     "active": true,
-    "code": "All / Weitere Verarbeitete Lebensmittel / Kaffee",
+    "code": "Alles / Ungekühltes / Kaffee, Tee & Co. / Kaffee",
     "id": "Drogerie/Lebensmittel/Tee & Kaffee/Kaffee",
     "name": "Kaffee",
     "url": "https://www.mueller.de/drogerie/lebensmittel/tee-kaffee/kaffee/"
@@ -393,14 +393,14 @@
   },
   "Drogerie/Lebensmittel/Tee & Kaffee/Kakao & Mischgetränke": {
     "active": true,
-    "code": "All / Weitere Verarbeitete Lebensmittel / Kakao",
+    "code": "Alles / Ungekühltes / Kaffee, Tee & Co. / Trinkschokolade",
     "id": "Drogerie/Lebensmittel/Tee & Kaffee/Kakao & Mischgetränke",
     "name": "Kakao & Mischgetränke",
     "url": "https://www.mueller.de/drogerie/lebensmittel/tee-kaffee/kakao-mischgetraenke/"
   },
   "Drogerie/Lebensmittel/Tee & Kaffee/Tee": {
     "active": true,
-    "code": "All / Weitere Verarbeitete Lebensmittel / Tee",
+    "code": "Alles / Ungekühltes / Kaffee, Tee & Co. / Tee",
     "id": "Drogerie/Lebensmittel/Tee & Kaffee/Tee",
     "name": "Tee",
     "url": "https://www.mueller.de/drogerie/lebensmittel/tee-kaffee/tee/"
@@ -442,14 +442,14 @@
   },
   "Genusswelt/Getränke": {
     "active": true,
-    "code": "All / Getränke",
+    "code": "Alles / Getränke",
     "id": "Genusswelt/Getränke",
     "name": "Getränke",
     "url": "https://www.mueller.de/genusswelt/getraenke/"
   },
   "Genusswelt/Gewürze": {
     "active": true,
-    "code": "All / Salz und Gewürze",
+    "code": "Alles / Ungekühltes / Essig, Öl, Soßen & Gewürze / Gewürze & Würzmischungen / Gewürze",
     "id": "Genusswelt/Gewürze",
     "name": "Gewürze",
     "url": "https://www.mueller.de/genusswelt/gewuerze/"
@@ -631,7 +631,7 @@
   },
   "Genusswelt/Süßigkeiten": {
     "active": true,
-    "code": "All / Süßwaren",
+    "code": "Alles / Ungekühltes / Snacks / Süße Snacks",
     "id": "Genusswelt/Süßigkeiten",
     "name": "Süßigkeiten",
     "url": "https://www.mueller.de/genusswelt/suessigkeiten/"

@@ -254,19 +254,19 @@
   },
   "Backen & Kochen": {
     "active": true,
-    "code": "Alles",
+    "code": "Alles / Ungekühltes / Backen & Dessertpulver",
     "id": "060105",
     "name": "Backen & Kochen"
   },
   "Backmischungen": {
     "active": true,
-    "code": "Alles",
+    "code": "Alles / Ungekühltes / Backen & Dessertpulver / Backmischungen",
     "id": "041606",
     "name": "Backmischungen"
   },
   "Backzutaten": {
     "active": true,
-    "code": "Alles",
+    "code": "Alles / Ungekühltes / Backen & Dessertpulver / Backzutaten",
     "id": "041601",
     "name": "Backzutaten"
   },
@@ -332,7 +332,7 @@
   },
   "Beilagen": {
     "active": true,
-    "code": "Alles",
+    "code": "Alles / Ungekühltes / Beilagen",
     "id": "042300",
     "name": "Beilagen"
   },
@@ -410,7 +410,7 @@
   },
   "Bonbons & Fruchtgummi": {
     "active": true,
-    "code": "All / Süßwaren",
+    "code": "Alles / Ungekühltes / Snacks / Süße Snacks / Süßwaren",
     "id": "041505",
     "name": "Bonbons & Fruchtgummi"
   },
@@ -428,19 +428,19 @@
   },
   "Brot & Brötchen": {
     "active": true,
-    "code": "All / Backwaren",
+    "code": "Alles / Ungekühltes / Frühstück / Abgepackte Backwaren",
     "id": "041204",
     "name": "Brot & Brötchen"
   },
   "Bulgur, Quinoa & Co.": {
     "active": true,
-    "code": "Alles",
+    "code": "Alles / Ungekühltes / Beilagen",
     "id": "042303",
     "name": "Bulgur, Quinoa & Co."
   },
   "Calcium": {
     "active": true,
-    "code": "All / Nahrungsergänzungsmittel",
+    "code": "Alles / Ungekühltes / Nahrungsergänzungsmittel",
     "id": "030201",
     "name": "Calcium"
   },
@@ -566,7 +566,7 @@
   },
   "Eisen": {
     "active": true,
-    "code": "All / Nahrungsergänzungsmittel",
+    "code": "Alles / Ungekühltes / Beilagen",
     "id": "030204",
     "name": "Eisen"
   },
@@ -608,7 +608,7 @@
   },
   "Erfrischung": {
     "active": true,
-    "code": "All / Getränke",
+    "code": "Alles / Getränke / Alkoholfreie Getränke",
     "id": "041305",
     "name": "Erfrischung"
   },
@@ -633,7 +633,7 @@
   },
   "Essig & Öl": {
     "active": true,
-    "code": "Alles",
+    "code": "Alles / Ungekühltes / Essig, Öl, Soßen & Gewürze",
     "id": "041701",
     "name": "Essig & Öl"
   },
@@ -651,7 +651,7 @@
   },
   "Fertiggerichte & Konserven": {
     "active": true,
-    "code": "All / Weitere Verarbeitete Lebensmittel / Fertiggerichte",
+    "code": "Alles / Ungekühltes / Fertiggerichte & Konserven",
     "id": "042400",
     "name": "Fertiggerichte & Konserven"
   },
@@ -681,7 +681,7 @@
   },
   "Flocken & Flakes": {
     "active": true,
-    "code": "All / Weitere Verarbeitete Lebensmittel / Müsli",
+    "code": "Alles / Ungekühltes / Frühstück / Cerealien & Müsli",
     "id": "041202",
     "name": "Flocken & Flakes"
   },
@@ -718,13 +718,13 @@
   },
   "Fruchtmark & Obstkonserven": {
     "active": true,
-    "code": "Alles",
+    "code": "Alles / Ungekühltes / Fertiggerichte & Konserven / Obstkonserven & Fruchtmark",
     "id": "041605",
     "name": "Fruchtmark & Obstkonserven"
   },
   "Fruchtsäfte": {
     "active": true,
-    "code": "All / Getränke",
+    "code": "Alles / Getränke / Alkoholfreie Getränke / Säfte & Nektare",
     "id": "041308",
     "name": "Fruchtsäfte"
   },
@@ -736,7 +736,7 @@
   },
   "Frühstück": {
     "active": true,
-    "code": "Alles",
+    "code": "Alles / Ungekühltes / Frühstück",
     "id": "041200",
     "name": "Frühstück"
   },
@@ -802,7 +802,7 @@
   },
   "Gemüsesäfte & Ingwershots": {
     "active": true,
-    "code": "All / Getränke",
+    "code": "Alles / Getränke / Alkoholfreie Getränke / Säfte & Nektare",
     "id": "041309",
     "name": "Gemüsesäfte & Ingwershots"
   },
@@ -881,25 +881,25 @@
   },
   "Getreide": {
     "active": true,
-    "code": "All / Getreide und Getreideprodukte",
+    "code": "Alles / Ungekühltes / Backen & Dessertpulver / Getreide",
     "id": "041607",
     "name": "Getreide"
   },
   "Getränke": {
     "active": true,
-    "code": "All / Getränke",
+    "code": "Alles / Getränke",
     "id": "041300",
     "name": "Getränke"
   },
   "Getränke für Kinder": {
     "active": true,
-    "code": "All / Getränke",
+    "code": "Alles / Getränke / Alkoholfreie Getränke",
     "id": "050506",
     "name": "Getränke für Kinder"
   },
   "Gewürze": {
     "active": true,
-    "code": "All / Salz und Gewürze",
+    "code": "Alles / Ungekühltes / Essig, Öl, Soßen & Gewürze / Gewürze & Würzmischungen / Gewürze",
     "id": "041708",
     "name": "Gewürze"
   },
@@ -1129,7 +1129,7 @@
   },
   "Herzhafte Brotaufstriche": {
     "active": true,
-    "code": "All / Weitere Verarbeitete Lebensmittel / Brotaufstrich und Mus",
+    "code": "Alles / Ungekühltes / Frühstück / Brotaufstriche / Herzhafte Aufstriche",
     "id": "041205",
     "name": "Herzhafte Brotaufstriche"
   },
@@ -1232,13 +1232,13 @@
   },
   "Kaffee & Kaffeeersatz": {
     "active": true,
-    "code": "All / Weitere Verarbeitete Lebensmittel / Kaffee",
+    "code": "Alles / Ungekühltes / Kaffee, Tee & Co. / Kaffee",
     "id": "042201",
     "name": "Kaffee & Kaffeeersatz"
   },
   "Kaffee, Tee & Kakao": {
     "active": true,
-    "code": "All / Weitere Verarbeitete Lebensmittel",
+    "code": "Alles / Ungekühltes / Kaffee, Tee & Co.",
     "id": "042200",
     "name": "Kaffee, Tee & Kakao"
   },
@@ -1262,13 +1262,13 @@
   },
   "Kaugummi": {
     "active": true,
-    "code": "All / Süßwaren",
+    "code": "Alles / Ungekühltes / Snacks / Süße Snacks / Süßwaren / Kaugummi",
     "id": "041506",
     "name": "Kaugummi"
   },
   "Kekse, Waffeln & Cookies": {
     "active": true,
-    "code": "All / Süßwaren",
+    "code": "Ungekühltes / Snacks / Süße Snacks / Süßgebäck",
     "id": "041503",
     "name": "Kekse, Waffeln & Cookies"
   },
@@ -1418,7 +1418,7 @@
   },
   "Konserven": {
     "active": true,
-    "code": "All / Weitere Verarbeitete Lebensmittel / Fertiggerichte",
+    "code": "Alles / Ungekühltes / Fertiggerichte & Konserven",
     "id": "042401",
     "name": "Konserven"
   },
@@ -1556,7 +1556,7 @@
   },
   "Linsen & Bohnen": {
     "active": true,
-    "code": "Alles",
+    "code": "Alles / Ungekühltes / Beilagen / Hülsenfrüchte",
     "id": "042304",
     "name": "Linsen & Bohnen"
   },
@@ -1622,7 +1622,7 @@
   },
   "Magnesium": {
     "active": true,
-    "code": "All / Nahrungsergänzungsmittel",
+    "code": "Alles / Ungekühltes / Nahrungsergänzungsmittel",
     "id": "030207",
     "name": "Magnesium"
   },
@@ -1653,7 +1653,7 @@
   },
   "Marmelade, Fruchtaufstrich & Honig": {
     "active": true,
-    "code": "All / Weitere Verarbeitete Lebensmittel / Brotaufstrich und Mus",
+    "code": "Alles / Ungekühltes / Frühstück / Brotaufstrich",
     "id": "041206",
     "name": "Marmelade, Fruchtaufstrich & Honig"
   },
@@ -1677,7 +1677,7 @@
   },
   "Mehl & Grieß": {
     "active": true,
-    "code": "All / Getreide und Getreideprodukte / Mehl",
+    "code": "Alles / Ungekühltes / Backen & Dessertpulver / Getreide",
     "id": "041602",
     "name": "Mehl & Grieß"
   },
@@ -1689,19 +1689,19 @@
   },
   "Milch": {
     "active": true,
-    "code": "Alle / Gekühltes / Eier & Molkereiprodukte / Milch",
+    "code": "Alles / Gekühltes / Eier & Molkereiprodukte / Milch & Milchalternativen",
     "id": "041401",
     "name": "Milch"
   },
   "Milch & Milchalternativen": {
     "active": true,
-    "code": "Alles",
+    "code": "Alles / Gekühltes / Eier & Molkereiprodukte / Milch & Milchalternativen",
     "id": "041400",
     "name": "Milch & Milchalternativen"
   },
   "Mineralstoffe": {
     "active": true,
-    "code": "All / Nahrungsergänzungsmittel",
+    "code": "Alles / Ungekühltes / Nahrungsergänzungsmittel",
     "id": "030200",
     "name": "Mineralstoffe"
   },
@@ -1713,7 +1713,7 @@
   },
   "Multivitamine": {
     "active": true,
-    "code": "All / Nahrungsergänzungsmittel",
+    "code": "Alles / Ungekühltes / Nahrungsergänzungsmittel",
     "id": "030306",
     "name": "Multivitamine"
   },
@@ -1767,13 +1767,13 @@
   },
   "Müsli & Granola": {
     "active": true,
-    "code": "All / Weitere Verarbeitete Lebensmittel / Müsli",
+    "code": "Alles / Ungekühltes / Frühstück / Cerealien & Müsli / Müsli",
     "id": "041201",
     "name": "Müsli & Granola"
   },
   "Müsliriegel & Fruchtriegel": {
     "active": true,
-    "code": "All / Süßwaren",
+    "code": "Alles / Ungekühltes / Snacks / Süße Snacks / Müsli-, Frucht- & Proteinriegel",
     "id": "041501",
     "name": "Müsliriegel & Fruchtriegel"
   },
@@ -1845,13 +1845,13 @@
   },
   "Nudeln": {
     "active": true,
-    "code": "All / Getreide und Getreideprodukte / Nudeln",
+    "code": "Alles / Ungekühltes / Beilagen / Nudeln",
     "id": "042301",
     "name": "Nudeln"
   },
   "Nuss- & Schokocreme": {
     "active": true,
-    "code": "All / Weitere Verarbeitete Lebensmittel / Brotaufstrich und Mus",
+    "code": "Alles / Ungekühltes / Frühstück / Brotaufstriche / Nuss- & Schokoladenaufstriche",
     "id": "041207",
     "name": "Nuss- & Schokocreme"
   },
@@ -1863,7 +1863,7 @@
   },
   "Nüsse": {
     "active": true,
-    "code": "All / Nüsse, Samen, Kerne",
+    "code": "Alles / Ungekühltes / Nüsse & Trockenfrüchte / Nüsse, Samen & Kerne",
     "id": "041509",
     "name": "Nüsse"
   },
@@ -1911,7 +1911,7 @@
   },
   "Pflanzendrinks": {
     "active": true,
-    "code": "All / Getränke",
+    "code": "Alles / Gekühltes / Eier & Molkereiprodukte / Milch & Milchalternativen / Pflanzendrinks",
     "id": "041402",
     "name": "Pflanzendrinks"
   },
@@ -1954,7 +1954,7 @@
   },
   "Porridge & Frühstücksbrei": {
     "active": true,
-    "code": "All / Weitere Verarbeitete Lebensmittel",
+    "code": "Alles / Ungekühltes / Frühstück / Porridge & Frühstücksbrei",
     "id": "041203",
     "name": "Porridge & Frühstücksbrei"
   },
@@ -1972,19 +1972,19 @@
   },
   "Protein Riegel": {
     "active": true,
-    "code": "Alles",
+    "code": "Alles / Ungekühltes / Snacks / Süße Snacks / Müsli-, Frucht- & Proteinriegel",
     "id": "040702",
     "name": "Protein Riegel"
   },
   "Protein Shakes & Pulver": {
     "active": true,
-    "code": "Alles",
+    "code": "Alles / Ungekühltes / Sport- & Diätnahrung",
     "id": "040705",
     "name": "Protein Shakes & Pulver"
   },
   "Puddingpulver": {
     "active": true,
-    "code": "Alles",
+    "code": "Alles / Ungekühltes / Backen & Dessertpulver / Dessertpulver",
     "id": "041608",
     "name": "Puddingpulver"
   },
@@ -2050,13 +2050,13 @@
   },
   "Saaten & Körner": {
     "active": true,
-    "code": "All / Nüsse, Samen, Kerne",
+    "code": "Alles / Ungekühltes / Nüsse & Trockenfrüchte / Nüsse, Samen & Kerne",
     "id": "041613",
     "name": "Saaten & Körner"
   },
   "Salz & Pfeffer": {
     "active": true,
-    "code": "All / Salz und Gewürze",
+    "code": "Alles / Ungekühltes / Essig, Öl, Soßen & Gewürze / Gewürze & Würzmischungen",
     "id": "041713",
     "name": "Salz & Pfeffer"
   },
@@ -2080,7 +2080,7 @@
   },
   "Schnelle Gerichte": {
     "active": true,
-    "code": "All / Weitere Verarbeitete Lebensmittel / Fertiggerichte",
+    "code": "Alles / Ungekühltes / Fertiggerichte & Konserven",
     "id": "042402",
     "name": "Schnelle Gerichte"
   },
@@ -2104,7 +2104,7 @@
   },
   "Schokolade & Schokoriegel": {
     "active": true,
-    "code": "All / Süßwaren",
+    "code": "Alles / Ungekühltes / Snacks / Süße Snacks / Süßwaren / Schokolade & Schokoriegel",
     "id": "041502",
     "name": "Schokolade & Schokoriegel"
   },
@@ -2224,13 +2224,13 @@
   },
   "Smoothies": {
     "active": true,
-    "code": "All / Getränke",
+    "code": "Alles / Getränke / Alkoholfreie Getränke / Smoothies",
     "id": "041301",
     "name": "Smoothies"
   },
   "Snacks & Süßigkeiten": {
     "active": true,
-    "code": "All / Süßwaren",
+    "code": "Alles / Ungekühltes / Snacks",
     "id": "041500",
     "name": "Snacks & Süßigkeiten"
   },
@@ -2296,7 +2296,7 @@
   },
   "Sonstige Mineralstoffe": {
     "active": true,
-    "code": "All / Nahrungsergänzungsmittel",
+    "code": "Alles / Ungekühltes / Nahrungsergänzungsmittel",
     "id": "030206",
     "name": "Sonstige Mineralstoffe"
   },
@@ -2452,7 +2452,7 @@
   },
   "Suppen & Eintöpfe": {
     "active": true,
-    "code": "All / Weitere Verarbeitete Lebensmittel / Fertiggerichte",
+    "code": "Alles / Ungekühltes / Fertiggerichte & Konserven / Dosengerichte",
     "id": "042403",
     "name": "Suppen & Eintöpfe"
   },
@@ -2488,7 +2488,7 @@
   },
   "Tee": {
     "active": true,
-    "code": "All / Weitere Verarbeitete Lebensmittel / Tee",
+    "code": "Alles / Ungekühltes / Kaffee, Tee & Co. / Tee",
     "id": "042202",
     "name": "Tee"
   },
@@ -2549,7 +2549,7 @@
   },
   "Tofu & Fleischersatz": {
     "active": true,
-    "code": "All / Weitere Verarbeitete Lebensmittel / Fleischersatzprodukte",
+    "code": "Alles / Gekühltes / Fisch & Fleisch / Fleisch- & Fischalternativen",
     "id": "042500",
     "name": "Tofu & Fleischersatz"
   },
@@ -2567,13 +2567,13 @@
   },
   "Traubenzucker": {
     "active": true,
-    "code": "All / Süßwaren",
+    "code": "Alles / Ungekühltes / Snacks / Süße Snacks / Süßwaren / Traubenzucker",
     "id": "041507",
     "name": "Traubenzucker"
   },
   "Trinkschokolade": {
     "active": true,
-    "code": "All / Weitere Verarbeitete Lebensmittel",
+    "code": "Alles / Ungekühltes / Kaffee, Tee & Co. / Trinkschokolade",
     "id": "042203",
     "name": "Trinkschokolade"
   },
@@ -2639,37 +2639,37 @@
   },
   "Vitamin A": {
     "active": true,
-    "code": "All / Nahrungsergänzungsmittel",
+    "code": "Alles / Ungekühltes / Nahrungsergänzungsmittel",
     "id": "030301",
     "name": "Vitamin A"
   },
   "Vitamin B": {
     "active": true,
-    "code": "All / Nahrungsergänzungsmittel",
+    "code": "Alles / Ungekühltes / Nahrungsergänzungsmittel",
     "id": "030302",
     "name": "Vitamin B"
   },
   "Vitamin C": {
     "active": true,
-    "code": "All / Nahrungsergänzungsmittel",
+    "code": "Alles / Ungekühltes / Nahrungsergänzungsmittel",
     "id": "030303",
     "name": "Vitamin C"
   },
   "Vitamin D": {
     "active": true,
-    "code": "All / Nahrungsergänzungsmittel",
+    "code": "Alles / Ungekühltes / Nahrungsergänzungsmittel",
     "id": "030304",
     "name": "Vitamin D"
   },
   "Vitamin E": {
     "active": true,
-    "code": "All / Nahrungsergänzungsmittel",
+    "code": "Alles / Ungekühltes / Nahrungsergänzungsmittel",
     "id": "030305",
     "name": "Vitamin E"
   },
   "Vitamine": {
     "active": true,
-    "code": "All / Nahrungsergänzungsmittel",
+    "code": "Alles / Ungekühltes / Nahrungsergänzungsmittel",
     "id": "030300",
     "name": "Vitamine"
   },
@@ -2717,7 +2717,7 @@
   },
   "Wasser & Mineralwasser": {
     "active": true,
-    "code": "All / Getränke",
+    "code": "Alles / Getränke / Alkoholfreie Getränke / Wasser & Mineralwasser",
     "id": "041304",
     "name": "Wasser & Mineralwasser"
   },
@@ -2843,19 +2843,19 @@
   },
   "Zink": {
     "active": true,
-    "code": "All / Nahrungsergänzungsmittel",
+    "code": "Alles / Ungekühltes / Nahrungsergänzungsmittel",
     "id": "030205",
     "name": "Zink"
   },
   "Zucker": {
     "active": true,
-    "code": "All / Zuckerarten, Sirupe und Honig",
+    "code": "Alles / Ungekühltes / Backen & Dessertpulver / Zucker & Süßungsmittel / Zucker",
     "id": "041611",
     "name": "Zucker"
   },
   "Zuckeralternativen & Sirup": {
     "active": true,
-    "code": "All / Zuckerarten, Sirupe und Honig",
+    "code": "Alles / Ungekühltes / Backen & Dessertpulver / Zucker & Süßungsmittel",
     "id": "041612",
     "name": "Zuckeralternativen & Sirup"
   },

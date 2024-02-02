@@ -2221,7 +2221,7 @@
   },
   "Kategorien/Lebensmittel & Drogerie/Bier": {
     "active": true,
-    "code": "All / Getränke",
+    "code": "Alles / Getränke / Alkoholische Getränke",
     "id": "Kategorien/Lebensmittel & Drogerie/Bier"
   },
   "Kategorien/Lebensmittel & Drogerie/Pflege & Kosmetik/Körperpflege & Hautpflege/Seife": {
@@ -4696,77 +4696,77 @@
   },
   "Kategorien/Spirituosen/Alkoholfreies": {
     "active": true,
-    "code": "All / Getränke",
+    "code": "Alles / Getränke / Alkoholische Getränke",
     "id": "Kategorien/Spirituosen/Alkoholfreies"
   },
   "Kategorien/Spirituosen/Brandy": {
     "active": true,
-    "code": "All / Getränke",
+    "code": "Alles / Getränke / Alkoholische Getränke",
     "id": "Kategorien/Spirituosen/Brandy"
   },
   "Kategorien/Spirituosen/Cocktails und Mischgetränke": {
     "active": false,
-    "code": "All / Getränke″",
+    "code": "Alles / Getränke / Alkoholische Getränke″",
     "id": "Kategorien/Spirituosen/Cocktails und Mischgetränke"
   },
   "Kategorien/Spirituosen/Cognac": {
     "active": true,
-    "code": "All / Getränke",
+    "code": "Alles / Getränke / Alkoholische Getränke",
     "id": "Kategorien/Spirituosen/Cognac"
   },
   "Kategorien/Spirituosen/Gin": {
     "active": true,
-    "code": "All / Getränke",
+    "code": "Alles / Getränke / Alkoholische Getränke",
     "id": "Kategorien/Spirituosen/Gin"
   },
   "Kategorien/Spirituosen/Likör": {
     "active": true,
-    "code": "All / Getränke",
+    "code": "Alles / Getränke / Alkoholische Getränke",
     "id": "Kategorien/Spirituosen/Likör"
   },
   "Kategorien/Spirituosen/Obstbrand": {
     "active": true,
-    "code": "All / Getränke",
+    "code": "Alles / Getränke / Alkoholische Getränke",
     "id": "Kategorien/Spirituosen/Obstbrand"
   },
   "Kategorien/Spirituosen/Portwein": {
     "active": true,
-    "code": "All / Getränke",
+    "code": "Alles / Getränke / Alkoholische Getränke",
     "id": "Kategorien/Spirituosen/Portwein"
   },
   "Kategorien/Spirituosen/Rum": {
     "active": true,
-    "code": "All / Getränke",
+    "code": "Alles / Getränke / Alkoholische Getränke",
     "id": "Kategorien/Spirituosen/Rum"
   },
   "Kategorien/Spirituosen/Spirituosen": {
     "active": true,
-    "code": "All / Getränke",
+    "code": "Alles / Getränke / Alkoholische Getränke",
     "id": "Kategorien/Spirituosen/Spirituosen"
   },
   "Kategorien/Spirituosen/SpirituosenPaket": {
     "active": true,
-    "code": "All / Getränke",
+    "code": "Alles / Getränke / Alkoholische Getränke",
     "id": "Kategorien/Spirituosen/SpirituosenPaket"
   },
   "Kategorien/Spirituosen/Tequila und Mezcal": {
     "active": true,
-    "code": "All / Getränke",
+    "code": "Alles / Getränke / Alkoholische Getränke",
     "id": "Kategorien/Spirituosen/Tequila und Mezcal"
   },
   "Kategorien/Spirituosen/Weinbrand": {
     "active": true,
-    "code": "All / Getränke",
+    "code": "Alles / Getränke / Alkoholische Getränke",
     "id": "Kategorien/Spirituosen/Weinbrand"
   },
   "Kategorien/Spirituosen/Whiskey": {
     "active": true,
-    "code": "All / Getränke",
+    "code": "Alles / Getränke / Alkoholische Getränke",
     "id": "Kategorien/Spirituosen/Whiskey"
   },
   "Kategorien/Spirituosen/Wodka": {
     "active": true,
-    "code": "All / Getränke",
+    "code": "Alles / Getränke / Alkoholische Getränke",
     "id": "Kategorien/Spirituosen/Wodka"
   },
   "Kategorien/Sport & Freizeit/Autozubehör/Anhängerkupplung": {
@@ -5736,52 +5736,52 @@
   },
   "Kategorien/Weinwelt/Alkoholfreie Getränke/Sonstige alkoholfreie Getränke": {
     "active": true,
-    "code": "Alles",
+    "code": "Alles / Getränke",
     "id": "Kategorien/Weinwelt/Alkoholfreie Getränke/Sonstige alkoholfreie Getränke"
   },
   "Kategorien/Weinwelt/Rund um den Wein/Wein- und Sektkühler": {
     "active": true,
-    "code": "Alles",
+    "code": "Alles / Getränke / Alkoholische Getränke",
     "id": "Kategorien/Weinwelt/Rund um den Wein/Wein- und Sektkühler"
   },
   "Kategorien/Weinwelt/Rund um den Wein/Weinkühlschränke": {
     "active": true,
-    "code": "Alles",
+    "code": "Alles / Getränke / Alkoholische Getränke",
     "id": "Kategorien/Weinwelt/Rund um den Wein/Weinkühlschränke"
   },
   "Kategorien/Weinwelt/Weinart/Aperitifs & Dessertweine": {
     "active": true,
-    "code": "Alles",
+    "code": "Alles / Getränke / Alkoholische Getränke",
     "id": "Kategorien/Weinwelt/Weinart/Aperitifs & Dessertweine"
   },
   "Kategorien/Weinwelt/Weinart/Champagner, Sekt & Secco": {
     "active": true,
-    "code": "Alles",
+    "code": "Alles / Getränke / Alkoholische Getränke",
     "id": "Kategorien/Weinwelt/Weinart/Champagner, Sekt & Secco"
   },
   "Kategorien/Weinwelt/Weinart/Roséwein": {
     "active": true,
-    "code": "Alles",
+    "code": "Alles / Getränke / Alkoholische Getränke",
     "id": "Kategorien/Weinwelt/Weinart/Roséwein"
   },
   "Kategorien/Weinwelt/Weinart/Rotwein": {
     "active": true,
-    "code": "Alles",
+    "code": "AAlles / Getränke / Alkoholische Getränke",
     "id": "Kategorien/Weinwelt/Weinart/Rotwein"
   },
   "Kategorien/Weinwelt/Weinart/Weißwein": {
     "active": true,
-    "code": "Alles",
+    "code": "Alles / Getränke / Alkoholische Getränke",
     "id": "Kategorien/Weinwelt/Weinart/Weißwein"
   },
   "Kategorien/Weinwelt/Weinpakete/Weinpakete": {
     "active": true,
-    "code": "Alles",
+    "code": "Alles / Getränke / Alkoholische Getränke",
     "id": "Kategorien/Weinwelt/Weinpakete/Weinpakete"
   },
   "Kategorien/Weinwelt/Weinpakete/Weinsets": {
     "active": true,
-    "code": "Alles",
+    "code": "Alles / Getränke / Alkoholische Getränke",
     "id": "Kategorien/Weinwelt/Weinpakete/Weinsets"
   },
   "Kategorien/Wohnen & Einrichten/Accessoires & Zubehörartikel/Aufbewahrung": {

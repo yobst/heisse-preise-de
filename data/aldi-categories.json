@@ -2,7 +2,7 @@
   "318": {
     "active": true,
     "categoryKey": "19000000",
-    "code": "Alle / Frisches Obst & Gemüse",
+    "code": "Alles / Frisches Obst & Gemüse",
     "id": 318,
     "name": "Obst & Gemüse",
     "urlSlugText": "produkte/obst-gem-se"
@@ -10,7 +10,7 @@
   "319": {
     "active": true,
     "categoryKey": "19010000",
-    "code": "Alle / Frisches Obst & Gemüse / Obst",
+    "code": "Alles / Frisches Obst & Gemüse / Obst",
     "id": 319,
     "name": "Obst",
     "urlSlugText": "obst-gem-se/obst"
@@ -18,7 +18,7 @@
   "320": {
     "active": true,
     "categoryKey": "19020000",
-    "code": "Alle / Frisches Obst & Gemüse / Gemüse",
+    "code": "Alles / Frisches Obst & Gemüse / Gemüse",
     "id": 320,
     "name": "Gemüse",
     "urlSlugText": "obst-gem-se/gem-se"
@@ -26,7 +26,7 @@
   "321": {
     "active": true,
     "categoryKey": "19030000",
-    "code": "Alle / Frisches Obst & Gemüse / Salate",
+    "code": "Alles / Frisches Obst & Gemüse / Salate",
     "id": 321,
     "name": "Salat",
     "urlSlugText": "obst-gem-se/salat"
@@ -34,7 +34,7 @@
   "322": {
     "active": true,
     "categoryKey": "19040000",
-    "code": "Alle / Frisches Obst & Gemüse/ Kräuter",
+    "code": "Alles / Frisches Obst & Gemüse/ Kräuter",
     "id": 322,
     "name": "Kräuter",
     "urlSlugText": "obst-gem-se/kr-uter"
@@ -42,7 +42,7 @@
   "323": {
     "active": true,
     "categoryKey": "20000000",
-    "code": "Alle / Gekühltes / Eier & Molkereiprodukte",
+    "code": "Alles / Gekühltes / Eier & Molkereiprodukte",
     "id": 323,
     "name": "Eier & Milchprodukte",
     "urlSlugText": "produkte/eier-milchprodukte"
@@ -50,7 +50,7 @@
   "324": {
     "active": true,
     "categoryKey": "20010000",
-    "code": "Alle / Gekühltes / Eier & Molkereiprodukte / Milch",
+    "code": "Alles / Gekühltes / Eier & Molkereiprodukte / Milch",
     "id": 324,
     "name": "Milch",
     "urlSlugText": "eier-milchprodukte/milch"
@@ -58,7 +58,7 @@
   "325": {
     "active": true,
     "categoryKey": "20020000",
-    "code": "Alle / Gekühltes / Eier & Molkereiprodukte / Joghurt, Skyr, Quark & Dessert / Skyr",
+    "code": "Alles / Gekühltes / Eier & Molkereiprodukte / Joghurt, Skyr, Quark & Dessert / Skyr",
     "id": 325,
     "name": "Joghurt & Skyr",
     "urlSlugText": "eier-milchprodukte/naturjoghurt-skyr"
@@ -66,7 +66,7 @@
   "326": {
     "active": true,
     "categoryKey": "20030000",
-    "code": "Alle / Gekühltes / Eier & Molkereiprodukte / Joghurt, Skyr, Quark & Dessert / Sahnejoghurt",
+    "code": "Alles / Gekühltes / Eier & Molkereiprodukte / Joghurt, Skyr, Quark & Dessert / Sahnejoghurt",
     "id": 326,
     "name": "Fruchtjoghurt & Sahnejoghurt",
     "urlSlugText": "eier-milchprodukte/frucht-sahnejoghurt"
@@ -74,7 +74,7 @@
   "327": {
     "active": true,
     "categoryKey": "20040000",
-    "code": "Alle / Gekühltes / Eier & Molkereiprodukte / Joghurt, Skyr, Quark & Dessert / Dessert",
+    "code": "Alles / Gekühltes / Eier & Molkereiprodukte / Joghurt, Skyr, Quark & Dessert / Dessert",
     "id": 327,
     "name": "Milchsnacks & Desserts",
     "urlSlugText": "eier-milchprodukte/milchsnacks-desserts"
@@ -82,7 +82,7 @@
   "328": {
     "active": true,
     "categoryKey": "20050000",
-    "code": "Alle / Gekühltes / Eier & Molkereiprodukte / Milch- & Kaffeegetränke",
+    "code": "Alles / Gekühltes / Eier & Molkereiprodukte / Milch- & Kaffeegetränke",
     "id": 328,
     "name": "Milchdrinks & Trinkjoghurt",
     "urlSlugText": "eier-milchprodukte/milchdrinks-trinkjoghurt"
@@ -90,7 +90,7 @@
   "329": {
     "active": true,
     "categoryKey": "20060000",
-    "code": "Alle / Gekühltes / Eier & Molkereiprodukte / Joghurt, Skyr, Quark & Dessert / Quark",
+    "code": "Alles / Gekühltes / Eier & Molkereiprodukte / Joghurt, Skyr, Quark & Dessert / Quark",
     "id": 329,
     "name": "Quark",
     "urlSlugText": "eier-milchprodukte/quark"
@@ -98,7 +98,7 @@
   "330": {
     "active": true,
     "categoryKey": "20070000",
-    "code": "Alle / Gekühltes / Eier & Molkereiprodukte / Sahne, Schmand & Creme Fraiche",
+    "code": "Alles / Gekühltes / Eier & Molkereiprodukte / Sahne, Schmand & Creme Fraiche",
     "id": 330,
     "name": "Sahne, Schmand & Crème fraîche",
     "urlSlugText": "eier-milchprodukte/sahne-schmand-co-"
@@ -106,7 +106,7 @@
   "331": {
     "active": true,
     "categoryKey": "20080000",
-    "code": "Alle / Gekühltes / Eier & Molkereiprodukte / Butter, Margarine & Fette",
+    "code": "Alles / Gekühltes / Eier & Molkereiprodukte / Butter, Margarine & Fette",
     "id": 331,
     "name": "Butter, Margarine & Fette",
     "urlSlugText": "eier-milchprodukte/butter-margarine-fette"
@@ -114,7 +114,7 @@
   "332": {
     "active": true,
     "categoryKey": "20090000",
-    "code": "Alle / Gekühltes / Eier & Molkereiprodukte / Eier und Eiersatz",
+    "code": "Alles / Gekühltes / Eier & Molkereiprodukte / Eier und Eiersatz",
     "id": 332,
     "name": "Eier",
     "urlSlugText": "eier-milchprodukte/eier"
@@ -122,7 +122,7 @@
   "333": {
     "active": true,
     "categoryKey": "21000000",
-    "code": "Alle / Gekühltes / Eier & Molkereiprodukte / Käse",
+    "code": "Alles / Gekühltes / Eier & Molkereiprodukte / Käse",
     "id": 333,
     "name": "Käse",
     "urlSlugText": "produkte/k-se"
@@ -138,7 +138,7 @@
   "335": {
     "active": true,
     "categoryKey": "21020000",
-    "code": "Alle / Gekühltes / Eier & Molkereiprodukte / Käse / Stück- & Schnittkäse",
+    "code": "Alles / Gekühltes / Eier & Molkereiprodukte / Käse / Stück- & Schnittkäse",
     "id": 335,
     "name": "Stückkäse",
     "urlSlugText": "k-se/st-ckk-se"
@@ -146,7 +146,7 @@
   "336": {
     "active": true,
     "categoryKey": "21030000",
-    "code": "Alle / Gekühltes / Eier & Molkereiprodukte / Käse / Frischkäse",
+    "code": "Alles / Gekühltes / Eier & Molkereiprodukte / Käse / Frischkäse",
     "id": 336,
     "name": "Frischkäse",
     "urlSlugText": "k-se/frischk-se"
@@ -154,7 +154,7 @@
   "337": {
     "active": true,
     "categoryKey": "21040000",
-    "code": "Alle / Gekühltes / Eier & Molkereiprodukte / Käse / Weichkäse",
+    "code": "Alles / Gekühltes / Eier & Molkereiprodukte / Käse / Weichkäse",
     "id": 337,
     "name": "Weichkäse",
     "urlSlugText": "k-se/weichk-se"
@@ -162,7 +162,7 @@
   "338": {
     "active": true,
     "categoryKey": "21050000",
-    "code": "Alle / Gekühltes / Eier & Molkereiprodukte / Käse / Stück- & Schnittkäse",
+    "code": "Alles / Gekühltes / Eier & Molkereiprodukte / Käse / Stück- & Schnittkäse",
     "id": 338,
     "name": "Hartkäse & Stückkäse",
     "urlSlugText": "k-se/hartk-se"
@@ -170,7 +170,7 @@
   "339": {
     "active": true,
     "categoryKey": "21060000",
-    "code": "Alle / Gekühltes / Eier & Molkereiprodukte / Käse / Schmelzkäse",
+    "code": "Alles / Gekühltes / Eier & Molkereiprodukte / Käse / Schmelzkäse",
     "id": 339,
     "name": "Schmelzkäse",
     "urlSlugText": "k-se/schmelzk-se"
@@ -178,7 +178,7 @@
   "340": {
     "active": true,
     "categoryKey": "21070000",
-    "code": "Alle / Gekühltes / Eier & Molkereiprodukte / Käse / Feta & Hirtenkäse",
+    "code": "Alles / Gekühltes / Eier & Molkereiprodukte / Käse / Feta & Hirtenkäse",
     "id": 340,
     "name": "Feta & Hirtenkäse",
     "urlSlugText": "k-se/feta-hirtenk-se"
@@ -186,7 +186,7 @@
   "341": {
     "active": true,
     "categoryKey": "21080000",
-    "code": "Alle / Gekühltes / Eier & Molkereiprodukte / Käse / Mozzarella",
+    "code": "Alles / Gekühltes / Eier & Molkereiprodukte / Käse / Mozzarella",
     "id": 341,
     "name": "Mozzarella",
     "urlSlugText": "k-se/mozzarella"
@@ -194,7 +194,7 @@
   "342": {
     "active": true,
     "categoryKey": "21090000",
-    "code": "Alle / Gekühltes / Eier & Molkereiprodukte / Käse / Reibekäse",
+    "code": "Alles / Gekühltes / Eier & Molkereiprodukte / Käse / Reibekäse",
     "id": 342,
     "name": "Geriebener Käse",
     "urlSlugText": "k-se/reibek-se"
@@ -202,7 +202,7 @@
   "343": {
     "active": true,
     "categoryKey": "21100000",
-    "code": "Alle / Gekühltes / Eier & Molkereiprodukte / Käse / Ofen- & Grillkäse",
+    "code": "Alles / Gekühltes / Eier & Molkereiprodukte / Käse / Ofen- & Grillkäse",
     "id": 343,
     "name": "Ofenkäse & Grillkäse",
     "urlSlugText": "k-se/ofen-grillk-se"
@@ -210,7 +210,7 @@
   "344": {
     "active": true,
     "categoryKey": "21110000",
-    "code": "Alle / Gekühltes / Eier & Molkereiprodukte / Käse / Käsealternativen",
+    "code": "Alles / Gekühltes / Eier & Molkereiprodukte / Käse / Käsealternativen",
     "id": 344,
     "name": "Käseersatz",
     "urlSlugText": "k-se/k-seersatz"
@@ -282,7 +282,7 @@
   "353": {
     "active": true,
     "categoryKey": "22080000",
-    "code": "All / Fisch",
+    "code": "Alles / Gekühltes / Fisch & Fleisch / Fisch & Meeresfrüchte",
     "id": 353,
     "name": "Fisch & Meeresfrüchte",
     "urlSlugText": "fleisch-fisch-veggie/fisch-meeresfr-chte"
@@ -634,7 +634,7 @@
   "397": {
     "active": true,
     "categoryKey": "27060000",
-    "code": "All / Weitere Verarbeitete Lebensmittel / Fertiggerichte",
+    "code": "Alles / Ungekühltes / Fertiggerichte & Konserven / Dosengerichte",
     "id": 397,
     "name": "Fertiggerichte, Nudeltopf & Ravioli",
     "urlSlugText": "konserven-fertiggerichte/fertiggerichte"
@@ -738,7 +738,7 @@
   "410": {
     "active": true,
     "categoryKey": "29010000",
-    "code": "Alles / Ungekühltes / Backen & Dessertpulver / Mehl & Gries",
+    "code": "Alles / Ungekühltes / Backen & Dessertpulver / Getreide / Mehl",
     "id": 410,
     "name": "Mehl",
     "urlSlugText": "backen-dessert/mehl"
@@ -882,7 +882,7 @@
   "428": {
     "active": true,
     "categoryKey": "31020000",
-    "code": "Alles / Ungekühltes / Snacks / Süße Snacks / Süßwaren / Bonbons, Lutscher & Kaugummi, Fruchtgummi & Lakritz",
+    "code": "Alles / Ungekühltes / Snacks / Süße Snacks / Süßwaren / Fruchtgummi & Lakritz",
     "id": 428,
     "name": "Fruchtgummi & Lakritz",
     "urlSlugText": "s-es-salziges/fruchtgummi-lakritz"
@@ -890,7 +890,7 @@
   "429": {
     "active": true,
     "categoryKey": "31030000",
-    "code": "Alles / Ungekühltes / Snacks / Süße Snacks / Süßwaren / Bonbons, Lutscher & Kaugummi, Fruchtgummi & Lakritz",
+    "code": "Alles / Ungekühltes / Snacks / Süße Snacks / Süßwaren",
     "id": 429,
     "name": "Bonbons & Kaugummi",
     "urlSlugText": "s-es-salziges/bonbons-kaugummi"
@@ -914,7 +914,7 @@
   "432": {
     "active": true,
     "categoryKey": "31060000",
-    "code": "Alles",
+    "code": "Alles / Ungekühltes / Nüsse & Trockenfrüchte",
     "id": 432,
     "name": "Nüsse & Trockenfrüchte",
     "urlSlugText": "s-es-salziges/n-sse"
@@ -922,7 +922,7 @@
   "433": {
     "active": true,
     "categoryKey": "32000000",
-    "code": "All / Getränke",
+    "code": "Alles / Getränke / Alkoholfreie Getränke",
     "id": 433,
     "name": "Getränke",
     "urlSlugText": "produkte/alkoholfreie-getr-nke"
@@ -930,7 +930,7 @@
   "434": {
     "active": true,
     "categoryKey": "32010000",
-    "code": "All / Getränke",
+    "code": "Alles / Getränke / Alkoholfreie Getränke / Wasser & Mineralwasser",
     "id": 434,
     "name": "Wasser",
     "urlSlugText": "alkoholfreie-getr-nke/wasser"
@@ -938,7 +938,7 @@
   "435": {
     "active": true,
     "categoryKey": "32020000",
-    "code": "All / Getränke",
+    "code": "Alles / Getränke / Alkoholfreie Getränke / Säfte & Nektare",
     "id": 435,
     "name": "Säfte",
     "urlSlugText": "alkoholfreie-getr-nke/s-fte"
@@ -946,7 +946,7 @@
   "436": {
     "active": true,
     "categoryKey": "32030000",
-    "code": "All / Getränke",
+    "code": "Alles / Getränke / Alkoholfreie Getränke / Smoothies",
     "id": 436,
     "name": "Smoothies",
     "urlSlugText": "alkoholfreie-getr-nke/smoothies"
@@ -954,7 +954,7 @@
   "437": {
     "active": true,
     "categoryKey": "32040000",
-    "code": "All / Getränke",
+    "code": "Alles / Getränke / Alkoholfreie Getränke / Schorlen",
     "id": 437,
     "name": "Schorlen",
     "urlSlugText": "alkoholfreie-getr-nke/schorlen"
@@ -962,7 +962,7 @@
   "438": {
     "active": true,
     "categoryKey": "32050000",
-    "code": "All / Getränke",
+    "code": "Alles / Getränke / Alkoholfreie Getränke / Eistee & Mate",
     "id": 438,
     "name": "Eistee",
     "urlSlugText": "alkoholfreie-getr-nke/eistee"
@@ -970,7 +970,7 @@
   "439": {
     "active": true,
     "categoryKey": "32060000",
-    "code": "All / Getränke",
+    "code": "Alles / Getränke / Alkoholfreie Getränke",
     "id": 439,
     "name": "Softdrinks",
     "urlSlugText": "alkoholfreie-getr-nke/softdrinks"
@@ -978,7 +978,7 @@
   "440": {
     "active": true,
     "categoryKey": "32070000",
-    "code": "All / Getränke",
+    "code": "Alles / Getränke / Alkoholfreie Getränke / Sport- & Energydrinks",
     "id": 440,
     "name": "Energy- & Sportdrinks",
     "urlSlugText": "alkoholfreie-getr-nke/energy-sportdrinks"
@@ -986,7 +986,7 @@
   "441": {
     "active": true,
     "categoryKey": "32080000",
-    "code": "All / Getränke",
+    "code": "Alles / Gekühltes / Eier & Molkereiprodukte / Milch- & Kaffeegetränke",
     "id": 441,
     "name": "Milchgetränke & Kaffeegetränke",
     "urlSlugText": "alkoholfreie-getr-nke/mich-kaffeegetr-nke"
@@ -994,7 +994,7 @@
   "442": {
     "active": true,
     "categoryKey": "33000000",
-    "code": "All / Getränke",
+    "code": "Alles / Getränke / Alkoholische Getränke",
     "id": 442,
     "name": "Alkoholische Getränke",
     "urlSlugText": "produkte/alkoholische-getr-nke"
@@ -1002,7 +1002,7 @@
   "443": {
     "active": true,
     "categoryKey": "33010000",
-    "code": "All / Getränke",
+    "code": "Alles / Getränke / Alkoholische Getränke",
     "id": 443,
     "name": "Bier",
     "urlSlugText": "alkoholische-getr-nke/bier"
@@ -1010,7 +1010,7 @@
   "444": {
     "active": true,
     "categoryKey": "33020000",
-    "code": "All / Getränke",
+    "code": "Alles / Getränke / Alkoholische Getränke",
     "id": 444,
     "name": "Wein",
     "urlSlugText": "alkoholische-getr-nke/wein"
@@ -1018,7 +1018,7 @@
   "445": {
     "active": true,
     "categoryKey": "33030000",
-    "code": "All / Getränke",
+    "code": "Alles / Getränke / Alkoholische Getränke",
     "id": 445,
     "name": "Frucht- & Glühwein",
     "urlSlugText": "alkoholische-getr-nke/frucht-gl-hwein"
@@ -1026,7 +1026,7 @@
   "446": {
     "active": true,
     "categoryKey": "33040000",
-    "code": "All / Getränke",
+    "code": "Alles / Getränke / Alkoholische Getränke",
     "id": 446,
     "name": "Sekt & Schaumwein",
     "urlSlugText": "alkoholische-getr-nke/sekt-schaumwein"
@@ -1034,7 +1034,7 @@
   "447": {
     "active": true,
     "categoryKey": "33050000",
-    "code": "All / Getränke",
+    "code": "Alles / Getränke / Alkoholische Getränke",
     "id": 447,
     "name": "Spirituosen",
     "urlSlugText": "alkoholische-getr-nke/spirituosen"
@@ -1346,7 +1346,7 @@
   "493": {
     "active": true,
     "categoryKey": "structuregroup_1588161408437114",
-    "code": "All / Fleisch",
+    "code": "Alles / Gekühltes / Fisch & Fleisch / Wurst & Aufschnitt",
     "id": 493,
     "name": "Wurstaufschnitt",
     "urlSlugText": "produkte/wurstaufschnitt"
@@ -1370,7 +1370,7 @@
   "498": {
     "active": true,
     "categoryKey": "structuregroup_1588161408437105",
-    "code": "All / Nüsse, Samen, Kerne",
+    "code": "Alles / Ungekühltes / Nüsse & Trockenfrüchte / Nüsse, Samen & Kerne",
     "id": 498,
     "name": "Nüsse zum Backen",
     "urlSlugText": "produkte/backen-dessertpulver/n-sse-zum-backen"
@@ -1394,7 +1394,7 @@
   "501": {
     "active": true,
     "categoryKey": "structuregroup_1588161408437115",
-    "code": "All / Getränke",
+    "code": "Alles / Getränke / Alkoholische Getränke",
     "id": 501,
     "name": "Rotwein",
     "urlSlugText": "produkte/alkoholische-getr-nke/rotwein"
@@ -1402,7 +1402,7 @@
   "502": {
     "active": true,
     "categoryKey": "structuregroup_1588161408437116",
-    "code": "All / Getränke",
+    "code": "Alles / Getränke / Alkoholische Getränke",
     "id": 502,
     "name": "Rosé",
     "urlSlugText": "produkte/alkoholische-getr-nke/ros-"
@@ -1410,7 +1410,7 @@
   "503": {
     "active": true,
     "categoryKey": "structuregroup_1588161408437117",
-    "code": "All / Getränke",
+    "code": "Alles / Getränke / Alkoholische Getränke",
     "id": 503,
     "name": "Weißwein",
     "urlSlugText": "produkte/alkoholische-getr-nke/wei-wein"
