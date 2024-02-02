@@ -1,7 +1,7 @@
 {
   "0": {
     "active": true,
-    "code": "All",
+    "code": "Alles",
     "id": 0,
     "key": "283ed9fb-47d9-4e47-ad62-8ab20a968633",
     "name": "Obst & Gemüse",
@@ -9,7 +9,7 @@
   },
   "1": {
     "active": true,
-    "code": "All",
+    "code": "Alles / Gekühltes",
     "id": 1,
     "key": "7402cb4a-50c5-49b8-906a-b1754a4f29d3",
     "name": "Zum Kühlen",
@@ -17,15 +17,15 @@
   },
   "3": {
     "active": true,
-    "code": "All",
+    "code": "Alles / Ungekühltes",
     "id": 3,
     "key": "fda540c7-5182-4318-959a-917ff58043df",
-    "name": "Speisekammer",
-    "ref": "speisekammer"
+    "name": "Ungekühlt",
+    "ref": "Ungekühlt"
   },
   "6": {
     "active": true,
-    "code": "All / Getränke",
+    "code": "Alles / Getränke",
     "id": 6,
     "key": "1f55ce9b-4122-4dbd-a757-685e8b1d8667",
     "name": "Getränke",
@@ -33,7 +33,7 @@
   },
   "7": {
     "active": true,
-    "code": "All",
+    "code": "Alles",
     "id": 7,
     "key": "59eeb082-cd7f-45ba-8da2-a15656c33d1f",
     "name": "Drogerie & Kosmetik",

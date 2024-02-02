@@ -1,28 +1,28 @@
 {
   "Drogerie": {
     "active": true,
-    "code": "All",
+    "code": "Alles",
     "id": "Drogerie",
     "name": "Drogerie",
     "url": "https://www.mueller.de/drogerie/"
   },
   "Drogerie/Kind & Mama/Babynahrung/Knabberartikel": {
     "active": false,
-    "code": "All",
+    "code": "Alles",
     "id": "Drogerie/Kind & Mama/Babynahrung/Knabberartikel",
     "name": "Knabberartikel",
     "url": null
   },
   "Drogerie/Kind & Mama/Für Mütter/Stillzeit": {
     "active": false,
-    "code": "All",
+    "code": "Alles",
     "id": "Drogerie/Kind & Mama/Für Mütter/Stillzeit",
     "name": "Stillzeit",
     "url": null
   },
   "Drogerie/Lebensmittel": {
     "active": true,
-    "code": "All",
+    "code": "Alles",
     "id": "Drogerie/Lebensmittel",
     "name": "Lebensmittel",
     "url": "https://www.mueller.de/drogerie/lebensmittel/"
@@ -106,7 +106,7 @@
   },
   "Drogerie/Lebensmittel/Nahrung": {
     "active": true,
-    "code": "All",
+    "code": "Alles",
     "id": "Drogerie/Lebensmittel/Nahrung",
     "name": "Nahrung",
     "url": "https://www.mueller.de/drogerie/lebensmittel/nahrung/"
@@ -120,7 +120,7 @@
   },
   "Drogerie/Lebensmittel/Nahrung/Backzutaten & Süßungsmittel": {
     "active": true,
-    "code": "All",
+    "code": "Alles",
     "id": "Drogerie/Lebensmittel/Nahrung/Backzutaten & Süßungsmittel",
     "name": "Backzutaten & Süßungsmittel",
     "url": "https://www.mueller.de/drogerie/lebensmittel/nahrung/backzutaten-suessungsmittel/"
@@ -155,14 +155,14 @@
   },
   "Drogerie/Lebensmittel/Nahrung/Dessert": {
     "active": true,
-    "code": "All",
+    "code": "Alles",
     "id": "Drogerie/Lebensmittel/Nahrung/Dessert",
     "name": "Dessert",
     "url": "https://www.mueller.de/drogerie/lebensmittel/nahrung/dessert/"
   },
   "Drogerie/Lebensmittel/Nahrung/Diätnahrung": {
     "active": true,
-    "code": "All",
+    "code": "Alles",
     "id": "Drogerie/Lebensmittel/Nahrung/Diätnahrung",
     "name": "Diätnahrung",
     "url": "https://www.mueller.de/drogerie/lebensmittel/nahrung/diaetnahrung/"
@@ -225,7 +225,7 @@
   },
   "Drogerie/Lebensmittel/Nahrung/Milch & Milchalternativen": {
     "active": true,
-    "code": "All / Milchprodukte",
+    "code": "Alle / Gekühltes / Eier & Molkereiprodukte",
     "id": "Drogerie/Lebensmittel/Nahrung/Milch & Milchalternativen",
     "name": "Milch & Milchalternativen",
     "url": "https://www.mueller.de/drogerie/lebensmittel/nahrung/milch-milchalternativen/"
@@ -239,7 +239,7 @@
   },
   "Drogerie/Lebensmittel/Nahrung/Nudeln, Reis & Hülsenfrüchte": {
     "active": true,
-    "code": "All",
+    "code": "Alles",
     "id": "Drogerie/Lebensmittel/Nahrung/Nudeln, Reis & Hülsenfrüchte",
     "name": "Nudeln, Reis & Hülsenfrüchte",
     "url": "https://www.mueller.de/drogerie/lebensmittel/nahrung/nudeln-reis-huelsenfruechte/"
@@ -274,35 +274,35 @@
   },
   "Drogerie/Lebensmittel/Nahrung/Saucen": {
     "active": true,
-    "code": "All",
+    "code": "Alles",
     "id": "Drogerie/Lebensmittel/Nahrung/Saucen",
     "name": "Saucen",
     "url": "https://www.mueller.de/drogerie/lebensmittel/nahrung/saucen/"
   },
   "Drogerie/Lebensmittel/Nahrung/Sportlernahrung": {
     "active": true,
-    "code": "All",
+    "code": "Alles",
     "id": "Drogerie/Lebensmittel/Nahrung/Sportlernahrung",
     "name": "Sportlernahrung",
     "url": "https://www.mueller.de/drogerie/lebensmittel/nahrung/sportlernahrung/"
   },
   "Drogerie/Lebensmittel/Nahrung/Superfoods": {
     "active": true,
-    "code": "All",
+    "code": "Alles",
     "id": "Drogerie/Lebensmittel/Nahrung/Superfoods",
     "name": "Superfoods",
     "url": "https://www.mueller.de/drogerie/lebensmittel/nahrung/superfoods/"
   },
   "Drogerie/Lebensmittel/Nahrungsergänzung": {
     "active": false,
-    "code": "All",
+    "code": "Alles",
     "id": "Drogerie/Lebensmittel/Nahrungsergänzung",
     "name": "Nahrungsergänzung",
     "url": null
   },
   "Drogerie/Lebensmittel/Salzige Snacks": {
     "active": true,
-    "code": "All",
+    "code": "Alles",
     "id": "Drogerie/Lebensmittel/Salzige Snacks",
     "name": "Salzige Snacks",
     "url": "https://www.mueller.de/drogerie/lebensmittel/salzige-snacks/"
@@ -323,7 +323,7 @@
   },
   "Drogerie/Lebensmittel/Süßigkeiten/Chips": {
     "active": true,
-    "code": "All",
+    "code": "Alles",
     "id": "Drogerie/Lebensmittel/Süßigkeiten/Chips",
     "name": "Chips",
     "url": "https://www.mueller.de/drogerie/lebensmittel/suessigkeiten/chips/"
@@ -372,7 +372,7 @@
   },
   "Drogerie/Lebensmittel/Tee & Kaffee": {
     "active": true,
-    "code": "All",
+    "code": "Alles",
     "id": "Drogerie/Lebensmittel/Tee & Kaffee",
     "name": "Tee & Kaffee",
     "url": "https://www.mueller.de/drogerie/lebensmittel/tee-kaffee/"
@@ -386,7 +386,7 @@
   },
   "Drogerie/Lebensmittel/Tee & Kaffee/Kaffeesahne & Kondensmilch": {
     "active": true,
-    "code": "All / Milchprodukte / Weitere",
+    "code": "Alle / Gekühltes / Eier & Molkereiprodukte / Weitere",
     "id": "Drogerie/Lebensmittel/Tee & Kaffee/Kaffeesahne & Kondensmilch",
     "name": "Kaffeesahne & Kondensmilch",
     "url": "https://www.mueller.de/drogerie/lebensmittel/tee-kaffee/kaffeesahne-kondensmilch/"
@@ -407,35 +407,35 @@
   },
   "Drogerie/Marken/Bio Primo/Cerealien & Nährmittel": {
     "active": false,
-    "code": "All",
+    "code": "Alles",
     "id": "Drogerie/Marken/Bio Primo/Cerealien & Nährmittel",
     "name": "Cerealien & Nährmittel",
     "url": null
   },
   "Drogerie/Marken/Bio Primo/Convenience & Veggie Linie": {
     "active": false,
-    "code": "All",
+    "code": "Alles",
     "id": "Drogerie/Marken/Bio Primo/Convenience & Veggie Linie",
     "name": "Convenience & Veggie Linie",
     "url": null
   },
   "Genusswelt": {
     "active": true,
-    "code": "All",
+    "code": "Alles",
     "id": "Genusswelt",
     "name": "Genusswelt",
     "url": "https://www.mueller.de/genusswelt/"
   },
   "Genusswelt/Alle Genusswelt Produkte": {
     "active": true,
-    "code": "All",
+    "code": "Alles",
     "id": "Genusswelt/Alle Genusswelt Produkte",
     "name": "Alle Genusswelt Produkte",
     "url": "https://www.mueller.de/genusswelt/alle-genusswelt-produkte/"
   },
   "Genusswelt/Geschenkideen": {
     "active": true,
-    "code": "All",
+    "code": "Alles",
     "id": "Genusswelt/Geschenkideen",
     "name": "Geschenkideen",
     "url": "https://www.mueller.de/genusswelt/geschenkideen/"
@@ -456,175 +456,175 @@
   },
   "Genusswelt/Marken": {
     "active": true,
-    "code": "All",
+    "code": "Alles",
     "id": "Genusswelt/Marken",
     "name": "Marken",
     "url": "https://www.mueller.de/genusswelt/marken/"
   },
   "Genusswelt/Marken/ALOIS GÖLLES": {
     "active": true,
-    "code": "All",
+    "code": "Alles",
     "id": "Genusswelt/Marken/ALOIS GÖLLES",
     "name": "ALOIS GÖLLES",
     "url": "https://www.mueller.de/genusswelt/marken/alois-goelles/"
   },
   "Genusswelt/Marken/Antica Torroneria Piemontese": {
     "active": true,
-    "code": "All",
+    "code": "Alles",
     "id": "Genusswelt/Marken/Antica Torroneria Piemontese",
     "name": "Antica Torroneria Piemontese",
     "url": "https://www.mueller.de/genusswelt/marken/antica-torroneria-piemontese/"
   },
   "Genusswelt/Marken/BioGourmet": {
     "active": true,
-    "code": "All",
+    "code": "Alles",
     "id": "Genusswelt/Marken/BioGourmet",
     "name": "BioGourmet",
     "url": "https://www.mueller.de/genusswelt/marken/biogourmet/"
   },
   "Genusswelt/Marken/C'est Francais": {
     "active": true,
-    "code": "All",
+    "code": "Alles",
     "id": "Genusswelt/Marken/C'est Francais",
     "name": "C'est Francais",
     "url": "https://www.mueller.de/genusswelt/marken/cest-francais/"
   },
   "Genusswelt/Marken/Château Steinle Manufaktur": {
     "active": false,
-    "code": "All",
+    "code": "Alles",
     "id": "Genusswelt/Marken/Château Steinle Manufaktur",
     "name": "Château Steinle Manufaktur",
     "url": "https://www.mueller.de/genusswelt/marken/chateau-steinle-manufaktur/"
   },
   "Genusswelt/Marken/Dinzler": {
     "active": true,
-    "code": "All",
+    "code": "Alles",
     "id": "Genusswelt/Marken/Dinzler",
     "name": "Dinzler",
     "url": "https://www.mueller.de/genusswelt/marken/dinzler/"
   },
   "Genusswelt/Marken/Gepp's": {
     "active": true,
-    "code": "All",
+    "code": "Alles",
     "id": "Genusswelt/Marken/Gepp's",
     "name": "Gepp's",
     "url": "https://www.mueller.de/genusswelt/marken/gepps/"
   },
   "Genusswelt/Marken/Gourmet Berner": {
     "active": true,
-    "code": "All",
+    "code": "Alles",
     "id": "Genusswelt/Marken/Gourmet Berner",
     "name": "Gourmet Berner",
     "url": "https://www.mueller.de/genusswelt/marken/gourmet-berner/"
   },
   "Genusswelt/Marken/HOME by Berner": {
     "active": true,
-    "code": "All",
+    "code": "Alles",
     "id": "Genusswelt/Marken/HOME by Berner",
     "name": "HOME by Berner",
     "url": "https://www.mueller.de/genusswelt/marken/home-by-berner/"
   },
   "Genusswelt/Marken/Il Caruggiu": {
     "active": true,
-    "code": "All",
+    "code": "Alles",
     "id": "Genusswelt/Marken/Il Caruggiu",
     "name": "Il Caruggiu",
     "url": "https://www.mueller.de/genusswelt/marken/il-caruggiu/"
   },
   "Genusswelt/Marken/Il Germoglio dei Sapori": {
     "active": true,
-    "code": "All",
+    "code": "Alles",
     "id": "Genusswelt/Marken/Il Germoglio dei Sapori",
     "name": "Il Germoglio dei Sapori",
     "url": "https://www.mueller.de/genusswelt/marken/il-germoglio-dei-sapori/"
   },
   "Genusswelt/Marken/KULTBOHNE": {
     "active": true,
-    "code": "All",
+    "code": "Alles",
     "id": "Genusswelt/Marken/KULTBOHNE",
     "name": "KULTBOHNE",
     "url": "https://www.mueller.de/genusswelt/marken/kultbohne/"
   },
   "Genusswelt/Marken/Käfer": {
     "active": true,
-    "code": "All",
+    "code": "Alles",
     "id": "Genusswelt/Marken/Käfer",
     "name": "Käfer",
     "url": "https://www.mueller.de/genusswelt/marken/kaefer/"
   },
   "Genusswelt/Marken/L'EPICERIE DE PROVENCE": {
     "active": true,
-    "code": "All",
+    "code": "Alles",
     "id": "Genusswelt/Marken/L'EPICERIE DE PROVENCE",
     "name": "L'EPICERIE DE PROVENCE",
     "url": "https://www.mueller.de/genusswelt/marken/lepicerie-de-provence/"
   },
   "Genusswelt/Marken/Le Comptoir de Mathilde": {
     "active": true,
-    "code": "All",
+    "code": "Alles",
     "id": "Genusswelt/Marken/Le Comptoir de Mathilde",
     "name": "Le Comptoir de Mathilde",
     "url": "https://www.mueller.de/genusswelt/marken/le-comptoir-de-mathilde/"
   },
   "Genusswelt/Marken/MALFY": {
     "active": true,
-    "code": "All",
+    "code": "Alles",
     "id": "Genusswelt/Marken/MALFY",
     "name": "MALFY",
     "url": "https://www.mueller.de/genusswelt/marken/malfy/"
   },
   "Genusswelt/Marken/MILL&MORTAR": {
     "active": true,
-    "code": "All",
+    "code": "Alles",
     "id": "Genusswelt/Marken/MILL&MORTAR",
     "name": "MILL&MORTAR",
     "url": "https://www.mueller.de/genusswelt/marken/mill-mortar/"
   },
   "Genusswelt/Marken/Mario Fongo": {
     "active": true,
-    "code": "All",
+    "code": "Alles",
     "id": "Genusswelt/Marken/Mario Fongo",
     "name": "Mario Fongo",
     "url": "https://www.mueller.de/genusswelt/marken/mario-fongo/"
   },
   "Genusswelt/Marken/Quai Sud": {
     "active": true,
-    "code": "All",
+    "code": "Alles",
     "id": "Genusswelt/Marken/Quai Sud",
     "name": "Quai Sud",
     "url": "https://www.mueller.de/genusswelt/marken/quai-sud/"
   },
   "Genusswelt/Marken/STAY SPICED!": {
     "active": true,
-    "code": "All",
+    "code": "Alles",
     "id": "Genusswelt/Marken/STAY SPICED!",
     "name": "STAY SPICED!",
     "url": "https://www.mueller.de/genusswelt/marken/stay-spiced/"
   },
   "Genusswelt/Marken/Sardinha": {
     "active": true,
-    "code": "All",
+    "code": "Alles",
     "id": "Genusswelt/Marken/Sardinha",
     "name": "Sardinha",
     "url": "https://www.mueller.de/genusswelt/marken/sardinha/"
   },
   "Genusswelt/Marken/THE  GOLDEN CIRCLE": {
     "active": true,
-    "code": "All",
+    "code": "Alles",
     "id": "Genusswelt/Marken/THE  GOLDEN CIRCLE",
     "name": "THE  GOLDEN CIRCLE",
     "url": "https://www.mueller.de/genusswelt/marken/the-golden-circle/"
   },
   "Genusswelt/Marken/VON HALLERS": {
     "active": false,
-    "code": "All",
+    "code": "Alles",
     "id": "VON HALLERS",
     "name": "VON HALLERS",
     "url": "https://www.mueller.de/genusswelt/marken/von-hallers/"
   },
   "Genusswelt/Nahrung": {
     "active": true,
-    "code": "All",
+    "code": "Alles",
     "id": "Genusswelt/Nahrung",
     "name": "Nahrung",
     "url": "https://www.mueller.de/genusswelt/nahrung/"
@@ -645,42 +645,42 @@
   },
   "Naturshop": {
     "active": true,
-    "code": "All",
+    "code": "Alles",
     "id": "Naturshop",
     "name": "Naturshop",
     "url": "https://www.mueller.de/naturshop/"
   },
   "Naturshop/Aktionen": {
     "active": true,
-    "code": "All",
+    "code": "Alles",
     "id": "Naturshop/Aktionen",
     "name": "Aktionen",
     "url": "https://www.mueller.de/naturshop/aktionen/"
   },
   "Naturshop/Exklusiv online erhältliche Naturshop Artikel": {
     "active": true,
-    "code": "All",
+    "code": "Alles",
     "id": "Naturshop/Exklusiv online erhältliche Naturshop Artikel",
     "name": "Exklusiv online erhältliche Naturshop Artikel",
     "url": "https://www.mueller.de/naturshop/exklusiv-online-erhaeltliche-naturshop-artikel/"
   },
   "Naturshop/Kind & Mama/Babynahrung/Beikost/Abendbreie": {
     "active": false,
-    "code": "All",
+    "code": "Alles",
     "id": "Naturshop/Kind & Mama/Babynahrung/Beikost/Abendbreie",
     "name": "Abendbreie",
     "url": null
   },
   "Naturshop/Lebensmittel": {
     "active": true,
-    "code": "All",
+    "code": "Alles",
     "id": "Naturshop/Lebensmittel",
     "name": "Lebensmittel",
     "url": "https://www.mueller.de/naturshop/lebensmittel/"
   },
   "Parfümerie/Nahrungsergänzung": {
     "active": false,
-    "code": "All",
+    "code": "Alles",
     "id": "Parfümerie/Nahrungsergänzung",
     "name": "Nahrungsergänzung",
     "url": null
