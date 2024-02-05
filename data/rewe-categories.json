@@ -7961,7 +7961,7 @@
   },
   "Obst & Gemüse/Frisches Gemüse/Erbsen & Bohnen/": {
     "active": true,
-    "code": "Alles / Frisches Obst & Gemüse / Gemüse",
+    "code": "Alles / Frisches Obst & Gemüse / Gemüse / Erbsen & Bohnen",
     "facetFilterQuery": "category=Obst%20%26%20Gem%C3%BCse/Frisches%20Gem%C3%BCse/Erbsen%20%26%20Bohnen",
     "id": "Obst & Gemüse/Frisches Gemüse/Erbsen & Bohnen/",
     "name": "Erbsen & Bohnen",
@@ -7969,7 +7969,7 @@
   },
   "Obst & Gemüse/Frisches Gemüse/Gurken/": {
     "active": true,
-    "code": "Alles / Frisches Obst & Gemüse / Gemüse",
+    "code": "Alles / Frisches Obst & Gemüse / Gemüse / Gurken",
     "facetFilterQuery": "category=Obst%20%26%20Gem%C3%BCse/Frisches%20Gem%C3%BCse/Gurken",
     "id": "Obst & Gemüse/Frisches Gemüse/Gurken/",
     "name": "Gurken",
@@ -7977,7 +7977,7 @@
   },
   "Obst & Gemüse/Frisches Gemüse/Kartoffeln/": {
     "active": true,
-    "code": "Alles / Frisches Obst & Gemüse / Gemüse",
+    "code": "Alles / Frisches Obst & Gemüse / Gemüse / Kartoffeln",
     "facetFilterQuery": "category=Obst%20%26%20Gem%C3%BCse/Frisches%20Gem%C3%BCse/Kartoffeln",
     "id": "Obst & Gemüse/Frisches Gemüse/Kartoffeln/",
     "name": "Kartoffeln",
@@ -7985,7 +7985,7 @@
   },
   "Obst & Gemüse/Frisches Gemüse/Kohl & Brokkoli/": {
     "active": true,
-    "code": "Alles / Frisches Obst & Gemüse / Gemüse",
+    "code": "Alles / Frisches Obst & Gemüse / Gemüse / Kohl & Brokkoli",
     "facetFilterQuery": "category=Obst%20%26%20Gem%C3%BCse/Frisches%20Gem%C3%BCse/Kohl%20%26%20Brokkoli",
     "id": "Obst & Gemüse/Frisches Gemüse/Kohl & Brokkoli/",
     "name": "Kohl & Brokkoli",
@@ -7993,7 +7993,7 @@
   },
   "Obst & Gemüse/Frisches Gemüse/Mais/": {
     "active": true,
-    "code": "Alles / Frisches Obst & Gemüse / Gemüse",
+    "code": "Alles / Frisches Obst & Gemüse / Gemüse / Mais",
     "facetFilterQuery": "category=Obst%20%26%20Gem%C3%BCse/Frisches%20Gem%C3%BCse/Mais",
     "id": "Obst & Gemüse/Frisches Gemüse/Mais/",
     "name": "Mais",
@@ -8009,7 +8009,7 @@
   },
   "Obst & Gemüse/Frisches Gemüse/Pilze/": {
     "active": true,
-    "code": "Alles / Frisches Obst & Gemüse / Gemüse",
+    "code": "Alles / Frisches Obst & Gemüse / Gemüse / Pilze",
     "facetFilterQuery": "category=Obst%20%26%20Gem%C3%BCse/Frisches%20Gem%C3%BCse/Pilze",
     "id": "Obst & Gemüse/Frisches Gemüse/Pilze/",
     "name": "Pilze",
@@ -8017,7 +8017,7 @@
   },
   "Obst & Gemüse/Frisches Gemüse/Porree & Lauch/": {
     "active": true,
-    "code": "Alles / Frisches Obst & Gemüse / Gemüse",
+    "code": "Alles / Frisches Obst & Gemüse / Gemüse / Porree & Lauch",
     "facetFilterQuery": "category=Obst%20%26%20Gem%C3%BCse/Frisches%20Gem%C3%BCse/Porree%20%26%20Lauch",
     "id": "Obst & Gemüse/Frisches Gemüse/Porree & Lauch/",
     "name": "Porree & Lauch",
@@ -8025,7 +8025,7 @@
   },
   "Obst & Gemüse/Frisches Gemüse/Rhabarber/": {
     "active": false,
-    "code": "Alles / Frisches Obst & Gemüse / Gemüse",
+    "code": "Alles / Frisches Obst & Gemüse / Gemüse / Rhabarber",
     "facetFilterQuery": "category=Obst%20%26%20Gem%C3%BCse/Frisches%20Gem%C3%BCse/Rhabarber",
     "id": "Obst & Gemüse/Frisches Gemüse/Rhabarber/",
     "name": "Rhabarber",
@@ -8081,7 +8081,7 @@
   },
   "Obst & Gemüse/Frisches Gemüse/Tomaten/": {
     "active": true,
-    "code": "Alles / Frisches Obst & Gemüse / Gemüse",
+    "code": "Alles / Frisches Obst & Gemüse / Gemüse / Tomaten",
     "facetFilterQuery": "category=Obst%20%26%20Gem%C3%BCse/Frisches%20Gem%C3%BCse/Tomaten",
     "id": "Obst & Gemüse/Frisches Gemüse/Tomaten/",
     "name": "Tomaten",
@@ -8089,7 +8089,7 @@
   },
   "Obst & Gemüse/Frisches Gemüse/Wurzelgemüse/": {
     "active": true,
-    "code": "Alles / Frisches Obst & Gemüse / Gemüse",
+    "code": "Alles / Frisches Obst & Gemüse / Gemüse / Wurzelgemüse",
     "facetFilterQuery": "category=Obst%20%26%20Gem%C3%BCse/Frisches%20Gem%C3%BCse/Wurzelgem%C3%BCse",
     "id": "Obst & Gemüse/Frisches Gemüse/Wurzelgemüse/",
     "name": "Wurzelgemüse",
@@ -8097,7 +8097,7 @@
   },
   "Obst & Gemüse/Frisches Gemüse/Wurzelgemüse/Fenchel/": {
     "active": true,
-    "code": "Alles / Frisches Obst & Gemüse / Gemüse",
+    "code": "Alles / Frisches Obst & Gemüse / Gemüse / Wurzelgemüse / Fenchel",
     "facetFilterQuery": "category=Obst%20%26%20Gem%C3%BCse/Frisches%20Gem%C3%BCse/Wurzelgem%C3%BCse/Fenchel",
     "id": "Obst & Gemüse/Frisches Gemüse/Wurzelgemüse/Fenchel/",
     "name": "Fenchel",
@@ -8105,7 +8105,7 @@
   },
   "Obst & Gemüse/Frisches Gemüse/Wurzelgemüse/Ingwer/": {
     "active": true,
-    "code": "Alles / Frisches Obst & Gemüse / Gemüse",
+    "code": "Alles / Frisches Obst & Gemüse / Gemüse / Wurzelgemüse / Ingwer",
     "facetFilterQuery": "category=Obst%20%26%20Gem%C3%BCse/Frisches%20Gem%C3%BCse/Wurzelgem%C3%BCse/Ingwer",
     "id": "Obst & Gemüse/Frisches Gemüse/Wurzelgemüse/Ingwer/",
     "name": "Ingwer",
@@ -8113,7 +8113,7 @@
   },
   "Obst & Gemüse/Frisches Gemüse/Wurzelgemüse/Kohlrabi/": {
     "active": true,
-    "code": "Alles / Frisches Obst & Gemüse / Gemüse",
+    "code": "Alles / Frisches Obst & Gemüse / Gemüse / Wurzelgemüse / Kohlrabi",
     "facetFilterQuery": "category=Obst%20%26%20Gem%C3%BCse/Frisches%20Gem%C3%BCse/Wurzelgem%C3%BCse/Kohlrabi",
     "id": "Obst & Gemüse/Frisches Gemüse/Wurzelgemüse/Kohlrabi/",
     "name": "Kohlrabi",
@@ -8121,7 +8121,7 @@
   },
   "Obst & Gemüse/Frisches Gemüse/Wurzelgemüse/Möhren/": {
     "active": true,
-    "code": "Alles / Frisches Obst & Gemüse / Gemüse",
+    "code": "Alles / Frisches Obst & Gemüse / Gemüse / Wurzelgemüse / Möhren",
     "facetFilterQuery": "category=Obst%20%26%20Gem%C3%BCse/Frisches%20Gem%C3%BCse/Wurzelgem%C3%BCse/M%C3%B6hren",
     "id": "Obst & Gemüse/Frisches Gemüse/Wurzelgemüse/Möhren/",
     "name": "Möhren",
@@ -8137,7 +8137,7 @@
   },
   "Obst & Gemüse/Frisches Gemüse/Wurzelgemüse/Radieschen/": {
     "active": true,
-    "code": "Alles / Frisches Obst & Gemüse / Gemüse",
+    "code": "Alles / Frisches Obst & Gemüse / Gemüse / Wurzelgemüse / Radieschen",
     "facetFilterQuery": "category=Obst%20%26%20Gem%C3%BCse/Frisches%20Gem%C3%BCse/Wurzelgem%C3%BCse/Radieschen",
     "id": "Obst & Gemüse/Frisches Gemüse/Wurzelgemüse/Radieschen/",
     "name": "Radieschen",
@@ -8145,7 +8145,7 @@
   },
   "Obst & Gemüse/Frisches Gemüse/Wurzelgemüse/Rote Bete/": {
     "active": true,
-    "code": "Alles / Frisches Obst & Gemüse / Gemüse",
+    "code": "Alles / Frisches Obst & Gemüse / Gemüse / Wurzelgemüse / Rote Bete",
     "facetFilterQuery": "category=Obst%20%26%20Gem%C3%BCse/Frisches%20Gem%C3%BCse/Wurzelgem%C3%BCse/Rote%20Bete",
     "id": "Obst & Gemüse/Frisches Gemüse/Wurzelgemüse/Rote Bete/",
     "name": "Rote Bete",
@@ -8153,7 +8153,7 @@
   },
   "Obst & Gemüse/Frisches Gemüse/Wurzelgemüse/Schwarzwurzel/": {
     "active": true,
-    "code": "Alles / Frisches Obst & Gemüse / Gemüse",
+    "code": "Alles / Frisches Obst & Gemüse / Gemüse / Wurzelgemüse / Schwarzwurzel",
     "facetFilterQuery": "category=Obst%20%26%20Gem%C3%BCse/Frisches%20Gem%C3%BCse/Wurzelgem%C3%BCse/Schwarzwurzel",
     "id": "Obst & Gemüse/Frisches Gemüse/Wurzelgemüse/Schwarzwurzel/",
     "name": "Schwarzwurzel",
@@ -8161,7 +8161,7 @@
   },
   "Obst & Gemüse/Frisches Gemüse/Wurzelgemüse/Sellerie/": {
     "active": true,
-    "code": "Alles / Frisches Obst & Gemüse / Gemüse",
+    "code": "Alles / Frisches Obst & Gemüse / Gemüse / Sellerie",
     "facetFilterQuery": "category=Obst%20%26%20Gem%C3%BCse/Frisches%20Gem%C3%BCse/Wurzelgem%C3%BCse/Sellerie",
     "id": "Obst & Gemüse/Frisches Gemüse/Wurzelgemüse/Sellerie/",
     "name": "Sellerie",
@@ -8169,7 +8169,7 @@
   },
   "Obst & Gemüse/Frisches Gemüse/Wurzelgemüse/Steckrüben/": {
     "active": true,
-    "code": "Alles / Frisches Obst & Gemüse / Gemüse",
+    "code": "Alles / Frisches Obst & Gemüse / Gemüse / Wurzelgemüse / Steckrüben",
     "facetFilterQuery": "category=Obst%20%26%20Gem%C3%BCse/Frisches%20Gem%C3%BCse/Wurzelgem%C3%BCse/Steckr%C3%BCben",
     "id": "Obst & Gemüse/Frisches Gemüse/Wurzelgemüse/Steckrüben/",
     "name": "Steckrüben",
@@ -8201,7 +8201,7 @@
   },
   "Obst & Gemüse/Frisches Obst/": {
     "active": true,
-    "code": "Alles / Frisches Obst & Gemüse / Obst",
+    "code": "Alles / Frisches Obst & Gemüse / Obst / Zwiebeln & Knoblauch",
     "facetFilterQuery": "category=Obst%20%26%20Gem%C3%BCse/Frisches%20Obst",
     "id": "Obst & Gemüse/Frisches Obst/",
     "name": "Frisches Obst",
@@ -8209,7 +8209,7 @@
   },
   "Obst & Gemüse/Frisches Obst/Ananas/": {
     "active": true,
-    "code": "Alles / Frisches Obst & Gemüse / Obst",
+    "code": "Alles / Frisches Obst & Gemüse / Obst / Ananas",
     "facetFilterQuery": "category=Obst%20%26%20Gem%C3%BCse/Frisches%20Obst/Ananas",
     "id": "Obst & Gemüse/Frisches Obst/Ananas/",
     "name": "Ananas",
@@ -8217,7 +8217,7 @@
   },
   "Obst & Gemüse/Frisches Obst/Avocado/": {
     "active": true,
-    "code": "Alles / Frisches Obst & Gemüse / Obst",
+    "code": "Alles / Frisches Obst & Gemüse / Obst / Avocado",
     "facetFilterQuery": "category=Obst%20%26%20Gem%C3%BCse/Frisches%20Obst/Avocado",
     "id": "Obst & Gemüse/Frisches Obst/Avocado/",
     "name": "Avocado",
@@ -8225,7 +8225,7 @@
   },
   "Obst & Gemüse/Frisches Obst/Bananen/": {
     "active": true,
-    "code": "Alles / Frisches Obst & Gemüse / Obst",
+    "code": "Alles / Frisches Obst & Gemüse / Obst / Bananen",
     "facetFilterQuery": "category=Obst%20%26%20Gem%C3%BCse/Frisches%20Obst/Bananen",
     "id": "Obst & Gemüse/Frisches Obst/Bananen/",
     "name": "Bananen",
@@ -8233,7 +8233,7 @@
   },
   "Obst & Gemüse/Frisches Obst/Beeren/": {
     "active": true,
-    "code": "Alles / Frisches Obst & Gemüse / Obst",
+    "code": "Alles / Frisches Obst & Gemüse / Obst / Beeren",
     "facetFilterQuery": "category=Obst%20%26%20Gem%C3%BCse/Frisches%20Obst/Beeren",
     "id": "Obst & Gemüse/Frisches Obst/Beeren/",
     "name": "Beeren",
@@ -8241,7 +8241,7 @@
   },
   "Obst & Gemüse/Frisches Obst/Birnen/": {
     "active": true,
-    "code": "Alles / Frisches Obst & Gemüse / Obst",
+    "code": "Alles / Frisches Obst & Gemüse / Obst / Birnen",
     "facetFilterQuery": "category=Obst%20%26%20Gem%C3%BCse/Frisches%20Obst/Birnen",
     "id": "Obst & Gemüse/Frisches Obst/Birnen/",
     "name": "Birnen",
@@ -8257,7 +8257,7 @@
   },
   "Obst & Gemüse/Frisches Obst/Kiwi/": {
     "active": true,
-    "code": "Alles / Frisches Obst & Gemüse / Obst",
+    "code": "Alles / Frisches Obst & Gemüse / Obst / Kiwi",
     "facetFilterQuery": "category=Obst%20%26%20Gem%C3%BCse/Frisches%20Obst/Kiwi",
     "id": "Obst & Gemüse/Frisches Obst/Kiwi/",
     "name": "Kiwi",
@@ -8265,7 +8265,7 @@
   },
   "Obst & Gemüse/Frisches Obst/Mango/": {
     "active": true,
-    "code": "Alles / Frisches Obst & Gemüse / Obst",
+    "code": "Alles / Frisches Obst & Gemüse / Obst / Mango",
     "facetFilterQuery": "category=Obst%20%26%20Gem%C3%BCse/Frisches%20Obst/Mango",
     "id": "Obst & Gemüse/Frisches Obst/Mango/",
     "name": "Mango",
@@ -8273,7 +8273,7 @@
   },
   "Obst & Gemüse/Frisches Obst/Melonen/": {
     "active": true,
-    "code": "Alles / Frisches Obst & Gemüse / Obst",
+    "code": "Alles / Frisches Obst & Gemüse / Obst / Melonen",
     "facetFilterQuery": "category=Obst%20%26%20Gem%C3%BCse/Frisches%20Obst/Melonen",
     "id": "Obst & Gemüse/Frisches Obst/Melonen/",
     "name": "Melonen",
@@ -8281,7 +8281,7 @@
   },
   "Obst & Gemüse/Frisches Obst/Steinobst/": {
     "active": true,
-    "code": "Alles / Frisches Obst & Gemüse / Obst",
+    "code": "Alles / Frisches Obst & Gemüse / Obst / Steinobst",
     "facetFilterQuery": "category=Obst%20%26%20Gem%C3%BCse/Frisches%20Obst/Steinobst",
     "id": "Obst & Gemüse/Frisches Obst/Steinobst/",
     "name": "Steinobst",
@@ -8289,7 +8289,7 @@
   },
   "Obst & Gemüse/Frisches Obst/Steinobst/Aprikosen/": {
     "active": true,
-    "code": "Alles / Frisches Obst & Gemüse / Obst",
+    "code": "Alles / Frisches Obst & Gemüse / Obst / Steinobst / Aprikosen",
     "facetFilterQuery": "category=Obst%20%26%20Gem%C3%BCse/Frisches%20Obst/Steinobst/Aprikosen",
     "id": "Obst & Gemüse/Frisches Obst/Steinobst/Aprikosen/",
     "name": "Aprikosen",
@@ -8297,7 +8297,7 @@
   },
   "Obst & Gemüse/Frisches Obst/Steinobst/Kirschen/": {
     "active": true,
-    "code": "Alles / Frisches Obst & Gemüse / Obst",
+    "code": "Alles / Frisches Obst & Gemüse / Obst / Steinobst / Kirschen",
     "facetFilterQuery": "category=Obst%20%26%20Gem%C3%BCse/Frisches%20Obst/Steinobst/Kirschen",
     "id": "Obst & Gemüse/Frisches Obst/Steinobst/Kirschen/",
     "name": "Kirschen",
@@ -8305,7 +8305,7 @@
   },
   "Obst & Gemüse/Frisches Obst/Steinobst/Nektarinen/": {
     "active": true,
-    "code": "Alles / Frisches Obst & Gemüse / Obst",
+    "code": "Alles / Frisches Obst & Gemüse / Obst / Steinobst / Nektarinen",
     "facetFilterQuery": "category=Obst%20%26%20Gem%C3%BCse/Frisches%20Obst/Steinobst/Nektarinen",
     "id": "Obst & Gemüse/Frisches Obst/Steinobst/Nektarinen/",
     "name": "Nektarinen",
@@ -8313,7 +8313,7 @@
   },
   "Obst & Gemüse/Frisches Obst/Steinobst/Pfirsiche/": {
     "active": true,
-    "code": "Alles / Frisches Obst & Gemüse / Obst",
+    "code": "Alles / Frisches Obst & Gemüse / Obst / Steinobst / Pfirsiche",
     "facetFilterQuery": "category=Obst%20%26%20Gem%C3%BCse/Frisches%20Obst/Steinobst/Pfirsiche",
     "id": "Obst & Gemüse/Frisches Obst/Steinobst/Pfirsiche/",
     "name": "Pfirsiche",
@@ -8321,7 +8321,7 @@
   },
   "Obst & Gemüse/Frisches Obst/Steinobst/Pflaumen, Zwetschgen & Mirabellen/": {
     "active": true,
-    "code": "Alles / Frisches Obst & Gemüse / Obst",
+    "code": "Alles / Frisches Obst & Gemüse / Obst / Steinobst",
     "facetFilterQuery": "category=Obst%20%26%20Gem%C3%BCse/Frisches%20Obst/Steinobst/Pflaumen,%20Zwetschgen%20%26%20Mirabellen",
     "id": "Obst & Gemüse/Frisches Obst/Steinobst/Pflaumen, Zwetschgen & Mirabellen/",
     "name": "Pflaumen, Zwetschgen & Mirabellen",
@@ -8329,7 +8329,7 @@
   },
   "Obst & Gemüse/Frisches Obst/Trauben/": {
     "active": true,
-    "code": "Alles / Frisches Obst & Gemüse / Obst",
+    "code": "Alles / Frisches Obst & Gemüse / Obst / Trauben",
     "facetFilterQuery": "category=Obst%20%26%20Gem%C3%BCse/Frisches%20Obst/Trauben",
     "id": "Obst & Gemüse/Frisches Obst/Trauben/",
     "name": "Trauben",
@@ -8337,7 +8337,7 @@
   },
   "Obst & Gemüse/Frisches Obst/Zitrusfrüchte/": {
     "active": true,
-    "code": "Alles / Frisches Obst & Gemüse / Obst",
+    "code": "Alles / Frisches Obst & Gemüse / Obst / Zitrusfrüchte",
     "facetFilterQuery": "category=Obst%20%26%20Gem%C3%BCse/Frisches%20Obst/Zitrusfr%C3%BCchte",
     "id": "Obst & Gemüse/Frisches Obst/Zitrusfrüchte/",
     "name": "Zitrusfrüchte",
@@ -8345,7 +8345,7 @@
   },
   "Obst & Gemüse/Frisches Obst/Äpfel/": {
     "active": true,
-    "code": "Alles / Frisches Obst & Gemüse / Obst",
+    "code": "Alles / Frisches Obst & Gemüse / Obst / Äpfel",
     "facetFilterQuery": "category=Obst%20%26%20Gem%C3%BCse/Frisches%20Obst/%C3%84pfel",
     "id": "Obst & Gemüse/Frisches Obst/Äpfel/",
     "name": "Äpfel",
