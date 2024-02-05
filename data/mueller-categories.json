@@ -386,7 +386,7 @@
   },
   "Drogerie/Lebensmittel/Tee & Kaffee/Kaffeesahne & Kondensmilch": {
     "active": true,
-    "code": "Alle / Gekühltes / Eier & Molkereiprodukte / Weitere",
+    "code": "alles / Gekühltes / Eier & Molkereiprodukte / Weitere",
     "id": "Drogerie/Lebensmittel/Tee & Kaffee/Kaffeesahne & Kondensmilch",
     "name": "Kaffeesahne & Kondensmilch",
     "url": "https://www.mueller.de/drogerie/lebensmittel/tee-kaffee/kaffeesahne-kondensmilch/"
@@ -426,11 +426,11 @@
     "name": "Genusswelt",
     "url": "https://www.mueller.de/genusswelt/"
   },
-  "Genusswelt/Alle Genusswelt Produkte": {
+  "Genusswelt/alles Genusswelt Produkte": {
     "active": true,
     "code": "Alles",
-    "id": "Genusswelt/Alle Genusswelt Produkte",
-    "name": "Alle Genusswelt Produkte",
+    "id": "Genusswelt/alles Genusswelt Produkte",
+    "name": "alles Genusswelt Produkte",
     "url": "https://www.mueller.de/genusswelt/alle-genusswelt-produkte/"
   },
   "Genusswelt/Geschenkideen": {
@@ -638,7 +638,7 @@
   },
   "Genusswelt/Tee & Kaffee": {
     "active": true,
-    "code": "All / Weitere Verarbeitete Lebensmittel",
+    "code": "Alles / Ungekühltes / Kaffee, Tee & Co.",
     "id": "Genusswelt/Tee & Kaffee",
     "name": "Tee & Kaffee",
     "url": "https://www.mueller.de/genusswelt/tee-kaffee/"

@@ -214,7 +214,7 @@
   },
   "14e0fb89-b63a-42a3-9dcb-e8403f9ce05b": {
     "active": true,
-    "code": "Alle / Gekühltes / Eier & Molkereiprodukte / Käse",
+    "code": "alles / Gekühltes / Eier & Molkereiprodukte / Käse",
     "id": "14e0fb89-b63a-42a3-9dcb-e8403f9ce05b",
     "name": "Koch- & Salatkäse",
     "slug": "kaese-koch-salatkaese"
@@ -329,7 +329,7 @@
   },
   "22f7d91e-1bf1-4e51-85e9-7bd32bc09d25": {
     "active": true,
-    "code": "Alle / Gekühltes / Eier & Molkereiprodukte / Käse / Käsesnacks",
+    "code": "alles / Gekühltes / Eier & Molkereiprodukte / Käse / Käsesnacks",
     "id": "22f7d91e-1bf1-4e51-85e9-7bd32bc09d25",
     "name": "Käsesnacks",
     "slug": "kaese-kaesesnacks"
@@ -388,7 +388,7 @@
   },
   "28880b16-5faf-4b61-a51a-f60395b0abb6": {
     "active": true,
-    "code": "Alle / Gekühltes / Eier & Molkereiprodukte / Käse / Stück- & Schnittkäse",
+    "code": "alles / Gekühltes / Eier & Molkereiprodukte / Käse / Stück- & Schnittkäse",
     "id": "28880b16-5faf-4b61-a51a-f60395b0abb6",
     "name": "Stück- & Schnittkäse",
     "slug": "kaese-stuck-schnittkaese"
@@ -607,7 +607,7 @@
   },
   "3cb1249c-9e07-4c22-99c0-cac4cf1c7b4b": {
     "active": true,
-    "code": "Alle / Gekühltes / Eier & Molkereiprodukte / Käse",
+    "code": "alles / Gekühltes / Eier & Molkereiprodukte / Käse",
     "id": "3cb1249c-9e07-4c22-99c0-cac4cf1c7b4b",
     "name": "Frisch- & Schmelzkäse",
     "slug": "kaese-frisch-schmelzkaese"
@@ -631,7 +631,7 @@
   },
   "3e180b54-cc4f-4442-8e75-eba375b27fda": {
     "active": true,
-    "code": "Alle / Gekühltes / Eier & Molkereiprodukte / Joghurt",
+    "code": "alles / Gekühltes / Eier & Molkereiprodukte / Joghurt",
     "id": "3e180b54-cc4f-4442-8e75-eba375b27fda",
     "name": "Frucht- & Sahnejoghurt",
     "slug": "joghurt-desserts-frucht-sahnejoghurt"
@@ -708,7 +708,7 @@
   },
   "491e9090-d95a-45f4-ad53-28ca37a4ccba": {
     "active": true,
-    "code": "Alle / Gekühltes / Eier & Molkereiprodukte / Käse",
+    "code": "alles / Gekühltes / Eier & Molkereiprodukte / Käse",
     "id": "491e9090-d95a-45f4-ad53-28ca37a4ccba",
     "name": "Käsespezialitäten ",
     "slug": "de-kaese-kaesespezialitaeten"
@@ -880,7 +880,7 @@
   },
   "56e38c61-6985-415a-89e0-a26ab7ce2bde": {
     "active": true,
-    "code": "All / Salz und Gewürze",
+    "code": "Alles / Ungekühltes / Essig, Öl, Soßen & Gewürze / Gewürze & Würzmischungen",
     "id": "56e38c61-6985-415a-89e0-a26ab7ce2bde",
     "name": "Gewürze",
     "slug": "saucen-oele-gewuerze-gewuerze"
@@ -894,7 +894,7 @@
   },
   "59ab0045-493b-4dab-bb5c-0f0726d19da0": {
     "active": true,
-    "code": "Alles",
+    "code": "Alles / Ungekühltes / Essig, Öl, Soßen & Gewürze / Gewürze & Würzmischungen",
     "id": "59ab0045-493b-4dab-bb5c-0f0726d19da0",
     "name": "Süße & Salzige Snacks",
     "slug": "vegan-vegetarisch-suesse-salzige-snacks"
@@ -908,7 +908,7 @@
   },
   "5a618b6b-5766-4b45-8240-e51cb56db661": {
     "active": true,
-    "code": "All / Getränke / Alkoholfreie Getränke",
+    "code": "Alles / Getränke / Alkoholfreie Getränke",
     "id": "5a618b6b-5766-4b45-8240-e51cb56db661",
     "name": "Alkoholfreie Getränke",
     "slug": "angebote-B-alkoholfreie-getraenke"
@@ -929,14 +929,14 @@
   },
   "5d9155bd-869b-4b55-8e77-2773a16e720f": {
     "active": true,
-    "code": "All / Weitere Verarbeitete Lebensmittel",
+    "code": "Alles / Gekühltes / Frisch & Fertig / Antipasti",
     "id": "5d9155bd-869b-4b55-8e77-2773a16e720f",
     "name": "Frische Antipasti",
     "slug": "feinkost-frische-antipasti"
   },
   "5d9607b5-18be-48d6-8546-802b56c39cd0": {
     "active": true,
-    "code": "Alles",
+    "code": "Alles / Tiefgekühltes / Eis",
     "id": "5d9607b5-18be-48d6-8546-802b56c39cd0",
     "name": "Eisriegel & -snacks",
     "slug": "eis-eisriegel-snacks"
@@ -957,7 +957,7 @@
   },
   "5f8b5224-c036-4d49-933b-1e2fc4e42b42": {
     "active": true,
-    "code": "Alles",
+    "code": "Alles / Frisches Obst & Gemüse",
     "id": "5f8b5224-c036-4d49-933b-1e2fc4e42b42",
     "name": "Mexiko",
     "slug": "nudeln-reis-internationale-kueche-mexico"
@@ -999,7 +999,7 @@
   },
   "639fb486-4b8b-4389-b7bc-582ce1bb1d3b": {
     "active": true,
-    "code": "Alles",
+    "code": "Alles / Tiefgekühltes",
     "id": "639fb486-4b8b-4389-b7bc-582ce1bb1d3b",
     "name": "Tiefkühlung",
     "slug": "angebote-B-tiefkuehlung"
@@ -1013,7 +1013,7 @@
   },
   "6426cf5e-e282-4ed7-9df3-076d8f182b0d": {
     "active": true,
-    "code": "Alle / Gekühltes / Eier & Molkereiprodukte / Milch",
+    "code": "alles / Gekühltes / Eier & Molkereiprodukte / Milch",
     "id": "6426cf5e-e282-4ed7-9df3-076d8f182b0d",
     "name": "Haltbare- & Kondensmilch",
     "slug": "eier-milch-butter-haltbare-kondensmilch"
@@ -1048,7 +1048,7 @@
   },
   "67d7fe9c-dd44-4c7a-a519-7d71579c9052": {
     "active": true,
-    "code": "All / Weitere Verarbeitete Lebensmittel",
+    "code": "Alles / Ungekühltes / Feinkost & Antipasti",
     "id": "67d7fe9c-dd44-4c7a-a519-7d71579c9052",
     "name": "Feinkostsalate",
     "slug": "feinkost-feinkostsalate"
@@ -1083,7 +1083,7 @@
   },
   "6bc050df-af28-4b17-a743-600b6d9e9d2e": {
     "active": true,
-    "code": "All / Weitere Verarbeitete Lebensmittel",
+    "code": "Alles / Gekühltes / Fisch & Fleisch / Fleisch- & Fischalternativen",
     "id": "6bc050df-af28-4b17-a743-600b6d9e9d2e",
     "name": "Tofu, Falafel & Co.",
     "slug": "vegan-vegetarisch-tofu-falafel"
@@ -1097,14 +1097,14 @@
   },
   "6bfe7f12-1311-404d-aff3-edf6e00ad446": {
     "active": true,
-    "code": "Alles",
+    "code": "Alles / Gekühltes / Eier & Molkereiprodukte / Milch & Milchalternativen / Pflanzendrinks",
     "id": "6bfe7f12-1311-404d-aff3-edf6e00ad446",
     "name": "Milchalternativen",
     "slug": "vegan-vegetarisch-milchalternativen"
   },
   "6c659ec2-de73-4e4e-86a0-46061e12e88f": {
     "active": true,
-    "code": "Alle / Gekühltes / Eier & Molkereiprodukte / Käse",
+    "code": "Alles / Gekühltes / Eier & Molkereiprodukte / Käse",
     "id": "6c659ec2-de73-4e4e-86a0-46061e12e88f",
     "name": "Reibekäse",
     "slug": "kaese-reibekaese"
@@ -1168,7 +1168,7 @@
   "71fb2134-5e1d-4672-9a8b-c4c13c51b310": {
     "active": true,
     "backgroundImage": "https://res.cloudinary.com/goflink/image/upload/w_600,h_800/de/category-backgrounds/50_NOV_Cheese_2_04Dec23.png",
-    "code": "Alle / Gekühltes / Eier & Molkereiprodukte / Käse",
+    "code": "alles / Gekühltes / Eier & Molkereiprodukte / Käse",
     "href": "/v2/categories/kaese",
     "icon": "https://res.cloudinary.com/goflink/image/upload/de/icons/NEW_icon_Kaese.png",
     "id": "71fb2134-5e1d-4672-9a8b-c4c13c51b310",
@@ -1222,7 +1222,7 @@
   },
   "76de0183-41c2-4e52-ba35-2f8da299105a": {
     "active": true,
-    "code": "Alles",
+    "code": "Alles / Gekühltes / Eier & Molkereiprodukte / Käse / Käsealternativen",
     "id": "76de0183-41c2-4e52-ba35-2f8da299105a",
     "name": "Käsealternativen",
     "slug": "kaese-kaesealternativen"
@@ -1236,7 +1236,7 @@
   },
   "7805bbe2-60f0-4db9-b2ee-f24231d83fe6": {
     "active": true,
-    "code": "Alle / Gekühltes / Eier & Molkereiprodukte / Quark",
+    "code": "alles / Gekühltes / Eier & Molkereiprodukte / Quark",
     "id": "7805bbe2-60f0-4db9-b2ee-f24231d83fe6",
     "name": "Quark & Skyr",
     "slug": "joghurt-desserts-quark-skyr"
@@ -1278,7 +1278,7 @@
   },
   "7e67f052-829a-4959-8a84-6daa2a26f17d": {
     "active": true,
-    "code": "Alles",
+    "code": "Alles / Tiefgekühltes / Eis",
     "id": "7e67f052-829a-4959-8a84-6daa2a26f17d",
     "name": "Eisbecher",
     "slug": "eis-eisbecher"
@@ -1286,7 +1286,7 @@
   "8089b876-0b64-40eb-ab3e-ffc785dfa73a": {
     "active": true,
     "backgroundImage": "https://res.cloudinary.com/goflink/image/upload/w_600,h_800/de/category-backgrounds/50_NOV_Milch%20Eier2_04Dec23.png",
-    "code": "Alles",
+    "code": "Alles / Gekühltes / Eier & Molkereiprodukte",
     "href": "/v2/categories/eier-milch-butter",
     "icon": "https://res.cloudinary.com/goflink/image/upload/de/icons/NEW_icon_Eier_Milch.png",
     "id": "8089b876-0b64-40eb-ab3e-ffc785dfa73a",
@@ -1295,21 +1295,21 @@
   },
   "8289df0d-d060-4f8e-b2c1-36973f669f2b": {
     "active": true,
-    "code": "Alles",
+    "code": "Alles / Gekühltes / Frisch & Fertig",
     "id": "8289df0d-d060-4f8e-b2c1-36973f669f2b",
     "name": "Frische Brotaufstriche",
     "slug": "aufschnitt-brotaufstriche-frische-brotaufstriche"
   },
   "82c3167d-f116-431a-aa93-64743cfe332e": {
     "active": true,
-    "code": "Alles",
+    "code": "Alles / Gekühltes / Frisch & Fertig",
     "id": "82c3167d-f116-431a-aa93-64743cfe332e",
     "name": "Frische Brotaufstriche & Dips",
     "slug": "feinkost-frische-brotaufstriche-dips"
   },
   "834e3e27-f084-4181-87f3-4a04c5cf1cd7": {
     "active": true,
-    "code": "All / Fette und Öle",
+    "code": "Alles / Gekühltes / Eier & Molkereiprodukte / Butter, Margarine & Fette / Margarine",
     "id": "834e3e27-f084-4181-87f3-4a04c5cf1cd7",
     "name": "Butter & Margarine",
     "slug": "eier-milch-butter-butter-margarine"
@@ -1696,7 +1696,7 @@
   },
   "afa21142-9454-4a3d-8a20-e7215ea43517": {
     "active": true,
-    "code": "All / Weitere Verarbeitete Lebensmittel",
+    "code": "Alles / Ungekühltes / Beilagen / Kartoffelprodukte",
     "id": "afa21142-9454-4a3d-8a20-e7215ea43517",
     "name": "Kartoffelprodukte",
     "slug": "nudeln-reis-internationale-kueche-kartoffelprodukte"
@@ -1766,7 +1766,7 @@
   },
   "b6a7fa06-b495-4986-ba26-682d953e287b": {
     "active": true,
-    "code": "Alles",
+    "code": "Alles / Tiefgekühltes / Eis",
     "id": "b6a7fa06-b495-4986-ba26-682d953e287b",
     "name": "Eis-Toppings",
     "slug": "eis-eis-toppings"
@@ -2307,14 +2307,14 @@
   },
   "f50bbdae-9c80-4772-bfd9-74f01b0989e8": {
     "active": true,
-    "code": "All / Weitere Verarbeitete Lebensmittel",
+    "code": "Alles / Ungekühltes / Essig, Öl, Soßen & Gewürze / Soßen & Dips / Ketchup & Grillsoßen",
     "id": "f50bbdae-9c80-4772-bfd9-74f01b0989e8",
     "name": "Ketchup & Grillsaucen",
     "slug": "saucen-oele-gewuerze-ketchup-grillsaucen"
   },
   "f5237282-61e0-439a-bedc-8bf2fbee1498": {
     "active": true,
-    "code": "Alles",
+    "code": "Alles / Tiefgekühltes / Snacks",
     "id": "f5237282-61e0-439a-bedc-8bf2fbee1498",
     "name": "Snacks",
     "slug": "tiefkuehl-snacks"
@@ -2335,14 +2335,14 @@
   },
   "f726624e-7435-4877-9141-23732090b164": {
     "active": true,
-    "code": "All / Eier und Eiprodukte",
+    "code": "Alles / Gekühltes / Eier & Molkereiprodukte",
     "id": "f726624e-7435-4877-9141-23732090b164",
     "name": "Eier",
     "slug": "eier-milch-butter-eier"
   },
   "f7c65cb0-acc4-406c-b8be-82b0b8c56b9e": {
     "active": true,
-    "code": "Alle / Gekühltes / Eier & Molkereiprodukte / Joghurt",
+    "code": "Alles / Gekühltes / Eier & Molkereiprodukte / Joghurt",
     "id": "f7c65cb0-acc4-406c-b8be-82b0b8c56b9e",
     "name": "Naturjoghurt",
     "slug": "joghurt-desserts-naturjoghurt"
@@ -2356,7 +2356,7 @@
   },
   "f86fb6b0-9373-4718-bba3-413b7ce69aeb": {
     "active": true,
-    "code": "All / Weitere Verarbeitete Lebensmittel",
+    "code": "Alles / Ungekühltes / Essig, Öl, Soßen & Gewürze / Soßen & Dips",
     "id": "f86fb6b0-9373-4718-bba3-413b7ce69aeb",
     "name": "Andere Saucen",
     "slug": "saucen-oele-gewuerze-andere-saucen"
@@ -2450,7 +2450,7 @@
   },
   "fea12516-28a0-424b-bfa2-073a61d13003": {
     "active": true,
-    "code": "Alle / Gekühltes / Eier & Molkereiprodukte / Käse",
+    "code": "alles / Gekühltes / Eier & Molkereiprodukte / Käse",
     "id": "fea12516-28a0-424b-bfa2-073a61d13003",
     "name": "Käsespezialitäten",
     "slug": "feinkost-kaesespezialitaeten"
@@ -2458,7 +2458,7 @@
   "ffe4c95c-5e91-437e-950b-d44330a36aef": {
     "active": true,
     "backgroundImage": "https://res.cloudinary.com/goflink/image/upload/w_600,h_800/de/category-backgrounds/50_NOV_Joghurt2_04Dec23.png",
-    "code": "Alle / Gekühltes / Eier & Molkereiprodukte",
+    "code": "alles / Gekühltes / Eier & Molkereiprodukte",
     "href": "/v2/categories/joghurt-desserts",
     "icon": "https://res.cloudinary.com/goflink/image/upload/de/icons/NEW_icon_Joghurt_Desserts.png",
     "id": "ffe4c95c-5e91-437e-950b-d44330a36aef",

@@ -3233,7 +3233,7 @@
   },
   "Getränke & Genussmittel/Champagner, Sekt & Co./Crémant/": {
     "active": true,
-    "code": "All / Getränke",
+    "code": "Alles / Getränke / Alkoholische Getränke",
     "facetFilterQuery": "category=Getr%C3%A4nke%20%26%20Genussmittel/Champagner,%20Sekt%20%26%20Co./Cr%C3%A9mant",
     "id": "Getränke & Genussmittel/Champagner, Sekt & Co./Crémant/",
     "name": "Crémant",
@@ -3857,7 +3857,7 @@
   },
   "Getränke & Genussmittel/Spirituosen/Cognac & Weinbrand/Weinbrand/": {
     "active": true,
-    "code": "All / Getränke",
+    "code": "Alles / Getränke / Alkoholische Getränke",
     "facetFilterQuery": "category=Getr%C3%A4nke%20%26%20Genussmittel/Spirituosen/Cognac%20%26%20Weinbrand/Weinbrand",
     "id": "Getränke & Genussmittel/Spirituosen/Cognac & Weinbrand/Weinbrand/",
     "name": "Weinbrand",
@@ -3881,7 +3881,7 @@
   },
   "Getränke & Genussmittel/Spirituosen/Korn & Kümmel/": {
     "active": true,
-    "code": "All / Getränke",
+    "code": "Alles / Getränke / Alkoholische Getränke",
     "facetFilterQuery": "category=Getr%C3%A4nke%20%26%20Genussmittel/Spirituosen/Korn%20%26%20K%C3%BCmmel",
     "id": "Getränke & Genussmittel/Spirituosen/Korn & Kümmel/",
     "name": "Korn & Kümmel",
@@ -3961,7 +3961,7 @@
   },
   "Getränke & Genussmittel/Spirituosen/Liköre/Kräuterlikör/": {
     "active": true,
-    "code": "All / Getränke",
+    "code": "Alles / Getränke / Alkoholische Getränke",
     "facetFilterQuery": "category=Getr%C3%A4nke%20%26%20Genussmittel/Spirituosen/Lik%C3%B6re/Kr%C3%A4uterlik%C3%B6r",
     "id": "Getränke & Genussmittel/Spirituosen/Liköre/Kräuterlikör/",
     "name": "Kräuterlikör",
@@ -3969,7 +3969,7 @@
   },
   "Getränke & Genussmittel/Spirituosen/Liköre/Lakritzlikör/": {
     "active": true,
-    "code": "All / Getränke",
+    "code": "Alles / Getränke / Alkoholische Getränke",
     "facetFilterQuery": "category=Getr%C3%A4nke%20%26%20Genussmittel/Spirituosen/Lik%C3%B6re/Lakritzlik%C3%B6r",
     "id": "Getränke & Genussmittel/Spirituosen/Liköre/Lakritzlikör/",
     "name": "Lakritzlikör",
@@ -5689,7 +5689,7 @@
   },
   "Kochen & Backen/Getrocknete Hülsenfrüchte/": {
     "active": true,
-    "code": "Alles",
+    "code": "Alles / Ungekühltes / Beilagen / Hülsenfrüchte",
     "facetFilterQuery": "category=Kochen%20%26%20Backen/Getrocknete%20H%C3%BClsenfr%C3%BCchte",
     "id": "Kochen & Backen/Getrocknete Hülsenfrüchte/",
     "name": "Getrocknete Hülsenfrüchte",
@@ -5697,7 +5697,7 @@
   },
   "Kochen & Backen/Getrocknete Hülsenfrüchte/Getrocknete Bohnen/": {
     "active": true,
-    "code": "Alles",
+    "code": "Alles / Ungekühltes / Beilagen / Hülsenfrüchte",
     "facetFilterQuery": "category=Kochen%20%26%20Backen/Getrocknete%20H%C3%BClsenfr%C3%BCchte/Getrocknete%20Bohnen",
     "id": "Kochen & Backen/Getrocknete Hülsenfrüchte/Getrocknete Bohnen/",
     "name": "Getrocknete Bohnen",
@@ -5705,7 +5705,7 @@
   },
   "Kochen & Backen/Getrocknete Hülsenfrüchte/Getrocknete Erbsen/": {
     "active": true,
-    "code": "Alles",
+    "code": "Alles / Ungekühltes / Beilagen / Hülsenfrüchte",
     "facetFilterQuery": "category=Kochen%20%26%20Backen/Getrocknete%20H%C3%BClsenfr%C3%BCchte/Getrocknete%20Erbsen",
     "id": "Kochen & Backen/Getrocknete Hülsenfrüchte/Getrocknete Erbsen/",
     "name": "Getrocknete Erbsen",
@@ -5713,7 +5713,7 @@
   },
   "Kochen & Backen/Getrocknete Hülsenfrüchte/Getrocknete Graupen/": {
     "active": true,
-    "code": "Alles",
+    "code": "Alles / Ungekühltes / Beilagen / Hülsenfrüchte",
     "facetFilterQuery": "category=Kochen%20%26%20Backen/Getrocknete%20H%C3%BClsenfr%C3%BCchte/Getrocknete%20Graupen",
     "id": "Kochen & Backen/Getrocknete Hülsenfrüchte/Getrocknete Graupen/",
     "name": "Getrocknete Graupen",
@@ -5721,7 +5721,7 @@
   },
   "Kochen & Backen/Getrocknete Hülsenfrüchte/Getrocknete Kichererbsen/": {
     "active": true,
-    "code": "Alles",
+    "code": "Alles / Ungekühltes / Beilagen / Hülsenfrücht",
     "facetFilterQuery": "category=Kochen%20%26%20Backen/Getrocknete%20H%C3%BClsenfr%C3%BCchte/Getrocknete%20Kichererbsen",
     "id": "Kochen & Backen/Getrocknete Hülsenfrüchte/Getrocknete Kichererbsen/",
     "name": "Getrocknete Kichererbsen",
@@ -5729,7 +5729,7 @@
   },
   "Kochen & Backen/Getrocknete Hülsenfrüchte/Getrocknete Linsen/": {
     "active": true,
-    "code": "Alles",
+    "code": "Alles / Ungekühltes / Beilagen / Hülsenfrüchte",
     "facetFilterQuery": "category=Kochen%20%26%20Backen/Getrocknete%20H%C3%BClsenfr%C3%BCchte/Getrocknete%20Linsen",
     "id": "Kochen & Backen/Getrocknete Hülsenfrüchte/Getrocknete Linsen/",
     "name": "Getrocknete Linsen",
@@ -5737,7 +5737,7 @@
   },
   "Kochen & Backen/Kartoffelprodukte/": {
     "active": true,
-    "code": "Alles",
+    "code": "Alles / Ungekühltes / Beilagen / Kartoffelprodukte",
     "facetFilterQuery": "category=Kochen%20%26%20Backen/Kartoffelprodukte",
     "id": "Kochen & Backen/Kartoffelprodukte/",
     "name": "Kartoffelprodukte",
@@ -5745,7 +5745,7 @@
   },
   "Kochen & Backen/Kartoffelprodukte/Bratkartoffeln/": {
     "active": true,
-    "code": "Alles",
+    "code": "Alles / Ungekühltes / Beilagen / Kartoffelprodukte",
     "facetFilterQuery": "category=Kochen%20%26%20Backen/Kartoffelprodukte/Bratkartoffeln",
     "id": "Kochen & Backen/Kartoffelprodukte/Bratkartoffeln/",
     "name": "Bratkartoffeln",
@@ -5753,7 +5753,7 @@
   },
   "Kochen & Backen/Kartoffelprodukte/Gnocchi/": {
     "active": true,
-    "code": "Alles",
+    "code": "Alles / Ungekühltes / Beilagen / Kartoffelprodukte",
     "facetFilterQuery": "category=Kochen%20%26%20Backen/Kartoffelprodukte/Gnocchi",
     "id": "Kochen & Backen/Kartoffelprodukte/Gnocchi/",
     "name": "Gnocchi",
@@ -5761,7 +5761,7 @@
   },
   "Kochen & Backen/Kartoffelprodukte/Kartoffelpuffer & Rösti/": {
     "active": true,
-    "code": "Alles",
+    "code": "Alles / Ungekühltes / Beilagen / Kartoffelprodukte",
     "facetFilterQuery": "category=Kochen%20%26%20Backen/Kartoffelprodukte/Kartoffelpuffer%20%26%20R%C3%B6sti",
     "id": "Kochen & Backen/Kartoffelprodukte/Kartoffelpuffer & Rösti/",
     "name": "Kartoffelpuffer & Rösti",
@@ -5769,7 +5769,7 @@
   },
   "Kochen & Backen/Kartoffelprodukte/Kartoffelpüree/": {
     "active": true,
-    "code": "Alles",
+    "code": "Alles / Ungekühltes / Beilagen / Kartoffelprodukte",
     "facetFilterQuery": "category=Kochen%20%26%20Backen/Kartoffelprodukte/Kartoffelp%C3%BCree",
     "id": "Kochen & Backen/Kartoffelprodukte/Kartoffelpüree/",
     "name": "Kartoffelpüree",
@@ -5777,7 +5777,7 @@
   },
   "Kochen & Backen/Kartoffelprodukte/Knödel & Klöße/": {
     "active": true,
-    "code": "Alles",
+    "code": "Alles / Ungekühltes / Beilagen / Kartoffelprodukte",
     "facetFilterQuery": "category=Kochen%20%26%20Backen/Kartoffelprodukte/Kn%C3%B6del%20%26%20Kl%C3%B6%C3%9Fe",
     "id": "Kochen & Backen/Kartoffelprodukte/Knödel & Klöße/",
     "name": "Knödel & Klöße",
@@ -5833,7 +5833,7 @@
   },
   "Kochen & Backen/Reis/": {
     "active": true,
-    "code": "Alles",
+    "code": "Alles / Ungekühltes / Beilagen / Reis",
     "facetFilterQuery": "category=Kochen%20%26%20Backen/Reis",
     "id": "Kochen & Backen/Reis/",
     "name": "Reis",
@@ -5849,7 +5849,7 @@
   },
   "Kochen & Backen/Reis/Jasminreis/": {
     "active": true,
-    "code": "Alles",
+    "code": "Alles / Ungekühltes / Beilagen / Reis",
     "facetFilterQuery": "category=Kochen%20%26%20Backen/Reis/Jasminreis",
     "id": "Kochen & Backen/Reis/Jasminreis/",
     "name": "Jasminreis",
@@ -5857,7 +5857,7 @@
   },
   "Kochen & Backen/Reis/Langkornreis/": {
     "active": true,
-    "code": "Alles",
+    "code": "Alles / Ungekühltes / Beilagen / Reis",
     "facetFilterQuery": "category=Kochen%20%26%20Backen/Reis/Langkornreis",
     "id": "Kochen & Backen/Reis/Langkornreis/",
     "name": "Langkornreis",
@@ -5873,7 +5873,7 @@
   },
   "Kochen & Backen/Reis/Risotto- & Paella-Reis/": {
     "active": true,
-    "code": "Alles",
+    "code": "Alles / Ungekühltes / Beilagen / Reis",
     "facetFilterQuery": "category=Kochen%20%26%20Backen/Reis/Risotto-%20%26%20Paella-Reis",
     "id": "Kochen & Backen/Reis/Risotto- & Paella-Reis/",
     "name": "Risotto- & Paella-Reis",
@@ -5881,7 +5881,7 @@
   },
   "Kochen & Backen/Reis/Sushireis/": {
     "active": true,
-    "code": "Alles",
+    "code": "Alles / Ungekühltes / Beilagen / Reis",
     "facetFilterQuery": "category=Kochen%20%26%20Backen/Reis/Sushireis",
     "id": "Kochen & Backen/Reis/Sushireis/",
     "name": "Sushireis",
@@ -5889,7 +5889,7 @@
   },
   "Käse, Eier & Molkerei/": {
     "active": true,
-    "code": "Alles",
+    "code": "Alles / Gekühltes / Eier & Molkereiprodukte",
     "facetFilterQuery": "category=K%C3%A4se,%20Eier%20%26%20Molkerei",
     "id": "Käse, Eier & Molkerei/",
     "name": "Käse, Eier & Molkerei",
@@ -5897,7 +5897,7 @@
   },
   "Käse, Eier & Molkerei/Butter & Margarine/": {
     "active": true,
-    "code": "Alle / Gekühltes / Eier & Molkereiprodukte / Butter",
+    "code": "Alles / Gekühltes / Eier & Molkereiprodukte / Butter",
     "facetFilterQuery": "category=K%C3%A4se,%20Eier%20%26%20Molkerei/Butter%20%26%20Margarine",
     "id": "Käse, Eier & Molkerei/Butter & Margarine/",
     "name": "Butter & Margarine",
@@ -5905,7 +5905,7 @@
   },
   "Käse, Eier & Molkerei/Butter & Margarine/Butter/": {
     "active": true,
-    "code": "Alle / Gekühltes / Eier & Molkereiprodukte / Butter",
+    "code": "Alles / Gekühltes / Eier & Molkereiprodukte / Butter",
     "facetFilterQuery": "category=K%C3%A4se,%20Eier%20%26%20Molkerei/Butter%20%26%20Margarine/Butter",
     "id": "Käse, Eier & Molkerei/Butter & Margarine/Butter/",
     "name": "Butter",
@@ -5913,7 +5913,7 @@
   },
   "Käse, Eier & Molkerei/Butter & Margarine/Kräuterbutter/": {
     "active": true,
-    "code": "Alle / Gekühltes / Eier & Molkereiprodukte / Butter",
+    "code": "Alles / Gekühltes / Eier & Molkereiprodukte / Butter, Margarine & Fette / Kräuterbutter",
     "facetFilterQuery": "category=K%C3%A4se,%20Eier%20%26%20Molkerei/Butter%20%26%20Margarine/Kr%C3%A4uterbutter",
     "id": "Käse, Eier & Molkerei/Butter & Margarine/Kräuterbutter/",
     "name": "Kräuterbutter",
@@ -5921,7 +5921,7 @@
   },
   "Käse, Eier & Molkerei/Butter & Margarine/Margarine & Streichfette/": {
     "active": true,
-    "code": "Alles",
+    "code": "Alles / Gekühltes / Eier & Molkereiprodukte / Butter, Margarine & Fette / Margarine",
     "facetFilterQuery": "category=K%C3%A4se,%20Eier%20%26%20Molkerei/Butter%20%26%20Margarine/Margarine%20%26%20Streichfette",
     "id": "Käse, Eier & Molkerei/Butter & Margarine/Margarine & Streichfette/",
     "name": "Margarine & Streichfette",
@@ -5929,7 +5929,7 @@
   },
   "Käse, Eier & Molkerei/Butter & Margarine/Pflanzenfett/": {
     "active": true,
-    "code": "Alles",
+    "code": "Alles / Gekühltes / Eier & Molkereiprodukte / Butter, Margarine & Fette",
     "facetFilterQuery": "category=K%C3%A4se,%20Eier%20%26%20Molkerei/Butter%20%26%20Margarine/Pflanzenfett",
     "id": "Käse, Eier & Molkerei/Butter & Margarine/Pflanzenfett/",
     "name": "Pflanzenfett",
@@ -5937,7 +5937,7 @@
   },
   "Käse, Eier & Molkerei/Butter & Margarine/Schmalz/": {
     "active": true,
-    "code": "Alles",
+    "code": "Alles / Gekühltes / Eier & Molkereiprodukte / Butter, Margarine & Fette / Schmalz",
     "facetFilterQuery": "category=K%C3%A4se,%20Eier%20%26%20Molkerei/Butter%20%26%20Margarine/Schmalz",
     "id": "Käse, Eier & Molkerei/Butter & Margarine/Schmalz/",
     "name": "Schmalz",
@@ -5945,7 +5945,7 @@
   },
   "Käse, Eier & Molkerei/Eier & Ei-Ersatz/": {
     "active": true,
-    "code": "All / Eier und Eiprodukte",
+    "code": "Alles / Gekühltes / Eier & Molkereiprodukte / Eier & Eiersatz",
     "facetFilterQuery": "category=K%C3%A4se,%20Eier%20%26%20Molkerei/Eier%20%26%20Ei-Ersatz",
     "id": "Käse, Eier & Molkerei/Eier & Ei-Ersatz/",
     "name": "Eier & Ei-Ersatz",
@@ -5953,7 +5953,7 @@
   },
   "Käse, Eier & Molkerei/Eier & Ei-Ersatz/Bio-Eier/": {
     "active": true,
-    "code": "All / Eier und Eiprodukte",
+    "code": "Alles / Gekühltes / Eier & Molkereiprodukte / Eier & Eiersatz / Eier",
     "facetFilterQuery": "category=K%C3%A4se,%20Eier%20%26%20Molkerei/Eier%20%26%20Ei-Ersatz/Bio-Eier",
     "id": "Käse, Eier & Molkerei/Eier & Ei-Ersatz/Bio-Eier/",
     "name": "Bio-Eier",
@@ -5961,7 +5961,7 @@
   },
   "Käse, Eier & Molkerei/Eier & Ei-Ersatz/Ei-Ersatz/": {
     "active": true,
-    "code": "All / Eier und Eiprodukte",
+    "code": "Alles / Gekühltes / Eier & Molkereiprodukte / Eier & Eiersatz",
     "facetFilterQuery": "category=K%C3%A4se,%20Eier%20%26%20Molkerei/Eier%20%26%20Ei-Ersatz/Ei-Ersatz",
     "id": "Käse, Eier & Molkerei/Eier & Ei-Ersatz/Ei-Ersatz/",
     "name": "Ei-Ersatz",
@@ -5969,7 +5969,7 @@
   },
   "Käse, Eier & Molkerei/Eier & Ei-Ersatz/Eier aus Bodenhaltung/": {
     "active": true,
-    "code": "All / Eier und Eiprodukte",
+    "code": "Alles / Gekühltes / Eier & Molkereiprodukte / Eier & Eiersatz / Eier",
     "facetFilterQuery": "category=K%C3%A4se,%20Eier%20%26%20Molkerei/Eier%20%26%20Ei-Ersatz/Eier%20aus%20Bodenhaltung",
     "id": "Käse, Eier & Molkerei/Eier & Ei-Ersatz/Eier aus Bodenhaltung/",
     "name": "Eier aus Bodenhaltung",
@@ -5977,7 +5977,7 @@
   },
   "Käse, Eier & Molkerei/Eier & Ei-Ersatz/Freiland-Eier/": {
     "active": true,
-    "code": "All / Eier und Eiprodukte",
+    "code": "Alles / Gekühltes / Eier & Molkereiprodukte / Eier & Eiersatz / Eier",
     "facetFilterQuery": "category=K%C3%A4se,%20Eier%20%26%20Molkerei/Eier%20%26%20Ei-Ersatz/Freiland-Eier",
     "id": "Käse, Eier & Molkerei/Eier & Ei-Ersatz/Freiland-Eier/",
     "name": "Freiland-Eier",
@@ -5985,7 +5985,7 @@
   },
   "Käse, Eier & Molkerei/Eier & Ei-Ersatz/Gekochte Eier/": {
     "active": true,
-    "code": "All / Eier und Eiprodukte",
+    "code": "Alles / Gekühltes / Eier & Molkereiprodukte / Eier & Eiersatz / Eier",
     "facetFilterQuery": "category=K%C3%A4se,%20Eier%20%26%20Molkerei/Eier%20%26%20Ei-Ersatz/Gekochte%20Eier",
     "id": "Käse, Eier & Molkerei/Eier & Ei-Ersatz/Gekochte Eier/",
     "name": "Gekochte Eier",
@@ -5993,7 +5993,7 @@
   },
   "Käse, Eier & Molkerei/Joghurt, Desserts & Alternativen/": {
     "active": true,
-    "code": "Alle / Gekühltes / Eier & Molkereiprodukte / Joghurt",
+    "code": "Alles / Gekühltes / Eier & Molkereiprodukte / Joghurt",
     "facetFilterQuery": "category=K%C3%A4se,%20Eier%20%26%20Molkerei/Joghurt,%20Desserts%20%26%20Alternativen",
     "id": "Käse, Eier & Molkerei/Joghurt, Desserts & Alternativen/",
     "name": "Joghurt, Desserts & Alternativen",
@@ -6001,7 +6001,7 @@
   },
   "Käse, Eier & Molkerei/Joghurt, Desserts & Alternativen/Dessertsoßen/": {
     "active": true,
-    "code": "Alle / Gekühltes / Eier & Molkereiprodukte / Joghurt",
+    "code": "Alles / Gekühltes / Eier & Molkereiprodukte / Joghurt",
     "facetFilterQuery": "category=K%C3%A4se,%20Eier%20%26%20Molkerei/Joghurt,%20Desserts%20%26%20Alternativen/Dessertso%C3%9Fen",
     "id": "Käse, Eier & Molkerei/Joghurt, Desserts & Alternativen/Dessertsoßen/",
     "name": "Dessertsoßen",
@@ -6009,7 +6009,7 @@
   },
   "Käse, Eier & Molkerei/Joghurt, Desserts & Alternativen/Götterspeise & Grütze/": {
     "active": true,
-    "code": "Alle / Gekühltes / Eier & Molkereiprodukte / Joghurt",
+    "code": "Alles / Gekühltes / Eier & Molkereiprodukte / Joghurt",
     "facetFilterQuery": "category=K%C3%A4se,%20Eier%20%26%20Molkerei/Joghurt,%20Desserts%20%26%20Alternativen/G%C3%B6tterspeise%20%26%20Gr%C3%BCtze",
     "id": "Käse, Eier & Molkerei/Joghurt, Desserts & Alternativen/Götterspeise & Grütze/",
     "name": "Götterspeise & Grütze",
@@ -6017,7 +6017,7 @@
   },
   "Käse, Eier & Molkerei/Joghurt, Desserts & Alternativen/Joghurt & Alternativen/": {
     "active": true,
-    "code": "Alle / Gekühltes / Eier & Molkereiprodukte / Joghurt",
+    "code": "Alles / Gekühltes / Eier & Molkereiprodukte / Joghurt",
     "facetFilterQuery": "category=K%C3%A4se,%20Eier%20%26%20Molkerei/Joghurt,%20Desserts%20%26%20Alternativen/Joghurt%20%26%20Alternativen",
     "id": "Käse, Eier & Molkerei/Joghurt, Desserts & Alternativen/Joghurt & Alternativen/",
     "name": "Joghurt & Alternativen",
@@ -6025,7 +6025,7 @@
   },
   "Käse, Eier & Molkerei/Joghurt, Desserts & Alternativen/Joghurt & Alternativen/Fruchtjoghurt/": {
     "active": true,
-    "code": "AlAlle / Gekühltes / Eier & Molkereiprodukte / Joghurtl",
+    "code": "Alles / Gekühltes / Eier & Molkereiprodukte / Joghurt",
     "facetFilterQuery": "category=K%C3%A4se,%20Eier%20%26%20Molkerei/Joghurt,%20Desserts%20%26%20Alternativen/Joghurt%20%26%20Alternativen/Fruchtjoghurt",
     "id": "Käse, Eier & Molkerei/Joghurt, Desserts & Alternativen/Joghurt & Alternativen/Fruchtjoghurt/",
     "name": "Fruchtjoghurt",
@@ -6033,7 +6033,7 @@
   },
   "Käse, Eier & Molkerei/Joghurt, Desserts & Alternativen/Joghurt & Alternativen/Joghurt Griechischer Art/": {
     "active": true,
-    "code": "Alle / Gekühltes / Eier & Molkereiprodukte / Joghurt",
+    "code": "Alles / Gekühltes / Eier & Molkereiprodukte / Joghurt",
     "facetFilterQuery": "category=K%C3%A4se,%20Eier%20%26%20Molkerei/Joghurt,%20Desserts%20%26%20Alternativen/Joghurt%20%26%20Alternativen/Joghurt%20Griechischer%20Art",
     "id": "Käse, Eier & Molkerei/Joghurt, Desserts & Alternativen/Joghurt & Alternativen/Joghurt Griechischer Art/",
     "name": "Joghurt Griechischer Art",
@@ -6041,7 +6041,7 @@
   },
   "Käse, Eier & Molkerei/Joghurt, Desserts & Alternativen/Joghurt & Alternativen/Naturjoghurt/": {
     "active": true,
-    "code": "Alle / Gekühltes / Eier & Molkereiprodukte / Joghurt",
+    "code": "Alles / Gekühltes / Eier & Molkereiprodukte / Joghurt",
     "facetFilterQuery": "category=K%C3%A4se,%20Eier%20%26%20Molkerei/Joghurt,%20Desserts%20%26%20Alternativen/Joghurt%20%26%20Alternativen/Naturjoghurt",
     "id": "Käse, Eier & Molkerei/Joghurt, Desserts & Alternativen/Joghurt & Alternativen/Naturjoghurt/",
     "name": "Naturjoghurt",
@@ -6137,7 +6137,7 @@
   },
   "Käse, Eier & Molkerei/Käse & Käseersatz/": {
     "active": true,
-    "code": "Alle / Gekühltes / Eier & Molkereiprodukte / Käse",
+    "code": "alles / Gekühltes / Eier & Molkereiprodukte / Käse",
     "facetFilterQuery": "category=K%C3%A4se,%20Eier%20%26%20Molkerei/K%C3%A4se%20%26%20K%C3%A4seersatz",
     "id": "Käse, Eier & Molkerei/Käse & Käseersatz/",
     "name": "Käse & Käseersatz",
@@ -6145,7 +6145,7 @@
   },
   "Käse, Eier & Molkerei/Käse & Käseersatz/Feta & Schafskäse/": {
     "active": true,
-    "code": "Alle / Gekühltes / Eier & Molkereiprodukte / Käse / Feta & Hirtenkäse",
+    "code": "alles / Gekühltes / Eier & Molkereiprodukte / Käse / Feta & Hirtenkäse",
     "facetFilterQuery": "category=K%C3%A4se,%20Eier%20%26%20Molkerei/K%C3%A4se%20%26%20K%C3%A4seersatz/Feta%20%26%20Schafsk%C3%A4se",
     "id": "Käse, Eier & Molkerei/Käse & Käseersatz/Feta & Schafskäse/",
     "name": "Feta & Schafskäse",
@@ -6153,7 +6153,7 @@
   },
   "Käse, Eier & Molkerei/Käse & Käseersatz/Frischkäse/": {
     "active": true,
-    "code": "Alle / Gekühltes / Eier & Molkereiprodukte / Käse & Käseersatz / Frischkäse",
+    "code": "alles / Gekühltes / Eier & Molkereiprodukte / Käse & Käseersatz / Frischkäse",
     "facetFilterQuery": "category=K%C3%A4se,%20Eier%20%26%20Molkerei/K%C3%A4se%20%26%20K%C3%A4seersatz/Frischk%C3%A4se",
     "id": "Käse, Eier & Molkerei/Käse & Käseersatz/Frischkäse/",
     "name": "Frischkäse",
@@ -6161,7 +6161,7 @@
   },
   "Käse, Eier & Molkerei/Käse & Käseersatz/Grill- & Ofenkäse/": {
     "active": true,
-    "code": "Alle / Gekühltes / Eier & Molkereiprodukte / Käse / Grill- & Ofenkäse",
+    "code": "alles / Gekühltes / Eier & Molkereiprodukte / Käse / Grill- & Ofenkäse",
     "facetFilterQuery": "category=K%C3%A4se,%20Eier%20%26%20Molkerei/K%C3%A4se%20%26%20K%C3%A4seersatz/Grill-%20%26%20Ofenk%C3%A4se",
     "id": "Käse, Eier & Molkerei/Käse & Käseersatz/Grill- & Ofenkäse/",
     "name": "Grill- & Ofenkäse",
@@ -6169,7 +6169,7 @@
   },
   "Käse, Eier & Molkerei/Käse & Käseersatz/Hartkäse/": {
     "active": true,
-    "code": "Alle / Gekühltes / Eier & Molkereiprodukte / Käse",
+    "code": "alles / Gekühltes / Eier & Molkereiprodukte / Käse",
     "facetFilterQuery": "category=K%C3%A4se,%20Eier%20%26%20Molkerei/K%C3%A4se%20%26%20K%C3%A4seersatz/Hartk%C3%A4se",
     "id": "Käse, Eier & Molkerei/Käse & Käseersatz/Hartkäse/",
     "name": "Hartkäse",
@@ -6177,7 +6177,7 @@
   },
   "Käse, Eier & Molkerei/Käse & Käseersatz/Harzer Käse & Handkäse/": {
     "active": true,
-    "code": "Alle / Gekühltes / Eier & Molkereiprodukte / Käse",
+    "code": "alles / Gekühltes / Eier & Molkereiprodukte / Käse",
     "facetFilterQuery": "category=K%C3%A4se,%20Eier%20%26%20Molkerei/K%C3%A4se%20%26%20K%C3%A4seersatz/Harzer%20K%C3%A4se%20%26%20Handk%C3%A4se",
     "id": "Käse, Eier & Molkerei/Käse & Käseersatz/Harzer Käse & Handkäse/",
     "name": "Harzer Käse & Handkäse",
@@ -6185,7 +6185,7 @@
   },
   "Käse, Eier & Molkerei/Käse & Käseersatz/Käseersatz/": {
     "active": true,
-    "code": "Alle / Gekühltes / Eier & Molkereiprodukte / Käse / Käsealternativen",
+    "code": "alles / Gekühltes / Eier & Molkereiprodukte / Käse / Käsealternativen",
     "facetFilterQuery": "category=K%C3%A4se,%20Eier%20%26%20Molkerei/K%C3%A4se%20%26%20K%C3%A4seersatz/K%C3%A4seersatz",
     "id": "Käse, Eier & Molkerei/Käse & Käseersatz/Käseersatz/",
     "name": "Käseersatz",
@@ -6193,7 +6193,7 @@
   },
   "Käse, Eier & Molkerei/Käse & Käseersatz/Käsewürfel & -Snacks/": {
     "active": true,
-    "code": "Alle / Gekühltes / Eier & Molkereiprodukte / Käse & Käseersatz / Käsewürfel & -Snacks",
+    "code": "alles / Gekühltes / Eier & Molkereiprodukte / Käse & Käseersatz / Käsewürfel & -Snacks",
     "facetFilterQuery": "category=K%C3%A4se,%20Eier%20%26%20Molkerei/K%C3%A4se%20%26%20K%C3%A4seersatz/K%C3%A4sew%C3%BCrfel%20%26%20-Snacks",
     "id": "Käse, Eier & Molkerei/Käse & Käseersatz/Käsewürfel & -Snacks/",
     "name": "Käsewürfel & -Snacks",
@@ -6201,7 +6201,7 @@
   },
   "Käse, Eier & Molkerei/Käse & Käseersatz/Mozzarella/": {
     "active": true,
-    "code": "Alle / Gekühltes / Eier & Molkereiprodukte / Käse",
+    "code": "alles / Gekühltes / Eier & Molkereiprodukte / Käse",
     "facetFilterQuery": "category=K%C3%A4se,%20Eier%20%26%20Molkerei/K%C3%A4se%20%26%20K%C3%A4seersatz/Mozzarella",
     "id": "Käse, Eier & Molkerei/Käse & Käseersatz/Mozzarella/",
     "name": "Mozzarella",
@@ -6209,7 +6209,7 @@
   },
   "Käse, Eier & Molkerei/Käse & Käseersatz/Reibekäse/": {
     "active": false,
-    "code": "Alle / Gekühltes / Eier & Molkereiprodukte / Käse",
+    "code": "alles / Gekühltes / Eier & Molkereiprodukte / Käse",
     "facetFilterQuery": "category=K%C3%A4se,%20Eier%20%26%20Molkerei/K%C3%A4se%20%26%20K%C3%A4seersatz/Reibek%C3%A4se",
     "id": "Käse, Eier & Molkerei/Käse & Käseersatz/Reibekäse/",
     "name": "Reibekäse",
@@ -6217,7 +6217,7 @@
   },
   "Käse, Eier & Molkerei/Käse & Käseersatz/Schmelz- & Sandwichkäse/": {
     "active": true,
-    "code": "Alle / Gekühltes / Eier & Molkereiprodukte / Käse",
+    "code": "alles / Gekühltes / Eier & Molkereiprodukte / Käse",
     "facetFilterQuery": "category=K%C3%A4se,%20Eier%20%26%20Molkerei/K%C3%A4se%20%26%20K%C3%A4seersatz/Schmelz-%20%26%20Sandwichk%C3%A4se",
     "id": "Käse, Eier & Molkerei/Käse & Käseersatz/Schmelz- & Sandwichkäse/",
     "name": "Schmelz- & Sandwichkäse",
@@ -6225,7 +6225,7 @@
   },
   "Käse, Eier & Molkerei/Käse & Käseersatz/Schnittkäse/": {
     "active": true,
-    "code": "Alle / Gekühltes / Eier & Molkereiprodukte / Käse / Stück- & Schnittkäse",
+    "code": "alles / Gekühltes / Eier & Molkereiprodukte / Käse / Stück- & Schnittkäse",
     "facetFilterQuery": "category=K%C3%A4se,%20Eier%20%26%20Molkerei/K%C3%A4se%20%26%20K%C3%A4seersatz/Schnittk%C3%A4se",
     "id": "Käse, Eier & Molkerei/Käse & Käseersatz/Schnittkäse/",
     "name": "Schnittkäse",
@@ -6233,7 +6233,7 @@
   },
   "Käse, Eier & Molkerei/Käse & Käseersatz/Weichkäse/": {
     "active": true,
-    "code": "Alle / Gekühltes / Eier & Molkereiprodukte / Käse",
+    "code": "alles / Gekühltes / Eier & Molkereiprodukte / Käse",
     "facetFilterQuery": "category=K%C3%A4se,%20Eier%20%26%20Molkerei/K%C3%A4se%20%26%20K%C3%A4seersatz/Weichk%C3%A4se",
     "id": "Käse, Eier & Molkerei/Käse & Käseersatz/Weichkäse/",
     "name": "Weichkäse",
@@ -6241,7 +6241,7 @@
   },
   "Käse, Eier & Molkerei/Käse & Käseersatz/Weichkäse/Brie & Camembert/": {
     "active": true,
-    "code": "Alle / Gekühltes / Eier & Molkereiprodukte / Käse",
+    "code": "alles / Gekühltes / Eier & Molkereiprodukte / Käse",
     "facetFilterQuery": "category=K%C3%A4se,%20Eier%20%26%20Molkerei/K%C3%A4se%20%26%20K%C3%A4seersatz/Weichk%C3%A4se/Brie%20%26%20Camembert",
     "id": "Käse, Eier & Molkerei/Käse & Käseersatz/Weichkäse/Brie & Camembert/",
     "name": "Brie & Camembert",
@@ -6249,7 +6249,7 @@
   },
   "Käse, Eier & Molkerei/Käse & Käseersatz/Weichkäse/Gorgonzola & Blauschimmelkäse/": {
     "active": true,
-    "code": "Alle / Gekühltes / Eier & Molkereiprodukte / Käse",
+    "code": "alles / Gekühltes / Eier & Molkereiprodukte / Käse",
     "facetFilterQuery": "category=K%C3%A4se,%20Eier%20%26%20Molkerei/K%C3%A4se%20%26%20K%C3%A4seersatz/Weichk%C3%A4se/Gorgonzola%20%26%20Blauschimmelk%C3%A4se",
     "id": "Käse, Eier & Molkerei/Käse & Käseersatz/Weichkäse/Gorgonzola & Blauschimmelkäse/",
     "name": "Gorgonzola & Blauschimmelkäse",
@@ -6265,7 +6265,7 @@
   },
   "Käse, Eier & Molkerei/Milch/Frischmilch/": {
     "active": true,
-    "code": "Alle / Gekühltes / Eier & Molkereiprodukte / Milch",
+    "code": "alles / Gekühltes / Eier & Molkereiprodukte / Milch",
     "facetFilterQuery": "category=K%C3%A4se,%20Eier%20%26%20Molkerei/Milch/Frischmilch",
     "id": "Käse, Eier & Molkerei/Milch/Frischmilch/",
     "name": "Frischmilch",
@@ -6273,7 +6273,7 @@
   },
   "Käse, Eier & Molkerei/Milch/H-Milch/": {
     "active": true,
-    "code": "Alle / Gekühltes / Eier & Molkereiprodukte / Milch",
+    "code": "alles / Gekühltes / Eier & Molkereiprodukte / Milch",
     "facetFilterQuery": "category=K%C3%A4se,%20Eier%20%26%20Molkerei/Milch/H-Milch",
     "id": "Käse, Eier & Molkerei/Milch/H-Milch/",
     "name": "H-Milch",
@@ -6281,7 +6281,7 @@
   },
   "Käse, Eier & Molkerei/Milch/Milchgetränke/": {
     "active": true,
-    "code": "Alle / Gekühltes / Eier & Molkereiprodukte / Milch",
+    "code": "alles / Gekühltes / Eier & Molkereiprodukte / Milch",
     "facetFilterQuery": "category=K%C3%A4se,%20Eier%20%26%20Molkerei/Milch/Milchgetr%C3%A4nke",
     "id": "Käse, Eier & Molkerei/Milch/Milchgetränke/",
     "name": "Milchgetränke",
@@ -6289,7 +6289,7 @@
   },
   "Käse, Eier & Molkerei/Milch/Milchgetränke/Kaffeedrinks/": {
     "active": true,
-    "code": "Alle / Gekühltes / Eier & Molkereiprodukte / Milch",
+    "code": "alles / Gekühltes / Eier & Molkereiprodukte / Milch",
     "facetFilterQuery": "category=K%C3%A4se,%20Eier%20%26%20Molkerei/Milch/Milchgetr%C3%A4nke/Kaffeedrinks",
     "id": "Käse, Eier & Molkerei/Milch/Milchgetränke/Kaffeedrinks/",
     "name": "Kaffeedrinks",
@@ -6297,7 +6297,7 @@
   },
   "Käse, Eier & Molkerei/Milch/Milchgetränke/Kakao & Schokomilch/": {
     "active": true,
-    "code": "Alle / Gekühltes / Eier & Molkereiprodukte / Milch",
+    "code": "alles / Gekühltes / Eier & Molkereiprodukte / Milch",
     "facetFilterQuery": "category=K%C3%A4se,%20Eier%20%26%20Molkerei/Milch/Milchgetr%C3%A4nke/Kakao%20%26%20Schokomilch",
     "id": "Käse, Eier & Molkerei/Milch/Milchgetränke/Kakao & Schokomilch/",
     "name": "Kakao & Schokomilch",
@@ -6305,7 +6305,7 @@
   },
   "Käse, Eier & Molkerei/Milch/Milchgetränke/Milchdrinks/": {
     "active": true,
-    "code": "Alle / Gekühltes / Eier & Molkereiprodukte / Milch",
+    "code": "alles / Gekühltes / Eier & Molkereiprodukte / Milch",
     "facetFilterQuery": "category=K%C3%A4se,%20Eier%20%26%20Molkerei/Milch/Milchgetr%C3%A4nke/Milchdrinks",
     "id": "Käse, Eier & Molkerei/Milch/Milchgetränke/Milchdrinks/",
     "name": "Milchdrinks",
@@ -6313,7 +6313,7 @@
   },
   "Käse, Eier & Molkerei/Milch/Milchgetränke/Trinkmahlzeiten/": {
     "active": false,
-    "code": "Alle / Gekühltes / Eier & Molkereiprodukte / Milch",
+    "code": "alles / Gekühltes / Eier & Molkereiprodukte / Milch",
     "facetFilterQuery": "category=K%C3%A4se,%20Eier%20%26%20Molkerei/Milch/Milchgetr%C3%A4nke/Trinkmahlzeiten",
     "id": "Käse, Eier & Molkerei/Milch/Milchgetränke/Trinkmahlzeiten/",
     "name": "Trinkmahlzeiten",
@@ -6321,7 +6321,7 @@
   },
   "Käse, Eier & Molkerei/Milchalternativen/": {
     "active": true,
-    "code": "Alle / Gekühltes / Eier & Molkereiprodukte / Milch",
+    "code": "alles / Gekühltes / Eier & Molkereiprodukte / Milch",
     "facetFilterQuery": "category=K%C3%A4se,%20Eier%20%26%20Molkerei/Milchalternativen",
     "id": "Käse, Eier & Molkerei/Milchalternativen/",
     "name": "Milchalternativen",
@@ -6329,7 +6329,7 @@
   },
   "Käse, Eier & Molkerei/Milchalternativen/Erbsendrinks/": {
     "active": true,
-    "code": "Alle / Gekühltes / Eier & Molkereiprodukte / Milch",
+    "code": "alles / Gekühltes / Eier & Molkereiprodukte / Milch",
     "facetFilterQuery": "category=K%C3%A4se,%20Eier%20%26%20Molkerei/Milchalternativen/Erbsendrinks",
     "id": "Käse, Eier & Molkerei/Milchalternativen/Erbsendrinks/",
     "name": "Erbsendrinks",
@@ -6337,7 +6337,7 @@
   },
   "Käse, Eier & Molkerei/Milchalternativen/Haferdrinks/": {
     "active": true,
-    "code": "Alle / Gekühltes / Eier & Molkereiprodukte / Milch",
+    "code": "alles / Gekühltes / Eier & Molkereiprodukte / Milch",
     "facetFilterQuery": "category=K%C3%A4se,%20Eier%20%26%20Molkerei/Milchalternativen/Haferdrinks",
     "id": "Käse, Eier & Molkerei/Milchalternativen/Haferdrinks/",
     "name": "Haferdrinks",
@@ -6345,7 +6345,7 @@
   },
   "Käse, Eier & Molkerei/Milchalternativen/Kokosdrinks/": {
     "active": true,
-    "code": "Alle / Gekühltes / Eier & Molkereiprodukte / Milch",
+    "code": "alles / Gekühltes / Eier & Molkereiprodukte / Milch",
     "facetFilterQuery": "category=K%C3%A4se,%20Eier%20%26%20Molkerei/Milchalternativen/Kokosdrinks",
     "id": "Käse, Eier & Molkerei/Milchalternativen/Kokosdrinks/",
     "name": "Kokosdrinks",
@@ -6353,7 +6353,7 @@
   },
   "Käse, Eier & Molkerei/Milchalternativen/Mandeldrinks/": {
     "active": true,
-    "code": "Alle / Gekühltes / Eier & Molkereiprodukte / Milch",
+    "code": "alles / Gekühltes / Eier & Molkereiprodukte / Milch",
     "facetFilterQuery": "category=K%C3%A4se,%20Eier%20%26%20Molkerei/Milchalternativen/Mandeldrinks",
     "id": "Käse, Eier & Molkerei/Milchalternativen/Mandeldrinks/",
     "name": "Mandeldrinks",
@@ -6361,7 +6361,7 @@
   },
   "Käse, Eier & Molkerei/Milchalternativen/Sojadrinks/": {
     "active": true,
-    "code": "Alle / Gekühltes / Eier & Molkereiprodukte / Milch",
+    "code": "alles / Gekühltes / Eier & Molkereiprodukte / Milch",
     "facetFilterQuery": "category=K%C3%A4se,%20Eier%20%26%20Molkerei/Milchalternativen/Sojadrinks",
     "id": "Käse, Eier & Molkerei/Milchalternativen/Sojadrinks/",
     "name": "Sojadrinks",
@@ -6369,7 +6369,7 @@
   },
   "Käse, Eier & Molkerei/Molkereiprodukte & Alternativen/": {
     "active": true,
-    "code": "Alle / Gekühltes / Eier & Molkereiprodukte",
+    "code": "alles / Gekühltes / Eier & Molkereiprodukte",
     "facetFilterQuery": "category=K%C3%A4se,%20Eier%20%26%20Molkerei/Molkereiprodukte%20%26%20Alternativen",
     "id": "Käse, Eier & Molkerei/Molkereiprodukte & Alternativen/",
     "name": "Molkereiprodukte & Alternativen",
@@ -6377,7 +6377,7 @@
   },
   "Käse, Eier & Molkerei/Molkereiprodukte & Alternativen/Molke- & Joghurtdrinks/": {
     "active": true,
-    "code": "Alle / Gekühltes / Eier & Molkereiprodukte",
+    "code": "alles / Gekühltes / Eier & Molkereiprodukte",
     "facetFilterQuery": "category=K%C3%A4se,%20Eier%20%26%20Molkerei/Molkereiprodukte%20%26%20Alternativen/Molke-%20%26%20Joghurtdrinks",
     "id": "Käse, Eier & Molkerei/Molkereiprodukte & Alternativen/Molke- & Joghurtdrinks/",
     "name": "Molke- & Joghurtdrinks",
@@ -6385,7 +6385,7 @@
   },
   "Käse, Eier & Molkerei/Molkereiprodukte & Alternativen/Molke- & Joghurtdrinks/Buttermilch & Dickmilch/": {
     "active": true,
-    "code": "Alle / Gekühltes / Eier & Molkereiprodukte",
+    "code": "alles / Gekühltes / Eier & Molkereiprodukte",
     "facetFilterQuery": "category=K%C3%A4se,%20Eier%20%26%20Molkerei/Molkereiprodukte%20%26%20Alternativen/Molke-%20%26%20Joghurtdrinks/Buttermilch%20%26%20Dickmilch",
     "id": "Käse, Eier & Molkerei/Molkereiprodukte & Alternativen/Molke- & Joghurtdrinks/Buttermilch & Dickmilch/",
     "name": "Buttermilch & Dickmilch",
@@ -6393,7 +6393,7 @@
   },
   "Käse, Eier & Molkerei/Molkereiprodukte & Alternativen/Molke- & Joghurtdrinks/Kefir & Molke/": {
     "active": true,
-    "code": "Alle / Gekühltes / Eier & Molkereiprodukte",
+    "code": "alles / Gekühltes / Eier & Molkereiprodukte",
     "facetFilterQuery": "category=K%C3%A4se,%20Eier%20%26%20Molkerei/Molkereiprodukte%20%26%20Alternativen/Molke-%20%26%20Joghurtdrinks/Kefir%20%26%20Molke",
     "id": "Käse, Eier & Molkerei/Molkereiprodukte & Alternativen/Molke- & Joghurtdrinks/Kefir & Molke/",
     "name": "Kefir & Molke",
@@ -6401,7 +6401,7 @@
   },
   "Käse, Eier & Molkerei/Molkereiprodukte & Alternativen/Molke- & Joghurtdrinks/Trinkjoghurt/": {
     "active": true,
-    "code": "Alle / Gekühltes / Eier & Molkereiprodukte",
+    "code": "alles / Gekühltes / Eier & Molkereiprodukte",
     "facetFilterQuery": "category=K%C3%A4se,%20Eier%20%26%20Molkerei/Molkereiprodukte%20%26%20Alternativen/Molke-%20%26%20Joghurtdrinks/Trinkjoghurt",
     "id": "Käse, Eier & Molkerei/Molkereiprodukte & Alternativen/Molke- & Joghurtdrinks/Trinkjoghurt/",
     "name": "Trinkjoghurt",
@@ -6409,7 +6409,7 @@
   },
   "Käse, Eier & Molkerei/Molkereiprodukte & Alternativen/Sahne/": {
     "active": true,
-    "code": "Alle / Gekühltes / Eier & Molkereiprodukte",
+    "code": "alles / Gekühltes / Eier & Molkereiprodukte",
     "facetFilterQuery": "category=K%C3%A4se,%20Eier%20%26%20Molkerei/Molkereiprodukte%20%26%20Alternativen/Sahne",
     "id": "Käse, Eier & Molkerei/Molkereiprodukte & Alternativen/Sahne/",
     "name": "Sahne",
@@ -6417,7 +6417,7 @@
   },
   "Käse, Eier & Molkerei/Molkereiprodukte & Alternativen/Sahne/Kochsahne/": {
     "active": true,
-    "code": "Alle / Gekühltes / Eier & Molkereiprodukte",
+    "code": "alles / Gekühltes / Eier & Molkereiprodukte",
     "facetFilterQuery": "category=K%C3%A4se,%20Eier%20%26%20Molkerei/Molkereiprodukte%20%26%20Alternativen/Sahne/Kochsahne",
     "id": "Käse, Eier & Molkerei/Molkereiprodukte & Alternativen/Sahne/Kochsahne/",
     "name": "Kochsahne",
@@ -6425,7 +6425,7 @@
   },
   "Käse, Eier & Molkerei/Molkereiprodukte & Alternativen/Sahne/Schlagsahne/": {
     "active": true,
-    "code": "Alle / Gekühltes / Eier & Molkereiprodukte",
+    "code": "alles / Gekühltes / Eier & Molkereiprodukte",
     "facetFilterQuery": "category=K%C3%A4se,%20Eier%20%26%20Molkerei/Molkereiprodukte%20%26%20Alternativen/Sahne/Schlagsahne",
     "id": "Käse, Eier & Molkerei/Molkereiprodukte & Alternativen/Sahne/Schlagsahne/",
     "name": "Schlagsahne",
@@ -6433,7 +6433,7 @@
   },
   "Käse, Eier & Molkerei/Molkereiprodukte & Alternativen/Sahne/Sprühsahne/": {
     "active": true,
-    "code": "Alle / Gekühltes / Eier & Molkereiprodukte",
+    "code": "alles / Gekühltes / Eier & Molkereiprodukte",
     "facetFilterQuery": "category=K%C3%A4se,%20Eier%20%26%20Molkerei/Molkereiprodukte%20%26%20Alternativen/Sahne/Spr%C3%BChsahne",
     "id": "Käse, Eier & Molkerei/Molkereiprodukte & Alternativen/Sahne/Sprühsahne/",
     "name": "Sprühsahne",
@@ -6441,7 +6441,7 @@
   },
   "Käse, Eier & Molkerei/Molkereiprodukte & Alternativen/Sauerrahmprodukte/": {
     "active": true,
-    "code": "Alle / Gekühltes / Eier & Molkereiprodukte",
+    "code": "alles / Gekühltes / Eier & Molkereiprodukte",
     "facetFilterQuery": "category=K%C3%A4se,%20Eier%20%26%20Molkerei/Molkereiprodukte%20%26%20Alternativen/Sauerrahmprodukte",
     "id": "Käse, Eier & Molkerei/Molkereiprodukte & Alternativen/Sauerrahmprodukte/",
     "name": "Sauerrahmprodukte",
@@ -6449,7 +6449,7 @@
   },
   "Käse, Eier & Molkerei/Molkereiprodukte & Alternativen/Sauerrahmprodukte/Crème Fraîche/": {
     "active": true,
-    "code": "Alle / Gekühltes / Eier & Molkereiprodukte",
+    "code": "alles / Gekühltes / Eier & Molkereiprodukte",
     "facetFilterQuery": "category=K%C3%A4se,%20Eier%20%26%20Molkerei/Molkereiprodukte%20%26%20Alternativen/Sauerrahmprodukte/Cr%C3%A8me%20Fra%C3%AEche",
     "id": "Käse, Eier & Molkerei/Molkereiprodukte & Alternativen/Sauerrahmprodukte/Crème Fraîche/",
     "name": "Crème Fraîche",
@@ -6457,7 +6457,7 @@
   },
   "Käse, Eier & Molkerei/Molkereiprodukte & Alternativen/Sauerrahmprodukte/Saure Sahne/": {
     "active": true,
-    "code": "Alle / Gekühltes / Eier & Molkereiprodukte",
+    "code": "alles / Gekühltes / Eier & Molkereiprodukte",
     "facetFilterQuery": "category=K%C3%A4se,%20Eier%20%26%20Molkerei/Molkereiprodukte%20%26%20Alternativen/Sauerrahmprodukte/Saure%20Sahne",
     "id": "Käse, Eier & Molkerei/Molkereiprodukte & Alternativen/Sauerrahmprodukte/Saure Sahne/",
     "name": "Saure Sahne",
@@ -6465,7 +6465,7 @@
   },
   "Käse, Eier & Molkerei/Molkereiprodukte & Alternativen/Sauerrahmprodukte/Schmand/": {
     "active": true,
-    "code": "Alle / Gekühltes / Eier & Molkereiprodukte",
+    "code": "alles / Gekühltes / Eier & Molkereiprodukte",
     "facetFilterQuery": "category=K%C3%A4se,%20Eier%20%26%20Molkerei/Molkereiprodukte%20%26%20Alternativen/Sauerrahmprodukte/Schmand",
     "id": "Käse, Eier & Molkerei/Molkereiprodukte & Alternativen/Sauerrahmprodukte/Schmand/",
     "name": "Schmand",
@@ -6473,7 +6473,7 @@
   },
   "Käse, Eier & Molkerei/Molkereiprodukte & Alternativen/Speisequark/": {
     "active": true,
-    "code": "Alle / Gekühltes / Eier & Molkereiprodukte",
+    "code": "alles / Gekühltes / Eier & Molkereiprodukte",
     "facetFilterQuery": "category=K%C3%A4se,%20Eier%20%26%20Molkerei/Molkereiprodukte%20%26%20Alternativen/Speisequark",
     "id": "Käse, Eier & Molkerei/Molkereiprodukte & Alternativen/Speisequark/",
     "name": "Speisequark",
@@ -6481,7 +6481,7 @@
   },
   "Käse, Eier & Molkerei/Molkereiprodukte & Alternativen/Speisequark/Kräuterquark/": {
     "active": true,
-    "code": "Alle / Gekühltes / Eier & Molkereiprodukte",
+    "code": "alles / Gekühltes / Eier & Molkereiprodukte",
     "facetFilterQuery": "category=K%C3%A4se,%20Eier%20%26%20Molkerei/Molkereiprodukte%20%26%20Alternativen/Speisequark/Kr%C3%A4uterquark",
     "id": "Käse, Eier & Molkerei/Molkereiprodukte & Alternativen/Speisequark/Kräuterquark/",
     "name": "Kräuterquark",
@@ -6489,7 +6489,7 @@
   },
   "Käse, Eier & Molkerei/Molkereiprodukte & Alternativen/Speisequark/Naturquark/": {
     "active": true,
-    "code": "Alle / Gekühltes / Eier & Molkereiprodukte",
+    "code": "alles / Gekühltes / Eier & Molkereiprodukte",
     "facetFilterQuery": "category=K%C3%A4se,%20Eier%20%26%20Molkerei/Molkereiprodukte%20%26%20Alternativen/Speisequark/Naturquark",
     "id": "Käse, Eier & Molkerei/Molkereiprodukte & Alternativen/Speisequark/Naturquark/",
     "name": "Naturquark",
@@ -6497,7 +6497,7 @@
   },
   "Käse, Eier & Molkerei/Molkereiprodukte & Alternativen/Vegane Sahne-Alternativen/": {
     "active": true,
-    "code": "Alle / Gekühltes / Eier & Molkereiprodukte",
+    "code": "alles / Gekühltes / Eier & Molkereiprodukte",
     "facetFilterQuery": "category=K%C3%A4se,%20Eier%20%26%20Molkerei/Molkereiprodukte%20%26%20Alternativen/Vegane%20Sahne-Alternativen",
     "id": "Käse, Eier & Molkerei/Molkereiprodukte & Alternativen/Vegane Sahne-Alternativen/",
     "name": "Vegane Sahne-Alternativen",
@@ -8209,7 +8209,7 @@
   },
   "Obst & Gemüse/Frisches Obst/Ananas/": {
     "active": true,
-    "code": "All / Obst",
+    "code": "Alles / Frisches Obst & Gemüse / Obst",
     "facetFilterQuery": "category=Obst%20%26%20Gem%C3%BCse/Frisches%20Obst/Ananas",
     "id": "Obst & Gemüse/Frisches Obst/Ananas/",
     "name": "Ananas",
@@ -8217,7 +8217,7 @@
   },
   "Obst & Gemüse/Frisches Obst/Avocado/": {
     "active": true,
-    "code": "All / Obst",
+    "code": "Alles / Frisches Obst & Gemüse / Obst",
     "facetFilterQuery": "category=Obst%20%26%20Gem%C3%BCse/Frisches%20Obst/Avocado",
     "id": "Obst & Gemüse/Frisches Obst/Avocado/",
     "name": "Avocado",
@@ -8225,7 +8225,7 @@
   },
   "Obst & Gemüse/Frisches Obst/Bananen/": {
     "active": true,
-    "code": "All / Obst",
+    "code": "Alles / Frisches Obst & Gemüse / Obst",
     "facetFilterQuery": "category=Obst%20%26%20Gem%C3%BCse/Frisches%20Obst/Bananen",
     "id": "Obst & Gemüse/Frisches Obst/Bananen/",
     "name": "Bananen",
@@ -8233,7 +8233,7 @@
   },
   "Obst & Gemüse/Frisches Obst/Beeren/": {
     "active": true,
-    "code": "All / Obst",
+    "code": "Alles / Frisches Obst & Gemüse / Obst",
     "facetFilterQuery": "category=Obst%20%26%20Gem%C3%BCse/Frisches%20Obst/Beeren",
     "id": "Obst & Gemüse/Frisches Obst/Beeren/",
     "name": "Beeren",
@@ -8241,7 +8241,7 @@
   },
   "Obst & Gemüse/Frisches Obst/Birnen/": {
     "active": true,
-    "code": "All / Obst",
+    "code": "Alles / Frisches Obst & Gemüse / Obst",
     "facetFilterQuery": "category=Obst%20%26%20Gem%C3%BCse/Frisches%20Obst/Birnen",
     "id": "Obst & Gemüse/Frisches Obst/Birnen/",
     "name": "Birnen",
@@ -8249,7 +8249,7 @@
   },
   "Obst & Gemüse/Frisches Obst/Exotische Früchte/": {
     "active": true,
-    "code": "All / Obst",
+    "code": "Alles / Frisches Obst & Gemüse / Obst",
     "facetFilterQuery": "category=Obst%20%26%20Gem%C3%BCse/Frisches%20Obst/Exotische%20Fr%C3%BCchte",
     "id": "Obst & Gemüse/Frisches Obst/Exotische Früchte/",
     "name": "Exotische Früchte",
@@ -8257,7 +8257,7 @@
   },
   "Obst & Gemüse/Frisches Obst/Kiwi/": {
     "active": true,
-    "code": "All / Obst",
+    "code": "Alles / Frisches Obst & Gemüse / Obst",
     "facetFilterQuery": "category=Obst%20%26%20Gem%C3%BCse/Frisches%20Obst/Kiwi",
     "id": "Obst & Gemüse/Frisches Obst/Kiwi/",
     "name": "Kiwi",
@@ -8265,7 +8265,7 @@
   },
   "Obst & Gemüse/Frisches Obst/Mango/": {
     "active": true,
-    "code": "All / Obst",
+    "code": "Alles / Frisches Obst & Gemüse / Obst",
     "facetFilterQuery": "category=Obst%20%26%20Gem%C3%BCse/Frisches%20Obst/Mango",
     "id": "Obst & Gemüse/Frisches Obst/Mango/",
     "name": "Mango",
@@ -8273,7 +8273,7 @@
   },
   "Obst & Gemüse/Frisches Obst/Melonen/": {
     "active": true,
-    "code": "All / Obst",
+    "code": "Alles / Frisches Obst & Gemüse / Obst",
     "facetFilterQuery": "category=Obst%20%26%20Gem%C3%BCse/Frisches%20Obst/Melonen",
     "id": "Obst & Gemüse/Frisches Obst/Melonen/",
     "name": "Melonen",
@@ -8281,7 +8281,7 @@
   },
   "Obst & Gemüse/Frisches Obst/Steinobst/": {
     "active": true,
-    "code": "All / Obst",
+    "code": "Alles / Frisches Obst & Gemüse / Obst",
     "facetFilterQuery": "category=Obst%20%26%20Gem%C3%BCse/Frisches%20Obst/Steinobst",
     "id": "Obst & Gemüse/Frisches Obst/Steinobst/",
     "name": "Steinobst",
@@ -8289,7 +8289,7 @@
   },
   "Obst & Gemüse/Frisches Obst/Steinobst/Aprikosen/": {
     "active": true,
-    "code": "All / Obst",
+    "code": "Alles / Frisches Obst & Gemüse / Obst",
     "facetFilterQuery": "category=Obst%20%26%20Gem%C3%BCse/Frisches%20Obst/Steinobst/Aprikosen",
     "id": "Obst & Gemüse/Frisches Obst/Steinobst/Aprikosen/",
     "name": "Aprikosen",
@@ -8297,7 +8297,7 @@
   },
   "Obst & Gemüse/Frisches Obst/Steinobst/Kirschen/": {
     "active": true,
-    "code": "All / Obst",
+    "code": "Alles / Frisches Obst & Gemüse / Obst",
     "facetFilterQuery": "category=Obst%20%26%20Gem%C3%BCse/Frisches%20Obst/Steinobst/Kirschen",
     "id": "Obst & Gemüse/Frisches Obst/Steinobst/Kirschen/",
     "name": "Kirschen",
@@ -8305,7 +8305,7 @@
   },
   "Obst & Gemüse/Frisches Obst/Steinobst/Nektarinen/": {
     "active": true,
-    "code": "All / Obst",
+    "code": "Alles / Frisches Obst & Gemüse / Obst",
     "facetFilterQuery": "category=Obst%20%26%20Gem%C3%BCse/Frisches%20Obst/Steinobst/Nektarinen",
     "id": "Obst & Gemüse/Frisches Obst/Steinobst/Nektarinen/",
     "name": "Nektarinen",
@@ -8313,7 +8313,7 @@
   },
   "Obst & Gemüse/Frisches Obst/Steinobst/Pfirsiche/": {
     "active": true,
-    "code": "All / Obst",
+    "code": "Alles / Frisches Obst & Gemüse / Obst",
     "facetFilterQuery": "category=Obst%20%26%20Gem%C3%BCse/Frisches%20Obst/Steinobst/Pfirsiche",
     "id": "Obst & Gemüse/Frisches Obst/Steinobst/Pfirsiche/",
     "name": "Pfirsiche",
@@ -8321,7 +8321,7 @@
   },
   "Obst & Gemüse/Frisches Obst/Steinobst/Pflaumen, Zwetschgen & Mirabellen/": {
     "active": true,
-    "code": "All / Obst",
+    "code": "Alles / Frisches Obst & Gemüse / Obst",
     "facetFilterQuery": "category=Obst%20%26%20Gem%C3%BCse/Frisches%20Obst/Steinobst/Pflaumen,%20Zwetschgen%20%26%20Mirabellen",
     "id": "Obst & Gemüse/Frisches Obst/Steinobst/Pflaumen, Zwetschgen & Mirabellen/",
     "name": "Pflaumen, Zwetschgen & Mirabellen",
@@ -8329,7 +8329,7 @@
   },
   "Obst & Gemüse/Frisches Obst/Trauben/": {
     "active": true,
-    "code": "All / Obst",
+    "code": "Alles / Frisches Obst & Gemüse / Obst",
     "facetFilterQuery": "category=Obst%20%26%20Gem%C3%BCse/Frisches%20Obst/Trauben",
     "id": "Obst & Gemüse/Frisches Obst/Trauben/",
     "name": "Trauben",
@@ -8337,7 +8337,7 @@
   },
   "Obst & Gemüse/Frisches Obst/Zitrusfrüchte/": {
     "active": true,
-    "code": "All / Obst",
+    "code": "Alles / Frisches Obst & Gemüse / Obst",
     "facetFilterQuery": "category=Obst%20%26%20Gem%C3%BCse/Frisches%20Obst/Zitrusfr%C3%BCchte",
     "id": "Obst & Gemüse/Frisches Obst/Zitrusfrüchte/",
     "name": "Zitrusfrüchte",
@@ -8345,7 +8345,7 @@
   },
   "Obst & Gemüse/Frisches Obst/Äpfel/": {
     "active": true,
-    "code": "All / Obst",
+    "code": "Alles / Frisches Obst & Gemüse / Obst",
     "facetFilterQuery": "category=Obst%20%26%20Gem%C3%BCse/Frisches%20Obst/%C3%84pfel",
     "id": "Obst & Gemüse/Frisches Obst/Äpfel/",
     "name": "Äpfel",
@@ -8377,7 +8377,7 @@
   },
   "Regional/Getränke aus der Region/": {
     "active": true,
-    "code": "All / Getränke",
+    "code": "Alles / Getränke",
     "facetFilterQuery": "category=Regional/Getr%C3%A4nke%20aus%20der%20Region",
     "id": "Regional/Getränke aus der Region/",
     "name": "Getränke aus der Region",
@@ -8385,7 +8385,7 @@
   },
   "Regional/Getränke aus der Region/Bier aus der Region/": {
     "active": true,
-    "code": "All / Getränke",
+    "code": "Alles / Getränke / Alkoholische Getränke",
     "facetFilterQuery": "category=Regional/Getr%C3%A4nke%20aus%20der%20Region/Bier%20aus%20der%20Region",
     "id": "Regional/Getränke aus der Region/Bier aus der Region/",
     "name": "Bier aus der Region",
@@ -8393,7 +8393,7 @@
   },
   "Regional/Getränke aus der Region/Saft aus der Region/": {
     "active": true,
-    "code": "All / Getränke",
+    "code": "Alles / Getränke / Alkoholfreie Getränke / Säfte & Nektare",
     "facetFilterQuery": "category=Regional/Getr%C3%A4nke%20aus%20der%20Region/Saft%20aus%20der%20Region",
     "id": "Regional/Getränke aus der Region/Saft aus der Region/",
     "name": "Saft aus der Region",
@@ -8401,7 +8401,7 @@
   },
   "Regional/Getränke aus der Region/Schnäpse, Brände & Liköre aus der Region/": {
     "active": true,
-    "code": "All / Getränke",
+    "code": "Alles / Getränke / Alkoholische Getränkee",
     "facetFilterQuery": "category=Regional/Getr%C3%A4nke%20aus%20der%20Region/Schn%C3%A4pse,%20Br%C3%A4nde%20%26%20Lik%C3%B6re%20aus%20der%20Region",
     "id": "Regional/Getränke aus der Region/Schnäpse, Brände & Liköre aus der Region/",
     "name": "Schnäpse, Brände & Liköre aus der Region",
@@ -8409,7 +8409,7 @@
   },
   "Regional/Getränke aus der Region/Wasser & Softdrinks aus der Region/": {
     "active": true,
-    "code": "All / Getränke",
+    "code": "Alles / Getränke / Alkoholfreie Getränke",
     "facetFilterQuery": "category=Regional/Getr%C3%A4nke%20aus%20der%20Region/Wasser%20%26%20Softdrinks%20aus%20der%20Region",
     "id": "Regional/Getränke aus der Region/Wasser & Softdrinks aus der Region/",
     "name": "Wasser & Softdrinks aus der Region",
@@ -8417,7 +8417,7 @@
   },
   "Regional/Getränke aus der Region/Wein & Sekt aus der Region/": {
     "active": true,
-    "code": "All / Getränke",
+    "code": "Alles / Getränke / Alkoholische Getränke",
     "facetFilterQuery": "category=Regional/Getr%C3%A4nke%20aus%20der%20Region/Wein%20%26%20Sekt%20aus%20der%20Region",
     "id": "Regional/Getränke aus der Region/Wein & Sekt aus der Region/",
     "name": "Wein & Sekt aus der Region",
@@ -8425,7 +8425,7 @@
   },
   "Regional/Regionale Bäckereien/": {
     "active": true,
-    "code": "Alles",
+    "code": "Alles / Frische Backwaren",
     "facetFilterQuery": "category=Regional/Regionale%20B%C3%A4ckereien",
     "id": "Regional/Regionale Bäckereien/",
     "name": "Regionale Bäckereien",
@@ -8433,7 +8433,7 @@
   },
   "Regional/Regionale Eier, Käse- & Molkereiprodukte/": {
     "active": true,
-    "code": "Alles",
+    "code": "Alles / Gekühltes / Eier & Molkereiprodukte",
     "facetFilterQuery": "category=Regional/Regionale%20Eier,%20K%C3%A4se-%20%26%20Molkereiprodukte",
     "id": "Regional/Regionale Eier, Käse- & Molkereiprodukte/",
     "name": "Regionale Eier, Käse- & Molkereiprodukte",
@@ -8441,7 +8441,7 @@
   },
   "Regional/Regionale Eis-Manufakturen/": {
     "active": true,
-    "code": "Alles",
+    "code": "Alles / Tiefgekühltes / Eis",
     "facetFilterQuery": "category=Regional/Regionale%20Eis-Manufakturen",
     "id": "Regional/Regionale Eis-Manufakturen/",
     "name": "Regionale Eis-Manufakturen",
@@ -8921,7 +8921,7 @@
   },
   "Süßes & Salziges/Süßgebäck/Kekse & Feingebäck/Butterkekse/": {
     "active": true,
-    "code": "All / Süßwaren",
+    "code": "Alles / Ungekühltes / Snacks / Süße Snacks / Süßgebäck",
     "facetFilterQuery": "category=S%C3%BC%C3%9Fes%20%26%20Salziges/S%C3%BC%C3%9Fgeb%C3%A4ck/Kekse%20%26%20Feingeb%C3%A4ck/Butterkekse",
     "id": "Süßes & Salziges/Süßgebäck/Kekse & Feingebäck/Butterkekse/",
     "name": "Butterkekse",
@@ -9033,7 +9033,7 @@
   },
   "Süßes & Salziges/Süßgebäck/Schokokekse/Schoko-Cookies/": {
     "active": true,
-    "code": "All / Süßwaren",
+    "code": "Alles / Ungekühltes / Snacks / Süße Snacks / Süßgebäck",
     "facetFilterQuery": "category=S%C3%BC%C3%9Fes%20%26%20Salziges/S%C3%BC%C3%9Fgeb%C3%A4ck/Schokokekse/Schoko-Cookies",
     "id": "Süßes & Salziges/Süßgebäck/Schokokekse/Schoko-Cookies/",
     "name": "Schoko-Cookies",
@@ -9369,7 +9369,7 @@
   },
   "Süßes & Salziges/Weihnachten/Weihnachtsgebäck/": {
     "active": true,
-    "code": "Alles",
+    "code": "Alles / Ungekühltes / Snacks / Süße Snacks / Süßgebäck",
     "facetFilterQuery": "category=S%C3%BC%C3%9Fes%20%26%20Salziges/Weihnachten/Weihnachtsgeb%C3%A4ck",
     "id": "Süßes & Salziges/Weihnachten/Weihnachtsgebäck/",
     "name": "Weihnachtsgebäck",
@@ -9377,7 +9377,7 @@
   },
   "Süßes & Salziges/Weihnachten/Weihnachtsschokolade/": {
     "active": true,
-    "code": "All / Süßwaren",
+    "code": "Alles / Ungekühltes / Snacks / Süße Snacks / Süßgebäck",
     "facetFilterQuery": "category=S%C3%BC%C3%9Fes%20%26%20Salziges/Weihnachten/Weihnachtsschokolade",
     "id": "Süßes & Salziges/Weihnachten/Weihnachtsschokolade/",
     "name": "Weihnachtsschokolade",
@@ -9385,7 +9385,7 @@
   },
   "Tiefkühlkost/": {
     "active": true,
-    "code": "Alles",
+    "code": "Alles / Tiefgekühltes",
     "facetFilterQuery": "category=Tiefk%C3%BChlkost",
     "id": "Tiefkühlkost/",
     "name": "Tiefkühlkost",
@@ -9393,7 +9393,7 @@
   },
   "Tiefkühlkost/Eiscreme & Eiswürfel/": {
     "active": true,
-    "code": "Alles",
+    "code": "Alles / Tiefgekühltes / Eis",
     "facetFilterQuery": "category=Tiefk%C3%BChlkost/Eiscreme%20%26%20Eisw%C3%BCrfel",
     "id": "Tiefkühlkost/Eiscreme & Eiswürfel/",
     "name": "Eiscreme & Eiswürfel",
@@ -9401,7 +9401,7 @@
   },
   "Tiefkühlkost/Eiscreme & Eiswürfel/Eis am Stiel/": {
     "active": true,
-    "code": "Alles",
+    "code": "Alles / Tiefgekühltes / Eis",
     "facetFilterQuery": "category=Tiefk%C3%BChlkost/Eiscreme%20%26%20Eisw%C3%BCrfel/Eis%20am%20Stiel",
     "id": "Tiefkühlkost/Eiscreme & Eiswürfel/Eis am Stiel/",
     "name": "Eis am Stiel",
@@ -9409,7 +9409,7 @@
   },
   "Tiefkühlkost/Eiscreme & Eiswürfel/Eis im Becher/": {
     "active": true,
-    "code": "Alles",
+    "code": "Alles / Tiefgekühltes / Eis",
     "facetFilterQuery": "category=Tiefk%C3%BChlkost/Eiscreme%20%26%20Eisw%C3%BCrfel/Eis%20im%20Becher",
     "id": "Tiefkühlkost/Eiscreme & Eiswürfel/Eis im Becher/",
     "name": "Eis im Becher",
@@ -9417,7 +9417,7 @@
   },
   "Tiefkühlkost/Eiscreme & Eiswürfel/Eis-Desserts/": {
     "active": true,
-    "code": "Alles",
+    "code": "Alles / Tiefgekühltes / Eis",
     "facetFilterQuery": "category=Tiefk%C3%BChlkost/Eiscreme%20%26%20Eisw%C3%BCrfel/Eis-Desserts",
     "id": "Tiefkühlkost/Eiscreme & Eiswürfel/Eis-Desserts/",
     "name": "Eis-Desserts",
@@ -9425,7 +9425,7 @@
   },
   "Tiefkühlkost/Eiscreme & Eiswürfel/Eis-Großpackungen/": {
     "active": true,
-    "code": "Alles",
+    "code": "Alles / Tiefgekühltes / Eis",
     "facetFilterQuery": "category=Tiefk%C3%BChlkost/Eiscreme%20%26%20Eisw%C3%BCrfel/Eis-Gro%C3%9Fpackungen",
     "id": "Tiefkühlkost/Eiscreme & Eiswürfel/Eis-Großpackungen/",
     "name": "Eis-Großpackungen",
@@ -9433,7 +9433,7 @@
   },
   "Tiefkühlkost/Eiscreme & Eiswürfel/Eiswürfel & Crushed Ice/": {
     "active": true,
-    "code": "Alles",
+    "code": "Alles / Tiefgekühltes / Eis",
     "facetFilterQuery": "category=Tiefk%C3%BChlkost/Eiscreme%20%26%20Eisw%C3%BCrfel/Eisw%C3%BCrfel%20%26%20Crushed%20Ice",
     "id": "Tiefkühlkost/Eiscreme & Eiswürfel/Eiswürfel & Crushed Ice/",
     "name": "Eiswürfel & Crushed Ice",
@@ -9441,7 +9441,7 @@
   },
   "Tiefkühlkost/Eiscreme & Eiswürfel/Waffeleis/": {
     "active": true,
-    "code": "Alles",
+    "code": "Alles / Tiefgekühltes / Eis",
     "facetFilterQuery": "category=Tiefk%C3%BChlkost/Eiscreme%20%26%20Eisw%C3%BCrfel/Waffeleis",
     "id": "Tiefkühlkost/Eiscreme & Eiswürfel/Waffeleis/",
     "name": "Waffeleis",
@@ -9449,7 +9449,7 @@
   },
   "Tiefkühlkost/Eiscreme & Eiswürfel/Wasser- & Fruchteis/": {
     "active": true,
-    "code": "Alles",
+    "code": "Alles / Tiefgekühltes / Fertiggerichte",
     "facetFilterQuery": "category=Tiefk%C3%BChlkost/Eiscreme%20%26%20Eisw%C3%BCrfel/Wasser-%20%26%20Fruchteis",
     "id": "Tiefkühlkost/Eiscreme & Eiswürfel/Wasser- & Fruchteis/",
     "name": "Wasser- & Fruchteis",
@@ -9457,7 +9457,7 @@
   },
   "Tiefkühlkost/Pizza & Baguettes/": {
     "active": true,
-    "code": "Alles",
+    "code": "Alles / Tiefgekühltes / Fertiggerichte",
     "facetFilterQuery": "category=Tiefk%C3%BChlkost/Pizza%20%26%20Baguettes",
     "id": "Tiefkühlkost/Pizza & Baguettes/",
     "name": "Pizza & Baguettes",
@@ -9465,7 +9465,7 @@
   },
   "Tiefkühlkost/Pizza & Baguettes/Flammkuchen/": {
     "active": true,
-    "code": "Alles",
+    "code": "Alles / Tiefgekühltes / Fertiggerichte",
     "facetFilterQuery": "category=Tiefk%C3%BChlkost/Pizza%20%26%20Baguettes/Flammkuchen",
     "id": "Tiefkühlkost/Pizza & Baguettes/Flammkuchen/",
     "name": "Flammkuchen",
@@ -9473,7 +9473,7 @@
   },
   "Tiefkühlkost/Pizza & Baguettes/Pizza/": {
     "active": true,
-    "code": "Alles",
+    "code": "Alles / Tiefgekühltes / Fertiggerichte",
     "facetFilterQuery": "category=Tiefk%C3%BChlkost/Pizza%20%26%20Baguettes/Pizza",
     "id": "Tiefkühlkost/Pizza & Baguettes/Pizza/",
     "name": "Pizza",
@@ -9481,7 +9481,7 @@
   },
   "Tiefkühlkost/Pizza & Baguettes/Pizza/Pizza Diavolo/": {
     "active": true,
-    "code": "Alles",
+    "code": "Alles / Tiefgekühltes / Fertiggerichte",
     "facetFilterQuery": "category=Tiefk%C3%BChlkost/Pizza%20%26%20Baguettes/Pizza/Pizza%20Diavolo",
     "id": "Tiefkühlkost/Pizza & Baguettes/Pizza/Pizza Diavolo/",
     "name": "Pizza Diavolo",
@@ -9489,7 +9489,7 @@
   },
   "Tiefkühlkost/Pizza & Baguettes/Pizza/Pizza Funghi/": {
     "active": true,
-    "code": "Alles",
+    "code": "Alles / Tiefgekühltes / Fertiggerichte",
     "facetFilterQuery": "category=Tiefk%C3%BChlkost/Pizza%20%26%20Baguettes/Pizza/Pizza%20Funghi",
     "id": "Tiefkühlkost/Pizza & Baguettes/Pizza/Pizza Funghi/",
     "name": "Pizza Funghi",
@@ -9497,7 +9497,7 @@
   },
   "Tiefkühlkost/Pizza & Baguettes/Pizza/Pizza Hawaii/": {
     "active": true,
-    "code": "Alles",
+    "code": "Alles / Tiefgekühltes / Fertiggerichte",
     "facetFilterQuery": "category=Tiefk%C3%BChlkost/Pizza%20%26%20Baguettes/Pizza/Pizza%20Hawaii",
     "id": "Tiefkühlkost/Pizza & Baguettes/Pizza/Pizza Hawaii/",
     "name": "Pizza Hawaii",
@@ -9505,7 +9505,7 @@
   },
   "Tiefkühlkost/Pizza & Baguettes/Pizza/Pizza Hähnchen/": {
     "active": true,
-    "code": "Alles",
+    "code": "Alles / Tiefgekühltes / Fertiggerichte",
     "facetFilterQuery": "category=Tiefk%C3%BChlkost/Pizza%20%26%20Baguettes/Pizza/Pizza%20H%C3%A4hnchen",
     "id": "Tiefkühlkost/Pizza & Baguettes/Pizza/Pizza Hähnchen/",
     "name": "Pizza Hähnchen",
@@ -9513,7 +9513,7 @@
   },
   "Tiefkühlkost/Pizza & Baguettes/Pizza/Pizza Käse-Vielfalt/": {
     "active": true,
-    "code": "Alles",
+    "code": "Alles / Tiefgekühltes / Fertiggerichte",
     "facetFilterQuery": "category=Tiefk%C3%BChlkost/Pizza%20%26%20Baguettes/Pizza/Pizza%20K%C3%A4se-Vielfalt",
     "id": "Tiefkühlkost/Pizza & Baguettes/Pizza/Pizza Käse-Vielfalt/",
     "name": "Pizza Käse-Vielfalt",
@@ -9521,7 +9521,7 @@
   },
   "Tiefkühlkost/Pizza & Baguettes/Pizza/Pizza Margherita/": {
     "active": true,
-    "code": "Alles",
+    "code": "Alles / Tiefgekühltes / Fertiggerichte",
     "facetFilterQuery": "category=Tiefk%C3%BChlkost/Pizza%20%26%20Baguettes/Pizza/Pizza%20Margherita",
     "id": "Tiefkühlkost/Pizza & Baguettes/Pizza/Pizza Margherita/",
     "name": "Pizza Margherita",
@@ -9529,7 +9529,7 @@
   },
   "Tiefkühlkost/Pizza & Baguettes/Pizza/Pizza Minis/": {
     "active": true,
-    "code": "Alles",
+    "code": "Alles / Tiefgekühltes / Fertiggerichte",
     "facetFilterQuery": "category=Tiefk%C3%BChlkost/Pizza%20%26%20Baguettes/Pizza/Pizza%20Minis",
     "id": "Tiefkühlkost/Pizza & Baguettes/Pizza/Pizza Minis/",
     "name": "Pizza Minis",
@@ -9537,7 +9537,7 @@
   },
   "Tiefkühlkost/Pizza & Baguettes/Pizza/Pizza Mozzarella/": {
     "active": true,
-    "code": "Alles",
+    "code": "Alles / Tiefgekühltes / Fertiggerichte",
     "facetFilterQuery": "category=Tiefk%C3%BChlkost/Pizza%20%26%20Baguettes/Pizza/Pizza%20Mozzarella",
     "id": "Tiefkühlkost/Pizza & Baguettes/Pizza/Pizza Mozzarella/",
     "name": "Pizza Mozzarella",
@@ -9545,7 +9545,7 @@
   },
   "Tiefkühlkost/Pizza & Baguettes/Pizza/Pizza Salami/": {
     "active": true,
-    "code": "Alles",
+    "code": "Alles / Tiefgekühltes / Fertiggerichte",
     "facetFilterQuery": "category=Tiefk%C3%BChlkost/Pizza%20%26%20Baguettes/Pizza/Pizza%20Salami",
     "id": "Tiefkühlkost/Pizza & Baguettes/Pizza/Pizza Salami/",
     "name": "Pizza Salami",
@@ -9553,7 +9553,7 @@
   },
   "Tiefkühlkost/Pizza & Baguettes/Pizza/Pizza Schinken/": {
     "active": true,
-    "code": "Alles",
+    "code": "Alles / Tiefgekühltes / Fertiggerichte",
     "facetFilterQuery": "category=Tiefk%C3%BChlkost/Pizza%20%26%20Baguettes/Pizza/Pizza%20Schinken",
     "id": "Tiefkühlkost/Pizza & Baguettes/Pizza/Pizza Schinken/",
     "name": "Pizza Schinken",
@@ -9561,7 +9561,7 @@
   },
   "Tiefkühlkost/Pizza & Baguettes/Pizza/Pizza Speciale/": {
     "active": true,
-    "code": "Alles",
+    "code": "Alles / Tiefgekühltes / Fertiggerichte",
     "facetFilterQuery": "category=Tiefk%C3%BChlkost/Pizza%20%26%20Baguettes/Pizza/Pizza%20Speciale",
     "id": "Tiefkühlkost/Pizza & Baguettes/Pizza/Pizza Speciale/",
     "name": "Pizza Speciale",
@@ -9569,7 +9569,7 @@
   },
   "Tiefkühlkost/Pizza & Baguettes/Pizza/Pizza Spinat/": {
     "active": true,
-    "code": "Alles",
+    "code": "Alles / Tiefgekühltes / Fertiggerichte",
     "facetFilterQuery": "category=Tiefk%C3%BChlkost/Pizza%20%26%20Baguettes/Pizza/Pizza%20Spinat",
     "id": "Tiefkühlkost/Pizza & Baguettes/Pizza/Pizza Spinat/",
     "name": "Pizza Spinat",
@@ -9577,7 +9577,7 @@
   },
   "Tiefkühlkost/Pizza & Baguettes/Pizza/Pizza Thunfisch/": {
     "active": true,
-    "code": "Alles",
+    "code": "Alles / Tiefgekühltes / Fertiggerichte",
     "facetFilterQuery": "category=Tiefk%C3%BChlkost/Pizza%20%26%20Baguettes/Pizza/Pizza%20Thunfisch",
     "id": "Tiefkühlkost/Pizza & Baguettes/Pizza/Pizza Thunfisch/",
     "name": "Pizza Thunfisch",
@@ -9585,7 +9585,7 @@
   },
   "Tiefkühlkost/Pizza & Baguettes/Pizza/Pizza Türkisch/": {
     "active": true,
-    "code": "Alles",
+    "code": "Alles / Tiefgekühltes / Fertiggerichte",
     "facetFilterQuery": "category=Tiefk%C3%BChlkost/Pizza%20%26%20Baguettes/Pizza/Pizza%20T%C3%BCrkisch",
     "id": "Tiefkühlkost/Pizza & Baguettes/Pizza/Pizza Türkisch/",
     "name": "Pizza Türkisch",
@@ -9593,7 +9593,7 @@
   },
   "Tiefkühlkost/Pizza & Baguettes/Pizza/Pizza Vegetaria/": {
     "active": true,
-    "code": "Alles",
+    "code": "Alles / Tiefgekühltes / Fertiggerichte",
     "facetFilterQuery": "category=Tiefk%C3%BChlkost/Pizza%20%26%20Baguettes/Pizza/Pizza%20Vegetaria",
     "id": "Tiefkühlkost/Pizza & Baguettes/Pizza/Pizza Vegetaria/",
     "name": "Pizza Vegetaria",
@@ -9601,7 +9601,7 @@
   },
   "Tiefkühlkost/Pizza & Baguettes/Pizzabaguettes & Ofenbrote/": {
     "active": true,
-    "code": "Alles",
+    "code": "Alles / Tiefgekühltes / Fertiggerichte",
     "facetFilterQuery": "category=Tiefk%C3%BChlkost/Pizza%20%26%20Baguettes/Pizzabaguettes%20%26%20Ofenbrote",
     "id": "Tiefkühlkost/Pizza & Baguettes/Pizzabaguettes & Ofenbrote/",
     "name": "Pizzabaguettes & Ofenbrote",
@@ -9609,7 +9609,7 @@
   },
   "Tiefkühlkost/Tiefkühl-Backwaren/": {
     "active": true,
-    "code": "Alles",
+    "code": "Alles / Tiefgekühltes / Desserts & Backwaren",
     "facetFilterQuery": "category=Tiefk%C3%BChlkost/Tiefk%C3%BChl-Backwaren",
     "id": "Tiefkühlkost/Tiefkühl-Backwaren/",
     "name": "Tiefkühl-Backwaren",
@@ -9617,7 +9617,7 @@
   },
   "Tiefkühlkost/Tiefkühl-Backwaren/Tiefkühl-Aufbackbrötchen/": {
     "active": true,
-    "code": "Alles",
+    "code": "Alles / Tiefgekühltes / Desserts & Backwaren",
     "facetFilterQuery": "category=Tiefk%C3%BChlkost/Tiefk%C3%BChl-Backwaren/Tiefk%C3%BChl-Aufbackbr%C3%B6tchen",
     "id": "Tiefkühlkost/Tiefkühl-Backwaren/Tiefkühl-Aufbackbrötchen/",
     "name": "Tiefkühl-Aufbackbrötchen",
@@ -9625,7 +9625,7 @@
   },
   "Tiefkühlkost/Tiefkühl-Backwaren/Tiefkühl-Kuchen/": {
     "active": true,
-    "code": "Alles",
+    "code": "Alles / Tiefgekühltes / Desserts & Backwaren",
     "facetFilterQuery": "category=Tiefk%C3%BChlkost/Tiefk%C3%BChl-Backwaren/Tiefk%C3%BChl-Kuchen",
     "id": "Tiefkühlkost/Tiefkühl-Backwaren/Tiefkühl-Kuchen/",
     "name": "Tiefkühl-Kuchen",
@@ -9633,7 +9633,7 @@
   },
   "Tiefkühlkost/Tiefkühl-Backwaren/Tiefkühl-Laugengebäck/": {
     "active": true,
-    "code": "Alles",
+    "code": "Alles / Tiefgekühltes / Desserts & Backwaren",
     "facetFilterQuery": "category=Tiefk%C3%BChlkost/Tiefk%C3%BChl-Backwaren/Tiefk%C3%BChl-Laugengeb%C3%A4ck",
     "id": "Tiefkühlkost/Tiefkühl-Backwaren/Tiefkühl-Laugengebäck/",
     "name": "Tiefkühl-Laugengebäck",
@@ -9649,7 +9649,7 @@
   },
   "Tiefkühlkost/Tiefkühl-Backwaren/Tiefkühl-Torten/": {
     "active": true,
-    "code": "Alles",
+    "code": "Alles / Tiefgekühltes / Desserts & Backwaren",
     "facetFilterQuery": "category=Tiefk%C3%BChlkost/Tiefk%C3%BChl-Backwaren/Tiefk%C3%BChl-Torten",
     "id": "Tiefkühlkost/Tiefkühl-Backwaren/Tiefkühl-Torten/",
     "name": "Tiefkühl-Torten",
@@ -9657,7 +9657,7 @@
   },
   "Tiefkühlkost/Tiefkühl-Fertiggerichte/": {
     "active": true,
-    "code": "Alles",
+    "code": "Alles / Tiefgekühltes / Fertiggerichte",
     "facetFilterQuery": "category=Tiefk%C3%BChlkost/Tiefk%C3%BChl-Fertiggerichte",
     "id": "Tiefkühlkost/Tiefkühl-Fertiggerichte/",
     "name": "Tiefkühl-Fertiggerichte",
@@ -9665,7 +9665,7 @@
   },
   "Tiefkühlkost/Tiefkühl-Fertiggerichte/Tiefkühl-Backofengerichte/": {
     "active": true,
-    "code": "Alles",
+    "code": "Alles / Tiefgekühltes / Fertiggerichte",
     "facetFilterQuery": "category=Tiefk%C3%BChlkost/Tiefk%C3%BChl-Fertiggerichte/Tiefk%C3%BChl-Backofengerichte",
     "id": "Tiefkühlkost/Tiefkühl-Fertiggerichte/Tiefkühl-Backofengerichte/",
     "name": "Tiefkühl-Backofengerichte",
@@ -9673,7 +9673,7 @@
   },
   "Tiefkühlkost/Tiefkühl-Fertiggerichte/Tiefkühl-Mikrowellengerichte/": {
     "active": true,
-    "code": "Alles",
+    "code": "Alles / Tiefgekühltes / Fertiggerichte",
     "facetFilterQuery": "category=Tiefk%C3%BChlkost/Tiefk%C3%BChl-Fertiggerichte/Tiefk%C3%BChl-Mikrowellengerichte",
     "id": "Tiefkühlkost/Tiefkühl-Fertiggerichte/Tiefkühl-Mikrowellengerichte/",
     "name": "Tiefkühl-Mikrowellengerichte",
@@ -9681,7 +9681,7 @@
   },
   "Tiefkühlkost/Tiefkühl-Fertiggerichte/Tiefkühl-Pfannengerichte/": {
     "active": true,
-    "code": "Alles",
+    "code": "Alles / Tiefgekühltes / Fertiggerichte",
     "facetFilterQuery": "category=Tiefk%C3%BChlkost/Tiefk%C3%BChl-Fertiggerichte/Tiefk%C3%BChl-Pfannengerichte",
     "id": "Tiefkühlkost/Tiefkühl-Fertiggerichte/Tiefkühl-Pfannengerichte/",
     "name": "Tiefkühl-Pfannengerichte",
@@ -9689,7 +9689,7 @@
   },
   "Tiefkühlkost/Tiefkühl-Fertiggerichte/Tiefkühl-Snacks/": {
     "active": true,
-    "code": "Alles",
+    "code": "Alles / Tiefgekühltes / Snacks",
     "facetFilterQuery": "category=Tiefk%C3%BChlkost/Tiefk%C3%BChl-Fertiggerichte/Tiefk%C3%BChl-Snacks",
     "id": "Tiefkühlkost/Tiefkühl-Fertiggerichte/Tiefkühl-Snacks/",
     "name": "Tiefkühl-Snacks",
@@ -9697,7 +9697,7 @@
   },
   "Tiefkühlkost/Tiefkühl-Fisch/": {
     "active": true,
-    "code": "Alles",
+    "code": "Alles / Tiefgekühltes / Fleisch & Fisch",
     "facetFilterQuery": "category=Tiefk%C3%BChlkost/Tiefk%C3%BChl-Fisch",
     "id": "Tiefkühlkost/Tiefkühl-Fisch/",
     "name": "Tiefkühl-Fisch",
@@ -9705,7 +9705,7 @@
   },
   "Tiefkühlkost/Tiefkühl-Fisch/Fischstäbchen/": {
     "active": true,
-    "code": "Alles",
+    "code": "Alles / Tiefgekühltes / Fleisch & Fisch",
     "facetFilterQuery": "category=Tiefk%C3%BChlkost/Tiefk%C3%BChl-Fisch/Fischst%C3%A4bchen",
     "id": "Tiefkühlkost/Tiefkühl-Fisch/Fischstäbchen/",
     "name": "Fischstäbchen",
@@ -9713,7 +9713,7 @@
   },
   "Tiefkühlkost/Tiefkühl-Fisch/Schlemmerfilets/": {
     "active": true,
-    "code": "Alles",
+    "code": "Alles / Tiefgekühltes / Fleisch & Fisch",
     "facetFilterQuery": "category=Tiefk%C3%BChlkost/Tiefk%C3%BChl-Fisch/Schlemmerfilets",
     "id": "Tiefkühlkost/Tiefkühl-Fisch/Schlemmerfilets/",
     "name": "Schlemmerfilets",
@@ -9721,7 +9721,7 @@
   },
   "Tiefkühlkost/Tiefkühl-Fisch/Tiefkühl-Backfisch/": {
     "active": true,
-    "code": "Alles",
+    "code": "Alles / Tiefgekühltes / Fleisch & Fisch",
     "facetFilterQuery": "category=Tiefk%C3%BChlkost/Tiefk%C3%BChl-Fisch/Tiefk%C3%BChl-Backfisch",
     "id": "Tiefkühlkost/Tiefkühl-Fisch/Tiefkühl-Backfisch/",
     "name": "Tiefkühl-Backfisch",
@@ -9737,7 +9737,7 @@
   },
   "Tiefkühlkost/Tiefkühl-Fisch/Tiefkühl-Meeresfrüchte/": {
     "active": true,
-    "code": "Alles",
+    "code": "Alles / Tiefgekühltes / Fleisch & Fisch",
     "facetFilterQuery": "category=Tiefk%C3%BChlkost/Tiefk%C3%BChl-Fisch/Tiefk%C3%BChl-Meeresfr%C3%BCchte",
     "id": "Tiefkühlkost/Tiefkühl-Fisch/Tiefkühl-Meeresfrüchte/",
     "name": "Tiefkühl-Meeresfrüchte",
@@ -9745,7 +9745,7 @@
   },
   "Tiefkühlkost/Tiefkühl-Fleisch/": {
     "active": true,
-    "code": "Alles",
+    "code": "Alles / Tiefgekühltes / Fleisch & Fisch",
     "facetFilterQuery": "category=Tiefk%C3%BChlkost/Tiefk%C3%BChl-Fleisch",
     "id": "Tiefkühlkost/Tiefkühl-Fleisch/",
     "name": "Tiefkühl-Fleisch",
@@ -9753,7 +9753,7 @@
   },
   "Tiefkühlkost/Tiefkühl-Fleisch/Fleisch & Wild/": {
     "active": true,
-    "code": "Alles",
+    "code": "Alles / Tiefgekühltes / Fleisch & Fisch",
     "facetFilterQuery": "category=Tiefk%C3%BChlkost/Tiefk%C3%BChl-Fleisch/Fleisch%20%26%20Wild",
     "id": "Tiefkühlkost/Tiefkühl-Fleisch/Fleisch & Wild/",
     "name": "Fleisch & Wild",
@@ -9761,7 +9761,7 @@
   },
   "Tiefkühlkost/Tiefkühl-Fleisch/Tiefkühl-Geflügel/": {
     "active": true,
-    "code": "Alles",
+    "code": "Alles / Tiefgekühltes / Fleisch & Fisch",
     "facetFilterQuery": "category=Tiefk%C3%BChlkost/Tiefk%C3%BChl-Fleisch/Tiefk%C3%BChl-Gefl%C3%BCgel",
     "id": "Tiefkühlkost/Tiefkühl-Fleisch/Tiefkühl-Geflügel/",
     "name": "Tiefkühl-Geflügel",
@@ -9769,7 +9769,7 @@
   },
   "Tiefkühlkost/Tiefkühl-Fleisch/Tiefkühl-Geflügel/Tiefkühl-Ente/": {
     "active": true,
-    "code": "Alles",
+    "code": "Alles / Tiefgekühltes / Fleisch & Fisch",
     "facetFilterQuery": "category=Tiefk%C3%BChlkost/Tiefk%C3%BChl-Fleisch/Tiefk%C3%BChl-Gefl%C3%BCgel/Tiefk%C3%BChl-Ente",
     "id": "Tiefkühlkost/Tiefkühl-Fleisch/Tiefkühl-Geflügel/Tiefkühl-Ente/",
     "name": "Tiefkühl-Ente",
@@ -9777,7 +9777,7 @@
   },
   "Tiefkühlkost/Tiefkühl-Fleisch/Tiefkühl-Geflügel/Tiefkühl-Gans/": {
     "active": true,
-    "code": "Alles",
+    "code": "Alles / Tiefgekühltes / Fleisch & Fisch",
     "facetFilterQuery": "category=Tiefk%C3%BChlkost/Tiefk%C3%BChl-Fleisch/Tiefk%C3%BChl-Gefl%C3%BCgel/Tiefk%C3%BChl-Gans",
     "id": "Tiefkühlkost/Tiefkühl-Fleisch/Tiefkühl-Geflügel/Tiefkühl-Gans/",
     "name": "Tiefkühl-Gans",
@@ -9785,7 +9785,7 @@
   },
   "Tiefkühlkost/Tiefkühl-Fleisch/Tiefkühl-Geflügel/Tiefkühl-Huhn/": {
     "active": true,
-    "code": "Alles",
+    "code": "Alles / Tiefgekühltes / Fleisch & Fisch",
     "facetFilterQuery": "category=Tiefk%C3%BChlkost/Tiefk%C3%BChl-Fleisch/Tiefk%C3%BChl-Gefl%C3%BCgel/Tiefk%C3%BChl-Huhn",
     "id": "Tiefkühlkost/Tiefkühl-Fleisch/Tiefkühl-Geflügel/Tiefkühl-Huhn/",
     "name": "Tiefkühl-Huhn",
@@ -9793,7 +9793,7 @@
   },
   "Tiefkühlkost/Tiefkühl-Fleisch/Tiefkühl-Geflügel/Tiefkühl-Pute/": {
     "active": true,
-    "code": "Alles",
+    "code": "Alles / Tiefgekühltes / Fleisch & Fisch",
     "facetFilterQuery": "category=Tiefk%C3%BChlkost/Tiefk%C3%BChl-Fleisch/Tiefk%C3%BChl-Gefl%C3%BCgel/Tiefk%C3%BChl-Pute",
     "id": "Tiefkühlkost/Tiefkühl-Fleisch/Tiefkühl-Geflügel/Tiefkühl-Pute/",
     "name": "Tiefkühl-Pute",
@@ -9801,7 +9801,7 @@
   },
   "Tiefkühlkost/Tiefkühl-Gemüse/": {
     "active": true,
-    "code": "Alles",
+    "code": "Alles / Tiefgekühltes / Gemüse",
     "facetFilterQuery": "category=Tiefk%C3%BChlkost/Tiefk%C3%BChl-Gem%C3%BCse",
     "id": "Tiefkühlkost/Tiefkühl-Gemüse/",
     "name": "Tiefkühl-Gemüse",
@@ -9809,7 +9809,7 @@
   },
   "Tiefkühlkost/Tiefkühl-Gemüse/Tiefkühl-Bohnen, -Erbsen & -Mais/": {
     "active": true,
-    "code": "Alles",
+    "code": "Alles / Tiefgekühltes / Gemüse",
     "facetFilterQuery": "category=Tiefk%C3%BChlkost/Tiefk%C3%BChl-Gem%C3%BCse/Tiefk%C3%BChl-Bohnen,%20-Erbsen%20%26%20-Mais",
     "id": "Tiefkühlkost/Tiefkühl-Gemüse/Tiefkühl-Bohnen, -Erbsen & -Mais/",
     "name": "Tiefkühl-Bohnen, -Erbsen & -Mais",
@@ -9817,7 +9817,7 @@
   },
   "Tiefkühlkost/Tiefkühl-Gemüse/Tiefkühl-Butter- & Rahmgemüse/": {
     "active": true,
-    "code": "Alles",
+    "code": "Alles / Tiefgekühltes / Gemüse",
     "facetFilterQuery": "category=Tiefk%C3%BChlkost/Tiefk%C3%BChl-Gem%C3%BCse/Tiefk%C3%BChl-Butter-%20%26%20Rahmgem%C3%BCse",
     "id": "Tiefkühlkost/Tiefkühl-Gemüse/Tiefkühl-Butter- & Rahmgemüse/",
     "name": "Tiefkühl-Butter- & Rahmgemüse",
@@ -9825,7 +9825,7 @@
   },
   "Tiefkühlkost/Tiefkühl-Gemüse/Tiefkühl-Gemüsemischungen/": {
     "active": true,
-    "code": "Alles",
+    "code": "Alles / Tiefgekühltes / Gemüse",
     "facetFilterQuery": "category=Tiefk%C3%BChlkost/Tiefk%C3%BChl-Gem%C3%BCse/Tiefk%C3%BChl-Gem%C3%BCsemischungen",
     "id": "Tiefkühlkost/Tiefkühl-Gemüse/Tiefkühl-Gemüsemischungen/",
     "name": "Tiefkühl-Gemüsemischungen",
@@ -9833,7 +9833,7 @@
   },
   "Tiefkühlkost/Tiefkühl-Gemüse/Tiefkühl-Gemüsepfannen/": {
     "active": true,
-    "code": "Alles",
+    "code": "Alles / Tiefgekühltes / Gemüse",
     "facetFilterQuery": "category=Tiefk%C3%BChlkost/Tiefk%C3%BChl-Gem%C3%BCse/Tiefk%C3%BChl-Gem%C3%BCsepfannen",
     "id": "Tiefkühlkost/Tiefkühl-Gemüse/Tiefkühl-Gemüsepfannen/",
     "name": "Tiefkühl-Gemüsepfannen",
@@ -9841,7 +9841,7 @@
   },
   "Tiefkühlkost/Tiefkühl-Gemüse/Tiefkühl-Kohlgemüse/": {
     "active": true,
-    "code": "Alles",
+    "code": "Alles / Tiefgekühltes / Gemüse",
     "facetFilterQuery": "category=Tiefk%C3%BChlkost/Tiefk%C3%BChl-Gem%C3%BCse/Tiefk%C3%BChl-Kohlgem%C3%BCse",
     "id": "Tiefkühlkost/Tiefkühl-Gemüse/Tiefkühl-Kohlgemüse/",
     "name": "Tiefkühl-Kohlgemüse",
@@ -9849,7 +9849,7 @@
   },
   "Tiefkühlkost/Tiefkühl-Gemüse/Tiefkühl-Kohlgemüse/Tiefkühl-Blumenkohl/": {
     "active": true,
-    "code": "Alles",
+    "code": "Alles / Tiefgekühltes / Gemüse",
     "facetFilterQuery": "category=Tiefk%C3%BChlkost/Tiefk%C3%BChl-Gem%C3%BCse/Tiefk%C3%BChl-Kohlgem%C3%BCse/Tiefk%C3%BChl-Blumenkohl",
     "id": "Tiefkühlkost/Tiefkühl-Gemüse/Tiefkühl-Kohlgemüse/Tiefkühl-Blumenkohl/",
     "name": "Tiefkühl-Blumenkohl",
@@ -9857,7 +9857,7 @@
   },
   "Tiefkühlkost/Tiefkühl-Gemüse/Tiefkühl-Kohlgemüse/Tiefkühl-Brokkoli/": {
     "active": true,
-    "code": "Alles",
+    "code": "Alles / Tiefgekühltes / Gemüse",
     "facetFilterQuery": "category=Tiefk%C3%BChlkost/Tiefk%C3%BChl-Gem%C3%BCse/Tiefk%C3%BChl-Kohlgem%C3%BCse/Tiefk%C3%BChl-Brokkoli",
     "id": "Tiefkühlkost/Tiefkühl-Gemüse/Tiefkühl-Kohlgemüse/Tiefkühl-Brokkoli/",
     "name": "Tiefkühl-Brokkoli",
@@ -9865,7 +9865,7 @@
   },
   "Tiefkühlkost/Tiefkühl-Gemüse/Tiefkühl-Kohlgemüse/Tiefkühl-Grünkohl/": {
     "active": true,
-    "code": "Alles",
+    "code": "Alles / Tiefgekühltes / Gemüse",
     "facetFilterQuery": "category=Tiefk%C3%BChlkost/Tiefk%C3%BChl-Gem%C3%BCse/Tiefk%C3%BChl-Kohlgem%C3%BCse/Tiefk%C3%BChl-Gr%C3%BCnkohl",
     "id": "Tiefkühlkost/Tiefkühl-Gemüse/Tiefkühl-Kohlgemüse/Tiefkühl-Grünkohl/",
     "name": "Tiefkühl-Grünkohl",
@@ -9873,7 +9873,7 @@
   },
   "Tiefkühlkost/Tiefkühl-Gemüse/Tiefkühl-Kohlgemüse/Tiefkühl-Rosenkohl/": {
     "active": true,
-    "code": "Alles",
+    "code": "Alles / Tiefgekühltes / Gemüse",
     "facetFilterQuery": "category=Tiefk%C3%BChlkost/Tiefk%C3%BChl-Gem%C3%BCse/Tiefk%C3%BChl-Kohlgem%C3%BCse/Tiefk%C3%BChl-Rosenkohl",
     "id": "Tiefkühlkost/Tiefkühl-Gemüse/Tiefkühl-Kohlgemüse/Tiefkühl-Rosenkohl/",
     "name": "Tiefkühl-Rosenkohl",
@@ -9881,7 +9881,7 @@
   },
   "Tiefkühlkost/Tiefkühl-Gemüse/Tiefkühl-Kohlgemüse/Tiefkühl-Rotkohl/": {
     "active": true,
-    "code": "Alles",
+    "code": "Alles / Tiefgekühltes / Gemüse",
     "facetFilterQuery": "category=Tiefk%C3%BChlkost/Tiefk%C3%BChl-Gem%C3%BCse/Tiefk%C3%BChl-Kohlgem%C3%BCse/Tiefk%C3%BChl-Rotkohl",
     "id": "Tiefkühlkost/Tiefkühl-Gemüse/Tiefkühl-Kohlgemüse/Tiefkühl-Rotkohl/",
     "name": "Tiefkühl-Rotkohl",
@@ -9889,7 +9889,7 @@
   },
   "Tiefkühlkost/Tiefkühl-Gemüse/Tiefkühl-Pilze/": {
     "active": true,
-    "code": "Alles",
+    "code": "Alles / Tiefgekühltes / Gemüse",
     "facetFilterQuery": "category=Tiefk%C3%BChlkost/Tiefk%C3%BChl-Gem%C3%BCse/Tiefk%C3%BChl-Pilze",
     "id": "Tiefkühlkost/Tiefkühl-Gemüse/Tiefkühl-Pilze/",
     "name": "Tiefkühl-Pilze",
@@ -9897,7 +9897,7 @@
   },
   "Tiefkühlkost/Tiefkühl-Gemüse/Tiefkühl-Spinat/": {
     "active": true,
-    "code": "Alles",
+    "code": "Alles / Tiefgekühltes / Gemüse",
     "facetFilterQuery": "category=Tiefk%C3%BChlkost/Tiefk%C3%BChl-Gem%C3%BCse/Tiefk%C3%BChl-Spinat",
     "id": "Tiefkühlkost/Tiefkühl-Gemüse/Tiefkühl-Spinat/",
     "name": "Tiefkühl-Spinat",
@@ -9905,7 +9905,7 @@
   },
   "Tiefkühlkost/Tiefkühl-Kartoffelprodukte/": {
     "active": true,
-    "code": "Alles",
+    "code": "Alles / Tiefgekühltes / Kartoffelprodukte",
     "facetFilterQuery": "category=Tiefk%C3%BChlkost/Tiefk%C3%BChl-Kartoffelprodukte",
     "id": "Tiefkühlkost/Tiefkühl-Kartoffelprodukte/",
     "name": "Tiefkühl-Kartoffelprodukte",
@@ -9913,7 +9913,7 @@
   },
   "Tiefkühlkost/Tiefkühl-Kartoffelprodukte/Pommes/": {
     "active": true,
-    "code": "Alles",
+    "code": "Alles / Tiefgekühltes / Kartoffelprodukte",
     "facetFilterQuery": "category=Tiefk%C3%BChlkost/Tiefk%C3%BChl-Kartoffelprodukte/Pommes",
     "id": "Tiefkühlkost/Tiefkühl-Kartoffelprodukte/Pommes/",
     "name": "Pommes",
@@ -9921,7 +9921,7 @@
   },
   "Tiefkühlkost/Tiefkühl-Kräuter/": {
     "active": true,
-    "code": "Alles",
+    "code": "Alles / Tiefgekühltes / Kräuter",
     "facetFilterQuery": "category=Tiefk%C3%BChlkost/Tiefk%C3%BChl-Kr%C3%A4uter",
     "id": "Tiefkühlkost/Tiefkühl-Kräuter/",
     "name": "Tiefkühl-Kräuter",
@@ -9929,7 +9929,7 @@
   },
   "Tiefkühlkost/Tiefkühl-Obst/": {
     "active": true,
-    "code": "Alles",
+    "code": "Alles / Tiefgekühltes / Obst",
     "facetFilterQuery": "category=Tiefk%C3%BChlkost/Tiefk%C3%BChl-Obst",
     "id": "Tiefkühlkost/Tiefkühl-Obst/",
     "name": "Tiefkühl-Obst",
