@@ -11,6 +11,7 @@ const storeUnits: Record<string, UnitMapping> = {
     "-g-schale": { unit: "g", factor: 1 },
     "-g-packung": { unit: "g", factor: 1 },
     "-g-pack": { unit: "g", factor: 1 },
+    "-g-netz": { unit: "g", factor: 1 },
     "-kg-tüte": { unit: "g", factor: 1000 },
     "er-pack": { unit: "stk", factor: 1 },
     "beutel": { unit: "srv", factor: 1 },

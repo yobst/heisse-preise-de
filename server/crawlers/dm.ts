@@ -14,7 +14,6 @@ const storeUnits: Record<string, UnitMapping> = {
     portion: { unit: "srv", factor: 1 },
     satz: { unit: "stk", factor: 1 },
     tablette: { unit: "stk", factor: 1 },
-    mg: { unit: "g", factor: 0.001 },
 };
 
 function getSubcategories(category: any) {
@@ -100,8 +99,7 @@ export class DmCrawler implements Crawler {
         const rawQuantity = rawItem.netQuantityContent || rawItem.basePriceQuantity;
         const rawUnit = rawItem.contentUnit || rawItem.basePriceUnit;
         const defaultValue: { quantity: number; unit: Unit } = { quantity: 1, unit: "stk" };
-        const unitAndQuantity = utils.normalizeUnitAndQuantity(rawItem.name, rawUnit, rawQuantity, storeUnits, this.store.displayName, defaultValue);
-
+        const { quantity, unit } = utils.normalizeUnitAndQuantity(rawItem.name, rawUnit, rawQuantity, storeUnits, this.store.displayName, defaultValue);
         return new Item(
             this.store.id,
             rawItem.gtin,
@@ -111,8 +109,8 @@ export class DmCrawler implements Crawler {
             price,
             [{ date: today, price: price, unitPrice: 0 }],
             isWeighted,
-            unitAndQuantity.unit,
-            unitAndQuantity.quantity,
+            unit,
+            quantity,
             bio,
             rawItem.relativeProductUrl
         );

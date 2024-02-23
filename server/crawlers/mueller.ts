@@ -17,6 +17,8 @@ const storeUnits: Record<string, UnitMapping> = {
     undefined: { unit: "stk", factor: 1 },
 };
 
+const invalidUnits = new Set(["fach", "-fach", "-farbig", "flaschengrößen"]);
+
 const categoriesIncludeList = ["Drogerie", "Genusswelt", "Naturshop"];
 
 const subcategoriesExcludeList = [
@@ -110,8 +112,38 @@ export class MuellerCrawler implements Crawler {
         const unavailable = rawItem.availabilityInfo ? rawItem.availabilityInfo : false;
         const isWeighted = false;
         const defaultUnit: { quantity: number; unit: Unit } = { quantity: 1, unit: "stk" };
-        const { rawUnit, rawQuantity } = utils.extractRawUnitAndQuantityFromEndOfString(rawItem.quantityOfContent, defaultUnit);
-        const unitAndQuantity = utils.normalizeUnitAndQuantity(info.name, rawUnit, rawQuantity, storeUnits, this.store.displayName, defaultUnit);
+
+        let { rawUnit, rawQuantity } = utils.extractRawUnitAndQuantityFromEndOfString(rawItem.quantityOfContent, defaultUnit);
+        if ((rawUnit == "stk" && rawQuantity == 1) || invalidUnits.has(rawUnit)) {
+            let res = utils.extractRawUnitAndQuantityFromEndOfString(rawItem.name, defaultUnit);
+            rawUnit = res.rawUnit;
+            rawQuantity = res.rawQuantity;
+        }
+
+        if ((rawUnit == "stk" && rawQuantity == 1) || invalidUnits.has(rawUnit)) {
+            const regex = /(?:\s|^)((?:\d+x)*\s*)?((?:(?:(?:\d+,)?\d+)\/)*)((?:\d+,)?\d+)\s*(\S+)(?:\s|$)/g;
+            const matches = regex.exec(rawItem.name);
+    
+            if (matches) {
+                rawUnit = matches[4];
+                rawQuantity = matches[3]? parseFloat(matches[3].replace(',','.')) : 1;
+                if (matches[1] && matches[1].trim().length > 0) {
+                    matches[1].split("x").forEach((q: string) => {
+                        const trimmed = q.trim();
+                        if (trimmed.length > 0) {
+                            rawQuantity = rawQuantity * parseFloat(trimmed.replace(",","."));
+                        }
+                    });
+                }
+            }
+        }
+        
+        if (invalidUnits.has(rawUnit)) {
+            rawQuantity = 1;
+            rawUnit = "stk";
+        }
+
+        const { unit, quantity } = utils.normalizeUnitAndQuantity(info.name, rawUnit, rawQuantity, storeUnits, this.store.displayName, defaultUnit);
 
         let rawCategory = info.category;
         if (!(rawCategory in this.categories) && rawCategory.startsWith("Naturshop")) {
@@ -128,8 +160,8 @@ export class MuellerCrawler implements Crawler {
             price,
             [{ date: today, price: price, unitPrice: 0.0 }],
             isWeighted,
-            unitAndQuantity.unit,
-            unitAndQuantity.quantity,
+            unit,
+            quantity,
             bio,
             rawItem.productUrl
         );

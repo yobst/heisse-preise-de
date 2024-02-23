@@ -1,112 +1,112 @@
 {
   "001f2aa4-3d3f-4af4-b2f3-1066ff87335e": {
     "active": true,
-    "code": "All / Obst",
+    "code": "Alles / Frisches Obst & Gemüse / Obst",
     "id": "001f2aa4-3d3f-4af4-b2f3-1066ff87335e",
     "name": "Melonen",
     "slug": "obst-melonen"
   },
   "0163851a-e62e-4f54-b867-cb1ec6e6a7fd": {
     "active": true,
-    "code": "All / Gemüse",
+    "code": "Alles / Ungekühltes / Fertiggerichte & Konserven / Gemüsekonserven",
     "id": "0163851a-e62e-4f54-b867-cb1ec6e6a7fd",
     "name": "Tomatenkonserven",
     "slug": "nudeln-reis-internationale-kueche-tomatenkonserven"
   },
   "02ab0533-5b79-42ca-8451-5c02f39242a5": {
     "active": true,
-    "code": "All / Weitere Verarbeitete Lebensmittel / Kaffee",
+    "code": "Alles / Ungekühltes / Kaffee, Tee & Co. / Kaffee",
     "id": "02ab0533-5b79-42ca-8451-5c02f39242a5",
     "name": "Filterkaffee",
     "slug": "kaffee-tee-kakao-filterkaffee"
   },
   "02f29519-171b-4a4e-8d54-6d2956f5d1c6": {
     "active": true,
-    "code": "All",
+    "code": "Alles / Ungekühltes / Backen & Dessertpulver",
     "id": "02f29519-171b-4a4e-8d54-6d2956f5d1c6",
     "name": "Back- & Dessertmischungen",
     "slug": "konserven-instantgerichte-backen-back-dessertmischungen"
   },
   "041e1fef-f2f6-4948-8344-8ca047c91d5b": {
     "active": true,
-    "code": "All / Fleisch",
+    "code": "Alles / Gekühltes / Fisch & Fleisch / Wurst & Aufschnitt",
     "id": "041e1fef-f2f6-4948-8344-8ca047c91d5b",
     "name": "Fleischwurst & Mortadella",
     "slug": "aufschnitt-brotaufstriche-fleischwurst-mortadella"
   },
   "04b99651-4c49-4cd8-a47c-15a53be4fbf8": {
     "active": true,
-    "code": "All / Backwaren",
+    "code": "Alles / Ungekühltes / Frühstück / Abgepackte Backwaren / Süße Backwaren",
     "id": "04b99651-4c49-4cd8-a47c-15a53be4fbf8",
     "name": "Süße Backwaren",
     "slug": "backwaren-suesse-backwaren"
   },
   "04e3c78b-317c-4164-b34e-bc365e7f5f42": {
     "active": true,
-    "code": "All / Obst",
+    "code": "Alles / Tiefgekühltes / Obst",
     "id": "04e3c78b-317c-4164-b34e-bc365e7f5f42",
     "name": "Tiefkühl-Obst",
     "slug": "obst-tiefkuehl-obst"
   },
   "0512698e-f79d-480b-b815-485fa3bde381": {
     "active": true,
-    "code": "All / Weitere Verarbeitete Lebensmittel",
+    "code": "Alles / Ungekühltes / Frühstück / Cerealien & Müsli",
     "id": "0512698e-f79d-480b-b815-485fa3bde381",
     "name": "Cerealien",
     "slug": "cerealien-aufstriche-backen-cerealien"
   },
   "05a58fa9-9864-4310-a73b-245c359b78ac": {
     "active": true,
-    "code": "All",
+    "code": "Alles",
     "id": "05a58fa9-9864-4310-a73b-245c359b78ac",
     "name": "Asien",
     "slug": "nudeln-reis-internationale-kueche-asien"
   },
   "06609987-d176-4c11-85b1-868439c389d4": {
     "active": true,
-    "code": "All",
+    "code": "Alles",
     "id": "06609987-d176-4c11-85b1-868439c389d4",
     "name": "Süße & Salzige Snacks",
     "slug": "angebote-B-suesse-salzige-snacks"
   },
   "08e630ad-ed0a-449e-b156-c77a07ea04fa": {
     "active": true,
-    "code": "All / Getränke",
+    "code": "Alles / Getränke / Alkoholische Getränke",
     "id": "08e630ad-ed0a-449e-b156-c77a07ea04fa",
     "name": "Sonstige Spirituosen",
     "slug": "spirituosen-mehr-sonstige-spirituosen"
   },
   "093b1a6d-da23-4ca6-8526-d3b3571fcef8": {
     "active": true,
-    "code": "All / Backwaren",
+    "code": "Alles / Frische Backwaren / Brot",
     "id": "093b1a6d-da23-4ca6-8526-d3b3571fcef8",
     "name": "Frisches Brot",
     "slug": "backwaren-frisches-brot"
   },
   "094204f3-141c-44c8-bb6b-0c2030a48305": {
     "active": true,
-    "code": "All",
+    "code": "Alles",
     "id": "094204f3-141c-44c8-bb6b-0c2030a48305",
     "name": "Käse- & Wurstalternativen",
     "slug": "vegan-vegetarisch-kaese-wurstalternativen"
   },
   "09a97075-ae4f-44aa-8ade-26c77c6d941d": {
     "active": true,
-    "code": "All / Süßwaren",
+    "code": "Alles / Ungekühltes / Snacks / Süße Snacks / Süßwaren / Schokolade & Schokoriegel",
     "id": "09a97075-ae4f-44aa-8ade-26c77c6d941d",
     "name": "Pralinen",
     "slug": "suesse-snacks-pralinen"
   },
   "0dc0c095-425c-46f3-9bf8-69c248a0ecca": {
     "active": true,
-    "code": "All / Fleisch",
+    "code": "Alles / Gekühltes / Fisch & Fleisch / Wurst & Aufschnitt / Schinken & Speck",
     "id": "0dc0c095-425c-46f3-9bf8-69c248a0ecca",
     "name": "Roher Schinken & Speck",
     "slug": "aufschnitt-brotaufstriche-roher-schinken-speck"
   },
   "0dc6bb6a-7925-4b2f-90be-34811d503c38": {
     "active": true,
-    "code": "All",
+    "code": "Alles / Gekühltes / Frisch & Fertig",
     "id": "0dc6bb6a-7925-4b2f-90be-34811d503c38",
     "name": "Feinkost & Aufstriche",
     "slug": "vegan-vegetarisch-feinkost-aufstriche"
@@ -114,7 +114,7 @@
   "0ebfabdf-0cab-4006-9ef8-f3bf1aaa52b8": {
     "active": true,
     "backgroundImage": "https://res.cloudinary.com/goflink/image/upload/w_600,h_800/de/category-backgrounds/50_NOV_Fitness2_04Dec23.png",
-    "code": "All",
+    "code": "Alles",
     "href": "/v2/categories/fitness",
     "icon": "https://res.cloudinary.com/goflink/image/upload/de/icons/NEW_icon_Fitness.png",
     "id": "0ebfabdf-0cab-4006-9ef8-f3bf1aaa52b8",
@@ -123,133 +123,133 @@
   },
   "0eea2957-0992-4cb5-a8f4-4ed06f1e2d4e": {
     "active": true,
-    "code": "All",
+    "code": "Alles",
     "id": "0eea2957-0992-4cb5-a8f4-4ed06f1e2d4e",
     "name": "Haushaltsprodukte",
     "slug": "haushalt-haushaltsprodukte"
   },
   "0f232bf4-e777-46dc-8ff6-1c18ad63fb3d": {
     "active": true,
-    "code": "All",
+    "code": "Alles",
     "id": "0f232bf4-e777-46dc-8ff6-1c18ad63fb3d",
     "name": "Waffeleis",
     "slug": "eis-waffeleis"
   },
   "0f49412e-9cdd-403f-9e48-bf00d0b83cc5": {
     "active": true,
-    "code": "All / Weitere Verarbeitete Lebensmittel / Kaffee",
+    "code": "Alles / Ungekühltes / Kaffee, Tee & Co. / Kaffee",
     "id": "0f49412e-9cdd-403f-9e48-bf00d0b83cc5",
     "name": "Kaffeepads",
     "slug": "kaffee-tee-kakao-kaffeepads"
   },
   "0f97c6a8-9d46-444f-a37a-316d864c39a9": {
     "active": true,
-    "code": "All / Süßwaren",
+    "code": "Alles / Ungekühltes / Snacks / Süße Snacks / Süßwaren",
     "id": "0f97c6a8-9d46-444f-a37a-316d864c39a9",
     "name": "Bonbons, Lutscher & Kaugummi",
     "slug": "suesse-snacks-bonbons-lutscher-kaugummi"
   },
   "109214b2-4cb5-4f0e-988e-1b81975a1715": {
     "active": true,
-    "code": "All",
+    "code": "Alles",
     "id": "109214b2-4cb5-4f0e-988e-1b81975a1715",
     "name": "Wäsche",
     "slug": "haushalt-waesche"
   },
   "10a70403-bffa-472a-876d-c92bc757661f": {
     "active": true,
-    "code": "All",
+    "code": "Alles",
     "id": "10a70403-bffa-472a-876d-c92bc757661f",
     "name": "Eiswürfel",
     "slug": "tiefkuehl-eiswuerfel"
   },
   "1165e143-3958-408d-a66c-ebb40a2b9929": {
     "active": true,
-    "code": "All / Getreide und Getreideprodukte / Reis",
+    "code": "Alles / Ungekühltes / Beilagen / Reis",
     "id": "1165e143-3958-408d-a66c-ebb40a2b9929",
     "name": "Reis",
     "slug": "nudeln-reis-internationale-kueche-reis"
   },
   "135a4b79-2ab6-40d9-95a7-ebadc6cfefea": {
     "active": true,
-    "code": "All / Getränke",
+    "code": "Alles / Getränke / Wasser mit Geschmack",
     "id": "135a4b79-2ab6-40d9-95a7-ebadc6cfefea",
     "name": "Wasser mit Geschmack",
     "slug": "alkoholfreie-getraenke-wasser-mit-geschmack"
   },
   "13c70e56-c7c8-4eda-ba4a-b672437c7857": {
     "active": true,
-    "code": "All / Weitere Verarbeitete Lebensmittel / Kaffee",
+    "code": "Alles / Ungekühltes / Kaffee, Tee & Co. / Kaffee",
     "id": "13c70e56-c7c8-4eda-ba4a-b672437c7857",
     "name": "Coffee to Go",
     "slug": "kaffee-tee-kakao-coffee-to-go"
   },
   "13f5f8dd-ac76-4dfb-a168-98ba78721d6d": {
     "active": true,
-    "code": "All / Getränke",
+    "code": "Alles / Getränke / Alkoholfreie Getränke / Eistee & Mate",
     "id": "13f5f8dd-ac76-4dfb-a168-98ba78721d6d",
     "name": "Eistee & Mate",
     "slug": "alkoholfreie-getraenke-eistee"
   },
   "1403719f-f689-4524-b704-390ecddfdede": {
     "active": true,
-    "code": "All",
+    "code": "Alles",
     "id": "1403719f-f689-4524-b704-390ecddfdede",
     "name": "Ab 1 Jahr",
     "slug": "baby-ab-einem-jahr"
   },
   "14809b70-f64f-4249-a9b5-e7e07c5f33b3": {
     "active": true,
-    "code": "All / Obst",
+    "code": "Alles / Tiefgekühltes / Obst",
     "id": "14809b70-f64f-4249-a9b5-e7e07c5f33b3",
     "name": "Früchte",
     "slug": "tiefkuehl-fruechte"
   },
   "14a36fbf-3114-4de5-a038-c82021071897": {
     "active": true,
-    "code": "All",
+    "code": "Alles",
     "id": "14a36fbf-3114-4de5-a038-c82021071897",
     "name": "Rasur & Haarentfernung",
     "slug": "drogerie-rasur-haarentfernung"
   },
   "14e0fb89-b63a-42a3-9dcb-e8403f9ce05b": {
     "active": true,
-    "code": "All / Milchprodukte / Käse",
+    "code": "Alles / Gekühltes / Molkereiprodukte / Käse",
     "id": "14e0fb89-b63a-42a3-9dcb-e8403f9ce05b",
     "name": "Koch- & Salatkäse",
     "slug": "kaese-koch-salatkaese"
   },
   "1682263b-42dd-44f9-8828-aaa1953c8c5e": {
     "active": true,
-    "code": "All",
+    "code": "Alles / Ungekühltes / Snacks / Süße Snacks / Süßwaren / Popcorn",
     "id": "1682263b-42dd-44f9-8828-aaa1953c8c5e",
     "name": "Popcorn",
     "slug": "popcorn"
   },
   "16e832ae-de79-4610-977c-5ea342a0ba72": {
     "active": true,
-    "code": "All / Obst",
+    "code": "Alles / Gekühltes / Frisch & Fertig / Obst- & Gemüsesnacks",
     "id": "16e832ae-de79-4610-977c-5ea342a0ba72",
     "name": "Snacks",
     "slug": "obst-snacks"
   },
   "19320e7a-c180-4285-ab95-9160c2e78a15": {
     "active": true,
-    "code": "All / Obst",
+    "code": "Alles / Frisches Obst & Gemüse / Obst",
     "id": "19320e7a-c180-4285-ab95-9160c2e78a15",
     "name": "Steinobst & Trauben",
     "slug": "obst-steinobst-trauben"
   },
   "197924c2-9c66-42c6-bf1c-5b5371e9819a": {
     "active": true,
-    "code": "All",
+    "code": "Alles / Tiefgekühltes / Eis",
     "id": "197924c2-9c66-42c6-bf1c-5b5371e9819a",
     "name": "Eis-Einzelpackungen",
     "slug": "eis-eis-einzelpackungen"
   },
   "1980cd2b-bdc3-4ee5-a519-a0cb9db7df61": {
     "active": true,
-    "code": "All",
+    "code": "Alles",
     "id": "1980cd2b-bdc3-4ee5-a519-a0cb9db7df61",
     "name": "Hunde",
     "slug": "tierfutter-hunde"
@@ -257,7 +257,7 @@
   "1a678a0c-9cbb-40ee-8964-49db18463217": {
     "active": true,
     "backgroundImage": "https://res.cloudinary.com/goflink/image/upload/w_600,h_800/de/category-backgrounds/50_NOV_Wein2_04Dec23.png",
-    "code": "All / Getränke",
+    "code": "Alles / Getränke / Alkoholische Getränke",
     "href": "/v2/categories/wein-sekt",
     "icon": "https://res.cloudinary.com/goflink/image/upload/de/icons/NEW_icon_Wein_Sekt.png",
     "id": "1a678a0c-9cbb-40ee-8964-49db18463217",
@@ -266,98 +266,98 @@
   },
   "1c305732-d30f-45b0-9340-4f00d27b0974": {
     "active": true,
-    "code": "All / Weitere Verarbeitete Lebensmittel / Fleischersatzprodukte",
+    "code": "Alles / Tiefgekühltes / Fleisch & Fisch",
     "id": "1c305732-d30f-45b0-9340-4f00d27b0974",
     "name": "Fleisch- & Fischalternativen",
     "slug": "tiefkuehl-fleisch-fischalternativen"
   },
   "1c854b06-b4eb-42d3-80e9-18a3e86d4da5": {
     "active": true,
-    "code": "All / Obst",
+    "code": "Alles / Ungekühltes / Nüsse & Trockenfrüchte / Trockenfrüchte",
     "id": "1c854b06-b4eb-42d3-80e9-18a3e86d4da5",
     "name": "Trockenfrüchte",
     "slug": "obst-trockenfruechte"
   },
   "1cd53367-af0f-4c3c-b642-c9492876bf0c": {
     "active": true,
-    "code": "All / Weitere Verarbeitete Lebensmittel / Fertiggerichte",
+    "code": "Alles / Gekühltes / Frisch & Fertig / Fertiggerichte & Snacks",
     "id": "1cd53367-af0f-4c3c-b642-c9492876bf0c",
     "name": "Gekühlte Fertiggerichte & Snacks",
     "slug": "frisch-fertig-fertiggerichte-snacks"
   },
   "1ea88fb0-d689-4996-b0dc-c749858a19e3": {
     "active": true,
-    "code": "All / Fisch",
+    "code": "Alles / Ungekühltes / Fertiggerichte & Konserven / Fischkonserven",
     "id": "1ea88fb0-d689-4996-b0dc-c749858a19e3",
     "name": "Fischkonserven",
     "slug": "fleisch-fisch-fischkonserven"
   },
   "1ec259a7-e56a-4588-952b-4bd85a7118ba": {
     "active": true,
-    "code": "All",
+    "code": "Alles / Gekühltes / Frisch & Fertig / Obst- & Gemüsesnacks",
     "id": "1ec259a7-e56a-4588-952b-4bd85a7118ba",
     "name": "Obst- & Gemüsesnacks",
     "slug": "frisch-fertig-obst-gemuese-snacks"
   },
   "1ecc65ac-e4fc-4909-9bf6-bebecea4c612": {
     "active": true,
-    "code": "All / Weitere Verarbeitete Lebensmittel",
+    "code": "Alles / Ungekühltes / Snacks / Salzige Snacks",
     "id": "1ecc65ac-e4fc-4909-9bf6-bebecea4c612",
     "name": "Chips & Flips",
     "slug": "salziges-chips-flips"
   },
   "1f446317-5b9e-4a9c-b466-98b0ae4c90e0": {
     "active": false,
-    "code": "All / Getränke",
+    "code": "Alles / Getränke / Alkoholfreie Getränke",
     "id": "1f446317-5b9e-4a9c-b466-98b0ae4c90e0",
     "name": "Alkoholfreie Getränke",
     "slug": "angebote-A-alkoholfreie-getraenke"
   },
   "20c15afe-28ce-4f42-b09e-9709f13fdbb0": {
     "active": true,
-    "code": "All",
+    "code": "Alles / Tiefgekühltes / Kartoffelprodukte",
     "id": "20c15afe-28ce-4f42-b09e-9709f13fdbb0",
     "name": "Kartoffelprodukte",
     "slug": "tiefkuehl-kartoffelprodukte"
   },
   "2279f44c-5f64-4bb9-8554-660dbac7bf3e": {
     "active": true,
-    "code": "All / Getränke",
+    "code": "Alles / Getränke / Alkoholische Getränke",
     "id": "2279f44c-5f64-4bb9-8554-660dbac7bf3e",
     "name": "Pils",
     "slug": "bier-pils"
   },
   "22f7d91e-1bf1-4e51-85e9-7bd32bc09d25": {
     "active": true,
-    "code": "All / Milchprodukte / Käse",
+    "code": "Alles / Gekühltes / Molkereiprodukte / Käse / Käsesnacks",
     "id": "22f7d91e-1bf1-4e51-85e9-7bd32bc09d25",
     "name": "Käsesnacks",
     "slug": "kaese-kaesesnacks"
   },
   "22fd2774-9956-4391-87d2-6f546bdb6661": {
     "active": false,
-    "code": "All",
+    "code": "Alles",
     "id": "22fd2774-9956-4391-87d2-6f546bdb6661",
     "name": "Mengenrabatt",
     "slug": "angebote-B-mengenrabatt"
   },
   "23f662e0-a1a8-40cd-b781-ee48a2699211": {
     "active": true,
-    "code": "All / Fleisch",
+    "code": "Alles / Gekühltes / Fisch & Fleisch",
     "id": "23f662e0-a1a8-40cd-b781-ee48a2699211",
     "name": "Fleischspezialitäten",
     "slug": "feinkost-fleischspezialitaeten"
   },
   "256c22ce-86b3-4629-811a-1ae3de61829a": {
     "active": true,
-    "code": "All / Weitere Verarbeitete Lebensmittel / Fertiggerichte",
+    "code": "Alles / Tiefgekühltes / Fertiggerichte",
     "id": "256c22ce-86b3-4629-811a-1ae3de61829a",
     "name": "Pizza",
     "slug": "tiefkuehl-pizza"
   },
   "25b8413e-e1e9-4252-b90a-f511fcbf0eb1": {
     "active": true,
-    "code": "All",
+    "code": "Alles / Tiefgekühltes / Eis",
     "id": "25b8413e-e1e9-4252-b90a-f511fcbf0eb1",
     "name": "Eis",
     "slug": "vegan-vegetarisch-eis"
@@ -365,7 +365,7 @@
   "261d895f-64ca-490b-a38f-18be240ce37f": {
     "active": true,
     "backgroundImage": "https://res.cloudinary.com/goflink/image/upload/w_600,h_800/de/category-backgrounds/DE_Blue_Tile_CW39_V2.png",
-    "code": "All",
+    "code": "Alles",
     "href": "/v2/categories/angebote-B",
     "icon": "https://res.cloudinary.com/goflink/image/upload/de/icons/angebote_icon.png",
     "id": "261d895f-64ca-490b-a38f-18be240ce37f",
@@ -374,154 +374,161 @@
   },
   "26b04036-5f86-4d87-9288-3641e4c34582": {
     "active": true,
-    "code": "All",
+    "code": "Alles",
     "id": "26b04036-5f86-4d87-9288-3641e4c34582",
     "name": "Quetschies",
     "slug": "baby-quetschies"
   },
   "27161e8a-e7d6-4f03-a7ad-d8c56236e4a8": {
     "active": true,
-    "code": "All / Getränke",
+    "code": "Alles / Getränke / Alkoholfreie Getränke / Wasser & Mineralwasser",
     "id": "27161e8a-e7d6-4f03-a7ad-d8c56236e4a8",
     "name": "Wasser",
     "slug": "alkoholfreie-getraenke-wasser"
   },
   "28880b16-5faf-4b61-a51a-f60395b0abb6": {
     "active": true,
-    "code": "All / Milchprodukte / Käse",
+    "code": "Alles / Gekühltes / Molkereiprodukte / Käse / Stück- & Schnittkäse",
     "id": "28880b16-5faf-4b61-a51a-f60395b0abb6",
     "name": "Stück- & Schnittkäse",
     "slug": "kaese-stuck-schnittkaese"
   },
   "290b2fb5-fd1d-4f0a-88d4-4678c9ca9568": {
     "active": true,
-    "code": "All / Fleisch",
+    "code": "Alles / Ungekühltes / Fertiggerichte & Konserven / Fleisch- & Wurstkonserven",
     "id": "290b2fb5-fd1d-4f0a-88d4-4678c9ca9568",
     "name": "Wurstkonserven",
     "slug": "konserven-instantgerichte-backen-wurstkonserven"
   },
   "29919f93-9b7f-41b2-9671-ba34a8ab5ec9": {
     "active": true,
-    "code": "All / Weitere Verarbeitete Lebensmittel / Kakao",
+    "code": "Alles / Ungekühltes / Kaffee, Tee & Co. / Trinkschokolade",
     "id": "29919f93-9b7f-41b2-9671-ba34a8ab5ec9",
     "name": "Kakao",
     "slug": "kaffee-tee-kakao-kakao"
   },
   "29cf0b72-c41a-46ca-bc7a-f1535c02c645": {
     "active": true,
-    "code": "All / Süßwaren",
+    "code": "Alles / Ungekühltes / Snacks / Süße Snacks / Süßwaren / Schokolade & Schokoriegel",
     "id": "29cf0b72-c41a-46ca-bc7a-f1535c02c645",
     "name": "Schokoknabberei",
     "slug": "suesse-snacks-schokoknabberei"
   },
+  "2ba812e5-809e-4bc8-a809-bc9d01d0e3fd": {
+    "active": true,
+    "code": "Alles",
+    "id": "2ba812e5-809e-4bc8-a809-bc9d01d0e3fd",
+    "name": "Veganes Eis",
+    "slug": "eis-veganes-eis"
+  },
   "2c76f50e-bb61-413c-bd7a-d0c705f4e09b": {
     "active": true,
-    "code": "All / Süßwaren",
+    "code": "Alles / Ungekühltes / Snacks / Süße Snacks / Müsli-, Frucht- & Proteinriegel",
     "id": "2c76f50e-bb61-413c-bd7a-d0c705f4e09b",
     "name": "Müsli- & Proteinriegel",
     "slug": "de-suesse-snacks-muesli-proteinriegel"
   },
   "2c98786f-61f6-4378-b1ac-768d5c59667d": {
     "active": true,
-    "code": "All / Getränke",
+    "code": "Alles / Getränke / Alkoholische Getränke",
     "id": "2c98786f-61f6-4378-b1ac-768d5c59667d",
     "name": "Weizen",
     "slug": "bier-weizen"
   },
   "2cafa90e-950d-422b-a6a7-f95b18f1aaf8": {
     "active": true,
-    "code": "All",
+    "code": "Alles",
     "id": "2cafa90e-950d-422b-a6a7-f95b18f1aaf8",
     "name": "Ab 8. Monat",
     "slug": "baby-ab-achter-monat"
   },
   "2dc95eef-0fda-4cfd-be1b-86a71f4cb5d0": {
     "active": true,
-    "code": "All / Obst",
+    "code": "Alles / Frisches Obst & Gemüse / Obst",
     "id": "2dc95eef-0fda-4cfd-be1b-86a71f4cb5d0",
     "name": "Äpfel & Birnen",
     "slug": "obst-aepfel-birnen"
   },
   "2ddb56aa-c962-46e1-9e9b-a27995a78071": {
     "active": true,
-    "code": "All / Getränke",
+    "code": "Alles / Getränke / Alkoholische Getränke",
     "id": "2ddb56aa-c962-46e1-9e9b-a27995a78071",
     "name": "Aperitif",
     "slug": "spirituosen-mehr-aperitif"
   },
   "2f18cc02-f270-463c-922b-d62e639bc878": {
     "active": true,
-    "code": "All",
+    "code": "Alles",
     "id": "2f18cc02-f270-463c-922b-d62e639bc878",
     "name": "Schreibwaren & Technik",
     "slug": "haushalt-schreibwaren-technik"
   },
   "2f73c97f-8178-4d09-8d88-f0ccc2590de3": {
     "active": true,
-    "code": "All / Weitere Verarbeitete Lebensmittel",
+    "code": "Alles / Ungekühltes / Feinkost & Antipasti",
     "id": "2f73c97f-8178-4d09-8d88-f0ccc2590de3",
     "name": "Ungekühlte Antipasti",
     "slug": "feinkost-ungekuehlte-antipasti"
   },
   "302d7769-9616-4d40-a31d-afd0cde540bf": {
     "active": true,
-    "code": "All / Weitere Verarbeitete Lebensmittel / Kaffee",
+    "code": "Alles / Ungekühltes / Kaffee, Tee & Co. / Kaffee",
     "id": "302d7769-9616-4d40-a31d-afd0cde540bf",
     "name": "Bohnenkaffee",
     "slug": "kaffee-tee-kakao-bohnenkaffee"
   },
   "306caa3c-1cf1-476b-beb4-5a75263c7784": {
     "active": true,
-    "code": "All",
+    "code": "Alles",
     "id": "306caa3c-1cf1-476b-beb4-5a75263c7784",
     "name": "Reiniger",
     "slug": "haushalt-reiniger"
   },
   "319b28c1-9a96-45f2-b317-8386cd7b5181": {
     "active": true,
-    "code": "All",
+    "code": "Alles",
     "id": "319b28c1-9a96-45f2-b317-8386cd7b5181",
     "name": "IQOS & Heets",
     "slug": "spirituosen-mehr-iqos-heets"
   },
   "31b9c03a-51c4-4f43-b4f0-305b51d6c406": {
-    "active": true,
-    "code": "All",
+    "active": false,
+    "code": "Alles",
     "id": "31b9c03a-51c4-4f43-b4f0-305b51d6c406",
     "name": "Mengenrabatt",
     "slug": "angebote-mengenrabatt"
   },
   "31c1299b-2d0b-46ab-8d53-e7fcf15d8ac5": {
     "active": true,
-    "code": "All / Weitere Verarbeitete Lebensmittel",
+    "code": "Alles / Ungekühltes / Essig, Öl, Soßen & Gewürze / Gewürze & Würzmischungen / Fixprodukte",
     "id": "31c1299b-2d0b-46ab-8d53-e7fcf15d8ac5",
     "name": "Fixprodukte",
     "slug": "saucen-oele-gewuerze-fixprodukte"
   },
   "322b9e8c-830f-4371-ba9e-9bde1aa84e1d": {
     "active": true,
-    "code": "All",
+    "code": "Alles / Ungekühltes",
     "id": "322b9e8c-830f-4371-ba9e-9bde1aa84e1d",
     "name": "Vorratsschrank",
     "slug": "angebote-B-vorratsschrank"
   },
   "32c2a35d-dde1-4e69-b3da-344ad34119d5": {
     "active": true,
-    "code": "All / Getränke",
+    "code": "Alles / Getränke / Alkoholische Getränke",
     "id": "32c2a35d-dde1-4e69-b3da-344ad34119d5",
     "name": "Champagner",
     "slug": "wein-sekt-champagner"
   },
   "34da0405-b78d-4dcd-86e6-4a80c2812172": {
     "active": true,
-    "code": "All / Gemüse",
+    "code": "Alles / Ungekühltes / Fertiggerichte & Konserven / Gemüsekonserven",
     "id": "34da0405-b78d-4dcd-86e6-4a80c2812172",
     "name": "Tomatenkonserven",
     "slug": "konserven-instantgerichte-backen-tomatenkonserven"
   },
   "36a51c21-aadf-4a47-b5f4-f9294ca49fb0": {
     "active": true,
-    "code": "All / Weitere Verarbeitete Lebensmittel",
+    "code": "Alles / Ungekühltes / Snacks / Salzige Snacks",
     "id": "36a51c21-aadf-4a47-b5f4-f9294ca49fb0",
     "name": "Cracker & Laugengebäck",
     "slug": "salziges-cracker-laugengebaeck"
@@ -529,7 +536,7 @@
   "370acf66-804c-442b-822f-934bff5ebb30": {
     "active": true,
     "backgroundImage": "https://res.cloudinary.com/goflink/image/upload/w_600,h_800/de/category-backgrounds/50_NOV_Tiefk_3_04Dec23.png",
-    "code": "All",
+    "code": "Alles / Tiefgekühltes",
     "href": "/v2/categories/tiefkuehlkost",
     "icon": "https://res.cloudinary.com/goflink/image/upload/de/icons/NEW_icon_Tiefkuehl.png",
     "id": "370acf66-804c-442b-822f-934bff5ebb30",
@@ -538,7 +545,7 @@
   },
   "3788c24f-7a94-4ff7-8ab9-e8af85584186": {
     "active": true,
-    "code": "All",
+    "code": "Alles / Ungekühltes / Beilagen",
     "id": "3788c24f-7a94-4ff7-8ab9-e8af85584186",
     "name": "Getreide & Hülsenfrüchte",
     "slug": "nudeln-reis-getreide-getreide-huelsenfruechte"
@@ -546,7 +553,7 @@
   "37d14f0d-ed4b-4925-9bc7-15b0723d7bf8": {
     "active": true,
     "backgroundImage": "https://res.cloudinary.com/goflink/image/upload/w_600,h_800/de/category-backgrounds/Nov_48_LEGUMES.png",
-    "code": "All / Gemüse",
+    "code": "Alles / Frisches Obst & Gemüse / Gemüse",
     "href": "/v2/categories/gemuese",
     "icon": "https://res.cloudinary.com/goflink/image/upload/de/icons/NEW_icon_Gemuese.png",
     "id": "37d14f0d-ed4b-4925-9bc7-15b0723d7bf8",
@@ -555,7 +562,7 @@
   },
   "37f6adbd-6b9f-4b8d-95a3-3be706705c02": {
     "active": true,
-    "code": "All",
+    "code": "Alles",
     "id": "37f6adbd-6b9f-4b8d-95a3-3be706705c02",
     "name": "Zubehör",
     "slug": "spirituosen-mehr-zubehoer"
@@ -563,7 +570,7 @@
   "383a3d37-29bb-483a-a839-d6dd918fd979": {
     "active": true,
     "backgroundImage": "https://res.cloudinary.com/goflink/image/upload/w_600,h_800/de/category-backgrounds/50_NOV_Kaffee3_04Dec23.png",
-    "code": "All",
+    "code": "Alles",
     "href": "/v2/categories/kaffee-tee-kakao",
     "icon": "https://res.cloudinary.com/goflink/image/upload/de/icons/NEW_icon_Kaffee_Tee_Kakao.png",
     "id": "383a3d37-29bb-483a-a839-d6dd918fd979",
@@ -572,42 +579,42 @@
   },
   "3a389e92-de68-4396-9cb2-e08086e499fc": {
     "active": true,
-    "code": "All",
+    "code": "Alles",
     "id": "3a389e92-de68-4396-9cb2-e08086e499fc",
     "name": "Joghurt & Desserts Alternativen",
     "slug": "vegan-vegetarisch-joghurt-desserts"
   },
   "3b2f8d35-8043-40b5-be67-b71c7e6d93b5": {
     "active": true,
-    "code": "All / Weitere Verarbeitete Lebensmittel",
+    "code": "Alles / Ungekühltes / Essig, Öl, Soßen & Gewürze",
     "id": "3b2f8d35-8043-40b5-be67-b71c7e6d93b5",
     "name": "Essig, Dressing & Salattoppings",
     "slug": "saucen-oele-gewuerze-essig-dressing-Salattoppings"
   },
   "3b71be71-5068-4700-804d-0a5730f0ca0f": {
     "active": true,
-    "code": "All",
+    "code": "Alles",
     "id": "3b71be71-5068-4700-804d-0a5730f0ca0f",
     "name": "Küche & Spülen",
     "slug": "haushalt-kueche-spuelen"
   },
   "3baecd29-5af7-484c-a7c5-60bd8c37b852": {
     "active": true,
-    "code": "All",
+    "code": "Alles / Ungekühltes / Kaffee, Tee & Co. / Tee",
     "id": "3baecd29-5af7-484c-a7c5-60bd8c37b852",
     "name": "Tee",
     "slug": "kaffee-tee-kakao-tee"
   },
   "3cb1249c-9e07-4c22-99c0-cac4cf1c7b4b": {
     "active": true,
-    "code": "All / Milchprodukte / Käse",
+    "code": "Alles / Gekühltes / Molkereiprodukte / Käse",
     "id": "3cb1249c-9e07-4c22-99c0-cac4cf1c7b4b",
     "name": "Frisch- & Schmelzkäse",
     "slug": "kaese-frisch-schmelzkaese"
   },
   "3cd92526-1181-4441-ad35-c028355ddd08": {
     "active": true,
-    "code": "All / Fleisch",
+    "code": "Alles / Ungekühltes / Fertiggerichte & Konserven / Fleisch- & Wurstkonserven",
     "id": "3cd92526-1181-4441-ad35-c028355ddd08",
     "name": "Fleischkonserven & Pausenfüller",
     "slug": "fleisch-fisch-fleischkonserven-pausenfueller"
@@ -615,7 +622,7 @@
   "3de16919-9789-42f6-974a-a4a20955e565": {
     "active": true,
     "backgroundImage": "https://res.cloudinary.com/goflink/image/upload/w_600,h_800/de/category-backgrounds/50_NOV_Nudeln_Reis%20_%20Weltweite%20Kuche2_04Dec23.png",
-    "code": "All",
+    "code": "Alles",
     "href": "/v2/categories/nudeln-reis-internationales-kochen",
     "icon": "https://res.cloudinary.com/goflink/image/upload/de/icons/NEW_icon_Nudeln_Reis_Getreide.png",
     "id": "3de16919-9789-42f6-974a-a4a20955e565",
@@ -624,84 +631,84 @@
   },
   "3e180b54-cc4f-4442-8e75-eba375b27fda": {
     "active": true,
-    "code": "All / Milchprodukte / Joghurt",
+    "code": "Alles / Gekühltes / Molkereiprodukte / Joghurt",
     "id": "3e180b54-cc4f-4442-8e75-eba375b27fda",
     "name": "Frucht- & Sahnejoghurt",
     "slug": "joghurt-desserts-frucht-sahnejoghurt"
   },
   "3f2b9e15-4ea0-40b4-834a-8d96723c4560": {
     "active": true,
-    "code": "All / Obst",
+    "code": "Alles / Ungekühltes / Fertiggerichte & Konserven / Obstkonserven & Fruchtmark",
     "id": "3f2b9e15-4ea0-40b4-834a-8d96723c4560",
     "name": "Obstkonserven",
     "slug": "obst-obstkonserven"
   },
   "4343245b-fd51-42f3-9d99-6c8ba73b4540": {
     "active": true,
-    "code": "All",
+    "code": "Alles",
     "id": "4343245b-fd51-42f3-9d99-6c8ba73b4540",
     "name": "Kaffee- & Tee-Zubehör",
     "slug": "kaffee-tee-kakao-coffee-kaffee-und-tee-zubehoer"
   },
   "43e76fc4-a694-48ce-b81c-d7a5007ab8e8": {
     "active": false,
-    "code": "All / Getränke",
+    "code": "Alles / Getränke / Alkoholische Getränke",
     "id": "43e76fc4-a694-48ce-b81c-d7a5007ab8e8",
     "name": "Alkoholhaltige Getränke",
     "slug": "angebote-A-alkoholhaltige-getraenke"
   },
   "44892ab6-375c-43b3-bc39-6c5f1c06fd27": {
     "active": true,
-    "code": "All / Weitere Verarbeitete Lebensmittel / Müsli",
+    "code": "Alles / Ungekühltes / Frühstück / Cerealien & Müsli",
     "id": "44892ab6-375c-43b3-bc39-6c5f1c06fd27",
     "name": "Müsli & Haferflocken",
     "slug": "cerealien-aufstriche-backen-muesli-haferflocken"
   },
   "45200480-2458-43d8-b0aa-e16adb6ea87e": {
     "active": true,
-    "code": "All / Getränke",
+    "code": "Alles / Getränke / Alkoholfreie Getränke / Sport- & Energydrinks",
     "id": "45200480-2458-43d8-b0aa-e16adb6ea87e",
     "name": "Vitaminwasser",
     "slug": "fitness-vitaminwasser"
   },
   "455ece6c-aece-4703-afc0-d98bac56dffb": {
     "active": true,
-    "code": "All",
+    "code": "Alles",
     "id": "455ece6c-aece-4703-afc0-d98bac56dffb",
     "name": "Salate & kalte Bowls ",
     "slug": "frisch-fertig-salate-und-kalte-bowls"
   },
   "45609a41-6ade-416e-bddf-5d6ebd5f4384": {
     "active": true,
-    "code": "All / Weitere Verarbeitete Lebensmittel / Fertiggerichte",
+    "code": "Alles / Gekühltes / Frisch & Fertig / Sushi",
     "id": "45609a41-6ade-416e-bddf-5d6ebd5f4384",
     "name": "Sushi",
     "slug": "frisch-fertig-sushi"
   },
   "4572e794-60b3-4e0b-9486-9beb9b2a7b7c": {
     "active": true,
-    "code": "All / Gemüse",
+    "code": "Alles / Ungekühltes / Fertiggerichte & Konserven / Gemüsekonserven",
     "id": "4572e794-60b3-4e0b-9486-9beb9b2a7b7c",
     "name": "Gemüsekonserven",
     "slug": "konserven-instantgerichte-backen-gemuesekonserven"
   },
   "4660bbf0-407b-4ba7-9609-7bcc2e92f8f1": {
     "active": false,
-    "code": "All",
+    "code": "Alles",
     "id": "4660bbf0-407b-4ba7-9609-7bcc2e92f8f1",
-    "name": "Vuse Go -30%",
-    "slug": "angebote-b-vuse-go-30"
+    "name": "Vuse Pro",
+    "slug": "angebote-b-vuse-pro"
   },
   "46b0f09d-a1fc-4756-aad8-3ee0e9cc2c31": {
     "active": true,
-    "code": "All / Fleisch",
+    "code": "Alles / Tiefgekühltes / Fleisch & Fischh",
     "id": "46b0f09d-a1fc-4756-aad8-3ee0e9cc2c31",
     "name": "Tiefkühl-Fleisch",
     "slug": "fleisch-fisch-tiefkuehl-fleisch"
   },
   "491e9090-d95a-45f4-ad53-28ca37a4ccba": {
     "active": true,
-    "code": "All / Milchprodukte / Käse",
+    "code": "Alles / Gekühltes / Molkereiprodukte / Käse",
     "id": "491e9090-d95a-45f4-ad53-28ca37a4ccba",
     "name": "Käsespezialitäten ",
     "slug": "de-kaese-kaesespezialitaeten"
@@ -709,7 +716,7 @@
   "49b77c6a-00c4-45c7-8d9c-593e63093925": {
     "active": true,
     "backgroundImage": "https://res.cloudinary.com/goflink/image/upload/w_600,h_800/de/category-backgrounds/50_NOV_Alkoholfreie%20Drinks2_04Dec23.png",
-    "code": "All / Getränke",
+    "code": "Alles /  / Alkoholfreie Getränke",
     "href": "/v2/categories/alkoholfreie-getraenke",
     "icon": "https://res.cloudinary.com/goflink/image/upload/de/icons/NEW_icon_Alkoholfreie_Getraenke.png",
     "id": "49b77c6a-00c4-45c7-8d9c-593e63093925",
@@ -718,49 +725,49 @@
   },
   "4a419e30-4a79-48c9-b561-efbc86f2f1a8": {
     "active": true,
-    "code": "All / Getränke",
+    "code": "Alles / Getränke / Alkoholische Getränke",
     "id": "4a419e30-4a79-48c9-b561-efbc86f2f1a8",
     "name": "Gin",
     "slug": "spirituosen-mehr-gin"
   },
   "4a8b3fa1-b59a-4bc5-a6e9-2b8baac4b419": {
     "active": true,
-    "code": "All / Backwaren",
+    "code": "Alles / Tiefgekühltes / Desserts & Backwaren",
     "id": "4a8b3fa1-b59a-4bc5-a6e9-2b8baac4b419",
     "name": "Brötchen & Laugengebäck",
     "slug": "tiefkuehl-broetchen-laugengebaeck"
   },
   "4c3b3052-e929-4972-b162-971f83cdca4f": {
     "active": true,
-    "code": "All",
+    "code": "Alles",
     "id": "4c3b3052-e929-4972-b162-971f83cdca4f",
     "name": "Nur noch für kurze Zeit",
     "slug": "angebote-kurze-zeit"
   },
   "4c753a32-ecb9-43f9-92e4-68a6f8bb666c": {
     "active": true,
-    "code": null,
+    "code": "Alles",
     "id": "4c753a32-ecb9-43f9-92e4-68a6f8bb666c",
     "name": "Vegane Kosmetik",
     "slug": "drogerie-vegane-kosmetik"
   },
   "4d61bd62-9ae8-4144-9714-f164a889b5af": {
     "active": true,
-    "code": "All / Backwaren",
+    "code": "Alles / Ungekühltes / Frühstück / Abgepackte Backwarenn",
     "id": "4d61bd62-9ae8-4144-9714-f164a889b5af",
     "name": "Geschnittenes Brot & Toast",
     "slug": "backwaren-geschnittenes-brot-toast"
   },
   "4f168b71-c756-4014-b394-6ff699c63efa": {
     "active": true,
-    "code": "All",
+    "code": "Alles / Tiefgekühltes / Eis",
     "id": "4f168b71-c756-4014-b394-6ff699c63efa",
     "name": "Eis-Großpackungen",
     "slug": "eis-eis-grosspackungen"
   },
   "4fed5ec4-ff25-4bb4-8518-7a5ff139a854": {
     "active": true,
-    "code": "All / Milchprodukte / Milch",
+    "code": "Alles / Gekühltes / Molkereiprodukte / Milch & Milchalternativen",
     "id": "4fed5ec4-ff25-4bb4-8518-7a5ff139a854",
     "name": "Frischmilch",
     "slug": "eier-milch-butter-frischmilch"
@@ -768,7 +775,7 @@
   "5031a94e-13d2-4d08-b510-b5299d1c996d": {
     "active": true,
     "backgroundImage": "https://res.cloudinary.com/goflink/image/upload/w_600,h_800/de/category-backgrounds/Nov_48_FRUITS.png",
-    "code": "All / Obst",
+    "code": "Alles / Frisches Obst & Gemüse / Obst",
     "href": "/v2/categories/obst",
     "icon": "https://res.cloudinary.com/goflink/image/upload/de/icons/NEW_icon_Obst.png",
     "id": "5031a94e-13d2-4d08-b510-b5299d1c996d",
@@ -777,7 +784,7 @@
   },
   "5074da85-6e53-418d-be54-073e7f57e68e": {
     "active": true,
-    "code": "All / Getränke",
+    "code": "Alles / Getränke / Alkoholische Getränke",
     "id": "5074da85-6e53-418d-be54-073e7f57e68e",
     "name": "Helles",
     "slug": "bier-helles"
@@ -785,7 +792,7 @@
   "520f966f-aa6c-499a-a455-1a1f6f33a386": {
     "active": true,
     "backgroundImage": "https://res.cloudinary.com/goflink/image/upload/w_600,h_800/de/category-backgrounds/50_NOV_Backwaren2_04Dec23.png",
-    "code": "All / Backwaren",
+    "code": "Alles / Ungekühltes / Frühstück / Abgepackte Backwaren",
     "href": "/v2/categories/backwaren",
     "icon": "https://res.cloudinary.com/goflink/image/upload/de/icons/NEW_icon_Backwaren.png",
     "id": "520f966f-aa6c-499a-a455-1a1f6f33a386",
@@ -794,14 +801,14 @@
   },
   "52909eaf-91ae-471e-bcc3-d0f91da58c9a": {
     "active": true,
-    "code": "All / Getränke",
+    "code": "Alles / Getränke / Alkoholfreie Getränke / Cola & Colamix",
     "id": "52909eaf-91ae-471e-bcc3-d0f91da58c9a",
     "name": "Cola",
     "slug": "alkoholfreie-getraenke-cola"
   },
   "52e42aa0-a671-4356-a37e-6e02191e04c6": {
     "active": true,
-    "code": "All",
+    "code": "Alles",
     "id": "52e42aa0-a671-4356-a37e-6e02191e04c6",
     "name": "Highlights der Woche",
     "slug": "angebote-B-highlights-der-woche"
@@ -809,7 +816,7 @@
   "53144bbb-baf2-49bd-bd49-c31bebe9d005": {
     "active": true,
     "backgroundImage": "https://res.cloudinary.com/goflink/image/upload/w_600,h_800/de/category-backgrounds/50_NOV_Hund%20_%20Katze_2_04Dec23.png",
-    "code": "All",
+    "code": "Alles",
     "href": "/v2/categories/katze-hund",
     "icon": "https://res.cloudinary.com/goflink/image/upload/de/icons/NEW_icon_Katze_Hund.png",
     "id": "53144bbb-baf2-49bd-bd49-c31bebe9d005",
@@ -818,7 +825,7 @@
   },
   "535442e2-f08e-4753-96d6-6d425b0a0dd8": {
     "active": false,
-    "code": "All",
+    "code": "Alles",
     "id": "535442e2-f08e-4753-96d6-6d425b0a0dd8",
     "name": "Sim Karte",
     "slug": "angebote-B-sim"
@@ -826,7 +833,7 @@
   "53ff3c00-d525-478a-982b-8aba19397aad": {
     "active": true,
     "backgroundImage": "https://res.cloudinary.com/goflink/image/upload/w_600,h_800/de/category-backgrounds/50_NOV_Haushalt2_04Dec23.png",
-    "code": "All",
+    "code": "Alles",
     "href": "/v2/categories/haushalt",
     "icon": "https://res.cloudinary.com/goflink/image/upload/de/icons/NEW_icon_Haushalt_Technik.png",
     "id": "53ff3c00-d525-478a-982b-8aba19397aad",
@@ -835,28 +842,28 @@
   },
   "54aab525-f76d-46dc-84c8-25352c4d7d16": {
     "active": true,
-    "code": "All",
+    "code": "Alles",
     "id": "54aab525-f76d-46dc-84c8-25352c4d7d16",
     "name": "Snacks",
     "slug": "baby-snacks"
   },
   "55759b73-da8a-42d1-8dfd-79b06acd75ca": {
     "active": true,
-    "code": "All / Gemüse / Hülsenfrüchte",
+    "code": "Alles / Frisches Obst & Gemüse / Gemüse",
     "id": "55759b73-da8a-42d1-8dfd-79b06acd75ca",
     "name": "Hülsenfrüchte & Kürbis",
     "slug": "gemuese-huelsenfruechte-kuerbis"
   },
   "55c9f875-b6e0-44ee-8b3a-2c4a70acb392": {
     "active": true,
-    "code": "All / Weitere Verarbeitete Lebensmittel / Fertiggerichte",
+    "code": "Alles / Ungekühltes / Fertiggerichte & Konserven / Dosengerichte",
     "id": "55c9f875-b6e0-44ee-8b3a-2c4a70acb392",
     "name": "Fertiggerichte",
     "slug": "vegan-vegetarisch-fertiggerichte"
   },
   "55cc94b3-6d30-4fd4-a8d9-ebf385aad45c": {
     "active": true,
-    "code": "All / Fisch",
+    "code": "Alles / Gekühltes / Fisch & Fleisch / Fisch & Meeresfrüchte",
     "id": "55cc94b3-6d30-4fd4-a8d9-ebf385aad45c",
     "name": "Lachs",
     "slug": "aufschnitt-brotaufstriche-lachs"
@@ -864,7 +871,7 @@
   "5615001b-682f-446d-bff6-4d5c6ffddf88": {
     "active": true,
     "backgroundImage": "https://res.cloudinary.com/goflink/image/upload/w_600,h_800/de/category-backgrounds/50_NOV_Baby2_04Dec23.png",
-    "code": "All",
+    "code": "Alles",
     "href": "/v2/categories/baby-titel",
     "icon": "https://res.cloudinary.com/goflink/image/upload/de/icons/NEW_icon_Baby.png",
     "id": "5615001b-682f-446d-bff6-4d5c6ffddf88",
@@ -873,273 +880,287 @@
   },
   "56e38c61-6985-415a-89e0-a26ab7ce2bde": {
     "active": true,
-    "code": "All / Salz und Gewürze",
+    "code": "Alles / Ungekühltes / Essig, Öl, Soßen & Gewürze / Gewürze & Würzmischungen",
     "id": "56e38c61-6985-415a-89e0-a26ab7ce2bde",
     "name": "Gewürze",
     "slug": "saucen-oele-gewuerze-gewuerze"
   },
   "576fa76b-319e-4615-b9e0-19185566cac3": {
     "active": true,
-    "code": "All / Gemüse",
+    "code": "Alles / Frisches Obst & Gemüse / Gemüse",
     "id": "576fa76b-319e-4615-b9e0-19185566cac3",
     "name": "Lauch & Zwiebeln",
     "slug": "gemuese-lauch-zwiebeln"
   },
   "59ab0045-493b-4dab-bb5c-0f0726d19da0": {
     "active": true,
-    "code": "All",
+    "code": "Alles / Ungekühltes / Essig, Öl, Soßen & Gewürze / Gewürze & Würzmischungen",
     "id": "59ab0045-493b-4dab-bb5c-0f0726d19da0",
     "name": "Süße & Salzige Snacks",
     "slug": "vegan-vegetarisch-suesse-salzige-snacks"
   },
   "5a38fd8c-9bab-4ea0-ace8-97774590efdf": {
     "active": true,
-    "code": "All / Getränke",
+    "code": "Alles / Getränke / Alkoholfreie Getränke / Schorlen",
     "id": "5a38fd8c-9bab-4ea0-ace8-97774590efdf",
     "name": "Schorlen",
     "slug": "alkoholfreie-getraenke-schorlen"
   },
   "5a618b6b-5766-4b45-8240-e51cb56db661": {
     "active": true,
-    "code": "All / Getränke",
+    "code": "Alles / Getränke / Alkoholfreie Getränke",
     "id": "5a618b6b-5766-4b45-8240-e51cb56db661",
     "name": "Alkoholfreie Getränke",
     "slug": "angebote-B-alkoholfreie-getraenke"
   },
   "5aba8fce-28c2-480e-96e3-22ec8b5391f2": {
     "active": true,
-    "code": "All / Weitere Verarbeitete Lebensmittel / Fertiggerichte",
+    "code": "Alles / Gekühltes / Frisch & Fertig / Frische Pasta & Beilagen",
     "id": "5aba8fce-28c2-480e-96e3-22ec8b5391f2",
     "name": "Frische Pasta & Beilagen",
     "slug": "frisch-fertig-frische-teigwaren"
   },
   "5bc56c15-eccc-4479-93aa-f871e6638638": {
     "active": true,
-    "code": "All / Weitere Verarbeitete Lebensmittel / Brotaufstrich und Mus",
+    "code": "Alles / Ungekühltes / Frühstück / Brotaufstriche / Fruchtaufstriche",
     "id": "5bc56c15-eccc-4479-93aa-f871e6638638",
     "name": "Fruchtaufstriche",
     "slug": "aufschnitt-brotaufstriche-fruchtaufstriche"
   },
   "5d9155bd-869b-4b55-8e77-2773a16e720f": {
     "active": true,
-    "code": "All / Weitere Verarbeitete Lebensmittel",
+    "code": "Alles / Gekühltes / Frisch & Fertig / Antipasti",
     "id": "5d9155bd-869b-4b55-8e77-2773a16e720f",
     "name": "Frische Antipasti",
     "slug": "feinkost-frische-antipasti"
   },
   "5d9607b5-18be-48d6-8546-802b56c39cd0": {
     "active": true,
-    "code": "All",
+    "code": "Alles / Tiefgekühltes / Eis",
     "id": "5d9607b5-18be-48d6-8546-802b56c39cd0",
     "name": "Eisriegel & -snacks",
     "slug": "eis-eisriegel-snacks"
   },
   "5da543e9-2293-468f-9ca2-e542a2b00ba2": {
     "active": true,
-    "code": "All",
+    "code": "Alles",
     "id": "5da543e9-2293-468f-9ca2-e542a2b00ba2",
     "name": "Obst & Gemüse",
     "slug": "angebote-B-obst-gemuese"
   },
   "5db13c12-0189-441b-a380-0832a19674ab": {
     "active": true,
-    "code": "All / Getränke",
+    "code": "Alles / Getränke / Alkoholische Getränke",
     "id": "5db13c12-0189-441b-a380-0832a19674ab",
     "name": "Roséwein",
     "slug": "wein-sekt-rosewein"
   },
   "5f8b5224-c036-4d49-933b-1e2fc4e42b42": {
     "active": true,
-    "code": "All",
+    "code": "Alles / Frisches Obst & Gemüse",
     "id": "5f8b5224-c036-4d49-933b-1e2fc4e42b42",
     "name": "Mexiko",
     "slug": "nudeln-reis-internationale-kueche-mexico"
   },
   "60c97edd-bee2-497f-b504-7a9f55e3200a": {
     "active": true,
-    "code": "All / Getränke",
+    "code": "Alles / Getränke / Alkoholische Getränke",
     "id": "60c97edd-bee2-497f-b504-7a9f55e3200a",
     "name": "Biermix",
     "slug": "bier-biermix"
   },
   "61196d32-daa4-471e-8dda-33b440cf9fb7": {
     "active": true,
-    "code": "All / Fleisch",
+    "code": "Alles / Gekühltes / Fisch & Fleisch / Wurst & Aufschnitt",
     "id": "61196d32-daa4-471e-8dda-33b440cf9fb7",
     "name": "Geflügel",
     "slug": "aufschnitt-brotaufstriche-gefluegel"
   },
   "61e6219b-a73e-420c-82fe-064cc9f711ae": {
     "active": false,
-    "code": null,
+    "code": "Alles / Ungekühltes / Sport- & Diätnahrung",
     "id": "61e6219b-a73e-420c-82fe-064cc9f711ae",
     "name": "Protein- & Geschmackspulver",
     "slug": "fitness-protein-pulver"
   },
+  "61f6739f-85df-4800-bec3-4a96cfd08bb3": {
+    "active": true,
+    "code": "Alles",
+    "id": "61f6739f-85df-4800-bec3-4a96cfd08bb3",
+    "name": "Mengenrabatt",
+    "slug": "angebote-4-mengenrabatt"
+  },
   "62867f33-c9d6-4e47-a23e-82d41b7eda29": {
     "active": true,
-    "code": "All / Fisch",
+    "code": "Alles / Gekühltes / Fisch & Fleisch / Fisch & Meeresfrüchte",
     "id": "62867f33-c9d6-4e47-a23e-82d41b7eda29",
     "name": "Fisch & Meeresfrüchte",
     "slug": "frisch-fleisch-fisch-fisch-meeresfruechte"
   },
   "639fb486-4b8b-4389-b7bc-582ce1bb1d3b": {
     "active": true,
-    "code": "All",
+    "code": "Alles / Tiefgekühltes",
     "id": "639fb486-4b8b-4389-b7bc-582ce1bb1d3b",
     "name": "Tiefkühlung",
     "slug": "angebote-B-tiefkuehlung"
   },
   "63e1dec3-a2d9-4375-b023-c76bdc7279f7": {
     "active": true,
-    "code": "All / Getränke",
+    "code": "Alles / Gekühltes / Molkereiprodukte / Milch- & Kaffeegetränke",
     "id": "63e1dec3-a2d9-4375-b023-c76bdc7279f7",
     "name": "Coffee To Go",
     "slug": "coffee-to-go"
   },
   "6426cf5e-e282-4ed7-9df3-076d8f182b0d": {
     "active": true,
-    "code": "All / Milchprodukte / Milch",
+    "code": "Alles / Gekühltes / Molkereiprodukte / Milch",
     "id": "6426cf5e-e282-4ed7-9df3-076d8f182b0d",
     "name": "Haltbare- & Kondensmilch",
     "slug": "eier-milch-butter-haltbare-kondensmilch"
   },
   "65d99d74-579b-4a7a-a6a4-af2877e9e50f": {
     "active": true,
-    "code": "All / Süßwaren",
+    "code": "Alles / Tiefgekühltes / Snacks",
     "id": "65d99d74-579b-4a7a-a6a4-af2877e9e50f",
     "name": "Tiefgekühlte Snacks",
     "slug": "suesse-snacks-Tiefgekuehlte-Snacks"
   },
   "66ac654f-7f8b-4e7f-b30b-05a9cf5bf985": {
     "active": true,
-    "code": "All / Weitere Verarbeitete Lebensmittel / Tee",
+    "code": "Alles / Ungekühltes / Kaffee, Tee & Co. / Tee",
     "id": "66ac654f-7f8b-4e7f-b30b-05a9cf5bf985",
     "name": "Frischer Tee",
     "slug": "Kaffee-Tee-Kakao-frischer-tee"
   },
   "67a0c680-843b-478f-be24-7287a2daa526": {
     "active": true,
-    "code": "All / Weitere Verarbeitete Lebensmittel / Fertiggerichte",
+    "code": "Alles / Ungekühltes / Fertiggerichte & Konserven / Dosengerichte",
     "id": "67a0c680-843b-478f-be24-7287a2daa526",
     "name": "Eintöpfe & Suppen",
     "slug": "konserven-instantgerichte-backen-eintoepfe-suppen"
   },
   "67ba9527-501a-4d0a-b6dc-a64f661bbc1a": {
     "active": true,
-    "code": "All / Getränke",
+    "code": "Alles / Getränke / Alkoholische Getränke",
     "id": "67ba9527-501a-4d0a-b6dc-a64f661bbc1a",
     "name": "Weine & Sekt",
     "slug": "vegan-vegetarisch-weine-sekt"
   },
   "67d7fe9c-dd44-4c7a-a519-7d71579c9052": {
     "active": true,
-    "code": "All / Weitere Verarbeitete Lebensmittel",
+    "code": "Alles / Ungekühltes / Feinkost & Antipasti",
     "id": "67d7fe9c-dd44-4c7a-a519-7d71579c9052",
     "name": "Feinkostsalate",
     "slug": "feinkost-feinkostsalate"
   },
   "6815161e-381e-4c68-8cf7-422d33199f2f": {
     "active": true,
-    "code": "All",
+    "code": "Alles",
     "id": "6815161e-381e-4c68-8cf7-422d33199f2f",
     "name": "Gesundheit",
     "slug": "drogerie-hygiene-gesundheit"
   },
   "68236228-cf2f-4b64-b505-4c60f42a6884": {
-    "active": true,
-    "code": "All / Getränke",
+    "active": false,
+    "code": "Alles / Getränke / Alkoholfreie Getränke / Getränkesirup",
     "id": "68236228-cf2f-4b64-b505-4c60f42a6884",
     "name": "Wassersprudler & Zubehör",
     "slug": "alkoholfreie-getraenke-wassersprudler-zubehoer"
   },
   "68343aa3-92bb-4e02-8c30-069951fb68ce": {
     "active": false,
-    "code": "All",
+    "code": "Alles",
     "id": "68343aa3-92bb-4e02-8c30-069951fb68ce",
     "name": "Tiefkühlung",
     "slug": "angebote-A-tiefkuehlung"
   },
   "6a169316-d05f-4788-8139-275cf6e9b94e": {
     "active": true,
-    "code": "All / Fisch",
+    "code": "Alles / Ungekühltes / Fertiggerichte & Konserven / Fischkonserven",
     "id": "6a169316-d05f-4788-8139-275cf6e9b94e",
     "name": "Fischkonserven",
     "slug": "konserven-instantgerichte-backen-fischkonserven"
   },
   "6bc050df-af28-4b17-a743-600b6d9e9d2e": {
     "active": true,
-    "code": "All / Weitere Verarbeitete Lebensmittel",
+    "code": "Alles / Gekühltes / Fisch & Fleisch / Fleisch- & Fischalternativen",
     "id": "6bc050df-af28-4b17-a743-600b6d9e9d2e",
     "name": "Tofu, Falafel & Co.",
     "slug": "vegan-vegetarisch-tofu-falafel"
   },
   "6bd17f2d-a274-464e-afcb-86766ed83f05": {
     "active": true,
-    "code": "All / Gemüse",
+    "code": "Alles / Tiefgekühltes / Gemüse",
     "id": "6bd17f2d-a274-464e-afcb-86766ed83f05",
     "name": "Gemüse",
     "slug": "tiefkuehl-gemuese"
   },
   "6bfe7f12-1311-404d-aff3-edf6e00ad446": {
     "active": true,
-    "code": "All",
+    "code": "Alles / Gekühltes / Molkereiprodukte / Milch & Milchalternativen / Pflanzendrinks",
     "id": "6bfe7f12-1311-404d-aff3-edf6e00ad446",
     "name": "Milchalternativen",
     "slug": "vegan-vegetarisch-milchalternativen"
   },
   "6c659ec2-de73-4e4e-86a0-46061e12e88f": {
     "active": true,
-    "code": "All / Milchprodukte / Käse",
+    "code": "Alles / Gekühltes / Molkereiprodukte / Käse",
     "id": "6c659ec2-de73-4e4e-86a0-46061e12e88f",
     "name": "Reibekäse",
     "slug": "kaese-reibekaese"
   },
   "6dc9e5d6-7dc9-40ba-adfe-3fab970151ce": {
     "active": true,
-    "code": "All / Weitere Verarbeitete Lebensmittel / Fertiggerichte",
+    "code": "Alles / Gekühltes / Frisch & Fertig / Frische Suppen",
     "id": "6dc9e5d6-7dc9-40ba-adfe-3fab970151ce",
     "name": "Frische Suppen",
     "slug": "frisch-fertig-frische-suppen"
   },
   "6e258a1f-9856-4f3b-936a-752e27a4cbd6": {
     "active": true,
-    "code": "All / Weitere Verarbeitete Lebensmittel / Brotaufstrich und Mus",
+    "code": "Alles / Ungekühltes / Frühstück / Brotaufstriche / Herzhafte Aufstriche",
     "id": "6e258a1f-9856-4f3b-936a-752e27a4cbd6",
     "name": "Herzhafte Aufstriche",
     "slug": "cerealien-aufstriche-backen-herzhafte-aufstriche"
   },
   "6e84df5f-3d71-4e1e-9fd7-575fbc7758a6": {
     "active": true,
-    "code": "All / Nüsse, Samen, Kerne",
+    "code": "Alles / Ungekühltes / Nüsse & Trockenfrüchte / Nüsse, Samen & Kerne",
     "id": "6e84df5f-3d71-4e1e-9fd7-575fbc7758a6",
     "name": "Nüsse",
     "slug": "salziges-nuesse"
   },
   "6eaab081-a907-46bb-94ca-dbf9bf6ad15a": {
     "active": true,
-    "code": "All / Süßwaren",
+    "code": "Alles / Ungekühltes / Snacks / Süße Snacks / Süßwaren / Schokolade & Schokoriegel",
     "id": "6eaab081-a907-46bb-94ca-dbf9bf6ad15a",
     "name": "Schokolade",
     "slug": "suesse-snacks-schokolade"
   },
   "6f01f6d4-8b8e-4058-8fa8-45ad63364a1c": {
     "active": true,
-    "code": "All / Obst",
+    "code": "Alles / Frisches Obst & Gemüse / Obst",
     "id": "6f01f6d4-8b8e-4058-8fa8-45ad63364a1c",
     "name": "Zitrusfrüchte",
     "slug": "obst-zitrusfruechte"
   },
   "6f60b03c-d6ae-467d-9ab3-cdb136b32d4d": {
     "active": true,
-    "code": "All",
+    "code": "Alles",
     "id": "6f60b03c-d6ae-467d-9ab3-cdb136b32d4d",
     "name": "Sonnen- & Insektenschutz",
     "slug": "drogerie-sonnen-insektenschutz"
   },
+  "70acfb40-cbdb-4c24-b5fa-de63e3721911": {
+    "active": false,
+    "code": "Alles",
+    "id": "70acfb40-cbdb-4c24-b5fa-de63e3721911",
+    "name": "4 für 2 Vuse Pro",
+    "slug": "angebote-A-vuse-pro"
+  },
   "71ae6845-250f-4a55-b708-a2f0299aa270": {
     "active": true,
-    "code": "All",
+    "code": "Alles / Ungekühltes / Sport- & Diätnahrung",
     "id": "71ae6845-250f-4a55-b708-a2f0299aa270",
     "name": "Protein & Mahlzeiten Drinks",
     "slug": "fitness-protein-mahlzeiten-drinks"
@@ -1147,7 +1168,7 @@
   "71fb2134-5e1d-4672-9a8b-c4c13c51b310": {
     "active": true,
     "backgroundImage": "https://res.cloudinary.com/goflink/image/upload/w_600,h_800/de/category-backgrounds/50_NOV_Cheese_2_04Dec23.png",
-    "code": "All / Milchprodukte / Käse",
+    "code": "Alles / Gekühltes / Molkereiprodukte / Käse",
     "href": "/v2/categories/kaese",
     "icon": "https://res.cloudinary.com/goflink/image/upload/de/icons/NEW_icon_Kaese.png",
     "id": "71fb2134-5e1d-4672-9a8b-c4c13c51b310",
@@ -1156,21 +1177,21 @@
   },
   "721a7467-8b09-4b87-bee3-42edbc51039a": {
     "active": true,
-    "code": "All / Fleisch",
+    "code": "Alles / Gekühltes / Fisch & Fleisch / Rind & Kalb",
     "id": "721a7467-8b09-4b87-bee3-42edbc51039a",
     "name": "Rind- & Kalbfleisch",
     "slug": "fleisch-fisch-rind-kalbfleisch"
   },
   "72ce37d1-48a5-4aa6-a421-e9741416eacb": {
     "active": true,
-    "code": "All",
+    "code": "Alles",
     "id": "72ce37d1-48a5-4aa6-a421-e9741416eacb",
     "name": "Vegane Kosmetik",
     "slug": "vegan-vegetarisch-vegane-kosmetik"
   },
   "73f74b56-817d-4181-8f05-260abaa87b02": {
     "active": true,
-    "code": "All / Süßwaren",
+    "code": "Alles / Ungekühltes / Snacks / Süße Snacks",
     "id": "73f74b56-817d-4181-8f05-260abaa87b02",
     "name": "Weihnachten",
     "slug": "suesse-snacks-weihnachten"
@@ -1178,7 +1199,7 @@
   "752fdaa8-24d8-4afe-a66a-78b6784c3795": {
     "active": true,
     "backgroundImage": "https://res.cloudinary.com/goflink/image/upload/w_600,h_800/de/category-backgrounds/50_NOV_Fruchtgummi%20und%20Schoko2_04Dec23.png",
-    "code": "All / Süßwaren",
+    "code": "Alles / Ungekühltes / Snacks / Süße Snacks",
     "href": "/v2/categories/suesse-snacks",
     "icon": "https://res.cloudinary.com/goflink/image/upload/de/icons/NEW_icon_Suesse_Snacks.png",
     "id": "752fdaa8-24d8-4afe-a66a-78b6784c3795",
@@ -1187,77 +1208,77 @@
   },
   "7581475e-f2b2-487f-ac5a-772531a82b85": {
     "active": true,
-    "code": "All",
+    "code": "Alles",
     "id": "7581475e-f2b2-487f-ac5a-772531a82b85",
     "name": "Drogerie",
     "slug": "angebote-B-drogerie"
   },
   "764b5ee5-f585-4d99-a54c-2f45df5b627c": {
     "active": true,
-    "code": "All / Getränke",
+    "code": "Alles / Getränke / Alkoholfreie Getränke / Limonaden",
     "id": "764b5ee5-f585-4d99-a54c-2f45df5b627c",
     "name": "Limonaden",
     "slug": "alkoholfreie-getraenke-limonaden"
   },
   "76de0183-41c2-4e52-ba35-2f8da299105a": {
     "active": true,
-    "code": "All",
+    "code": "Alles / Gekühltes / Molkereiprodukte / Käse / Käsealternativen",
     "id": "76de0183-41c2-4e52-ba35-2f8da299105a",
     "name": "Käsealternativen",
     "slug": "kaese-kaesealternativen"
   },
   "7746221e-eb64-4a83-9333-967495a12949": {
     "active": true,
-    "code": "All / Fleisch",
+    "code": "Alles / Gekühltes / Fisch & Fleisch / Hackfleisch & Burger",
     "id": "7746221e-eb64-4a83-9333-967495a12949",
     "name": "Hackfleisch & Burger",
     "slug": "fleisch-fisch-hackfleisch-burger"
   },
   "7805bbe2-60f0-4db9-b2ee-f24231d83fe6": {
     "active": true,
-    "code": "All / Milchprodukte / Quark",
+    "code": "Alles / Gekühltes / Molkereiprodukte / Quark",
     "id": "7805bbe2-60f0-4db9-b2ee-f24231d83fe6",
     "name": "Quark & Skyr",
     "slug": "joghurt-desserts-quark-skyr"
   },
   "78635999-448a-465f-89ae-5b18834cb88c": {
     "active": true,
-    "code": "All",
+    "code": "Alles",
     "id": "78635999-448a-465f-89ae-5b18834cb88c",
     "name": "Pflege",
     "slug": "baby-pflege"
   },
   "78df9585-d570-4281-8da0-88475a8db7a4": {
     "active": true,
-    "code": "All",
+    "code": "Alles / Tiefgekühltes / Eis",
     "id": "78df9585-d570-4281-8da0-88475a8db7a4",
     "name": "Eis am Stiel",
     "slug": "eis-eis-am-stiel"
   },
   "79cae94d-6c0f-41dd-a943-7c403b1c399d": {
     "active": true,
-    "code": "All / Getränke",
+    "code": "Alles / Getränke / Alkoholische Getränke",
     "id": "79cae94d-6c0f-41dd-a943-7c403b1c399d",
     "name": "Rotwein",
     "slug": "wein-sekt-rotwein"
   },
   "7ba3b730-0785-4bb3-a28f-cf5992c31cd9": {
     "active": true,
-    "code": "All",
+    "code": "Alles",
     "id": "7ba3b730-0785-4bb3-a28f-cf5992c31cd9",
     "name": "Tabak",
     "slug": "spirituosen-mehr-tabak"
   },
   "7c833abd-a07f-4f98-a057-75aeefd728ce": {
     "active": true,
-    "code": "All / Weitere Verarbeitete Lebensmittel / Kaffee",
+    "code": "Alles / Ungekühltes / Kaffee, Tee & Co. / Kaffee",
     "id": "7c833abd-a07f-4f98-a057-75aeefd728ce",
     "name": "Instantkaffee",
     "slug": "kaffee-tee-kakao-instantkaffee"
   },
   "7e67f052-829a-4959-8a84-6daa2a26f17d": {
     "active": true,
-    "code": "All",
+    "code": "Alles / Tiefgekühltes / Eis",
     "id": "7e67f052-829a-4959-8a84-6daa2a26f17d",
     "name": "Eisbecher",
     "slug": "eis-eisbecher"
@@ -1265,7 +1286,7 @@
   "8089b876-0b64-40eb-ab3e-ffc785dfa73a": {
     "active": true,
     "backgroundImage": "https://res.cloudinary.com/goflink/image/upload/w_600,h_800/de/category-backgrounds/50_NOV_Milch%20Eier2_04Dec23.png",
-    "code": "All",
+    "code": "Alles / Gekühltes / Molkereiprodukte",
     "href": "/v2/categories/eier-milch-butter",
     "icon": "https://res.cloudinary.com/goflink/image/upload/de/icons/NEW_icon_Eier_Milch.png",
     "id": "8089b876-0b64-40eb-ab3e-ffc785dfa73a",
@@ -1274,154 +1295,161 @@
   },
   "8289df0d-d060-4f8e-b2c1-36973f669f2b": {
     "active": true,
-    "code": "All / Weitere Verarbeitete Lebensmittel / Brotaufstrich und Mus",
+    "code": "Alles / Gekühltes / Frisch & Fertig",
     "id": "8289df0d-d060-4f8e-b2c1-36973f669f2b",
     "name": "Frische Brotaufstriche",
     "slug": "aufschnitt-brotaufstriche-frische-brotaufstriche"
   },
   "82c3167d-f116-431a-aa93-64743cfe332e": {
     "active": true,
-    "code": "All / Weitere Verarbeitete Lebensmittel / Brotaufstrich und Mus",
+    "code": "Alles / Gekühltes / Frisch & Fertig",
     "id": "82c3167d-f116-431a-aa93-64743cfe332e",
     "name": "Frische Brotaufstriche & Dips",
     "slug": "feinkost-frische-brotaufstriche-dips"
   },
   "834e3e27-f084-4181-87f3-4a04c5cf1cd7": {
     "active": true,
-    "code": "All / Fette und Öle",
+    "code": "Alles / Gekühltes / Molkereiprodukte / Butter, Margarine & Fette / Margarine",
     "id": "834e3e27-f084-4181-87f3-4a04c5cf1cd7",
     "name": "Butter & Margarine",
     "slug": "eier-milch-butter-butter-margarine"
   },
   "84648f18-1835-4bf0-a025-da25ee30b992": {
     "active": true,
-    "code": "All / Milchprodukte / Käse",
+    "code": "Alles / Gekühltes / Molkereiprodukte / Käse",
     "id": "84648f18-1835-4bf0-a025-da25ee30b992",
     "name": "Schnittkäse",
     "slug": "aufschnitt-brotaufstriche-schnittkaese"
   },
+  "84f1ce62-1dd9-458d-863c-c7b8005c38fd": {
+    "active": true,
+    "code": "Alles / Getränke / Alkoholische Getränke",
+    "id": "84f1ce62-1dd9-458d-863c-c7b8005c38fd",
+    "name": "Apfelwein & Cider",
+    "slug": "bier-apfelwein-cider"
+  },
   "8576c23c-0a60-46f1-8c91-8565725428f4": {
     "active": true,
-    "code": "All / Getränke",
+    "code": "Alles / Gekühltes / Frisch & Fertig / Frische Säfte & Smoothies",
     "id": "8576c23c-0a60-46f1-8c91-8565725428f4",
     "name": "Frische Säfte & Smoothies",
     "slug": "frisch-fertig-smoothies"
   },
   "85c708d6-1bcb-43bf-9aaa-5705ffbbb015": {
     "active": true,
-    "code": "All / Weitere Verarbeitete Lebensmittel / Fertiggerichte",
+    "code": "Alles / Tiefgekühltes / Fertiggerichte",
     "id": "85c708d6-1bcb-43bf-9aaa-5705ffbbb015",
     "name": "Fertiggerichte",
     "slug": "tiefkuehl-fertiggerichte"
   },
   "8653e05f-21f8-4657-896e-10c48daaf926": {
     "active": true,
-    "code": "All",
+    "code": "Alles",
     "id": "8653e05f-21f8-4657-896e-10c48daaf926",
     "name": "glo & Neo",
     "slug": "spirituosen-mehr-glo-neo"
   },
   "8689e665-1348-4fd2-8b51-4b260516f1a1": {
     "active": true,
-    "code": "All / Weitere Verarbeitete Lebensmittel",
+    "code": "Alles / Ungekühltes / Essig, Öl, Soßen & Gewürze / Gewürze & Würzmischungen / Brühe, Bouillons & Fonds",
     "id": "8689e665-1348-4fd2-8b51-4b260516f1a1",
     "name": "Brühe & Fonds",
     "slug": "saucen-oele-gewuerze-bruehe-fonds"
   },
   "870cbfe7-cf4c-41a0-a752-db6da4ff8fef": {
     "active": true,
-    "code": "All / Obst",
+    "code": "Alles / Ungekühltes / Fertiggerichte & Konserven / Obstkonserven & Fruchtmark",
     "id": "870cbfe7-cf4c-41a0-a752-db6da4ff8fef",
     "name": "Obstkonserven",
     "slug": "konserven-instantgerichte-backen-obstkonserven"
   },
   "88a0b8a2-b4d9-4393-a0a8-3953eb327b63": {
     "active": true,
-    "code": "All / Gemüse",
+    "code": "Alles / Frisches Obst & Gemüse / Gemüse",
     "id": "88a0b8a2-b4d9-4393-a0a8-3953eb327b63",
     "name": "Wurzelgemüse",
     "slug": "gemuese-wurzelgemuese"
   },
   "895513c9-2f5a-450b-ab70-fc4d4b08f3fa": {
     "active": true,
-    "code": "All / Weitere Verarbeitete Lebensmittel / Fertiggerichte",
+    "code": "Alles / Tiefgekühltes / Fertiggerichte",
     "id": "895513c9-2f5a-450b-ab70-fc4d4b08f3fa",
     "name": "Tiefkühlfertiggerichte",
     "slug": "frisch-fertig-tiefkuehlfertiggerichte"
   },
   "897f6a93-5839-4e2f-8910-e633a59cbb79": {
     "active": true,
-    "code": "All / Getränke",
+    "code": "Alles / Getränke / Alkoholische Getränke",
     "id": "897f6a93-5839-4e2f-8910-e633a59cbb79",
     "name": "Vodka",
     "slug": "spirituosen-mehr-vodka"
   },
   "89d846ad-111d-4ca8-b355-d3a5535c0fc7": {
     "active": true,
-    "code": "All",
+    "code": "Alles",
     "id": "89d846ad-111d-4ca8-b355-d3a5535c0fc7",
     "name": "Ab 5. Monat",
     "slug": "baby-ab-fuenfter-monat"
   },
   "8be8fedd-c5e5-462d-b624-ca65fca0624e": {
     "active": true,
-    "code": "All / Backwaren",
+    "code": "Alles / Ungekühltes / Frühstück / Abgepackte Backwaren",
     "id": "8be8fedd-c5e5-462d-b624-ca65fca0624e",
     "name": "Buns & Wraps",
     "slug": "backwaren-buns-wraps"
   },
   "8c5ddee0-ae08-47b4-bbe4-c545f56f8b06": {
     "active": false,
-    "code": "All",
+    "code": "Alles / Ungekühltes",
     "id": "8c5ddee0-ae08-47b4-bbe4-c545f56f8b06",
     "name": "Vorratsschrank",
     "slug": "angebote-A-vorratsschrank"
   },
   "8cc53cce-19c6-4fa6-9ca6-1f85c11cec17": {
     "active": true,
-    "code": "All / Weitere Verarbeitete Lebensmittel / Fertiggerichte",
+    "code": "Alles / Ungekühltes / Fertiggerichte & Konserven / Instantgerichte",
     "id": "8cc53cce-19c6-4fa6-9ca6-1f85c11cec17",
     "name": "Instantgerichte",
     "slug": "konserven-instantgerichte-backen-fertiggerichte"
   },
   "8e7cf894-1a11-4e6a-8e75-0951d2e93116": {
     "active": true,
-    "code": "All / Getränke",
+    "code": "Alles / Getränke / Alkoholische Getränke",
     "id": "8e7cf894-1a11-4e6a-8e75-0951d2e93116",
     "name": "Weißwein",
     "slug": "wein-sekt-weisswein"
   },
   "8f051676-8e06-4316-a3aa-190dfc74408c": {
     "active": true,
-    "code": "All / Weitere Verarbeitete Lebensmittel / Fertiggerichte",
+    "code": "Alles / Gekühltes / Frisch & Fertig / Sandwiches & Wraps",
     "id": "8f051676-8e06-4316-a3aa-190dfc74408c",
     "name": "Sandwiches & Wraps",
     "slug": "frisch-fertig-sandwiches-wraps"
   },
   "8fde191c-8e1d-482d-a03b-ee4c966643ca": {
     "active": true,
-    "code": "All",
+    "code": "Alles / Gekühltes",
     "id": "8fde191c-8e1d-482d-a03b-ee4c966643ca",
     "name": "Aufschnittalternativen",
     "slug": "aufschnitt-brotaufstriche-aufschnittalternativen"
   },
   "910abae1-868c-4b70-8738-bcbb7e8e56b8": {
     "active": true,
-    "code": "All / Süßwaren",
+    "code": "Alles / Ungekühltes / Snacks / Süße Snacks / Süßwaren / Bonbons, Lutscher & Kaugummi, Fruchtgummi & Lakritz",
     "id": "910abae1-868c-4b70-8738-bcbb7e8e56b8",
     "name": "Fruchtgummi",
     "slug": "suesse-snacks-fruchtgummi"
   },
   "91226eeb-d7e2-4270-aa07-7423027d27d3": {
     "active": true,
-    "code": "All / Getränke",
+    "code": "Alles / Getränke / Alkoholische Getränke",
     "id": "91226eeb-d7e2-4270-aa07-7423027d27d3",
     "name": "Alkoholhaltige Getränke",
     "slug": "angebote-B-alkoholhaltige-getraenke"
   },
   "91274984-b4af-47ce-85c0-004ffe5070c4": {
     "active": false,
-    "code": "All / Backwaren",
+    "code": "Alles / Ungekühltes / AbgepackteBackwaren",
     "id": "91274984-b4af-47ce-85c0-004ffe5070c4",
     "name": "Backwaren",
     "slug": "angebote-A-backwaren"
@@ -1429,7 +1457,7 @@
   "916baf8b-6c38-4d44-9701-c66f0d384365": {
     "active": true,
     "backgroundImage": "https://res.cloudinary.com/goflink/image/upload/w_600,h_800/de/category-backgrounds/50_NOV_Brodbelag2_04DEc23.png",
-    "code": "All",
+    "code": "Alles",
     "href": "/v2/categories/aufschnitt-brotaufstriche",
     "icon": "https://res.cloudinary.com/goflink/image/upload/de/icons/NEW_icon_Wurst_Aufschnitt.png",
     "id": "916baf8b-6c38-4d44-9701-c66f0d384365",
@@ -1438,91 +1466,91 @@
   },
   "9174974d-c0c0-4f89-a82f-28461135af62": {
     "active": true,
-    "code": "All / Fisch",
+    "code": "Alles / Tiefgekühltes / Fleisch & Fisch",
     "id": "9174974d-c0c0-4f89-a82f-28461135af62",
     "name": "Tiefkühl-Fisch",
     "slug": "fleisch-fisch-tiefkuehl-fisch"
   },
   "9559b234-e7ee-4f2f-b13a-b79eb39ffc87": {
     "active": true,
-    "code": "All",
+    "code": "Alles",
     "id": "9559b234-e7ee-4f2f-b13a-b79eb39ffc87",
     "name": "Katzen",
     "slug": "katze-hund-katzen"
   },
   "95c94ac0-ec03-49a8-9a5e-a83792ac0bed": {
     "active": true,
-    "code": "All / Gemüse",
+    "code": "Alles / Frisches Obst & Gemüse / Gemüse",
     "id": "95c94ac0-ec03-49a8-9a5e-a83792ac0bed",
     "name": "Pilze",
     "slug": "gemuese-pilze"
   },
   "966e1919-b991-413c-bdec-c397f35d87cb": {
     "active": true,
-    "code": "All / Gemüse",
+    "code": "Alles / Frisches Obst & Gemüse / Gemüse",
     "id": "966e1919-b991-413c-bdec-c397f35d87cb",
     "name": "Kohl & Staudengemüse",
     "slug": "gemuese-kohl-staudengemuese"
   },
   "96ea5794-8539-48f6-bf67-36af41985dd9": {
     "active": true,
-    "code": "All / Gemüse",
+    "code": "Alles / Gekühltes / Frisch & Fertig / Obst- & Gemüsesnacks",
     "id": "96ea5794-8539-48f6-bf67-36af41985dd9",
     "name": "Gemüsesnacks",
     "slug": "gemuese-gemuesesnacks"
   },
   "97288d5f-0955-4131-a96e-3fd8063ecd6b": {
     "active": true,
-    "code": "All / Süßwaren",
+    "code": "Alles / Ungekühltes / Snacks / Süße Snacks / Süßgebäck",
     "id": "97288d5f-0955-4131-a96e-3fd8063ecd6b",
     "name": "Süßgebäck",
     "slug": "suesse-snacks-suessgebaeck"
   },
   "9753680a-4962-46c1-b613-60d1a8ce13d5": {
     "active": true,
-    "code": "All / Gemüse",
+    "code": "Alles / Tiefgekühltes / Gemüse",
     "id": "9753680a-4962-46c1-b613-60d1a8ce13d5",
     "name": "Tiefkühl-Gemüse",
     "slug": "gemuese-tiefkuehl-gemuese"
   },
   "975a07fa-67bd-4f31-8938-55f09819e26a": {
     "active": true,
-    "code": "All / Getränke",
+    "code": "Alles / Getränke / Alkoholische Getränke",
     "id": "975a07fa-67bd-4f31-8938-55f09819e26a",
     "name": "Whiskey",
     "slug": "spirituosen-mehr-whisky"
   },
   "994c9a04-a77b-4e5c-a2c8-9047c3dd6243": {
     "active": true,
-    "code": "All / Obst",
+    "code": "Alles / Frisches Obst & Gemüse / Obst / Bananen",
     "id": "994c9a04-a77b-4e5c-a2c8-9047c3dd6243",
     "name": "Bananen",
     "slug": "obst-bananen"
   },
   "99b20133-9f2e-4cb0-bf87-5bde53857e85": {
     "active": true,
-    "code": "All / Gemüse / Kräuter",
+    "code": "Alles / Tiefgekühltes / Kräuter",
     "id": "99b20133-9f2e-4cb0-bf87-5bde53857e85",
     "name": "Kräuter",
     "slug": "tiefkuehl-kraeuter"
   },
   "99ead5b3-75a5-4775-9c3c-be32dbab3d9b": {
     "active": true,
-    "code": "All",
+    "code": "Alles / Gekühltes / Molkereiprodukte / Joghurt, Skyr, Quark & Dessert / Dessert",
     "id": "99ead5b3-75a5-4775-9c3c-be32dbab3d9b",
     "name": "Desserts",
     "slug": "fitness-desserts"
   },
   "9acbb76f-ab51-4259-b410-bb8ee06fefc3": {
     "active": true,
-    "code": "All",
+    "code": "Alles / Ungekühltes / Snacks / Salzige Snacks / Tortillas",
     "id": "9acbb76f-ab51-4259-b410-bb8ee06fefc3",
     "name": "Tortillas & Dips",
     "slug": "salzige-snacks-tortillas-dips"
   },
   "9c121978-7300-4c28-9b92-12e7c338c3f0": {
     "active": true,
-    "code": "All / Gemüse",
+    "code": "Alles / Frisches Obst & Gemüse / Gemüse",
     "id": "9c121978-7300-4c28-9b92-12e7c338c3f0",
     "name": "Aubergine, Paprika & Zucchini",
     "slug": "gemuese-aubergine-paprika-zucchini"
@@ -1530,7 +1558,7 @@
   "9c23b899-e9ab-476d-8238-928874f85d6e": {
     "active": true,
     "backgroundImage": "https://res.cloudinary.com/goflink/image/upload/w_600,h_800/de/category-backgrounds/50_NOV_Spirituosen2_04Dec23.png",
-    "code": "All",
+    "code": "Alles / Getränke / Alkoholische Getränke",
     "href": "/v2/categories/spirituosen-mehr",
     "icon": "https://res.cloudinary.com/goflink/image/upload/de/icons/NEW_icon_Spirituosen_Mehr.png",
     "id": "9c23b899-e9ab-476d-8238-928874f85d6e",
@@ -1539,112 +1567,112 @@
   },
   "9c8d1f76-b7fb-4525-8289-3c68c1d9f3e7": {
     "active": true,
-    "code": "All",
+    "code": "Alles",
     "id": "9c8d1f76-b7fb-4525-8289-3c68c1d9f3e7",
     "name": "Vuse Go",
     "slug": "spirituosen-mehr-vuse"
   },
   "9ceb2eb9-cece-4e9d-a54c-ed07f0328b68": {
     "active": true,
-    "code": "All / Getränke",
+    "code": "Alles / Getränke / Alkoholische Getränke",
     "id": "9ceb2eb9-cece-4e9d-a54c-ed07f0328b68",
     "name": "Alkoholfrei",
     "slug": "bier-alkoholfrei"
   },
   "9d5e87d5-f3ff-4de1-ba19-083a197129fd": {
     "active": true,
-    "code": "All / Zuckerarten, Sirupe und Honig",
+    "code": "Alles / Ungekühltes / Backen & Dessertpulver / Zucker & Süßungsmittel",
     "id": "9d5e87d5-f3ff-4de1-ba19-083a197129fd",
     "name": "Zucker & Süßungsmittel",
     "slug": "konserven-instantgerichte-backen-zucker-suessungsmittel"
   },
   "9ec0b45a-0f06-4838-9a13-df91c33c3ff7": {
     "active": true,
-    "code": "All",
+    "code": "Alles",
     "id": "9ec0b45a-0f06-4838-9a13-df91c33c3ff7",
     "name": "Bad",
     "slug": "haushalt-bad"
   },
   "9f54dace-b499-4e79-885c-2a7f551cb734": {
     "active": true,
-    "code": "All / Getränke",
+    "code": "Alles / Gekühltes / Molkereiprodukte / Milch- & Kaffeegetränke",
     "id": "9f54dace-b499-4e79-885c-2a7f551cb734",
     "name": "Milchgetränke",
     "slug": "eier-milch-butter-milchgetraenke"
   },
   "9fbd2055-052c-488b-8aae-839b2741cc5d": {
     "active": true,
-    "code": "All",
+    "code": "Alles",
     "id": "9fbd2055-052c-488b-8aae-839b2741cc5d",
     "name": "Zigaretten",
     "slug": "spirituosen-mehr-zigaretten"
   },
   "a1a310f4-e43c-4d35-9d65-4061191a3ee7": {
     "active": true,
-    "code": "All",
+    "code": "Alles",
     "id": "a1a310f4-e43c-4d35-9d65-4061191a3ee7",
     "name": "Seife",
     "slug": "drogerie-seife"
   },
   "a1d508db-46bf-4760-b4e4-dcb89501407b": {
     "active": true,
-    "code": "All / Getränke",
+    "code": "Alles / Getränke / Alkoholische Getränke",
     "id": "a1d508db-46bf-4760-b4e4-dcb89501407b",
     "name": "Lager",
     "slug": "bier-lager"
   },
   "a2aee69f-98ba-48af-a4cd-56bf33af9243": {
     "active": true,
-    "code": "All / Backwaren",
+    "code": "Alles / Tiefgekühltes / Desserts & Backwaren",
     "id": "a2aee69f-98ba-48af-a4cd-56bf33af9243",
     "name": "Kuchen & Feingebäck",
     "slug": "tiefkuehl-kuchen-feingebaeck"
   },
   "a3544d8d-f2f7-4c4b-902f-d31ca0688cfd": {
     "active": true,
-    "code": "All / Milchprodukte / Joghurt",
+    "code": "Alles / Gekühltes / Molkereiprodukte / Joghurt, Skyr, Quark & Dessert / Dessert",
     "id": "a3544d8d-f2f7-4c4b-902f-d31ca0688cfd",
     "name": "Desserts",
     "slug": "joghurt-desserts-desserts"
   },
   "a6a8bd3b-f90d-4920-aa52-ff9424c3dd55": {
     "active": true,
-    "code": "All / Fette und Öle",
+    "code": "Alles / Ungekühltes / Essig, Öl, Soßen & Gewürze",
     "id": "a6a8bd3b-f90d-4920-aa52-ff9424c3dd55",
     "name": "Öl",
     "slug": "saucen-oele-gewuerze-oel"
   },
   "a879b93e-5e1d-4d40-85cd-43f18108c598": {
-    "active": true,
-    "code": null,
+    "active": false,
+    "code": "Alles / Tiefgekühltes / Eis",
     "id": "a879b93e-5e1d-4d40-85cd-43f18108c598",
     "name": "Veganes Eis",
     "slug": "angebote-B-veganes-eis"
   },
   "a87e5d1a-b9b3-4f9c-87fc-3692f49eb4f2": {
     "active": true,
-    "code": "All / Getreide und Getreideprodukte / Nudeln",
+    "code": "Alles / Ungekühltes / Beilagen / Nudeln",
     "id": "a87e5d1a-b9b3-4f9c-87fc-3692f49eb4f2",
     "name": "Asiatische Nudeln",
     "slug": "nudeln-reis-internationale-kueche"
   },
   "aa35c82d-586a-4684-a195-91b1720af878": {
     "active": true,
-    "code": "All",
+    "code": "Alles / Gekühltes / Fisch & Fleisch / Fleisch- & Fischalternativen",
     "id": "aa35c82d-586a-4684-a195-91b1720af878",
     "name": "Fleisch- & Fischalternativen",
     "slug": "fleisch-fisch-fleisch-fischalternativen"
   },
   "aa3f6487-4212-48ca-88af-35f078f7d511": {
     "active": false,
-    "code": "All",
+    "code": "Alles",
     "id": "aa3f6487-4212-48ca-88af-35f078f7d511",
     "name": "Nur noch für kurze Zeit",
     "slug": "angebote-nur-noch-fuer-kurze-zeit"
   },
   "ac75e272-7ff8-461b-b2f7-94d3c903aff5": {
     "active": true,
-    "code": "All / Getränke",
+    "code": "Alles / Getränke / Alkoholfreie Getränke / Säfte & Nektare",
     "id": "ac75e272-7ff8-461b-b2f7-94d3c903aff5",
     "name": "Saft",
     "slug": "baby-saft"
@@ -1652,7 +1680,7 @@
   "ad26fbe4-dbd4-47b3-a469-0a0392d39797": {
     "active": true,
     "backgroundImage": "https://res.cloudinary.com/goflink/image/upload/w_600,h_800/de/category-backgrounds/50_NOV_Frisch%20_%20Fertig3_04Dec2023.png",
-    "code": "All",
+    "code": "Alles / Gekühltes / Frisch & Fertig",
     "href": "/v2/categories/frisch-fertig",
     "icon": "https://res.cloudinary.com/goflink/image/upload/de/icons/NEW_icon_Frisch_Fertig.png",
     "id": "ad26fbe4-dbd4-47b3-a469-0a0392d39797",
@@ -1661,98 +1689,98 @@
   },
   "af562c3c-3d15-445d-a673-274cdc6d82f6": {
     "active": true,
-    "code": "All",
+    "code": "Alles / Gekühltes / Molkereiprodukte / Milch & Milchalternativen / Pflanzendrinks",
     "id": "af562c3c-3d15-445d-a673-274cdc6d82f6",
     "name": "Milchalternativen",
     "slug": "eier-milch-butter-milchalternativen"
   },
   "afa21142-9454-4a3d-8a20-e7215ea43517": {
     "active": true,
-    "code": "All / Weitere Verarbeitete Lebensmittel",
+    "code": "Alles / Ungekühltes / Beilagen / Kartoffelprodukte",
     "id": "afa21142-9454-4a3d-8a20-e7215ea43517",
     "name": "Kartoffelprodukte",
     "slug": "nudeln-reis-internationale-kueche-kartoffelprodukte"
   },
   "afb19ea6-f6ba-4492-b87c-9925838263c7": {
     "active": true,
-    "code": "All",
+    "code": "Alles / Ungekühltes / Backen & Dessertpulver / Backzutaten",
     "id": "afb19ea6-f6ba-4492-b87c-9925838263c7",
     "name": "Backzutaten",
     "slug": "konserven-instantgerichte-backen-backzutaten"
   },
   "b07b8c8f-0890-4337-9228-a120a98295fe": {
     "active": true,
-    "code": "All / Fleisch",
+    "code": "Alles / Tiefgekühltes / Fleisch & Fisch",
     "id": "b07b8c8f-0890-4337-9228-a120a98295fe",
     "name": "Fleisch",
     "slug": "tiefkuehl-fleisch"
   },
   "b08af8a5-076b-4742-8353-bf8346050a23": {
     "active": true,
-    "code": "All / Weitere Verarbeitete Lebensmittel",
+    "code": "Alles / Ungekühltes / Feinkost & Antipasti",
     "id": "b08af8a5-076b-4742-8353-bf8346050a23",
     "name": "Antipasti",
     "slug": "konserven-instantgerichte-backen-antipasti"
   },
   "b19dc9a0-cbbf-43fa-9451-9f1c4d595c03": {
     "active": true,
-    "code": "All / Getränke",
+    "code": "Alles / Gekühltes / Molkereiprodukte / Milch- & Kaffeegetränke",
     "id": "b19dc9a0-cbbf-43fa-9451-9f1c4d595c03",
     "name": "Kaffeegetränke",
     "slug": "eier-milch-butter-kaffeegetraenke"
   },
   "b1f2c7e4-fc66-452c-a3be-169ae77b54e9": {
     "active": true,
-    "code": "All / Weitere Verarbeitete Lebensmittel / Brotaufstrich und Mus",
+    "code": "Alles / Ungekühltes / Frühstück / Brotaufstriche / Nuss- & Schokoladenaufstriche",
     "id": "b1f2c7e4-fc66-452c-a3be-169ae77b54e9",
     "name": "Nuss- & Schokoaufstriche",
     "slug": "aufschnitt-brotaufstriche-nuss-schokoaufstriche"
   },
   "b43fea26-c773-42fd-8206-008945087120": {
     "active": true,
-    "code": "All",
+    "code": "Alles / Ungekühltes / Snacks / Süße Snacks / Müsli-, Frucht- & Proteinriegel",
     "id": "b43fea26-c773-42fd-8206-008945087120",
     "name": "Snacks",
     "slug": "fitness-snacks"
   },
   "b4f78bb5-abea-44d0-ba8f-565a0382bc98": {
     "active": true,
-    "code": "All",
+    "code": "Alles / Frisches Obst & Gemüse / Gemüse",
     "id": "b4f78bb5-abea-44d0-ba8f-565a0382bc98",
     "name": "Avocado, Gurken & Tomaten",
     "slug": "gemuese-avocado-gurken-tomaten"
   },
   "b51f943b-961e-4e89-bd86-3d240ca8f43d": {
     "active": false,
-    "code": "All",
+    "code": "Alles / Gekühltes",
     "id": "b51f943b-961e-4e89-bd86-3d240ca8f43d",
     "name": "Kühlregal",
     "slug": "angebote-A-kuehlregal"
   },
   "b5785c60-ad4e-4427-9720-227e5b6fbc67": {
     "active": true,
-    "code": "All / Backwaren",
+    "code": "Alles / Ungekühltes / Frühstück / Abgepackte Backwaren",
     "id": "b5785c60-ad4e-4427-9720-227e5b6fbc67",
     "name": "Knäckebrot, Reiswaffeln & Zwieback",
     "slug": "backwaren-knaeckebrot-reiswaffeln-zwieback"
   },
   "b6a7fa06-b495-4986-ba26-682d953e287b": {
     "active": true,
-    "code": "All",
+    "code": "Alles / Tiefgekühltes / Eis",
     "id": "b6a7fa06-b495-4986-ba26-682d953e287b",
     "name": "Eis-Toppings",
     "slug": "eis-eis-toppings"
   },
   "b74ef6fb-c305-48be-8edc-8b2bca0d96a4": {
     "active": true,
-    "code": "All",
+    "code": "Alles / Ungekühltes / Backen & Dessertpulver",
     "id": "b74ef6fb-c305-48be-8edc-8b2bca0d96a4",
     "name": "Backen & Kochen",
     "slug": "vegan-vegetarisch-backen-kochen"
   },
   "bc32343b-d393-4e7b-9ff5-7aa1790fd097": {
     "active": true,
-    "code": "All",
+    "code": "Alles / Tiefgekühltes / Eis",
     "id": "bc32343b-d393-4e7b-9ff5-7aa1790fd097",
     "name": "Eiswürfel",
     "slug": "eis-eiswuerfel"
@@ -1760,7 +1788,7 @@
   "bce53207-acf9-4448-961a-b79fb31e93e7": {
     "active": false,
     "backgroundImage": "https://res.cloudinary.com/goflink/image/upload/w_600,h_800/de/category-backgrounds/DE_Blue_Tile_CW39_V2.png",
-    "code": "All",
+    "code": "Alles",
     "href": "/v2/categories/angebote-A",
     "icon": "https://res.cloudinary.com/goflink/image/upload/de/icons/angebote_icon.png",
     "id": "bce53207-acf9-4448-961a-b79fb31e93e7",
@@ -1769,84 +1797,84 @@
   },
   "bdd14ef9-d905-4e2d-84e3-6847743bb6f6": {
     "active": true,
-    "code": "All",
+    "code": "Alles",
     "id": "bdd14ef9-d905-4e2d-84e3-6847743bb6f6",
     "name": "Hand- & Körperpflege",
     "slug": "drogerie-hand-koerperpflege"
   },
   "bdeeb8c0-c4e5-4c95-9c43-e3c3711122fb": {
     "active": true,
-    "code": "All / Gemüse / Kräuter",
+    "code": "Alles / Tiefgekühltes / Kräuter",
     "id": "bdeeb8c0-c4e5-4c95-9c43-e3c3711122fb",
     "name": "Tiefkühl-Kräuter",
     "slug": "gemuese-tiefkuehl-kraeuter"
   },
   "c0a92550-16b0-4ceb-9d26-4e381f0172ba": {
     "active": true,
-    "code": "All / Getränke",
+    "code": "Alles / Getränke / Alkoholische Getränke",
     "id": "c0a92550-16b0-4ceb-9d26-4e381f0172ba",
     "name": "Rum",
     "slug": "spirituosen-mehr-rum"
   },
   "c1136437-14f6-435b-abe4-a6dd2b6359a4": {
     "active": true,
-    "code": "All / Getränke",
+    "code": "Alles / Gekühltes / Frisch & Fertig / Frische Säfte & Smoothies",
     "id": "c1136437-14f6-435b-abe4-a6dd2b6359a4",
     "name": "Frische Säfte & Smoothies",
     "slug": "alkoholfreie-getraenke-frische-saefte-smoothies"
   },
   "c115df2d-d9d9-46b5-b7fd-3d0495623c56": {
     "active": true,
-    "code": "All",
+    "code": "Alles",
     "id": "c115df2d-d9d9-46b5-b7fd-3d0495623c56",
     "name": "Toilettenpapier",
     "slug": "haushalt-toilettenpapier"
   },
   "c1c13184-5e56-4a27-8ce7-293254e91dc6": {
     "active": true,
-    "code": "All / Milchprodukte",
+    "code": "Alles / Gekühltes / Molkereiprodukte / Joghurt, Skyr, Quark & Dessert / Joghurtalternativen",
     "id": "c1c13184-5e56-4a27-8ce7-293254e91dc6",
     "name": "Joghurtalternativen",
     "slug": "joghurt-desserts-joghurtalternativen"
   },
   "c2e32756-e725-4683-a99c-46e732582751": {
     "active": true,
-    "code": "All / Getränke",
+    "code": "Alles / Getränke / Alkoholische Getränke",
     "id": "c2e32756-e725-4683-a99c-46e732582751",
     "name": "Mixgetränke",
     "slug": "spirituosen-mehr-mixgetraenke"
   },
   "c2fd0b53-912e-45ea-9c37-0db6a386bf70": {
     "active": true,
-    "code": "All / Getränke",
+    "code": "Alles / Getränke / Alkoholfreie Getränke / Säfte & Nektare",
     "id": "c2fd0b53-912e-45ea-9c37-0db6a386bf70",
     "name": "Saft",
     "slug": "alkoholfreie-getraenke-saft"
   },
   "c30fe447-0004-4915-99cf-7d6cd3228a13": {
     "active": true,
-    "code": "All",
+    "code": "Alles",
     "id": "c30fe447-0004-4915-99cf-7d6cd3228a13",
     "name": "Papiertücher & Watteartikel",
     "slug": "drogeire-papiertuecher-watteartikel"
   },
   "c489f518-b529-42e4-810d-212285929d87": {
     "active": true,
-    "code": "All",
+    "code": "Alles / Gekühltes",
     "id": "c489f518-b529-42e4-810d-212285929d87",
     "name": "Kühlregal",
     "slug": "angebote-B-kuehlregal"
   },
   "c48c83d6-b046-4d41-81db-4ff699fbad06": {
     "active": true,
-    "code": "All",
+    "code": "Alles",
     "id": "c48c83d6-b046-4d41-81db-4ff699fbad06",
     "name": "Vuse Pro Pods",
     "slug": "spirituosen-mehr-vuse-pro"
   },
   "c4c029ba-4dae-451d-a574-a62189bd62ea": {
     "active": true,
-    "code": "All / Fisch",
+    "code": "Alles / Tiefgekühltes / Fleisch & Fisch",
     "id": "c4c029ba-4dae-451d-a574-a62189bd62ea",
     "name": "Fisch",
     "slug": "tiefkuehl-fisch"
@@ -1854,7 +1882,7 @@
   "c5c7ab96-013b-4910-9244-5d6a51c301f6": {
     "active": true,
     "backgroundImage": "https://res.cloudinary.com/goflink/image/upload/w_600,h_800/de/category-backgrounds/50_NOV_Feinkost3_04Dec23.png",
-    "code": "All",
+    "code": "Alles / Gekühltes / Frisch & Fertig",
     "href": "/v2/categories/feinkost",
     "icon": "https://res.cloudinary.com/goflink/image/upload/de/icons/NEW_icon_Feinkost.png",
     "id": "c5c7ab96-013b-4910-9244-5d6a51c301f6",
@@ -1863,49 +1891,49 @@
   },
   "c5f92470-ca23-466e-8d92-d7875c27ec59": {
     "active": true,
-    "code": "All / Getränke",
+    "code": "Alles / Getränke / Alkoholische Getränke",
     "id": "c5f92470-ca23-466e-8d92-d7875c27ec59",
     "name": "Alkoholfreier Wein & Sekt",
     "slug": "wein-sekt-alkohlfreier-wein-sekt"
   },
   "c8272ef0-ae2f-40b0-8c09-5f0ca8c3f399": {
     "active": true,
-    "code": "All",
+    "code": "Alles",
     "id": "c8272ef0-ae2f-40b0-8c09-5f0ca8c3f399",
     "name": "Milchnahrung & Breie",
     "slug": "baby-milchnahrung-und-breie"
   },
   "c879b479-7363-40f0-9d3e-eb4dd838276c": {
     "active": true,
-    "code": "All",
+    "code": "Alles / Nahrungsergänzungsmittel",
     "id": "c879b479-7363-40f0-9d3e-eb4dd838276c",
     "name": "Nahrungsergänzungsmittel",
     "slug": "nahrungsergnzungsmittel"
   },
   "c885ab9a-b9a0-4d8f-835c-5adf51c6cb75": {
     "active": true,
-    "code": "All",
+    "code": "Alles",
     "id": "c885ab9a-b9a0-4d8f-835c-5adf51c6cb75",
     "name": "Haarpflege",
     "slug": "drogerie-haarpflege"
   },
   "ca35feea-4b74-4fcf-8205-2a46bffcc704": {
     "active": true,
-    "code": "All / Fleisch",
+    "code": "Alles / Gekühltes / Fisch & Fleisch / Wurst & Aufschnitt / Salami",
     "id": "ca35feea-4b74-4fcf-8205-2a46bffcc704",
     "name": "Salami",
     "slug": "aufschnitt-brotaufstriche-salami"
   },
   "ca937592-32d5-4c6c-9fe3-ea8ce4a18b6b": {
     "active": true,
-    "code": "All / Getreide und Getreideprodukte / Nudeln",
+    "code": "Alles / Gekühltes / Frisch & Fertig / Frische Pasta & Beilagen",
     "id": "ca937592-32d5-4c6c-9fe3-ea8ce4a18b6b",
     "name": "Frische Nudeln",
     "slug": "nudeln-reis-getreide-frische-nudeln"
   },
   "cae3570c-f754-4882-a430-e9c39e99f1a5": {
     "active": true,
-    "code": "All / Backwaren",
+    "code": "Alles / Gekühltes / Frisch & Fertig / Backwaren & frische Fertigteige",
     "id": "cae3570c-f754-4882-a430-e9c39e99f1a5",
     "name": "Zum Aufbacken",
     "slug": "backwaren-zum-aufbacken"
@@ -1913,7 +1941,7 @@
   "cc4d0dba-b436-4449-bd23-6f8875b0779e": {
     "active": true,
     "backgroundImage": "https://res.cloudinary.com/goflink/image/upload/w_600,h_800/de/category-backgrounds/50_NOV_Drogerie2_04Dec23.png",
-    "code": "All",
+    "code": "Alles",
     "href": "/v2/categories/drogerie",
     "icon": "https://res.cloudinary.com/goflink/image/upload/de/icons/NEW_icon_Drogerie_Hygiene.png",
     "id": "cc4d0dba-b436-4449-bd23-6f8875b0779e",
@@ -1922,21 +1950,21 @@
   },
   "cd1b8fc3-3448-4ec5-9ebd-1edcb8961302": {
     "active": true,
-    "code": "All / Gemüse / Salate",
+    "code": "Alles / Frisches Obst & Gemüse / Salate",
     "id": "cd1b8fc3-3448-4ec5-9ebd-1edcb8961302",
     "name": "Blattgemüse & Salate",
     "slug": "gemuese-blattgemuese-salate"
   },
   "cec4e8d7-b949-4a22-938a-07d731b698e1": {
     "active": true,
-    "code": "All",
+    "code": "Alles",
     "id": "cec4e8d7-b949-4a22-938a-07d731b698e1",
     "name": "Küchenrolle",
     "slug": "haushalt-kuechenrolle"
   },
   "cf12dd55-ea9c-4df6-a983-d6dea2b0ba45": {
     "active": true,
-    "code": "All",
+    "code": "Alles",
     "id": "cf12dd55-ea9c-4df6-a983-d6dea2b0ba45",
     "name": "Deo",
     "slug": "drogerie-deo"
@@ -1944,7 +1972,7 @@
   "cf2e1a49-af04-4c89-b56b-bc3a12808a19": {
     "active": true,
     "backgroundImage": "https://res.cloudinary.com/goflink/image/upload/w_600,h_800/de/category-backgrounds/50_NOV_Cerealien2_04Dec23.png",
-    "code": "All / Weitere Verarbeitete Lebensmittel",
+    "code": "Alles / Ungekühltes / Frühstück",
     "href": "/v2/categories/cerealien-aufstriche",
     "icon": "https://res.cloudinary.com/goflink/image/upload/de/icons/NEW_icon_Aufstriche_Cerealien.png",
     "id": "cf2e1a49-af04-4c89-b56b-bc3a12808a19",
@@ -1953,28 +1981,28 @@
   },
   "d07536c1-451d-4318-9359-21e8cb24729f": {
     "active": true,
-    "code": "All / Getränke",
+    "code": "Alles / Getränke / Cola & Spezi",
     "id": "d07536c1-451d-4318-9359-21e8cb24729f",
     "name": "Spezi & Cola-Mix",
     "slug": "alkoholfreie-getraenke-spezi-colamix"
   },
   "d1403f5c-563a-47a6-ab50-bf398e46ff59": {
     "active": true,
-    "code": "All / Obst",
+    "code": "Alles / Frisches Obst & Gemüse / Obst",
     "id": "d1403f5c-563a-47a6-ab50-bf398e46ff59",
     "name": "Exoten",
     "slug": "obst-exoten"
   },
   "d14535d8-93ab-4a8e-adcf-fcbac81530f6": {
     "active": true,
-    "code": "All",
+    "code": "Alles / Gekühltes / Frisch & Fertig / Müsli & Süßes",
     "id": "d14535d8-93ab-4a8e-adcf-fcbac81530f6",
     "name": "Müsli & Süßes",
     "slug": "frisch-fertig-muesli-suesses"
   },
   "d154657f-9051-4d53-9f46-dc8737c53767": {
     "active": true,
-    "code": "All",
+    "code": "Alles",
     "id": "d154657f-9051-4d53-9f46-dc8737c53767",
     "name": "Love & More",
     "slug": "drogerie-hygiene-love-more"
@@ -1982,7 +2010,7 @@
   "d3cf6582-3a0d-400e-a738-86853125cfb7": {
     "active": true,
     "backgroundImage": "https://res.cloudinary.com/goflink/image/upload/w_600,h_800/de/category-backgrounds/50_NOV_Saucen%20_%20Oil3_04Dec2023.png",
-    "code": "All / Weitere Verarbeitete Lebensmittel",
+    "code": "Alles / Ungekühltes / Essig, Öl, Soßen & Gewürze",
     "href": "/v2/categories/saucen-oele-gewuerze",
     "icon": "https://res.cloudinary.com/goflink/image/upload/de/icons/NEW_icon_Saucen_Oele_Gewuerze.png",
     "id": "d3cf6582-3a0d-400e-a738-86853125cfb7",
@@ -1991,14 +2019,14 @@
   },
   "d4695b66-5cc1-432c-9d33-ee94766649d5": {
     "active": true,
-    "code": "All / Milchprodukte",
+    "code": "Alles / Gekühltes / Molkereiprodukte / Sahne, Schmand & Creme Fraiche",
     "id": "d4695b66-5cc1-432c-9d33-ee94766649d5",
     "name": "Sahne & Schmand",
     "slug": "eier-milch-butter-sahne-schmand"
   },
   "d4ef6dc1-2ab3-4944-9934-87ebdffba9eb": {
     "active": true,
-    "code": "All / Süßwaren",
+    "code": "Alles / Ungekühltes / Snacks / Süße Snacks / Müsli-, Frucht- & Proteinriegel",
     "id": "d4ef6dc1-2ab3-4944-9934-87ebdffba9eb",
     "name": "Müsli- & Proteinriegel",
     "slug": "cerealien-aufstriche-backen-muesli-proteinriegel"
@@ -2006,7 +2034,7 @@
   "d60a752b-c292-4e87-b510-828aff899fa7": {
     "active": true,
     "backgroundImage": "https://res.cloudinary.com/goflink/image/upload/w_600,h_800/de/category-backgrounds/50_NOV_Bier3_04Dec2023.png",
-    "code": "All / Getränke",
+    "code": "Alles / Getränke / Alkoholische Getränke",
     "href": "/v2/categories/bier",
     "icon": "https://res.cloudinary.com/goflink/image/upload/de/icons/NEW_icon_Bier.png",
     "id": "d60a752b-c292-4e87-b510-828aff899fa7",
@@ -2015,35 +2043,35 @@
   },
   "d6ecf2e7-56b5-428b-87f2-ae2fc338c5ae": {
     "active": true,
-    "code": "All",
+    "code": "Alles",
     "id": "d6ecf2e7-56b5-428b-87f2-ae2fc338c5ae",
     "name": "Gesichtspflege & Kosmetik",
     "slug": "drogerie-gesichtspflege-kosmetik"
   },
   "d90eaa76-17d2-4b63-8277-93dd78aa57f3": {
     "active": true,
-    "code": "All / Backwaren",
+    "code": "Alles / Ungekühltes / Frühstück / Abgepackte Backwaren / Süße Backwaren",
     "id": "d90eaa76-17d2-4b63-8277-93dd78aa57f3",
     "name": "Süße Backwaren",
     "slug": "suesse-snacks-suesse-backwaren"
   },
   "d9f353a3-2dad-4cc5-a06b-b73d001b6d1b": {
     "active": true,
-    "code": "All / Getränke",
+    "code": "Alles / Getränke / Sport- & Energydrinks",
     "id": "d9f353a3-2dad-4cc5-a06b-b73d001b6d1b",
     "name": "Sportgetränke",
     "slug": "alkoholfreie-getraenke-sportgetraenke"
   },
   "da5bb4dc-7b2f-415c-9223-76ade3292cb8": {
     "active": true,
-    "code": "All / Weitere Verarbeitete Lebensmittel",
+    "code": "Alles / Ungekühltes / Essig, Öl, Soßen & Gewürze / Soßen & Dips",
     "id": "da5bb4dc-7b2f-415c-9223-76ade3292cb8",
     "name": "Mayonnaise & Senf",
     "slug": "saucen-oele-gewuerze-mayonnaise-senf"
   },
   "da8d5aab-d71b-448d-9f01-85d0f596d010": {
     "active": true,
-    "code": "All / Fleisch",
+    "code": "Alles / Gekühltes / Fisch & Fleisch / Geflügel",
     "id": "da8d5aab-d71b-448d-9f01-85d0f596d010",
     "name": "Geflügelfleisch",
     "slug": "fleisch-fisch-gefluegelfleisch"
@@ -2051,7 +2079,7 @@
   "dbe39c5c-95f0-4ed8-82ef-8bdc118f1d34": {
     "active": true,
     "backgroundImage": "https://res.cloudinary.com/goflink/image/upload/w_600,h_800/de/category-backgrounds/50_NOV_Konserven_Fertiggerichte%20_%20Backen3_04Dec2023.png",
-    "code": "All",
+    "code": "Alles / Ungekühltes / Fertiggerichte & Konserven",
     "href": "/v2/categories/konserven-Instantgerichte-backen",
     "icon": "https://res.cloudinary.com/goflink/image/upload/de/icons/NEW_icon_Konserven_Fertiggerichte.png",
     "id": "dbe39c5c-95f0-4ed8-82ef-8bdc118f1d34",
@@ -2060,21 +2088,21 @@
   },
   "dc4bb45c-23e5-4319-8739-eba660092a54": {
     "active": true,
-    "code": "All / Fleisch",
+    "code": "Alles / Gekühltes / Fisch & Fleisch / Wurst & Aufschnitt / Streichwurst",
     "id": "dc4bb45c-23e5-4319-8739-eba660092a54",
     "name": "Streichwurst",
     "slug": "aufschnitt-brotaufstriche-streichwurst"
   },
   "dcc046cf-0898-41ed-a9cf-9d8caf5b5627": {
     "active": true,
-    "code": "All / Weitere Verarbeitete Lebensmittel / Kaffee",
+    "code": "Alles / Ungekühltes / Kaffee, Tee & Co. / Kaffee",
     "id": "dcc046cf-0898-41ed-a9cf-9d8caf5b5627",
     "name": "Kaffeekapseln",
     "slug": "kaffee-tee-kakao-kaffeekapseln"
   },
   "e029cf5a-3625-4aab-9a7e-15cdd3f9e711": {
     "active": true,
-    "code": "All",
+    "code": "Alles",
     "id": "e029cf5a-3625-4aab-9a7e-15cdd3f9e711",
     "name": "Ab 6. Monat",
     "slug": "baby-ab-sechster-monat"
@@ -2082,7 +2110,7 @@
   "e05018f2-0824-456d-b082-581c20e18028": {
     "active": true,
     "backgroundImage": "https://res.cloudinary.com/goflink/image/upload/w_600,h_800/de/category-backgrounds/50_NOV_Fleisch%20und%20Fisch%201_2_04Dec23.png",
-    "code": "All",
+    "code": "Alles / Gekühltes / Fisch & Fleisch",
     "href": "/v2/categories/fleisch-fisch",
     "icon": "https://res.cloudinary.com/goflink/image/upload/de/icons/NEW_icon_Fleisch_Fisch.png",
     "id": "e05018f2-0824-456d-b082-581c20e18028",
@@ -2091,35 +2119,35 @@
   },
   "e13a28d4-8568-4459-ad68-72b035f42ab3": {
     "active": true,
-    "code": "All / Süßwaren",
+    "code": "Alles / Ungekühltes / Snacks / Süße Snacks / Süßwaren / Popcorn",
     "id": "e13a28d4-8568-4459-ad68-72b035f42ab3",
     "name": "Popcorn",
     "slug": "suesse-snacks-popcorn"
   },
   "e3cb115c-68be-4725-8dac-0c802c6c5db3": {
     "active": true,
-    "code": "All / Süßwaren",
+    "code": "Alles / Ungekühltes / Snacks / Süße Snacks / Müsli-, Frucht- & Proteinriegel",
     "id": "e3cb115c-68be-4725-8dac-0c802c6c5db3",
     "name": "Riegel",
     "slug": "suesse-snacks-riegel"
   },
   "e5896ea3-027b-4366-9222-5b9fa6cd05e7": {
     "active": true,
-    "code": "All",
+    "code": "Alles",
     "id": "e5896ea3-027b-4366-9222-5b9fa6cd05e7",
     "name": "Mund- & Zahnhygiene",
     "slug": "drogerie-mund-zahnhygiene"
   },
   "e68e6b66-8b29-4230-a8d5-ae01669b236f": {
     "active": true,
-    "code": "All / Getränke",
+    "code": "Alles / Getränke / Alkoholische Getränke",
     "id": "e68e6b66-8b29-4230-a8d5-ae01669b236f",
     "name": "Sekt",
     "slug": "wein-sekt-sekt"
   },
   "e72c10ec-c96f-46e8-b6cd-817af18edb50": {
     "active": true,
-    "code": "All / Fleisch",
+    "code": "Alles / Gekühltes / Fisch & Fleisch / Wurst & Aufschnitt",
     "id": "e72c10ec-c96f-46e8-b6cd-817af18edb50",
     "name": "Wurst",
     "slug": "fleisch-fisch-wurst"
@@ -2127,7 +2155,7 @@
   "e73be8f2-c1be-48bd-bca9-772377f2a2c0": {
     "active": true,
     "backgroundImage": "https://res.cloudinary.com/goflink/image/upload/w_600,h_800/de/category-backgrounds/50_NOV_Vegan_3_04Dec23.png",
-    "code": "All",
+    "code": "Alles",
     "href": "/v2/categories/vegan-vegetarisch",
     "icon": "https://res.cloudinary.com/goflink/image/upload/de/icons/NEW_icon_Veggie_Vegan.png",
     "id": "e73be8f2-c1be-48bd-bca9-772377f2a2c0",
@@ -2136,119 +2164,119 @@
   },
   "e7e2dc24-6f6d-4146-94c1-87bac64d2096": {
     "active": false,
-    "code": "All",
+    "code": "Alles",
     "id": "e7e2dc24-6f6d-4146-94c1-87bac64d2096",
     "name": "Drogerie",
     "slug": "angebote-A-drogerie"
   },
   "e7f7c9ac-6454-490f-becb-0778d649b138": {
     "active": true,
-    "code": "All / Getränke",
+    "code": "Alles / Getränke / Alkoholische Getränke",
     "id": "e7f7c9ac-6454-490f-becb-0778d649b138",
     "name": "Tonics & Mixers",
     "slug": "alkoholfreie-getraenke-tonics-mixers"
   },
   "e81dfd84-1e1c-4c70-9b5f-535ec2a3c8b3": {
     "active": true,
-    "code": "All / Weitere Verarbeitete Lebensmittel / Brotaufstrich und Mus",
+    "code": "Alles / Ungekühltes / Frühstück / Brotaufstriche / Fruchtaufstriche",
     "id": "e81dfd84-1e1c-4c70-9b5f-535ec2a3c8b3",
     "name": "Fruchtaufstriche",
     "slug": "cerealien-aufstriche-backen-fruchtaufstriche"
   },
   "e8897443-b50d-4bd7-8000-7b38654feb8c": {
     "active": true,
-    "code": "All / Weitere Verarbeitete Lebensmittel / Fertiggerichte",
+    "code": "Alles / Tiefgekühltes / Fertiggerichte",
     "id": "e8897443-b50d-4bd7-8000-7b38654feb8c",
     "name": "Mini-Pizza & Baguettes",
     "slug": "tiefkuehl-mini-pizza-baguettes"
   },
   "e8d58805-8ea0-4198-b687-9b4d5dcd6e40": {
     "active": true,
-    "code": "All / Milchprodukte / Käse",
+    "code": "Alles / Gekühltes / Molkereiprodukte / Käse / Frischkäse",
     "id": "e8d58805-8ea0-4198-b687-9b4d5dcd6e40",
     "name": "Frischkäse",
     "slug": "aufschnitt-brotaufstriche-frischkaese"
   },
   "e9717bcf-6c76-4922-a57e-188ee8ee8349": {
     "active": true,
-    "code": "All / Fleisch",
+    "code": "Alles / Gekühltes / Fisch & Fleisch / Schwein",
     "id": "e9717bcf-6c76-4922-a57e-188ee8ee8349",
     "name": "Schweinefleisch",
     "slug": "fleisch-schweinefleisch"
   },
   "ea5979c6-3a38-4eb8-8003-9fd4b569561e": {
     "active": true,
-    "code": "All / Getränke",
+    "code": "Alles / Getränke / Alkoholische Getränke",
     "id": "ea5979c6-3a38-4eb8-8003-9fd4b569561e",
     "name": "Spezialitäten",
     "slug": "bier-spezialitaeten"
   },
   "ea96f10c-7204-4106-9721-00ce77a5129c": {
     "active": true,
-    "code": "All / Getreide und Getreideprodukte / Nudeln",
+    "code": "Alles / Ungekühltes / Beilagen / Nudeln",
     "id": "ea96f10c-7204-4106-9721-00ce77a5129c",
     "name": "Nudeln",
     "slug": "nudeln-reis-getreide-nudeln"
   },
   "eb9d67c0-64e9-4917-85b6-d8cf920e793f": {
     "active": false,
-    "code": "All",
+    "code": "Alles / Frisches Obst & Gemüse",
     "id": "eb9d67c0-64e9-4917-85b6-d8cf920e793f",
     "name": "Obst & Gemüse",
     "slug": "angebote-A-obst-gemuese"
   },
   "ecdf137e-862a-443c-8951-971974708cd7": {
     "active": true,
-    "code": "All / Fleisch",
+    "code": "Alles / Gekühltes / Fisch & Fleisch / Wurst & Aufschnitt",
     "id": "ecdf137e-862a-443c-8951-971974708cd7",
     "name": "Kochschinken & Braten",
     "slug": "aufschnitt-brotaufstriche-kochschinken-braten"
   },
   "ece18b01-aa83-47d4-835c-cda1f558d030": {
     "active": true,
-    "code": "All / Weitere Verarbeitete Lebensmittel",
+    "code": "Alles / Ungekühltes / Essig, Öl, Soßen & Gewürze / Soßen & Dips",
     "id": "ece18b01-aa83-47d4-835c-cda1f558d030",
     "name": "Pastasaucen & Pesto",
     "slug": "de-nudeln-reis-internationale-kueche-pastasaucen-pesto"
   },
   "eceedaad-79fe-445a-8c50-74069526f501": {
     "active": true,
-    "code": "All / Zuckerarten, Sirupe und Honig",
+    "code": "Alles / Ungekühltes / Frühstück / Brotaufstriche / Honig",
     "id": "eceedaad-79fe-445a-8c50-74069526f501",
     "name": "Honig",
     "slug": "cerealien-aufstriche-backen-honig"
   },
   "ed2eff3d-c229-4ea1-8601-55c115984fc0": {
     "active": true,
-    "code": "All",
+    "code": "Alles",
     "id": "ed2eff3d-c229-4ea1-8601-55c115984fc0",
     "name": "Duschen & Baden",
     "slug": "drogerie-duschen-baden"
   },
   "ed709a38-c4f6-4ac4-a194-5f7721bd5d93": {
     "active": false,
-    "code": "All / Getränke",
+    "code": "Alles / Getränke / Alkoholische Getränke",
     "id": "ed709a38-c4f6-4ac4-a194-5f7721bd5d93",
     "name": "Glühwein",
     "slug": "wein-sekt-gluehwein"
   },
   "edad875b-3361-4db0-877f-4de7120dc452": {
     "active": true,
-    "code": "All",
+    "code": "Alles",
     "id": "edad875b-3361-4db0-877f-4de7120dc452",
     "name": "Menstruation & Blasenschwäche",
     "slug": "drogerie-hygiene-menstruation-blasenschwaeche"
   },
   "ee1299f0-d29d-4969-8512-95189c234951": {
     "active": true,
-    "code": "All / Backwaren",
+    "code": "Alles / Frische Backwaren / Feingebäck",
     "id": "ee1299f0-d29d-4969-8512-95189c234951",
     "name": "Frisches Feingebäck",
     "slug": "backwaren-frisches-feingebaeck"
   },
   "ee4959a9-9552-4fff-ba0b-e4b3ae7cfbbf": {
     "active": true,
-    "code": "All / Weitere Verarbeitete Lebensmittel / Brotaufstrich und Mus",
+    "code": "Alles / Ungekühltes / Frühstück / Brotaufstriche / Nuss- & Schokoladenaufstriche",
     "id": "ee4959a9-9552-4fff-ba0b-e4b3ae7cfbbf",
     "name": "Nuss- & Schokoaufstriche",
     "slug": "cerealien-aufstriche-backen-nuss-schokoaufstriche"
@@ -2256,7 +2284,7 @@
   "ef8bd3ca-c3ab-4427-ade6-f29f84ac2c55": {
     "active": true,
     "backgroundImage": "https://res.cloudinary.com/goflink/image/upload/w_600,h_800/de/category-backgrounds/50_NOV_Eis3_04Dec23.png",
-    "code": "All",
+    "code": "Alles / Tiefgekühltes / Eis",
     "href": "/v2/categories/eis",
     "icon": "https://res.cloudinary.com/goflink/image/upload/de/icons/NEW_icon_Eis.png",
     "id": "ef8bd3ca-c3ab-4427-ade6-f29f84ac2c55",
@@ -2265,84 +2293,84 @@
   },
   "f182e58f-1672-4e8c-85ba-96e6c02079fb": {
     "active": true,
-    "code": "All / Getreide und Getreideprodukte / Mehl",
+    "code": "Alles / Ungekühltes / Backen & Dessertpulver / Getreide / Mehl",
     "id": "f182e58f-1672-4e8c-85ba-96e6c02079fb",
     "name": "Mehl",
     "slug": "konserven-instantgerichte-backen-mehl"
   },
   "f4a50f8b-c188-490c-90e3-ee22eadd4f38": {
     "active": true,
-    "code": "All",
+    "code": "Alles",
     "id": "f4a50f8b-c188-490c-90e3-ee22eadd4f38",
     "name": "4 für 2 Vuse Pro",
     "slug": "angebote-B-vuse"
   },
   "f50bbdae-9c80-4772-bfd9-74f01b0989e8": {
     "active": true,
-    "code": "All / Weitere Verarbeitete Lebensmittel",
+    "code": "Alles / Ungekühltes / Essig, Öl, Soßen & Gewürze / Soßen & Dips / Ketchup & Grillsoßen",
     "id": "f50bbdae-9c80-4772-bfd9-74f01b0989e8",
     "name": "Ketchup & Grillsaucen",
     "slug": "saucen-oele-gewuerze-ketchup-grillsaucen"
   },
   "f5237282-61e0-439a-bedc-8bf2fbee1498": {
     "active": true,
-    "code": "All",
+    "code": "Alles / Tiefgekühltes / Snacks",
     "id": "f5237282-61e0-439a-bedc-8bf2fbee1498",
     "name": "Snacks",
     "slug": "tiefkuehl-snacks"
   },
   "f58016c9-2d00-4ed1-b38e-1f537513600a": {
     "active": true,
-    "code": "All / Gemüse",
+    "code": "Alles / Frisches Obst & Gemüse / Gemüse",
     "id": "f58016c9-2d00-4ed1-b38e-1f537513600a",
     "name": "Kartoffeln",
     "slug": "gemuese-kartoffeln"
   },
   "f5e9c8ce-bb8e-47c0-877e-1ee724361ac2": {
     "active": false,
-    "code": "All",
+    "code": "Alles",
     "id": "f5e9c8ce-bb8e-47c0-877e-1ee724361ac2",
     "name": "IQOS",
     "slug": "angebote-B-iqos"
   },
   "f726624e-7435-4877-9141-23732090b164": {
     "active": true,
-    "code": "All / Eier und Eiprodukte",
+    "code": "Alles / Gekühltes / Molkereiprodukte",
     "id": "f726624e-7435-4877-9141-23732090b164",
     "name": "Eier",
     "slug": "eier-milch-butter-eier"
   },
   "f7c65cb0-acc4-406c-b8be-82b0b8c56b9e": {
     "active": true,
-    "code": "All / Milchprodukte / Joghurt",
+    "code": "Alles / Gekühltes / Molkereiprodukte / Joghurt",
     "id": "f7c65cb0-acc4-406c-b8be-82b0b8c56b9e",
     "name": "Naturjoghurt",
     "slug": "joghurt-desserts-naturjoghurt"
   },
   "f81b6282-e2dd-4fed-adc8-d7ec326e5c46": {
     "active": true,
-    "code": "All / Getränke",
+    "code": "Alles / Getränke / Alkoholische Getränke",
     "id": "f81b6282-e2dd-4fed-adc8-d7ec326e5c46",
     "name": "Likör",
     "slug": "spirituosen-mehr-likoer"
   },
   "f86fb6b0-9373-4718-bba3-413b7ce69aeb": {
     "active": true,
-    "code": "All / Weitere Verarbeitete Lebensmittel",
+    "code": "Alles / Ungekühltes / Essig, Öl, Soßen & Gewürze / Soßen & Dips",
     "id": "f86fb6b0-9373-4718-bba3-413b7ce69aeb",
     "name": "Andere Saucen",
     "slug": "saucen-oele-gewuerze-andere-saucen"
   },
   "f91fd446-8222-4c57-adfc-6b324077c672": {
     "active": false,
-    "code": "All",
+    "code": "Alles",
     "id": "f91fd446-8222-4c57-adfc-6b324077c672",
     "name": "Highlights der Woche",
     "slug": "angebote-A-highlights-der-woche"
   },
   "fa076051-42cd-4061-b248-f89846034515": {
     "active": true,
-    "code": "All / Gemüse / Kräuter",
+    "code": "Alles / Frisches Obst & Gemüse / Kräuter",
     "id": "fa076051-42cd-4061-b248-f89846034515",
     "name": "Kräuter",
     "slug": "gemuese-kraeuter"
@@ -2350,7 +2378,7 @@
   "fa0a0617-09d2-43b5-8f04-edcd5813aadf": {
     "active": true,
     "backgroundImage": "https://res.cloudinary.com/goflink/image/upload/w_600,h_800/de/category-backgrounds/50_NOV_Salzige%20Snacks_3_04Dec2023.png",
-    "code": "All",
+    "code": "Alles / Ungekühltes / Snacks / Salzige Snacks",
     "href": "/v2/categories/salzige-snacks",
     "icon": "https://res.cloudinary.com/goflink/image/upload/de/icons/NEW_icon_Salzige_Snacks.png",
     "id": "fa0a0617-09d2-43b5-8f04-edcd5813aadf",
@@ -2359,70 +2387,70 @@
   },
   "fafad867-6c67-4492-9855-0cbd452159d5": {
     "active": true,
-    "code": "All",
+    "code": "Alles / Gekühltes / Frisch & Fertig / Backwaren & frische Fertigteige",
     "id": "fafad867-6c67-4492-9855-0cbd452159d5",
     "name": " Backwaren & frische Fertigteige",
     "slug": "frisch-und-fertig-backwaren-fertigteige"
   },
   "fb433550-7317-4f57-b7c7-78e6ac3b0e3a": {
     "active": true,
-    "code": "All / Getränke",
+    "code": "Alles / Getränke / Alkoholfreie Getränke / Sport- & Energydrinks",
     "id": "fb433550-7317-4f57-b7c7-78e6ac3b0e3a",
     "name": "Energydrinks",
     "slug": "alkoholfreie-getraenke-energydrinks"
   },
   "fb53af09-3d85-4cfa-8fdb-5ea2846dcfc2": {
     "active": true,
-    "code": "All / Getränke",
+    "code": "Alles / Getränke / Alkoholische Getränke",
     "id": "fb53af09-3d85-4cfa-8fdb-5ea2846dcfc2",
     "name": "Apfelwein & Cider",
     "slug": "wein-sekt-apfelwein-cider"
   },
   "fb60c44d-cdf1-45d2-8fb1-35b323646572": {
     "active": true,
-    "code": "All",
+    "code": "Alles",
     "id": "fb60c44d-cdf1-45d2-8fb1-35b323646572",
     "name": "Windeln & Wickeln",
     "slug": "baby-windeln-und-wickeln"
   },
   "fbbb3c3f-abf1-477c-b530-4148c00ca12c": {
     "active": true,
-    "code": "All",
+    "code": "Alles / Tiefgekühltes",
     "id": "fbbb3c3f-abf1-477c-b530-4148c00ca12c",
     "name": "Passt gut dazu",
     "slug": "tiefkuehl-passt-gut-dazu"
   },
   "fc83b537-3215-48c1-8b29-be0dd12f3384": {
     "active": true,
-    "code": "All / Backwaren",
+    "code": "Alles / Frische Backwaren / Brötchen",
     "id": "fc83b537-3215-48c1-8b29-be0dd12f3384",
     "name": "Frische Brötchen",
     "slug": "bachwaren-frische-broetchen"
   },
   "fd11d089-8d1b-40d7-827a-a55828065240": {
     "active": true,
-    "code": "All / Weitere Verarbeitete Lebensmittel / Fleischersatzprodukte",
+    "code": "Alles / Gekühltes / Fisch & Fleisch / Fleisch- & Fischalternativen",
     "id": "fd11d089-8d1b-40d7-827a-a55828065240",
     "name": "Reine Fleischalternativen",
     "slug": "vegan-vegetarisch-reine-fleischalternativen"
   },
   "fdf610cf-b8b4-4d5f-b948-9f791f5db3e9": {
     "active": true,
-    "code": "All / Obst",
+    "code": "Alles / Frisches Obst & Gemüse / Obst",
     "id": "fdf610cf-b8b4-4d5f-b948-9f791f5db3e9",
     "name": "Beeren",
     "slug": "obst-beeren"
   },
   "fe0370ca-e51e-45e5-ad23-cbd7393c51f3": {
     "active": false,
-    "code": "All",
+    "code": "Alles",
     "id": "fe0370ca-e51e-45e5-ad23-cbd7393c51f3",
     "name": "Süße & Salzige Snacks",
     "slug": "angebote-a-suesse-salzige-snacks"
   },
   "fea12516-28a0-424b-bfa2-073a61d13003": {
     "active": true,
-    "code": "All / Milchprodukte / Käse",
+    "code": "Alles / Gekühltes / Molkereiprodukte / Käse",
     "id": "fea12516-28a0-424b-bfa2-073a61d13003",
     "name": "Käsespezialitäten",
     "slug": "feinkost-kaesespezialitaeten"
@@ -2430,7 +2458,7 @@
   "ffe4c95c-5e91-437e-950b-d44330a36aef": {
     "active": true,
     "backgroundImage": "https://res.cloudinary.com/goflink/image/upload/w_600,h_800/de/category-backgrounds/50_NOV_Joghurt2_04Dec23.png",
-    "code": "All / Milchprodukte",
+    "code": "Alles / Gekühltes / Molkereiprodukte",
     "href": "/v2/categories/joghurt-desserts",
     "icon": "https://res.cloudinary.com/goflink/image/upload/de/icons/NEW_icon_Joghurt_Desserts.png",
     "id": "ffe4c95c-5e91-437e-950b-d44330a36aef",

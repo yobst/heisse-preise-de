@@ -12,13 +12,14 @@ const storeUnits: Record<string, UnitMapping> = {
     "bd.": { unit: "stk", factor: 1 },
     er: { unit: "stk", factor: 1 },
     tbl: { unit: "stk", factor: 1 },
+    "tbl.": { unit: "stk", factor: 1 },
     tabs: { unit: "stk", factor: 1 },
     "mini-tabletten": { unit: "stk", factor: 1 },
     kapseln: { unit: "stk", factor: 1 },
     wl: { unit: "wg", factor: 1 },
 };
 
-const invalidUnits = new Set(["dose", "€startguthaben"]);
+const invalidUnits = new Set(["dose", "€startguthaben", "€"]);
 
 export function getQuantityAndUnit(rawItem: any, storeName: string) {
     const defaultUnit: { quantity: number; unit: Unit } = { quantity: 1, unit: "stk" };
@@ -27,12 +28,12 @@ export function getQuantityAndUnit(rawItem: any, storeName: string) {
     let rawUnit = "stk";
 
     if (rawItem.slug) {
-        const regex = /-(\d+)-?(g|stk|wl|mg|l|er|tbl|tabs)(?:-|$)/;
+        const regex = /-((?:\d+-)?\d+)-?(g|kg|stk|wl|mg|l|ml|er|tbl|tabs)(?:-|$)/;
         const matches = rawItem.slug.match(regex);
 
         if (matches) {
-            rawQuantity = parseFloat(matches[1]);
-            rawUnit = matches[3];
+            rawQuantity = parseFloat(matches[1].replace('-','.'));
+            rawUnit = matches[2];
         }
     }
 
@@ -40,6 +41,17 @@ export function getQuantityAndUnit(rawItem: any, storeName: string) {
         const res = utils.extractRawUnitAndQuantityFromDescription(rawItem.name, defaultUnit);
         rawQuantity = res.rawQuantity;
         rawUnit = res.rawUnit;
+    }
+
+    if ((rawUnit == defaultUnit.unit && rawQuantity == defaultUnit.quantity) || invalidUnits.has(rawUnit)) {
+        
+        const regex = /(?:\s|^)((?:\d+,)?\d+)\s*Stk.\s/;
+        const matches = rawItem.name.match(regex);
+
+        if (matches) {
+            rawQuantity = parseFloat(matches[1]);
+            rawUnit = "stk";
+        }
     }
 
     if (invalidUnits.has(rawUnit)) {
@@ -113,7 +125,6 @@ export class FlinkCrawler implements Crawler {
         }
 
         const { quantity, unit } = getQuantityAndUnit(rawItem, this.store.displayName);
-
         return new Item(
             this.store.id,
             rawItem.id,
