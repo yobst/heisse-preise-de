@@ -1689,13 +1689,13 @@
   },
   "Milch": {
     "active": true,
-    "code": "Alles / Gekühltes / Eier & Molkereiprodukte / Milch & Milchalternativen",
+    "code": "Alles / Gekühltes / Molkereiprodukte / Milch & Milchalternativen",
     "id": "041401",
     "name": "Milch"
   },
   "Milch & Milchalternativen": {
     "active": true,
-    "code": "Alles / Gekühltes / Eier & Molkereiprodukte / Milch & Milchalternativen",
+    "code": "Alles / Gekühltes / Molkereiprodukte / Milch & Milchalternativen",
     "id": "041400",
     "name": "Milch & Milchalternativen"
   },
@@ -1911,7 +1911,7 @@
   },
   "Pflanzendrinks": {
     "active": true,
-    "code": "Alles / Gekühltes / Eier & Molkereiprodukte / Milch & Milchalternativen / Pflanzendrinks",
+    "code": "Alles / Gekühltes / Molkereiprodukte / Milch & Milchalternativen / Pflanzendrinks",
     "id": "041402",
     "name": "Pflanzendrinks"
   },

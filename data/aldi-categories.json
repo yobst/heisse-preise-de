@@ -42,7 +42,7 @@
   "323": {
     "active": true,
     "categoryKey": "20000000",
-    "code": "Alles / Gekühltes / Eier & Molkereiprodukte",
+    "code": "Alles / Gekühltes / Molkereiprodukte",
     "id": 323,
     "name": "Eier & Milchprodukte",
     "urlSlugText": "produkte/eier-milchprodukte"
@@ -50,7 +50,7 @@
   "324": {
     "active": true,
     "categoryKey": "20010000",
-    "code": "Alles / Gekühltes / Eier & Molkereiprodukte / Milch",
+    "code": "Alles / Gekühltes / Molkereiprodukte / Milch",
     "id": 324,
     "name": "Milch",
     "urlSlugText": "eier-milchprodukte/milch"
@@ -58,7 +58,7 @@
   "325": {
     "active": true,
     "categoryKey": "20020000",
-    "code": "Alles / Gekühltes / Eier & Molkereiprodukte / Joghurt, Skyr, Quark & Dessert / Skyr",
+    "code": "Alles / Gekühltes / Molkereiprodukte / Joghurt, Skyr, Quark & Dessert / Skyr",
     "id": 325,
     "name": "Joghurt & Skyr",
     "urlSlugText": "eier-milchprodukte/naturjoghurt-skyr"
@@ -66,7 +66,7 @@
   "326": {
     "active": true,
     "categoryKey": "20030000",
-    "code": "Alles / Gekühltes / Eier & Molkereiprodukte / Joghurt, Skyr, Quark & Dessert / Sahnejoghurt",
+    "code": "Alles / Gekühltes / Molkereiprodukte / Joghurt, Skyr, Quark & Dessert / Sahnejoghurt",
     "id": 326,
     "name": "Fruchtjoghurt & Sahnejoghurt",
     "urlSlugText": "eier-milchprodukte/frucht-sahnejoghurt"
@@ -74,7 +74,7 @@
   "327": {
     "active": true,
     "categoryKey": "20040000",
-    "code": "Alles / Gekühltes / Eier & Molkereiprodukte / Joghurt, Skyr, Quark & Dessert / Dessert",
+    "code": "Alles / Gekühltes / Molkereiprodukte / Joghurt, Skyr, Quark & Dessert / Dessert",
     "id": 327,
     "name": "Milchsnacks & Desserts",
     "urlSlugText": "eier-milchprodukte/milchsnacks-desserts"
@@ -82,7 +82,7 @@
   "328": {
     "active": true,
     "categoryKey": "20050000",
-    "code": "Alles / Gekühltes / Eier & Molkereiprodukte / Milch- & Kaffeegetränke",
+    "code": "Alles / Gekühltes / Molkereiprodukte / Milch- & Kaffeegetränke",
     "id": 328,
     "name": "Milchdrinks & Trinkjoghurt",
     "urlSlugText": "eier-milchprodukte/milchdrinks-trinkjoghurt"
@@ -90,7 +90,7 @@
   "329": {
     "active": true,
     "categoryKey": "20060000",
-    "code": "Alles / Gekühltes / Eier & Molkereiprodukte / Joghurt, Skyr, Quark & Dessert / Quark",
+    "code": "Alles / Gekühltes / Molkereiprodukte / Joghurt, Skyr, Quark & Dessert / Quark",
     "id": 329,
     "name": "Quark",
     "urlSlugText": "eier-milchprodukte/quark"
@@ -98,7 +98,7 @@
   "330": {
     "active": true,
     "categoryKey": "20070000",
-    "code": "Alles / Gekühltes / Eier & Molkereiprodukte / Sahne, Schmand & Creme Fraiche",
+    "code": "Alles / Gekühltes / Molkereiprodukte / Sahne, Schmand & Creme Fraiche",
     "id": 330,
     "name": "Sahne, Schmand & Crème fraîche",
     "urlSlugText": "eier-milchprodukte/sahne-schmand-co-"
@@ -106,7 +106,7 @@
   "331": {
     "active": true,
     "categoryKey": "20080000",
-    "code": "Alles / Gekühltes / Eier & Molkereiprodukte / Butter, Margarine & Fette",
+    "code": "Alles / Gekühltes / Molkereiprodukte / Butter, Margarine & Fette",
     "id": 331,
     "name": "Butter, Margarine & Fette",
     "urlSlugText": "eier-milchprodukte/butter-margarine-fette"
@@ -114,7 +114,7 @@
   "332": {
     "active": true,
     "categoryKey": "20090000",
-    "code": "Alles / Gekühltes / Eier & Molkereiprodukte / Eier und Eiersatz",
+    "code": "Alles / Ungekühltes / Eier",
     "id": 332,
     "name": "Eier",
     "urlSlugText": "eier-milchprodukte/eier"
@@ -122,7 +122,7 @@
   "333": {
     "active": true,
     "categoryKey": "21000000",
-    "code": "Alles / Gekühltes / Eier & Molkereiprodukte / Käse",
+    "code": "Alles / Gekühltes / Molkereiprodukte / Käse",
     "id": 333,
     "name": "Käse",
     "urlSlugText": "produkte/k-se"
@@ -130,7 +130,7 @@
   "334": {
     "active": true,
     "categoryKey": "21010000",
-    "code": "alles / Gekühltes / Eier & Molkereiprodukte / Käse / Stück- & Schnittkäse",
+    "code": "Alles / Gekühltes / Molkereiprodukte / Käse / Stück- & Schnittkäse",
     "id": 334,
     "name": "Schnittkäse",
     "urlSlugText": "k-se/schnittk-se"
@@ -138,7 +138,7 @@
   "335": {
     "active": true,
     "categoryKey": "21020000",
-    "code": "Alles / Gekühltes / Eier & Molkereiprodukte / Käse / Stück- & Schnittkäse",
+    "code": "Alles / Gekühltes / Molkereiprodukte / Käse / Stück- & Schnittkäse",
     "id": 335,
     "name": "Stückkäse",
     "urlSlugText": "k-se/st-ckk-se"
@@ -146,7 +146,7 @@
   "336": {
     "active": true,
     "categoryKey": "21030000",
-    "code": "Alles / Gekühltes / Eier & Molkereiprodukte / Käse / Frischkäse",
+    "code": "Alles / Gekühltes / Molkereiprodukte / Käse / Frischkäse",
     "id": 336,
     "name": "Frischkäse",
     "urlSlugText": "k-se/frischk-se"
@@ -154,7 +154,7 @@
   "337": {
     "active": true,
     "categoryKey": "21040000",
-    "code": "Alles / Gekühltes / Eier & Molkereiprodukte / Käse / Weichkäse",
+    "code": "Alles / Gekühltes / Molkereiprodukte / Käse / Weichkäse",
     "id": 337,
     "name": "Weichkäse",
     "urlSlugText": "k-se/weichk-se"
@@ -162,7 +162,7 @@
   "338": {
     "active": true,
     "categoryKey": "21050000",
-    "code": "Alles / Gekühltes / Eier & Molkereiprodukte / Käse / Stück- & Schnittkäse",
+    "code": "Alles / Gekühltes / Molkereiprodukte / Käse / Stück- & Schnittkäse",
     "id": 338,
     "name": "Hartkäse & Stückkäse",
     "urlSlugText": "k-se/hartk-se"
@@ -170,7 +170,7 @@
   "339": {
     "active": true,
     "categoryKey": "21060000",
-    "code": "Alles / Gekühltes / Eier & Molkereiprodukte / Käse / Schmelzkäse",
+    "code": "Alles / Gekühltes / Molkereiprodukte / Käse / Schmelzkäse",
     "id": 339,
     "name": "Schmelzkäse",
     "urlSlugText": "k-se/schmelzk-se"
@@ -178,7 +178,7 @@
   "340": {
     "active": true,
     "categoryKey": "21070000",
-    "code": "Alles / Gekühltes / Eier & Molkereiprodukte / Käse / Feta & Hirtenkäse",
+    "code": "Alles / Gekühltes / Molkereiprodukte / Käse / Feta & Hirtenkäse",
     "id": 340,
     "name": "Feta & Hirtenkäse",
     "urlSlugText": "k-se/feta-hirtenk-se"
@@ -186,7 +186,7 @@
   "341": {
     "active": true,
     "categoryKey": "21080000",
-    "code": "Alles / Gekühltes / Eier & Molkereiprodukte / Käse / Mozzarella",
+    "code": "Alles / Gekühltes / Molkereiprodukte / Käse / Mozzarella",
     "id": 341,
     "name": "Mozzarella",
     "urlSlugText": "k-se/mozzarella"
@@ -194,7 +194,7 @@
   "342": {
     "active": true,
     "categoryKey": "21090000",
-    "code": "Alles / Gekühltes / Eier & Molkereiprodukte / Käse / Reibekäse",
+    "code": "Alles / Gekühltes / Molkereiprodukte / Käse / Reibekäse",
     "id": 342,
     "name": "Geriebener Käse",
     "urlSlugText": "k-se/reibek-se"
@@ -202,7 +202,7 @@
   "343": {
     "active": true,
     "categoryKey": "21100000",
-    "code": "Alles / Gekühltes / Eier & Molkereiprodukte / Käse / Ofen- & Grillkäse",
+    "code": "Alles / Gekühltes / Molkereiprodukte / Käse / Ofen- & Grillkäse",
     "id": 343,
     "name": "Ofenkäse & Grillkäse",
     "urlSlugText": "k-se/ofen-grillk-se"
@@ -210,7 +210,7 @@
   "344": {
     "active": true,
     "categoryKey": "21110000",
-    "code": "Alles / Gekühltes / Eier & Molkereiprodukte / Käse / Käsealternativen",
+    "code": "Alles / Gekühltes / Molkereiprodukte / Käse / Käsealternativen",
     "id": 344,
     "name": "Käseersatz",
     "urlSlugText": "k-se/k-seersatz"
@@ -362,7 +362,7 @@
   "363": {
     "active": true,
     "categoryKey": "23030000",
-    "code": "Alles / Gekühltes / Eier & Molkereiprodukte / Joghurt, Skyr, Quark & Dessert / Dessert",
+    "code": "Alles / Gekühltes / Molkereiprodukte / Joghurt, Skyr, Quark & Dessert / Dessert",
     "id": 363,
     "name": "Desserts",
     "urlSlugText": "convenience-feinkost/desserts"
@@ -986,7 +986,7 @@
   "441": {
     "active": true,
     "categoryKey": "32080000",
-    "code": "Alles / Gekühltes / Eier & Molkereiprodukte / Milch- & Kaffeegetränke",
+    "code": "Alles / Gekühltes / Molkereiprodukte / Milch- & Kaffeegetränke",
     "id": 441,
     "name": "Milchgetränke & Kaffeegetränke",
     "urlSlugText": "alkoholfreie-getr-nke/mich-kaffeegetr-nke"

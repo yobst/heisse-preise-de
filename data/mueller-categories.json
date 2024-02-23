@@ -50,7 +50,7 @@
   },
   "Drogerie/Lebensmittel/Getränke/Getreide- & Sojadrinks": {
     "active": true,
-    "code": "Alles / Gekühltes / Eier & Molkereiprodukte / Milch & Milchalternativen / Pflanzendrinks",
+    "code": "Alles / Gekühltes / Molkereiprodukte / Milch & Milchalternativen / Pflanzendrinks",
     "id": "Drogerie/Lebensmittel/Getränke/Getreide- & Sojadrinks",
     "name": "Getreide- & Sojadrinks",
     "url": "https://www.mueller.de/drogerie/lebensmittel/getraenke/getreide-sojadrinks/"
@@ -155,7 +155,7 @@
   },
   "Drogerie/Lebensmittel/Nahrung/Dessert": {
     "active": true,
-    "code": "Alles / Gekühltes / Eier & Molkereiprodukte / Joghurt, Skyr, Quark & Dessert / Dessert",
+    "code": "Alles / Gekühltes / Molkereiprodukte / Joghurt, Skyr, Quark & Dessert / Dessert",
     "id": "Drogerie/Lebensmittel/Nahrung/Dessert",
     "name": "Dessert",
     "url": "https://www.mueller.de/drogerie/lebensmittel/nahrung/dessert/"
@@ -225,7 +225,7 @@
   },
   "Drogerie/Lebensmittel/Nahrung/Milch & Milchalternativen": {
     "active": true,
-    "code": "Alles / Gekühltes / Eier & Molkereiprodukte / Milch & Milchalternativen",
+    "code": "Alles / Gekühltes / Molkereiprodukte / Milch & Milchalternativen",
     "id": "Drogerie/Lebensmittel/Nahrung/Milch & Milchalternativen",
     "name": "Milch & Milchalternativen",
     "url": "https://www.mueller.de/drogerie/lebensmittel/nahrung/milch-milchalternativen/"
@@ -386,7 +386,7 @@
   },
   "Drogerie/Lebensmittel/Tee & Kaffee/Kaffeesahne & Kondensmilch": {
     "active": true,
-    "code": "alles / Gekühltes / Eier & Molkereiprodukte / Weitere",
+    "code": "Alles / Gekühltes / Molkereiprodukte / Weitere",
     "id": "Drogerie/Lebensmittel/Tee & Kaffee/Kaffeesahne & Kondensmilch",
     "name": "Kaffeesahne & Kondensmilch",
     "url": "https://www.mueller.de/drogerie/lebensmittel/tee-kaffee/kaffeesahne-kondensmilch/"

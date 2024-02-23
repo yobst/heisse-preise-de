@@ -214,7 +214,7 @@
   },
   "14e0fb89-b63a-42a3-9dcb-e8403f9ce05b": {
     "active": true,
-    "code": "alles / Gekühltes / Eier & Molkereiprodukte / Käse",
+    "code": "Alles / Gekühltes / Molkereiprodukte / Käse",
     "id": "14e0fb89-b63a-42a3-9dcb-e8403f9ce05b",
     "name": "Koch- & Salatkäse",
     "slug": "kaese-koch-salatkaese"
@@ -329,7 +329,7 @@
   },
   "22f7d91e-1bf1-4e51-85e9-7bd32bc09d25": {
     "active": true,
-    "code": "alles / Gekühltes / Eier & Molkereiprodukte / Käse / Käsesnacks",
+    "code": "Alles / Gekühltes / Molkereiprodukte / Käse / Käsesnacks",
     "id": "22f7d91e-1bf1-4e51-85e9-7bd32bc09d25",
     "name": "Käsesnacks",
     "slug": "kaese-kaesesnacks"
@@ -388,7 +388,7 @@
   },
   "28880b16-5faf-4b61-a51a-f60395b0abb6": {
     "active": true,
-    "code": "alles / Gekühltes / Eier & Molkereiprodukte / Käse / Stück- & Schnittkäse",
+    "code": "Alles / Gekühltes / Molkereiprodukte / Käse / Stück- & Schnittkäse",
     "id": "28880b16-5faf-4b61-a51a-f60395b0abb6",
     "name": "Stück- & Schnittkäse",
     "slug": "kaese-stuck-schnittkaese"
@@ -607,7 +607,7 @@
   },
   "3cb1249c-9e07-4c22-99c0-cac4cf1c7b4b": {
     "active": true,
-    "code": "alles / Gekühltes / Eier & Molkereiprodukte / Käse",
+    "code": "Alles / Gekühltes / Molkereiprodukte / Käse",
     "id": "3cb1249c-9e07-4c22-99c0-cac4cf1c7b4b",
     "name": "Frisch- & Schmelzkäse",
     "slug": "kaese-frisch-schmelzkaese"
@@ -631,7 +631,7 @@
   },
   "3e180b54-cc4f-4442-8e75-eba375b27fda": {
     "active": true,
-    "code": "alles / Gekühltes / Eier & Molkereiprodukte / Joghurt",
+    "code": "Alles / Gekühltes / Molkereiprodukte / Joghurt",
     "id": "3e180b54-cc4f-4442-8e75-eba375b27fda",
     "name": "Frucht- & Sahnejoghurt",
     "slug": "joghurt-desserts-frucht-sahnejoghurt"
@@ -708,7 +708,7 @@
   },
   "491e9090-d95a-45f4-ad53-28ca37a4ccba": {
     "active": true,
-    "code": "alles / Gekühltes / Eier & Molkereiprodukte / Käse",
+    "code": "Alles / Gekühltes / Molkereiprodukte / Käse",
     "id": "491e9090-d95a-45f4-ad53-28ca37a4ccba",
     "name": "Käsespezialitäten ",
     "slug": "de-kaese-kaesespezialitaeten"
@@ -767,7 +767,7 @@
   },
   "4fed5ec4-ff25-4bb4-8518-7a5ff139a854": {
     "active": true,
-    "code": "Alles / Gekühltes / Eier & Molkereiprodukte / Milch & Milchalternativen",
+    "code": "Alles / Gekühltes / Molkereiprodukte / Milch & Milchalternativen",
     "id": "4fed5ec4-ff25-4bb4-8518-7a5ff139a854",
     "name": "Frischmilch",
     "slug": "eier-milch-butter-frischmilch"
@@ -1006,14 +1006,14 @@
   },
   "63e1dec3-a2d9-4375-b023-c76bdc7279f7": {
     "active": true,
-    "code": "Alles / Gekühltes / Eier & Molkereiprodukte / Milch- & Kaffeegetränke",
+    "code": "Alles / Gekühltes / Molkereiprodukte / Milch- & Kaffeegetränke",
     "id": "63e1dec3-a2d9-4375-b023-c76bdc7279f7",
     "name": "Coffee To Go",
     "slug": "coffee-to-go"
   },
   "6426cf5e-e282-4ed7-9df3-076d8f182b0d": {
     "active": true,
-    "code": "alles / Gekühltes / Eier & Molkereiprodukte / Milch",
+    "code": "Alles / Gekühltes / Molkereiprodukte / Milch",
     "id": "6426cf5e-e282-4ed7-9df3-076d8f182b0d",
     "name": "Haltbare- & Kondensmilch",
     "slug": "eier-milch-butter-haltbare-kondensmilch"
@@ -1097,14 +1097,14 @@
   },
   "6bfe7f12-1311-404d-aff3-edf6e00ad446": {
     "active": true,
-    "code": "Alles / Gekühltes / Eier & Molkereiprodukte / Milch & Milchalternativen / Pflanzendrinks",
+    "code": "Alles / Gekühltes / Molkereiprodukte / Milch & Milchalternativen / Pflanzendrinks",
     "id": "6bfe7f12-1311-404d-aff3-edf6e00ad446",
     "name": "Milchalternativen",
     "slug": "vegan-vegetarisch-milchalternativen"
   },
   "6c659ec2-de73-4e4e-86a0-46061e12e88f": {
     "active": true,
-    "code": "Alles / Gekühltes / Eier & Molkereiprodukte / Käse",
+    "code": "Alles / Gekühltes / Molkereiprodukte / Käse",
     "id": "6c659ec2-de73-4e4e-86a0-46061e12e88f",
     "name": "Reibekäse",
     "slug": "kaese-reibekaese"
@@ -1168,7 +1168,7 @@
   "71fb2134-5e1d-4672-9a8b-c4c13c51b310": {
     "active": true,
     "backgroundImage": "https://res.cloudinary.com/goflink/image/upload/w_600,h_800/de/category-backgrounds/50_NOV_Cheese_2_04Dec23.png",
-    "code": "alles / Gekühltes / Eier & Molkereiprodukte / Käse",
+    "code": "Alles / Gekühltes / Molkereiprodukte / Käse",
     "href": "/v2/categories/kaese",
     "icon": "https://res.cloudinary.com/goflink/image/upload/de/icons/NEW_icon_Kaese.png",
     "id": "71fb2134-5e1d-4672-9a8b-c4c13c51b310",
@@ -1222,7 +1222,7 @@
   },
   "76de0183-41c2-4e52-ba35-2f8da299105a": {
     "active": true,
-    "code": "Alles / Gekühltes / Eier & Molkereiprodukte / Käse / Käsealternativen",
+    "code": "Alles / Gekühltes / Molkereiprodukte / Käse / Käsealternativen",
     "id": "76de0183-41c2-4e52-ba35-2f8da299105a",
     "name": "Käsealternativen",
     "slug": "kaese-kaesealternativen"
@@ -1236,7 +1236,7 @@
   },
   "7805bbe2-60f0-4db9-b2ee-f24231d83fe6": {
     "active": true,
-    "code": "alles / Gekühltes / Eier & Molkereiprodukte / Quark",
+    "code": "Alles / Gekühltes / Molkereiprodukte / Quark",
     "id": "7805bbe2-60f0-4db9-b2ee-f24231d83fe6",
     "name": "Quark & Skyr",
     "slug": "joghurt-desserts-quark-skyr"
@@ -1286,7 +1286,7 @@
   "8089b876-0b64-40eb-ab3e-ffc785dfa73a": {
     "active": true,
     "backgroundImage": "https://res.cloudinary.com/goflink/image/upload/w_600,h_800/de/category-backgrounds/50_NOV_Milch%20Eier2_04Dec23.png",
-    "code": "Alles / Gekühltes / Eier & Molkereiprodukte",
+    "code": "Alles / Gekühltes / Molkereiprodukte",
     "href": "/v2/categories/eier-milch-butter",
     "icon": "https://res.cloudinary.com/goflink/image/upload/de/icons/NEW_icon_Eier_Milch.png",
     "id": "8089b876-0b64-40eb-ab3e-ffc785dfa73a",
@@ -1309,14 +1309,14 @@
   },
   "834e3e27-f084-4181-87f3-4a04c5cf1cd7": {
     "active": true,
-    "code": "Alles / Gekühltes / Eier & Molkereiprodukte / Butter, Margarine & Fette / Margarine",
+    "code": "Alles / Gekühltes / Molkereiprodukte / Butter, Margarine & Fette / Margarine",
     "id": "834e3e27-f084-4181-87f3-4a04c5cf1cd7",
     "name": "Butter & Margarine",
     "slug": "eier-milch-butter-butter-margarine"
   },
   "84648f18-1835-4bf0-a025-da25ee30b992": {
     "active": true,
-    "code": "Alles / Gekühltes / Eier & Molkereiprodukte / Käse",
+    "code": "Alles / Gekühltes / Molkereiprodukte / Käse",
     "id": "84648f18-1835-4bf0-a025-da25ee30b992",
     "name": "Schnittkäse",
     "slug": "aufschnitt-brotaufstriche-schnittkaese"
@@ -1536,7 +1536,7 @@
   },
   "99ead5b3-75a5-4775-9c3c-be32dbab3d9b": {
     "active": true,
-    "code": "Alles / Gekühltes / Eier & Molkereiprodukte / Joghurt, Skyr, Quark & Dessert / Dessert",
+    "code": "Alles / Gekühltes / Molkereiprodukte / Joghurt, Skyr, Quark & Dessert / Dessert",
     "id": "99ead5b3-75a5-4775-9c3c-be32dbab3d9b",
     "name": "Desserts",
     "slug": "fitness-desserts"
@@ -1595,7 +1595,7 @@
   },
   "9f54dace-b499-4e79-885c-2a7f551cb734": {
     "active": true,
-    "code": "Alles / Gekühltes / Eier & Molkereiprodukte / Milch- & Kaffeegetränke",
+    "code": "Alles / Gekühltes / Molkereiprodukte / Milch- & Kaffeegetränke",
     "id": "9f54dace-b499-4e79-885c-2a7f551cb734",
     "name": "Milchgetränke",
     "slug": "eier-milch-butter-milchgetraenke"
@@ -1630,7 +1630,7 @@
   },
   "a3544d8d-f2f7-4c4b-902f-d31ca0688cfd": {
     "active": true,
-    "code": "Alles / Gekühltes / Eier & Molkereiprodukte / Joghurt, Skyr, Quark & Dessert / Dessert",
+    "code": "Alles / Gekühltes / Molkereiprodukte / Joghurt, Skyr, Quark & Dessert / Dessert",
     "id": "a3544d8d-f2f7-4c4b-902f-d31ca0688cfd",
     "name": "Desserts",
     "slug": "joghurt-desserts-desserts"
@@ -1689,7 +1689,7 @@
   },
   "af562c3c-3d15-445d-a673-274cdc6d82f6": {
     "active": true,
-    "code": "Alles / Gekühltes / Eier & Molkereiprodukte / Milch & Milchalternativen / Pflanzendrinks",
+    "code": "Alles / Gekühltes / Molkereiprodukte / Milch & Milchalternativen / Pflanzendrinks",
     "id": "af562c3c-3d15-445d-a673-274cdc6d82f6",
     "name": "Milchalternativen",
     "slug": "eier-milch-butter-milchalternativen"
@@ -1724,7 +1724,7 @@
   },
   "b19dc9a0-cbbf-43fa-9451-9f1c4d595c03": {
     "active": true,
-    "code": "Alles / Gekühltes / Eier & Molkereiprodukte / Milch- & Kaffeegetränke",
+    "code": "Alles / Gekühltes / Molkereiprodukte / Milch- & Kaffeegetränke",
     "id": "b19dc9a0-cbbf-43fa-9451-9f1c4d595c03",
     "name": "Kaffeegetränke",
     "slug": "eier-milch-butter-kaffeegetraenke"
@@ -1832,7 +1832,7 @@
   },
   "c1c13184-5e56-4a27-8ce7-293254e91dc6": {
     "active": true,
-    "code": "Alles / Gekühltes / Eier & Molkereiprodukte / Joghurt, Skyr, Quark & Dessert / Joghurtalternativen",
+    "code": "Alles / Gekühltes / Molkereiprodukte / Joghurt, Skyr, Quark & Dessert / Joghurtalternativen",
     "id": "c1c13184-5e56-4a27-8ce7-293254e91dc6",
     "name": "Joghurtalternativen",
     "slug": "joghurt-desserts-joghurtalternativen"
@@ -2019,7 +2019,7 @@
   },
   "d4695b66-5cc1-432c-9d33-ee94766649d5": {
     "active": true,
-    "code": "Alles / Gekühltes / Eier & Molkereiprodukte / Sahne, Schmand & Creme Fraiche",
+    "code": "Alles / Gekühltes / Molkereiprodukte / Sahne, Schmand & Creme Fraiche",
     "id": "d4695b66-5cc1-432c-9d33-ee94766649d5",
     "name": "Sahne & Schmand",
     "slug": "eier-milch-butter-sahne-schmand"
@@ -2192,7 +2192,7 @@
   },
   "e8d58805-8ea0-4198-b687-9b4d5dcd6e40": {
     "active": true,
-    "code": "Alles / Gekühltes / Eier & Molkereiprodukte / Käse / Frischkäse",
+    "code": "Alles / Gekühltes / Molkereiprodukte / Käse / Frischkäse",
     "id": "e8d58805-8ea0-4198-b687-9b4d5dcd6e40",
     "name": "Frischkäse",
     "slug": "aufschnitt-brotaufstriche-frischkaese"
@@ -2335,14 +2335,14 @@
   },
   "f726624e-7435-4877-9141-23732090b164": {
     "active": true,
-    "code": "Alles / Gekühltes / Eier & Molkereiprodukte",
+    "code": "Alles / Gekühltes / Molkereiprodukte",
     "id": "f726624e-7435-4877-9141-23732090b164",
     "name": "Eier",
     "slug": "eier-milch-butter-eier"
   },
   "f7c65cb0-acc4-406c-b8be-82b0b8c56b9e": {
     "active": true,
-    "code": "Alles / Gekühltes / Eier & Molkereiprodukte / Joghurt",
+    "code": "Alles / Gekühltes / Molkereiprodukte / Joghurt",
     "id": "f7c65cb0-acc4-406c-b8be-82b0b8c56b9e",
     "name": "Naturjoghurt",
     "slug": "joghurt-desserts-naturjoghurt"
@@ -2450,7 +2450,7 @@
   },
   "fea12516-28a0-424b-bfa2-073a61d13003": {
     "active": true,
-    "code": "alles / Gekühltes / Eier & Molkereiprodukte / Käse",
+    "code": "Alles / Gekühltes / Molkereiprodukte / Käse",
     "id": "fea12516-28a0-424b-bfa2-073a61d13003",
     "name": "Käsespezialitäten",
     "slug": "feinkost-kaesespezialitaeten"
@@ -2458,7 +2458,7 @@
   "ffe4c95c-5e91-437e-950b-d44330a36aef": {
     "active": true,
     "backgroundImage": "https://res.cloudinary.com/goflink/image/upload/w_600,h_800/de/category-backgrounds/50_NOV_Joghurt2_04Dec23.png",
-    "code": "alles / Gekühltes / Eier & Molkereiprodukte",
+    "code": "Alles / Gekühltes / Molkereiprodukte",
     "href": "/v2/categories/joghurt-desserts",
     "icon": "https://res.cloudinary.com/goflink/image/upload/de/icons/NEW_icon_Joghurt_Desserts.png",
     "id": "ffe4c95c-5e91-437e-950b-d44330a36aef",

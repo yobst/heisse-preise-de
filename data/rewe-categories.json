@@ -5889,7 +5889,7 @@
   },
   "Käse, Eier & Molkerei/": {
     "active": true,
-    "code": "Alles / Gekühltes / Eier & Molkereiprodukte",
+    "code": "Alles / Gekühltes / Molkereiprodukte",
     "facetFilterQuery": "category=K%C3%A4se,%20Eier%20%26%20Molkerei",
     "id": "Käse, Eier & Molkerei/",
     "name": "Käse, Eier & Molkerei",
@@ -5897,7 +5897,7 @@
   },
   "Käse, Eier & Molkerei/Butter & Margarine/": {
     "active": true,
-    "code": "Alles / Gekühltes / Eier & Molkereiprodukte / Butter",
+    "code": "Alles / Gekühltes / Molkereiprodukte / Butter",
     "facetFilterQuery": "category=K%C3%A4se,%20Eier%20%26%20Molkerei/Butter%20%26%20Margarine",
     "id": "Käse, Eier & Molkerei/Butter & Margarine/",
     "name": "Butter & Margarine",
@@ -5905,7 +5905,7 @@
   },
   "Käse, Eier & Molkerei/Butter & Margarine/Butter/": {
     "active": true,
-    "code": "Alles / Gekühltes / Eier & Molkereiprodukte / Butter",
+    "code": "Alles / Gekühltes / Molkereiprodukte / Butter",
     "facetFilterQuery": "category=K%C3%A4se,%20Eier%20%26%20Molkerei/Butter%20%26%20Margarine/Butter",
     "id": "Käse, Eier & Molkerei/Butter & Margarine/Butter/",
     "name": "Butter",
@@ -5913,7 +5913,7 @@
   },
   "Käse, Eier & Molkerei/Butter & Margarine/Kräuterbutter/": {
     "active": true,
-    "code": "Alles / Gekühltes / Eier & Molkereiprodukte / Butter, Margarine & Fette / Kräuterbutter",
+    "code": "Alles / Gekühltes / Molkereiprodukte / Butter, Margarine & Fette / Kräuterbutter",
     "facetFilterQuery": "category=K%C3%A4se,%20Eier%20%26%20Molkerei/Butter%20%26%20Margarine/Kr%C3%A4uterbutter",
     "id": "Käse, Eier & Molkerei/Butter & Margarine/Kräuterbutter/",
     "name": "Kräuterbutter",
@@ -5921,7 +5921,7 @@
   },
   "Käse, Eier & Molkerei/Butter & Margarine/Margarine & Streichfette/": {
     "active": true,
-    "code": "Alles / Gekühltes / Eier & Molkereiprodukte / Butter, Margarine & Fette / Margarine",
+    "code": "Alles / Gekühltes / Molkereiprodukte / Butter, Margarine & Fette / Margarine",
     "facetFilterQuery": "category=K%C3%A4se,%20Eier%20%26%20Molkerei/Butter%20%26%20Margarine/Margarine%20%26%20Streichfette",
     "id": "Käse, Eier & Molkerei/Butter & Margarine/Margarine & Streichfette/",
     "name": "Margarine & Streichfette",
@@ -5929,7 +5929,7 @@
   },
   "Käse, Eier & Molkerei/Butter & Margarine/Pflanzenfett/": {
     "active": true,
-    "code": "Alles / Gekühltes / Eier & Molkereiprodukte / Butter, Margarine & Fette",
+    "code": "Alles / Gekühltes / Molkereiprodukte / Butter, Margarine & Fette",
     "facetFilterQuery": "category=K%C3%A4se,%20Eier%20%26%20Molkerei/Butter%20%26%20Margarine/Pflanzenfett",
     "id": "Käse, Eier & Molkerei/Butter & Margarine/Pflanzenfett/",
     "name": "Pflanzenfett",
@@ -5937,7 +5937,7 @@
   },
   "Käse, Eier & Molkerei/Butter & Margarine/Schmalz/": {
     "active": true,
-    "code": "Alles / Gekühltes / Eier & Molkereiprodukte / Butter, Margarine & Fette / Schmalz",
+    "code": "Alles / Gekühltes / Molkereiprodukte / Butter, Margarine & Fette / Schmalz",
     "facetFilterQuery": "category=K%C3%A4se,%20Eier%20%26%20Molkerei/Butter%20%26%20Margarine/Schmalz",
     "id": "Käse, Eier & Molkerei/Butter & Margarine/Schmalz/",
     "name": "Schmalz",
@@ -5945,7 +5945,7 @@
   },
   "Käse, Eier & Molkerei/Eier & Ei-Ersatz/": {
     "active": true,
-    "code": "Alles / Gekühltes / Eier & Molkereiprodukte / Eier & Eiersatz",
+    "code": "Alles / Ungekühltes / Eier
     "facetFilterQuery": "category=K%C3%A4se,%20Eier%20%26%20Molkerei/Eier%20%26%20Ei-Ersatz",
     "id": "Käse, Eier & Molkerei/Eier & Ei-Ersatz/",
     "name": "Eier & Ei-Ersatz",
@@ -5953,7 +5953,7 @@
   },
   "Käse, Eier & Molkerei/Eier & Ei-Ersatz/Bio-Eier/": {
     "active": true,
-    "code": "Alles / Gekühltes / Eier & Molkereiprodukte / Eier & Eiersatz / Eier",
+    "code": "Alles / Ungekühltes / Eier
     "facetFilterQuery": "category=K%C3%A4se,%20Eier%20%26%20Molkerei/Eier%20%26%20Ei-Ersatz/Bio-Eier",
     "id": "Käse, Eier & Molkerei/Eier & Ei-Ersatz/Bio-Eier/",
     "name": "Bio-Eier",
@@ -5961,7 +5961,7 @@
   },
   "Käse, Eier & Molkerei/Eier & Ei-Ersatz/Ei-Ersatz/": {
     "active": true,
-    "code": "Alles / Gekühltes / Eier & Molkereiprodukte / Eier & Eiersatz",
+    "code": "Alles / Ungekühltes / Eier
     "facetFilterQuery": "category=K%C3%A4se,%20Eier%20%26%20Molkerei/Eier%20%26%20Ei-Ersatz/Ei-Ersatz",
     "id": "Käse, Eier & Molkerei/Eier & Ei-Ersatz/Ei-Ersatz/",
     "name": "Ei-Ersatz",
@@ -5969,7 +5969,7 @@
   },
   "Käse, Eier & Molkerei/Eier & Ei-Ersatz/Eier aus Bodenhaltung/": {
     "active": true,
-    "code": "Alles / Gekühltes / Eier & Molkereiprodukte / Eier & Eiersatz / Eier",
+    "code": "Alles / Ungekühltes / Eier
     "facetFilterQuery": "category=K%C3%A4se,%20Eier%20%26%20Molkerei/Eier%20%26%20Ei-Ersatz/Eier%20aus%20Bodenhaltung",
     "id": "Käse, Eier & Molkerei/Eier & Ei-Ersatz/Eier aus Bodenhaltung/",
     "name": "Eier aus Bodenhaltung",
@@ -5977,7 +5977,7 @@
   },
   "Käse, Eier & Molkerei/Eier & Ei-Ersatz/Freiland-Eier/": {
     "active": true,
-    "code": "Alles / Gekühltes / Eier & Molkereiprodukte / Eier & Eiersatz / Eier",
+    "code": "Alles / Ungekühltes / Eier
     "facetFilterQuery": "category=K%C3%A4se,%20Eier%20%26%20Molkerei/Eier%20%26%20Ei-Ersatz/Freiland-Eier",
     "id": "Käse, Eier & Molkerei/Eier & Ei-Ersatz/Freiland-Eier/",
     "name": "Freiland-Eier",
@@ -5985,7 +5985,7 @@
   },
   "Käse, Eier & Molkerei/Eier & Ei-Ersatz/Gekochte Eier/": {
     "active": true,
-    "code": "Alles / Gekühltes / Eier & Molkereiprodukte / Eier & Eiersatz / Eier",
+    "code": "Alles / Ungekühltes / Eier
     "facetFilterQuery": "category=K%C3%A4se,%20Eier%20%26%20Molkerei/Eier%20%26%20Ei-Ersatz/Gekochte%20Eier",
     "id": "Käse, Eier & Molkerei/Eier & Ei-Ersatz/Gekochte Eier/",
     "name": "Gekochte Eier",
@@ -5993,7 +5993,7 @@
   },
   "Käse, Eier & Molkerei/Joghurt, Desserts & Alternativen/": {
     "active": true,
-    "code": "Alles / Gekühltes / Eier & Molkereiprodukte / Joghurt",
+    "code": "Alles / Gekühltes / Molkereiprodukte / Joghurt",
     "facetFilterQuery": "category=K%C3%A4se,%20Eier%20%26%20Molkerei/Joghurt,%20Desserts%20%26%20Alternativen",
     "id": "Käse, Eier & Molkerei/Joghurt, Desserts & Alternativen/",
     "name": "Joghurt, Desserts & Alternativen",
@@ -6001,7 +6001,7 @@
   },
   "Käse, Eier & Molkerei/Joghurt, Desserts & Alternativen/Dessertsoßen/": {
     "active": true,
-    "code": "Alles / Gekühltes / Eier & Molkereiprodukte / Joghurt",
+    "code": "Alles / Gekühltes / Molkereiprodukte / Joghurt",
     "facetFilterQuery": "category=K%C3%A4se,%20Eier%20%26%20Molkerei/Joghurt,%20Desserts%20%26%20Alternativen/Dessertso%C3%9Fen",
     "id": "Käse, Eier & Molkerei/Joghurt, Desserts & Alternativen/Dessertsoßen/",
     "name": "Dessertsoßen",
@@ -6009,7 +6009,7 @@
   },
   "Käse, Eier & Molkerei/Joghurt, Desserts & Alternativen/Götterspeise & Grütze/": {
     "active": true,
-    "code": "Alles / Gekühltes / Eier & Molkereiprodukte / Joghurt",
+    "code": "Alles / Gekühltes / Molkereiprodukte / Joghurt",
     "facetFilterQuery": "category=K%C3%A4se,%20Eier%20%26%20Molkerei/Joghurt,%20Desserts%20%26%20Alternativen/G%C3%B6tterspeise%20%26%20Gr%C3%BCtze",
     "id": "Käse, Eier & Molkerei/Joghurt, Desserts & Alternativen/Götterspeise & Grütze/",
     "name": "Götterspeise & Grütze",
@@ -6017,7 +6017,7 @@
   },
   "Käse, Eier & Molkerei/Joghurt, Desserts & Alternativen/Joghurt & Alternativen/": {
     "active": true,
-    "code": "Alles / Gekühltes / Eier & Molkereiprodukte / Joghurt",
+    "code": "Alles / Gekühltes / Molkereiprodukte / Joghurt",
     "facetFilterQuery": "category=K%C3%A4se,%20Eier%20%26%20Molkerei/Joghurt,%20Desserts%20%26%20Alternativen/Joghurt%20%26%20Alternativen",
     "id": "Käse, Eier & Molkerei/Joghurt, Desserts & Alternativen/Joghurt & Alternativen/",
     "name": "Joghurt & Alternativen",
@@ -6025,7 +6025,7 @@
   },
   "Käse, Eier & Molkerei/Joghurt, Desserts & Alternativen/Joghurt & Alternativen/Fruchtjoghurt/": {
     "active": true,
-    "code": "Alles / Gekühltes / Eier & Molkereiprodukte / Joghurt",
+    "code": "Alles / Gekühltes / Molkereiprodukte / Joghurt",
     "facetFilterQuery": "category=K%C3%A4se,%20Eier%20%26%20Molkerei/Joghurt,%20Desserts%20%26%20Alternativen/Joghurt%20%26%20Alternativen/Fruchtjoghurt",
     "id": "Käse, Eier & Molkerei/Joghurt, Desserts & Alternativen/Joghurt & Alternativen/Fruchtjoghurt/",
     "name": "Fruchtjoghurt",
@@ -6033,7 +6033,7 @@
   },
   "Käse, Eier & Molkerei/Joghurt, Desserts & Alternativen/Joghurt & Alternativen/Joghurt Griechischer Art/": {
     "active": true,
-    "code": "Alles / Gekühltes / Eier & Molkereiprodukte / Joghurt",
+    "code": "Alles / Gekühltes / Molkereiprodukte / Joghurt",
     "facetFilterQuery": "category=K%C3%A4se,%20Eier%20%26%20Molkerei/Joghurt,%20Desserts%20%26%20Alternativen/Joghurt%20%26%20Alternativen/Joghurt%20Griechischer%20Art",
     "id": "Käse, Eier & Molkerei/Joghurt, Desserts & Alternativen/Joghurt & Alternativen/Joghurt Griechischer Art/",
     "name": "Joghurt Griechischer Art",
@@ -6041,7 +6041,7 @@
   },
   "Käse, Eier & Molkerei/Joghurt, Desserts & Alternativen/Joghurt & Alternativen/Naturjoghurt/": {
     "active": true,
-    "code": "Alles / Gekühltes / Eier & Molkereiprodukte / Joghurt",
+    "code": "Alles / Gekühltes / Molkereiprodukte / Joghurt",
     "facetFilterQuery": "category=K%C3%A4se,%20Eier%20%26%20Molkerei/Joghurt,%20Desserts%20%26%20Alternativen/Joghurt%20%26%20Alternativen/Naturjoghurt",
     "id": "Käse, Eier & Molkerei/Joghurt, Desserts & Alternativen/Joghurt & Alternativen/Naturjoghurt/",
     "name": "Naturjoghurt",
@@ -6049,7 +6049,7 @@
   },
   "Käse, Eier & Molkerei/Joghurt, Desserts & Alternativen/Joghurt & Alternativen/Vanillejoghurt/": {
     "active": true,
-    "code": "Alles / Gekühltes / Eier & Molkereiprodukte / Joghurt, Skyr, Quark & Dessert / Fruchtjoghurt",
+    "code": "Alles / Gekühltes / Molkereiprodukte / Joghurt, Skyr, Quark & Dessert / Fruchtjoghurt",
     "facetFilterQuery": "category=K%C3%A4se,%20Eier%20%26%20Molkerei/Joghurt,%20Desserts%20%26%20Alternativen/Joghurt%20%26%20Alternativen/Vanillejoghurt",
     "id": "Käse, Eier & Molkerei/Joghurt, Desserts & Alternativen/Joghurt & Alternativen/Vanillejoghurt/",
     "name": "Vanillejoghurt",
@@ -6057,7 +6057,7 @@
   },
   "Käse, Eier & Molkerei/Joghurt, Desserts & Alternativen/Joghurt & Alternativen/Vegane Joghurt-Alternativen/": {
     "active": true,
-    "code": "Alles / Gekühltes / Eier & Molkereiprodukte / Joghurt, Skyr, Quark & Dessert / Joghurtalternativen",
+    "code": "Alles / Gekühltes / Molkereiprodukte / Joghurt, Skyr, Quark & Dessert / Joghurtalternativen",
     "facetFilterQuery": "category=K%C3%A4se,%20Eier%20%26%20Molkerei/Joghurt,%20Desserts%20%26%20Alternativen/Joghurt%20%26%20Alternativen/Vegane%20Joghurt-Alternativen",
     "id": "Käse, Eier & Molkerei/Joghurt, Desserts & Alternativen/Joghurt & Alternativen/Vegane Joghurt-Alternativen/",
     "name": "Vegane Joghurt-Alternativen",
@@ -6065,7 +6065,7 @@
   },
   "Käse, Eier & Molkerei/Joghurt, Desserts & Alternativen/Milchreis & Grießpudding/": {
     "active": true,
-    "code": "Alles / Gekühltes / Eier & Molkereiprodukte / Joghurt, Skyr, Quark & Dessert / Dessert",
+    "code": "Alles / Gekühltes / Molkereiprodukte / Joghurt, Skyr, Quark & Dessert / Dessert",
     "facetFilterQuery": "category=K%C3%A4se,%20Eier%20%26%20Molkerei/Joghurt,%20Desserts%20%26%20Alternativen/Milchreis%20%26%20Grie%C3%9Fpudding",
     "id": "Käse, Eier & Molkerei/Joghurt, Desserts & Alternativen/Milchreis & Grießpudding/",
     "name": "Milchreis & Grießpudding",
@@ -6073,7 +6073,7 @@
   },
   "Käse, Eier & Molkerei/Joghurt, Desserts & Alternativen/Milchsnacks/": {
     "active": true,
-    "code": "Alles / Gekühltes / Eier & Molkereiprodukte / Joghurt, Skyr, Quark & Dessert / Dessert",
+    "code": "Alles / Gekühltes / Molkereiprodukte / Joghurt, Skyr, Quark & Dessert / Dessert",
     "facetFilterQuery": "category=K%C3%A4se,%20Eier%20%26%20Molkerei/Joghurt,%20Desserts%20%26%20Alternativen/Milchsnacks",
     "id": "Käse, Eier & Molkerei/Joghurt, Desserts & Alternativen/Milchsnacks/",
     "name": "Milchsnacks",
@@ -6081,7 +6081,7 @@
   },
   "Käse, Eier & Molkerei/Joghurt, Desserts & Alternativen/Pudding & Vegane Desserts/": {
     "active": true,
-    "code": "Alles / Gekühltes / Eier & Molkereiprodukte / Joghurt, Skyr, Quark & Dessert / Dessert",
+    "code": "Alles / Gekühltes / Molkereiprodukte / Joghurt, Skyr, Quark & Dessert / Dessert",
     "facetFilterQuery": "category=K%C3%A4se,%20Eier%20%26%20Molkerei/Joghurt,%20Desserts%20%26%20Alternativen/Pudding%20%26%20Vegane%20Desserts",
     "id": "Käse, Eier & Molkerei/Joghurt, Desserts & Alternativen/Pudding & Vegane Desserts/",
     "name": "Pudding & Vegane Desserts",
@@ -6089,7 +6089,7 @@
   },
   "Käse, Eier & Molkerei/Joghurt, Desserts & Alternativen/Pudding & Vegane Desserts/Cookie Dough/": {
     "active": true,
-    "code": "Alles / Gekühltes / Eier & Molkereiprodukte / Joghurt, Skyr, Quark & Dessert / Dessert",
+    "code": "Alles / Gekühltes / Molkereiprodukte / Joghurt, Skyr, Quark & Dessert / Dessert",
     "facetFilterQuery": "category=K%C3%A4se,%20Eier%20%26%20Molkerei/Joghurt,%20Desserts%20%26%20Alternativen/Pudding%20%26%20Vegane%20Desserts/Cookie%20Dough",
     "id": "Käse, Eier & Molkerei/Joghurt, Desserts & Alternativen/Pudding & Vegane Desserts/Cookie Dough/",
     "name": "Cookie Dough",
@@ -6097,7 +6097,7 @@
   },
   "Käse, Eier & Molkerei/Joghurt, Desserts & Alternativen/Pudding & Vegane Desserts/Mousse/": {
     "active": true,
-    "code": "Alles / Gekühltes / Eier & Molkereiprodukte / Joghurt, Skyr, Quark & Dessert / Dessert",
+    "code": "Alles / Gekühltes / Molkereiprodukte / Joghurt, Skyr, Quark & Dessert / Dessert",
     "facetFilterQuery": "category=K%C3%A4se,%20Eier%20%26%20Molkerei/Joghurt,%20Desserts%20%26%20Alternativen/Pudding%20%26%20Vegane%20Desserts/Mousse",
     "id": "Käse, Eier & Molkerei/Joghurt, Desserts & Alternativen/Pudding & Vegane Desserts/Mousse/",
     "name": "Mousse",
@@ -6105,7 +6105,7 @@
   },
   "Käse, Eier & Molkerei/Joghurt, Desserts & Alternativen/Pudding & Vegane Desserts/Schokopudding/": {
     "active": true,
-    "code": "Alles / Gekühltes / Eier & Molkereiprodukte / Joghurt, Skyr, Quark & Dessert / Dessert",
+    "code": "Alles / Gekühltes / Molkereiprodukte / Joghurt, Skyr, Quark & Dessert / Dessert",
     "facetFilterQuery": "category=K%C3%A4se,%20Eier%20%26%20Molkerei/Joghurt,%20Desserts%20%26%20Alternativen/Pudding%20%26%20Vegane%20Desserts/Schokopudding",
     "id": "Käse, Eier & Molkerei/Joghurt, Desserts & Alternativen/Pudding & Vegane Desserts/Schokopudding/",
     "name": "Schokopudding",
@@ -6113,7 +6113,7 @@
   },
   "Käse, Eier & Molkerei/Joghurt, Desserts & Alternativen/Pudding & Vegane Desserts/Vanillepudding/": {
     "active": true,
-    "code": "Alles / Gekühltes / Eier & Molkereiprodukte / Joghurt, Skyr, Quark & Dessert / Dessert",
+    "code": "Alles / Gekühltes / Molkereiprodukte / Joghurt, Skyr, Quark & Dessert / Dessert",
     "facetFilterQuery": "category=K%C3%A4se,%20Eier%20%26%20Molkerei/Joghurt,%20Desserts%20%26%20Alternativen/Pudding%20%26%20Vegane%20Desserts/Vanillepudding",
     "id": "Käse, Eier & Molkerei/Joghurt, Desserts & Alternativen/Pudding & Vegane Desserts/Vanillepudding/",
     "name": "Vanillepudding",
@@ -6121,7 +6121,7 @@
   },
   "Käse, Eier & Molkerei/Joghurt, Desserts & Alternativen/Quarkdesserts/": {
     "active": true,
-    "code": "Alles / Gekühltes / Eier & Molkereiprodukte / Joghurt, Skyr, Quark & Dessert / Dessert",
+    "code": "Alles / Gekühltes / Molkereiprodukte / Joghurt, Skyr, Quark & Dessert / Dessert",
     "facetFilterQuery": "category=K%C3%A4se,%20Eier%20%26%20Molkerei/Joghurt,%20Desserts%20%26%20Alternativen/Quarkdesserts",
     "id": "Käse, Eier & Molkerei/Joghurt, Desserts & Alternativen/Quarkdesserts/",
     "name": "Quarkdesserts",
@@ -6129,7 +6129,7 @@
   },
   "Käse, Eier & Molkerei/Joghurt, Desserts & Alternativen/Skyr/": {
     "active": true,
-    "code": "Alles / Gekühltes / Eier & Molkereiprodukte / Joghurt, Skyr, Quark & Dessert / Skyr",
+    "code": "Alles / Gekühltes / Molkereiprodukte / Joghurt, Skyr, Quark & Dessert / Skyr",
     "facetFilterQuery": "category=K%C3%A4se,%20Eier%20%26%20Molkerei/Joghurt,%20Desserts%20%26%20Alternativen/Skyr",
     "id": "Käse, Eier & Molkerei/Joghurt, Desserts & Alternativen/Skyr/",
     "name": "Skyr",
@@ -6137,7 +6137,7 @@
   },
   "Käse, Eier & Molkerei/Käse & Käseersatz/": {
     "active": true,
-    "code": "alles / Gekühltes / Eier & Molkereiprodukte / Käse",
+    "code": "Alles / Gekühltes / Molkereiprodukte / Käse",
     "facetFilterQuery": "category=K%C3%A4se,%20Eier%20%26%20Molkerei/K%C3%A4se%20%26%20K%C3%A4seersatz",
     "id": "Käse, Eier & Molkerei/Käse & Käseersatz/",
     "name": "Käse & Käseersatz",
@@ -6145,7 +6145,7 @@
   },
   "Käse, Eier & Molkerei/Käse & Käseersatz/Feta & Schafskäse/": {
     "active": true,
-    "code": "alles / Gekühltes / Eier & Molkereiprodukte / Käse / Feta & Hirtenkäse",
+    "code": "Alles / Gekühltes / Molkereiprodukte / Käse / Feta & Hirtenkäse",
     "facetFilterQuery": "category=K%C3%A4se,%20Eier%20%26%20Molkerei/K%C3%A4se%20%26%20K%C3%A4seersatz/Feta%20%26%20Schafsk%C3%A4se",
     "id": "Käse, Eier & Molkerei/Käse & Käseersatz/Feta & Schafskäse/",
     "name": "Feta & Schafskäse",
@@ -6153,7 +6153,7 @@
   },
   "Käse, Eier & Molkerei/Käse & Käseersatz/Frischkäse/": {
     "active": true,
-    "code": "alles / Gekühltes / Eier & Molkereiprodukte / Käse & Käseersatz / Frischkäse",
+    "code": "Alles / Gekühltes / Molkereiprodukte / Käse & Käseersatz / Frischkäse",
     "facetFilterQuery": "category=K%C3%A4se,%20Eier%20%26%20Molkerei/K%C3%A4se%20%26%20K%C3%A4seersatz/Frischk%C3%A4se",
     "id": "Käse, Eier & Molkerei/Käse & Käseersatz/Frischkäse/",
     "name": "Frischkäse",
@@ -6161,7 +6161,7 @@
   },
   "Käse, Eier & Molkerei/Käse & Käseersatz/Grill- & Ofenkäse/": {
     "active": true,
-    "code": "alles / Gekühltes / Eier & Molkereiprodukte / Käse / Grill- & Ofenkäse",
+    "code": "Alles / Gekühltes / Molkereiprodukte / Käse / Grill- & Ofenkäse",
     "facetFilterQuery": "category=K%C3%A4se,%20Eier%20%26%20Molkerei/K%C3%A4se%20%26%20K%C3%A4seersatz/Grill-%20%26%20Ofenk%C3%A4se",
     "id": "Käse, Eier & Molkerei/Käse & Käseersatz/Grill- & Ofenkäse/",
     "name": "Grill- & Ofenkäse",
@@ -6169,7 +6169,7 @@
   },
   "Käse, Eier & Molkerei/Käse & Käseersatz/Hartkäse/": {
     "active": true,
-    "code": "alles / Gekühltes / Eier & Molkereiprodukte / Käse",
+    "code": "Alles / Gekühltes / Molkereiprodukte / Käse",
     "facetFilterQuery": "category=K%C3%A4se,%20Eier%20%26%20Molkerei/K%C3%A4se%20%26%20K%C3%A4seersatz/Hartk%C3%A4se",
     "id": "Käse, Eier & Molkerei/Käse & Käseersatz/Hartkäse/",
     "name": "Hartkäse",
@@ -6177,7 +6177,7 @@
   },
   "Käse, Eier & Molkerei/Käse & Käseersatz/Harzer Käse & Handkäse/": {
     "active": true,
-    "code": "alles / Gekühltes / Eier & Molkereiprodukte / Käse",
+    "code": "Alles / Gekühltes / Molkereiprodukte / Käse",
     "facetFilterQuery": "category=K%C3%A4se,%20Eier%20%26%20Molkerei/K%C3%A4se%20%26%20K%C3%A4seersatz/Harzer%20K%C3%A4se%20%26%20Handk%C3%A4se",
     "id": "Käse, Eier & Molkerei/Käse & Käseersatz/Harzer Käse & Handkäse/",
     "name": "Harzer Käse & Handkäse",
@@ -6185,7 +6185,7 @@
   },
   "Käse, Eier & Molkerei/Käse & Käseersatz/Käseersatz/": {
     "active": true,
-    "code": "alles / Gekühltes / Eier & Molkereiprodukte / Käse / Käsealternativen",
+    "code": "Alles / Gekühltes / Molkereiprodukte / Käse / Käsealternativen",
     "facetFilterQuery": "category=K%C3%A4se,%20Eier%20%26%20Molkerei/K%C3%A4se%20%26%20K%C3%A4seersatz/K%C3%A4seersatz",
     "id": "Käse, Eier & Molkerei/Käse & Käseersatz/Käseersatz/",
     "name": "Käseersatz",
@@ -6193,7 +6193,7 @@
   },
   "Käse, Eier & Molkerei/Käse & Käseersatz/Käsewürfel & -Snacks/": {
     "active": true,
-    "code": "alles / Gekühltes / Eier & Molkereiprodukte / Käse & Käseersatz / Käsewürfel & -Snacks",
+    "code": "Alles / Gekühltes / Molkereiprodukte / Käse & Käseersatz / Käsewürfel & -Snacks",
     "facetFilterQuery": "category=K%C3%A4se,%20Eier%20%26%20Molkerei/K%C3%A4se%20%26%20K%C3%A4seersatz/K%C3%A4sew%C3%BCrfel%20%26%20-Snacks",
     "id": "Käse, Eier & Molkerei/Käse & Käseersatz/Käsewürfel & -Snacks/",
     "name": "Käsewürfel & -Snacks",
@@ -6201,7 +6201,7 @@
   },
   "Käse, Eier & Molkerei/Käse & Käseersatz/Mozzarella/": {
     "active": true,
-    "code": "alles / Gekühltes / Eier & Molkereiprodukte / Käse",
+    "code": "Alles / Gekühltes / Molkereiprodukte / Käse",
     "facetFilterQuery": "category=K%C3%A4se,%20Eier%20%26%20Molkerei/K%C3%A4se%20%26%20K%C3%A4seersatz/Mozzarella",
     "id": "Käse, Eier & Molkerei/Käse & Käseersatz/Mozzarella/",
     "name": "Mozzarella",
@@ -6209,7 +6209,7 @@
   },
   "Käse, Eier & Molkerei/Käse & Käseersatz/Reibekäse/": {
     "active": false,
-    "code": "alles / Gekühltes / Eier & Molkereiprodukte / Käse",
+    "code": "Alles / Gekühltes / Molkereiprodukte / Käse",
     "facetFilterQuery": "category=K%C3%A4se,%20Eier%20%26%20Molkerei/K%C3%A4se%20%26%20K%C3%A4seersatz/Reibek%C3%A4se",
     "id": "Käse, Eier & Molkerei/Käse & Käseersatz/Reibekäse/",
     "name": "Reibekäse",
@@ -6217,7 +6217,7 @@
   },
   "Käse, Eier & Molkerei/Käse & Käseersatz/Schmelz- & Sandwichkäse/": {
     "active": true,
-    "code": "alles / Gekühltes / Eier & Molkereiprodukte / Käse",
+    "code": "Alles / Gekühltes / Molkereiprodukte / Käse",
     "facetFilterQuery": "category=K%C3%A4se,%20Eier%20%26%20Molkerei/K%C3%A4se%20%26%20K%C3%A4seersatz/Schmelz-%20%26%20Sandwichk%C3%A4se",
     "id": "Käse, Eier & Molkerei/Käse & Käseersatz/Schmelz- & Sandwichkäse/",
     "name": "Schmelz- & Sandwichkäse",
@@ -6225,7 +6225,7 @@
   },
   "Käse, Eier & Molkerei/Käse & Käseersatz/Schnittkäse/": {
     "active": true,
-    "code": "alles / Gekühltes / Eier & Molkereiprodukte / Käse / Stück- & Schnittkäse",
+    "code": "Alles / Gekühltes / Molkereiprodukte / Käse / Stück- & Schnittkäse",
     "facetFilterQuery": "category=K%C3%A4se,%20Eier%20%26%20Molkerei/K%C3%A4se%20%26%20K%C3%A4seersatz/Schnittk%C3%A4se",
     "id": "Käse, Eier & Molkerei/Käse & Käseersatz/Schnittkäse/",
     "name": "Schnittkäse",
@@ -6233,7 +6233,7 @@
   },
   "Käse, Eier & Molkerei/Käse & Käseersatz/Weichkäse/": {
     "active": true,
-    "code": "alles / Gekühltes / Eier & Molkereiprodukte / Käse",
+    "code": "Alles / Gekühltes / Molkereiprodukte / Käse",
     "facetFilterQuery": "category=K%C3%A4se,%20Eier%20%26%20Molkerei/K%C3%A4se%20%26%20K%C3%A4seersatz/Weichk%C3%A4se",
     "id": "Käse, Eier & Molkerei/Käse & Käseersatz/Weichkäse/",
     "name": "Weichkäse",
@@ -6241,7 +6241,7 @@
   },
   "Käse, Eier & Molkerei/Käse & Käseersatz/Weichkäse/Brie & Camembert/": {
     "active": true,
-    "code": "alles / Gekühltes / Eier & Molkereiprodukte / Käse",
+    "code": "Alles / Gekühltes / Molkereiprodukte / Käse",
     "facetFilterQuery": "category=K%C3%A4se,%20Eier%20%26%20Molkerei/K%C3%A4se%20%26%20K%C3%A4seersatz/Weichk%C3%A4se/Brie%20%26%20Camembert",
     "id": "Käse, Eier & Molkerei/Käse & Käseersatz/Weichkäse/Brie & Camembert/",
     "name": "Brie & Camembert",
@@ -6249,7 +6249,7 @@
   },
   "Käse, Eier & Molkerei/Käse & Käseersatz/Weichkäse/Gorgonzola & Blauschimmelkäse/": {
     "active": true,
-    "code": "alles / Gekühltes / Eier & Molkereiprodukte / Käse",
+    "code": "Alles / Gekühltes / Molkereiprodukte / Käse",
     "facetFilterQuery": "category=K%C3%A4se,%20Eier%20%26%20Molkerei/K%C3%A4se%20%26%20K%C3%A4seersatz/Weichk%C3%A4se/Gorgonzola%20%26%20Blauschimmelk%C3%A4se",
     "id": "Käse, Eier & Molkerei/Käse & Käseersatz/Weichkäse/Gorgonzola & Blauschimmelkäse/",
     "name": "Gorgonzola & Blauschimmelkäse",
@@ -6265,7 +6265,7 @@
   },
   "Käse, Eier & Molkerei/Milch/Frischmilch/": {
     "active": true,
-    "code": "alles / Gekühltes / Eier & Molkereiprodukte / Milch",
+    "code": "Alles / Gekühltes / Molkereiprodukte / Milch",
     "facetFilterQuery": "category=K%C3%A4se,%20Eier%20%26%20Molkerei/Milch/Frischmilch",
     "id": "Käse, Eier & Molkerei/Milch/Frischmilch/",
     "name": "Frischmilch",
@@ -6273,7 +6273,7 @@
   },
   "Käse, Eier & Molkerei/Milch/H-Milch/": {
     "active": true,
-    "code": "alles / Gekühltes / Eier & Molkereiprodukte / Milch",
+    "code": "Alles / Gekühltes / Molkereiprodukte / Milch",
     "facetFilterQuery": "category=K%C3%A4se,%20Eier%20%26%20Molkerei/Milch/H-Milch",
     "id": "Käse, Eier & Molkerei/Milch/H-Milch/",
     "name": "H-Milch",
@@ -6281,7 +6281,7 @@
   },
   "Käse, Eier & Molkerei/Milch/Milchgetränke/": {
     "active": true,
-    "code": "alles / Gekühltes / Eier & Molkereiprodukte / Milch",
+    "code": "Alles / Gekühltes / Molkereiprodukte / Milch",
     "facetFilterQuery": "category=K%C3%A4se,%20Eier%20%26%20Molkerei/Milch/Milchgetr%C3%A4nke",
     "id": "Käse, Eier & Molkerei/Milch/Milchgetränke/",
     "name": "Milchgetränke",
@@ -6289,7 +6289,7 @@
   },
   "Käse, Eier & Molkerei/Milch/Milchgetränke/Kaffeedrinks/": {
     "active": true,
-    "code": "alles / Gekühltes / Eier & Molkereiprodukte / Milch",
+    "code": "Alles / Gekühltes / Molkereiprodukte / Milch",
     "facetFilterQuery": "category=K%C3%A4se,%20Eier%20%26%20Molkerei/Milch/Milchgetr%C3%A4nke/Kaffeedrinks",
     "id": "Käse, Eier & Molkerei/Milch/Milchgetränke/Kaffeedrinks/",
     "name": "Kaffeedrinks",
@@ -6297,7 +6297,7 @@
   },
   "Käse, Eier & Molkerei/Milch/Milchgetränke/Kakao & Schokomilch/": {
     "active": true,
-    "code": "alles / Gekühltes / Eier & Molkereiprodukte / Milch",
+    "code": "Alles / Gekühltes / Molkereiprodukte / Milch",
     "facetFilterQuery": "category=K%C3%A4se,%20Eier%20%26%20Molkerei/Milch/Milchgetr%C3%A4nke/Kakao%20%26%20Schokomilch",
     "id": "Käse, Eier & Molkerei/Milch/Milchgetränke/Kakao & Schokomilch/",
     "name": "Kakao & Schokomilch",
@@ -6305,7 +6305,7 @@
   },
   "Käse, Eier & Molkerei/Milch/Milchgetränke/Milchdrinks/": {
     "active": true,
-    "code": "alles / Gekühltes / Eier & Molkereiprodukte / Milch",
+    "code": "Alles / Gekühltes / Molkereiprodukte / Milch",
     "facetFilterQuery": "category=K%C3%A4se,%20Eier%20%26%20Molkerei/Milch/Milchgetr%C3%A4nke/Milchdrinks",
     "id": "Käse, Eier & Molkerei/Milch/Milchgetränke/Milchdrinks/",
     "name": "Milchdrinks",
@@ -6313,7 +6313,7 @@
   },
   "Käse, Eier & Molkerei/Milch/Milchgetränke/Trinkmahlzeiten/": {
     "active": false,
-    "code": "alles / Gekühltes / Eier & Molkereiprodukte / Milch",
+    "code": "Alles / Gekühltes / Molkereiprodukte / Milch",
     "facetFilterQuery": "category=K%C3%A4se,%20Eier%20%26%20Molkerei/Milch/Milchgetr%C3%A4nke/Trinkmahlzeiten",
     "id": "Käse, Eier & Molkerei/Milch/Milchgetränke/Trinkmahlzeiten/",
     "name": "Trinkmahlzeiten",
@@ -6321,7 +6321,7 @@
   },
   "Käse, Eier & Molkerei/Milchalternativen/": {
     "active": true,
-    "code": "alles / Gekühltes / Eier & Molkereiprodukte / Milch",
+    "code": "Alles / Gekühltes / Molkereiprodukte / Milch",
     "facetFilterQuery": "category=K%C3%A4se,%20Eier%20%26%20Molkerei/Milchalternativen",
     "id": "Käse, Eier & Molkerei/Milchalternativen/",
     "name": "Milchalternativen",
@@ -6329,7 +6329,7 @@
   },
   "Käse, Eier & Molkerei/Milchalternativen/Erbsendrinks/": {
     "active": true,
-    "code": "alles / Gekühltes / Eier & Molkereiprodukte / Milch",
+    "code": "Alles / Gekühltes / Molkereiprodukte / Milch",
     "facetFilterQuery": "category=K%C3%A4se,%20Eier%20%26%20Molkerei/Milchalternativen/Erbsendrinks",
     "id": "Käse, Eier & Molkerei/Milchalternativen/Erbsendrinks/",
     "name": "Erbsendrinks",
@@ -6337,7 +6337,7 @@
   },
   "Käse, Eier & Molkerei/Milchalternativen/Haferdrinks/": {
     "active": true,
-    "code": "alles / Gekühltes / Eier & Molkereiprodukte / Milch",
+    "code": "Alles / Gekühltes / Molkereiprodukte / Milch",
     "facetFilterQuery": "category=K%C3%A4se,%20Eier%20%26%20Molkerei/Milchalternativen/Haferdrinks",
     "id": "Käse, Eier & Molkerei/Milchalternativen/Haferdrinks/",
     "name": "Haferdrinks",
@@ -6345,7 +6345,7 @@
   },
   "Käse, Eier & Molkerei/Milchalternativen/Kokosdrinks/": {
     "active": true,
-    "code": "alles / Gekühltes / Eier & Molkereiprodukte / Milch",
+    "code": "Alles / Gekühltes / Molkereiprodukte / Milch",
     "facetFilterQuery": "category=K%C3%A4se,%20Eier%20%26%20Molkerei/Milchalternativen/Kokosdrinks",
     "id": "Käse, Eier & Molkerei/Milchalternativen/Kokosdrinks/",
     "name": "Kokosdrinks",
@@ -6353,7 +6353,7 @@
   },
   "Käse, Eier & Molkerei/Milchalternativen/Mandeldrinks/": {
     "active": true,
-    "code": "alles / Gekühltes / Eier & Molkereiprodukte / Milch",
+    "code": "Alles / Gekühltes / Molkereiprodukte / Milch",
     "facetFilterQuery": "category=K%C3%A4se,%20Eier%20%26%20Molkerei/Milchalternativen/Mandeldrinks",
     "id": "Käse, Eier & Molkerei/Milchalternativen/Mandeldrinks/",
     "name": "Mandeldrinks",
@@ -6361,7 +6361,7 @@
   },
   "Käse, Eier & Molkerei/Milchalternativen/Sojadrinks/": {
     "active": true,
-    "code": "alles / Gekühltes / Eier & Molkereiprodukte / Milch",
+    "code": "Alles / Gekühltes / Molkereiprodukte / Milch",
     "facetFilterQuery": "category=K%C3%A4se,%20Eier%20%26%20Molkerei/Milchalternativen/Sojadrinks",
     "id": "Käse, Eier & Molkerei/Milchalternativen/Sojadrinks/",
     "name": "Sojadrinks",
@@ -6369,7 +6369,7 @@
   },
   "Käse, Eier & Molkerei/Molkereiprodukte & Alternativen/": {
     "active": true,
-    "code": "alles / Gekühltes / Eier & Molkereiprodukte",
+    "code": "Alles / Gekühltes / Molkereiprodukte",
     "facetFilterQuery": "category=K%C3%A4se,%20Eier%20%26%20Molkerei/Molkereiprodukte%20%26%20Alternativen",
     "id": "Käse, Eier & Molkerei/Molkereiprodukte & Alternativen/",
     "name": "Molkereiprodukte & Alternativen",
@@ -6377,7 +6377,7 @@
   },
   "Käse, Eier & Molkerei/Molkereiprodukte & Alternativen/Molke- & Joghurtdrinks/": {
     "active": true,
-    "code": "alles / Gekühltes / Eier & Molkereiprodukte",
+    "code": "Alles / Gekühltes / Molkereiprodukte",
     "facetFilterQuery": "category=K%C3%A4se,%20Eier%20%26%20Molkerei/Molkereiprodukte%20%26%20Alternativen/Molke-%20%26%20Joghurtdrinks",
     "id": "Käse, Eier & Molkerei/Molkereiprodukte & Alternativen/Molke- & Joghurtdrinks/",
     "name": "Molke- & Joghurtdrinks",
@@ -6385,7 +6385,7 @@
   },
   "Käse, Eier & Molkerei/Molkereiprodukte & Alternativen/Molke- & Joghurtdrinks/Buttermilch & Dickmilch/": {
     "active": true,
-    "code": "alles / Gekühltes / Eier & Molkereiprodukte",
+    "code": "Alles / Gekühltes / Molkereiprodukte",
     "facetFilterQuery": "category=K%C3%A4se,%20Eier%20%26%20Molkerei/Molkereiprodukte%20%26%20Alternativen/Molke-%20%26%20Joghurtdrinks/Buttermilch%20%26%20Dickmilch",
     "id": "Käse, Eier & Molkerei/Molkereiprodukte & Alternativen/Molke- & Joghurtdrinks/Buttermilch & Dickmilch/",
     "name": "Buttermilch & Dickmilch",
@@ -6393,7 +6393,7 @@
   },
   "Käse, Eier & Molkerei/Molkereiprodukte & Alternativen/Molke- & Joghurtdrinks/Kefir & Molke/": {
     "active": true,
-    "code": "alles / Gekühltes / Eier & Molkereiprodukte",
+    "code": "Alles / Gekühltes / Molkereiprodukte",
     "facetFilterQuery": "category=K%C3%A4se,%20Eier%20%26%20Molkerei/Molkereiprodukte%20%26%20Alternativen/Molke-%20%26%20Joghurtdrinks/Kefir%20%26%20Molke",
     "id": "Käse, Eier & Molkerei/Molkereiprodukte & Alternativen/Molke- & Joghurtdrinks/Kefir & Molke/",
     "name": "Kefir & Molke",
@@ -6401,7 +6401,7 @@
   },
   "Käse, Eier & Molkerei/Molkereiprodukte & Alternativen/Molke- & Joghurtdrinks/Trinkjoghurt/": {
     "active": true,
-    "code": "alles / Gekühltes / Eier & Molkereiprodukte",
+    "code": "Alles / Gekühltes / Molkereiprodukte",
     "facetFilterQuery": "category=K%C3%A4se,%20Eier%20%26%20Molkerei/Molkereiprodukte%20%26%20Alternativen/Molke-%20%26%20Joghurtdrinks/Trinkjoghurt",
     "id": "Käse, Eier & Molkerei/Molkereiprodukte & Alternativen/Molke- & Joghurtdrinks/Trinkjoghurt/",
     "name": "Trinkjoghurt",
@@ -6409,7 +6409,7 @@
   },
   "Käse, Eier & Molkerei/Molkereiprodukte & Alternativen/Sahne/": {
     "active": true,
-    "code": "alles / Gekühltes / Eier & Molkereiprodukte",
+    "code": "Alles / Gekühltes / Molkereiprodukte",
     "facetFilterQuery": "category=K%C3%A4se,%20Eier%20%26%20Molkerei/Molkereiprodukte%20%26%20Alternativen/Sahne",
     "id": "Käse, Eier & Molkerei/Molkereiprodukte & Alternativen/Sahne/",
     "name": "Sahne",
@@ -6417,7 +6417,7 @@
   },
   "Käse, Eier & Molkerei/Molkereiprodukte & Alternativen/Sahne/Kochsahne/": {
     "active": true,
-    "code": "alles / Gekühltes / Eier & Molkereiprodukte",
+    "code": "Alles / Gekühltes / Molkereiprodukte",
     "facetFilterQuery": "category=K%C3%A4se,%20Eier%20%26%20Molkerei/Molkereiprodukte%20%26%20Alternativen/Sahne/Kochsahne",
     "id": "Käse, Eier & Molkerei/Molkereiprodukte & Alternativen/Sahne/Kochsahne/",
     "name": "Kochsahne",
@@ -6425,7 +6425,7 @@
   },
   "Käse, Eier & Molkerei/Molkereiprodukte & Alternativen/Sahne/Schlagsahne/": {
     "active": true,
-    "code": "alles / Gekühltes / Eier & Molkereiprodukte",
+    "code": "Alles / Gekühltes / Molkereiprodukte",
     "facetFilterQuery": "category=K%C3%A4se,%20Eier%20%26%20Molkerei/Molkereiprodukte%20%26%20Alternativen/Sahne/Schlagsahne",
     "id": "Käse, Eier & Molkerei/Molkereiprodukte & Alternativen/Sahne/Schlagsahne/",
     "name": "Schlagsahne",
@@ -6433,7 +6433,7 @@
   },
   "Käse, Eier & Molkerei/Molkereiprodukte & Alternativen/Sahne/Sprühsahne/": {
     "active": true,
-    "code": "alles / Gekühltes / Eier & Molkereiprodukte",
+    "code": "Alles / Gekühltes / Molkereiprodukte",
     "facetFilterQuery": "category=K%C3%A4se,%20Eier%20%26%20Molkerei/Molkereiprodukte%20%26%20Alternativen/Sahne/Spr%C3%BChsahne",
     "id": "Käse, Eier & Molkerei/Molkereiprodukte & Alternativen/Sahne/Sprühsahne/",
     "name": "Sprühsahne",
@@ -6441,7 +6441,7 @@
   },
   "Käse, Eier & Molkerei/Molkereiprodukte & Alternativen/Sauerrahmprodukte/": {
     "active": true,
-    "code": "alles / Gekühltes / Eier & Molkereiprodukte",
+    "code": "Alles / Gekühltes / Molkereiprodukte",
     "facetFilterQuery": "category=K%C3%A4se,%20Eier%20%26%20Molkerei/Molkereiprodukte%20%26%20Alternativen/Sauerrahmprodukte",
     "id": "Käse, Eier & Molkerei/Molkereiprodukte & Alternativen/Sauerrahmprodukte/",
     "name": "Sauerrahmprodukte",
@@ -6449,7 +6449,7 @@
   },
   "Käse, Eier & Molkerei/Molkereiprodukte & Alternativen/Sauerrahmprodukte/Crème Fraîche/": {
     "active": true,
-    "code": "alles / Gekühltes / Eier & Molkereiprodukte",
+    "code": "Alles / Gekühltes / Molkereiprodukte",
     "facetFilterQuery": "category=K%C3%A4se,%20Eier%20%26%20Molkerei/Molkereiprodukte%20%26%20Alternativen/Sauerrahmprodukte/Cr%C3%A8me%20Fra%C3%AEche",
     "id": "Käse, Eier & Molkerei/Molkereiprodukte & Alternativen/Sauerrahmprodukte/Crème Fraîche/",
     "name": "Crème Fraîche",
@@ -6457,7 +6457,7 @@
   },
   "Käse, Eier & Molkerei/Molkereiprodukte & Alternativen/Sauerrahmprodukte/Saure Sahne/": {
     "active": true,
-    "code": "alles / Gekühltes / Eier & Molkereiprodukte",
+    "code": "Alles / Gekühltes / Molkereiprodukte",
     "facetFilterQuery": "category=K%C3%A4se,%20Eier%20%26%20Molkerei/Molkereiprodukte%20%26%20Alternativen/Sauerrahmprodukte/Saure%20Sahne",
     "id": "Käse, Eier & Molkerei/Molkereiprodukte & Alternativen/Sauerrahmprodukte/Saure Sahne/",
     "name": "Saure Sahne",
@@ -6465,7 +6465,7 @@
   },
   "Käse, Eier & Molkerei/Molkereiprodukte & Alternativen/Sauerrahmprodukte/Schmand/": {
     "active": true,
-    "code": "alles / Gekühltes / Eier & Molkereiprodukte",
+    "code": "Alles / Gekühltes / Molkereiprodukte",
     "facetFilterQuery": "category=K%C3%A4se,%20Eier%20%26%20Molkerei/Molkereiprodukte%20%26%20Alternativen/Sauerrahmprodukte/Schmand",
     "id": "Käse, Eier & Molkerei/Molkereiprodukte & Alternativen/Sauerrahmprodukte/Schmand/",
     "name": "Schmand",
@@ -6473,7 +6473,7 @@
   },
   "Käse, Eier & Molkerei/Molkereiprodukte & Alternativen/Speisequark/": {
     "active": true,
-    "code": "alles / Gekühltes / Eier & Molkereiprodukte",
+    "code": "Alles / Gekühltes / Molkereiprodukte",
     "facetFilterQuery": "category=K%C3%A4se,%20Eier%20%26%20Molkerei/Molkereiprodukte%20%26%20Alternativen/Speisequark",
     "id": "Käse, Eier & Molkerei/Molkereiprodukte & Alternativen/Speisequark/",
     "name": "Speisequark",
@@ -6481,7 +6481,7 @@
   },
   "Käse, Eier & Molkerei/Molkereiprodukte & Alternativen/Speisequark/Kräuterquark/": {
     "active": true,
-    "code": "alles / Gekühltes / Eier & Molkereiprodukte",
+    "code": "Alles / Gekühltes / Molkereiprodukte",
     "facetFilterQuery": "category=K%C3%A4se,%20Eier%20%26%20Molkerei/Molkereiprodukte%20%26%20Alternativen/Speisequark/Kr%C3%A4uterquark",
     "id": "Käse, Eier & Molkerei/Molkereiprodukte & Alternativen/Speisequark/Kräuterquark/",
     "name": "Kräuterquark",
@@ -6489,7 +6489,7 @@
   },
   "Käse, Eier & Molkerei/Molkereiprodukte & Alternativen/Speisequark/Naturquark/": {
     "active": true,
-    "code": "alles / Gekühltes / Eier & Molkereiprodukte",
+    "code": "Alles / Gekühltes / Molkereiprodukte",
     "facetFilterQuery": "category=K%C3%A4se,%20Eier%20%26%20Molkerei/Molkereiprodukte%20%26%20Alternativen/Speisequark/Naturquark",
     "id": "Käse, Eier & Molkerei/Molkereiprodukte & Alternativen/Speisequark/Naturquark/",
     "name": "Naturquark",
@@ -6497,7 +6497,7 @@
   },
   "Käse, Eier & Molkerei/Molkereiprodukte & Alternativen/Vegane Sahne-Alternativen/": {
     "active": true,
-    "code": "alles / Gekühltes / Eier & Molkereiprodukte",
+    "code": "Alles / Gekühltes / Molkereiprodukte",
     "facetFilterQuery": "category=K%C3%A4se,%20Eier%20%26%20Molkerei/Molkereiprodukte%20%26%20Alternativen/Vegane%20Sahne-Alternativen",
     "id": "Käse, Eier & Molkerei/Molkereiprodukte & Alternativen/Vegane Sahne-Alternativen/",
     "name": "Vegane Sahne-Alternativen",
@@ -8433,7 +8433,7 @@
   },
   "Regional/Regionale Eier, Käse- & Molkereiprodukte/": {
     "active": true,
-    "code": "Alles / Gekühltes / Eier & Molkereiprodukte",
+    "code": "Alles / Gekühltes / Molkereiprodukte",
     "facetFilterQuery": "category=Regional/Regionale%20Eier,%20K%C3%A4se-%20%26%20Molkereiprodukte",
     "id": "Regional/Regionale Eier, Käse- & Molkereiprodukte/",
     "name": "Regionale Eier, Käse- & Molkereiprodukte",
